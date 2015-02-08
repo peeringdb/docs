@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+        <title>API Specs - PeeringDB migration</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">PeeringDB migration</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href=".">API Specs</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                <li >
+                    <a rel="next" href="..">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li class="disabled">
+                    <a rel="prev" >
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTFul API Endpoints and Specifications</a></li>
+        
+            <li><a href="#note-currently-only-read-operations-are-enabled">NOTE Currently only read operations are enabled</a></li>
+        
+            <li><a href="#supported-auth-methods">Supported Auth Methods</a></li>
+        
+            <li><a href="#requests">Requests</a></li>
+        
+            <li><a href="#supported-renderers">Supported Renderers</a></li>
+        
+            <li><a href="#operations">Operations</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><A name="toc1-0" title="RESTFul API Endpoints and Specifications" /></p>
+<h1 id="restful-api-endpoints-and-specifications">RESTFul API Endpoints and Specifications</h1>
+<p><strong><a href="#toc2-5"><em>NOTE</em> Currently only read operations are enabled</a></strong></p>
+<p><strong><a href="#toc2-8">Supported Auth Methods</a></strong></p>
+<p><strong><a href="#toc2-13">Requests</a></strong></p>
+<p><strong><a href="#toc2-31">Supported Renderers</a></strong>
+&emsp;<a href="#toc3-34">JSON</a></p>
+<p><strong><a href="#toc2-55">Operations</a></strong>
+&emsp;<a href="#toc3-57">GET: multiple objects</a>
+&emsp;<a href="#toc3-78">GET: single object</a>
+&emsp;<a href="#toc3-98">POST: create new object</a>
+&emsp;<a href="#toc3-112">PUT: edit object</a>
+&emsp;<a href="#toc3-125">DELETE: delete object</a></p>
+<p><A name="toc2-5" title="*NOTE* Currently only read operations are enabled" /></p>
+<h2 id="note-currently-only-read-operations-are-enabled"><em>NOTE</em> Currently only read operations are enabled</h2>
+<p><A name="toc2-8" title="Supported Auth Methods" /></p>
+<h2 id="supported-auth-methods">Supported Auth Methods</h2>
+<ul>
+<li>Basic HTTP authorization</li>
+</ul>
+<p><A name="toc2-13" title="Requests" /></p>
+<h2 id="requests">Requests</h2>
+<p><strong>URL</strong></p>
+<p>The URL base appended with <code>/api/</code>, appened with object type and optionally object primary key</p>
+<p>Object type is case insensitive.</p>
+<p>For example:</p>
+<ul>
+<li>https://beta.peeringdb.com/api/<em>OBJ</em>/<em>id</em></li>
+</ul>
+<p>To specify the output formatting, either use the <code>Accept:</code> HTTP header</p>
+<pre><code>Accept: application/json
+</code></pre>
+<p><A name="toc2-31" title="Supported Renderers" /></p>
+<h2 id="supported-renderers">Supported Renderers</h2>
+<p><A name="toc3-34" title="JSON" /></p>
+<h3 id="json">JSON</h3>
+<p>all returns fit into object:</p>
+<pre><code>{
+meta:
+  {
+  status:
+  message:
+  }
+data:
+  [
+  {},
+  {}
+  ]
+}
+</code></pre>
+<ul>
+<li>data always array </li>
+</ul>
+<p><A name="toc2-55" title="Operations" /></p>
+<h2 id="operations">Operations</h2>
+<p><A name="toc3-57" title="GET: multiple objects" /></p>
+<h3 id="get-multiple-objects">GET: multiple objects</h3>
+<p>endpoint: GET /api/<em>OBJ</em></p>
+<p>optional url parameters:</p>
+<ul>
+<li>limit <code>int</code> limits rows in the result set</li>
+<li>skip <code>int</code> skips n rows in the result set</li>
+</ul>
+<p>returns:
+  array of objects</p>
+<p>example:
+    GET /api/ixp</p>
+<p>curl:</p>
+<pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
+</code></pre>
+<p><A name="toc3-78" title="GET: single object" /></p>
+<h3 id="get-single-object">GET: single object</h3>
+<p>enpoint: GET /api/<em>OBJ</em>/<code>id</code></p>
+<p>required url parameters:</p>
+<ol>
+<li>id <code>int</code></li>
+</ol>
+<p>returns:
+  single object in an array</p>
+<p>example:
+    GET /api/ixp/42</p>
+<p>curl:</p>
+<pre><code>curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
+</code></pre>
+<p><A name="toc3-98" title="POST: create new object" /></p>
+<h3 id="post-create-new-object">POST: create new object</h3>
+<p>endpoint: POST /api/<em>OBJ</em></p>
+<p>required url parameters:</p>
+<ul>
+<li>fields to post in either json obj "{}" or urlencoded field=value</li>
+</ul>
+<p>curl:</p>
+<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ
+</code></pre>
+<p><A name="toc3-112" title="PUT: edit object" /></p>
+<h3 id="put-edit-object">PUT: edit object</h3>
+<p>endpoint: PUT /api/<em>OBJ</em>/<id></p>
+<p>required parameters:</p>
+<ul>
+<li>fields to put in either json obj "{}" or urlencoded field=value</li>
+</ul>
+<p>curl:</p>
+<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ/42
+</code></pre>
+<p><A name="toc3-125" title="DELETE: delete object" /></p>
+<h3 id="delete-delete-object">DELETE: delete object</h3>
+<p>endpoint: DELETE /api/<em>OBJ</em>/<id></p>
+<p>required parameters:</p>
+<ul>
+<li>none</li>
+</ul>
+<p>example:</p>
+<pre><code>DELETE /api/ixp/42
+</code></pre>
+<p>curl:</p>
+<pre><code>curl -H "Accept: application/json" -X DELETE https://guest:guest@beta.peeringdb.com/api/OBJ/42
+</code></pre>
+</div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/prettify-1.0.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
+    </body>
+</html>
