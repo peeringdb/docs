@@ -7,15 +7,15 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>PeeringDB 2.0</title>
+	<title>FAQ - PeeringDB 2.0</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./extra.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">PeeringDB 2.0</a>
+            <a class="navbar-brand" href="..">PeeringDB 2.0</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -55,19 +55,19 @@
                 
                 
                     <li >
-                        <a href=".">Home</a>
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href=".">FAQ</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="faq/">FAQ</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="api_specs/">API Specs</a>
+                        <a href="../api_specs">API Specs</a>
                     </li>
                 
                 
@@ -79,13 +79,13 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 
-                <li class="disabled">
-                    <a rel="next" >
+                <li >
+                    <a rel="next" href="..">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="prev" >
+                <li >
+                    <a rel="prev" href="../api_specs">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -99,15 +99,34 @@
 
         <div class="container">
             
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#faq">FAQ</a></li>
+        
+            <li><a href="#how-do-i-query-by-asn">How do I query by ASN?</a></li>
+        
+            <li><a href="#how-do-i-get-a-login">How do I get a login?</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="faq">FAQ</h1>
+<h2 id="how-do-i-query-by-asn">How do I query by ASN?</h2>
+<blockquote>
+<p>You may type in the ASN in the search box<br />
+<code>http://as12345.b.peeringdb.com</code> (subdomain because of HSTS, will go back to normal on release)<br />
+<code>https://beta.peeringdb.com/asn/12345</code><br />
+For API<br />
+<code>https://beta.peeringdb.com/api/asn/12345</code></p>
+</blockquote>
+<h2 id="how-do-i-get-a-login">How do I get a login?</h2>
+<blockquote>
+<p>Your original login should work, if not please email support@peeringdb.com</p>
+</blockquote></div>
+            
         </div>
 
         <footer class="col-md-12">
@@ -119,9 +138,9 @@
         
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/prettify-1.0.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/prettify-1.0.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
     </body>
 </html>
