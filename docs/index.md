@@ -23,7 +23,7 @@ The next phase will be getting people switched over to the new API and making an
 
 ## Quick start
 
-If you want to poke around on your own, it's **readonly** at [https://beta.peeringdb.com/](https://beta.peeringdb.com/) with self describing API docs at [https://beta.peeringdb.com/docs/](https://beta.peeringdb.com/docs/)
+If you want to poke around on your own, it's **readonly** at [https://beta.peeringdb.com/](https://beta.peeringdb.com/) with self describing API docs at [https://beta.peeringdb.com/apidocs/](https://beta.peeringdb.com/docs/)
 
 More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 
