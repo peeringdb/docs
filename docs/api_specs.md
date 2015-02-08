@@ -1,67 +1,75 @@
-# RESTFul API Endpoints and Specifications
+# RESTful API Endpoints and Specifications
 
-.toc 2
-
-## *NOTE* Currently only read operations are enabled
-
-## Supported Auth Methods
-
-- Basic HTTP authorization
+!!! Warning
+    Currently only **read** operations are enabled
 
 ## Requests
 
-**URL**
+#### URL
 
-The URL base appended with `/api/`, appened with object type and optionally object primary key
+:   The URL base appended with `/api/`, appened with object type and optionally object primary key
 
-Object type is case insensitive.
+    Object type is not case sensitive.
 
-For example:
+    For example:
 
-- https://beta.peeringdb.com/api/*OBJ*/*id*
+    - https://beta.peeringdb.com/api/`OBJ`/`id`
 
 
-To specify the output formatting, either use the `Accept:` HTTP header
+#### Encoding
 
-    Accept: application/json
+:   To specify the output format, either use the `Accept:` HTTP header
 
-## Supported Renderers
+        Accept: application/json
 
-### JSON
+    Or use extension `type`
 
-all returns fit into object:
+        https://beta.peeringdb.com/api/network/42.json
 
-    {
-    meta:
-      {
-      status:
-      message:
-      }
-    data:
-      [
-      {},
-      {}
-      ]
-    }
+JSON
 
-- data always array 
+:   all returns fit into object:
 
+        {
+        meta:
+          {
+          status:
+          message:
+          }
+        data:
+          [
+          {},
+          {}
+          ]
+        }
+
+    - meta are optional
+    - data always array 
+
+    !!! Note
+        Please let us know what serializers you'd like to see
+
+#### Authentication
+
+- Basic HTTP authorization
 
 ## Operations
 ### GET: multiple objects
 
-endpoint: GET /api/*OBJ*
+endpoint: GET /api/`OBJ`
 
-optional url parameters:
+optional url parameters
+:   
 
-- limit `int` limits rows in the result set
-- skip `int` skips n rows in the result set
+    - limit `int` limits rows in the result set
+    - skip `int` skips n rows in the result set
 
-returns:
-  array of objects
+returns
+:   array of objects
 
-example:
-    GET /api/ixp
+HTTP:
+
+    GET /api/OBJ
 
 curl:
 
@@ -70,17 +78,19 @@ curl:
 
 ### GET: single object
 
-enpoint: GET /api/*OBJ*/`id`
+endpoint: GET /api/`OBJ`/`id`
 
-required url parameters:
+required url parameters
+:   
 
   1. id `int`
 
-returns:
-  single object in an array
+returns
+:   single object in an array
 
-example:
-    GET /api/ixp/42
+HTTP:
+
+    GET /api/OBJ/42
 
 curl:
 
@@ -89,11 +99,13 @@ curl:
 
 ### POST: create new object
 
-endpoint: POST /api/*OBJ*
+endpoint: POST /api/`OBJ`
 
-required url parameters:
+required url parameters
+:    
 
-  - fields to post in either json obj "{}" or urlencoded field=value
+    - id `int`
+    - fields to post in either json obj "{}" or urlencoded field=value
 
 curl:
 
@@ -102,11 +114,17 @@ curl:
 
 ### PUT: edit object
 
-endpoint: PUT /api/*OBJ*/<id>
+endpoint: PUT /api/`OBJ`/`id`
 
-required parameters:
+required url parameters
+:    
 
-  - fields to put in either json obj "{}" or urlencoded field=value
+    - id `int`
+    - fields to post in either json obj "{}" or urlencoded field=value
+
+HTTP:
+
+    PUT /api/OBJ/42
 
 curl:
 
@@ -114,17 +132,19 @@ curl:
 
 ### DELETE: delete object
 
-endpoint: DELETE /api/*OBJ*/<id>
+endpoint: DELETE /api/`OBJ`/`id`
 
-required parameters:
+required url parameters
+:    
 
-  - none
+    - id `int`
 
-example:
+HTTP:
 
-    DELETE /api/ixp/42
+    DELETE /api/OBJ/42
 
 curl:
 
     curl -H "Accept: application/json" -X DELETE https://guest:guest@beta.peeringdb.com/api/OBJ/42
+
 

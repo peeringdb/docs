@@ -1,0 +1,8 @@
+site_name: PeeringDB 2.0
+
+pages:
+- [index.md, Home]
+- [api_specs.md, API Specs]
+
+markdown_extensions: [abbr,def_list,footnotes,tables,admonition,nl2br,toc]
+
