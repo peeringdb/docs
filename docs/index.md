@@ -23,18 +23,18 @@ The next phase will be getting people switched over to the new API and making an
 
 ## Quick start
 
-If you want to poke around on your own, it's **readonly** at [https://beta.peeringdb.com/](https://beta.peeringdb.com/) with self describing API docs at [https://beta.peeringdb.com/apidocs/](https://beta.peeringdb.com/docs/)
+If you want to poke around on your own, it's **readonly** at <https://beta.peeringdb.com/> with self describing API docs at <https://beta.peeringdb.com/apidocs/>
 
 More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 
 For example:
-[https://beta.peeringdb.com/net/1](https://beta.peeringdb.com/net/1)
+<https://beta.peeringdb.com/net/1>
 becomes
-[https://beta.peeringdb.com/api/net/1](https://beta.peeringdb.com/api/net/1)
+<https://beta.peeringdb.com/api/net/1>
 
 List all via API by taking the `id` off:
 
-[https://beta.peeringdb.com/api/net](https://beta.peeringdb.com/api/net)
+<https://beta.peeringdb.com/api/net>
 
 ## Mailing list
 
