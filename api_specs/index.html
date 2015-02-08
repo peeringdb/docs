@@ -9,12 +9,13 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <title>API Specs - PeeringDB migration</title>
+        <title>API Specs - PeeringDB 2.0</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +44,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="..">PeeringDB migration</a>
+            <a class="navbar-brand" href="..">PeeringDB 2.0</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -89,15 +90,9 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTFul API Endpoints and Specifications</a></li>
-        
-            <li><a href="#note-currently-only-read-operations-are-enabled">NOTE Currently only read operations are enabled</a></li>
-        
-            <li><a href="#supported-auth-methods">Supported Auth Methods</a></li>
+        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</a></li>
         
             <li><a href="#requests">Requests</a></li>
-        
-            <li><a href="#supported-renderers">Supported Renderers</a></li>
         
             <li><a href="#operations">Operations</a></li>
         
@@ -106,42 +101,35 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><A name="toc1-0" title="RESTFul API Endpoints and Specifications" /></p>
-<h1 id="restful-api-endpoints-and-specifications">RESTFul API Endpoints and Specifications</h1>
-<p><strong><a href="#toc2-5"><em>NOTE</em> Currently only read operations are enabled</a></strong></p>
-<p><strong><a href="#toc2-8">Supported Auth Methods</a></strong></p>
-<p><strong><a href="#toc2-13">Requests</a></strong></p>
-<p><strong><a href="#toc2-31">Supported Renderers</a></strong>
-&emsp;<a href="#toc3-34">JSON</a></p>
-<p><strong><a href="#toc2-55">Operations</a></strong>
-&emsp;<a href="#toc3-57">GET: multiple objects</a>
-&emsp;<a href="#toc3-78">GET: single object</a>
-&emsp;<a href="#toc3-98">POST: create new object</a>
-&emsp;<a href="#toc3-112">PUT: edit object</a>
-&emsp;<a href="#toc3-125">DELETE: delete object</a></p>
-<p><A name="toc2-5" title="*NOTE* Currently only read operations are enabled" /></p>
-<h2 id="note-currently-only-read-operations-are-enabled"><em>NOTE</em> Currently only read operations are enabled</h2>
-<p><A name="toc2-8" title="Supported Auth Methods" /></p>
-<h2 id="supported-auth-methods">Supported Auth Methods</h2>
-<ul>
-<li>Basic HTTP authorization</li>
-</ul>
-<p><A name="toc2-13" title="Requests" /></p>
+<h1 id="restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Currently only <strong>read</strong> operations are enabled</p>
+</div>
 <h2 id="requests">Requests</h2>
-<p><strong>URL</strong></p>
-<p>The URL base appended with <code>/api/</code>, appened with object type and optionally object primary key</p>
-<p>Object type is case insensitive.</p>
+<h4 id="url">URL</h4>
+<dl>
+<dd>
+<p>The URL base appended with <code>/api/</code>, append with object type and optionally object primary key</p>
+<p>Object type is not case sensitive.</p>
 <p>For example:</p>
 <ul>
-<li>https://beta.peeringdb.com/api/<em>OBJ</em>/<em>id</em></li>
+<li>https://beta.peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
 </ul>
-<p>To specify the output formatting, either use the <code>Accept:</code> HTTP header</p>
+</dd>
+</dl>
+<h4 id="encoding">Encoding</h4>
+<dl>
+<dd>
+<p>To specify the output format, either use the <code>Accept:</code> HTTP header</p>
 <pre><code>Accept: application/json
 </code></pre>
-<p><A name="toc2-31" title="Supported Renderers" /></p>
-<h2 id="supported-renderers">Supported Renderers</h2>
-<p><A name="toc3-34" title="JSON" /></p>
-<h3 id="json">JSON</h3>
+<p>Or use extension <code>type</code></p>
+<pre><code>https://beta.peeringdb.com/api/network/42.json
+</code></pre>
+</dd>
+<dt>JSON</dt>
+<dd>
 <p>all returns fit into object:</p>
 <pre><code>{
 meta:
@@ -157,68 +145,101 @@ data:
 }
 </code></pre>
 <ul>
+<li>meta are optional</li>
 <li>data always array </li>
 </ul>
-<p><A name="toc2-55" title="Operations" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please let us know what serializers you'd like to see</p>
+</div>
+</dd>
+</dl>
+<h4 id="authentication">Authentication</h4>
+<ul>
+<li>Basic HTTP authorization</li>
+</ul>
 <h2 id="operations">Operations</h2>
-<p><A name="toc3-57" title="GET: multiple objects" /></p>
 <h3 id="get-multiple-objects">GET: multiple objects</h3>
-<p>endpoint: GET /api/<em>OBJ</em></p>
-<p>optional url parameters:</p>
+<p>endpoint: GET /api/<code>OBJ</code></p>
+<dl>
+<dt>optional URL parameters</dt>
+<dd>
 <ul>
 <li>limit <code>int</code> limits rows in the result set</li>
 <li>skip <code>int</code> skips n rows in the result set</li>
 </ul>
-<p>returns:
-  array of objects</p>
-<p>example:
-    GET /api/ixp</p>
+</dd>
+<dt>returns</dt>
+<dd>array of objects</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>GET /api/OBJ
+</code></pre>
 <p>curl:</p>
 <pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
 </code></pre>
-<p><A name="toc3-78" title="GET: single object" /></p>
 <h3 id="get-single-object">GET: single object</h3>
-<p>enpoint: GET /api/<em>OBJ</em>/<code>id</code></p>
-<p>required url parameters:</p>
+<p>endpoint: GET /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd></dd>
+</dl>
 <ol>
 <li>id <code>int</code></li>
 </ol>
-<p>returns:
-  single object in an array</p>
-<p>example:
-    GET /api/ixp/42</p>
+<dl>
+<dt>returns</dt>
+<dd>single object in an array</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>GET /api/OBJ/42
+</code></pre>
 <p>curl:</p>
 <pre><code>curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
 </code></pre>
-<p><A name="toc3-98" title="POST: create new object" /></p>
 <h3 id="post-create-new-object">POST: create new object</h3>
-<p>endpoint: POST /api/<em>OBJ</em></p>
-<p>required url parameters:</p>
+<p>endpoint: POST /api/<code>OBJ</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
 <ul>
-<li>fields to post in either json obj "{}" or urlencoded field=value</li>
+<li>id <code>int</code></li>
+<li>fields to post in either JSON obj "{}" or urlencoded field=value</li>
 </ul>
+</dd>
+</dl>
 <p>curl:</p>
 <pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ
 </code></pre>
-<p><A name="toc3-112" title="PUT: edit object" /></p>
 <h3 id="put-edit-object">PUT: edit object</h3>
-<p>endpoint: PUT /api/<em>OBJ</em>/<id></p>
-<p>required parameters:</p>
+<p>endpoint: PUT /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
 <ul>
-<li>fields to put in either json obj "{}" or urlencoded field=value</li>
+<li>id <code>int</code></li>
+<li>fields to post in either JSON obj "{}" or urlencoded field=value</li>
 </ul>
+</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>PUT /api/OBJ/42
+</code></pre>
 <p>curl:</p>
 <pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ/42
 </code></pre>
-<p><A name="toc3-125" title="DELETE: delete object" /></p>
 <h3 id="delete-delete-object">DELETE: delete object</h3>
-<p>endpoint: DELETE /api/<em>OBJ</em>/<id></p>
-<p>required parameters:</p>
+<p>endpoint: DELETE /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
 <ul>
-<li>none</li>
+<li>id <code>int</code></li>
 </ul>
-<p>example:</p>
-<pre><code>DELETE /api/ixp/42
+</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>DELETE /api/OBJ/42
 </code></pre>
 <p>curl:</p>
 <pre><code>curl -H "Accept: application/json" -X DELETE https://guest:guest@beta.peeringdb.com/api/OBJ/42
