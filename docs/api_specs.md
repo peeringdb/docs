@@ -1,32 +1,13 @@
-<A name="toc1-0" title="RESTFul API Endpoints and Specifications" />
 # RESTFul API Endpoints and Specifications
 
+.toc 2
 
-**<a href="#toc2-5">*NOTE* Currently only read operations are enabled</a>**
-
-**<a href="#toc2-8">Supported Auth Methods</a>**
-
-**<a href="#toc2-13">Requests</a>**
-
-**<a href="#toc2-31">Supported Renderers</a>**
-&emsp;<a href="#toc3-34">JSON</a>
-
-**<a href="#toc2-55">Operations</a>**
-&emsp;<a href="#toc3-57">GET: multiple objects</a>
-&emsp;<a href="#toc3-78">GET: single object</a>
-&emsp;<a href="#toc3-98">POST: create new object</a>
-&emsp;<a href="#toc3-112">PUT: edit object</a>
-&emsp;<a href="#toc3-125">DELETE: delete object</a>
-
-<A name="toc2-5" title="*NOTE* Currently only read operations are enabled" />
 ## *NOTE* Currently only read operations are enabled
 
-<A name="toc2-8" title="Supported Auth Methods" />
 ## Supported Auth Methods
 
 - Basic HTTP authorization
 
-<A name="toc2-13" title="Requests" />
 ## Requests
 
 **URL**
@@ -44,10 +25,8 @@ To specify the output formatting, either use the `Accept:` HTTP header
 
     Accept: application/json
 
-<A name="toc2-31" title="Supported Renderers" />
 ## Supported Renderers
 
-<A name="toc3-34" title="JSON" />
 ### JSON
 
 all returns fit into object:
@@ -68,9 +47,7 @@ all returns fit into object:
 - data always array 
 
 
-<A name="toc2-55" title="Operations" />
 ## Operations
-<A name="toc3-57" title="GET: multiple objects" />
 ### GET: multiple objects
 
 endpoint: GET /api/*OBJ*
@@ -91,7 +68,6 @@ curl:
     curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
 
 
-<A name="toc3-78" title="GET: single object" />
 ### GET: single object
 
 enpoint: GET /api/*OBJ*/`id`
@@ -111,7 +87,6 @@ curl:
     curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
 
 
-<A name="toc3-98" title="POST: create new object" />
 ### POST: create new object
 
 endpoint: POST /api/*OBJ*
@@ -125,7 +100,6 @@ curl:
     curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ
 
 
-<A name="toc3-112" title="PUT: edit object" />
 ### PUT: edit object
 
 endpoint: PUT /api/*OBJ*/<id>
@@ -138,7 +112,6 @@ curl:
 
     curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ/42
 
-<A name="toc3-125" title="DELETE: delete object" />
 ### DELETE: delete object
 
 endpoint: DELETE /api/*OBJ*/<id>
