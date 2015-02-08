@@ -7,7 +7,7 @@
 
 #### URL
 
-:   The URL base appended with `/api/`, appened with object type and optionally object primary key
+:   The URL base appended with `/api/`, append with object type and optionally object primary key
 
     Object type is not case sensitive.
 
@@ -58,7 +58,7 @@ JSON
 
 endpoint: GET /api/`OBJ`
 
-optional url parameters
+optional URL parameters
 :   
 
     - limit `int` limits rows in the result set
@@ -80,7 +80,7 @@ curl:
 
 endpoint: GET /api/`OBJ`/`id`
 
-required url parameters
+required URL parameters
 :   
 
   1. id `int`
@@ -101,11 +101,11 @@ curl:
 
 endpoint: POST /api/`OBJ`
 
-required url parameters
+required URL parameters
 :    
 
     - id `int`
-    - fields to post in either json obj "{}" or urlencoded field=value
+    - fields to post in either JSON obj "{}" or urlencoded field=value
 
 curl:
 
@@ -116,11 +116,11 @@ curl:
 
 endpoint: PUT /api/`OBJ`/`id`
 
-required url parameters
+required URL parameters
 :    
 
     - id `int`
-    - fields to post in either json obj "{}" or urlencoded field=value
+    - fields to post in either JSON obj "{}" or urlencoded field=value
 
 HTTP:
 
@@ -134,7 +134,7 @@ curl:
 
 endpoint: DELETE /api/`OBJ`/`id`
 
-required url parameters
+required URL parameters
 :    
 
     - id `int`

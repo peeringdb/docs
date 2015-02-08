@@ -9,7 +9,7 @@ This stage is an introduction to the new RESTful API and RFC on the new schema a
 !!! danger "Attention"
     The MySQL interface **WILL** be going away
 
-We do not have a specific timeframe for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.
+We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.
 
 ### Timeline
 The next phase will be getting people switched over to the new API and making any changes deemed necessary. Once we've accomplished that, we intend on having the write interface ready to go and can make the switch.
@@ -25,7 +25,7 @@ The next phase will be getting people switched over to the new API and making an
 
 If you want to poke around on your own, it's **readonly** at [https://beta.peeringdb.com/](https://beta.peeringdb.com/) with self describing API docs at [https://beta.peeringdb.com/docs/](https://beta.peeringdb.com/docs/)
 
-More thorough docs are at [Api Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in json.
+More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 
 For example:
 [https://beta.peeringdb.com/net/1](https://beta.peeringdb.com/net/1)
