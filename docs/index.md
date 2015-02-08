@@ -36,6 +36,9 @@ List all via API by taking the `id` off:
 
 [https://beta.peeringdb.com/api/net](https://beta.peeringdb.com/api/net)
 
+## Mailing list
+
+There has been a mailing list created for PeeringDB users, which is where all future API and schema change discussions will take please.  You may subscribe by sending an email to user-discuss+subscribe@peeringdb.com if interested.
 
 ## How you can help
 
