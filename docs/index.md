@@ -51,7 +51,10 @@ There has been a mailing list created for PeeringDB users, which is where all fu
 
 Strictly speaking we're really only looking for API bugs and missing or incorrect data right now. The web front end is crude and unpolished and mainly there to view the information without using the API. That said, any reports will be helpful when we get to that (which will be next).
 
-You may view and report issues at [GitHub](https://github.com/peeringdb/1to2/issues)
+You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/1to2/issues)
+
+If you find incorrect data in version 1 (at www.peeringdb.com), please just email
+support@peeringdb.com with what should be corrected.
 
 Questions, comments and everything else should go to support@peeringdb.com
 
