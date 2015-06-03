@@ -38,7 +38,7 @@ List all via API by taking the `id` off:
 
 ## Mailing list
 
-There has been a mailing list created for PeeringDB users, which is where all future API and schema change discussions will take please.  You may subscribe by sending an email to user-discuss+subscribe@peeringdb.com if interested.
+There has been a mailing list created for PeeringDB users, which is where all future API and schema change discussions will take please.  You may subscribe at <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/user-discuss>.
 
 ## How you can help
 
