@@ -36,9 +36,26 @@ List all via API by taking the `id` off:
 
 <https://beta.peeringdb.com/api/net>
 
-## Mailing list
+## Mailing lists
 
-There has been a mailing list created for PeeringDB users, which is where all future API and schema change discussions will take please.  You may subscribe at <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/user-discuss>.
+We have changed the way in which PeeringDB will be announcing future enhancements, changes, maintenance windows, and other information. If you would like to be notified of certain events, or participate in certain discussions, please subscribe to one of the following email lists:
+
+* [PeeringDB Announce](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce)
+    All PeeringDB administrative information, such as upgrades,
+    maintenances, outages, etc.
+
+* [PeeringDB Governance](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov)
+    Discussion list for PeeringDB governance issues This is a
+    community-based effort, the community’s input will help guide the
+    future of the PeeringDB (as it has always done).
+
+* [PeeringDB Technical](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech)
+    Discussion of the back end of PeeringDB & other technical topics
+
+* [PeeringDB User-Discuss](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/user-discuss)
+    All other list traffic.
+
+Our goal is to give you all the information you want, and no more.  Please subscribe to any of these lists you feel are appropriate, or none. You will still be able to use the database even if you are not subscribed to any lists.
 
 ## How you can help
 
