@@ -63,6 +63,7 @@ optional URL parameters
 
     - limit `int` limits rows in the result set
     - skip `int` skips n rows in the result set
+    - [field_name] `int|string` queries for fields with matching value
 
 returns
 :   array of objects
@@ -75,6 +76,29 @@ curl:
 
     curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
 
+#### Querying examples
+
+exact:
+
+    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name=something
+
+modifier:
+
+    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name__contains=something
+
+#### Querying modifiers
+
+numeric fields:
+    
+- \_\_lt, less than
+- \_\_lte, less than eqal
+- \_\_gt, greater than
+- \_\_gte, greater than equal
+
+string fields:
+
+- \_\_contains, field value contains this value
+- \_\_startswith, field value starts with this value
 
 ### GET: single object
 
