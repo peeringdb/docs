@@ -63,6 +63,7 @@ optional URL parameters
 
     - limit `int` limits rows in the result set
     - skip `int` skips n rows in the result set
+    - deep `flag` nested sets will be loaded (slow)
     - [field_name] `int|string` queries for fields with matching value
 
 returns
