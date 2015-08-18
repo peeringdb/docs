@@ -92,7 +92,7 @@ modifier:
 numeric fields:
     
 - \_\_lt, less than
-- \_\_lte, less than eqal
+- \_\_lte, less than equal
 - \_\_gt, greater than
 - \_\_gte, greater than equal
 
