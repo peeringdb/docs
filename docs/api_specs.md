@@ -60,7 +60,8 @@ optional URL parameters
 
     - limit `int` limits rows in the result set
     - skip `int` skips n rows in the result set
-    - depth `flag` nested sets will be loaded (slow)
+    - depth `int` nested sets will be loaded (slow)
+    - fields `str` comma separated list of field names - only matching fields will be returned in the data
     - [field_name] `int|string` queries for fields with matching value
 
 returns
@@ -74,6 +75,12 @@ curl:
 
     curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
 
+#### Depth
+
+- 0: dont expand anything (default)
+- 1: expand all first level sets to ids
+- 2: expand all first level sets to objects
+ 
 #### Querying examples
 
 exact:
@@ -107,6 +114,12 @@ required URL parameters
 
   1. id `int`
 
+optional URL parameters
+:    
+
+  1. depth `int` nested sets and objects will be expanded 
+  2. fields `str` comma separated list of field names - only matching fields will be returned in the data
+
 returns
 :   single object in an array
 
@@ -118,6 +131,10 @@ curl:
 
     curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
 
+#### Depth
+     
+- 0: dont expand anything (default)
+- 1 to 4: expand all sets and related objects according to level of depth specified
 
 ### POST: create new object
 
