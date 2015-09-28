@@ -75,11 +75,27 @@ curl:
 
     curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
 
-#### Depth
+#### Nested data
+
+Any field ending in the suffix **_set** is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
+
+The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API
+
+    <object_type>_set
+
+So a set called 'net_set' will hold Network objects (api endpoint /net)
+
+Note: unlike GET single, 'depth' here will **ONLY** expand sets, no single relationships will be expanded - this is by design
+
+##### Depth
 
 - 0: dont expand anything (default)
 - 1: expand all first level sets to ids
 - 2: expand all first level sets to objects
+
+curl:
+
+    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?depth=2
  
 #### Querying examples
 
@@ -131,8 +147,38 @@ curl:
 
     curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
 
-#### Depth
-     
+#### Nested data
+
+Any field ending in the suffix **_set** is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
+
+The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API
+
+    <object_type>_set
+
+So a set called 'net_set' will hold Network objects (api endpoint /net)
+
+Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.
+
+unexpanded:
+
+    { 
+      ...
+      "net_id" : 1
+    }
+
+expanded:
+    
+    {
+      ...
+      "net_id" : 1
+      "net" : {
+         ... network object ...
+      }
+    }
+
+
+##### Depth
+
 - 0: dont expand anything (default)
 - 1 to 4: expand all sets and related objects according to level of depth specified
 
