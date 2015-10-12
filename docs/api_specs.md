@@ -115,11 +115,13 @@ numeric fields:
 - \_\_lte, less than equal
 - \_\_gt, greater than
 - \_\_gte, greater than equal
+_ \_\_in, value inside set of values (comma separated)
 
 string fields:
 
 - \_\_contains, field value contains this value
 - \_\_startswith, field value starts with this value
+_ \_\_in, value inside set of values (comma separated)
 
 ### GET: single object
 
