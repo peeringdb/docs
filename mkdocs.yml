@@ -2,6 +2,7 @@ site_name: PeeringDB 2.0
 
 pages:
 - [index.md, Home]
+- [gov.md, Governance]
 - [faq.md, FAQ]
 - [api_specs.md, API Specs]
 
