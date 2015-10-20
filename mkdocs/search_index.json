@@ -37,7 +37,7 @@
         }, 
         {
             "location": "/gov/", 
-            "text": "PeeringDB Governance\n\n\nQualifications for Membership\n\n\nA corporation, limited liability company, partnership or other legal business entity may be a Member of the Corporation. Membership is determined by having both an active PeeringDB.com account and an individual representative or role subscription to the \nPeeringDB Governance mailing list\n\n\nInitial Board\n\n\nIf someone represents an org matching the Member definition, they are eligible. 300-word max candidate statement will be included in the ballot. Text ballot sorted alphabetically by last name, will be emailed to pdb-gov list on November 1st.\n\n\nLegal / Documents\n\n\nPlease see the full set of DRAFT \ndocuments\n for more information.", 
+            "text": "PeeringDB Governance\n\n\nQualifications for Membership\n\n\nA corporation, limited liability company, partnership or other legal business entity may be a Member of the Corporation. Membership is determined by having both an active PeeringDB.com account and an individual representative or role subscription to the \nPeeringDB Governance mailing list\n\n\nInitial Board\n\n\nAnyone can run for election to the initial Board. 300-word max candidate statement will be included in the ballot. Text ballot sorted alphabetically by last name, will be emailed to pdb-gov list on November 15th, with voting to happen from November 15th through 30th.\n\n\nLegal / Documents\n\n\nPlease see the full set of DRAFT \ndocuments\n for more information.", 
             "title": "Governance"
         }, 
         {
@@ -52,7 +52,7 @@
         }, 
         {
             "location": "/gov/#initial-board", 
-            "text": "If someone represents an org matching the Member definition, they are eligible. 300-word max candidate statement will be included in the ballot. Text ballot sorted alphabetically by last name, will be emailed to pdb-gov list on November 1st.", 
+            "text": "Anyone can run for election to the initial Board. 300-word max candidate statement will be included in the ballot. Text ballot sorted alphabetically by last name, will be emailed to pdb-gov list on November 15th, with voting to happen from November 15th through 30th.", 
             "title": "Initial Board"
         }, 
         {
