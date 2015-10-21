@@ -66,7 +66,14 @@ Our goal is to give you all the information you want, and no more.  Please subsc
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<p>
 <div class="fb-like" data-href="https://www.facebook.com/peeringdb" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</p>
+
+<p>
+<a href="https://twitter.com/PeeringDB" class="twitter-follow-button" data-show-count="false">Follow @PeeringDB</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
 
 ## How you can help
 
