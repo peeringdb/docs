@@ -1,10 +1,11 @@
 site_name: PeeringDB 2.0
+site_url: http://docs.peeringdb.com
 
 pages:
-- [index.md, Home]
-- [gov.md, Governance]
-- [faq.md, FAQ]
-- [api_specs.md, API Specs]
+  - Home: index.md
+  - Governance: gov.md
+  - FAQ: faq.md
+  - API Specs: api_specs.md
 
 markdown_extensions: [abbr,def_list,footnotes,tables,admonition,nl2br,toc]
 
