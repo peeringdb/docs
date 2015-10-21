@@ -12,7 +12,6 @@
 
     - https://beta.peeringdb.com/api/`OBJ`/`id`
 
-
 #### Encoding
 
 :   To specify the output format, either use the `Accept:` HTTP header
@@ -50,6 +49,8 @@ JSON
 
 - Basic HTTP authorization
 
+In order to access the api as a guest simply omit any authentication
+
 ## Operations
 ### GET: multiple objects
 
@@ -74,7 +75,7 @@ HTTP:
 
 curl:
 
-    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
+    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ
 
 #### Nested data
 
@@ -96,17 +97,17 @@ Note: unlike GET single, 'depth' here will **ONLY** expand sets, no single relat
 
 curl:
 
-    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?depth=2
+    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?depth=2
  
 #### Querying examples
 
 exact:
 
-    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name=something
+    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?name=something
 
 modifier:
 
-    curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name__contains=something
+    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?name__contains=something
 
 #### Querying modifiers
 
@@ -157,7 +158,7 @@ HTTP:
 
 curl:
 
-    curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
+    curl -H "Accept: application/json" -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
 
 #### Nested data
 
@@ -206,7 +207,7 @@ required URL parameters
 
 curl:
 
-    curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ
+    curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://<username>:<password>@beta.peeringdb.com/api/OBJ
 
 
 ### PUT: edit object
@@ -225,7 +226,7 @@ HTTP:
 
 curl:
 
-    curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ/42
+    curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
 
 ### DELETE: delete object
 
@@ -242,6 +243,6 @@ HTTP:
 
 curl:
 
-    curl -H "Accept: application/json" -X DELETE https://guest:guest@beta.peeringdb.com/api/OBJ/42
+    curl -H "Accept: application/json" -X DELETE https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
 
 
