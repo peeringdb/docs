@@ -13,3 +13,13 @@
 
 > Your original login should work, if not please email support@peeringdb.com
 
+## Authenticating via embedded user/pass in the URL
+
+Support for this depends on the client and some browsers have stopped supporting embedded
+authentication in the URL
+
+So for example 
+
+    https://<username>:<password>@beta.peeringdb.com/api/net/1 
+    
+may work or it may not depending on the browser you are using.
