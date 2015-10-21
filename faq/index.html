@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="http://docs.peeringdb.com/faq/">
         <link rel="shortcut icon" href="../img/favicon.ico">
 
 	<title>FAQ - PeeringDB 2.0</title>
@@ -115,6 +115,8 @@
         
             <li><a href="#how-do-i-get-a-login">How do I get a login?</a></li>
         
+            <li><a href="#authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</a></li>
+        
     
     </ul>
 </div></div>
@@ -132,7 +134,14 @@ For API<br />
 <h2 id="how-do-i-get-a-login">How do I get a login?</h2>
 <blockquote>
 <p>Your original login should work, if not please email support@peeringdb.com</p>
-</blockquote></div>
+</blockquote>
+<h2 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h2>
+<p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
+authentication in the URL</p>
+<p>So for example </p>
+<pre><code>https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/net/1
+</code></pre>
+<p>may work or it may not depending on the browser you are using.</p></div>
             
         </div>
 

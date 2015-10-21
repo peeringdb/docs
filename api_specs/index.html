@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="http://docs.peeringdb.com/api_specs/">
         <link rel="shortcut icon" href="../img/favicon.ico">
 
 	<title>API Specs - PeeringDB 2.0</title>
@@ -173,6 +173,7 @@ data:
 <ul>
 <li>Basic HTTP authorization</li>
 </ul>
+<p>In order to access the api as a guest simply omit any authentication</p>
 <h2 id="operations">Operations</h2>
 <h3 id="get-multiple-objects">GET: multiple objects</h3>
 <p>endpoint: GET /api/<code>OBJ</code></p>
@@ -184,6 +185,7 @@ data:
 <li>skip <code>int</code> skips n rows in the result set</li>
 <li>depth <code>int</code> nested sets will be loaded (slow)</li>
 <li>fields <code>str</code> comma separated list of field names - only matching fields will be returned in the data</li>
+<li>since <code>int</code> retrieve all objects updated since specified time (unix timestamp, seconds)</li>
 <li>[field_name] <code>int|string</code> queries for fields with matching value</li>
 </ul>
 </dd>
@@ -194,7 +196,7 @@ data:
 <pre><code>GET /api/OBJ
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ
 </code></pre>
 <h4 id="nested-data">Nested data</h4>
 <p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
@@ -210,14 +212,14 @@ data:
 <li>2: expand all first level sets to objects</li>
 </ul>
 <p>curl:</p>
-<pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?depth=2
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?depth=2
 </code></pre>
 <h4 id="querying-examples">Querying examples</h4>
 <p>exact:</p>
-<pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name=something
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?name=something
 </code></pre>
 <p>modifier:</p>
-<pre><code>curl -X GET https://guest:guest@beta.peeringdb.com/api/OBJ?name__contains=something
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?name__contains=something
 </code></pre>
 <h4 id="querying-modifiers">Querying modifiers</h4>
 <p>numeric fields:</p>
@@ -234,6 +236,12 @@ data:
 <li>__startswith, field value starts with this value</li>
 <li>__in, value inside set of values (comma separated)</li>
 </ul>
+<h4 id="since">Since</h4>
+<p>You can use the since argument with a unix timestamp (seconds) to retrieve all<br />
+objects updated since then. Note that this result will contain objects that were<br />
+deleted in that timeframe as well - you can spot them by checking for status "deleted"</p>
+<pre><code>?since=1443414678
+</code></pre>
 <h3 id="get-single-object">GET: single object</h3>
 <p>endpoint: GET /api/<code>OBJ</code>/<code>id</code></p>
 <dl>
@@ -259,7 +267,7 @@ data:
 <pre><code>GET /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -H "Accept: application/json" -X GET https://guest:guest@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
 </code></pre>
 <h4 id="nested-data_1">Nested data</h4>
 <p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
@@ -300,7 +308,7 @@ data:
 </dd>
 </dl>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ
+<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ
 </code></pre>
 <h3 id="put-edit-object">PUT: edit object</h3>
 <p>endpoint: PUT /api/<code>OBJ</code>/<code>id</code></p>
@@ -317,7 +325,7 @@ data:
 <pre><code>PUT /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://guest:guest@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
 </code></pre>
 <h3 id="delete-delete-object">DELETE: delete object</h3>
 <p>endpoint: DELETE /api/<code>OBJ</code>/<code>id</code></p>
@@ -333,7 +341,7 @@ data:
 <pre><code>DELETE /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -H "Accept: application/json" -X DELETE https://guest:guest@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
 </code></pre></div>
             
         </div>
