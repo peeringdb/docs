@@ -62,6 +62,7 @@ optional URL parameters
     - skip `int` skips n rows in the result set
     - depth `int` nested sets will be loaded (slow)
     - fields `str` comma separated list of field names - only matching fields will be returned in the data
+    - since `int` retrieve all objects updated since specified time (unix timestamp, seconds)
     - [field_name] `int|string` queries for fields with matching value
 
 returns
@@ -122,6 +123,15 @@ string fields:
 - \_\_contains, field value contains this value
 - \_\_startswith, field value starts with this value
 - \_\_in, value inside set of values (comma separated)
+
+#### Since
+
+You can use the since argument with a unix timestamp (seconds) to retrieve all
+objects updated since then. Note that this result will contain objects that were
+deleted in that timeframe as well - you can spot them by checking for status "deleted"
+
+    ?since=1443414678
+
 
 ### GET: single object
 
