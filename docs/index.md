@@ -75,6 +75,15 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </p>
 
+
+## Presentations
+
+- [PeeringDB Version 2 Introduction](presentation/PeeringDB_Version_2-Introduction.pdf) - Matt Griswold
+  Presented at
+    - 27th Euro-IX, Berlin - October 26, 2015 by Greg Hankins
+    - DENOG7, Darmstadt - October 30, 2015 by Arnold Nipper 
+
+
 ## How you can help
 
 - Check your entries and make sure everything looks correct
