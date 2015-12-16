@@ -3,7 +3,7 @@
 
 ## Board Meeting Minutes
 
-- [December 15, 2015](gov/minutes/2015-12-08_PeeringDB_Board_Minutes.pdf)
+- [December 8, 2015](gov/minutes/2015-12-08_PeeringDB_Board_Minutes.pdf)
 
 ## Call for Candidates for Board of Directors
 
