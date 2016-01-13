@@ -117,13 +117,17 @@
         
             <li><a href="#authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</a></li>
         
+            <li><a href="#why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</a></li>
+        
+            <li><a href="#how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</a></li>
+        
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="faq">FAQ</h1>
-<h2 id="how-do-i-query-by-asn">How do I query by ASN?</h2>
+<h3 id="how-do-i-query-by-asn">How do I query by ASN?</h3>
 <blockquote>
 <p>You may type in the ASN in the search box<br />
 <code>http://as12345.b.peeringdb.com</code> (subdomain because of HSTS, will go back to normal on release)<br />
@@ -131,17 +135,22 @@
 For API<br />
 <code>https://beta.peeringdb.com/api/asn/12345</code></p>
 </blockquote>
-<h2 id="how-do-i-get-a-login">How do I get a login?</h2>
+<h3 id="how-do-i-get-a-login">How do I get a login?</h3>
 <blockquote>
 <p>Your original login should work, if not please email support@peeringdb.com</p>
 </blockquote>
-<h2 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h2>
+<h3 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h3>
 <p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
 authentication in the URL</p>
 <p>So for example </p>
 <pre><code>https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/net/1
 </code></pre>
-<p>may work or it may not depending on the browser you are using.</p></div>
+<p>may work or it may not depending on the browser you are using.</p>
+<h3 id="why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</h3>
+<p>Date strings are ISO 8601 to keep a standard format. Comparison operations such as <code>__gt</code>, <code>__lt</code>, etc all still work as expected. For fetching records against updated timestamp, you may also use <code>?since=&lt;seconds since epoch&gt;</code></p>
+<h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
+<p>You may make a full local copy with <a href="https://github.com/peeringdb/peeringdb-py">https://github.com/peeringdb/peeringdb-py</a>, see docs at <a href="http://peeringdb.github.io/peeringdb-py/cli/">http://peeringdb.github.io/peeringdb-py/cli/</a></p>
+<p>Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.</p></div>
             
         </div>
 

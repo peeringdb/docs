@@ -77,28 +77,13 @@
         }, 
         {
             "location": "/faq/", 
-            "text": "FAQ\n\n\nHow do I query by ASN?\n\n\n\n\nYou may type in the ASN in the search box\n\n\nhttp://as12345.b.peeringdb.com\n (subdomain because of HSTS, will go back to normal on release)\n\n\nhttps://beta.peeringdb.com/asn/12345\n\nFor API\n\n\nhttps://beta.peeringdb.com/api/asn/12345\n\n\n\n\nHow do I get a login?\n\n\n\n\nYour original login should work, if not please email support@peeringdb.com\n\n\n\n\nAuthenticating via embedded user/pass in the URL\n\n\nSupport for this depends on the client and some browsers have stopped supporting embedded\n\nauthentication in the URL\n\n\nSo for example \n\n\nhttps://\nusername\n:\npassword\n@beta.peeringdb.com/api/net/1\n\n\n\nmay work or it may not depending on the browser you are using.", 
+            "text": "FAQ\n\n\nHow do I query by ASN?\n\n\n\n\nYou may type in the ASN in the search box\n\n\nhttp://as12345.b.peeringdb.com\n (subdomain because of HSTS, will go back to normal on release)\n\n\nhttps://beta.peeringdb.com/asn/12345\n\nFor API\n\n\nhttps://beta.peeringdb.com/api/asn/12345\n\n\n\n\nHow do I get a login?\n\n\n\n\nYour original login should work, if not please email support@peeringdb.com\n\n\n\n\nAuthenticating via embedded user/pass in the URL\n\n\nSupport for this depends on the client and some browsers have stopped supporting embedded\n\nauthentication in the URL\n\n\nSo for example \n\n\nhttps://\nusername\n:\npassword\n@beta.peeringdb.com/api/net/1\n\n\n\nmay work or it may not depending on the browser you are using.\n\n\nWhy are dates represented as strings in the API?\n\n\nDate strings are ISO 8601 to keep a standard format. Comparison operations such as \n__gt\n, \n__lt\n, etc all still work as expected. For fetching records against updated timestamp, you may also use \n?since=\nseconds since epoch\n\n\nHow do I sync the whole database to my local machine?\n\n\nYou may make a full local copy with \nhttps://github.com/peeringdb/peeringdb-py\n, see docs at \nhttp://peeringdb.github.io/peeringdb-py/cli/\n\n\nInitially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.", 
             "title": "FAQ"
         }, 
         {
             "location": "/faq/#faq", 
-            "text": "", 
+            "text": "How do I query by ASN?   You may type in the ASN in the search box  http://as12345.b.peeringdb.com  (subdomain because of HSTS, will go back to normal on release)  https://beta.peeringdb.com/asn/12345 \nFor API  https://beta.peeringdb.com/api/asn/12345   How do I get a login?   Your original login should work, if not please email support@peeringdb.com   Authenticating via embedded user/pass in the URL  Support for this depends on the client and some browsers have stopped supporting embedded \nauthentication in the URL  So for example   https:// username : password @beta.peeringdb.com/api/net/1  may work or it may not depending on the browser you are using.  Why are dates represented as strings in the API?  Date strings are ISO 8601 to keep a standard format. Comparison operations such as  __gt ,  __lt , etc all still work as expected. For fetching records against updated timestamp, you may also use  ?since= seconds since epoch  How do I sync the whole database to my local machine?  You may make a full local copy with  https://github.com/peeringdb/peeringdb-py , see docs at  http://peeringdb.github.io/peeringdb-py/cli/  Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.", 
             "title": "FAQ"
-        }, 
-        {
-            "location": "/faq/#how-do-i-query-by-asn", 
-            "text": "You may type in the ASN in the search box  http://as12345.b.peeringdb.com  (subdomain because of HSTS, will go back to normal on release)  https://beta.peeringdb.com/asn/12345 \nFor API  https://beta.peeringdb.com/api/asn/12345", 
-            "title": "How do I query by ASN?"
-        }, 
-        {
-            "location": "/faq/#how-do-i-get-a-login", 
-            "text": "Your original login should work, if not please email support@peeringdb.com", 
-            "title": "How do I get a login?"
-        }, 
-        {
-            "location": "/faq/#authenticating-via-embedded-userpass-in-the-url", 
-            "text": "Support for this depends on the client and some browsers have stopped supporting embedded \nauthentication in the URL  So for example   https:// username : password @beta.peeringdb.com/api/net/1  may work or it may not depending on the browser you are using.", 
-            "title": "Authenticating via embedded user/pass in the URL"
         }, 
         {
             "location": "/api_specs/", 
