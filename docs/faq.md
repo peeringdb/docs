@@ -1,7 +1,8 @@
 
 # FAQ
 
-## How do I query by ASN?
+
+### How do I query by ASN?
 
 > You may type in the ASN in the search box
 > `http://as12345.b.peeringdb.com` (subdomain because of HSTS, will go back to normal on release)
@@ -9,11 +10,12 @@
 > For API
 > `https://beta.peeringdb.com/api/asn/12345`
 
-## How do I get a login?
+### How do I get a login?
 
 > Your original login should work, if not please email support@peeringdb.com
 
-## Authenticating via embedded user/pass in the URL
+
+### Authenticating via embedded user/pass in the URL
 
 Support for this depends on the client and some browsers have stopped supporting embedded
 authentication in the URL
@@ -23,3 +25,12 @@ So for example
     https://<username>:<password>@beta.peeringdb.com/api/net/1 
     
 may work or it may not depending on the browser you are using.
+
+### Why are dates represented as strings in the API?
+Date strings are ISO 8601 to keep a standard format. Comparison operations such as `__gt`, `__lt`, etc all still work as expected. For fetching records against updated timestamp, you may also use `?since=<seconds since epoch>`
+
+### How do I sync the whole database to my local machine?
+You may make a full local copy with <https://github.com/peeringdb/peeringdb-py>, see docs at <http://peeringdb.github.io/peeringdb-py/cli/>
+
+Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.
+
