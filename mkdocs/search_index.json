@@ -12,8 +12,23 @@
         }, 
         {
             "location": "/#introduction", 
-            "text": "Goals  This stage is an introduction to the new RESTful API and RFC on the new schema and interface. Changes are automatically synced from version 1 every hour.   Attention  The MySQL interface  WILL  be going away   We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.  Timeline  The next phase will be getting people switched over to the new API and making any changes deemed necessary. Once we've accomplished that, we intend on having the write interface ready to go and can make the switch.  Changes from version 1   All fields are validated (email, IP address, etc), fields not validated are either discarded or put into a notes field.  Network connections to Internet Exchanges have changed to \"links\" with multiple IP addresses on them  Numerous small schema changes  All objects are structured under an Organization with granular access controls", 
+            "text": "", 
             "title": "Introduction"
+        }, 
+        {
+            "location": "/#goals", 
+            "text": "This stage is an introduction to the new RESTful API and RFC on the new schema and interface. Changes are automatically synced from version 1 every hour.   Attention  The MySQL interface  WILL  be going away   We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.", 
+            "title": "Goals"
+        }, 
+        {
+            "location": "/#timeline", 
+            "text": "The next phase will be getting people switched over to the new API and making any changes deemed necessary. Once we've accomplished that, we intend on having the write interface ready to go and can make the switch.", 
+            "title": "Timeline"
+        }, 
+        {
+            "location": "/#changes-from-version-1", 
+            "text": "All fields are validated (email, IP address, etc), fields not validated are either discarded or put into a notes field.  Network connections to Internet Exchanges have changed to \"links\" with multiple IP addresses on them  Numerous small schema changes  All objects are structured under an Organization with granular access controls", 
+            "title": "Changes from version 1"
         }, 
         {
             "location": "/#quick-start", 
@@ -42,7 +57,7 @@
         }, 
         {
             "location": "/gov/", 
-            "text": "PeeringDB Governance\n\n\nBoard Meeting Minutes\n\n\n\n\nDecember 8, 2015\n\n\n\n\nCall for Candidates for Board of Directors\n\n\nPer the October 20th announcement:\n\n\n\n\n\n\nThere will be elections for the initial Board of Directors. Candidacies along with max 300 word statements should be submitted to \n prior to November 15th. Anyone can run for election to the initial Board.\n\n\n\n\n\n\nThe interim Secretary (tentatively Chris Caputo) will send out ballots to pdb-gov on November 15th, with voting to happen through November 30th. The org docs currently proscribe one ballot per member organization. The interim Secretary will break ties through public random means. The Secretary will not be eligible for election to the initial Board.\n\n\n\n\n\n\nThe initial Board will decide on officers, per the tentative Bylaws. The \ndraft documents\n will then be signed and filed.\n\n\n\n\n\n\nThe \ndraft documents\n indicate 5 initial members of the Board of Directors.  These Directors will serve until the first annual meeting in April 2016.\n\n\n\n\n\n\nBoard meetings and Member meetings will be held online/telephonically.\n\n\n\n\n\n\nThe above dates are UTC. For example, candidates must submit their name and maximum 300 word statement, as determined by POSIX \nwc -w\n command, by November 14th 23:59:59 UTC 2015.\n\n\nA voter's guide containing the current list of candidates and statements, sorted alphabetically by last name, will be kept updated at:\n\n\nhttps://www.caputo.com/pdb/election.html\n\n\nCandidates may revise their statements until the November 15th UTC cut-off. On November 15th UTC, ballots with candidate names and statements will be emailed to \n.\n\n\nPlease submit your candidacy or questions/concerns to \n.  Note that email to secretary@peeringdb.com goes to Chris Caputo, Patrick Gilmore and Richard Turkbergen.\n\n\nQualifications for Membership\n\n\nA corporation, limited liability company, partnership or other legal business entity may be a Member of the Corporation. Membership is determined by having both an active PeeringDB.com account and an individual representative or role subscription to the \nPeeringDB Governance mailing list\n\n\nLegal / Documents\n\n\nPlease see the full set of DRAFT \ndocuments\n for more information.\n\n\nSurvey Results\n\n\nOriginally posted to \nhttp://lists.peeringdb.com/pipermail/pdb-gov/2015-October/000013.html\n\n\n\n\nDate: Tue, 20 Oct 2015 18:49:12 +0000 (UTC)\n\nFrom: Chris Caputo \n\nTo: pdb-gov@lists.peeringdb.com\n\nSubject: PeeringDB survey results and Board election plan\n\n\nResults of the survey which ended August 15th, along with anonymous\n\ncomments are up at:\n\n\nSurvey Report\n\n\n91 responses, of which 89 voted for the main question:\n\n\nPeeringDB functions should be performed by:\n\n\n\n\n\n\n35 votes, 39.33%: \"An independent 501(C)(6) (Not for profit) PeeringDB,\n\n      with it's own elected board and members\"\n\n\n\n\n\n\n14 votes, 15.73%: \"The existing global standards body OpenIX 501(C)(6)\n\n      (Not for profit)\"\n\n\n\n\n\n\n10 votes, 11.24%: \"The existing regional organization NANOG 501(C)(3)\n\n      (Not for profit)\"\n\n\n\n\n\n\n30 votes, 33.71%: \"I don't care just as long as PeeringDB keeps\n\n      working\"\n\n\n\n\n\n\nThat looks like a clear vote for independence, given that the number for\n\nindependence is 45% more than the combined votes for OpenIX and NANOG.\n\n\nBased on this, we are going to continue working toward becoming an \n\nindependent non-profit corporation. In the interest of broad support, \n\nthis is going to be done with transparency and inclusion using the pdb-gov \n\nmailing list. The plan:\n\n\n\n\n\n\nIf you want to participate in the process, please subscribe to the \n\n   pdb-gov \"governance\" mailing list with your PeeringDB account email.\n\n\nhttp://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov\n\n\n\n\n\n\nFurther emails will be sent to pdb-gov mailing list and posted to \n\n\nhttp://gov.peeringdb.com/\n as appropriate.\n\n\n\n\n\n\npdb-gov is where the draft organizational documents will be discussed\n\n   and refined.  These draft documents are up at:\n\n\nhttps://www.caputo.com/pdb/\n\n\n\n\n\n\nThere will be elections for the initial Board of Directors. Candidacies \n\n   along with max 300 word statements should be submitted to \n\n   secretary@peeringdb.com prior to November 15th. Anyone can run for \n\n   election to the initial Board.\n\n\n\n\n\n\nThe interim Secretary (tentatively Chris Caputo) will send out ballots \n\n   to pdb-gov on November 15th, with voting to happen through November \n\n   30th.  The org docs currently proscribe one ballot per member \n\n   organization.  The interim Secretary will break ties through public \n\n   random means.  The Secretary will not be eligible for election to the \n\n   initial Board.\n\n\n\n\n\n\nThe initial Board will decide on officers, per the tentative Bylaws.\n\n   The draft documents will then be signed and filed.\n\n\n\n\n\n\nChris Caputo\n\nPatrick W. Gilmore\n\nMatt Griswold\n\nAaron Hughes\n\nRichard A Turkbergen", 
+            "text": "PeeringDB Governance\n\n\nBoard Meeting Minutes\n\n\n\n\nJanuary 7, 2016\n\n\nDecember 8, 2015\n\n\n\n\nOrganizational Documents\n\n\n\n\nOrganizational Consent\n\n\nCertificate and Articles of Incorporation\n\n\nBylaws\n\n\nConflict of Interest Policy", 
             "title": "Governance"
         }, 
         {
@@ -52,28 +67,13 @@
         }, 
         {
             "location": "/gov/#board-meeting-minutes", 
-            "text": "December 8, 2015", 
+            "text": "January 7, 2016  December 8, 2015", 
             "title": "Board Meeting Minutes"
         }, 
         {
-            "location": "/gov/#call-for-candidates-for-board-of-directors", 
-            "text": "Per the October 20th announcement:    There will be elections for the initial Board of Directors. Candidacies along with max 300 word statements should be submitted to   prior to November 15th. Anyone can run for election to the initial Board.    The interim Secretary (tentatively Chris Caputo) will send out ballots to pdb-gov on November 15th, with voting to happen through November 30th. The org docs currently proscribe one ballot per member organization. The interim Secretary will break ties through public random means. The Secretary will not be eligible for election to the initial Board.    The initial Board will decide on officers, per the tentative Bylaws. The  draft documents  will then be signed and filed.    The  draft documents  indicate 5 initial members of the Board of Directors.  These Directors will serve until the first annual meeting in April 2016.    Board meetings and Member meetings will be held online/telephonically.    The above dates are UTC. For example, candidates must submit their name and maximum 300 word statement, as determined by POSIX  wc -w  command, by November 14th 23:59:59 UTC 2015.  A voter's guide containing the current list of candidates and statements, sorted alphabetically by last name, will be kept updated at:  https://www.caputo.com/pdb/election.html  Candidates may revise their statements until the November 15th UTC cut-off. On November 15th UTC, ballots with candidate names and statements will be emailed to  .  Please submit your candidacy or questions/concerns to  .  Note that email to secretary@peeringdb.com goes to Chris Caputo, Patrick Gilmore and Richard Turkbergen.", 
-            "title": "Call for Candidates for Board of Directors"
-        }, 
-        {
-            "location": "/gov/#qualifications-for-membership", 
-            "text": "A corporation, limited liability company, partnership or other legal business entity may be a Member of the Corporation. Membership is determined by having both an active PeeringDB.com account and an individual representative or role subscription to the  PeeringDB Governance mailing list", 
-            "title": "Qualifications for Membership"
-        }, 
-        {
-            "location": "/gov/#legal-documents", 
-            "text": "Please see the full set of DRAFT  documents  for more information.", 
-            "title": "Legal / Documents"
-        }, 
-        {
-            "location": "/gov/#survey-results", 
-            "text": "Originally posted to  http://lists.peeringdb.com/pipermail/pdb-gov/2015-October/000013.html   Date: Tue, 20 Oct 2015 18:49:12 +0000 (UTC) \nFrom: Chris Caputo  \nTo: pdb-gov@lists.peeringdb.com \nSubject: PeeringDB survey results and Board election plan  Results of the survey which ended August 15th, along with anonymous \ncomments are up at:  Survey Report  91 responses, of which 89 voted for the main question:  PeeringDB functions should be performed by:    35 votes, 39.33%: \"An independent 501(C)(6) (Not for profit) PeeringDB, \n      with it's own elected board and members\"    14 votes, 15.73%: \"The existing global standards body OpenIX 501(C)(6) \n      (Not for profit)\"    10 votes, 11.24%: \"The existing regional organization NANOG 501(C)(3) \n      (Not for profit)\"    30 votes, 33.71%: \"I don't care just as long as PeeringDB keeps \n      working\"    That looks like a clear vote for independence, given that the number for \nindependence is 45% more than the combined votes for OpenIX and NANOG.  Based on this, we are going to continue working toward becoming an  \nindependent non-profit corporation. In the interest of broad support,  \nthis is going to be done with transparency and inclusion using the pdb-gov  \nmailing list. The plan:    If you want to participate in the process, please subscribe to the  \n   pdb-gov \"governance\" mailing list with your PeeringDB account email.  http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov    Further emails will be sent to pdb-gov mailing list and posted to   http://gov.peeringdb.com/  as appropriate.    pdb-gov is where the draft organizational documents will be discussed \n   and refined.  These draft documents are up at:  https://www.caputo.com/pdb/    There will be elections for the initial Board of Directors. Candidacies  \n   along with max 300 word statements should be submitted to  \n   secretary@peeringdb.com prior to November 15th. Anyone can run for  \n   election to the initial Board.    The interim Secretary (tentatively Chris Caputo) will send out ballots  \n   to pdb-gov on November 15th, with voting to happen through November  \n   30th.  The org docs currently proscribe one ballot per member  \n   organization.  The interim Secretary will break ties through public  \n   random means.  The Secretary will not be eligible for election to the  \n   initial Board.    The initial Board will decide on officers, per the tentative Bylaws. \n   The draft documents will then be signed and filed.    Chris Caputo \nPatrick W. Gilmore \nMatt Griswold \nAaron Hughes \nRichard A Turkbergen", 
-            "title": "Survey Results"
+            "location": "/gov/#organizational-documents", 
+            "text": "Organizational Consent  Certificate and Articles of Incorporation  Bylaws  Conflict of Interest Policy", 
+            "title": "Organizational Documents"
         }, 
         {
             "location": "/faq/", 
@@ -82,8 +82,33 @@
         }, 
         {
             "location": "/faq/#faq", 
-            "text": "How do I query by ASN?   You may type in the ASN in the search box  http://as12345.b.peeringdb.com  (subdomain because of HSTS, will go back to normal on release)  https://beta.peeringdb.com/asn/12345 \nFor API  https://beta.peeringdb.com/api/asn/12345   How do I get a login?   Your original login should work, if not please email support@peeringdb.com   Authenticating via embedded user/pass in the URL  Support for this depends on the client and some browsers have stopped supporting embedded \nauthentication in the URL  So for example   https:// username : password @beta.peeringdb.com/api/net/1  may work or it may not depending on the browser you are using.  Why are dates represented as strings in the API?  Date strings are ISO 8601 to keep a standard format. Comparison operations such as  __gt ,  __lt , etc all still work as expected. For fetching records against updated timestamp, you may also use  ?since= seconds since epoch  How do I sync the whole database to my local machine?  You may make a full local copy with  https://github.com/peeringdb/peeringdb-py , see docs at  http://peeringdb.github.io/peeringdb-py/cli/  Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.", 
+            "text": "", 
             "title": "FAQ"
+        }, 
+        {
+            "location": "/faq/#how-do-i-query-by-asn", 
+            "text": "You may type in the ASN in the search box  http://as12345.b.peeringdb.com  (subdomain because of HSTS, will go back to normal on release)  https://beta.peeringdb.com/asn/12345 \nFor API  https://beta.peeringdb.com/api/asn/12345", 
+            "title": "How do I query by ASN?"
+        }, 
+        {
+            "location": "/faq/#how-do-i-get-a-login", 
+            "text": "Your original login should work, if not please email support@peeringdb.com", 
+            "title": "How do I get a login?"
+        }, 
+        {
+            "location": "/faq/#authenticating-via-embedded-userpass-in-the-url", 
+            "text": "Support for this depends on the client and some browsers have stopped supporting embedded \nauthentication in the URL  So for example   https:// username : password @beta.peeringdb.com/api/net/1  may work or it may not depending on the browser you are using.", 
+            "title": "Authenticating via embedded user/pass in the URL"
+        }, 
+        {
+            "location": "/faq/#why-are-dates-represented-as-strings-in-the-api", 
+            "text": "Date strings are ISO 8601 to keep a standard format. Comparison operations such as  __gt ,  __lt , etc all still work as expected. For fetching records against updated timestamp, you may also use  ?since= seconds since epoch", 
+            "title": "Why are dates represented as strings in the API?"
+        }, 
+        {
+            "location": "/faq/#how-do-i-sync-the-whole-database-to-my-local-machine", 
+            "text": "You may make a full local copy with  https://github.com/peeringdb/peeringdb-py , see docs at  http://peeringdb.github.io/peeringdb-py/cli/  Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.", 
+            "title": "How do I sync the whole database to my local machine?"
         }, 
         {
             "location": "/api_specs/", 
@@ -97,13 +122,88 @@
         }, 
         {
             "location": "/api_specs/#requests", 
-            "text": "URL    The URL base appended with  /api/ , append with object type and optionally object primary key  Object type is not case sensitive.  For example:   https://beta.peeringdb.com/api/ OBJ / id     Encoding    To specify the output format, either use the  Accept:  HTTP header  Accept: application/json  Or use extension  type  https://beta.peeringdb.com/api/network/42.json   JSON   all returns fit into object:  {\nmeta:\n  {\n  status:\n  message:\n  }\ndata:\n  [\n  {},\n  {}\n  ]\n}   meta are optional  data always array     Note  Please let us know what serializers you'd like to see     Authentication   Basic HTTP authorization   In order to access the api as a guest simply omit any authentication", 
+            "text": "", 
             "title": "Requests"
         }, 
         {
+            "location": "/api_specs/#url", 
+            "text": "The URL base appended with  /api/ , append with object type and optionally object primary key  Object type is not case sensitive.  For example:   https://beta.peeringdb.com/api/ OBJ / id", 
+            "title": "URL"
+        }, 
+        {
+            "location": "/api_specs/#encoding", 
+            "text": "To specify the output format, either use the  Accept:  HTTP header  Accept: application/json  Or use extension  type  https://beta.peeringdb.com/api/network/42.json   JSON   all returns fit into object:  {\nmeta:\n  {\n  status:\n  message:\n  }\ndata:\n  [\n  {},\n  {}\n  ]\n}   meta are optional  data always array     Note  Please let us know what serializers you'd like to see", 
+            "title": "Encoding"
+        }, 
+        {
+            "location": "/api_specs/#authentication", 
+            "text": "Basic HTTP authorization   In order to access the api as a guest simply omit any authentication", 
+            "title": "Authentication"
+        }, 
+        {
             "location": "/api_specs/#operations", 
-            "text": "GET: multiple objects  endpoint: GET /api/ OBJ   optional URL parameters    limit  int  limits rows in the result set  skip  int  skips n rows in the result set  depth  int  nested sets will be loaded (slow)  fields  str  comma separated list of field names - only matching fields will be returned in the data  since  int  retrieve all objects updated since specified time (unix timestamp, seconds)  [field_name]  int|string  queries for fields with matching value    returns  array of objects   HTTP:  GET /api/OBJ  curl:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ  Nested data  Any field ending in the suffix  _set  is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.  The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API  object_type _set  So a set called 'net_set' will hold Network objects (api endpoint /net)  Note: unlike GET single, 'depth' here will  ONLY  expand sets, no single relationships will be expanded - this is by design  Depth   0: dont expand anything (default)  1: expand all first level sets to ids  2: expand all first level sets to objects   curl:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?depth=2  Querying examples  exact:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?name=something  modifier:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?name__contains=something  Querying modifiers  numeric fields:   __lt, less than  __lte, less than equal  __gt, greater than  __gte, greater than equal  __in, value inside set of values (comma separated)   string fields:   __contains, field value contains this value  __startswith, field value starts with this value  __in, value inside set of values (comma separated)   Since  You can use the since argument with a unix timestamp (seconds) to retrieve all \nobjects updated since then. Note that this result will contain objects that were \ndeleted in that timeframe as well - you can spot them by checking for status \"deleted\"  ?since=1443414678  GET: single object  endpoint: GET /api/ OBJ / id   required URL parameters     id  int    optional URL parameters     depth  int  nested sets and objects will be expanded   fields  str  comma separated list of field names - only matching fields will be returned in the data    returns  single object in an array   HTTP:  GET /api/OBJ/42  curl:  curl -H \"Accept: application/json\" -X GET https:// username : password @beta.peeringdb.com/api/OBJ/42  Nested data  Any field ending in the suffix  _set  is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.  The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API  object_type _set  So a set called 'net_set' will hold Network objects (api endpoint /net)  Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.  unexpanded:  { \n  ...\n  \"net_id\" : 1\n}  expanded:  {\n  ...\n  \"net_id\" : 1\n  \"net\" : {\n     ... network object ...\n  }\n}  Depth   0: dont expand anything (default)  1 to 4: expand all sets and related objects according to level of depth specified   POST: create new object  endpoint: POST /api/ OBJ   required URL parameters    id  int  fields to post in either JSON obj \"{}\" or urlencoded field=value     curl:  curl  -H \"Accept: application/json\" -X POST --data \"{\\\"\"state\"\\\":\\\"active\\\"}\" https:// username : password @beta.peeringdb.com/api/OBJ  PUT: edit object  endpoint: PUT /api/ OBJ / id   required URL parameters    id  int  fields to post in either JSON obj \"{}\" or urlencoded field=value     HTTP:  PUT /api/OBJ/42  curl:  curl  -H \"Accept: application/json\" -X PUT --data \"{\\\"\"state\"\\\":\\\"active\\\"}\" https:// username : password @beta.peeringdb.com/api/OBJ/42  DELETE: delete object  endpoint: DELETE /api/ OBJ / id   required URL parameters    id  int     HTTP:  DELETE /api/OBJ/42  curl:  curl -H \"Accept: application/json\" -X DELETE https:// username : password @beta.peeringdb.com/api/OBJ/42", 
+            "text": "", 
             "title": "Operations"
+        }, 
+        {
+            "location": "/api_specs/#get-multiple-objects", 
+            "text": "endpoint: GET /api/ OBJ   optional URL parameters    limit  int  limits rows in the result set  skip  int  skips n rows in the result set  depth  int  nested sets will be loaded (slow)  fields  str  comma separated list of field names - only matching fields will be returned in the data  since  int  retrieve all objects updated since specified time (unix timestamp, seconds)  [field_name]  int|string  queries for fields with matching value    returns  array of objects   HTTP:  GET /api/OBJ  curl:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ", 
+            "title": "GET: multiple objects"
+        }, 
+        {
+            "location": "/api_specs/#nested-data", 
+            "text": "Any field ending in the suffix  _set  is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.  The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API  object_type _set  So a set called 'net_set' will hold Network objects (api endpoint /net)  Note: unlike GET single, 'depth' here will  ONLY  expand sets, no single relationships will be expanded - this is by design", 
+            "title": "Nested data"
+        }, 
+        {
+            "location": "/api_specs/#depth", 
+            "text": "0: dont expand anything (default)  1: expand all first level sets to ids  2: expand all first level sets to objects   curl:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?depth=2", 
+            "title": "Depth"
+        }, 
+        {
+            "location": "/api_specs/#querying-examples", 
+            "text": "exact:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?name=something  modifier:  curl -X GET https:// username : password @beta.peeringdb.com/api/OBJ?name__contains=something", 
+            "title": "Querying examples"
+        }, 
+        {
+            "location": "/api_specs/#querying-modifiers", 
+            "text": "numeric fields:   __lt, less than  __lte, less than equal  __gt, greater than  __gte, greater than equal  __in, value inside set of values (comma separated)   string fields:   __contains, field value contains this value  __startswith, field value starts with this value  __in, value inside set of values (comma separated)", 
+            "title": "Querying modifiers"
+        }, 
+        {
+            "location": "/api_specs/#since", 
+            "text": "You can use the since argument with a unix timestamp (seconds) to retrieve all \nobjects updated since then. Note that this result will contain objects that were \ndeleted in that timeframe as well - you can spot them by checking for status \"deleted\"  ?since=1443414678", 
+            "title": "Since"
+        }, 
+        {
+            "location": "/api_specs/#get-single-object", 
+            "text": "endpoint: GET /api/ OBJ / id   required URL parameters     id  int    optional URL parameters     depth  int  nested sets and objects will be expanded   fields  str  comma separated list of field names - only matching fields will be returned in the data    returns  single object in an array   HTTP:  GET /api/OBJ/42  curl:  curl -H \"Accept: application/json\" -X GET https:// username : password @beta.peeringdb.com/api/OBJ/42", 
+            "title": "GET: single object"
+        }, 
+        {
+            "location": "/api_specs/#nested-data_1", 
+            "text": "Any field ending in the suffix  _set  is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.  The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API  object_type _set  So a set called 'net_set' will hold Network objects (api endpoint /net)  Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.  unexpanded:  { \n  ...\n  \"net_id\" : 1\n}  expanded:  {\n  ...\n  \"net_id\" : 1\n  \"net\" : {\n     ... network object ...\n  }\n}", 
+            "title": "Nested data"
+        }, 
+        {
+            "location": "/api_specs/#depth_1", 
+            "text": "0: dont expand anything (default)  1 to 4: expand all sets and related objects according to level of depth specified", 
+            "title": "Depth"
+        }, 
+        {
+            "location": "/api_specs/#post-create-new-object", 
+            "text": "endpoint: POST /api/ OBJ   required URL parameters    id  int  fields to post in either JSON obj \"{}\" or urlencoded field=value     curl:  curl  -H \"Accept: application/json\" -X POST --data \"{\\\"\"state\"\\\":\\\"active\\\"}\" https:// username : password @beta.peeringdb.com/api/OBJ", 
+            "title": "POST: create new object"
+        }, 
+        {
+            "location": "/api_specs/#put-edit-object", 
+            "text": "endpoint: PUT /api/ OBJ / id   required URL parameters    id  int  fields to post in either JSON obj \"{}\" or urlencoded field=value     HTTP:  PUT /api/OBJ/42  curl:  curl  -H \"Accept: application/json\" -X PUT --data \"{\\\"\"state\"\\\":\\\"active\\\"}\" https:// username : password @beta.peeringdb.com/api/OBJ/42", 
+            "title": "PUT: edit object"
+        }, 
+        {
+            "location": "/api_specs/#delete-delete-object", 
+            "text": "endpoint: DELETE /api/ OBJ / id   required URL parameters    id  int     HTTP:  DELETE /api/OBJ/42  curl:  curl -H \"Accept: application/json\" -X DELETE https:// username : password @beta.peeringdb.com/api/OBJ/42", 
+            "title": "DELETE: delete object"
         }
     ]
 }
