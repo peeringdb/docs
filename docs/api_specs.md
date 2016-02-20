@@ -1,5 +1,9 @@
 # RESTful API Endpoints and Specifications
 
+## Object types and tags
+
+Each object has an associated short hand tag you can use, current available tags are listed at <https://beta.peeringdb.com/apidocs/>.
+
 ## Requests
 
 #### URL
