@@ -81,11 +81,11 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 - [PeeringDB Update](presentation/PeeringTrack-PDB-Update-20160205.pdf) - Aaron Hughes
   Presented at
-    - [APRICOT2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 by Aaron Hughes
-    - [NANOG66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 by Aaron Hughes
+    - [APRICOT 2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 by Aaron Hughes
+    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 by Aaron Hughes
 - [PeeringDB Version 2 Coding Introduction](presentation/PeeringDB_Version_2-Coding_Introduction.pdf) - Matt Griswold
   Presented at
-    - [NANOG66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 8, 2016 by Matt Griswold
+    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 8, 2016 by Matt Griswold
 - [PeeringDB Version 2 Brazil](presentation/PeeringDB_Version_2-Brazil.pdf) - Matt Griswold / Greg Hankins
   Presented at
     - [IX (PTT) Fórum 9](http://ix.br/pttforum/9/index-en.html), São Paulo, BR - December 8, 2015 by Greg Hankins
