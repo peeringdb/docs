@@ -115,6 +115,8 @@
         
             <li><a href="#how-do-i-get-a-login">How do I get a login?</a></li>
         
+            <li><a href="#how-do-the-new-permissions-work">How do the new permissions work?</a></li>
+        
             <li><a href="#authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</a></li>
         
             <li><a href="#why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</a></li>
@@ -136,9 +138,10 @@ For API<br />
 <code>https://beta.peeringdb.com/api/asn/12345</code></p>
 </blockquote>
 <h3 id="how-do-i-get-a-login">How do I get a login?</h3>
-<blockquote>
-<p>Your original login should work, if not please email support@peeringdb.com</p>
-</blockquote>
+<p>Your original level 2 login should work. If your login only had level 1 access in version 1, it is not imported into the version 2 database because there is no difference between unvalidated and read only in version 1. If you want a read only login, you'll have to add it manually once version 2 is released.</p>
+<p>Logins with level 2 access that are not working in beta should contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
+<h3 id="how-do-the-new-permissions-work">How do the new permissions work?</h3>
+<p>All entities now have a parent organization, users can be entitled to have read, write, update, create to any entity owned by that organization.</p>
 <h3 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h3>
 <p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
 authentication in the URL</p>
