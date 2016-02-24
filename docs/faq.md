@@ -12,8 +12,13 @@
 
 ### How do I get a login?
 
-> Your original login should work, if not please email support@peeringdb.com
+Your original level 2 login should work. If your login only had level 1 access in version 1, it is not imported into the version 2 database because there is no difference between unvalidated and read only in version 1. If you want a read only login, you'll have to add it manually once version 2 is released.
 
+Logins with level 2 access that are not working in beta should contact <support@peeringdb.com>.
+
+### How do the new permissions work?
+
+All entities now have a parent organization, users can be entitled to have read, write, update, create to any entity owned by that organization.
 
 ### Authenticating via embedded user/pass in the URL
 

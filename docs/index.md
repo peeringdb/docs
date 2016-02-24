@@ -7,7 +7,8 @@
 This stage is an introduction to the new RESTful API and RFC on the new schema and interface. Changes are automatically synced from version 1 every hour.
 
 !!! danger "Attention"
-    The MySQL interface **WILL** be going away
+    The MySQL interface **IS** be going away.
+    Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
 We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.
 
@@ -78,6 +79,13 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB Update](presentation/PeeringTrack-PDB-Update-20160205.pdf) - Aaron Hughes
+  Presented at
+    - [APRICOT 2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 by Aaron Hughes
+    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 by Aaron Hughes
+- [PeeringDB Version 2 Coding Introduction](presentation/PeeringDB_Version_2-Coding_Introduction.pdf) - Matt Griswold
+  Presented at
+    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 8, 2016 by Matt Griswold
 - [PeeringDB Version 2 Brazil](presentation/PeeringDB_Version_2-Brazil.pdf) - Matt Griswold / Greg Hankins
   Presented at
     - [IX (PTT) Fórum 9](http://ix.br/pttforum/9/index-en.html), São Paulo, BR - December 8, 2015 by Greg Hankins
