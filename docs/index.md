@@ -7,7 +7,7 @@
 This stage is an introduction to the new RESTful API and RFC on the new schema and interface. Changes are automatically synced from version 1 every hour.
 
 !!! danger "Attention"
-    The MySQL interface **IS** be going away.
+    The MySQL interface **IS** going away.
     Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
 We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.
