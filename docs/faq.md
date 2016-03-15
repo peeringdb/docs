@@ -18,7 +18,7 @@ Logins with level 2 access that are not working in beta should contact <support@
 
 ### How do the new permissions work?
 
-All entities now have a parent organization, users can be entitled to have read, write, update, create to any entity owned by that organization.
+Now there is an 'org' entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.
 
 ### Authenticating via embedded user/pass in the URL
 
