@@ -18,7 +18,7 @@ Please see <http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.
 
 ### How do the new permissions work?
 
-Now there is an 'org' entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.
+Now there is an `org` entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.
 
 ### Authenticating via embedded user/pass in the URL
 
