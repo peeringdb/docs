@@ -2,7 +2,7 @@
 
 ## Object types and tags
 
-Each object has an associated short hand tag you can use, current available tags are listed at <https://beta.peeringdb.com/apidocs/>.
+Each object has an associated short hand tag you can use, current available tags are listed at <https://peeringdb.com/apidocs/>.
 
 ## Requests
 
@@ -14,7 +14,7 @@ Each object has an associated short hand tag you can use, current available tags
 
     For example:
 
-    - https://beta.peeringdb.com/api/`OBJ`/`id`
+    - https://peeringdb.com/api/`OBJ`/`id`
 
 #### Encoding
 
@@ -24,7 +24,7 @@ Each object has an associated short hand tag you can use, current available tags
 
     Or use extension `type`
 
-        https://beta.peeringdb.com/api/network/42.json
+        https://peeringdb.com/api/network/42.json
 
 JSON
 
@@ -79,7 +79,7 @@ HTTP:
 
 curl:
 
-    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ
+    curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ
 
 #### Nested data
 
@@ -101,17 +101,17 @@ Note: unlike GET single, 'depth' here will **ONLY** expand sets, no single relat
 
 curl:
 
-    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?depth=2
+    curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ?depth=2
  
 #### Querying examples
 
 exact:
 
-    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?name=something
+    curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ?name=something
 
 modifier:
 
-    curl -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ?name__contains=something
+    curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ?name__contains=something
 
 #### Querying modifiers
 
@@ -162,7 +162,7 @@ HTTP:
 
 curl:
 
-    curl -H "Accept: application/json" -X GET https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
+    curl -H "Accept: application/json" -X GET https://<username>:<password>@peeringdb.com/api/OBJ/42
 
 #### Nested data
 
@@ -211,7 +211,7 @@ required URL parameters
 
 curl:
 
-    curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://<username>:<password>@beta.peeringdb.com/api/OBJ
+    curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ
 
 
 ### PUT: edit object
@@ -230,7 +230,7 @@ HTTP:
 
 curl:
 
-    curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
+    curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ/42
 
 ### DELETE: delete object
 
@@ -247,6 +247,6 @@ HTTP:
 
 curl:
 
-    curl -H "Accept: application/json" -X DELETE https://<username>:<password>@beta.peeringdb.com/api/OBJ/42
+    curl -H "Accept: application/json" -X DELETE https://<username>:<password>@peeringdb.com/api/OBJ/42
 
 

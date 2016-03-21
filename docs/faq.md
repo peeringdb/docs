@@ -4,17 +4,17 @@
 
 ### How do I query by ASN?
 
-> You may type in the ASN in the search box
-> `http://as12345.b.peeringdb.com` (subdomain because of HSTS, will go back to normal on release)
-> `https://beta.peeringdb.com/asn/12345`
-> For API
-> `https://beta.peeringdb.com/api/asn/12345`
+You may type in the ASN in the search box, or for web:
+`http://as42.peeringdb.com`
+`https://peeringdb.com/net?asn=42`
 
-### How do I get a login?
+For API:
+`https://peeringdb.com/api/net?asn=42`
 
-Your original level 2 login should work. If your login only had level 1 access in version 1, it is not imported into the version 2 database because there is no difference between unvalidated and read only in version 1. If you want a read only login, you'll have to add it manually once version 2 is released.
 
-Logins with level 2 access that are not working in beta should contact <support@peeringdb.com>.
+### Using /asn used to work, what happened?
+
+Please see <http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html> for details.
 
 ### How do the new permissions work?
 
@@ -27,7 +27,7 @@ authentication in the URL
 
 So for example 
 
-    https://<username>:<password>@beta.peeringdb.com/api/net/1 
+    https://<username>:<password>@peeringdb.com/api/net/1 
     
 may work or it may not depending on the browser you are using.
 
@@ -39,3 +39,12 @@ You may make a full local copy with <https://github.com/peeringdb/peeringdb-py>,
 
 Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.
 
+### When syncing to MySQL I get 'Illegal mix of collations'
+
+Such as:
+
+    django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
+
+We will fix that when time allows, for the time being, just run:
+
+    alter database peeringdb default character set utf8 default collate utf8_unicode_ci;

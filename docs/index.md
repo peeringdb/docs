@@ -4,16 +4,15 @@
 ## Introduction
 
 ### Goals
-This stage is an introduction to the new RESTful API and RFC on the new schema and interface. Changes are automatically synced from version 1 every hour.
+!!! info
+    These docs were meant to go away with beta, but since we haven't made official 2.0 docs yet, they're still around and (hopefully) have been updated to be current.
 
 !!! danger "Attention"
-    The MySQL interface **IS** going away.
+    The MySQL interface is gone.
+
     Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
-We do not have a specific time frame for moving away from the legacy interface, and will make sure everyone has ample chance to migrate to the JSON interface.
-
-### Timeline
-The next phase will be getting people switched over to the new API and making any changes deemed necessary. Once we've accomplished that, we intend on having the write interface ready to go and can make the switch.
+    The last available MySQL dump is now available at <https://peeringdb.com/v1/final_export.sql>
 
 ### Changes from version 1
 
@@ -24,18 +23,18 @@ The next phase will be getting people switched over to the new API and making an
 
 ## Quick start
 
-If you want to poke around on your own, it's **readonly** at <https://beta.peeringdb.com/> with self describing API docs at <https://beta.peeringdb.com/apidocs/>
+If you want to poke around on your own, it's located at <https://peeringdb.com/> with self describing API docs at <https://peeringdb.com/apidocs/>
 
 More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 
 For example:
-<https://beta.peeringdb.com/net/1>
+<https://peeringdb.com/net/1>
 becomes
-<https://beta.peeringdb.com/api/net/1>
+<https://peeringdb.com/api/net/1>
 
 List all via API by taking the `id` off:
 
-<https://beta.peeringdb.com/api/net>
+<https://peeringdb.com/api/net>
 
 ## Mailing lists
 
@@ -104,12 +103,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Reporting Issues
 
-Strictly speaking we're really only looking for API bugs and missing or incorrect data right now. The web front end is crude and unpolished and mainly there to view the information without using the API. That said, any reports will be helpful when we get to that (which will be next).
-
 You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/1to2/issues)
-
-If you find incorrect data in version 1 (at www.peeringdb.com), please just email
-support@peeringdb.com with what should be corrected.
 
 Questions, comments and everything else should go to support@peeringdb.com
 
