@@ -124,7 +124,7 @@
 
 <h1 id="restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</h1>
 <h2 id="object-types-and-tags">Object types and tags</h2>
-<p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://beta.peeringdb.com/apidocs/">https://beta.peeringdb.com/apidocs/</a>.</p>
+<p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://peeringdb.com/apidocs/">https://peeringdb.com/apidocs/</a>.</p>
 <h2 id="requests">Requests</h2>
 <h4 id="url">URL</h4>
 <dl>
@@ -133,7 +133,7 @@
 <p>Object type is not case sensitive.</p>
 <p>For example:</p>
 <ul>
-<li>https://beta.peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
+<li>https://peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
 </ul>
 </dd>
 </dl>
@@ -144,7 +144,7 @@
 <pre><code>Accept: application/json
 </code></pre>
 <p>Or use extension <code>type</code></p>
-<pre><code>https://beta.peeringdb.com/api/network/42.json
+<pre><code>https://peeringdb.com/api/network/42.json
 </code></pre>
 </dd>
 <dt>JSON</dt>
@@ -200,7 +200,7 @@ data:
 <pre><code>GET /api/OBJ
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
 </code></pre>
 <h4 id="nested-data">Nested data</h4>
 <p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
@@ -216,14 +216,14 @@ data:
 <li>2: expand all first level sets to objects</li>
 </ul>
 <p>curl:</p>
-<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?depth=2
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?depth=2
 </code></pre>
 <h4 id="querying-examples">Querying examples</h4>
 <p>exact:</p>
-<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?name=something
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?name=something
 </code></pre>
 <p>modifier:</p>
-<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ?name__contains=something
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?name__contains=something
 </code></pre>
 <h4 id="querying-modifiers">Querying modifiers</h4>
 <p>numeric fields:</p>
@@ -271,7 +271,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 <pre><code>GET /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre>
 <h4 id="nested-data_1">Nested data</h4>
 <p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
@@ -312,7 +312,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 </dd>
 </dl>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ
+<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
 </code></pre>
 <h3 id="put-edit-object">PUT: edit object</h3>
 <p>endpoint: PUT /api/<code>OBJ</code>/<code>id</code></p>
@@ -329,7 +329,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 <pre><code>PUT /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre>
 <h3 id="delete-delete-object">DELETE: delete object</h3>
 <p>endpoint: DELETE /api/<code>OBJ</code>/<code>id</code></p>
@@ -345,7 +345,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 <pre><code>DELETE /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/OBJ/42
+<pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre></div>
             
         </div>

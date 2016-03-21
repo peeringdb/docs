@@ -113,7 +113,7 @@
         
             <li><a href="#how-do-i-query-by-asn">How do I query by ASN?</a></li>
         
-            <li><a href="#how-do-i-get-a-login">How do I get a login?</a></li>
+            <li><a href="#using-asn-used-to-work-what-happened">Using /asn used to work, what happened?</a></li>
         
             <li><a href="#how-do-the-new-permissions-work">How do the new permissions work?</a></li>
         
@@ -123,6 +123,8 @@
         
             <li><a href="#how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</a></li>
         
+            <li><a href="#when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</a></li>
+        
     
     </ul>
 </div></div>
@@ -130,30 +132,34 @@
 
 <h1 id="faq">FAQ</h1>
 <h3 id="how-do-i-query-by-asn">How do I query by ASN?</h3>
-<blockquote>
-<p>You may type in the ASN in the search box<br />
-<code>http://as12345.b.peeringdb.com</code> (subdomain because of HSTS, will go back to normal on release)<br />
-<code>https://beta.peeringdb.com/asn/12345</code><br />
-For API<br />
-<code>https://beta.peeringdb.com/api/asn/12345</code></p>
-</blockquote>
-<h3 id="how-do-i-get-a-login">How do I get a login?</h3>
-<p>Your original level 2 login should work. If your login only had level 1 access in version 1, it is not imported into the version 2 database because there is no difference between unvalidated and read only in version 1. If you want a read only login, you'll have to add it manually once version 2 is released.</p>
-<p>Logins with level 2 access that are not working in beta should contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
+<p>You may type in the ASN in the search box, or for web:<br />
+<code>http://as42.peeringdb.com</code><br />
+<code>https://peeringdb.com/net?asn=42</code></p>
+<p>For API:<br />
+<code>https://peeringdb.com/api/net?asn=42</code></p>
+<h3 id="using-asn-used-to-work-what-happened">Using /asn used to work, what happened?</h3>
+<p>Please see <a href="http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html">http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html</a> for details.</p>
 <h3 id="how-do-the-new-permissions-work">How do the new permissions work?</h3>
 <p>All entities now have a parent organization, users can be entitled to have read, write, update, create to any entity owned by that organization.</p>
 <h3 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h3>
 <p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
 authentication in the URL</p>
 <p>So for example </p>
-<pre><code>https://&lt;username&gt;:&lt;password&gt;@beta.peeringdb.com/api/net/1
+<pre><code>https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/net/1
 </code></pre>
 <p>may work or it may not depending on the browser you are using.</p>
 <h3 id="why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</h3>
 <p>Date strings are ISO 8601 to keep a standard format. Comparison operations such as <code>__gt</code>, <code>__lt</code>, etc all still work as expected. For fetching records against updated timestamp, you may also use <code>?since=&lt;seconds since epoch&gt;</code></p>
 <h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
 <p>You may make a full local copy with <a href="https://github.com/peeringdb/peeringdb-py">https://github.com/peeringdb/peeringdb-py</a>, see docs at <a href="http://peeringdb.github.io/peeringdb-py/cli/">http://peeringdb.github.io/peeringdb-py/cli/</a></p>
-<p>Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.</p></div>
+<p>Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.</p>
+<h3 id="when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</h3>
+<p>Such as:</p>
+<pre><code>django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
+</code></pre>
+<p>We will fix that when time allows, for the time being, just run:</p>
+<pre><code>alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
+</code></pre></div>
             
         </div>
 
