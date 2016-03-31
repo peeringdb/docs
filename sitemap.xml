@@ -4,7 +4,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,15 +12,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/gov/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://docs.peeringdb.com/members/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +20,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/faq/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +28,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/api_specs/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
