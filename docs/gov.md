@@ -31,3 +31,30 @@
 - [November 14th, 2015: Board election voter's guide](gov/misc/2015-11-14_election.html)
 - [October 20th, 2015: Announcement of survey results and Board election plan](gov/misc/2015-10-20_Announcement.txt)
 - [August, 2015: Survey for future of PeeringDB](gov/misc/2015-08-00_PDB_Survey_results.pdf)
+
+## Board of Directors
+
+- [Patrick W. Gilmore](mailto:patrick@peeringdb.com)
+- [Matt Griswold](mailto:grizz@peeringdb.com)
+- [Aaron Hughes](mailto:aaronh@peeringdb.com)
+- [Arnold Nipper](mailto:arnold@peeringdb.com)
+- [Job Snijders](mailto:job@peeringdb.com)
+
+## Officers
+
+- [Aaron Hughes](mailto:aaronh@peeringdb.com), President
+- [Patrick W. Gilmore](mailto:patrick@peeringdb.com), Vice President
+- [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer
+
+## Admin Committee
+
+- Purpose is to oversee the adminstrator mission and volunteers.
+- Board members Snijders (Chair) and Gilmore.
+- Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
+
+## Product Development Committee
+
+- Purpose is to study and recommend feature needs.
+- Board members Hughes (Chair) and Griswold.
+- Interested in volunteering? Contact [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com).
+
