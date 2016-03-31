@@ -26,6 +26,7 @@
 
 ## Surveys & Elections
 
+- [April 14th, 2016: Board election voter's guide](gov/misc/2016-04-14_election.html)
 - [December 1st, 2015: Board election results](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
 - [November 14th, 2015: Board election voter's guide](gov/misc/2015-11-14_election.html)
 - [October 20th, 2015: Announcement of survey results and Board election plan](gov/misc/2015-10-20_Announcement.txt)
