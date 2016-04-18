@@ -1,7 +1,11 @@
 
 # PeeringDB Governance
 
-## Board Meeting Minutes
+## Member Meetings
+
+- [April 21st, 2016 Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt)
+
+## Board Meetings
 
 - [April 6th, 2016](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf)
 - [March 4th, 2016](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf)
