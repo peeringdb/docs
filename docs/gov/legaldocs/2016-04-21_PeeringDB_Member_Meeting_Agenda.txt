@@ -36,22 +36,22 @@
 
 Agenda:
 
- - Call To Order - Aaron
+ - Call To Order - Aaron Hughes
 
- - Welcome & Thanks - Aaron
+ - Welcome & Thanks - Aaron Hughes
 
- - Governance Update (where we've been, where we are) - Aaron
+ - Governance Update (where we've been, where we are) - Aaron Hughes
 
- - PeeringDB 2.0 Update - Matt
+ - PeeringDB 2.0 Update - Matt Griswold
 
- - Financial Update & Call For Sponsors - Chris
+ - Financial Update & Call For Sponsors - Chris Caputo
 
- - Admin Committee Update - Job
+ - Admin Committee Update - Job Snijders
 
- - Product Development Committee Update - Aaron
+ - Product Development Committee Update - Aaron Hughes
 
  - Items brought up by the members / Technical and Policy Q&A
 
- - Encourage Voting in Board Election - Aaron
+ - Encourage Voting in Board Election - Aaron Hughes
 
  - Adjourn
