@@ -32,6 +32,7 @@
 
 ## Surveys & Elections
 
+- [April 30th, 2016: Board election results](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2016: Board election voter's guide](gov/misc/2016-04-14_election.html)
 - [December 1st, 2015: Board election results](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
 - [November 14th, 2015: Board election voter's guide](gov/misc/2015-11-14_election.html)
@@ -40,17 +41,17 @@
 
 ## Board of Directors
 
-- [Patrick W. Gilmore](mailto:patrick@peeringdb.com)
-- [Matt Griswold](mailto:grizz@peeringdb.com)
-- [Aaron Hughes](mailto:aaronh@peeringdb.com)
-- [Arnold Nipper](mailto:arnold@peeringdb.com)
-- [Job Snijders](mailto:job@peeringdb.com)
+- Seat 1 (term expires 2017): [Arnold Nipper](mailto:arnold@peeringdb.com), 2015-
+- Seat 2 (term expires 2018): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
+- Seat 3 (term expires 2017): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
+- Seat 4 (term expires 2018): [Job Snijders](mailto:job@peeringdb.com), 2015-
+- Seat 5 (term expires 2017): [Matt Griswold](mailto:grizz@peeringdb.com), 2015-
 
 ## Officers
 
-- [Aaron Hughes](mailto:aaronh@peeringdb.com), President
-- [Patrick W. Gilmore](mailto:patrick@peeringdb.com), Vice President
-- [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer
+- [Aaron Hughes](mailto:aaronh@peeringdb.com), President, 2015-
+- [Patrick W. Gilmore](mailto:patrick@peeringdb.com), Vice President, 2015-
+- [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer, 2015-
 
 ## Admin Committee
 
