@@ -78,6 +78,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB 2.0](presentation/2016-05-12_chi-nog-06-peeringdb.pdf) at [CHI-NOG 06](http://chinog.org/meetings/chi-nog-06/), Chicago, US - May 12, 2016 - Matt Griswold
 - [PeeringDB 2.0 e o Cenário Brasileiro](presentation/2016-05-12_PeeringDB-2.0_GTER_41.pdf) and [IX.br Guia de cadastro de informações de ASNs no PeeringDB](presentation/2016-05-12_IX.br_PeeringDB_Guide.pdf) at [GTER 41](http://gtergts.nic.br/), Uberlândia, BR - May 12, 2016 - Eduardo Ascenço Reis
 - [PeeringDB 2.0 for IXPs](presentation/2016-04-26_PeeringDB_28th_Euro-IX_Forum.pdf) at [28th Euro-IX Forum](https://www.euro-ix.net/), Luxembourg, LU - April 26, 2016 - Greg Hankins / Arnold Nipper
 - [RIPE SEE 5](https://www.ripe.net/participate/meetings/regional-meetings/see-5), Tirana, AL - April 19, 2016 - Arnold Nipper
