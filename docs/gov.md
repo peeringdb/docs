@@ -7,6 +7,7 @@
 
 ## Board Meetings
 
+- [May 18th, 2016](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf)
 - [April 6th, 2016](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf)
 - [March 4th, 2016](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf)
 - [February 4th, 2016](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf)
@@ -25,6 +26,7 @@
 
 ## Organizational Documents
 
+- [May 18th, 2016: Amended Annual Report](gov/legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf)
 - [December 16th, 2015: Certificate and Articles of Incorporation](gov/legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf)
 - [December 8th, 2015: Organizational Consent](gov/legaldocs/2015-12-08_PeeringDB_Organizational_Consent.pdf)
 - [December 8th, 2015: Bylaws](gov/legaldocs/2015-12-08_PeeringDB_Bylaws.pdf)
@@ -50,18 +52,21 @@
 ## Officers
 
 - [Aaron Hughes](mailto:aaronh@peeringdb.com), President, 2015-
-- [Patrick W. Gilmore](mailto:patrick@peeringdb.com), Vice President, 2015-
+- [Job Snijders](mailto:job@peeringdb.com), Vice President, 2016-
 - [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer, 2015-
 
 ## Admin Committee
 
 - Purpose is to oversee the adminstrator mission and volunteers.
-- Board members Snijders (Chair) and Gilmore.
+- Board members Snijders (Chair), Nipper (Vice Chair), and Gilmore.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
 ## Product Development Committee
 
 - Purpose is to study and recommend feature needs.
-- Board members Hughes (Chair) and Griswold.
+- Board members Hughes (Chair) and Griswold (Vice Chair).
 - Interested in volunteering? Contact [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com).
 
+## Alumni
+
+- Patrick W. Gilmore, Vice President, 2015-2016

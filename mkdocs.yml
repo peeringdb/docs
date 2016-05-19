@@ -1,8 +1,8 @@
-site_name: PeeringDB 2.0
+site_name: PeeringDB
 site_url: http://docs.peeringdb.com
 
 pages:
-  - Home: index.md
+  - PeeringDB 2.0: index.md
   - Governance: gov.md
   - FAQ: faq.md
   - API Specs: api_specs.md
