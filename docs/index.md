@@ -110,7 +110,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Reporting Issues
 
-You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/1to2/issues)
+You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/peeringdb/issues)
 
 Questions, comments and everything else should go to support@peeringdb.com
 

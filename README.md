@@ -1,4 +1,5 @@
-1to2
-====
 
-migration from version 1 to 2
+# PeeringDB Documentation
+
+As viewable at http://docs.peeringdb.com/
+
