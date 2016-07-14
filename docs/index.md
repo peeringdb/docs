@@ -109,7 +109,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 - Send us feedback
 - Improve these docs
 
-## Reporting Issues
+## Reporting issues
 
 You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/peeringdb/issues)
 
