@@ -111,9 +111,9 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Reporting issues
 
-You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/peeringdb/issues)
+You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/peeringdb/issues).
 
-Questions, comments and everything else should go to support@peeringdb.com
+Questions, comments and everything else should go to <support@peeringdb.com>
 
 Thanks for the testing/feedback, we look forward to hearing from you!
 
