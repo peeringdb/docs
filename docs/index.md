@@ -1,4 +1,3 @@
-
 # PeeringDB 2.0
 
 ## Introduction
@@ -75,7 +74,6 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </p>
 
-
 ## Presentations
 
 - [PeeringDB 2.0](presentation/2016-06-07_PeeringDB-2.0_ENOG11.pdf) at [ENOG 11](https://www.enog.org/meetings/enog-11/), Moscow, RU - June 7, 2016 - Arnold Nipper
@@ -101,6 +99,11 @@ Our goal is to give you all the information you want, and no more.  Please subsc
     - [27th Euro-IX Forum](https://www.euro-ix.net/news-and-events/euro-ix-forum/), Berlin, DE - October 26, 2015 by Greg Hankins
     - [DENOG7](http://www.denog.de/meetings/denog7/?lang=en), Darmstadt, DE - October 30, 2015 by Arnold Nipper 
 
+## Tools
+
+* [django-peeringdb](http://peeringdb.github.io/django-peeringdb/) is a Django library with a local PeeringDB database sync.  It defines the database schema to create a local database copy.  The library is easy to integrate into a common framework for local tools and custom interfaces, and also supports multiple database engines (MySQL, Postgres, SQLite).
+
+* [peeringdb-py](http://peeringdb.github.io/peeringdb-py/) is a Python client for PeeringDB.  It features functions to get objects and display them in JSON or YAML format, and provides a whois-like display of records.  The client also has an integrated local database sync, and provides a Python library for integration with custom tools.  [Some examples](https://github.com/grizz/pdb-examples) are available too.
 
 ## How you can help
 
@@ -113,7 +116,6 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 You may view and report issues for version 2 at [GitHub](https://github.com/peeringdb/peeringdb/issues).
 
-Questions, comments and everything else should go to <support@peeringdb.com>
+Questions, comments and everything else should go to <support@peeringdb.com>.
 
 Thanks for the testing/feedback, we look forward to hearing from you!
-
