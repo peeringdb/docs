@@ -7,6 +7,7 @@
 
 ## Board Meetings
 
+- [August 10th, 2016](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf)
 - [July 1st, 2016](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf)
 - [May 18th, 2016](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf)
 - [April 6th, 2016](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf)
