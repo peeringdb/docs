@@ -76,6 +76,8 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB Product Committee Charter Survey](presentation/20160919-epf11-Loos-peeringdb.pdf) at [EPF 11](https://www.peering-forum.eu/), Sofia, BG - September 20, 2016 - Eric Loos
+- [PeeringDB 2.0](presentation/20160916-npd16-Wollny-peeringdb.pdf) at [NPD 16](http://www.neutralpeeringdays.net/), The Hague, NL - September 16, 2016 - Walt Wollny
 - [PeeringDB 2.0](presentation/2016-08-30_afpif2016-Nipper-peeringdb.pdf) at [AfPIF 2016](https://www.internetsociety.org/afpif-2016/), Dar es Salaam, TZ - August 30, 2016 - Arnold Nipper
 - [PeeringDB 2.0 for IXPs](presentation/2016-08-29_afix2016-Nipper-peeringdb.pdf) at [AFIX 2016](http://www.af-ix.net/?q=resources/2016/08/afix-2016-meeting-agenda), Dar es Salaam, TZ - August 29, 2016 - Arnold Nipper
 - [PeeringDB 2.0](presentation/2016-06-07_PeeringDB-2.0_ENOG11.pdf) at [ENOG 11](https://www.enog.org/meetings/enog-11/), Moscow, RU - June 7, 2016 - Arnold Nipper
