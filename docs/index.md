@@ -1,4 +1,4 @@
-# PeeringDB 2.0
+# PeeringDB
 
 ## Introduction
 

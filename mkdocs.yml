@@ -3,11 +3,14 @@ site_url: http://docs.peeringdb.com
 repo_url: https://github.com/peeringdb/docs
 
 pages:
-  - PeeringDB 2.0: index.md
+  - PeeringDB: index.md
   - Committees: committee.md
   - Governance: gov.md
   - FAQ: faq.md
   - API Specs: api_specs.md
+
+extra_css:
+  - extra.css
 
 markdown_extensions:
   - abbr
