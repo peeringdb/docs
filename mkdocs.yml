@@ -3,6 +3,7 @@ site_url: http://docs.peeringdb.com
 
 pages:
   - PeeringDB 2.0: index.md
+  - Committees: committee.md
   - Governance: gov.md
   - FAQ: faq.md
   - API Specs: api_specs.md
