@@ -76,6 +76,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB 2.0](presentation/20161103-ITNOG2-Nipper-peeringdb.pdf) at [ITNOG2](http://www.itnog.it/itnog2/), bologna, IT - November 3, 2016 - Arnold Nipper
 - [PeeringDB Product Committee Charter Survey](presentation/20160919-epf11-Loos-peeringdb.pdf) at [EPF 11](https://www.peering-forum.eu/), Sofia, BG - September 20, 2016 - Eric Loos
 - [PeeringDB 2.0](presentation/20160916-npd16-Wollny-peeringdb.pdf) at [NPD 16](http://www.neutralpeeringdays.net/), The Hague, NL - September 16, 2016 - Walt Wollny
 - [PeeringDB 2.0](presentation/2016-08-30_afpif2016-Nipper-peeringdb.pdf) at [AfPIF 2016](https://www.internetsociety.org/afpif-2016/), Dar es Salaam, TZ - August 30, 2016 - Arnold Nipper
@@ -108,6 +109,17 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 * [django-peeringdb](http://peeringdb.github.io/django-peeringdb/) is a Django library with a local PeeringDB database sync.  It defines the database schema to create a local database copy.  The library is easy to integrate into a common framework for local tools and custom interfaces, and also supports multiple database engines (MySQL, Postgres, SQLite).
 
 * [peeringdb-py](http://peeringdb.github.io/peeringdb-py/) is a Python client for PeeringDB.  It features functions to get objects and display them in JSON or YAML format, and provides a whois-like display of records.  The client also has an integrated local database sync, and provides a Python library for integration with custom tools.  [Some examples](https://github.com/grizz/pdb-examples) are available too.
+
+* [Pinder](http://github.com/dotwaffle/pinder) is a tool that facilitates
+peering.  If peering is desired between two networks, and you're happy
+to just configure sessions without a commercial agreement, Pinder acts
+as the middle man.  You can submit the request via either a basic Web UI
+or an API, and the other network is notified or can periodically check
+their outstanding requests.  If both network agree to peer, they are
+notified to configure a session.  Once both networks indicate sessions are
+configured and established, the request is then deleted. [A brief slide
+deck](http://accel.waffle.sexy/pinder.pdf) explains the functionality in
+more detail.
 
 ## How you can help
 
