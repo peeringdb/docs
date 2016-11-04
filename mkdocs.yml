@@ -1,5 +1,6 @@
 site_name: PeeringDB
 site_url: http://docs.peeringdb.com
+repo_url: https://github.com/peeringdb/docs
 
 pages:
   - PeeringDB 2.0: index.md
@@ -7,5 +8,12 @@ pages:
   - FAQ: faq.md
   - API Specs: api_specs.md
 
-markdown_extensions: [abbr,def_list,footnotes,tables,admonition,nl2br,toc]
+markdown_extensions:
+  - abbr
+  - admonition
+  - def_list
+  - footnotes
+  - tables
+  - nl2br
+  - toc
 
