@@ -27,7 +27,7 @@ cd docs
 
 Start mkdocs
 ```sh
-mkdocs serve -a 0.0.0.0:7080
+mkdocs serve
 ```
 
 You should now see a message similar to:
