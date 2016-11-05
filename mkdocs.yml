@@ -4,8 +4,6 @@ repo_url: https://github.com/peeringdb/docs
 theme: mkdocs
 theme_dir: peeringdb_theme
 
-# dev_addr: 0.0.0.0:7889 # default port was already in use on my box. 
-
 pages:
   - PeeringDB 2.0: index.md
   - Committees: committee.md
