@@ -30,6 +30,12 @@ Start mkdocs
 mkdocs serve
 ```
 
+or, if you'd like to specify the port, use -a $ADDRESS:$PORT, for example:
+
+```sh
+mkdocs serve -a 0.0.0.0:7889
+```
+
 You should now see a message similar to:
     Serving on <http://127.0.0.1:8000>
 
