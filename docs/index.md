@@ -112,17 +112,24 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 * [Pinder](http://github.com/dotwaffle/pinder) is a tool that facilitates peering.  If peering is desired between two networks, and you're happy to just configure sessions without a commercial agreement, Pinder acts as the middle man.  You can submit the request via either a basic web UI or an API, and the other network is notified or can periodically check their outstanding requests.  If both network agree to peer, they are notified to configure a session.  Once both networks indicate that sessions are configured and established, the request is then deleted. [A brief slide deck](http://accel.waffle.sexy/pinder.pdf) explains the functionality in more detail.
 
+## Beta development and reporting issues
+
+* The [PeeringDB beta server](https://beta.peeringdb.com/) is running the latest beta software version, with full access over HTTP and the API.  Note that changes made to the beta database are local to the beta server only, and are not reflected on the production servers.
+
+* The [latest changes to PeeringDB](https://beta.peeringdb.com/changes) automagically redirects to the list of issues on PeeringDB's GitHub repository that document all of the changes in the current beta version.
+
+* Please to log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
+
+* Questions, comments and everything else should go to <support@peeringdb.com>.
+
 ## How you can help
 
-- Check your entries and make sure everything looks correct
-- Port any scripts to the new API
-- Send us feedback
-- Improve these docs
+* Check your entries and make sure everything looks correct
 
-## Reporting issues
+* Port any scripts to the new API
 
-You may view and report issues for PeeringDB 2.0 at [GitHub](https://github.com/peeringdb/peeringdb/issues).
+* Send us feedback
 
-Questions, comments and everything else should go to <support@peeringdb.com>.
+* Improve these docs
 
 Thanks for the testing/feedback, we look forward to hearing from you!
