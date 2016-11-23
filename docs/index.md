@@ -118,7 +118,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 * The [latest changes to PeeringDB](https://beta.peeringdb.com/changes) automagically redirects to the list of issues on PeeringDB's GitHub repository that document all of the changes in the current beta version.
 
-* Please to log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
+* Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
 
 * Questions, comments and everything else should go to <support@peeringdb.com>.
 
