@@ -76,6 +76,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB](presentation/2016-11-23-kikeautumn16-2.pdf) at [19 KIKE Conference](http://kikeevents.com/en/category/19-kike-conference/), Serock, PL - November 23, 2016 - Robert Jakub
 - [PeeringDB 2.0](presentation/20161103-ITNOG2-Nipper-peeringdb.pdf) at [ITNOG2](http://www.itnog.it/itnog2/), Bologna, IT - November 3, 2016 - Arnold Nipper
 - [PeeringDB Product Committee Charter Survey](presentation/20160919-epf11-Loos-peeringdb.pdf) at [EPF 11](https://www.peering-forum.eu/), Sofia, BG - September 20, 2016 - Eric Loos
 - [PeeringDB 2.0](presentation/20160916-npd16-Wollny-peeringdb.pdf) at [NPD 16](http://www.neutralpeeringdays.net/), The Hague, NL - September 16, 2016 - Walt Wollny
