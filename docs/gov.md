@@ -1,6 +1,10 @@
 
 # PeeringDB Governance
 
+## Mission Statement
+
+PeeringDB, a nonprofit member-based organization, facilitates the exchange of user maintained interconnection related information, primarily for Peering Coordinators and Internet Exchange, Facility, and Network Operators.
+
 ## Member Meetings
 
 - April 21st, 2016: [Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt) | [Minutes](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf) | [Audio](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Audio.mp3)
