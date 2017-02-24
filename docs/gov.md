@@ -5,6 +5,10 @@
 
 - April 21st, 2016: [Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt) | [Minutes](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf) | [Audio](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Audio.mp3)
 
+## Strategic Plan
+
+- [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
+
 ## Board Meetings
 
 - [February 9th, 2017](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf)
