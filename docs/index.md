@@ -82,6 +82,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](http://www.peeringdays.eu/), Ljubljana, SL - March 23, 2017 - Arnold Nipper
 - [PeeringDB 2.0](presentation/20170228-Apricot2017-Nipper.pdf) at [APRICOT 2017](https://2017.apricot.net/), Ho Chi Minh City, VN - February 28, 2017 - Arnold Nipper
 - [PeeringDB](presentation/2016-11-23-kikeautumn16-2.pdf) at [19 KIKE Conference](http://kikeevents.com/en/category/19-kike-conference/), Serock, PL - November 23, 2016 - Robert Jakub
 - [PeeringDB 2.0](presentation/20161103-ITNOG2-Nipper-peeringdb.pdf) at [ITNOG2](http://www.itnog.it/itnog2/), Bologna, IT - November 3, 2016 - Arnold Nipper
@@ -100,17 +101,14 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 - [NetNod](http://www.netnod.se/netnod-spring-meeting-2016), Stockholm, SE - March 17, 2016 - Job Snijders
 - [DKNOG6](http://www.dknog.dk/events/dknog6/), Copenhagen, DK - March 10, 2016 - Job Snijders
 - [PeeringDB Update](presentation/PeeringTrack-PDB-Update-20160205.pdf) - Aaron Hughes
-  Presented at
-    - [APRICOT 2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 by Aaron Hughes
-    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 by Aaron Hughes
+    - [APRICOT 2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 - Aaron Hughes
+    - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 - Aaron Hughes
 - [PeeringDB Version 2 Coding Introduction](presentation/PeeringDB_Version_2-Coding_Introduction.pdf) at [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 8, 2016 - Matt Griswold
 - [PeeringDB Version 2 Brazil](presentation/PeeringDB_Version_2-Brazil.pdf) - Matt Griswold / Greg Hankins
-  Presented at
-    - [IX (PTT) Fórum 9](http://ix.br/pttforum/9/index-en.html), São Paulo, BR - December 8, 2015 by Greg Hankins
+    - [IX (PTT) Fórum 9](http://ix.br/pttforum/9/index-en.html), São Paulo, BR - December 8, 2015 - Greg Hankins
 - [PeeringDB Version 2 Introduction](presentation/PeeringDB_Version_2-Introduction.pdf) - Matt Griswold
-  Presented at
-    - [27th Euro-IX Forum](https://www.euro-ix.net/news-and-events/euro-ix-forum/), Berlin, DE - October 26, 2015 by Greg Hankins
-    - [DENOG7](http://www.denog.de/meetings/denog7/?lang=en), Darmstadt, DE - October 30, 2015 by Arnold Nipper 
+    - [27th Euro-IX Forum](https://www.euro-ix.net/news-and-events/euro-ix-forum/), Berlin, DE - October 26, 2015 - Greg Hankins
+    - [DENOG7](http://www.denog.de/meetings/denog7/?lang=en), Darmstadt, DE - October 30, 2015 - Arnold Nipper 
 
 ## Tools
 
