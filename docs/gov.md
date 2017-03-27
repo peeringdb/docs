@@ -7,6 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Member Meetings
 
+- April 20th, 2017: [Agenda](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Agenda.txt)
 - April 21st, 2016: [Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt) | [Minutes](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf) | [Audio](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Audio.mp3)
 
 ## Strategic Plan & Organizational Objectives
