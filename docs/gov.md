@@ -51,6 +51,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 14th, 2017: Board election voter's guide](gov/misc/2017-04-14_election.html)
 - [April 30th, 2016: Board election results](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2016: Board election voter's guide](gov/misc/2016-04-14_election.html)
 - [December 1st, 2015: Board election results](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)

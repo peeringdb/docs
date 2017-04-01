@@ -52,7 +52,7 @@ mailing list. The plan:
 
  - The interim Secretary (tentatively Chris Caputo) will send out ballots 
    to pdb-gov on November 15th, with voting to happen through November 
-   30th.  The org docs currently proscribe one ballot per member 
+   30th.  The org docs currently proscribe [CORRECTION: prescribe] one ballot per member 
    organization.  The interim Secretary will break ties through public 
    random means.  The Secretary will not be eligible for election to the 
    initial Board.
