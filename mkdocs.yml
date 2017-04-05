@@ -6,7 +6,9 @@ theme_dir: peeringdb_theme
 
 pages:
   - PeeringDB: index.md
-  - Committees: committee.md
+  - Committees: 
+    - Charters: committee.md
+    - Workflow: workflow.md
   - Governance: gov.md
   - FAQ: faq.md
   - API Specs: api_specs.md
