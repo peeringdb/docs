@@ -4,7 +4,7 @@
 
 ## Admin Committee
 
-
+---
 ## Product Committee
 
 ### Charter
@@ -39,7 +39,7 @@ The PC shall work with other PeeringDB committees to ensure an equitable divisio
 
 #### Participation
 
-The PeeringDB Product Committee members serve a 1 year renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee
+The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee
 
 
 #### Communication
@@ -53,18 +53,7 @@ The PeeringDB Product Committee members serve a 1 year renewable term. Volunteer
 
 Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair
 
+### More information
+[Development Workflow](workflow.md)
 
-### Workflow
-
-We use GitHub issues located at <https://github.com/peeringdb/peeringdb/issues> with the [ZenHub](https://www.zenhub.com/) overlay.
-
-**New Issues** Evaluate if it's actually an issue, ask for feedback, etc, once it is determined valid, move it to **Icebox** and label it either bug or enhancement. Moving from New to **Icebox** probably doesn't need much discussion, it's quite easy to move back or mark as "wontfix" later. If anyone looks at an issue and it seems legit, move to **Icebox** for discussion. If it's a bug, try to reproduce it, if you can't, comment and ask for more information and leave in new.
-
-Once, with a developer involved, it's decided no more information is needed to be able to fix/implement it, it can move to **Backlog**, with a rough estimate. **Backlog** should be ordered with more important higher in the list.
-
-**Sprint** is the column that's next in the pipeline, which is everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.
-
-All other PeeringDB projects should go through this issue board since we have to decide priority. For example, when something for peeringdb-py goes into a sprint, we'll make an issue on the peeringdb-py project, and pull it into that board.
-
-**Done** means completed in development, and will be pushed to beta for review. Issues are not **Closed** until they're deployed to production.
 

@@ -41,6 +41,7 @@ You should now see a message similar to:
 
 Point your browser at that URL, and you'll get real time updates to the generated documentation as you edit.
 
+mkdocs has its own formatting syntax, to get started look [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for an excellent cheatsheet
 
 ### Updating the site
 
