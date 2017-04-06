@@ -7,7 +7,7 @@ As viewable at http://docs.peeringdb.com/
 
 ### Modifying these docs
 
-To work on and change these documents, you'll need python and pip.
+To work on and change these documents, you'll need git, python, and pip.
 
 - CentOS
     ```
@@ -19,9 +19,13 @@ Install [MkDocs](http://www.mkdocs.org/)
 pip install mkdocs
 ```
 
-Clone the repo (fork first and clone your copy)
+Fork the repo
+- click the fork button on <https://github.com/peeringdb/docs>
+- select your github username
+
+Clone the repo
 ```sh
-git clone git@github.com:peeringdb/docs.git
+git clone git@github.com:$GITHUB_USERNAME/docs.git
 cd docs
 ```
 
@@ -41,10 +45,14 @@ You should now see a message similar to:
 
 Point your browser at that URL, and you'll get real time updates to the generated documentation as you edit.
 
-mkdocs has its own formatting syntax, to get started look [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for an excellent cheatsheet
+Markdown has its own formatting syntax, to get started look [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for an excellent cheatsheet.
 
 ### Updating the site
+
+Once you are happy with your changes, commit and push, then run
 
 ```sh
 mkdocs gh-deploy
 ```
+
+After that, you will be able to view your changes at `$GITHUB_USER.github.io/docs`.
