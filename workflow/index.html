@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="canonical" href="http://docs.peeringdb.com/workflow/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>PeeringDB</title>
+	<title>Workflow - PeeringDB</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./extra.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">PeeringDB</a>
+            <a class="navbar-brand" href="..">PeeringDB</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -55,24 +55,24 @@
                 
                 
                     <li >
-                        <a href=".">PeeringDB</a>
+                        <a href="..">PeeringDB</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="committee/">Charters</a>
+    <a href="../committee/">Charters</a>
 </li>
 
                         
                             
-<li >
-    <a href="workflow/">Workflow</a>
+<li class="active">
+    <a href="./">Workflow</a>
 </li>
 
                         
@@ -82,19 +82,19 @@
                 
                 
                     <li >
-                        <a href="gov/">Governance</a>
+                        <a href="../gov/">Governance</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="faq/">FAQ</a>
+                        <a href="../faq/">FAQ</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="api_specs/">API Specs</a>
+                        <a href="../api_specs/">API Specs</a>
                     </li>
                 
                 
@@ -108,13 +108,13 @@
                     </a>
                 </li>
                 
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../committee/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../gov/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -136,15 +136,25 @@
 
         <div class="container">
             
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#workflow">Workflow</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="workflow">Workflow</h1>
+<p>The development roadmap is tracked using GitHub issues located at <a href="https://github.com/peeringdb/peeringdb/issues">https://github.com/peeringdb/peeringdb/issues</a> with the <a href="https://www.zenhub.com/">ZenHub</a> overlay.</p>
+<p><strong>New Issues</strong> Are evaluated to confirm they are actually an issue, which may require asking for feedback. Once an issue is determined to be valid, it is moved to <strong>Icebox</strong> and labeled either bug or enhancement. Moving from New to <strong>Icebox</strong> does not need much discussion as it is easy to move the issue back or mark it as "wontfix" later. </p>
+<p>Product Committee members look at the issues and move them <strong>Icebox</strong> for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category <strong>New Issues</strong>.</p>
+<p>Once Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to <strong>Backlog</strong>, with a rough estimate. <strong>Backlog</strong> should be ordered with more important higher in the list.</p>
+<p><strong>Sprint</strong> is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.</p>
+<p>All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.</p>
+<p><strong>Done</strong> means the issue is completed in development and will be pushed to beta for review. Issues are not <strong>Closed</strong> until they are deployed to production.</p></div>
+            
         </div>
 
         <footer class="col-md-12">
@@ -153,12 +163,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
