@@ -84,6 +84,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 - Purpose is to study and recommend feature needs.
 - Board members Hughes (Chair) and Griswold (Vice Chair).
 - Interested in volunteering? Contact [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com).
+- [March 21st, 2017: Meeting Notes](gov/misc/2017-03-21_Product_Committee_Notes.pdf)
 
 ## Alumni
 
