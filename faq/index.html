@@ -8,22 +8,21 @@
         
         <link rel="canonical" href="http://docs.peeringdb.com/faq/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-
-	<title>FAQ - PeeringDB</title>
-
+        <title>FAQ - PeeringDB</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/highlight.css">
         <link href="../extra.css" rel="stylesheet">
-
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script> 
     </head>
 
     <body>
@@ -33,7 +32,6 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -41,65 +39,39 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
-
-            <!-- Main title -->
             <a class="navbar-brand" href="..">PeeringDB</a>
         </div>
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
-            
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
-                
-                
                     <li >
                         <a href="..">PeeringDB</a>
                     </li>
-                
-                
-                
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                        
                             
 <li >
     <a href="../committee/">Charters</a>
 </li>
-
-                        
                             
 <li >
     <a href="../workflow/">Workflow</a>
 </li>
-
-                        
                         </ul>
                     </li>
-                
-                
-                
                     <li >
                         <a href="../gov/">Governance</a>
                     </li>
-                
-                
-                
                     <li class="active">
                         <a href="./">FAQ</a>
                     </li>
-                
-                
-                
                     <li >
                         <a href="../api_specs/">API Specs</a>
                     </li>
-                
-                
                 </ul>
-            
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -107,7 +79,6 @@
                         <i class="fa fa-search"></i> Search
                     </a>
                 </li>
-                
                     <li >
                         <a rel="next" href="../gov/">
                             <i class="fa fa-arrow-left"></i> Previous
@@ -118,44 +89,27 @@
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
-                
-                
                     <li>
                         <a href="https://github.com/peeringdb/docs">
-                            
-                                <i class="fa fa-github"></i>
-                            
-                            GitHub
+                                <i class="fa fa-github"></i>GitHub
                         </a>
                     </li>
-                
             </ul>
         </div>
     </div>
 </div>
 
         <div class="container">
-            
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-    
         <li class="main active"><a href="#faq">FAQ</a></li>
-        
             <li><a href="#how-do-i-query-by-asn">How do I query by ASN?</a></li>
-        
             <li><a href="#using-asn-used-to-work-what-happened">Using /asn used to work, what happened?</a></li>
-        
             <li><a href="#how-do-the-new-permissions-work">How do the new permissions work?</a></li>
-        
             <li><a href="#authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</a></li>
-        
             <li><a href="#why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</a></li>
-        
             <li><a href="#how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</a></li>
-        
             <li><a href="#when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</a></li>
-        
-    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -190,46 +144,41 @@ authentication in the URL</p>
 <p>We will fix that when time allows, for the time being, just run:</p>
 <pre><code>alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
 </code></pre></div>
-            
         </div>
 
         <footer class="col-md-12">
-            <hr>
-            
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
+<p>Follow us on Social Media:<br>
+  <a target='_blank' href='https://twitter.com/PeeringDB'><img src='img/twitter.png'></a>
+  <a target='_blank' href='https://www.facebook.com/peeringdb/'><img src='img/facebook.png'></a> 
+</p>
 
-        <script src="../js/jquery-1.10.2.min.js"></script>
-        <script src="../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../js/highlight.pack.js"></script>
+        </footer>
         <script>var base_url = '..';</script>
         <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
-        <script src="../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
                     </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
             </div>
         </div>
+    </div>
+</div>
 
     </body>
 </html>
