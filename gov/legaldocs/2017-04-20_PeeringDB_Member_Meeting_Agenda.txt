@@ -42,6 +42,10 @@ Agenda:
 
  - Welcome & Thanks - Aaron Hughes
 
+ - Approval of minutes from last member meeting - Aaron Hughes
+
+     http://docs.peeringdb.com/gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf
+
  - PeeringDB Software Update - Matt Griswold
 
  - Financial Update & Call For Sponsors - Chris Caputo
