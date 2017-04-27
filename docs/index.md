@@ -82,7 +82,8 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
-- [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona//), Barcelona, ES - April 6, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20170426-gpf-12.0-hughes-peeringdb.pdf) at [Global Peering Forum 12.0](https://www.peeringforum.com/gpf-12-0-peeringdb-update/), New York, US - April 26, 2017 - Aaron Huges
+- [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona/), Barcelona, ES - April 6, 2017 - Arnold Nipper
 - [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](http://www.peeringdays.eu/), Ljubljana, SL - March 23, 2017 - Arnold Nipper
 - [PeeringDB 2.0](presentation/20170228-Apricot2017-Nipper.pdf) at [APRICOT 2017](https://2017.apricot.net/), Ho Chi Minh City, VN - February 28, 2017 - Arnold Nipper
 - [PeeringDB](presentation/2016-11-23-kikeautumn16-2.pdf) at [19 KIKE Conference](http://kikeevents.com/en/category/19-kike-conference/), Serock, PL - November 23, 2016 - Robert Jakub
