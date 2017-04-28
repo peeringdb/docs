@@ -1,39 +1,18 @@
 # PeeringDB
 
-## Introduction
-
-### Goals
-!!! info
-    These docs were meant to go away with beta, but since we haven't made official 2.0 docs yet, they're still around and (hopefully) have been updated to be current.
-
-!!! danger "Attention"
-    The MySQL interface is gone.
-
-    Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
-
-    The last available MySQL dump is now available at <https://peeringdb.com/v1/final_export.sql>
-
-### Changes from version 1
-
-- All fields are validated (email, IP address, etc), fields not validated are either discarded or put into a notes field.
-- Network connections to Internet Exchanges have changed to "links" with multiple IP addresses on them
-- Numerous small schema changes
-- All objects are structured under an Organization with granular access controls
-
 ## Quick start
 
-If you want to poke around on your own, it's located at <https://peeringdb.com/> with self describing API docs at <https://peeringdb.com/apidocs/>
-
-More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
+PeeringDB is available at <https://www.peeringdb.com/> with self-describing API docs at <https://www.peeringdb.com/apidocs/>.  More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 
 For example:
-<https://peeringdb.com/net/1>
-becomes
-<https://peeringdb.com/api/net/1>
+<https://www.peeringdb.com/net/1>
+becomes:
+<https://www.peeringdb.com/api/net/1>
 
 List all via API by taking the `id` off:
+<https://www.peeringdb.com/api/net>
 
-<https://peeringdb.com/api/net>
+Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
 ## Mailing lists
 
@@ -133,6 +112,11 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 * Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
 
 * Questions, comments and everything else should go to <support@peeringdb.com>.
+
+## Historical data
+
+* The PeeringDB 1.0 MySQL interface is gone.  The last available MySQL dump is archived at <https://www.peeringdb.com/v1/final_export.sql>.
+* MySQL dumps from July, 29 2010 to March 14, 2016 are archived by CAIDA at <http://data.caida.org/datasets/peeringdb-v1/>.
 
 ## How you can help
 
