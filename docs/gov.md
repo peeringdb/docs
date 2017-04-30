@@ -51,6 +51,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 30th, 2017: Board election results](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2017: Board election voter's guide](gov/misc/2017-04-14_election.html)
 - [April 30th, 2016: Board election results](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2016: Board election voter's guide](gov/misc/2016-04-14_election.html)
@@ -61,11 +62,11 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board of Directors
 
-- Seat 1 (term expires 2017): [Arnold Nipper](mailto:arnold@peeringdb.com), 2015-
+- Seat 1 (term expires 2019): Bijal Sanghani, 2017-
 - Seat 2 (term expires 2018): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 3 (term expires 2017): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
+- Seat 3 (term expires 2019): [Arnold Nipper](mailto:arnold@peeringdb.com), 2015-
 - Seat 4 (term expires 2018): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 5 (term expires 2017): [Matt Griswold](mailto:grizz@peeringdb.com), 2015-
+- Seat 5 (term expires 2019): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
 
 ## Officers
 
@@ -89,4 +90,5 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Alumni
 
+- Matt Griswold, Director, 2015-2017
 - Patrick W. Gilmore, Vice President, 2015-2016
