@@ -62,7 +62,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board of Directors
 
-- Seat 1 (term expires 2019): Bijal Sanghani, 2017-
+- Seat 1 (term expires 2019): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
 - Seat 2 (term expires 2018): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
 - Seat 3 (term expires 2019): [Arnold Nipper](mailto:arnold@peeringdb.com), 2015-
 - Seat 4 (term expires 2018): [Job Snijders](mailto:job@peeringdb.com), 2015-
