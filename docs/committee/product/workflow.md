@@ -1,4 +1,6 @@
-# Workflow
+## Workflow
+
+[Diagram of Workflow](Product_Committee-Workflow.pdf)
 
 The development roadmap is tracked using GitHub issues located at <https://github.com/peeringdb/peeringdb/issues> with the [ZenHub](https://www.zenhub.com/) overlay.
 

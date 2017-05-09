@@ -80,13 +80,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 - Board members Snijders (Chair), Nipper (Vice Chair), and Gilmore.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
-## Product Development Committee
+## Product Committee
 
-- Purpose is to study and recommend feature needs.
-- Board members Hughes (Chair) and Griswold (Vice Chair).
-- Interested in volunteering? Contact [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com).
-- [March 21st, 2017: Meeting Notes](gov/misc/2017-03-21_Product_Committee_Notes.pdf)
-- [April 13th, 2017: Meeting Notes](gov/misc/2017-04-13_Product_Committee_Notes.pdf)
+Please see the [Product Committee](/committee/product/) page.
 
 ## Alumni
 
