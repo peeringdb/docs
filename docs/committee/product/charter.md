@@ -1,13 +1,6 @@
 
-# PeeringDB Committees
-
-
-## Admin Committee
-
 ---
-## Product Committee
-
-### Charter
+## Product Committee Charter
 
 *** DRAFT ***
 
@@ -53,7 +46,4 @@ The PeeringDB Product Committee members serve a 2 years renewable term. Voluntee
 
 Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair
 
-### More information
-[Development Workflow](workflow.md)
-
-
+---

@@ -6,10 +6,9 @@ theme_dir: peeringdb_theme
 
 pages:
   - PeeringDB: index.md
-  - Committees: 
-    - Charters: committee.md
-    - Workflow: workflow.md
   - Governance: gov.md
+  - Committee:
+    - Product: committee/product/index.md
   - FAQ: faq.md
   - API Specs: api_specs.md
 
@@ -22,6 +21,6 @@ markdown_extensions:
   - def_list
   - footnotes
   - tables
+  - markdown_include.include
   - nl2br
   - toc
-
