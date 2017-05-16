@@ -51,83 +51,8 @@
             "title": "How you can help"
         }, 
         {
-            "location": "/committee/", 
-            "text": "PeeringDB Committees\n\n\nAdmin Committee\n\n\n\n\nProduct Committee\n\n\nCharter\n\n\n DRAFT \n\n\nScope\n\n\nThe PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.\n\n\nOut of Scope\n\n\n\n\nThe PC does not drive PeeringDB improvements related to the administrative interfaces \n functions used by the PeeringDB Admin Committee.\n\n\nThe PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.\n\n\n\n\nDeliverables\n\n\n\n\nGather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.\n\n\nFormulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.\n\n\nProcess documentation detailing the treatment of product enhancement requests submitted to the PC.\n\n\nMaintain the product roadmap and feature request backlog and makes them publically accessible. \n\n\nCreate and maintain PeeringDB product documentation and presentation materials.\n\n\nDevelop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.\n\n\nPropose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.\n\n\n\n\nCollaboration\n\n\nThe PC shall work with other PeeringDB committees to ensure an equitable division of development resources in recognition of the volunteer efforts that are ensuring the daily operations.\n\n\nParticipation\n\n\nThe PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee\n\n\nCommunication\n\n\n\n\nQuestions and suggestions for the Product Committee can be sent to \n\n\nKey development communication and community input gathering efforts will be conducted via the PeeringDB Governance Mailinglist \npdb-gov@lists.peeringdb.com\n\n\nAll issues and the product roadmap and feature backlog can be found at \nhttps://github.com/peeringdb/peeringdb/issues\n\n\n\n\nDecision Policy\n\n\nProduct Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair\n\n\nMore information\n\n\nDevelopment Workflow", 
-            "title": "Charters"
-        }, 
-        {
-            "location": "/committee/#peeringdb-committees", 
-            "text": "", 
-            "title": "PeeringDB Committees"
-        }, 
-        {
-            "location": "/committee/#admin-committee", 
-            "text": "", 
-            "title": "Admin Committee"
-        }, 
-        {
-            "location": "/committee/#product-committee", 
-            "text": "", 
-            "title": "Product Committee"
-        }, 
-        {
-            "location": "/committee/#charter", 
-            "text": "DRAFT", 
-            "title": "Charter"
-        }, 
-        {
-            "location": "/committee/#scope", 
-            "text": "The PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.", 
-            "title": "Scope"
-        }, 
-        {
-            "location": "/committee/#out-of-scope", 
-            "text": "The PC does not drive PeeringDB improvements related to the administrative interfaces   functions used by the PeeringDB Admin Committee.  The PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.", 
-            "title": "Out of Scope"
-        }, 
-        {
-            "location": "/committee/#deliverables", 
-            "text": "Gather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.  Formulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.  Process documentation detailing the treatment of product enhancement requests submitted to the PC.  Maintain the product roadmap and feature request backlog and makes them publically accessible.   Create and maintain PeeringDB product documentation and presentation materials.  Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.  Propose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.", 
-            "title": "Deliverables"
-        }, 
-        {
-            "location": "/committee/#collaboration", 
-            "text": "The PC shall work with other PeeringDB committees to ensure an equitable division of development resources in recognition of the volunteer efforts that are ensuring the daily operations.", 
-            "title": "Collaboration"
-        }, 
-        {
-            "location": "/committee/#participation", 
-            "text": "The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee", 
-            "title": "Participation"
-        }, 
-        {
-            "location": "/committee/#communication", 
-            "text": "Questions and suggestions for the Product Committee can be sent to   Key development communication and community input gathering efforts will be conducted via the PeeringDB Governance Mailinglist  pdb-gov@lists.peeringdb.com  All issues and the product roadmap and feature backlog can be found at  https://github.com/peeringdb/peeringdb/issues", 
-            "title": "Communication"
-        }, 
-        {
-            "location": "/committee/#decision-policy", 
-            "text": "Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair", 
-            "title": "Decision Policy"
-        }, 
-        {
-            "location": "/committee/#more-information", 
-            "text": "Development Workflow", 
-            "title": "More information"
-        }, 
-        {
-            "location": "/workflow/", 
-            "text": "Workflow\n\n\nThe development roadmap is tracked using GitHub issues located at \nhttps://github.com/peeringdb/peeringdb/issues\n with the \nZenHub\n overlay.\n\n\nNew Issues\n Are evaluated to confirm they are actually an issue, which may require asking for feedback. Once an issue is determined to be valid, it is moved to \nIcebox\n and labeled either bug or enhancement. Moving from New to \nIcebox\n does not need much discussion as it is easy to move the issue back or mark it as \"wontfix\" later. \n\n\nProduct Committee members look at the issues and move them \nIcebox\n for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category \nNew Issues\n.\n\n\nOnce Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to \nBacklog\n, with a rough estimate. \nBacklog\n should be ordered with more important higher in the list.\n\n\nSprint\n is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.\n\n\nAll other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.\n\n\nDone\n means the issue is completed in development and will be pushed to beta for review. Issues are not \nClosed\n until they are deployed to production.", 
-            "title": "Workflow"
-        }, 
-        {
-            "location": "/workflow/#workflow", 
-            "text": "The development roadmap is tracked using GitHub issues located at  https://github.com/peeringdb/peeringdb/issues  with the  ZenHub  overlay.  New Issues  Are evaluated to confirm they are actually an issue, which may require asking for feedback. Once an issue is determined to be valid, it is moved to  Icebox  and labeled either bug or enhancement. Moving from New to  Icebox  does not need much discussion as it is easy to move the issue back or mark it as \"wontfix\" later.   Product Committee members look at the issues and move them  Icebox  for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category  New Issues .  Once Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to  Backlog , with a rough estimate.  Backlog  should be ordered with more important higher in the list.  Sprint  is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.  All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.  Done  means the issue is completed in development and will be pushed to beta for review. Issues are not  Closed  until they are deployed to production.", 
-            "title": "Workflow"
-        }, 
-        {
             "location": "/gov/", 
-            "text": "PeeringDB Governance\n\n\nMission Statement\n\n\nPeeringDB, a nonprofit member-based organization, facilitates the exchange of user maintained interconnection related information, primarily for Peering Coordinators and Internet Exchange, Facility, and Network Operators.\n\n\nMember Meetings\n\n\n\n\nApril 20th, 2017: \nAgenda\n - \nMinutes\n - \nAudio\n\n\nApril 21st, 2016: \nAgenda\n - \nMinutes\n - \nAudio\n\n\n\n\nStrategic Plan \n Organizational Objectives\n\n\n\n\n2017-2018 \nDRAFT\n\n\n\n\nBoard Meetings\n\n\n\n\nFebruary 9th, 2017\n\n\nJanuary 13th, 2017\n\n\nDecember 2nd, 2016\n\n\nSeptember 22nd, 2016\n\n\nAugust 10th, 2016\n\n\nJuly 1st, 2016\n\n\nMay 18th, 2016\n\n\nApril 6th, 2016\n\n\nMarch 4th, 2016\n\n\nFebruary 4th, 2016\n\n\nJanuary 7th, 2016\n\n\nDecember 8th, 2015\n\n\n\n\nFinances\n\n\n\n\nMay 10th, 2017: IRS Form 990-EZ for 2016\n\n\nDecember 31st, 2016: Finance Report\n\n\nApril 15th, 2016: IRS Form W-9\n\n\nFebruary 24th, 2016: IRS 501(c)(6) Exemption Letter\n\n\nFebruary 23rd, 2016: IRS Form 990-N for 2014\n\n\nFebruary 18th, 2016: IRS Form 990-N for 2015\n\n\nJanuary 7th, 2016: IRS 501(c)(6) Application\n\n\nDecember 31st, 2015: Finance Report\n\n\nDecember 31st, 2014: Finance Report\n\n\n\n\nOrganizational Documents\n\n\n\n\nDecember 1st, 2016: Annual Report\n\n\nMay 18th, 2016: Amended Annual Report\n\n\nDecember 16th, 2015: Certificate and Articles of Incorporation\n\n\nDecember 8th, 2015: Organizational Consent\n\n\nDecember 8th, 2015: Bylaws\n\n\nDecember 8th, 2015: Conflict of Interest Policy\n\n\n\n\nSurveys \n Elections\n\n\n\n\nApril 30th, 2017: Board election results\n\n\nApril 14th, 2017: Board election voter's guide\n\n\nApril 30th, 2016: Board election results\n\n\nApril 14th, 2016: Board election voter's guide\n\n\nDecember 1st, 2015: Board election results\n\n\nNovember 14th, 2015: Board election voter's guide\n\n\nOctober 20th, 2015: Announcement of survey results and Board election plan\n\n\nAugust, 2015: Survey for future of PeeringDB\n\n\n\n\nBoard of Directors\n\n\n\n\nSeat 1 (term expires 2019): \nBijal Sanghani\n, 2017-\n\n\nSeat 2 (term expires 2018): \nAaron Hughes\n, 2015-\n\n\nSeat 3 (term expires 2019): \nArnold Nipper\n, 2015-\n\n\nSeat 4 (term expires 2018): \nJob Snijders\n, 2015-\n\n\nSeat 5 (term expires 2019): \nPatrick W. Gilmore\n, 2015-\n\n\n\n\nOfficers\n\n\n\n\nAaron Hughes\n, President, 2015-\n\n\nJob Snijders\n, Vice President, 2016-\n\n\nChris Caputo\n, Secretary \n Treasurer, 2015-\n\n\n\n\nAdmin Committee\n\n\n\n\nPurpose is to oversee the adminstrator mission and volunteers.\n\n\nBoard members Snijders (Chair), Nipper (Vice Chair), and Gilmore.\n\n\nInterested in volunteering? Contact \nadmincom@lists.peeringdb.com\n.\n\n\n\n\nProduct Development Committee\n\n\n\n\nPurpose is to study and recommend feature needs.\n\n\nBoard members Hughes (Chair) and Griswold (Vice Chair).\n\n\nInterested in volunteering? Contact \nproductcom@lists.peeringdb.com\n.\n\n\nMarch 21st, 2017: Meeting Notes\n\n\nApril 13th, 2017: Meeting Notes\n\n\n\n\nAlumni\n\n\n\n\nMatt Griswold, Director, 2015-2017\n\n\nPatrick W. Gilmore, Vice President, 2015-2016", 
+            "text": "PeeringDB Governance\n\n\nMission Statement\n\n\nPeeringDB, a nonprofit member-based organization, facilitates the exchange of user maintained interconnection related information, primarily for Peering Coordinators and Internet Exchange, Facility, and Network Operators.\n\n\nMember Meetings\n\n\n\n\nApril 20th, 2017: \nAgenda\n - \nMinutes\n - \nAudio\n\n\nApril 21st, 2016: \nAgenda\n - \nMinutes\n - \nAudio\n\n\n\n\nStrategic Plan \n Organizational Objectives\n\n\n\n\n2017-2018 \nDRAFT\n\n\n\n\nBoard Meetings\n\n\n\n\nFebruary 9th, 2017\n\n\nJanuary 13th, 2017\n\n\nDecember 2nd, 2016\n\n\nSeptember 22nd, 2016\n\n\nAugust 10th, 2016\n\n\nJuly 1st, 2016\n\n\nMay 18th, 2016\n\n\nApril 6th, 2016\n\n\nMarch 4th, 2016\n\n\nFebruary 4th, 2016\n\n\nJanuary 7th, 2016\n\n\nDecember 8th, 2015\n\n\n\n\nFinances\n\n\n\n\nMay 10th, 2017: IRS Form 990-EZ for 2016\n\n\nDecember 31st, 2016: Finance Report\n\n\nApril 15th, 2016: IRS Form W-9\n\n\nFebruary 24th, 2016: IRS 501(c)(6) Exemption Letter\n\n\nFebruary 23rd, 2016: IRS Form 990-N for 2014\n\n\nFebruary 18th, 2016: IRS Form 990-N for 2015\n\n\nJanuary 7th, 2016: IRS 501(c)(6) Application\n\n\nDecember 31st, 2015: Finance Report\n\n\nDecember 31st, 2014: Finance Report\n\n\n\n\nOrganizational Documents\n\n\n\n\nDecember 1st, 2016: Annual Report\n\n\nMay 18th, 2016: Amended Annual Report\n\n\nDecember 16th, 2015: Certificate and Articles of Incorporation\n\n\nDecember 8th, 2015: Organizational Consent\n\n\nDecember 8th, 2015: Bylaws\n\n\nDecember 8th, 2015: Conflict of Interest Policy\n\n\n\n\nSurveys \n Elections\n\n\n\n\nApril 30th, 2017: Board election results\n\n\nApril 14th, 2017: Board election voter's guide\n\n\nApril 30th, 2016: Board election results\n\n\nApril 14th, 2016: Board election voter's guide\n\n\nDecember 1st, 2015: Board election results\n\n\nNovember 14th, 2015: Board election voter's guide\n\n\nOctober 20th, 2015: Announcement of survey results and Board election plan\n\n\nAugust, 2015: Survey for future of PeeringDB\n\n\n\n\nBoard of Directors\n\n\n\n\nSeat 1 (term expires 2019): \nBijal Sanghani\n, 2017-\n\n\nSeat 2 (term expires 2018): \nAaron Hughes\n, 2015-\n\n\nSeat 3 (term expires 2019): \nArnold Nipper\n, 2015-\n\n\nSeat 4 (term expires 2018): \nJob Snijders\n, 2015-\n\n\nSeat 5 (term expires 2019): \nPatrick W. Gilmore\n, 2015-\n\n\n\n\nOfficers\n\n\n\n\nAaron Hughes\n, President, 2015-\n\n\nJob Snijders\n, Vice President, 2016-\n\n\nChris Caputo\n, Secretary \n Treasurer, 2015-\n\n\n\n\nAdmin Committee\n\n\n\n\nPurpose is to oversee the adminstrator mission and volunteers.\n\n\nBoard members Snijders (Chair), Nipper (Vice Chair), and Gilmore.\n\n\nInterested in volunteering? Contact \nadmincom@lists.peeringdb.com\n.\n\n\n\n\nProduct Committee\n\n\nPlease see the \nProduct Committee\n page.\n\n\nAlumni\n\n\n\n\nMatt Griswold, Director, 2015-2017\n\n\nPatrick W. Gilmore, Vice President, 2015-2016", 
             "title": "Governance"
         }, 
         {
@@ -186,14 +111,79 @@
             "title": "Admin Committee"
         }, 
         {
-            "location": "/gov/#product-development-committee", 
-            "text": "Purpose is to study and recommend feature needs.  Board members Hughes (Chair) and Griswold (Vice Chair).  Interested in volunteering? Contact  productcom@lists.peeringdb.com .  March 21st, 2017: Meeting Notes  April 13th, 2017: Meeting Notes", 
-            "title": "Product Development Committee"
+            "location": "/gov/#product-committee", 
+            "text": "Please see the  Product Committee  page.", 
+            "title": "Product Committee"
         }, 
         {
             "location": "/gov/#alumni", 
             "text": "Matt Griswold, Director, 2015-2017  Patrick W. Gilmore, Vice President, 2015-2016", 
             "title": "Alumni"
+        }, 
+        {
+            "location": "/committee/product/", 
+            "text": "PeeringDB Product Committee\n\n\n\n\nPurpose is to study and recommend feature needs.\n\n\nInterested in volunteering? Contact \nproductcom@lists.peeringdb.com\n.\n\n\n\n\n\n\nProduct Committee Charter\n\n\n DRAFT \n\n\nScope\n\n\nThe PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.\n\n\nOut of Scope\n\n\n\n\nThe PC does not drive PeeringDB improvements related to the administrative interfaces \n functions used by the PeeringDB Admin Committee.\n\n\nThe PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.\n\n\n\n\nDeliverables\n\n\n\n\nGather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.\n\n\nFormulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.\n\n\nProcess documentation detailing the treatment of product enhancement requests submitted to the PC.\n\n\nMaintain the product roadmap and feature request backlog and makes them publically accessible. \n\n\nCreate and maintain PeeringDB product documentation and presentation materials.\n\n\nDevelop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.\n\n\nPropose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.\n\n\n\n\nCollaboration\n\n\nThe PC shall work with other PeeringDB committees to ensure an equitable division of development resources in recognition of the volunteer efforts that are ensuring the daily operations.\n\n\nParticipation\n\n\nThe PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee\n\n\nCommunication\n\n\n\n\nQuestions and suggestions for the Product Committee can be sent to \n\n\nKey development communication and community input gathering efforts will be conducted via the PeeringDB Governance Mailinglist \npdb-gov@lists.peeringdb.com\n\n\nAll issues and the product roadmap and feature backlog can be found at \nhttps://github.com/peeringdb/peeringdb/issues\n\n\n\n\nDecision Policy\n\n\nProduct Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair\n\n\n\n\nWorkflow\n\n\nDiagram of Workflow\n\n\nThe development roadmap is tracked using GitHub issues located at \nhttps://github.com/peeringdb/peeringdb/issues\n with the \nZenHub\n overlay.\n\n\nNew Issues\n Are evaluated to confirm they are actually an issue, which may require asking for feedback. Issues where the solution is unclear or the bug cannot be reproduced are moved to \nReview\n. Once an issue is determined to be valid and coherent with the product vision, it is moved to \nBacklog\n and labeled as either bug or enhancement. Moving from New to \nBacklog\n does not need much discussion as it is easy to move the issue back or mark it as \"wontfix\" later.\n\n\nProduct Committee members look at the issues and move them \nReview\n for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category \nReview\n.\n\n\nIf the issue is considered not to be coherent with the product vision, it will be marked as \"wontfix\"; the requester always has the option to escalate his issue to the PeeringDB board if she disagrees with the assessment of the Product Committee.\n\n\nOnce Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to \nPC Candidates\n, with a rough estimate. \nPC Candidates\n should be ordered with more important higher in the list.\n\n\nDepending on the effort required to implement the issue, development will be done either on project basis or as part of the maintenance agreement. The Product Committee follows a budget release process to fund project based development efforts. Developments that fall within the budget envelope allocated to the Product Committee require no further approval by the board, however 75% of the Product Committee members must agree. \n\n\nSprint\n is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.\n\n\nAll other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.\n\n\nDone\n means the issue is completed in development and will be pushed to beta for review. Issues are not \nClosed\n until they are deployed to production\n\n\nMeeting Notes\n\n\n\n\nMarch 21st, 2017: Meeting Notes\n\n\nApril 13th, 2017: Meeting Notes\n\n\n\n\nMembers\n\n\n\n\nAaron Hughes (Chair)\n\n\nMatt Griswold (Vice Chair)\n\n\nKarthik Arumugham\n\n\nGreg Hankins\n\n\nMartin J. Levy\n\n\nEric Loos\n\n\nStephen McManus\n\n\nArnold Nipper\n\n\nKay Rechthien", 
+            "title": "Product"
+        }, 
+        {
+            "location": "/committee/product/#peeringdb-product-committee", 
+            "text": "Purpose is to study and recommend feature needs.  Interested in volunteering? Contact  productcom@lists.peeringdb.com .", 
+            "title": "PeeringDB Product Committee"
+        }, 
+        {
+            "location": "/committee/product/#product-committee-charter", 
+            "text": "DRAFT", 
+            "title": "Product Committee Charter"
+        }, 
+        {
+            "location": "/committee/product/#scope", 
+            "text": "The PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/committee/product/#out-of-scope", 
+            "text": "The PC does not drive PeeringDB improvements related to the administrative interfaces   functions used by the PeeringDB Admin Committee.  The PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.", 
+            "title": "Out of Scope"
+        }, 
+        {
+            "location": "/committee/product/#deliverables", 
+            "text": "Gather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.  Formulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.  Process documentation detailing the treatment of product enhancement requests submitted to the PC.  Maintain the product roadmap and feature request backlog and makes them publically accessible.   Create and maintain PeeringDB product documentation and presentation materials.  Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.  Propose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.", 
+            "title": "Deliverables"
+        }, 
+        {
+            "location": "/committee/product/#collaboration", 
+            "text": "The PC shall work with other PeeringDB committees to ensure an equitable division of development resources in recognition of the volunteer efforts that are ensuring the daily operations.", 
+            "title": "Collaboration"
+        }, 
+        {
+            "location": "/committee/product/#participation", 
+            "text": "The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee", 
+            "title": "Participation"
+        }, 
+        {
+            "location": "/committee/product/#communication", 
+            "text": "Questions and suggestions for the Product Committee can be sent to   Key development communication and community input gathering efforts will be conducted via the PeeringDB Governance Mailinglist  pdb-gov@lists.peeringdb.com  All issues and the product roadmap and feature backlog can be found at  https://github.com/peeringdb/peeringdb/issues", 
+            "title": "Communication"
+        }, 
+        {
+            "location": "/committee/product/#decision-policy", 
+            "text": "Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair", 
+            "title": "Decision Policy"
+        }, 
+        {
+            "location": "/committee/product/#workflow", 
+            "text": "Diagram of Workflow  The development roadmap is tracked using GitHub issues located at  https://github.com/peeringdb/peeringdb/issues  with the  ZenHub  overlay.  New Issues  Are evaluated to confirm they are actually an issue, which may require asking for feedback. Issues where the solution is unclear or the bug cannot be reproduced are moved to  Review . Once an issue is determined to be valid and coherent with the product vision, it is moved to  Backlog  and labeled as either bug or enhancement. Moving from New to  Backlog  does not need much discussion as it is easy to move the issue back or mark it as \"wontfix\" later.  Product Committee members look at the issues and move them  Review  for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category  Review .  If the issue is considered not to be coherent with the product vision, it will be marked as \"wontfix\"; the requester always has the option to escalate his issue to the PeeringDB board if she disagrees with the assessment of the Product Committee.  Once Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to  PC Candidates , with a rough estimate.  PC Candidates  should be ordered with more important higher in the list.  Depending on the effort required to implement the issue, development will be done either on project basis or as part of the maintenance agreement. The Product Committee follows a budget release process to fund project based development efforts. Developments that fall within the budget envelope allocated to the Product Committee require no further approval by the board, however 75% of the Product Committee members must agree.   Sprint  is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.  All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.  Done  means the issue is completed in development and will be pushed to beta for review. Issues are not  Closed  until they are deployed to production", 
+            "title": "Workflow"
+        }, 
+        {
+            "location": "/committee/product/#meeting-notes", 
+            "text": "March 21st, 2017: Meeting Notes  April 13th, 2017: Meeting Notes", 
+            "title": "Meeting Notes"
+        }, 
+        {
+            "location": "/committee/product/#members", 
+            "text": "Aaron Hughes (Chair)  Matt Griswold (Vice Chair)  Karthik Arumugham  Greg Hankins  Martin J. Levy  Eric Loos  Stephen McManus  Arnold Nipper  Kay Rechthien", 
+            "title": "Members"
         }, 
         {
             "location": "/faq/", 
