@@ -4,11 +4,9 @@
 
 The development roadmap is tracked using GitHub issues located at <https://github.com/peeringdb/peeringdb/issues> with the [ZenHub](https://www.zenhub.com/) overlay.
 
-**New Issues** Are evaluated to confirm they are actually an issue, which may require asking for feedback. Issues where the solution is unclear or the bug cannot be reproduced are moved to **Review**. Once an issue is determined to be valid and coherent with the product vision, it is moved to **Backlog** and labeled as either bug or enhancement. Moving from New to **Backlog** does not need much discussion as it is easy to move the issue back or mark it as "wontfix" later.
+**New Issues** are evaluated to confirm they are legitmate, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to **Review**. Moving from **New Issues** to **Backlog** does not need much discussion as it is easy to move the issue back or mark it as `wontfix` later.
 
-Product Committee members look at the issues and move them **Review** for discussion if the issue seems legit. If it is reported as a bug, attempts are made to reproduce it, failing that, the issue is commented and the original submitter is asked for more information. The issue will then be kept under the category **Review**.
-
-If the issue is considered not to be coherent with the product vision, it will be marked as "wontfix"; the requester always has the option to escalate his issue to the PeeringDB board if she disagrees with the assessment of the Product Committee.
+Once an issue is determined to be valid and coherent with the product vision, it is moved to **Backlog** and labeled as either bug or enhancement. If the issue is considered not to be coherent with the product vision, it will be marked as `wontfix`; the requester always has the option to forward his issue to the PeeringDB board if she disagrees with the assessment by the Product Committee.
 
 Once Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to **PC Candidates**, with a rough estimate. **PC Candidates** should be ordered with more important higher in the list.
 
