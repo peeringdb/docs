@@ -16,6 +16,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board Meetings
 
+- [May 18th, 2017](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf)
 - [February 9th, 2017](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf)
 - [January 13th, 2017](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
 - [December 2nd, 2016](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf)
@@ -43,6 +44,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Organizational Documents
 
+- [May 18th, 2017: Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
 - [December 1st, 2016: Annual Report](gov/legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf)
 - [May 18th, 2016: Amended Annual Report](gov/legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf)
 - [December 16th, 2015: Certificate and Articles of Incorporation](gov/legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf)
