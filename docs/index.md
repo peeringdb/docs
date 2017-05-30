@@ -61,6 +61,7 @@ Our goal is to give you all the information you want, and no more.  Please subsc
 
 ## Presentations
 
+- [Orientações no preenchimento de participantes do IX.br](presentation/gter43-peeringdb.20170522.pdf) at [GTER 43](http://gtergts.nic.br/), Foz do Iguaçu, BR - May 25, 2017 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20170523-ENOG13-Nipper.pdf) at [ENOG 13.0](https://www.enog.org/enog-13/), Saint Petersburg, RU - May 23, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170426-gpf-12.0-hughes-peeringdb.pdf) at [Global Peering Forum 12.0](https://www.peeringforum.com/gpf-12-0-peeringdb-update/), New York, US - April 26, 2017 - Aaron Huges
 - [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona/), Barcelona, ES - April 6, 2017 - Arnold Nipper
