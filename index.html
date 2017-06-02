@@ -99,12 +99,13 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#peeringdb">PeeringDB</a></li>
-            <li><a href="#quick-start">Quick start</a></li>
+            <li><a href="#getting-help">Getting help</a></li>
             <li><a href="#mailing-lists">Mailing lists</a></li>
+            <li><a href="#quick-start">Quick start</a></li>
             <li><a href="#guides">Guides</a></li>
             <li><a href="#presentations">Presentations</a></li>
             <li><a href="#tools">Tools</a></li>
-            <li><a href="#beta-development-and-reporting-issues">Beta development and reporting issues</a></li>
+            <li><a href="#beta-development">Beta development</a></li>
             <li><a href="#historical-data">Historical data</a></li>
             <li><a href="#how-you-can-help">How you can help</a></li>
     </ul>
@@ -112,15 +113,18 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="peeringdb">PeeringDB</h1>
-<h2 id="quick-start">Quick start</h2>
-<p>PeeringDB is available at <a href="https://www.peeringdb.com/">https://www.peeringdb.com/</a> with self-describing API docs at <a href="https://www.peeringdb.com/apidocs/">https://www.peeringdb.com/apidocs/</a>.  More thorough docs are at <a href="api_specs/">API Specs</a>, but in a nutshell, just prepend the URL with <code>api/</code> to get that object in JSON.</p>
-<p>For example:<br />
-<a href="https://www.peeringdb.com/net/1">https://www.peeringdb.com/net/1</a><br />
-becomes:<br />
-<a href="https://www.peeringdb.com/api/net/1">https://www.peeringdb.com/api/net/1</a></p>
-<p>List all via API by taking the <code>id</code> off:<br />
-<a href="https://www.peeringdb.com/api/net">https://www.peeringdb.com/api/net</a></p>
-<p>Local database replication is accomplished with this <a href="https://github.com/peeringdb/peeringdb-py">command line tool</a>, please see the <a href="http://peeringdb.github.io/peeringdb-py/cli/#sync">documentation</a> for more information.</p>
+<h2 id="getting-help">Getting help</h2>
+<ul>
+<li>
+<p>Please log bugs and feature requests at <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>.</p>
+</li>
+<li>
+<p>Several PeeringDB mailing lists are listed below.</p>
+</li>
+<li>
+<p>Questions, comments and everything else should go to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
+</li>
+</ul>
 <h2 id="mailing-lists">Mailing lists</h2>
 <p>We have changed the way in which PeeringDB will be announcing future enhancements, changes, maintenance windows, and other information. If you would like to be notified of certain events, or participate in certain discussions, please subscribe to one of the following email lists:</p>
 <ul>
@@ -145,31 +149,22 @@ becomes:<br />
 </li>
 </ul>
 <p>Our goal is to give you all the information you want, and no more.  Please subscribe to any of these lists you feel are appropriate, or none. You will still be able to use the database even if you are not subscribed to any lists.</p>
-<div id="fb-root"></div>
-
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<p>
-<div class="fb-like" data-href="https://www.facebook.com/peeringdb" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-</p>
-
-<p>
-<a href="https://twitter.com/PeeringDB" class="twitter-follow-button" data-show-count="false">Follow @PeeringDB</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</p>
-
+<h2 id="quick-start">Quick start</h2>
+<p>PeeringDB is available at <a href="https://www.peeringdb.com/">https://www.peeringdb.com/</a> with self-describing API docs at <a href="https://www.peeringdb.com/apidocs/">https://www.peeringdb.com/apidocs/</a>.  More thorough docs are at <a href="api_specs/">API Specs</a>, but in a nutshell, just prepend the URL with <code>api/</code> to get that object in JSON.</p>
+<p>For example:<br />
+<a href="https://www.peeringdb.com/net/1">https://www.peeringdb.com/net/1</a><br />
+becomes:<br />
+<a href="https://www.peeringdb.com/api/net/1">https://www.peeringdb.com/api/net/1</a></p>
+<p>List all via API by taking the <code>id</code> off:<br />
+<a href="https://www.peeringdb.com/api/net">https://www.peeringdb.com/api/net</a></p>
+<p>Local database replication is accomplished with this <a href="https://github.com/peeringdb/peeringdb-py">command line tool</a>, please see the <a href="http://peeringdb.github.io/peeringdb-py/cli/#sync">documentation</a> for more information.</p>
 <h2 id="guides">Guides</h2>
 <ul>
 <li>[es] <a href="./guide/guia_PeeringDB.pdf">Guía corta para uso de peeringdb.com</a> - Fabián Mejía</li>
 </ul>
 <h2 id="presentations">Presentations</h2>
 <ul>
+<li><a href="./presentation/20170602-bosnog-mcmanus.pdf">PeeringDB Update</a> at <a href="https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/">BOSNOG Meeting &amp; IX Peering Forum</a>, Cambridge, US - June 2, 2017 - Stephen McManus</li>
 <li><a href="./presentation/gter43-peeringdb.20170522.pdf">Orientações no preenchimento de participantes do IX.br</a> at <a href="http://gtergts.nic.br/">GTER 43</a>, Foz do Iguaçu, BR - May 25, 2017 - Julimar Lunguinho Mendes</li>
 <li><a href="./presentation/20170523-ENOG13-Nipper.pdf">PeeringDB Update</a> at <a href="https://www.enog.org/enog-13/">ENOG 13.0</a>, Saint Petersburg, RU - May 23, 2017 - Arnold Nipper</li>
 <li><a href="./presentation/20170426-gpf-12.0-hughes-peeringdb.pdf">PeeringDB Update</a> at <a href="https://www.peeringforum.com/gpf-12-0-peeringdb-update/">Global Peering Forum 12.0</a>, New York, US - April 26, 2017 - Aaron Huges</li>
@@ -226,19 +221,13 @@ becomes:<br />
 <p><a href="https://labs.ripe.net/Members/massimo_candela/tracemon-traceroute-visualisation-network-debugging-tool">TraceMON</a> is a tool for visualizing a network topology generated by traceroutes that provides one-click access to IXP and network information.  It also displays PeeringDB information and allows the user to update their record.  RIPE Atlas users can access it by selecting a <a href="https://atlas.ripe.net/measurements/?search=&amp;status=&amp;af=&amp;kind=2%2C4&amp;age=#!tab-public">traceroute measurement</a> and clicking on the TraceMON tab.</p>
 </li>
 </ul>
-<h2 id="beta-development-and-reporting-issues">Beta development and reporting issues</h2>
+<h2 id="beta-development">Beta development</h2>
 <ul>
 <li>
 <p>The <a href="https://beta.peeringdb.com/">PeeringDB beta server</a> is running the latest beta software version, with full access over HTTP and the API.  Note that changes made to the beta database are local to the beta server only, and are not reflected on the production servers.</p>
 </li>
 <li>
 <p>The <a href="https://beta.peeringdb.com/changes">latest changes to PeeringDB</a> automagically redirects to the list of issues on PeeringDB's GitHub repository that document all of the changes in the current beta version.</p>
-</li>
-<li>
-<p>Please log bugs and feature requests at <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>.</p>
-</li>
-<li>
-<p>Questions, comments and everything else should go to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
 </li>
 </ul>
 <h2 id="historical-data">Historical data</h2>
@@ -261,15 +250,14 @@ becomes:<br />
 <p>Improve these docs</p>
 </li>
 </ul>
-<p>Thanks for the testing/feedback, we look forward to hearing from you!</p></div>
+<p>Thanks for your feedback, we look forward to hearing from you!</p></div>
         </div>
 
         <footer class="col-md-12">
-<p>Follow us on Social Media<br>
-  <a target='_blank' href='https://twitter.com/PeeringDB'><img src='/img/twitter.png'></a>
-  <a target='_blank' href='https://www.facebook.com/peeringdb/'><img src='/img/facebook.png'></a>
-  <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img style='height:50px' src='/img/linkedin.png'></a>
-</p>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img style='height:50px' src='/img/github.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img style='height:50px' src='/img/twitter.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img style='height:50px' src='/img/facebook.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img style='height:50px' src='/img/linkedin.png'></a>
 
         </footer>
         <script>var base_url = '.';</script>
@@ -304,5 +292,5 @@ becomes:<br />
 
 <!--
 MkDocs version : 0.16.0
-Build Date UTC : 2017-05-30 22:00:26
+Build Date UTC : 2017-06-02 21:28:07
 -->
