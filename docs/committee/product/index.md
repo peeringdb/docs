@@ -23,3 +23,5 @@
 - Stephen McManus
 - Arnold Nipper
 - Kay Rechthien
+- Bijal Sanghani
+- Job Snijders

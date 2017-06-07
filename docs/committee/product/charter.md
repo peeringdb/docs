@@ -18,7 +18,7 @@ The PeeringDB Product Committee (PC) is charged with steering the future product
 
 - Gather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.
 - Formulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.
-- Process documentation detailing the treatment of product enhancement requests submitted to the PC.
+- Document and maintain workflow process to handle requests and issues.
 - Maintain the product roadmap and feature request backlog and makes them publically accessible. 
 - Create and maintain PeeringDB product documentation and presentation materials.
 - Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.
@@ -32,7 +32,7 @@ The PC shall work with other PeeringDB committees to ensure an equitable divisio
 
 #### Participation
 
-The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board will elect a new Product Committee after the Board election or at any time the Board sees the necessity to ensure the continuity of the Product Committee
+The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board may add or remove members at any time it deems necessary.
 
 
 #### Communication
