@@ -50,10 +50,11 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Presentations
 
-- [PeeringDB Update](presentation/20170602-bosnog-mcmanus.pdf) at [BOSNOG Meeting & IX Peering Forum](https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/), Cambridge, US - June 2, 2017 - Stephen McManus
+- [PeeringDB Update](presentation/20170605-nanog-70-hughes-peeringdb.pdf) at [NANOG 70](https://www.nanog.org/meetings/nanog70/home), Bellevue, WA, US - June 5, 2017 - Aaron Hughes
+- [PeeringDB Update](presentation/20170602-bosnog-mcmanus.pdf) at [BOSNOG Meeting & IX Peering Forum](https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/), Cambridge, MA, US - June 2, 2017 - Stephen McManus
 - [Orientações no preenchimento de participantes do IX.br](presentation/gter43-peeringdb.20170522.pdf) at [GTER 43](http://gtergts.nic.br/), Foz do Iguaçu, BR - May 25, 2017 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20170523-ENOG13-Nipper.pdf) at [ENOG 13.0](https://www.enog.org/enog-13/), Saint Petersburg, RU - May 23, 2017 - Arnold Nipper
-- [PeeringDB Update](presentation/20170426-gpf-12.0-hughes-peeringdb.pdf) at [Global Peering Forum 12.0](https://www.peeringforum.com/gpf-12-0-peeringdb-update/), New York, US - April 26, 2017 - Aaron Huges
+- [PeeringDB Update](presentation/20170426-gpf-12.0-hughes-peeringdb.pdf) at [Global Peering Forum 12.0](https://www.peeringforum.com/gpf-12-0-peeringdb-update/), New York, NY, US - April 26, 2017 - Aaron Huges
 - [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona/), Barcelona, ES - April 6, 2017 - Arnold Nipper
 - [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](http://www.peeringdays.eu/), Ljubljana, SL - March 23, 2017 - Arnold Nipper
 - [PeeringDB 2.0](presentation/20170228-Apricot2017-Nipper.pdf) at [APRICOT 2017](https://2017.apricot.net/), Ho Chi Minh City, VN - February 28, 2017 - Arnold Nipper
@@ -65,12 +66,12 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB 2.0 for IXPs](presentation/2016-08-29_afix2016-Nipper-peeringdb.pdf) at [AFIX 2016](http://www.af-ix.net/?q=resources/2016/08/afix-2016-meeting-agenda), Dar es Salaam, TZ - August 29, 2016 - Arnold Nipper
 - [PeeringDB 2.0](presentation/2016-06-07_PeeringDB-2.0_ENOG11.pdf) at [ENOG 11](https://www.enog.org/meetings/enog-11/), Moscow, RU - June 7, 2016 - Arnold Nipper
 - [PeeringDB 2.0](presentation/2016-05-25_81-ripe-72-peeringdb.pdf) at [RIPE 72](https://ripe72.ripe.net/), Copenhagen, DK - May 25, 2016 - Greg Hankins
-- [PeeringDB 2.0](presentation/2016-05-12_chi-nog-06-peeringdb.pdf) at [CHI-NOG 06](http://chinog.org/meetings/chi-nog-06/), Chicago, US - May 12, 2016 - Matt Griswold
+- [PeeringDB 2.0](presentation/2016-05-12_chi-nog-06-peeringdb.pdf) at [CHI-NOG 06](http://chinog.org/meetings/chi-nog-06/), Chicago, IL, US - May 12, 2016 - Matt Griswold
 - [PeeringDB 2.0 e o Cenário Brasileiro](presentation/2016-05-12_PeeringDB-2.0_GTER_41.pdf) and [IX.br Guia de cadastro de informações de ASNs no PeeringDB](presentation/2016-05-12_IX.br_PeeringDB_Guide.pdf) at [GTER 41](http://gtergts.nic.br/), Uberlândia, BR - May 12, 2016 - Eduardo Ascenço Reis
 - [PeeringDB 2.0 for IXPs](presentation/2016-04-26_PeeringDB_28th_Euro-IX_Forum.pdf) at [28th Euro-IX Forum](https://www.euro-ix.net/), Luxembourg, LU - April 26, 2016 - Greg Hankins / Arnold Nipper
 - [RIPE SEE 5](https://www.ripe.net/participate/meetings/regional-meetings/see-5), Tirana, AL - April 19, 2016 - Arnold Nipper
 - [PeeringDB 2.0](presentation/2016-04-21_PeeringDB_UKNOF34.pdf) at [UKNOF34](https://indico.uknof.org.uk/conferenceDisplay.py?confId=36), Manchester, UK - April 21, 2016 - Greg Hankins
-- [PeeringDB Update](presentation/2016-04-13_PeeringTrack-PDB-Update-GPF11.pdf) at [GPF 11](https://www.peeringforum.com/), Los Angeles, US - April 13, 2016 - Aaron Hughes
+- [PeeringDB Update](presentation/2016-04-13_PeeringTrack-PDB-Update-GPF11.pdf) at [GPF 11](https://www.peeringforum.com/), Los Angeles, CA, US - April 13, 2016 - Aaron Hughes
 - [NetNod](http://www.netnod.se/netnod-spring-meeting-2016), Stockholm, SE - March 17, 2016 - Job Snijders
 - [DKNOG6](http://www.dknog.dk/events/dknog6/), Copenhagen, DK - March 10, 2016 - Job Snijders
 - [PeeringDB Update](presentation/PeeringTrack-PDB-Update-20160205.pdf) - Aaron Hughes
