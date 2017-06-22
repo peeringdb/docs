@@ -50,6 +50,9 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Presentations
 
+#### 2017
+
+- [More benefits from PeeringDB](presentation/20170622-decix-technical-meeting-nipper-v2.pdf) at [DE-CIX Technical Meeting](https://www.de-cix.net/en/news-events/events/de-cix-technical-meeting), Frankfurt, DE - June 22, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170605-nanog-70-hughes-peeringdb.pdf) at [NANOG 70](https://www.nanog.org/meetings/nanog70/home), Bellevue, WA, US - June 5, 2017 - Aaron Hughes
 - [PeeringDB Update](presentation/20170602-bosnog-mcmanus.pdf) at [BOSNOG Meeting & IX Peering Forum](https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/), Cambridge, MA, US - June 2, 2017 - Stephen McManus
 - [Orientações no preenchimento de participantes do IX.br](presentation/gter43-peeringdb.20170522.pdf) at [GTER 43](http://gtergts.nic.br/), Foz do Iguaçu, BR - May 25, 2017 - Julimar Lunguinho Mendes
@@ -58,6 +61,9 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona/), Barcelona, ES - April 6, 2017 - Arnold Nipper
 - [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](http://www.peeringdays.eu/), Ljubljana, SL - March 23, 2017 - Arnold Nipper
 - [PeeringDB 2.0](presentation/20170228-Apricot2017-Nipper.pdf) at [APRICOT 2017](https://2017.apricot.net/), Ho Chi Minh City, VN - February 28, 2017 - Arnold Nipper
+
+#### 2016
+
 - [PeeringDB](presentation/2016-11-23-kikeautumn16-2.pdf) at [19 KIKE Conference](http://kikeevents.com/en/category/19-kike-conference/), Serock, PL - November 23, 2016 - Robert Jakub
 - [PeeringDB 2.0](presentation/20161103-ITNOG2-Nipper-peeringdb.pdf) at [ITNOG2](http://www.itnog.it/itnog2/), Bologna, IT - November 3, 2016 - Arnold Nipper
 - [PeeringDB Product Committee Charter Survey](presentation/20160919-epf11-Loos-peeringdb.pdf) at [EPF 11](https://www.peering-forum.eu/), Sofia, BG - September 20, 2016 - Eric Loos
@@ -78,6 +84,9 @@ Local database replication is accomplished with this [command line tool](https:/
     - [APRICOT 2016](https://2016.apricot.net/), Auckland, NZ - February 23, 2016 - Aaron Hughes
     - [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 10, 2016 - Aaron Hughes
 - [PeeringDB Version 2 Coding Introduction](presentation/PeeringDB_Version_2-Coding_Introduction.pdf) at [NANOG 66](http://nanog.org/meetings/nanog66/home), San Diego, CA, US - February 8, 2016 - Matt Griswold
+
+#### 2015
+
 - [PeeringDB Version 2 Brazil](presentation/PeeringDB_Version_2-Brazil.pdf) - Matt Griswold / Greg Hankins
     - [IX (PTT) Fórum 9](http://ix.br/pttforum/9/index-en.html), São Paulo, BR - December 8, 2015 - Greg Hankins
 - [PeeringDB Version 2 Introduction](presentation/PeeringDB_Version_2-Introduction.pdf) - Matt Griswold
