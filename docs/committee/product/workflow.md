@@ -7,6 +7,7 @@ The development roadmap is tracked using GitHub issues located at <https://githu
 **New Issues** are evaluated to confirm they are legitimate, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to **Review**. Moving from **New Issues** to **Backlog** does not need much discussion as it is easy to move the issue back or mark it as `wontfix` later.
 
 Once an issue is determined to be valid and coherent with the product vision, it is moved to **Backlog** and labeled as either bug or enhancement. If the issue is considered not to be coherent with the product vision, it will be marked as `wontfix`; the requester always has the option to forward his issue to the PeeringDB board if she disagrees with the assessment by the Product Committee.
+If an issue is labeled as a bug, the severity will determine how it will be resolved. P1/P2 bugs are considered service impacting and will be treated by the software vendor under the maintenance agreement, P3/P4 bugs will be treated as product enhancement requests.
 
 Once Product Committee, with developer involvment, decides that no more information is needed to be able to fix/implement an issue, it can move to **PC Candidates**, with a rough estimate. **PC Candidates** should be ordered with more important higher in the list.
 
