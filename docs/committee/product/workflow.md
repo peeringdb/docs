@@ -4,7 +4,7 @@
 
 The development roadmap is tracked using GitHub issues located at <https://github.com/peeringdb/peeringdb/issues> with the [ZenHub](https://www.zenhub.com/) overlay.
 
-**New Issues** are evaluated to confirm they are legitmate, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to **Review**. Moving from **New Issues** to **Backlog** does not need much discussion as it is easy to move the issue back or mark it as `wontfix` later.
+**New Issues** are evaluated to confirm they are legitimate, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to **Review**. Moving from **New Issues** to **Backlog** does not need much discussion as it is easy to move the issue back or mark it as `wontfix` later.
 
 Once an issue is determined to be valid and coherent with the product vision, it is moved to **Backlog** and labeled as either bug or enhancement. If the issue is considered not to be coherent with the product vision, it will be marked as `wontfix`; the requester always has the option to forward his issue to the PeeringDB board if she disagrees with the assessment by the Product Committee.
 
@@ -14,6 +14,6 @@ Depending on the effort required to implement the issue, development will be don
 
 **Sprint** is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately. This would be decided by the Product Committee.
 
-All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project, and pulled it into that board.
+All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project and accessed by the main board.
 
 **Done** means the issue is completed in development and will be pushed to beta for review. Issues are not **Closed** until they are deployed to production.
