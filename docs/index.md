@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2017
 
+- [PeeringDB Update](presentation/20170710-SANOG30-nipper.pdf) at [SANOG 30](http://www.sanog.org/sanog30/program.html) Peering Forum, Gurgaon, IN - July 10, 2017 - Arnold Nipper
 - [More benefits from PeeringDB](presentation/20170622-decix-technical-meeting-nipper-v2.pdf) at [DE-CIX Technical Meeting](https://www.de-cix.net/en/news-events/events/de-cix-technical-meeting), Frankfurt, DE - June 22, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170605-nanog-70-hughes-peeringdb.pdf) at [NANOG 70](https://www.nanog.org/meetings/nanog70/home), Bellevue, WA, US - June 5, 2017 - Aaron Hughes
 - [PeeringDB Update](presentation/20170602-bosnog-mcmanus.pdf) at [BOSNOG Meeting & IX Peering Forum](https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/), Cambridge, MA, US - June 2, 2017 - Stephen McManus
