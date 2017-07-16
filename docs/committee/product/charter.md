@@ -2,7 +2,7 @@
 ---
 ## Product Committee Charter
 
-*** DRAFT ***
+*** Approved by Board July 7th, 2017 ***
 
 #### Scope
 
