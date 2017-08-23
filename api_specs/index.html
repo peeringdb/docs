@@ -161,7 +161,7 @@ data:
 <ul>
 <li>Basic HTTP authorization</li>
 </ul>
-<p>In order to access the api as a guest simply omit any authentication</p>
+<p>In order to access the API as a guest simply omit any authentication</p>
 <h2 id="operations">Operations</h2>
 <h3 id="get-multiple-objects">GET: multiple objects</h3>
 <p>endpoint: GET /api/<code>OBJ</code></p>
@@ -191,11 +191,11 @@ data:
 <p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
 <pre><code>&lt;object_type&gt;_set
 </code></pre>
-<p>So a set called 'net_set' will hold Network objects (api endpoint /net)</p>
+<p>So a set called 'net_set' will hold Network objects (API endpoint /net)</p>
 <p>Note: unlike GET single, 'depth' here will <strong>ONLY</strong> expand sets, no single relationships will be expanded - this is by design</p>
 <h5 id="depth">Depth</h5>
 <ul>
-<li>0: dont expand anything (default)</li>
+<li>0: don't expand anything (default)</li>
 <li>1: expand all first level sets to ids</li>
 <li>2: expand all first level sets to objects</li>
 </ul>
@@ -227,7 +227,7 @@ data:
 <h4 id="since">Since</h4>
 <p>You can use the since argument with a unix timestamp (seconds) to retrieve all<br />
 objects updated since then. Note that this result will contain objects that were<br />
-deleted in that timeframe as well - you can spot them by checking for status "deleted"</p>
+deleted in that time frame as well - you can spot them by checking for status "deleted"</p>
 <pre><code>?since=1443414678
 </code></pre>
 <h3 id="get-single-object">GET: single object</h3>
@@ -262,7 +262,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 <p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
 <pre><code>&lt;object_type&gt;_set
 </code></pre>
-<p>So a set called 'net_set' will hold Network objects (api endpoint /net)</p>
+<p>So a set called 'net_set' will hold Network objects (API endpoint /net)</p>
 <p>Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.</p>
 <p>unexpanded:</p>
 <pre><code>{ 
@@ -281,7 +281,7 @@ deleted in that timeframe as well - you can spot them by checking for status "de
 </code></pre>
 <h5 id="depth_1">Depth</h5>
 <ul>
-<li>0: dont expand anything (default)</li>
+<li>0: don't expand anything (default)</li>
 <li>1 to 4: expand all sets and related objects according to level of depth specified</li>
 </ul>
 <h3 id="post-create-new-object">POST: create new object</h3>
