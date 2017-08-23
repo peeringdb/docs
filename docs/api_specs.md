@@ -53,7 +53,7 @@ JSON
 
 - Basic HTTP authorization
 
-In order to access the api as a guest simply omit any authentication
+In order to access the API as a guest simply omit any authentication
 
 ## Operations
 ### GET: multiple objects
@@ -89,13 +89,13 @@ The naming schema of the field will always tell you which type of object the set
 
     <object_type>_set
 
-So a set called 'net_set' will hold Network objects (api endpoint /net)
+So a set called 'net_set' will hold Network objects (API endpoint /net)
 
 Note: unlike GET single, 'depth' here will **ONLY** expand sets, no single relationships will be expanded - this is by design
 
 ##### Depth
 
-- 0: dont expand anything (default)
+- 0: don't expand anything (default)
 - 1: expand all first level sets to ids
 - 2: expand all first level sets to objects
 
@@ -133,7 +133,7 @@ string fields:
 
 You can use the since argument with a unix timestamp (seconds) to retrieve all
 objects updated since then. Note that this result will contain objects that were
-deleted in that timeframe as well - you can spot them by checking for status "deleted"
+deleted in that time frame as well - you can spot them by checking for status "deleted"
 
     ?since=1443414678
 
@@ -172,7 +172,7 @@ The naming schema of the field will always tell you which type of object the set
 
     <object_type>_set
 
-So a set called 'net_set' will hold Network objects (api endpoint /net)
+So a set called 'net_set' will hold Network objects (API endpoint /net)
 
 Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.
 
@@ -196,7 +196,7 @@ expanded:
 
 ##### Depth
 
-- 0: dont expand anything (default)
+- 0: don't expand anything (default)
 - 1 to 4: expand all sets and related objects according to level of depth specified
 
 ### POST: create new object

@@ -19,7 +19,7 @@ The PeeringDB Product Committee (PC) is charged with steering the future product
 - Gather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.
 - Formulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.
 - Document and maintain workflow process to handle requests and issues.
-- Maintain the product roadmap and feature request backlog and makes them publically accessible. 
+- Maintain the product roadmap and feature request backlog and makes them publicly accessible. 
 - Create and maintain PeeringDB product documentation and presentation materials.
 - Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.
 - Propose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.
