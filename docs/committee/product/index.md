@@ -25,6 +25,7 @@
 - Eric Loos
 - Stephen McManus
 - Arnold Nipper
+- Chris Phillips
 - Kay Rechthien
 - Bijal Sanghani
 - Job Snijders
