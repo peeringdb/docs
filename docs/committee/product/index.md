@@ -17,12 +17,12 @@
 - [August 3rd, 2017: Meeting Notes](notes/2017-08-03_Product_Committee_Notes.pdf)
 
 ## Members
-- Aaron Hughes (Chair)
+- Eric Loos (Chair)
 - Matt Griswold (Vice Chair)
 - Karthik Arumugham
 - Greg Hankins
+- Aaron Hughes
 - Martin J. Levy
-- Eric Loos
 - Stephen McManus
 - Arnold Nipper
 - Chris Phillips
