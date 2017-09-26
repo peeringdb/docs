@@ -91,7 +91,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Product Committee
 
-Please see the [Product Committee](/committee/product/) page.
+- Please see the [Product Committee](/committee/product/) page.
 
 ## Alumni
 
