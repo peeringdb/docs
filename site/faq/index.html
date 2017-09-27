@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="http://docs.peeringdb.com/faq/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>FAQ - PeeringDB</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="..">PeeringDB</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="..">PeeringDB</a>
+                    </li>
+                    <li >
+                        <a href="../gov/">Governance</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committee <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../committee/product/">Product Committee</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="./">FAQ</a>
+                    </li>
+                    <li >
+                        <a href="../api_specs/">API Specs</a>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../committee/product/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../api_specs/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/peeringdb/docs">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+            <li><a href="#general">General</a></li>
+            <li><a href="#technical">Technical</a></li>
+            <li><a href="#governancemembership">Governance/Membership</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<h2 id="general">General</h2>
+<h3 id="what-is-the-peeringdb">What is the PeeringDB?</h3>
+<p>It's a database for peering and peering related information. PeeringDB will let you see information about Networks you might want to peer with, where and how you can peer with them, as well as publish information about your own Organization's peering information.</p>
+<h3 id="how-do-i-get-started">How do I get started?</h3>
+<p>See our Quick Start guide: <a href="http://docs.peeringdb.com/#quick-start">http://docs.peeringdb.com/#quick-start</a></p>
+<h2 id="technical">Technical</h2>
+<h3 id="how-do-i-query-by-asn">How do I query by ASN?</h3>
+<p>You may type in the ASN in the search box, or for web:<br />
+<code>http://as42.peeringdb.com</code><br />
+<code>https://peeringdb.com/net?asn=42</code></p>
+<p>For API:<br />
+<code>https://peeringdb.com/api/net?asn=42</code></p>
+<h3 id="using-asn-used-to-work-what-happened">Using /asn used to work, what happened?</h3>
+<p>Please see <a href="http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html">http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html</a> for details.</p>
+<h3 id="how-do-the-new-permissions-work">How do the new permissions work?</h3>
+<p>Now there is an <code>org</code> entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.</p>
+<h3 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h3>
+<p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
+authentication in the URL</p>
+<p>So for example </p>
+<pre><code>https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/net/1
+</code></pre>
+<p>may work or it may not depending on the browser you are using.</p>
+<h3 id="why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</h3>
+<p>Date strings are ISO 8601 to keep a standard format. Comparison operations such as <code>__gt</code>, <code>__lt</code>, etc all still work as expected. For fetching records against updated timestamp, you may also use <code>?since=&lt;seconds since epoch&gt;</code></p>
+<h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
+<p>You may make a full local copy with <a href="https://github.com/peeringdb/peeringdb-py">https://github.com/peeringdb/peeringdb-py</a>, see docs at <a href="http://peeringdb.github.io/peeringdb-py/cli/">http://peeringdb.github.io/peeringdb-py/cli/</a></p>
+<p>Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.</p>
+<h3 id="when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</h3>
+<p>Such as:</p>
+<pre><code>django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
+</code></pre>
+<p>We will fix that when time allows, for the time being, just run:</p>
+<pre><code>alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
+</code></pre>
+<h2 id="governancemembership">Governance/Membership</h2>
+<h3 id="how-does-one-become-a-peeringdb-member">How does one become a PeeringDB member?</h3>
+<p>Your organization does not need to be a Member to have an active account at PeeringDB.com, but Membership is available to those that do. Per the Bylaws, Membership is determined by having an active PeeringDB.com account, and a subscription to the <a href="http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov">pdb-gov</a> mailing list.</p>
+<h3 id="what-are-the-terms-and-conditions-for-peeringdb-membership">What are the Terms and Conditions for PeeringDB membership?</h3>
+<p>Please see <a href="http://docs.peeringdb.com/gov/#organizational-documents">http://docs.peeringdb.com/gov/#organizational-documents</a> for the legal aspects of PeeringDB. An Acceptable Use Policy is under development by the Board. </p>
+<h3 id="are-there-any-membership-fees-required-for-members">Are there any membership fees required for members?</h3>
+<p>No, there are no membership fees required. The organization welcomes sponsorships as its method of financial support. Please see <a href="https://www.peeringdb.com/sponsors">https://www.peeringdb.com/sponsors</a> for more information on supporting the PeeringDB.</p>
+<h3 id="are-there-any-liabilities-imposed-on-members">Are there any liabilities imposed on members?</h3>
+<p>No, there are not.</p>
+<h3 id="to-register-network-information-in-the-peeringdb-is-an-organization-required-to-join-as-a-member">To register network information in the PeeringDB, is an organization required to join as a member?</h3>
+<p>No, that isn't necessary. </p></div>
+        </div>
+
+        <footer class="col-md-12">
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img style='height:50px' src='/img/github.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img style='height:50px' src='/img/twitter.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img style='height:50px' src='/img/facebook.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img style='height:50px' src='/img/linkedin.png'></a>
+
+        </footer>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
