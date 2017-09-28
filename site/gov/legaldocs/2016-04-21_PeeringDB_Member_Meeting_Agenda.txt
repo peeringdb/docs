@@ -1,0 +1,57 @@
+** Notice of the Annual Meeting of PeeringDB - Thursday April 21st, 2016 at 1600 UTC
+
+** The meeting will be held online as follows:
+
+   https://global.gotomeeting.com/join/896105605
+
+   - Use your microphone and speakers (VoIP) or call in using your 
+     telephone:
+
+        United States: +1 (669) 224-3318
+        Austria: +43 1 2530 22500
+        Belgium: +32 (0) 42 68 0180
+        Canada: +1 (647) 497-9379
+        Denmark: +45 32 72 03 69
+        France: +33 (0) 170 950 589
+        Germany: +49 (0) 692 5736 7301
+        Japan (toll-free): 0 120 352 900
+        Netherlands: +31 (0) 207 941 375
+        New Zealand: +64 9 282 9510
+        Russia (toll-free): 8 800 100 6217
+        Singapore (toll-free): 800 101 2999
+        Spain: +34 932 75 1230
+        Switzerland: +41 (0) 225 4599 60
+        United Kingdom: +44 (0) 330 221 0099
+        United States (toll-free): 1 866 899 4679
+
+        Meeting ID: 896-105-605
+        Access Code: 896-105-605
+        Audio PIN: Shown after joining the meeting
+
+** The meeting will be recorded.
+
+** Bylaws and important docs are posted at http://gov.peeringdb.com/
+
+** Please contact stewards@peeringdb.com if you have additional agenda suggestions.
+
+Agenda:
+
+ - Call To Order - Aaron Hughes
+
+ - Welcome & Thanks - Aaron Hughes
+
+ - Governance Update (where we've been, where we are) - Aaron Hughes
+
+ - PeeringDB 2.0 Update - Matt Griswold
+
+ - Financial Update & Call For Sponsors - Chris Caputo
+
+ - Admin Committee Update - Job Snijders
+
+ - Product Development Committee Update - Aaron Hughes
+
+ - Items brought up by the members / Technical and Policy Q&A
+
+ - Encourage Voting in Board Election - Aaron Hughes
+
+ - Adjourn

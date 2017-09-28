@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="http://docs.peeringdb.com/api_specs/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>API Specs - PeeringDB</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="..">PeeringDB</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="..">PeeringDB</a>
+                    </li>
+                    <li >
+                        <a href="../gov/">Governance</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committee <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../committee/product/">Product Committee</a>
+</li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="../faq/">FAQ</a>
+                    </li>
+                    <li class="active">
+                        <a href="./">API Specs</a>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../faq/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="prev" >
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/peeringdb/docs">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</a></li>
+            <li><a href="#object-types-and-tags">Object types and tags</a></li>
+            <li><a href="#requests">Requests</a></li>
+            <li><a href="#operations">Operations</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</h1>
+<h2 id="object-types-and-tags">Object types and tags</h2>
+<p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://peeringdb.com/apidocs/">https://peeringdb.com/apidocs/</a>.</p>
+<h2 id="requests">Requests</h2>
+<h4 id="url">URL</h4>
+<dl>
+<dd>
+<p>The URL base appended with <code>/api/</code>, append with object type and optionally object primary key</p>
+<p>Object type is not case sensitive.</p>
+<p>For example:</p>
+<ul>
+<li>https://peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
+</ul>
+</dd>
+</dl>
+<h4 id="encoding">Encoding</h4>
+<dl>
+<dd>
+<p>To specify the output format, either use the <code>Accept:</code> HTTP header</p>
+<pre><code>Accept: application/json
+</code></pre>
+<p>Or use extension <code>type</code></p>
+<pre><code>https://peeringdb.com/api/network/42.json
+</code></pre>
+</dd>
+<dt>JSON</dt>
+<dd>
+<p>all returns fit into object:</p>
+<pre><code>{
+meta:
+  {
+  status:
+  message:
+  }
+data:
+  [
+  {},
+  {}
+  ]
+}
+</code></pre>
+<ul>
+<li>meta are optional</li>
+<li>data always array </li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please let us know what serializers you'd like to see</p>
+</div>
+</dd>
+</dl>
+<h4 id="authentication">Authentication</h4>
+<ul>
+<li>Basic HTTP authorization</li>
+</ul>
+<p>In order to access the API as a guest simply omit any authentication</p>
+<h2 id="operations">Operations</h2>
+<h3 id="get-multiple-objects">GET: multiple objects</h3>
+<p>endpoint: GET /api/<code>OBJ</code></p>
+<dl>
+<dt>optional URL parameters</dt>
+<dd>
+<ul>
+<li>limit <code>int</code> limits rows in the result set</li>
+<li>skip <code>int</code> skips n rows in the result set</li>
+<li>depth <code>int</code> nested sets will be loaded (slow)</li>
+<li>fields <code>str</code> comma separated list of field names - only matching fields will be returned in the data</li>
+<li>since <code>int</code> retrieve all objects updated since specified time (unix timestamp, seconds)</li>
+<li>[field_name] <code>int|string</code> queries for fields with matching value</li>
+</ul>
+</dd>
+<dt>returns</dt>
+<dd>array of objects</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>GET /api/OBJ
+</code></pre>
+<p>curl:</p>
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
+</code></pre>
+<h4 id="nested-data">Nested data</h4>
+<p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
+<p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
+<pre><code>&lt;object_type&gt;_set
+</code></pre>
+<p>So a set called 'net_set' will hold Network objects (API endpoint /net)</p>
+<p>Note: unlike GET single, 'depth' here will <strong>ONLY</strong> expand sets, no single relationships will be expanded - this is by design</p>
+<h5 id="depth">Depth</h5>
+<ul>
+<li>0: don't expand anything (default)</li>
+<li>1: expand all first level sets to ids</li>
+<li>2: expand all first level sets to objects</li>
+</ul>
+<p>curl:</p>
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?depth=2
+</code></pre>
+<h4 id="querying-examples">Querying examples</h4>
+<p>exact:</p>
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?name=something
+</code></pre>
+<p>modifier:</p>
+<pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ?name__contains=something
+</code></pre>
+<h4 id="querying-modifiers">Querying modifiers</h4>
+<p>numeric fields:</p>
+<ul>
+<li>__lt, less than</li>
+<li>__lte, less than equal</li>
+<li>__gt, greater than</li>
+<li>__gte, greater than equal</li>
+<li>__in, value inside set of values (comma separated)</li>
+</ul>
+<p>string fields:</p>
+<ul>
+<li>__contains, field value contains this value</li>
+<li>__startswith, field value starts with this value</li>
+<li>__in, value inside set of values (comma separated)</li>
+</ul>
+<h4 id="since">Since</h4>
+<p>You can use the since argument with a unix timestamp (seconds) to retrieve all<br />
+objects updated since then. Note that this result will contain objects that were<br />
+deleted in that time frame as well - you can spot them by checking for status "deleted"</p>
+<pre><code>?since=1443414678
+</code></pre>
+<h3 id="get-single-object">GET: single object</h3>
+<p>endpoint: GET /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd></dd>
+</dl>
+<ol>
+<li>id <code>int</code></li>
+</ol>
+<dl>
+<dt>optional URL parameters</dt>
+<dd></dd>
+</dl>
+<ol>
+<li>depth <code>int</code> nested sets and objects will be expanded </li>
+<li>fields <code>str</code> comma separated list of field names - only matching fields will be returned in the data</li>
+</ol>
+<dl>
+<dt>returns</dt>
+<dd>single object in an array</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>GET /api/OBJ/42
+</code></pre>
+<p>curl:</p>
+<pre><code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
+</code></pre>
+<h4 id="nested-data_1">Nested data</h4>
+<p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
+<p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
+<pre><code>&lt;object_type&gt;_set
+</code></pre>
+<p>So a set called 'net_set' will hold Network objects (API endpoint /net)</p>
+<p>Note: unlike GET multiple, 'depth' here will also expand single relationship in addition to sets. So 'net_id' would get expanded into a network object.</p>
+<p>unexpanded:</p>
+<pre><code>{ 
+  ...
+  "net_id" : 1
+}
+</code></pre>
+<p>expanded:</p>
+<pre><code>{
+  ...
+  "net_id" : 1
+  "net" : {
+     ... network object ...
+  }
+}
+</code></pre>
+<h5 id="depth_1">Depth</h5>
+<ul>
+<li>0: don't expand anything (default)</li>
+<li>1 to 4: expand all sets and related objects according to level of depth specified</li>
+</ul>
+<h3 id="post-create-new-object">POST: create new object</h3>
+<p>endpoint: POST /api/<code>OBJ</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
+<ul>
+<li>id <code>int</code></li>
+<li>fields to post in either JSON obj "{}" or urlencoded field=value</li>
+</ul>
+</dd>
+</dl>
+<p>curl:</p>
+<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
+</code></pre>
+<h3 id="put-edit-object">PUT: edit object</h3>
+<p>endpoint: PUT /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
+<ul>
+<li>id <code>int</code></li>
+<li>fields to post in either JSON obj "{}" or urlencoded field=value</li>
+</ul>
+</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>PUT /api/OBJ/42
+</code></pre>
+<p>curl:</p>
+<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
+</code></pre>
+<h3 id="delete-delete-object">DELETE: delete object</h3>
+<p>endpoint: DELETE /api/<code>OBJ</code>/<code>id</code></p>
+<dl>
+<dt>required URL parameters</dt>
+<dd>
+<ul>
+<li>id <code>int</code></li>
+</ul>
+</dd>
+</dl>
+<p>HTTP:</p>
+<pre><code>DELETE /api/OBJ/42
+</code></pre>
+<p>curl:</p>
+<pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img style='height:50px' src='/img/github.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img style='height:50px' src='/img/twitter.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img style='height:50px' src='/img/facebook.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img style='height:50px' src='/img/linkedin.png'></a>
+
+        </footer>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

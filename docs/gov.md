@@ -69,6 +69,10 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 - [October 20th, 2015: Announcement of survey results and Board election plan](gov/misc/2015-10-20_Announcement.txt)
 - [August, 2015: Survey for future of PeeringDB](gov/misc/2015-08-00_PDB_Survey_results.pdf)
 
+## Policies
+
+- [Privacy Policy](gov/misc/2017-04-02-PeeringDB-Privacy-Policy.pdf)
+
 ## Board of Directors
 
 - Seat 1 (term expires 2019): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
