@@ -14,6 +14,10 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 - [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
 
+## Policies
+
+- [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
+
 ## Board Meetings
 
 - [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
