@@ -100,7 +100,11 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Tools
 
+This section lists tools for using PeeringDB, and tools that use PeeringDB.
+
 * [django-peeringdb](http://peeringdb.github.io/django-peeringdb/) is a Django library with a local PeeringDB database sync.  It defines the database schema to create a local database copy.  The library is easy to integrate into a common framework for local tools and custom interfaces, and also supports multiple database engines (MySQL, Postgres, SQLite).
+
+* The [Isolario project](https://www.isolario.it/index.php) improve knowledge about the AS-level ecosystem of the Internet by increasing the amount of Autonomous Systems (ASes) from which BGP data is collected. Isolario offers network operators services based on the real-time analysis of inter-domain routing from different points of view in return for full routing tables.
 
 * [Ixgen](https://github.com/ipcjk/ixgen/blob/master/Readme.md) is yet another open source, multiplatform peering configuration generator that is based on the PeeringDB API.  It can also run its own server for faster results.  Ixgen is configured using an INI- or JSON-style format, and produces custom template-driven or fixed JSON-style configurations,
 
