@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2017
 
+- [PeeringDB Update](presentation/20171101-Peering-Asia-nipper.pdf) at [Peering Asia 1.0](http://peeringasia.com/), Kyoto, JP - November 1, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170926-topix-meeting-sanghani.pdf) at [TOP-IX Meeting](https://www.top-ix.org/en/2017/07/31/104342/), Torino, IT - September 26, 2017 - Bijal Sanghani
 - [PeeringDB Update](presentation/20170915-Neutral-Peering-Day-2017-nipper.pdf) at [NPD 17](https://neutralpeeringdays.net/#Program), The Hague, NL - September 15, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170906-SAFNOG-3-nipper.pdf) at [SAFNOG-3](http://www.safnog.org/safnog-3-with-iweek-in-durban), Durban, ZA - September 6, 2017 - Arnold Nipper
