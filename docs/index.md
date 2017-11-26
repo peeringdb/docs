@@ -52,6 +52,8 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2017
 
+- [PeeringDB Update](presentation/20171114-alnof-sanghani.pdf) at [NIX.cz Member Meering](https://www.nix.cz/), Prague, CZ - November 23, 2017 - Bijal Sanghani
+- [PeeringDB Update](presentation/20171123-DENOG9-nipper.pdf) at [DENOG9](http://www.denog.de/de/meetings/denog9/agenda.html), Darmstadt, DE - November 23, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20171114-alnof-sanghani.pdf) at [ALNOF](https://alnof.namex.it/), Tirana, AL - November 14, 2017 - Bijal Sanghani
 - [PeeringDB Update](presentation/20171101-Peering-Asia-nipper.pdf) at [Peering Asia 1.0](http://peeringasia.com/), Kyoto, JP - November 1, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170926-topix-meeting-sanghani.pdf) at [TOP-IX Meeting](https://www.top-ix.org/en/2017/07/31/104342/), Torino, IT - September 26, 2017 - Bijal Sanghani
