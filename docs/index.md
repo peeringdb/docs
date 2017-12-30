@@ -52,6 +52,15 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2017
 
+- [PeeringDB Update](presentation/20171114-alnof-sanghani.pdf) at [NIX.cz Member Meering](https://www.nix.cz/), Prague, CZ - November 23, 2017 - Bijal Sanghani
+- [PeeringDB Update](presentation/20171123-DENOG9-nipper.pdf) at [DENOG9](http://www.denog.de/de/meetings/denog9/agenda.html), Darmstadt, DE - November 23, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20171114-alnof-sanghani.pdf) at [ALNOF](https://alnof.namex.it/), Tirana, AL - November 14, 2017 - Bijal Sanghani
+- [PeeringDB Update](presentation/20171101-Peering-Asia-nipper.pdf) at [Peering Asia 1.0](http://peeringasia.com/), Kyoto, JP - November 1, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20170926-topix-meeting-sanghani.pdf) at [TOP-IX Meeting](https://www.top-ix.org/en/2017/07/31/104342/), Torino, IT - September 26, 2017 - Bijal Sanghani
+- [PeeringDB Update](presentation/20170915-Neutral-Peering-Day-2017-nipper.pdf) at [NPD 17](https://neutralpeeringdays.net/#Program), The Hague, NL - September 15, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20170906-SAFNOG-3-nipper.pdf) at [SAFNOG-3](http://www.safnog.org/safnog-3-with-iweek-in-durban), Durban, ZA - September 6, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20170824-AfPIF2017-nipper.pdf) at [AfPIF 2017](http://www.internetsociety.org/afpif/2017/), Abidjan, CI - August 24, 2017 - Arnold Nipper
+- [PeeringDB Update](presentation/20170710-SANOG30-nipper.pdf) at [SANOG 30](http://www.sanog.org/sanog30/program.html) Peering Forum, Gurgaon, IN - July 10, 2017 - Arnold Nipper
 - [More benefits from PeeringDB](presentation/20170622-decix-technical-meeting-nipper-v2.pdf) at [DE-CIX Technical Meeting](https://www.de-cix.net/en/news-events/events/de-cix-technical-meeting), Frankfurt, DE - June 22, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170605-nanog-70-hughes-peeringdb.pdf) at [NANOG 70](https://www.nanog.org/meetings/nanog70/home), Bellevue, WA, US - June 5, 2017 - Aaron Hughes
 - [PeeringDB Update](presentation/20170602-bosnog-mcmanus.pdf) at [BOSNOG Meeting & IX Peering Forum](https://www.meetup.com/BOSNOG-The-Boston-Network-Operators-Group/events/239045101/), Cambridge, MA, US - June 2, 2017 - Stephen McManus
@@ -95,7 +104,11 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Tools
 
+This section lists tools for using PeeringDB, and tools that use PeeringDB.
+
 * [django-peeringdb](http://peeringdb.github.io/django-peeringdb/) is a Django library with a local PeeringDB database sync.  It defines the database schema to create a local database copy.  The library is easy to integrate into a common framework for local tools and custom interfaces, and also supports multiple database engines (MySQL, Postgres, SQLite).
+
+* The [Isolario project](https://www.isolario.it/index.php) improve knowledge about the AS-level ecosystem of the Internet by increasing the amount of Autonomous Systems (ASes) from which BGP data is collected. Isolario offers network operators services based on the real-time analysis of inter-domain routing from different points of view in return for full routing tables.
 
 * [Ixgen](https://github.com/ipcjk/ixgen/blob/master/Readme.md) is yet another open source, multiplatform peering configuration generator that is based on the PeeringDB API.  It can also run its own server for faster results.  Ixgen is configured using an INI- or JSON-style format, and produces custom template-driven or fixed JSON-style configurations,
 

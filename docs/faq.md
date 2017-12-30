@@ -1,7 +1,16 @@
 
-# FAQ
+# Frequently Asked Questions
 
+## General
+### What is the PeeringDB?
 
+It's a database for peering and peering related information. PeeringDB will let you see information about Networks you might want to peer with, where and how you can peer with them, as well as publish information about your own Organization's peering information.
+
+### How do I get started?
+
+See our Quick Start guide: <http://docs.peeringdb.com/#quick-start>
+
+## Technical
 ### How do I query by ASN?
 
 You may type in the ASN in the search box, or for web:
@@ -48,3 +57,24 @@ Such as:
 We will fix that when time allows, for the time being, just run:
 
     alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
+
+## Governance/Membership
+### How does one become a PeeringDB member?
+
+Your organization does not need to be a Member to have an active account at PeeringDB.com, but Membership is available to those that do. Per the Bylaws, Membership is determined by having an active PeeringDB.com account, and a subscription to the [pdb-gov](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov) mailing list.
+
+### What are the Terms and Conditions for PeeringDB membership?
+
+Please see <http://docs.peeringdb.com/gov/#organizational-documents> for the legal aspects of PeeringDB. An Acceptable Use Policy is under development by the Board. 
+
+### Are there any membership fees required for members?
+
+No, there are no membership fees required. The organization welcomes sponsorships as its method of financial support. Please see <https://www.peeringdb.com/sponsors> for more information on supporting the PeeringDB.
+
+### Are there any liabilities imposed on members?
+
+No, there are not.
+
+### To register network information in the PeeringDB, is an organization required to join as a member?
+
+No, that isn't necessary. 

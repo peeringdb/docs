@@ -2,7 +2,7 @@
 ---
 ## Product Committee Charter
 
-*** DRAFT ***
+*** Approved by Board July 7th, 2017 ***
 
 #### Scope
 
@@ -19,7 +19,7 @@ The PeeringDB Product Committee (PC) is charged with steering the future product
 - Gather inputs from stakeholders regarding the evolution of PeeringDB in terms of product features and overall long term objectives.
 - Formulate the long term objectives and validate them with the PeeringDB Board and the members of the PeeringDB Governance mailing list.
 - Document and maintain workflow process to handle requests and issues.
-- Maintain the product roadmap and feature request backlog and makes them publically accessible. 
+- Maintain the product roadmap and feature request backlog and makes them publicly accessible. 
 - Create and maintain PeeringDB product documentation and presentation materials.
 - Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.
 - Propose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.
@@ -32,7 +32,7 @@ The PC shall work with other PeeringDB committees to ensure an equitable divisio
 
 #### Participation
 
-The PeeringDB Product Committee members serve a 2 years renewable term. Volunteers can submit their candidacy to the PeeringDB Board. The Board may add or remove members at any time it deems necessary.
+The PeeringDB Product Committee members serve a 2 years renewable term, potential volunteers may submit their candidacy to the PeeringDB Board. The product committee will select their own Chair and Vice chair by simple majority vote. The Board may add or remove members at any time it deems necessary.
 
 
 #### Communication
@@ -44,6 +44,6 @@ The PeeringDB Product Committee members serve a 2 years renewable term. Voluntee
 
 #### Decision Policy
 
-Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair
+Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair.
 
 ---

@@ -14,8 +14,16 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 - [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
 
+## Policies
+
+- [Acceptable Use Policy](https://www.peeringdb.com/aup)
+- [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
+
 ## Board Meetings
 
+- [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
+- [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
+- [July 7th, 2017](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf)
 - [May 18th, 2017](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf)
 - [February 9th, 2017](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf)
 - [January 13th, 2017](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
@@ -44,6 +52,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Organizational Documents
 
+- [December 1st, 2017: Annual Report](gov/legaldocs/2017-12-01_PeeringDB_Annual_Report.pdf)
 - [May 18th, 2017: Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
 - [December 1st, 2016: Annual Report](gov/legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf)
 - [May 18th, 2016: Amended Annual Report](gov/legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf)
@@ -79,13 +88,17 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Admin Committee
 
-- Purpose is to oversee the adminstrator mission and volunteers.
-- Board members Snijders (Chair), Nipper (Vice Chair), and Gilmore.
+- Purpose is to oversee the administrator mission and volunteers.
+- Board members Nipper (Chair), Sanghani (Vice Chair), Gilmore, and Snijders.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
+
+## Operations Committee
+
+- Board members Snijders (Chair) and Hughes.
 
 ## Product Committee
 
-Please see the [Product Committee](/committee/product/) page.
+- Please see the [Product Committee](/committee/product/) page.
 
 ## Alumni
 

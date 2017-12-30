@@ -52,10 +52,17 @@ Markdown has its own formatting syntax, to get started look [here](https://githu
 
 Once you are happy with your changes, commit and push, then run
 ```sh
+git commit -a
+git push
+```
+
+If you want to be able to view your changes at `$GITHUB_USER.github.io/docs`, just run:
+```sh
 mkdocs gh-deploy
 ```
 
-After that, you will be able to view your changes at `$GITHUB_USER.github.io/docs`.
+To get your changes pushed to the live site, just create a pull request, if you're unfamiliar with how to do that, GitHub has [documentation](https://help.github.com/articles/creating-a-pull-request/).
+
 
 
 ### Updating your fork
