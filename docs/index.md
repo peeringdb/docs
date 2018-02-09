@@ -50,6 +50,10 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Presentations
 
+#### 2018
+
+- [PeeringDB Introduction](presentation/20180208-Capacity-India-and-SAARC-Nipper.pdf) at [Capacity India & SAARC 2018](http://www.capacityconferences.com/India-Connect-Agenda), New Delhi, IN - February 8, 2018 - Arnold Nipper
+
 #### 2017
 
 - [PeeringDB Update](presentation/20171114-alnof-sanghani.pdf) at [NIX.cz Member Meering](https://www.nix.cz/), Prague, CZ - November 23, 2017 - Bijal Sanghani
