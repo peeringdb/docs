@@ -52,7 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
-- [Introduction to PeeringDB](20180226-Apricot2018-Nipper.pdf) at [APRICOT 2018](https://2018.apricot.net/program/schedule/#/day/8/peering-and-interconnection-ii-global), Kathmandu, NP - February 26, 2018 - Arnold Nipper
+- [Introduction to PeeringDB](presentations/20180226-Apricot2018-Nipper.pdf) at [APRICOT 2018](https://2018.apricot.net/program/schedule/#/day/8/peering-and-interconnection-ii-global), Kathmandu, NP - February 26, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180224-17th-APIX-Nipper.pdf) at [APIX Meeting #17](http://apix.asia/?page_id=75), Kathmandu, NP - February 24, 2018 - Arnold Nipper
 - [PeeringDB Introduction](presentation/20180208-Capacity-India-and-SAARC-Nipper.pdf) at [Capacity India & SAARC 2018](http://www.capacityconferences.com/India-Connect-Agenda), New Delhi, IN - February 8, 2018 - Arnold Nipper
 
