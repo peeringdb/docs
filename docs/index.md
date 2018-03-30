@@ -46,6 +46,7 @@ Local database replication is accomplished with this [command line tool](https:/
 ## Guides
 
 - [es] [Guía corta para uso de peeringdb.com](guide/guia_PeeringDB.pdf) - Fabián Mejía
+- [pt-BR] [Guia de cadastro de informações de Facilities no PeeringDB](guide/PeeringDB_Cadastro_de_Facilities.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 
 
 ## Presentations
