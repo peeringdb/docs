@@ -16,17 +16,20 @@
 - [July 6th, 2017: Meeting Notes](notes/2017-07-06_Product_Committee_Notes.pdf)
 - [August 3rd, 2017: Meeting Notes](notes/2017-08-03_Product_Committee_Notes.pdf)
 - [October 12th, 2017: Meeting Notes](notes/2017-10-12_Product_Committee_Notes.pdf)
+- [December 7th, 2017: Meeting Notes](notes/2017-12-07_Product_Committee_Notes.pdf)
+- [January 4th, 2018: Meeting Notes](notes/2018-01-04_Product_Committee_Notes.pdf)
+- [March 14th, 2018: Meeting Notes](notes/2018-03-14_Product_Committee_Notes.pdf)
 
 ## Members
 - Eric Loos (Chair)
 - Matt Griswold (Vice Chair)
+- Samer Abdel-Hafez
 - Karthik Arumugham
 - Greg Hankins
+- Florian Hibler
 - Aaron Hughes
 - Martin J. Levy
 - Stephen McManus
 - Arnold Nipper
 - Chris Phillips
-- Kay Rechthien
-- Bijal Sanghani
 - Job Snijders
