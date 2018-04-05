@@ -7,6 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Member Meetings
 
+- April 19th, 2018: [Agenda](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Agenda.txt)
 - April 20th, 2017: [Agenda](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Audio.mp3)
 - April 21st, 2016: [Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Audio.mp3)
 
@@ -16,10 +17,12 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Policies
 
+- [Acceptable Use Policy](https://www.peeringdb.com/aup)
 - [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
 
 ## Board Meetings
 
+- [February 8th, 2018](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
 - [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
 - [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
 - [July 7th, 2017](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf)
@@ -39,6 +42,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Finances
 
+- [December 31st, 2017: Finance Report](gov/finances/2017-12-31_PeeringDB_Finances.pdf)
 - [May 10th, 2017: IRS Form 990-EZ for 2016](gov/finances/2017-05-10_2016_Form_990-EZ.pdf)
 - [December 31st, 2016: Finance Report](gov/finances/2016-12-31_PeeringDB_Finances.pdf)
 - [April 15th, 2016: IRS Form W-9](gov/finances/2016-04-15_PeeringDB_IRS_Form_W-9.pdf)
@@ -62,6 +66,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 14th, 2018: Board election voter's guide](gov/misc/2018-04-14_election.html)
 - [April 30th, 2017: Board election results](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2017: Board election voter's guide](gov/misc/2017-04-14_election.html)
 - [April 30th, 2016: Board election results](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf)
