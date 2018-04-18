@@ -22,6 +22,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board Meetings
 
+- [April 9th, 2018](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf)
 - [February 8th, 2018](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
 - [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
 - [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
@@ -99,6 +100,10 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Operations Committee
 
 - Board members Snijders (Chair) and Hughes.
+
+## Outreach Committee
+
+- Board members Sanghani (Chair) and Hughes (Vice Chair).
 
 ## Product Committee
 
