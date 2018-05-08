@@ -53,6 +53,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB Update](presentation/20180508-AIS2018-Nipper-v2.pdf) at [African Internet Summit 2018](https://internetsummitafrica.org/), Dakar, SN - May 8, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180309-DKNOG8-Lightning-Nipper.pdf) at [DKNOG8](https://dknog8.dknog.dk/), Copenhagen, DK - March 9, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180307-CEE-Peering-Days-Lightning-Nipper.pdf) at [CEE Peering Days 2018](https://www.peeringdays.eu/programme.php), Berlin, DE - March 7, 2018 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20180226-Apricot2018-Nipper.pdf) at [APRICOT 2018](https://2018.apricot.net/program/schedule/#/day/8/peering-and-interconnection-ii-global), Kathmandu, NP - February 26, 2018 - Arnold Nipper
