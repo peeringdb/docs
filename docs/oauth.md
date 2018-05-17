@@ -26,7 +26,7 @@ PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
 
 ### Fields
 
- based largely on OpenID Connect.
+The fields are based largely on OpenID Connect.
 
 Scopes currently are defined as 
 
@@ -34,7 +34,15 @@ Scopes currently are defined as
 - `email` : adds fields `email` and `verified_email`
 - `networks` : add field `networks`
 
-The `perms` field is a bitmask for CRUD as the 4 LSBs.
+The `perms` field is a bitmask for [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) as the 4 least significant bits. See following:
+
+```
+0b0000 1 1 1 1
+       | | | +-- Delete
+       | | +---- Update
+       | +------ Read
+       + ------- Create
+```
 
 Example for my user:
 
