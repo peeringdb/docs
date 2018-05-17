@@ -136,14 +136,21 @@ PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
 </code></pre>
 
 <h3 id="fields">Fields</h3>
-<p>based largely on OpenID Connect.</p>
+<p>The fields are based largely on OpenID Connect.</p>
 <p>Scopes currently are defined as </p>
 <ul>
 <li><code>profile</code> : user profile</li>
 <li><code>email</code> : adds fields <code>email</code> and <code>verified_email</code></li>
 <li><code>networks</code> : add field <code>networks</code></li>
 </ul>
-<p>The <code>perms</code> field is a bitmask for CRUD as the 4 LSBs.</p>
+<p>The <code>perms</code> field is a bitmask for <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> as the 4 least significant bits. See following:</p>
+<pre><code>0b0000 1 1 1 1
+       | | | +-- Delete
+       | | +---- Update
+       | +------ Read
+       + ------- Create
+</code></pre>
+
 <p>Example for my user:</p>
 <pre><code class="json">{
   &quot;id&quot;: 3,
