@@ -4,7 +4,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/</loc>
-     <lastmod>2018-05-16</lastmod>
+     <lastmod>2018-05-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>http://docs.peeringdb.com/gov/</loc>
-     <lastmod>2018-05-16</lastmod>
+     <lastmod>2018-05-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,26 +21,38 @@
         
     <url>
      <loc>http://docs.peeringdb.com/committee/product/</loc>
-     <lastmod>2018-05-16</lastmod>
+     <lastmod>2018-05-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
-    <url>
-     <loc>http://docs.peeringdb.com/faq/</loc>
-     <lastmod>2018-05-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
+        
     <url>
      <loc>http://docs.peeringdb.com/api_specs/</loc>
-     <lastmod>2018-05-16</lastmod>
+     <lastmod>2018-05-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>http://docs.peeringdb.com/oauth/</loc>
+     <lastmod>2018-05-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.peeringdb.com/translation/</loc>
+     <lastmod>2018-05-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://docs.peeringdb.com/faq/</loc>
+     <lastmod>2018-05-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
