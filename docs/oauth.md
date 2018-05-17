@@ -1,0 +1,65 @@
+
+## OAuth
+
+PeeringDB now offers OAuth2 authentication to allow third party applications to allow users to authenticate against PeeringDB.
+
+For example, see <https://github.com/inex/IXP-Manager/issues/322>
+
+### What is OAuth
+
+There is a good write up at <https://aaronparecki.com/oauth-2-simplified/>.
+
+### Register an Application
+
+First you need to register your application at <https://peeringdb.com/oauth2/applications/>.
+
+
+### URLS
+
+```python
+PDB_ENDPOINT = "https://auth.peeringdb.com/"
+
+PDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)
+PDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)
+PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
+```
+
+### Fields
+
+ based largely on OpenID Connect.
+
+Scopes currently are defined as 
+
+- `profile` : user profile
+- `email` : adds fields `email` and `verified_email`
+- `networks` : add field `networks`
+
+The `perms` field is a bitmask for CRUD as the 4 LSBs.
+
+Example for my user:
+
+```json
+{
+  "id": 3,
+  "name": "Matt Griswold",
+  "given_name": "Matt",
+  "family_name": "Griswold",
+  "email": "grizz@20c.com",
+  "verified_user": true,
+  "verified_email": true,
+  "networks": [
+    {
+      "perms": 15,
+      "asn": 63311,
+      "name": "20C",
+      "id": 20
+    }, 
+    {
+      "perms": 15,
+      "asn": 33713,
+      "name": "United IX",
+      "id": 7889
+    }
+  ]
+}
+```

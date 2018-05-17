@@ -9,8 +9,11 @@ pages:
   - Governance: gov.md
   - Committee:
     - Product Committee: committee/product/index.md
-  - FAQ: faq.md
-  - API Specs: api_specs.md
+  - Documentation:
+    - API Specs: api_specs.md
+    - OAuth: oauth.md
+    - Translation: translation.md
+    - FAQ: faq.md
 
 extra_css:
   - extra.css
