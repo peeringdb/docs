@@ -12,7 +12,7 @@ pages:
   - Documentation:
     - API Specs: api_specs.md
     - OAuth: oauth.md
-    - Translation: translation.md
+    - Translations: translation.md
     - FAQ: faq.md
 
 extra_css:
