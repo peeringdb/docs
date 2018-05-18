@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        <script src="../js/jquery-1.10.2.min.js"></script>
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
         <script src="../js/bootstrap-3.0.3.min.js"></script>
         <script src="../js/highlight.pack.js"></script> 
     </head>
@@ -101,7 +101,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/peeringdb/docs/edit/master/docs/translation.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/peeringdb/docs">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
                     </li>
             </ul>
         </div>
@@ -116,7 +118,7 @@
             <li><a href="#clone-the-repository">Clone the repository</a></li>
             <li><a href="#find-the-files">Find the files</a></li>
             <li><a href="#make-your-changes-to-the-files">Make your changes to the files</a></li>
-        <li class="main "><a href="#gettext-translation-editors">Gettext Translation Editors</a></li>
+        <li class="main "><a href="#gettext-translation-editors">Gettext translation editors</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -144,7 +146,7 @@ cd peeringdb
 <p>If you wish to add a new locale, create a new ticket at https://github.com/peeringdb/peeringdb/issues stating your intent and one of the operators / developers will generate the necessary files for your locale and add them to the repository.</p>
 <h3 id="make-your-changes-to-the-files">Make your changes to the files</h3>
 <p>Use your favorite gettext translation editor to make changes to the files. Once you are happy with your changes, submit a pull request at <a href="https://github.com/peeringdb/peeringdb/pulls">https://github.com/peeringdb/peeringdb/pulls</a>.</p>
-<h2 id="gettext-translation-editors">Gettext Translation Editors</h2>
+<h2 id="gettext-translation-editors">Gettext translation editors</h2>
 <ul>
 <li><a href="https://poedit.net/">Poedit</a></li>
 </ul></div>
@@ -158,11 +160,8 @@ cd peeringdb
 
         </footer>
         <script>var base_url = '..';</script>
-        <script src="../js/base.js"></script>
-        <script src="../search/require.js"></script>
-        <script src="../search/search.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -185,47 +184,7 @@ cd peeringdb
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&larr;</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&rarr;</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
 </div>
-
 
     </body>
 </html>

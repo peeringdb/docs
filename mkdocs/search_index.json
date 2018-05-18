@@ -337,7 +337,7 @@
         }, 
         {
             "location": "/oauth/", 
-            "text": "OAuth\n\n\nPeeringDB now offers OAuth2 authentication to allow third party applications to allow users to authenticate against PeeringDB.\n\n\nFor example, see \nhttps://github.com/inex/IXP-Manager/issues/322\n\n\nWhat is OAuth\n\n\nThere is a good write up at \nhttps://aaronparecki.com/oauth-2-simplified/\n.\n\n\nRegister an Application\n\n\nFirst you need to register your application at \nhttps://peeringdb.com/oauth2/applications/\n.\n\n\nURLS\n\n\nPDB_ENDPOINT = \nhttps://auth.peeringdb.com/\n\n\nPDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)\nPDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)\nPDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)\n\n\n\n\nFields\n\n\nThe fields are based largely on OpenID Connect.\n\n\nScopes currently are defined as \n\n\n\n\nprofile\n : user profile\n\n\nemail\n : adds fields \nemail\n and \nverified_email\n\n\nnetworks\n : add field \nnetworks\n\n\n\n\nThe \nperms\n field is a bitmask for \nCRUD\n as the 4 least significant bits. See following:\n\n\n0b0000 1 1 1 1\n       | | | +-- Delete\n       | | +---- Update\n       | +------ Read\n       + ------- Create\n\n\n\n\nExample for my user:\n\n\n{\n  \nid\n: 3,\n  \nname\n: \nMatt Griswold\n,\n  \ngiven_name\n: \nMatt\n,\n  \nfamily_name\n: \nGriswold\n,\n  \nemail\n: \ngrizz@20c.com\n,\n  \nverified_user\n: true,\n  \nverified_email\n: true,\n  \nnetworks\n: [\n    {\n      \nperms\n: 15,\n      \nasn\n: 63311,\n      \nname\n: \n20C\n,\n      \nid\n: 20\n    }, \n    {\n      \nperms\n: 15,\n      \nasn\n: 33713,\n      \nname\n: \nUnited IX\n,\n      \nid\n: 7889\n    }\n  ]\n}", 
+            "text": "OAuth\n\n\nPeeringDB now offers OAuth2 authentication to allow third party applications to allow users to authenticate against PeeringDB.\n\n\nFor example, see \nhttps://github.com/inex/IXP-Manager/issues/322\n\n\nWhat is OAuth?\n\n\nThere is a good write up at \nhttps://aaronparecki.com/oauth-2-simplified/\n.\n\n\nRegister an application\n\n\nFirst you need to register your application at \nhttps://peeringdb.com/oauth2/applications/\n.\n\n\nURLs\n\n\nPDB_ENDPOINT = \nhttps://auth.peeringdb.com/\n\n\nPDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)\nPDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)\nPDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)\n\n\n\n\nFields\n\n\nThe fields are based largely on OpenID Connect.\n\n\nScopes currently are defined as \n\n\n\n\nprofile\n : user profile\n\n\nemail\n : adds fields \nemail\n and \nverified_email\n\n\nnetworks\n : add field \nnetworks\n\n\n\n\nThe \nperms\n field is a bitmask for \nCRUD\n as the 4 least significant bits. See following:\n\n\n0b0000 1 1 1 1\n       | | | +-- Delete\n       | | +---- Update\n       | +------ Read\n       + ------- Create\n\n\n\n\nExample for my user:\n\n\n{\n  \nid\n: 3,\n  \nname\n: \nMatt Griswold\n,\n  \ngiven_name\n: \nMatt\n,\n  \nfamily_name\n: \nGriswold\n,\n  \nemail\n: \ngrizz@20c.com\n,\n  \nverified_user\n: true,\n  \nverified_email\n: true,\n  \nnetworks\n: [\n    {\n      \nperms\n: 15,\n      \nasn\n: 63311,\n      \nname\n: \n20C\n,\n      \nid\n: 20\n    }, \n    {\n      \nperms\n: 15,\n      \nasn\n: 33713,\n      \nname\n: \nUnited IX\n,\n      \nid\n: 7889\n    }\n  ]\n}", 
             "title": "OAuth"
         }, 
         {
@@ -348,17 +348,17 @@
         {
             "location": "/oauth/#what-is-oauth", 
             "text": "There is a good write up at  https://aaronparecki.com/oauth-2-simplified/ .", 
-            "title": "What is OAuth"
+            "title": "What is OAuth?"
         }, 
         {
             "location": "/oauth/#register-an-application", 
             "text": "First you need to register your application at  https://peeringdb.com/oauth2/applications/ .", 
-            "title": "Register an Application"
+            "title": "Register an application"
         }, 
         {
             "location": "/oauth/#urls", 
             "text": "PDB_ENDPOINT =  https://auth.peeringdb.com/ \n\nPDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)\nPDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)\nPDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)", 
-            "title": "URLS"
+            "title": "URLs"
         }, 
         {
             "location": "/oauth/#fields", 
@@ -367,7 +367,7 @@
         }, 
         {
             "location": "/translation/", 
-            "text": "Contributing to translations\n\n\nFork the repository\n\n\nIf you're unfamiliar with forking, check out docs at \nhttps://help.github.com/articles/fork-a-repo/\n\n\n\n\nclick the fork button on \nhttps://github.com/peeringdb/peeringdb\n\n\nselect your GitHub username\n\n\n\n\nClone the repository\n\n\ngit clone git@github.com:$GITHUB_USERNAME/peeringdb.git\ncd peeringdb\n\n\n\n\nFind the files\n\n\nLocale files are kept in the \nlocale/\n directory.\n\n\nThere are 2 \n.po\n files for each language:\n\n\n\n\ndjango.po\n : server side translation strings\n\n\ndjongojs.po\n - client side translation strings (JavaScript prompts etc.)\n\n\n\n\nAdding a new locale\n\n\nIf you wish to add a new locale, create a new ticket at https://github.com/peeringdb/peeringdb/issues stating your intent and one of the operators / developers will generate the necessary files for your locale and add them to the repository.\n\n\nMake your changes to the files\n\n\nUse your favorite gettext translation editor to make changes to the files. Once you are happy with your changes, submit a pull request at \nhttps://github.com/peeringdb/peeringdb/pulls\n.\n\n\nGettext Translation Editors\n\n\n\n\nPoedit", 
+            "text": "Contributing to translations\n\n\nFork the repository\n\n\nIf you're unfamiliar with forking, check out docs at \nhttps://help.github.com/articles/fork-a-repo/\n\n\n\n\nclick the fork button on \nhttps://github.com/peeringdb/peeringdb\n\n\nselect your GitHub username\n\n\n\n\nClone the repository\n\n\ngit clone git@github.com:$GITHUB_USERNAME/peeringdb.git\ncd peeringdb\n\n\n\n\nFind the files\n\n\nLocale files are kept in the \nlocale/\n directory.\n\n\nThere are 2 \n.po\n files for each language:\n\n\n\n\ndjango.po\n : server side translation strings\n\n\ndjongojs.po\n - client side translation strings (JavaScript prompts etc.)\n\n\n\n\nAdding a new locale\n\n\nIf you wish to add a new locale, create a new ticket at https://github.com/peeringdb/peeringdb/issues stating your intent and one of the operators / developers will generate the necessary files for your locale and add them to the repository.\n\n\nMake your changes to the files\n\n\nUse your favorite gettext translation editor to make changes to the files. Once you are happy with your changes, submit a pull request at \nhttps://github.com/peeringdb/peeringdb/pulls\n.\n\n\nGettext translation editors\n\n\n\n\nPoedit", 
             "title": "Translation"
         }, 
         {
@@ -403,7 +403,7 @@
         {
             "location": "/translation/#gettext-translation-editors", 
             "text": "Poedit", 
-            "title": "Gettext Translation Editors"
+            "title": "Gettext translation editors"
         }, 
         {
             "location": "/faq/", 
