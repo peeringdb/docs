@@ -5,16 +5,16 @@ PeeringDB now offers OAuth2 authentication to allow third party applications to 
 
 For example, see <https://github.com/inex/IXP-Manager/issues/322>
 
-### What is OAuth
+### What is OAuth?
 
 There is a good write up at <https://aaronparecki.com/oauth-2-simplified/>.
 
-### Register an Application
+### Register an application
 
 First you need to register your application at <https://peeringdb.com/oauth2/applications/>.
 
 
-### URLS
+### URLs
 
 ```python
 PDB_ENDPOINT = "https://auth.peeringdb.com/"

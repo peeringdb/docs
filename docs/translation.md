@@ -36,6 +36,6 @@ If you wish to add a new locale, create a new ticket at https://github.com/peeri
 Use your favorite gettext translation editor to make changes to the files. Once you are happy with your changes, submit a pull request at <https://github.com/peeringdb/peeringdb/pulls>.
 
 
-## Gettext Translation Editors
+## Gettext translation editors
 
 - [Poedit](https://poedit.net/)
