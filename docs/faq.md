@@ -65,7 +65,7 @@ Your organization does not need to be a Member to have an active account at Peer
 
 ### What are the Terms and Conditions for PeeringDB membership?
 
-Please see <http://docs.peeringdb.com/gov/#organizational-documents> for the legal aspects of PeeringDB. An Acceptable Use Policy is under development by the Board. 
+Please see <http://docs.peeringdb.com/gov/#organizational-documents> for the legal aspects of PeeringDB. The Acceptable Use Policy is at <https://peeringdb.com/aup>.
 
 ### Are there any membership fees required for members?
 

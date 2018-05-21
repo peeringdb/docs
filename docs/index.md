@@ -46,9 +46,19 @@ Local database replication is accomplished with this [command line tool](https:/
 ## Guides
 
 - [es] [Guía corta para uso de peeringdb.com](guide/guia_PeeringDB.pdf) - Fabián Mejía
-
+- [pt-BR] [Guia de cadastro de informações de Facilities no PeeringDB](guide/PeeringDB_Cadastro_de_Facilities.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 
 ## Presentations
+
+#### 2018
+
+- [PeeringDB Update](presentation/20180516-RIPE76-Lightning-Nipper-V2.pdf) at [RIPE 76 Connet Working Group](https://ripe76.ripe.net/programme/meeting-plan/connect-wg/), Marseille, FR - May 16, 2018 - Arnold Nipper ([video](https://ripe76.ripe.net/archives/video/49))
+- [PeeringDB Update](presentation/20180508-AIS2018-Nipper-v2.pdf) at [African Internet Summit 2018](https://internetsummitafrica.org/), Dakar, SN - May 8, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180309-DKNOG8-Lightning-Nipper.pdf) at [DKNOG8](https://dknog8.dknog.dk/), Copenhagen, DK - March 9, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180307-CEE-Peering-Days-Lightning-Nipper.pdf) at [CEE Peering Days 2018](https://www.peeringdays.eu/programme.php), Berlin, DE - March 7, 2018 - Arnold Nipper
+- [Introduction to PeeringDB](presentation/20180226-Apricot2018-Nipper.pdf) at [APRICOT 2018](https://2018.apricot.net/program/schedule/#/day/8/peering-and-interconnection-ii-global), Kathmandu, NP - February 26, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180224-17th-APIX-Nipper.pdf) at [APIX Meeting #17](http://apix.asia/?page_id=75), Kathmandu, NP - February 24, 2018 - Arnold Nipper
+- [PeeringDB Introduction](presentation/20180208-Capacity-India-and-SAARC-Nipper.pdf) at [Capacity India & SAARC 2018](http://www.capacityconferences.com/India-Connect-Agenda), New Delhi, IN - February 8, 2018 - Arnold Nipper
 
 #### 2017
 
@@ -101,6 +111,12 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Version 2 Introduction](presentation/PeeringDB_Version_2-Introduction.pdf) - Matt Griswold
     - [27th Euro-IX Forum](https://www.euro-ix.net/news-and-events/euro-ix-forum/), Berlin, DE - October 26, 2015 - Greg Hankins
     - [DENOG7](http://www.denog.de/meetings/denog7/?lang=en), Darmstadt, DE - October 30, 2015 - Arnold Nipper 
+
+## Open Source
+
+#### Source code audit
+
+PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Computest](https://www.computest.nl/) (the auditor) prepared a __Third Pary Memo__, this memo provides a high level overview of the outcome of the source code audit. The report is available [here](gov/misc/2018-05-16_Computest_Source_Code_Audit_TPM.pdf).
 
 ## Tools
 
