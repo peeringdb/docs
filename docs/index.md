@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB Update e cadastro de Facilities](presentation/gter45-peeringdb.20180515.pdf) at [GTER 45](http://gtergts.nic.br/), Florianópolis, BR - May 22, 2018 - Julimar Lunguinho Mendes ([video](https://www.youtube.com/watch?v=W0hSdRr4UW0) start 1:08:29 and finish 1:20:14)
 - [PeeringDB Update](presentation/20180516-RIPE76-Lightning-Nipper-V2.pdf) at [RIPE 76 Connet Working Group](https://ripe76.ripe.net/programme/meeting-plan/connect-wg/), Marseille, FR - May 16, 2018 - Arnold Nipper ([video](https://ripe76.ripe.net/archives/video/49))
 - [PeeringDB Update](presentation/20180508-AIS2018-Nipper-v2.pdf) at [African Internet Summit 2018](https://internetsummitafrica.org/), Dakar, SN - May 8, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180309-DKNOG8-Lightning-Nipper.pdf) at [DKNOG8](https://dknog8.dknog.dk/), Copenhagen, DK - March 9, 2018 - Arnold Nipper
