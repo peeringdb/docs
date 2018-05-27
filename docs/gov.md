@@ -106,7 +106,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Outreach Committee
 
-- Board members Sanghani (Chair) and Hughes (Vice Chair).
+- Board members Sanghani (Vice Chair), Hughes and Nipper.
 
 ## Product Committee
 
