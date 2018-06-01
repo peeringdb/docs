@@ -9,7 +9,7 @@ Once they are created and ready, PeeringDB will open a ticket and assign it to y
 
 ### Getting the files
 
-We prefer that you use git, fork the repo, and submit a pull request when done. If you don't want to use git, you may either download them from the appropriate directory at <https://github.com/peeringdb/peeringdb/tree/master/locale> or end an email to <productcom@lists.peeringdb.com> and we'll email you the files.
+We prefer that you use git, fork the repo, and submit a pull request when done. If you don't want to use git, you may either download them from the appropriate directory at <https://github.com/peeringdb/peeringdb/tree/master/locale> or send an email to <productcom@lists.peeringdb.com> and we'll email you the files.
 
 
 ### Git
