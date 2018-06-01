@@ -55,3 +55,11 @@ If you used git, please submit a pull request at <https://github.com/peeringdb/p
 ### Gettext translation editors
 
 - [Poedit](https://poedit.net/)
+
+
+### Thanks to the translators!
+
+#### pt
+
+- Robert Philips (NTT Communications)
+- Ligio Gomes (NTT Communications)
