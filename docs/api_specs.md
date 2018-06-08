@@ -1,4 +1,4 @@
-# RESTful API Endpoints and Specifications
+# RESTful API endpoints and specifications
 
 ## Object types and tags
 
@@ -249,4 +249,26 @@ curl:
 
     curl -H "Accept: application/json" -X DELETE https://<username>:<password>@peeringdb.com/api/OBJ/42
 
+## Real world example
 
+Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?
+
+A: You can use the API like this.
+
+    curl -sG https://peeringdb.com/api/netixlan
+    --data-urlencode net_id__in=694,1100,1418
+    --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix
+    --data-urlencode region_continent=Europe | 
+    jq -c '[.data[].id]' | 
+    sed 's/\[//;s/\]//'` |
+    jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | 
+    sort -V
+
+The query looks for netixlan records belonging to Microsoft, Salesforce.com and Amazone.com (net_id__in=694,1100,1418) which are constrained to IXes in Europe based on the output from the embedded query.
+
+The embedded query in single quotes looks for all IXes with "Continental Region = Europe".  We do a little massaging on the IX ids to get a comma-separated list, which we then use as input in the query.
+
+    curl -sG https://peeringdb.com/api/ix
+    --data-urlencode region_continent=Europe |
+    jq -c '[.data[].id]' | 
+    sed 's/\[//;s/\]//'
