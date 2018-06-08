@@ -113,15 +113,16 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</a></li>
+        <li class="main active"><a href="#restful-api-endpoints-and-specifications">RESTful API endpoints and specifications</a></li>
             <li><a href="#object-types-and-tags">Object types and tags</a></li>
             <li><a href="#requests">Requests</a></li>
             <li><a href="#operations">Operations</a></li>
+            <li><a href="#real-world-example">Real world example</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="restful-api-endpoints-and-specifications">RESTful API Endpoints and Specifications</h1>
+<h1 id="restful-api-endpoints-and-specifications">RESTful API endpoints and specifications</h1>
 <h2 id="object-types-and-tags">Object types and tags</h2>
 <p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://peeringdb.com/apidocs/">https://peeringdb.com/apidocs/</a>.</p>
 <h2 id="requests">Requests</h2>
@@ -345,6 +346,25 @@ deleted in that time frame as well - you can spot them by checking for status "d
 </code></pre>
 <p>curl:</p>
 <pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
+</code></pre>
+<h2 id="real-world-example">Real world example</h2>
+<p>Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?</p>
+<p>A: You can use the API like this.</p>
+<pre><code>curl -sG https://peeringdb.com/api/netixlan
+--data-urlencode net_id__in=694,1100,1418
+--data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix
+--data-urlencode region_continent=Europe | 
+jq -c '[.data[].id]' | 
+sed 's/\[//;s/\]//'` |
+jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | 
+sort -V
+</code></pre>
+<p>The query looks for netixlan records belonging to Microsoft, Salesforce.com and Amazone.com (net_id__in=694,1100,1418) which are constrained to IXes in Europe based on the output from the embedded query.</p>
+<p>The embedded query in single quotes looks for all IXes with "Continental Region = Europe".  We do a little massaging on the IX ids to get a comma-separated list, which we then use as input in the query.</p>
+<pre><code>curl -sG https://peeringdb.com/api/ix
+--data-urlencode region_continent=Europe |
+jq -c '[.data[].id]' | 
+sed 's/\[//;s/\]//'
 </code></pre></div>
         </div>
 
