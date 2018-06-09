@@ -253,7 +253,7 @@ curl:
 
 Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?
 
-A: You can use the API like this.
+A: You can use the API to perform complex queries, like in this example.
 
     curl -sG https://peeringdb.com/api/netixlan
     --data-urlencode net_id__in=694,1100,1418
