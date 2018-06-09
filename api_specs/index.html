@@ -349,7 +349,7 @@ deleted in that time frame as well - you can spot them by checking for status "d
 </code></pre>
 <h2 id="real-world-example">Real world example</h2>
 <p>Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?</p>
-<p>A: You can use the API like this.</p>
+<p>A: You can use the API to perform complex queries, like in this example.</p>
 <pre><code>curl -sG https://peeringdb.com/api/netixlan
 --data-urlencode net_id__in=694,1100,1418
 --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix
