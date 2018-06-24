@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB: What is it, how to and benefits](presentation/20180622-NEPF-Gilmore.pdf) at [New England Peering Forum 2018](http://nepeeringforum.org/), Cambridge, MA, US - June 22, 2018 - Patrick W. Gilmore
 - [PeeringDB Update](presentation/20180619-SEE7-Lightning-Nipper.pdf) at [SEE 7](https://www.ripe.net/participate/meetings/regional-meetings/see/see-7), Timișoara, R0 - June 18, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180605-ENOG15-Nipper-V2.pdf) at [ENOG 15](https://www.enog.org/enog-15/programme/agenda/), Moscow, RU - June 5, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180524-SwiNOG-33-Lightning-Nipper-V2.pdf) at [SwiNOG 33](http://www.swinog.ch/meetings/swinog33/index.asp), Berne, CH - May 24, 2018 - Arnold Nipper
