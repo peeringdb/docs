@@ -97,7 +97,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Admin Committee
 
 - Purpose is to oversee the administrator mission and volunteers.
-- Board members Nipper (Chair), Sanghani (Vice Chair), Gilmore, and Snijders.
+- Board members Nipper (Chair) and Snijders.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
 ## Operations Committee
