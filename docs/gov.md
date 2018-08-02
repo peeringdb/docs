@@ -22,6 +22,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board Meetings
 
+- [July 19th, 2018](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf)
+- [May 18th, 2018](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf)
 - [April 9th, 2018](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf)
 - [February 8th, 2018](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
 - [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
@@ -96,7 +98,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Admin Committee
 
 - Purpose is to oversee the administrator mission and volunteers.
-- Board members Nipper (Chair), Sanghani (Vice Chair), Gilmore, and Snijders.
+- Board members Nipper (Chair) and Snijders.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
 ## Operations Committee
@@ -105,7 +107,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Outreach Committee
 
-- Board members Sanghani (Chair) and Hughes (Vice Chair).
+- Board members Sanghani (Vice Chair), Hughes, and Nipper.
 
 ## Product Committee
 
