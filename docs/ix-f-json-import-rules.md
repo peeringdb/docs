@@ -14,6 +14,6 @@ There is a tick box "Allow IXP Update". Per **default** this is unticked (set to
 - If a network does not have an entry in the IX member list, the network IX entry is removed
 
 ## For IXes
-To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field `LANs`. Make sure that your JSON file is [valid](https://ml.ix-f.net/test). 
+To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field `LANs`. Make sure that your JSON file is [valid](https://www.ixpdb.net/en/validator/).
 
 **Note**: If a state is not set at all, it will be seen as active by default. **If state is set** the importer accepts either `active` or `connected` to qualify the entry for import.
