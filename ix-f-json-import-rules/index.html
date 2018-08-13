@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="canonical" href="http://docs.peeringdb.com/ix-f-json-import-rules/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>PeeringDB</title>
+	<title>IX-F JSON - PeeringDB</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./extra.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../extra.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">PeeringDB</a>
+            <a class="navbar-brand" href="..">PeeringDB</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -55,13 +55,13 @@
                 
                 
                     <li >
-                        <a href=".">PeeringDB</a>
+                        <a href="..">PeeringDB</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="gov/">Governance</a>
+                        <a href="../gov/">Governance</a>
                     </li>
                 
                 
@@ -72,7 +72,7 @@
                         
                             
 <li >
-    <a href="committee/product/">Product Committee</a>
+    <a href="../committee/product/">Product Committee</a>
 </li>
 
                         
@@ -81,37 +81,37 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="api_specs/">API Specs</a>
+    <a href="../api_specs/">API Specs</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">IX-F JSON</a>
 </li>
 
                         
                             
 <li >
-    <a href="ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../oauth/">OAuth</a>
 </li>
 
                         
                             
 <li >
-    <a href="oauth/">OAuth</a>
+    <a href="../translation/">Translations</a>
 </li>
 
                         
                             
 <li >
-    <a href="translation/">Translations</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="faq/">FAQ</a>
+    <a href="../faq/">FAQ</a>
 </li>
 
                         
@@ -129,13 +129,13 @@
                     </a>
                 </li>
                 
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../api_specs/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../oauth/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -157,15 +157,36 @@
 
         <div class="container">
             
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#rules-for-ix-f-json-importer">Rules for IX-F JSON importer</a></li>
+        
+            <li><a href="#for-networks">For networks</a></li>
+        
+            <li><a href="#for-ixes">For IXes</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="rules-for-ix-f-json-importer">Rules for IX-F JSON importer</h1>
+<p>PeeringDB allows network and IXes to contol entries via the so called IX-F JSON import feature.</p>
+<h2 id="for-networks">For networks</h2>
+<p>There is a tick box "Allow IXP Update". Per <strong>default</strong> this is unticked (set to "no")</p>
+<p><code>allow_ixp_update</code>: no<br />
+- If a network has an IX entry with both invalid IP addresses, the network IX entry is removed<br />
+- If a network has an IX entry with any other invalid information (route server peer and speed), nothing is done<br />
+- If a network does not have an entry for the IX, nothing is done</p>
+<p><code>allow_ixp_update</code>: yes<br />
+- If a network has an IX entry with any differing information, the entry is updated (IPv4, IPv6, speed, route server peer)<br />
+- If a network does not have an entry for the IX, one is added<br />
+- If a network does not have an entry in the IX member list, the network IX entry is removed</p>
+<h2 id="for-ixes">For IXes</h2>
+<p>To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field <code>LANs</code>. Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</p>
+<p><strong>Note</strong>: If a state is not set at all, it will be seen as active by default. <strong>If state is set</strong> the importer accepts either <code>active</code> or <code>connected</code> to qualify the entry for import.</p></div>
+            
         </div>
 
         <footer class="col-md-12">
@@ -174,12 +195,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

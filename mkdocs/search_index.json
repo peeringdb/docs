@@ -361,6 +361,26 @@
             "title": "Real world example"
         }, 
         {
+            "location": "/ix-f-json-import-rules/", 
+            "text": "Rules for IX-F JSON importer\n\n\nPeeringDB allows network and IXes to contol entries via the so called IX-F JSON import feature.\n\n\nFor networks\n\n\nThere is a tick box \"Allow IXP Update\". Per \ndefault\n this is unticked (set to \"no\")\n\n\nallow_ixp_update\n: no\n\n- If a network has an IX entry with both invalid IP addresses, the network IX entry is removed\n\n- If a network has an IX entry with any other invalid information (route server peer and speed), nothing is done\n\n- If a network does not have an entry for the IX, nothing is done\n\n\nallow_ixp_update\n: yes\n\n- If a network has an IX entry with any differing information, the entry is updated (IPv4, IPv6, speed, route server peer)\n\n- If a network does not have an entry for the IX, one is added\n\n- If a network does not have an entry in the IX member list, the network IX entry is removed\n\n\nFor IXes\n\n\nTo enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field \nLANs\n. Make sure that your JSON file is \nvalid\n.\n\n\nNote\n: If a state is not set at all, it will be seen as active by default. \nIf state is set\n the importer accepts either \nactive\n or \nconnected\n to qualify the entry for import.", 
+            "title": "IX-F JSON"
+        }, 
+        {
+            "location": "/ix-f-json-import-rules/#rules-for-ix-f-json-importer", 
+            "text": "PeeringDB allows network and IXes to contol entries via the so called IX-F JSON import feature.", 
+            "title": "Rules for IX-F JSON importer"
+        }, 
+        {
+            "location": "/ix-f-json-import-rules/#for-networks", 
+            "text": "There is a tick box \"Allow IXP Update\". Per  default  this is unticked (set to \"no\")  allow_ixp_update : no \n- If a network has an IX entry with both invalid IP addresses, the network IX entry is removed \n- If a network has an IX entry with any other invalid information (route server peer and speed), nothing is done \n- If a network does not have an entry for the IX, nothing is done  allow_ixp_update : yes \n- If a network has an IX entry with any differing information, the entry is updated (IPv4, IPv6, speed, route server peer) \n- If a network does not have an entry for the IX, one is added \n- If a network does not have an entry in the IX member list, the network IX entry is removed", 
+            "title": "For networks"
+        }, 
+        {
+            "location": "/ix-f-json-import-rules/#for-ixes", 
+            "text": "To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field  LANs . Make sure that your JSON file is  valid .  Note : If a state is not set at all, it will be seen as active by default.  If state is set  the importer accepts either  active  or  connected  to qualify the entry for import.", 
+            "title": "For IXes"
+        }, 
+        {
             "location": "/oauth/", 
             "text": "OAuth\n\n\nPeeringDB now offers OAuth2 authentication for third-party applications to allow users to authenticate against PeeringDB.\n\n\nImplementation details are at \nhttps://github.com/peeringdb/peeringdb/issues/131\n.  For an example, see \nhttps://github.com/inex/IXP-Manager/issues/322\n.  \n\n\nWhat is OAuth?\n\n\nThere is a good write up at \nhttps://aaronparecki.com/oauth-2-simplified/\n.\n\n\nRegister an application\n\n\nFirst you need to register your application at \nhttps://peeringdb.com/oauth2/applications/\n.\n\n\nURLs\n\n\nPDB_ENDPOINT = \nhttps://auth.peeringdb.com/\n\n\nPDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)\nPDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)\nPDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)\n\n\n\n\nFields\n\n\nThe fields are based largely on OpenID Connect.\n\n\nScopes currently are defined as \n\n\n\n\nprofile\n : user profile\n\n\nemail\n : adds fields \nemail\n and \nverified_email\n\n\nnetworks\n : add field \nnetworks\n\n\n\n\nThe \nperms\n field is a bitmask for \nCRUD\n as the 4 least significant bits. See following:\n\n\n0b0000 1 1 1 1\n       | | | +-- Delete\n       | | +---- Update\n       | +------ Read\n       + ------- Create\n\n\n\n\nExample for my user:\n\n\n{\n  \nid\n: 3,\n  \nname\n: \nMatt Griswold\n,\n  \ngiven_name\n: \nMatt\n,\n  \nfamily_name\n: \nGriswold\n,\n  \nemail\n: \ngrizz@20c.com\n,\n  \nverified_user\n: true,\n  \nverified_email\n: true,\n  \nnetworks\n: [\n    {\n      \nperms\n: 15,\n      \nasn\n: 63311,\n      \nname\n: \n20C\n,\n      \nid\n: 20\n    }, \n    {\n      \nperms\n: 15,\n      \nasn\n: 33713,\n      \nname\n: \nUnited IX\n,\n      \nid\n: 7889\n    }\n  ]\n}", 
             "title": "OAuth"
