@@ -52,6 +52,8 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB Update](presentation/20180821-AfPIF2018-Nipper.pdf) at [AfPIF2018](https://www.afpif.org/afpif2018/), Cape Town, ZA - August 23, 2018 - Arnold Nipper
+- [PeeringDB for IXes](presentation/20180820-AF-IX@AfPIF2018-Nipper.pdf) at [AFIX](https://www.af-ix.net/), Cape Town, ZA - August 20, 2018 - Arnold Nipper
 - [Introduction to PeeringDB API](presentation/20180810-SANOG32-Lightning-Introduction-to-PeeringDB-API-Nipper.pdf) at [SANOG 32](http://www.sanog.org/sanog32/), Dhaka, BD - August 10, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180809-SANOG32-Update-Nipper.pdf) at [SANOG 32](http://www.sanog.org/sanog32/), Dhaka, BD - August 9, 2018 - Arnold Nipper
 - [PeeringDB: What is it, how to and benefits](presentation/20180622-NEPF-Gilmore.pdf) at [New England Peering Forum 2018](http://nepeeringforum.org/), Cambridge, MA, US - June 22, 2018 - Patrick W. Gilmore
