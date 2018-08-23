@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        <script src="./js/jquery-1.10.2.min.js"></script>
+	
+	<script src="./js/jquery-1.10.2.min.js"></script>
         <script src="./js/bootstrap-3.0.3.min.js"></script>
         <script src="./js/highlight.pack.js"></script> 
     </head>
@@ -105,7 +105,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/peeringdb/docs/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/peeringdb/docs">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
                     </li>
             </ul>
         </div>
@@ -185,6 +187,8 @@ becomes:<br />
 <h2 id="presentations">Presentations</h2>
 <h4 id="2018">2018</h4>
 <ul>
+<li><a href="./presentation/20180821-AfPIF2018-Nipper.pdf">PeeringDB Update</a> at <a href="https://www.afpif.org/afpif2018/">AfPIF2018</a>, Cape Town, ZA - August 23, 2018 - Arnold Nipper</li>
+<li><a href="./presentation/20180820-AF-IX@AfPIF2018-Nipper.pdf">PeeringDB for IXes</a> at <a href="https://www.af-ix.net/">AFIX</a>, Cape Town, ZA - August 20, 2018 - Arnold Nipper</li>
 <li><a href="./presentation/20180810-SANOG32-Lightning-Introduction-to-PeeringDB-API-Nipper.pdf">Introduction to PeeringDB API</a> at <a href="http://www.sanog.org/sanog32/">SANOG 32</a>, Dhaka, BD - August 10, 2018 - Arnold Nipper</li>
 <li><a href="./presentation/20180809-SANOG32-Update-Nipper.pdf">PeeringDB Update</a> at <a href="http://www.sanog.org/sanog32/">SANOG 32</a>, Dhaka, BD - August 9, 2018 - Arnold Nipper</li>
 <li><a href="./presentation/20180622-NEPF-Gilmore.pdf">PeeringDB: What is it, how to and benefits</a> at <a href="http://nepeeringforum.org/">New England Peering Forum 2018</a>, Cambridge, MA, US - June 22, 2018 - Patrick W. Gilmore</li>
@@ -333,11 +337,8 @@ becomes:<br />
 
         </footer>
         <script>var base_url = '.';</script>
-        <script src="./js/base.js"></script>
-        <script src="./search/require.js"></script>
-        <script src="./search/search.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+        <script src="./js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -360,52 +361,12 @@ becomes:<br />
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&larr;</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&rarr;</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
 </div>
-
 
     </body>
 </html>
 
 <!--
-MkDocs version : 0.17.2
-Build Date UTC : 2018-08-13 23:56:23
+MkDocs version : 0.16.0
+Build Date UTC : 2018-08-23 13:55:06
 -->
