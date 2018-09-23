@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [Cadastro para participantes do IX.br](presentation/Ix-forum-natal-peeringdb.20180914.pdf) at [IX (PTT) Fórum Regional](https://regional.forum.ix.br/24-RN/), Natal, BR - September 14, 2018 - Julimar Lunguinho Mendes
 - [PeeringDB Frontend Translation Project](presentation/20180907_apnic46_peeringdb_i18n_mawatari.pdf) at [APNIC 46](https://conference.apnic.net/46/), Noumea, NC - September 12, 2018 - Masataka Mawatari
 - [PeeringDB Update](presentation/20180821-AfPIF2018-Nipper.pdf) at [AfPIF2018](https://www.afpif.org/afpif2018/), Cape Town, ZA - August 23, 2018 - Arnold Nipper
 - [PeeringDB for IXes](presentation/20180820-AF-IX@AfPIF2018-Nipper.pdf) at [AFIX](https://www.af-ix.net/), Cape Town, ZA - August 20, 2018 - Arnold Nipper
