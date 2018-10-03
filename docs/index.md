@@ -52,6 +52,16 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB Update](presentation/20180924-SAFNOG-4-Nipper.pdf) at [SAFNOG-4/EANOG/tzNOG](http://www.safnog.org/), Dar es Salaam, TZ - September 25, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180918-EPF13-Stanic.pdf) at [EPF 13](https://www.peering-forum.eu/), Athens, GR - September 18, 2018 - Rebecca Stanić
+- [Cadastro para participantes do IX.br](presentation/Ix-forum-natal-peeringdb.20180914.pdf) at [IX (PTT) Fórum Regional](https://regional.forum.ix.br/24-RN/), Natal, BR - September 14, 2018 - Julimar Lunguinho Mendes
+- [PeeringDB Frontend Translation Project](presentation/20180907_apnic46_peeringdb_i18n_mawatari.pdf) at [APNIC 46](https://conference.apnic.net/46/), Noumea, NC - September 12, 2018 - Masataka Mawatari
+- [PeeringDB Update](presentation/20180821-AfPIF2018-Nipper.pdf) at [AfPIF2018](https://www.afpif.org/afpif2018/), Cape Town, ZA - August 23, 2018 - Arnold Nipper
+- [PeeringDB for IXes](presentation/20180820-AF-IX@AfPIF2018-Nipper.pdf) at [AFIX](https://www.af-ix.net/), Cape Town, ZA - August 20, 2018 - Arnold Nipper
+- [Introduction to PeeringDB API](presentation/20180810-SANOG32-Lightning-Introduction-to-PeeringDB-API-Nipper.pdf) at [SANOG 32](http://www.sanog.org/sanog32/), Dhaka, BD - August 10, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180809-SANOG32-Update-Nipper.pdf) at [SANOG 32](http://www.sanog.org/sanog32/), Dhaka, BD - August 9, 2018 - Arnold Nipper
+- [PeeringDB: What is it, how to and benefits](presentation/20180622-NEPF-Gilmore.pdf) at [New England Peering Forum 2018](http://nepeeringforum.org/), Cambridge, MA, US - June 22, 2018 - Patrick W. Gilmore
+- [PeeringDB Update](presentation/20180619-SEE7-Lightning-Nipper.pdf) at [SEE 7](https://www.ripe.net/participate/meetings/regional-meetings/see/see-7), Timișoara, R0 - June 18, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180605-ENOG15-Nipper-V2.pdf) at [ENOG 15](https://www.enog.org/enog-15/programme/agenda/), Moscow, RU - June 5, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180524-SwiNOG-33-Lightning-Nipper-V2.pdf) at [SwiNOG 33](http://www.swinog.ch/meetings/swinog33/index.asp), Berne, CH - May 24, 2018 - Arnold Nipper
 - [PeeringDB Update e cadastro de Facilities](presentation/gter45-peeringdb.20180515.pdf) at [GTER 45](http://gtergts.nic.br/), Florianópolis, BR - May 22, 2018 - Julimar Lunguinho Mendes ([video](https://www.youtube.com/watch?v=W0hSdRr4UW0) start 1:08:29 and finish 1:20:14)

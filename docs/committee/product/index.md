@@ -29,7 +29,6 @@
 - Matt Griswold (Vice Chair)
 - Samer Abdel-Hafez
 - Karthik Arumugham
-- Greg Hankins
 - Florian Hibler
 - Aaron Hughes
 - Martin J. Levy
@@ -37,3 +36,5 @@
 - Arnold Nipper
 - Chris Phillips
 - Job Snijders
+##### Product Marketing and Community Outreach (non-voting member)
+- Greg Hankins
