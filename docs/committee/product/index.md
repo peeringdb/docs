@@ -28,7 +28,6 @@
 - Eric Loos (Chair)
 - Matt Griswold (Vice Chair)
 - Samer Abdel-Hafez
-- Karthik Arumugham
 - Florian Hibler
 - Aaron Hughes
 - Martin J. Levy
