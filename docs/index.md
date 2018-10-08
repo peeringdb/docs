@@ -64,7 +64,7 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Update](presentation/20180619-SEE7-Lightning-Nipper.pdf) at [SEE 7](https://www.ripe.net/participate/meetings/regional-meetings/see/see-7), Timișoara, R0 - June 18, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180605-ENOG15-Nipper-V2.pdf) at [ENOG 15](https://www.enog.org/enog-15/programme/agenda/), Moscow, RU - June 5, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180524-SwiNOG-33-Lightning-Nipper-V2.pdf) at [SwiNOG 33](http://www.swinog.ch/meetings/swinog33/index.asp), Berne, CH - May 24, 2018 - Arnold Nipper
-- [PeeringDB Update e cadastro de Facilities](presentation/gter45-peeringdb.20180515.pdf) at [GTER 45](http://gtergts.nic.br/), Florianópolis, BR - May 22, 2018 - Julimar Lunguinho Mendes ([video](https://www.youtube.com/watch?v=W0hSdRr4UW0) start 1:08:29 and finish 1:20:14)
+- [PeeringDB Update e cadastro de Facilities](presentation/gter45-peeringdb.20180515.pdf) at [GTER 45](http://gtergts.nic.br/), Florianópolis, BR - May 22, 2018 - Julimar Lunguinho Mendes ([video](https://www.youtube.com/watch?v=WgACfvJ-HFY)
 - [PeeringDB Update](presentation/20180516-RIPE76-Lightning-Nipper-V2.pdf) at [RIPE 76 Connet Working Group](https://ripe76.ripe.net/programme/meeting-plan/connect-wg/), Marseille, FR - May 16, 2018 - Arnold Nipper ([video](https://ripe76.ripe.net/archives/video/49))
 - [PeeringDB Update](presentation/20180508-AIS2018-Nipper-v2.pdf) at [African Internet Summit 2018](https://internetsummitafrica.org/), Dakar, SN - May 8, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180309-DKNOG8-Lightning-Nipper.pdf) at [DKNOG8](https://dknog8.dknog.dk/), Copenhagen, DK - March 9, 2018 - Arnold Nipper
