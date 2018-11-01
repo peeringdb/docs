@@ -52,6 +52,8 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [PeeringDB Introduction](presentation/20181031-ngNOG-PeeringDB.pdf) at [ngNOG 2018](https://nog.ng/), Lagos, NG - October 31, 2018 - Ben Ryall
+- [PeeringDB Update](presentation/20181030-SwiNOG34-Nipper.pdf) at [SwiNOG #34](https://www.swinog.ch/meetings/swinog34/), Berne, CH - October 30, 2018 - Arnold Nipper
 - [PeeringDB Update and Japanese Localization Experience](presentation/20181025-PeeringAsia20-Nipper.pdf) at [Peering Asia 2.0](https://www.peeringasia.com/), Hong Kong, HK - October 25, 2018 - Arnold Nipper and Masataka Mawatari
 - [PeeringDB Update](presentation/20180924-SAFNOG-4-Nipper.pdf) at [SAFNOG-4/EANOG/tzNOG](http://www.safnog.org/), Dar es Salaam, TZ - September 25, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180918-EPF13-Stanic.pdf) at [EPF 13](https://www.peering-forum.eu/), Athens, GR - September 18, 2018 - Rebecca Stanić
