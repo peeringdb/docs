@@ -60,6 +60,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Organizational Documents
 
+- [November 1st, 2018: Annual Report](gov/legaldocs/2018-11-01_PeeringDB_Annual_Report.pdf)
 - [December 1st, 2017: Annual Report](gov/legaldocs/2017-12-01_PeeringDB_Annual_Report.pdf)
 - [May 18th, 2017: Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
 - [December 1st, 2016: Annual Report](gov/legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf)
