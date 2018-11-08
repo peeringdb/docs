@@ -1,64 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
      <loc>http://docs.peeringdb.com/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
      <loc>http://docs.peeringdb.com/gov/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
      <loc>http://docs.peeringdb.com/committee/product/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
      <loc>http://docs.peeringdb.com/api_specs/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>http://docs.peeringdb.com/ix-f-json-import-rules/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>http://docs.peeringdb.com/oauth/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>http://docs.peeringdb.com/translation/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>http://docs.peeringdb.com/faq/</loc>
-     <lastmod>2018-11-01</lastmod>
+     <lastmod>2018-11-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
 </urlset>
