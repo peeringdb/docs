@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2018
 
+- [Introduction to PeeringDB API](presentation/20181104-EuroIX33-Lightning-Introduction-to-PeeringDB-API-Nipper.pdf) at [33rd Euro-IX Forum](https://www.euro-ix.net/), Venice, IT - November 6, 2018 - Arnold Nipper
 - [PeeringDB Introduction](presentation/20181031-ngNOG-PeeringDB.pdf) at [ngNOG 2018](https://nog.ng/), Lagos, NG - October 31, 2018 - Ben Ryall
 - [PeeringDB Update](presentation/20181030-SwiNOG34-Nipper.pdf) at [SwiNOG #34](https://www.swinog.ch/meetings/swinog34/), Berne, CH - October 30, 2018 - Arnold Nipper
 - [PeeringDB Update and Japanese Localization Experience](presentation/20181025-PeeringAsia20-Nipper.pdf) at [Peering Asia 2.0](https://www.peeringasia.com/), Hong Kong, HK - October 25, 2018 - Arnold Nipper and Masataka Mawatari
