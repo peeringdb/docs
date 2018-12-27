@@ -23,6 +23,9 @@
 - [June 7th, 2018: Meeting Notes](notes/2018-06-07_Product_Committee_Notes.pdf)
 - [July 5th, 2018: Meeting Notes](notes/2018-07-05_Product_Committee_Notes.pdf)
 - [September 6th, 2018: Meeting Notes](notes/2018-09-06_Product_Committee_Notes.pdf)
+- [October, 4th, 2018: Meeting Notes](notes/2018-10-04_Product_Committee_Notes.pdf)
+- [Novermber 1st, 2018: Meeting Notes](notes/2018-11-01_Product_Committee_Notes.pdf)
+- [December 6th, 2018: Meeting Notes](notes/2018-12-06_Product_Committee_Notes.pdf)
 
 ## Members
 - Eric Loos (Chair)
