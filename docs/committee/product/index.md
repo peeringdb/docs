@@ -25,14 +25,10 @@
 ## Members
 - Eric Loos (Chair)
 - Matt Griswold (Vice Chair)
-- Samer Abdel-Hafez
-- Karthik Arumugham
 - Florian Hibler
-- Aaron Hughes
-- Martin J. Levy
+- Aaron Hughes (Board liaison)
 - Stephen McManus
 - Arnold Nipper
-- Chris Phillips
 - Job Snijders
 ##### Product Marketing and Community Outreach (non-voting member)
 - Greg Hankins
