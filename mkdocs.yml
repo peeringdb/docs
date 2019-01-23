@@ -7,10 +7,11 @@ theme_dir: peeringdb_theme
 pages:
   - PeeringDB: index.md
   - Governance: gov.md
-  - Committee:
+  - Committees:
     - Product Committee: committee/product/index.md
   - Documentation:
     - API Specs: api_specs.md
+    - IX-F JSON: ix-f-json-import-rules.md
     - OAuth: oauth.md
     - Translations: translation.md
     - FAQ: faq.md
