@@ -10,107 +10,108 @@
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Product Committee - PeeringDB</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script> 
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+            <div class="container">
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../..">PeeringDB</a>
-        </div>
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB</a>
+                </div>
 
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                    <li >
-                        <a href="../..">PeeringDB</a>
-                    </li>
-                    <li >
-                        <a href="../../gov/">Governance</a>
-                    </li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">PeeringDB</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
 <li class="active">
     <a href="./">Product Committee</a>
 </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
 <li >
     <a href="../../api_specs/">API Specs</a>
 </li>
-                            
+                                    
 <li >
     <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
-                            
+                                    
 <li >
     <a href="../../oauth/">OAuth</a>
 </li>
-                            
+                                    
 <li >
     <a href="../../translation/">Translations</a>
 </li>
-                            
+                                    
 <li >
     <a href="../../faq/">FAQ</a>
 </li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                    <li >
-                        <a rel="next" href="../../gov/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../../api_specs/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/peeringdb/docs/edit/master/docs/committee/product/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
-                    </li>
-            </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../gov/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../api_specs/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/committee/product/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
@@ -163,7 +164,7 @@
 <p>Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair.</p>
 <hr />
 <h2 id="workflow">Workflow</h2>
-<p><a href="./Product_Committee-Workflow.pdf">Diagram of Workflow</a></p>
+<p><a href="Product_Committee-Workflow.pdf">Diagram of Workflow</a></p>
 <p>The development roadmap is tracked using GitHub issues located at <a href="https://github.com/peeringdb/peeringdb/issues">https://github.com/peeringdb/peeringdb/issues</a> with the <a href="https://www.zenhub.com/">ZenHub</a> overlay.</p>
 <p>All members of the Product Committee take part in a <em>Hot Seat</em> schedule with a weekly rotation in order to monitor incoming github issues and ensure the follow-up of existing issues until they are either closed as non-implemented or moved to the backlog.</p>
 <p><strong>New Issues</strong> are evaluated to confirm that they are valid and coherent with the product vision, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to <strong>Review</strong>. While in <strong>Review</strong> issues are discussed by the community and the Product Committee until a solution is determined.</p>
@@ -178,22 +179,22 @@
 <p><strong>Done</strong> means the issue is completed in development and will be pushed to beta for review. Issues are not <strong>Closed</strong> until they are deployed to beta.</p>
 <h2 id="meeting-notes">Meeting Notes</h2>
 <ul>
-<li><a href="./notes/2017-03-21_Product_Committee_Notes.pdf">March 21st, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-04-13_Product_Committee_Notes.pdf">April 13th, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-06-01_Product_Committee_Notes.pdf">June 1st, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-07-06_Product_Committee_Notes.pdf">July 6th, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-08-03_Product_Committee_Notes.pdf">August 3rd, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-10-12_Product_Committee_Notes.pdf">October 12th, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2017-12-07_Product_Committee_Notes.pdf">December 7th, 2017: Meeting Notes</a></li>
-<li><a href="./notes/2018-01-04_Product_Committee_Notes.pdf">January 4th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-03-14_Product_Committee_Notes.pdf">March 14th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-04-05_Product_Committee_Notes.pdf">April 5th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-06-07_Product_Committee_Notes.pdf">June 7th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-07-05_Product_Committee_Notes.pdf">July 5th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-09-06_Product_Committee_Notes.pdf">September 6th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-10-04_Product_Committee_Notes.pdf">October, 4th, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-11-01_Product_Committee_Notes.pdf">Novermber 1st, 2018: Meeting Notes</a></li>
-<li><a href="./notes/2018-12-06_Product_Committee_Notes.pdf">December 6th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2017-03-21_Product_Committee_Notes.pdf">March 21st, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-04-13_Product_Committee_Notes.pdf">April 13th, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-06-01_Product_Committee_Notes.pdf">June 1st, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-07-06_Product_Committee_Notes.pdf">July 6th, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-08-03_Product_Committee_Notes.pdf">August 3rd, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-10-12_Product_Committee_Notes.pdf">October 12th, 2017: Meeting Notes</a></li>
+<li><a href="notes/2017-12-07_Product_Committee_Notes.pdf">December 7th, 2017: Meeting Notes</a></li>
+<li><a href="notes/2018-01-04_Product_Committee_Notes.pdf">January 4th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-03-14_Product_Committee_Notes.pdf">March 14th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-04-05_Product_Committee_Notes.pdf">April 5th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-06-07_Product_Committee_Notes.pdf">June 7th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-07-05_Product_Committee_Notes.pdf">July 5th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-09-06_Product_Committee_Notes.pdf">September 6th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-10-04_Product_Committee_Notes.pdf">October, 4th, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-11-01_Product_Committee_Notes.pdf">Novermber 1st, 2018: Meeting Notes</a></li>
+<li><a href="notes/2018-12-06_Product_Committee_Notes.pdf">December 6th, 2018: Meeting Notes</a></li>
 </ul>
 <h2 id="members">Members</h2>
 <ul>
@@ -218,10 +219,12 @@
  <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img style='height:50px' src='/img/linkedin.png'></a>
 
         </footer>
-        <script>var base_url = '../..';</script>
-        <script src="../../js/base.js"></script>
-        <script src="../../search/require.js"></script>
-        <script src="../../search/search.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -237,7 +240,7 @@
                 </p>
                 <form role="form">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -263,19 +266,19 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><kbd>?</kbd></td>
+                    <td class="help shortcut"><kbd>?</kbd></td>
                     <td>Open this help</td>
                   </tr>
                   <tr>
-                    <td><kbd>&larr;</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td><kbd>&rarr;</kbd></td>
+                    <td class="next shortcut"><kbd>n</kbd></td>
                     <td>Next page</td>
                   </tr>
                   <tr>
-                    <td><kbd>s</kbd></td>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
                     <td>Search</td>
                   </tr>
                 </tbody>
@@ -286,7 +289,6 @@
         </div>
     </div>
 </div>
-
 
     </body>
 </html>
