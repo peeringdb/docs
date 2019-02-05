@@ -22,6 +22,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board Meetings
 
+- [January 29th, 2019](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
 - [November 15th, 2018](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf)
 - [October 9th, 2018](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf)
 - [July 19th, 2018](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf)
