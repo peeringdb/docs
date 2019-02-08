@@ -130,6 +130,27 @@
 <p>It's a database for peering and peering related information. PeeringDB will let you see information about Networks you might want to peer with, where and how you can peer with them, as well as publish information about your own Organization's peering information.</p>
 <h3 id="how-do-i-get-started">How do I get started?</h3>
 <p>See our Quick Start guide: <a href="http://docs.peeringdb.com/#quick-start">http://docs.peeringdb.com/#quick-start</a></p>
+<h3 id="affiliation-requests">Affiliation requests</h3>
+<p>Q: How does affiliation to an organization work?</p>
+<p>A: After you have registered, go to your <a href="https://peeringdb.com/profile">profile</a>.</p>
+<ul>
+<li>
+<p>If your organization owns a network (also called AS or ASN), type in the AS number into the field ASN. Then click on the button <code>Affiliate</code>.</p>
+</li>
+<li>
+<p>If your ASN already is in PeeringDB and your <code>org</code> record does not yet have an admin account this request will be sent to <a href="mailto:support@peeringdb.com">PeeringDB Support</a></p>
+</li>
+<li>
+<p>If your organisation already has one or more admins your request is forwarded to them. They will have to approve / deny your request</p>
+</li>
+<li>
+<p>If your ASN is not in PeeringDB this procedure will first try to retrieve information about this ASN via <a href="https://about.rdap.org/">RDAP</a> to prepopulate the <code>net</code> record and the <code>org</code> record in case it also does not exist. We also use information from this query to auto approve your request if the email address in the RDAP record matches your email address. If this fails your request will be sent to <a href="mailto:support@peeringdb.com">PeeringDB Support</a></p>
+</li>
+<li>
+<p>You may also use the field <code>organisation</code>to request affiliation to an exiting or new organisation. Start typing the name of your company and select from the popup or create a new organisation. Your request is sent to your admins if there is one or to <a href="mailto:support@peeringdb.com">PeeringDB Support</a></p>
+</li>
+</ul>
+<p>In any case you should get an answer either from your admin or <a href="mailto:support@peeringdb.com">PeeringDB Support</a>. If you don't get an answer within two working days, please mail <a href="mailto:support@peeringdb.com">PeeringDB Support</a> providing necessary information (ASN, Organization).</p>
 <h2 id="technical">Technical</h2>
 <h3 id="how-do-i-query-by-asn">How do I query by ASN?</h3>
 <p>You may type in the ASN in the search box, or for web:<br />
