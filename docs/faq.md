@@ -16,7 +16,7 @@ Q: How does affiliation to an organization work?
 
 A: After you have registered, go to your [profile](https://peeringdb.com/profile).
 
-* If your organization owns a network (also called AS or ASN), type in the AS number into the field ASN. Then click on the button `Affiliate`.
+* If your organization owns a network (also called AS or ASN), type in the AS number into the field `ASN`. Then click on the button `Affiliate`.
 
 * If your ASN already is in PeeringDB and your `org` record does not yet have an admin account this request will be sent to [PeeringDB Support](mailto:support@peeringdb.com)
 
@@ -24,7 +24,7 @@ A: After you have registered, go to your [profile](https://peeringdb.com/profile
 
 * If your ASN is not in PeeringDB this procedure will first try to retrieve information about this ASN via [RDAP](https://about.rdap.org/) to prepopulate the `net` record and the `org` record in case it also does not exist. We also use information from this query to auto approve your request if the email address in the RDAP record matches your email address. If this fails your request will be sent to [PeeringDB Support](mailto:support@peeringdb.com)
 
-* You may also use the field `organisation`to request affiliation to an exiting or new organisation. Start typing the name of your company and select from the popup or create a new organisation. Your request is sent to your admins if there is one or to [PeeringDB Support](mailto:support@peeringdb.com)
+* You may also use the field `organisation`to request affiliation to an existing or new organisation. Start typing the name of your company and select from the popup or create a new organisation. Your request is sent to your admins if there is one or to [PeeringDB Support](mailto:support@peeringdb.com) otherwise
 
 In any case you should get an answer either from your admin or [PeeringDB Support](mailto:support@peeringdb.com). If you don't get an answer within two working days, please mail [PeeringDB Support](mailto:support@peeringdb.com) providing necessary information (ASN, Organization).
 
