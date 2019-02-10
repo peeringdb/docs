@@ -132,8 +132,7 @@ string fields:
 #### Since
 
 You can use the since argument with a unix timestamp (seconds) to retrieve all
-objects updated since then. Note that this result will contain objects that were
-deleted in that time frame as well - you can spot them by checking for status "deleted"
+objects updated since then.
 
     ?since=1443414678
 
