@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [PeeringDB Update](presentation/20190301-HKNOG70-Arnold-Nipper-V2.pdf) at [HKNOG 7.0](https://hknog.net/hknog-7-0/), Hong Kong, HK - March 1, 2019 - Arnold Nipper
 - PeeringDB Workshop [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
 
 #### 2018
