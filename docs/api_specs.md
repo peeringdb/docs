@@ -47,7 +47,7 @@ JSON
     - data always array 
 
     !!! Note
-        Please let us know what serializers you'd like to see
+        Please let us know what serializers you'd like to see.
 
 #### Authentication
 
