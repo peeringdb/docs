@@ -47,6 +47,13 @@ h4 {
     text-decoration: none;
 }
 
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #33744a;
+    text-decoration: none;
+    outline: 0;
+}
+
 default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
     background-color: #33744a;
