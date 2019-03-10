@@ -1,12 +1,12 @@
 site_name: PeeringDB
-site_url: http://docs.peeringdb.com
+site_url: https://www.peeringdb.com/
 repo_url: https://github.com/peeringdb/docs
 theme:
   name: mkdocs
   custom_dir: peeringdb_theme/
 
 nav:
-  - PeeringDB: index.md
+  - About PeeringDB: index.md
   - Governance: gov.md
   - Committees:
     - Product Committee: committee/product/index.md

@@ -1,4 +1,4 @@
-# PeeringDB
+# About PeeringDB
 
 ## Getting help
 
