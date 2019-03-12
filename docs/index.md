@@ -52,6 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [PeeringDB Update](presentation/20190312-PeeringDays2019-Arnold-Nipper.pdf) at [Peering Days 2019](https://peeringdays.eu/programme//), Zagreb, CR - March 12, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190306-PhNOG2019-Arnold-Nipper-V2.pdf) at [PhNOG 2019](http://phnog.com/phnog-2019-cebu-details/), Cebu, PH - March 8, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190301-HKNOG70-Arnold-Nipper-V2.pdf) at [HKNOG 7.0](https://hknog.net/hknog-7-0/), Hong Kong, HK - March 1, 2019 - Arnold Nipper
 - PeeringDB Workshop [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
@@ -81,7 +82,7 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Update](presentation/20180516-RIPE76-Lightning-Nipper-V2.pdf) at [RIPE 76 Connet Working Group](https://ripe76.ripe.net/programme/meeting-plan/connect-wg/), Marseille, FR - May 16, 2018 - Arnold Nipper ([video](https://ripe76.ripe.net/archives/video/49))
 - [PeeringDB Update](presentation/20180508-AIS2018-Nipper-v2.pdf) at [African Internet Summit 2018](https://internetsummitafrica.org/), Dakar, SN - May 8, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180309-DKNOG8-Lightning-Nipper.pdf) at [DKNOG8](https://dknog8.dknog.dk/), Copenhagen, DK - March 9, 2018 - Arnold Nipper
-- [PeeringDB Update](presentation/20180307-CEE-Peering-Days-Lightning-Nipper.pdf) at [CEE Peering Days 2018](https://www.peeringdays.eu/programme.php), Berlin, DE - March 7, 2018 - Arnold Nipper
+- [PeeringDB Update](presentation/20180307-CEE-Peering-Days-Lightning-Nipper.pdf) at [CEE Peering Days 2018](https://2018.peeringdays.eu/programme.php), Berlin, DE - March 7, 2018 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20180226-Apricot2018-Nipper.pdf) at [APRICOT 2018](https://2018.apricot.net/program/schedule/#/day/8/peering-and-interconnection-ii-global), Kathmandu, NP - February 26, 2018 - Arnold Nipper
 - [PeeringDB Update](presentation/20180224-17th-APIX-Nipper.pdf) at [APIX Meeting #17](http://apix.asia/?page_id=75), Kathmandu, NP - February 24, 2018 - Arnold Nipper
 - [PeeringDB Introduction](presentation/20180208-Capacity-India-and-SAARC-Nipper.pdf) at [Capacity India & SAARC 2018](http://www.capacityconferences.com/India-Connect-Agenda), New Delhi, IN - February 8, 2018 - Arnold Nipper
@@ -104,7 +105,7 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Update](presentation/20170523-ENOG13-Nipper.pdf) at [ENOG 13.0](https://www.enog.org/enog-13/), Saint Petersburg, RU - May 23, 2017 - Arnold Nipper
 - [PeeringDB Update](presentation/20170426-gpf-12.0-hughes-peeringdb.pdf) at [Global Peering Forum 12.0](https://www.peeringforum.com/gpf-12-0-peeringdb-update/), New York, NY, US - April 26, 2017 - Aaron Huges
 - [PeeringDB](presentation/20170406-ESNOG19-Nipper.pdf) at [GORE/ESNOG Reunion 19](http://www.esnog.net/2017/01/goreesnog-reunion-19-csuccatnix-barcelona/), Barcelona, ES - April 6, 2017 - Arnold Nipper
-- [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](http://www.peeringdays.eu/), Ljubljana, SL - March 23, 2017 - Arnold Nipper
+- [PeeringDB](presentation/20170323-CEE-Peeringdays-Nipper.pdf) at [CEE Peering Days 2017](https://2017.peeringdays.eu/programme.php), Ljubljana, SL - March 23, 2017 - Arnold Nipper
 - [PeeringDB 2.0](presentation/20170228-Apricot2017-Nipper.pdf) at [APRICOT 2017](https://2017.apricot.net/), Ho Chi Minh City, VN - February 28, 2017 - Arnold Nipper
 
 #### 2016

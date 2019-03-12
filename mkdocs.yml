@@ -1,5 +1,5 @@
 site_name: PeeringDB Documentation
-site_url: https://www.peeringdb.com/
+site_url: https://docs.peeringdb.com/
 repo_url: https://github.com/peeringdb/docs
 theme:
   name: mkdocs
