@@ -1,0 +1,64 @@
+** Notice of the Annual Meeting of PeeringDB - Thursday April 25th, 2019 at 1600-1700 UTC
+
+** The meeting will be held online as follows:
+
+   https://global.gotomeeting.com/join/942098093
+
+   - Use your microphone and speakers (VoIP) or call in using your 
+     telephone:
+
+        Australia: +61 2 8355 1038
+        Austria: +43 7 2081 5337
+        Belgium: +32 28 93 7002
+        Canada: +1 (647) 497-9373
+        Denmark: +45 32 72 03 69
+        Finland: +358 923 17 0556
+        France: +33 170 950 590
+        Germany: +49 692 5736 7300
+        Ireland: +353 15 295 146
+        Italy: +39 0 230 57 81 80
+        Netherlands: +31 207 941 375
+        New Zealand: +64 9 282 9510
+        Norway: +47 21 93 37 37
+        Spain: +34 932 75 1230
+        Sweden: +46 853 527 818
+        Switzerland: +41 225 4599 60
+        United Kingdom: +44 20 3713 5011
+        United States: +1 (646) 749-3117
+
+        Access Code: 942-098-093
+
+        Audio PIN: Shown after joining the meeting
+
+** The meeting will be recorded.
+
+** Bylaws and important docs are posted at http://gov.peeringdb.com/
+
+** Please contact stewards@peeringdb.com if you have additional agenda suggestions.
+
+Agenda:
+
+ - Call To Order - Aaron Hughes
+
+ - Welcome & Thanks - Aaron Hughes
+
+ - Approval of minutes from previous meeting - Aaron Hughes
+
+     https://docs.peeringdb.com/gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Minutes.pdf
+
+ - Financial Update & Call For Sponsors - Chris Caputo
+
+ - Admin Committee Update - Arnold Nipper
+
+ - Operations Committee Update - Job Snijders
+
+ - Outreach Committee Update - Greg Hankins
+
+ - Product Committee Update - Eric Loos
+
+ - Items brought up by the members / Technical and Policy Questions & 
+   Answers
+
+ - Encourage Voting in Board Election - Aaron Hughes
+
+ - Adjourn
