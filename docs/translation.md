@@ -21,3 +21,9 @@ Go to <https://translate.peeringdb.com/accounts/profile/> to edit your profile a
 
 - Robert Philips (NTT Communications)
 - Ligio Gomes (NTT Communications)
+
+#### de
+
+- Sara Fink
+- Stefan Funke
+- Arnold Nipper
