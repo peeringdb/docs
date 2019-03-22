@@ -17,13 +17,35 @@ Go to <https://translate.peeringdb.com/accounts/profile/> to edit your profile a
 
 ### Thanks to the translators!
 
-#### pt
-
-- Robert Philips (NTT Communications)
-- Ligio Gomes (NTT Communications)
-
 #### de
 
 - Sara Fink
 - Stefan Funke
 - Arnold Nipper
+
+#### jp
+
+- Yutaro Fujii
+- Norisuke Hirai
+- Yuki Ikuno
+- Chise Kawamura
+- Kaoru Kitauchi
+- Shintaro Kojima
+- Yutaka Kumamoto
+- Ryohey Matsumoto
+- Masataka Mawatari
+- Akira Nakagawa
+- Satoshi Okawa
+- Hideyuki Sasaki
+- Tomocha
+- Katsuyasu Toyama
+- Taiji Tsuchiya
+- Yudai Yamagishi
+- Katsushi Yamaguchi
+- Junpei Yoshino
+
+#### pt
+
+- Ligio Gomes (NTT Communications)
+- Robert Philips (NTT Communications)
+
