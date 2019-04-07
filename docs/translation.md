@@ -10,8 +10,7 @@ Translation is done using PeeringDB's Weblate instance at <https://translate.pee
 
 Authentication is done via your PeeringDB credentials. So the only thing you have to do is to [register](https://www.peeringdb.com/register) with PeeringDB.
 
-
-### Selecting Languages
+### Selecting languages
 
 Go to <https://translate.peeringdb.com/accounts/profile/> to edit your profile and also to select the [languages](https://translate.peeringdb.com/accounts/profile/#languages) you want to help with.
 
@@ -48,4 +47,3 @@ Go to <https://translate.peeringdb.com/accounts/profile/> to edit your profile a
 
 - Ligio Gomes (NTT Communications)
 - Robert Philips (NTT Communications)
-

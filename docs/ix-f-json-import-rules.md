@@ -1,5 +1,5 @@
-# Rules for IX-F JSON importer
-PeeringDB allows networks and IXes to contol entries via the so called IX-F JSON import feature.
+# Rules for the IX-F JSON importer
+PeeringDB allows networks and IXes to contol entries via the IX-F JSON import feature.
 ## For networks
 There is a tick box "Allow IXP Update". Per **default** this is unticked (set to "no")
 

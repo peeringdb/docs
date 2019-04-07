@@ -1,5 +1,5 @@
 
-# Frequently Asked Questions
+# Frequently asked questions
 
 ## General
 ### What is PeeringDB?
@@ -79,7 +79,7 @@ We will fix that when time allows, for the time being, just run:
 
     alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
 
-## Governance/Membership
+## Governance and membership
 ### How does one become a PeeringDB member?
 
 Your organization does not need to be a Member to have an active account at PeeringDB.com, but Membership is available to those that do. Per the Bylaws, Membership is determined by having an active PeeringDB.com account, and a subscription to the [pdb-gov](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov) mailing list.
