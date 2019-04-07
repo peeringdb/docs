@@ -52,7 +52,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
-- [PeeringDB Update](presentation/20190404-BCIX-1-Roundtable-Stefan-Funke.pdf) at [Curso Avançado de IPv6](https://cursoseventos.nic.br/curso/curso-avancado-ipv6/), São Paulo, BR - April 5, 2019 - Julimar Lunguinho Mendes
+- [PeeringDB Update](presentation/20190405-PeeringDB-Update-Curso-IPv6.pdf) at [Curso Avançado de IPv6](https://cursoseventos.nic.br/curso/curso-avancado-ipv6/), São Paulo, BR - April 5, 2019 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20190404-BCIX-1-Roundtable-Stefan-Funke.pdf) at [BCIX Round Table April 2019](https://www.facebook.com/events/2386787348000284/), Berlin, DE - April 4, 2019 - Stefan Funke
 - [PeeringDB Update](presentation/20190403-MENOG19-Arnold-Nipper-V2.pdf) at [MENOG 19](https://www.menog.org/meetings/menog-19/), Beirut, LB - April 3, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190315-DKNOG9-Arnold-Nipper-V2.pdf) at [DKNOG9](https://events.dknog.dk/event/4/contributions/), Copenhagen, DK - March 15, 2019 - Arnold Nipper
