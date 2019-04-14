@@ -28,12 +28,13 @@
 - [December 6th, 2018: Meeting Notes](notes/2018-12-06_Product_Committee_Notes.pdf)
 
 ## Members
-- Eric Loos (Chair)
 - Matt Griswold (Vice Chair)
+- Greg Hankins (Outreadh Liaison)
 - Florian Hibler
-- Aaron Hughes (Board liaison)
+- Aaron Hughes (Board Liaison)
+- Eric Loos (Chair)
 - Stephen McManus
 - Arnold Nipper
 - Job Snijders
-##### Product Marketing and Community Outreach (non-voting member)
-- Greg Hankins
+- Greg Villain
+- Filiz Yilmaz (Product Manager)
