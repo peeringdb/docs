@@ -29,7 +29,7 @@
 
 ## Members
 - Matt Griswold (Vice Chair)
-- Greg Hankins (Outreadh Liaison)
+- Greg Hankins (Outreach Liaison)
 - Florian Hibler
 - Aaron Hughes (Board Liaison)
 - Eric Loos (Chair)
