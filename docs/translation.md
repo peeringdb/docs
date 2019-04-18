@@ -14,6 +14,10 @@ Authentication is done via your PeeringDB credentials. So the only thing you hav
 
 Go to <https://translate.peeringdb.com/accounts/profile/> to edit your profile and also to select the [languages](https://translate.peeringdb.com/accounts/profile/#languages) you want to help with.
 
+### Mailing list
+
+The <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate> mailing list is open to anyone working on, or interested in translations.
+
 ### Thanks to the translators!
 
 #### de
