@@ -53,6 +53,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [Introduction to PeeringDB](presentation/20190419-TelecomDay-Arnold-Nipper.pdf) at [Telecom Day](http://telecomday.ru/en/programm/), St. Petersburg, RU - April 19, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190417-SEE8-Arnold-Nipper.pdf) at [SEE 8](https://www.ripe.net/participate/meetings/regional-meetings/see/see-8), Sarajevo, BH - April 17, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190405-PeeringDB-Update-Curso-IPv6.pdf) at [Curso Avançado de IPv6](https://cursoseventos.nic.br/curso/curso-avancado-ipv6/), São Paulo, BR - April 5, 2019 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20190404-BCIX-1-Roundtable-Stefan-Funke.pdf) at [BCIX Round Table April 2019](https://www.facebook.com/events/2386787348000284/), Berlin, DE - April 4, 2019 - Stefan Funke
