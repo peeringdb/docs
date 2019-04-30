@@ -77,6 +77,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 30th, 2019: Board election results](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2019: Board election voter's guide](gov/misc/2019-04-14_election.html)
 - [April 30th, 2018: Board election results](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2018: Board election voter's guide](gov/misc/2018-04-14_election.html)
@@ -91,11 +92,11 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board of Directors
 
-- Seat 1 (term expires 2019): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
+- Seat 1 (term expires 2021): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
 - Seat 2 (term expires 2020): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2019): [Arnold Nipper](mailto:arnold@peeringdb.com), 2015-
+- Seat 3 (term expires 2021): [Fredrik Korsbäck](TBD), 2019-
 - Seat 4 (term expires 2020): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2019): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
+- Seat 5 (term expires 2021): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
 
 ## Officers
 
@@ -106,7 +107,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Admin Committee
 
 - Purpose is to oversee the administrator mission and volunteers.
-- Board members Nipper (Chair) and Snijders.
+- Board member Snijders.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
 ## Operations Committee
@@ -115,7 +116,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Outreach Committee
 
-- Board members Sanghani (Vice Chair), Hughes, and Nipper.
+- Board members Sanghani (Vice Chair) and Hughes.
 
 ## Product Committee
 
@@ -125,3 +126,4 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 - Matt Griswold, Director, 2015-2017
 - Patrick W. Gilmore, Vice President, 2015-2016
+- Arnold Nipper, Director, 2015-2019
