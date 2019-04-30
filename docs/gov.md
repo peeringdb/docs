@@ -94,7 +94,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 - Seat 1 (term expires 2021): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
 - Seat 2 (term expires 2020): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2021): [Fredrik Korsbäck](TBD), 2019-
+- Seat 3 (term expires 2021): [Fredrik Korsbäck](mailto:fk@peeringdb.com), 2019-
 - Seat 4 (term expires 2020): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
 - Seat 5 (term expires 2021): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
 
