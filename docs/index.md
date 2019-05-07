@@ -53,7 +53,8 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
-- [Use in Latin America](presentation/LAC-Peering-Forum-2019-Punta_Cana-PeeringDB.20190506.pdf) at [Peering Forum LAC](http://peeringforum.lat/), Punta Cana, DR - May 6, 2019 - Julimar Lunguinho Mendes, Carlos Martinez Cagnazzo
+- [Introduction to PeeringDB](presentation/20190507-BKNIX-Peeringforum-Arnold-Nipper.pdf) at [BKNIX Peering Forum and ThaiNOG Day 2019](https://peeringforum.bknix.co.th/2019/), Bangkok, TH - May 7, 2019 - Arnold Nipper
+- [Use in Latin America](presentation/LAC-Peering-Forum-2019-Punta_Cana-PeeringDB.20190506.pdf) at [Peering Forum LAC](http://peeringforum.lat/), Punta Cana, DR - May 6, 2019 - Julimar Lunguinho Mendes and Carlos Martinez Cagnazzo
 - [Cadastro para participantes do IX.br](presentation/ix-forum-campogrande-peeringdb.20190416.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/29-MS/), Campo Grande, BR - April 26, 2019 - Julimar Lunguinho Mendes
 - [Introduction to PeeringDB](presentation/20190419-TelecomDay-Arnold-Nipper.pdf) at [Telecom Day](http://telecomday.ru/en/programm/), St. Petersburg, RU - April 19, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190417-SEE8-Arnold-Nipper.pdf) at [SEE 8](https://www.ripe.net/participate/meetings/regional-meetings/see/see-8), Sarajevo, BH - April 17, 2019 - Arnold Nipper
