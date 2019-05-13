@@ -117,6 +117,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#rules-for-the-ix-f-json-importer">Rules for the IX-F JSON importer</a></li>
+            <li><a href="#general-remarks">General remarks</a></li>
             <li><a href="#for-networks">For networks</a></li>
             <li><a href="#for-ixes">For IXes</a></li>
     </ul>
@@ -125,19 +126,22 @@
 
 <h1 id="rules-for-the-ix-f-json-importer">Rules for the IX-F JSON importer</h1>
 <p>PeeringDB allows networks and IXes to contol entries via the IX-F JSON import feature.</p>
+<h2 id="general-remarks">General remarks</h2>
+<p>If and how information is imported heavily depends on the <code>state</code> field. So, both network and IX should check what is set. The importer has been modified to act on <code>active</code>, <code>connected</code>, <code>operational</code> or if the <code>state</code> is not set at all. If <code>state</code> is set to <code>inactive</code> nothing is done, even if the network has set <code>allow_ixp_update</code> to yes.</p>
+<p>If a network is in the IX-F JSON import but not in PeeringDB it is not added.</p>
+<p>See <a href="https://github.com/peeringdb/peeringdb/issues/474">Github #474</a> for the exact specification.</p>
 <h2 id="for-networks">For networks</h2>
 <p>There is a tick box "Allow IXP Update". Per <strong>default</strong> this is unticked (set to "no")</p>
 <p><code>allow_ixp_update</code>: no<br />
-- If a network has an IX entry with both differing IP addresses, the network IX entry is removed<br />
-- If a network has an IX entry with any other differing information (speed, route server peer), nothing is done<br />
+- If a network has an IX entry with differing (asn, ipaddr4, ipaddr6), the network IX entry is removed<br />
+- If a network has an IX entry with any other differing information (speed, route server peer), this information is not changed<br />
 - If a network does not have an entry for the IX, nothing is done</p>
 <p><code>allow_ixp_update</code>: yes<br />
 - If a network has an IX entry with any differing information, the entry is updated (IPv4, IPv6, speed, route server peer)<br />
 - If a network does not have an entry for the IX, one is added<br />
 - If a network does not have an entry in the IX member list, the network IX entry is removed</p>
 <h2 id="for-ixes">For IXes</h2>
-<p>To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field <code>LANs</code>. Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</p>
-<p><strong>Note</strong>: If a state is not set at all, it will be seen as <code>active</code> by default. <strong>If state is set</strong> the importer accepts only <code>active</code> or <code>connected</code> to qualify the entry for import. If state is set to something else, the <strong>entry will be removed</strong></p></div>
+<p>To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field <code>LANs</code>. Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</p></div>
         </div>
 
         <footer class="col-md-12">
