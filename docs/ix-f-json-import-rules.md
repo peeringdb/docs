@@ -2,7 +2,7 @@
 PeeringDB allows networks and IXes to contol entries via the IX-F JSON import feature.
 
 ## General remarks
-If and how information is imported heavily depends on the `state` field. So, both network and IX check what is set. The importer has been modified to act on `active`, `connected`, `operational` or if the `state` is not set at all. If `state` is set to `inactive` nothing is done, even if the network has set `allow_ixp_update` to yes.
+If and how information is imported heavily depends on the `state` field. So, both network and IX should check what is set. The importer has been modified to act on `active`, `connected`, `operational` or if the `state` is not set at all. If `state` is set to `inactive` nothing is done, even if the network has set `allow_ixp_update` to yes.
 
 If a network is in the IX-F JSON import but not in PeeringDB it is not added.
 
