@@ -1,4 +1,4 @@
-# Rules for the IX-F JSON importer
+# Rules for the IX-F JSON Importer
 PeeringDB allows networks and IXes to contol entries via the IX-F JSON import feature.
 
 ## General remarks
@@ -6,7 +6,7 @@ If and how information is imported heavily depends on the `state` field. So, bot
 
 If a network is in the IX-F JSON import but not in PeeringDB it is not added.
 
-See [Github #474](https://github.com/peeringdb/peeringdb/issues/474) for the exact specification.
+See [GitHub #474](https://github.com/peeringdb/peeringdb/issues/474) for the exact specification.
 
 ## For networks
 There is a tick box "Allow IXP Update". Per **default** this is unticked (set to "no")
@@ -23,4 +23,3 @@ There is a tick box "Allow IXP Update". Per **default** this is unticked (set to
 
 ## For IXes
 To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field `LANs`. Make sure that your JSON file is [valid](https://www.ixpdb.net/en/validator/).
-
