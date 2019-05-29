@@ -9,7 +9,7 @@ If a network is in the IX-F JSON import but not in PeeringDB it is not added.
 See [GitHub #474](https://github.com/peeringdb/peeringdb/issues/474) for the exact specification.
 
 ## For networks
-There is a tick box "Allow IXP Update". Per **default** this is unticked (set to "no")
+There is a tick box "Allow IXP Update". Per **default** this is unticked (set to "no").
 
 `allow_ixp_update`: no
 - If a network has an IX entry with differing (asn, ipaddr4, ipaddr6), the network IX entry is removed
