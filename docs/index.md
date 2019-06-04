@@ -53,6 +53,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [News from PeeringDB](presentation/20190603-ENOG16-Arnold-Nipper.pdf) at [ENOG 16](https://www.enog.org/enog-16/), Tbilisi, GE - June 3, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190527-NONOG3-Arnold-Nipper.pdf) at [NONOG-3](https://www.nonog.net/nonog-3/), Oslo, NO - May 27, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190514-SINOG6-Arnold-Nipper.pdf) at [SINOG 6.0](https://www.sinog.si/sinog/sinog6/en/), Ljubljana, SI - May 14, 2019 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20190507-BKNIX-Peeringforum-Arnold-Nipper.pdf) at [BKNIX Peering Forum and ThaiNOG Day 2019](https://peeringforum.bknix.co.th/2019/), Bangkok, TH - May 7, 2019 - Arnold Nipper
