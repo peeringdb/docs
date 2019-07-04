@@ -9,6 +9,7 @@ nav:
   - About PeeringDB: index.md
   - Governance: gov.md
   - Committees:
+    - Admin Committee: committee/admin/index.md
     - Product Committee: committee/product/index.md
   - Documentation:
     - API Specs: api_specs.md
