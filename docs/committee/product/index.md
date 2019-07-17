@@ -32,8 +32,8 @@
 - Greg Hankins (Outreach Liaison)
 - Florian Hibler
 - Aaron Hughes (Board Liaison)
-- Eric Loos (Chair)
-- Stephen McManus
+- Eric Loos
+- Stephen McManus (Chair)
 - Arnold Nipper
 - Job Snijders
 - Greg Villain
