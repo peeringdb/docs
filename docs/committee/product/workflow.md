@@ -20,7 +20,7 @@ Depending on the effort required to implement the issue, development will be don
 
 **Sprint** is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately and it is moved to **In Progress** by the developer. This would be decided by the Product Committee.
 
-Every member of the Product Committee may label one issue a month as **PC Candidate**. An issues labeled as **PC Candidate** must have a solution for development fully specified within the Github issue before it can be considered for implementation. Once it is agreed with the developer that no more information is needed to be able to fix/implement an issue, it can be proposed for inclusion in the next sprint to the Product Committee mailing-list. The Product Committee (Vice) Chair will move the agreed upon issues to the **Sprint** column.
+Every member of the Product Committee may label one issue a month as **PC Candidate**. An issues labeled as **PC Candidate** must have a solution for development fully specified within the GitHub issue before it can be considered for implementation. Once it is agreed with the developer that no more information is needed to be able to fix/implement an issue, it can be proposed for inclusion in the next sprint to the Product Committee mailing-list. The Product Committee (Vice) Chair will move the agreed upon issues to the **Sprint** column.
 
 All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project and accessed by the main board.
 

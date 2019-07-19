@@ -15,7 +15,7 @@ The PeeringDB Admin Committee (AC) is responsible for the day to day end-user su
 
 #### Deliverables
 - Take care of support tickets, the Admin Committee strives to answer tickets within 24 hours
-- Gather input from end-users regarding the improvement of PeeringDB in terms of bugs and product features and channel them towards the Product Committee via [Github](https://github.com/peeringdb/peeringdb/issues)
+- Gather input from end-users regarding the improvement of PeeringDB in terms of bugs and product features and channel them towards the Product Committee via [GitHub](https://github.com/peeringdb/peeringdb/issues)
 - Improve PeeringDB Admin GUI to help expedient resolution of support tickets
 
 
@@ -36,8 +36,8 @@ The PeeringDB Admin Committee members serve a one-year renewable term. Volunteer
 
 #### Communication
 - Questions and suggestions for the Admin Committee can be sent to [Admincom Mailing List](mailto:productcom@lists.peeringdb.com)
-- On- and de-boarding is handled via the [Admincom Github](https://github.com/peeringdb/admincom/issues)
-- All other issues, also for Admin GUI bugs and features must go to the regular [Github](https://github.com/peeringdb/peeringdb/issues)
+- On- and de-boarding is handled via the [Admincom GitHub](https://github.com/peeringdb/admincom/issues)
+- All other issues, also for Admin GUI bugs and features must go to the regular [GitHub](https://github.com/peeringdb/peeringdb/issues)
 - Any support questions should be directed to the [Support Address](mailto:support@peeringdb.com)
 - Admin Committee uses slack and emails for internal communication
 - Regular (4-6 week interval) conference calls are used to stay synced and discuss  issues
@@ -48,7 +48,7 @@ Admin Committee members will decide on their own when handling support tickets a
 
 
 #### Workflow
-Admincom uses [DeskPRO](https://peeringdb.deskpro.com/agent) and [Github](https://github.com/peeringdb/admincom/issues) as well as direct communication with the main service contractor [20C](https://20c.com/) to achieve its deliverables. In communicating with 3rd parties the Admin Committee should be kept in the loop if the issue is of general interest.
+Admincom uses [DeskPRO](https://peeringdb.deskpro.com/agent) and [GitHub](https://github.com/peeringdb/admincom/issues) as well as direct communication with the main service contractor [20C](https://20c.com/) to achieve its deliverables. In communicating with 3rd parties the Admin Committee should be kept in the loop if the issue is of general interest.
 
 Version 1.0 2019-05-02
 
