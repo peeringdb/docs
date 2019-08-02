@@ -11,7 +11,7 @@ See [GitHub #474](https://github.com/peeringdb/peeringdb/issues/474) for the exa
 ## For networks
 **Generally, if a network does not have an entry in the IX member list, the network IX entry is removed.**
 
-There is a tick box "Allow IXP Update" which governs the behaviour of the import. Per **default** this is unticked (set to "no").
+There is a tick box "Allow IXP Update" which governs the behaviour of the import. Per **default** this is unticked (set to "no"). If "Allow IXP Update" is ticked, an entry may be created, changed and removed. The entry then is completely govern by the settings in the IX-F JSON import. If "Allow IXP Update" is unticked, an entry may be removed. For details see below.
 
 `allow_ixp_update`: no
 - If a network has an IX entry with differing (asn, ipaddr4, ipaddr6), the network IX entry is removed
