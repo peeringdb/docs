@@ -9,7 +9,7 @@ If a network is in the IX-F JSON import but not in PeeringDB it is not added.
 See [GitHub #474](https://github.com/peeringdb/peeringdb/issues/474) for the exact specification.
 
 ## For networks
-Generally, if a network does not have an entry in the IX member list, the network IX entry is removed.
+**Generally, if a network does not have an entry in the IX member list, the network IX entry is removed.**
 
 There is a tick box "Allow IXP Update" which governs the behaviour of the import. Per **default** this is unticked (set to "no").
 
