@@ -53,6 +53,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [Introducción a PeeringDB](presentation/20190814-MexNOG2-peeringdb-intro-Spanish.pdf) at [MexNOG 2019](http://www.mexnog.org.mx/), Mexico City, MX - August 14, 2019 - Diego Dominguez
 - [Introduction to PeeringDB](presentation/20190716-ATNOG2019-1-Arnold-Nipper.pdf) at [ATNOG 2019/1](https://atnog.at/), Salzburg, AT - July 16, 2019 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20190701-INNOG2-Arnold-Nipper.pdf) at [INNOG 2](https://www.innog.net/innog-2/program/conference/), New Delhi, IN - July 1, 2019 - Arnold Nipper ([video](https://www.youtube.com/watch?v=BsSkPIQEtz8))
 - [Cadastro para participantes do IX.br](presentation/ix-forum-saopaulo-peeringdb.20190610.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/31-SP/), São Paulo, BR - June 10, 2019 - Julimar Lunguinho Mendes
