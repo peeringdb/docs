@@ -53,6 +53,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [Introduction to PeeringDB](presentation/20190822-AfPIF2019-Arnold-Nipper.pdf) at [AfPIF-10](https://www.afpif.org/afpif-10/), Balaclava, MV - August 22, 2019 - Arnold Nipper
 - [Introducción a PeeringDB](presentation/20190814-MexNOG2-peeringdb-intro-Spanish.pdf) at [MexNOG 2019](http://www.mexnog.org.mx/), Mexico City, MX - August 14, 2019 - Diego Dominguez
 - [Introduction to PeeringDB](presentation/20190716-ATNOG2019-1-Arnold-Nipper.pdf) at [ATNOG 2019/1](https://atnog.at/), Salzburg, AT - July 16, 2019 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20190701-INNOG2-Arnold-Nipper.pdf) at [INNOG 2](https://www.innog.net/innog-2/program/conference/), New Delhi, IN - July 1, 2019 - Arnold Nipper ([video](https://www.youtube.com/watch?v=BsSkPIQEtz8))
