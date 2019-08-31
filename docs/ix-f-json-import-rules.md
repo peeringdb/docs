@@ -1,4 +1,4 @@
-# Rules for the IX-F JSON Importer
+# Rules for the IX-F JSON Importer (This feature is disabled since 2019-08-30, i.e. the last import ran at 2019-08-30 00:00:00 UTC)
 PeeringDB allows networks and IXPs to contol entries via the IX-F JSON import feature.
 
 ## General remarks
