@@ -120,7 +120,7 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#rules-for-the-ix-f-json-importer">Rules for the IX-F JSON Importer</a></li>
+        <li class="main active"><a href="#rules-for-the-ix-f-json-importer-this-feature-is-disabled-since-2019-08-30-ie-the-last-import-ran-at-2019-08-30-000000-utc">Rules for the IX-F JSON Importer (This feature is disabled since 2019-08-30, i.e. the last import ran at 2019-08-30 00:00:00 UTC)</a></li>
             <li><a href="#general-remarks">General remarks</a></li>
             <li><a href="#for-networks">For networks</a></li>
             <li><a href="#for-ixps">For IXPs</a></li>
@@ -128,7 +128,7 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="rules-for-the-ix-f-json-importer">Rules for the IX-F JSON Importer</h1>
+<h1 id="rules-for-the-ix-f-json-importer-this-feature-is-disabled-since-2019-08-30-ie-the-last-import-ran-at-2019-08-30-000000-utc">Rules for the IX-F JSON Importer (This feature is disabled since 2019-08-30, i.e. the last import ran at 2019-08-30 00:00:00 UTC)</h1>
 <p>PeeringDB allows networks and IXPs to contol entries via the IX-F JSON import feature.</p>
 <h2 id="general-remarks">General remarks</h2>
 <p>If and how information is imported heavily depends on the <code>state</code> field. So, both the network and the IXP should check what is set. The importer has been modified to act on <code>active</code>, <code>connected</code>, <code>operational</code> or if the <code>state</code> is not set at all. If <code>state</code> is set to <code>inactive</code> nothing is done, even if the network has set <code>allow_ixp_update</code> to yes.</p>
