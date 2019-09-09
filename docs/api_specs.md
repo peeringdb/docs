@@ -149,7 +149,7 @@ required URL parameters
 optional URL parameters
 :    
 
-  1. depth `int` nested sets and objects will be expanded 
+  1. depth `int` defaults to 2 aka. nested sets and objects will be expanded
   2. fields `str` comma separated list of field names - only matching fields will be returned in the data
 
 returns
@@ -247,6 +247,8 @@ HTTP:
 curl:
 
     curl -H "Accept: application/json" -X DELETE https://<username>:<password>@peeringdb.com/api/OBJ/42
+
+Deleted objects can be retrieved by filtering on status=deleted with since > 0.
 
 ## Real world example
 
