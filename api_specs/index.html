@@ -266,7 +266,7 @@ objects updated since then.</p>
 <dd></dd>
 </dl>
 <ol>
-<li>depth <code>int</code> nested sets and objects will be expanded </li>
+<li>depth <code>int</code> defaults to 2 aka. nested sets and objects will be expanded</li>
 <li>fields <code>str</code> comma separated list of field names - only matching fields will be returned in the data</li>
 </ol>
 <dl>
@@ -353,6 +353,7 @@ objects updated since then.</p>
 <p>curl:</p>
 <pre><code>curl -H "Accept: application/json" -X DELETE https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre>
+<p>Deleted objects can be retrieved by filtering on status=deleted with since &gt; 0.</p>
 <h2 id="real-world-example">Real world example</h2>
 <p>Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?</p>
 <p>A: You can use the API to perform complex queries, like in this example.</p>

@@ -179,6 +179,7 @@ authentication in the URL</p>
 <h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
 <p>You may make a full local copy with <a href="https://github.com/peeringdb/peeringdb-py">https://github.com/peeringdb/peeringdb-py</a>, see docs at <a href="http://peeringdb.github.io/peeringdb-py/cli/">http://peeringdb.github.io/peeringdb-py/cli/</a></p>
 <p>Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.</p>
+<p>Alternatively <a href="https://git.2e8.dk/peeringdb-simplesync/about/">peeringdb-simplesync</a> can be used to maintain a mirror in PostgreSQL.</p>
 <h3 id="when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</h3>
 <p>Such as:</p>
 <pre><code>django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
