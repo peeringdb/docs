@@ -69,6 +69,8 @@ You may make a full local copy with <https://github.com/peeringdb/peeringdb-py>,
 
 Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.
 
+Alternatively [peeringdb-simplesync](https://git.2e8.dk/peeringdb-simplesync/about/) can be used to maintain a mirror in PostgreSQL.
+
 ### When syncing to MySQL I get 'Illegal mix of collations'
 
 Such as:
