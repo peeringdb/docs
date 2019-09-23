@@ -49,10 +49,13 @@ Local database replication is accomplished with this [command line tool](https:/
 - [pt-BR] [Guia de cadastro de informações de ASNs no PeeringDB](guide/PeeringDB_Cadastro_de_ASN.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 - [pt-BR] [Guia de cadastro de informações de Facilities no PeeringDB](guide/PeeringDB_Cadastro_de_Facilities.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 
-## Presentations
+## Tutorials
+
+- PeeringDB Tutorial Workshop [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
 
 #### 2019
 
+- [PeeringDB Update](presentation/PeeringDBUpdate_EPF2019.pdf) at [EPF14](https://www.peering-forum.eu/agenda?year=2019), Tallinn, EE - September 18, 2019 - Filiz Yilmaz
 - [Cadastro para participantes do IX.br](presentation/ix-forum-natal-peeringdb.20190906.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/36-RN/), Natal, BR - September 6, 2019 - Julimar Lunguinho Mendes
 - [Introduction to PeeringDB](presentation/20190828-SAFNOG5-Arnold-Nipper.pdf) at [SAFNOG-5](http://www.safnog.org/), Johannesburg, ZA - August 28, 2019 - Arnold Nipper
 - [Introduction to PeeringDB](presentation/20190822-AfPIF2019-Arnold-Nipper.pdf) at [AfPIF-10](https://www.afpif.org/afpif-10/), Balaclava, MV - August 22, 2019 - Arnold Nipper
@@ -75,7 +78,6 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Update](presentation/20190312-PeeringDays2019-Arnold-Nipper.pdf) at [Peering Days 2019](https://peeringdays.eu/programme/), Zagreb, CR - March 12, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190306-PhNOG2019-Arnold-Nipper-V2.pdf) at [PhNOG 2019](http://phnog.com/phnog-2019-cebu-details/), Cebu, PH - March 8, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20190301-HKNOG70-Arnold-Nipper-V2.pdf) at [HKNOG 7.0](https://hknog.net/hknog-7-0/), Hong Kong, HK - March 1, 2019 - Arnold Nipper
-- PeeringDB Workshop [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
 
 #### 2018
 
