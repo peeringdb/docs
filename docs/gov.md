@@ -14,6 +14,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Strategic Plan & Organizational Objectives
 
+- [2019-2020](gov/misc/2019-05-20-PeeringDB_Strategic_Plan_2019-2020.pdf)
 - [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
 
 ## Policies
