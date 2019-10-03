@@ -51,6 +51,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Tutorials
 
+- [PeeringDB Workshop](presentation/20190820_PeeringDB_Workshop_1-2_AfPIF_2019.pdf) at [AfPIF-10](https://www.afpif.org/afpif-10/), Balaclava, MV - August 20, 2019 - Arnold Nipper ([video](https://livestream.com/internetsociety/afpif2019/videos/195303661) starts at 14:00)
 - PeeringDB Tutorial Workshop [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
 
 ## Presentations
