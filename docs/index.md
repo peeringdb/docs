@@ -58,6 +58,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [Introduction to PeeringDB](presentation/https://livestream.com/internetsociety/afpif2019/videos/195303661) at [RONOG 6](https://www.ronog.ro/), Bucharest, RO - October 1, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/PeeringDBUpdate_EPF2019.pdf) at [EPF14](https://www.peering-forum.eu/agenda?year=2019), Tallinn, EE - September 18, 2019 - Filiz Yilmaz
 - [Cadastro para participantes do IX.br](presentation/ix-forum-natal-peeringdb.20190906.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/36-RN/), Natal, BR - September 6, 2019 - Julimar Lunguinho Mendes
 - [Introduction to PeeringDB](presentation/20190828-SAFNOG5-Arnold-Nipper.pdf) at [SAFNOG-5](http://www.safnog.org/), Johannesburg, ZA - August 28, 2019 - Arnold Nipper
