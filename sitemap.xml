@@ -31,11 +31,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/faq/</loc>
-     <lastmod>2019-10-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.peeringdb.com/ix-f-json-import-rules/</loc>
      <lastmod>2019-10-03</lastmod>
      <changefreq>daily</changefreq>
@@ -47,6 +42,11 @@
     </url>
     <url>
      <loc>https://docs.peeringdb.com/translation/</loc>
+     <lastmod>2019-10-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.peeringdb.com/faq/</loc>
      <lastmod>2019-10-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
