@@ -1,4 +1,4 @@
-site_name: PeeringDB Documentation
+site_name: PeeringDB Docs
 site_url: https://docs.peeringdb.com/
 repo_url: https://github.com/peeringdb/docs
 theme:
@@ -6,17 +6,18 @@ theme:
   custom_dir: peeringdb_theme/
 
 nav:
-  - About PeeringDB: index.md
+  - About: index.md
   - Governance: gov.md
-  - Committees:
+  - Committees & Task Forces:
     - Admin Committee: committee/admin/index.md
     - Product Committee: committee/product/index.md
-  - Documentation:
+    - Data Ownership Task Force: taskforce/dataownership/index.md
+  - Various:
     - API Specs: api_specs.md
+    - FAQ: faq.md
     - IX-F JSON: ix-f-json-import-rules.md
     - OAuth: oauth.md
     - Translations: translation.md
-    - FAQ: faq.md
 
 extra_css:
   - extra.css
