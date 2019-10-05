@@ -1,5 +1,3 @@
-
----
 ## Product Committee Charter
 
 *** Approved by Board July 7th, 2017 ***
@@ -45,5 +43,3 @@ The PeeringDB Product Committee members serve a 2 years renewable term, potentia
 #### Decision Policy
 
 Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair.
-
----

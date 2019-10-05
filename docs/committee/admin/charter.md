@@ -1,5 +1,3 @@
----
-
 ## PeeringDB Admin Committee Charter
 
 *** Approved by Board September 27th, 2019 ***
@@ -52,6 +50,3 @@ Admin Committee members will decide on their own when handling support tickets a
 Admincom uses [DeskPRO](https://peeringdb.deskpro.com/agent) and [GitHub](https://github.com/peeringdb/admincom/issues) as well as direct communication with the main service contractor [20C](https://20c.com/) to achieve its deliverables. In communicating with 3rd parties the Admin Committee should be kept in the loop if the issue is of general interest.
 
 Version 1.0 2019-05-02
-
-
----

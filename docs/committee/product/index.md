@@ -1,4 +1,3 @@
-
 # PeeringDB Product Committee
 
 - Purpose is to study and recommend feature needs.
