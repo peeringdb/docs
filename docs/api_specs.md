@@ -195,8 +195,9 @@ expanded:
 
 ##### Depth
 
-- 0: don't expand anything (default)
+- 0: don't expand anything
 - 1 to 4: expand all sets and related objects according to level of depth specified
+- 2 is default
 
 ### POST: create new object
 
