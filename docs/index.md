@@ -58,6 +58,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [PeeringDB Update](presentation/20191105-ATNOG2019-2-Stefan_Funke.pdf) at [ATNOG 2019/2](https://atnog.at/), Vienna, AT - November 5, 2019 - Stefan Funke
 - [Cadastro para participantes do IX.br](presentation/ix-forum-florianopolis-peeringdb.20191025.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/38-SC/), Florianópolis, BR - October 25, 2019 - Julimar Lunguinho Mendes
 - [OAuth for IXP Operators](presentation/euroix-201910-euroix35-oauth-for-ixps.pdf) at the [35th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/35th-euro-ix-forum/), Zaandam, NL - October 21, 2019 - Barry O'Donovan
 - [The PeeringDB API](presentation/20191021-API-EuroIX35-Arnold-Nipper.pdf) at the [35th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/35th-euro-ix-forum/), Zaandam, NL - October 21, 2019 - Arnold Nipper
