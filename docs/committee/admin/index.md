@@ -6,7 +6,6 @@
 {!docs/committee/admin/charter.md!}
 
 ## Members
-- Hendrik Braasch
 - Stefan Funke (Chair)
 - Christoffer Hansen
 - Peter Helmenstine
