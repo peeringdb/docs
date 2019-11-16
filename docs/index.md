@@ -59,7 +59,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
-- [PeeringDB Update](presentation/20191105-ATNOG2019-2-Stefan_Funke.pdf) at [ATNOG 2019/2](https://atnog.at/), Vienna, AT - November 5, 2019 - Stefan Funke
+- [PeeringDB Update: A Look Into PeeringDB's Data for AT/CH/DE/LU and the Latest Changes](presentation/20191112-DENOG11-Stefan_Funke.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/zeitplan.html), Hamburg, DE - November 12, 2019 - Stefan Funke
 - [PeeringDB Update](presentation/20191107-PeeringAsia3-Arnold-Nipper-V2.pdf) at [Peering Asia 3.0](http://peeringasia.com/), Kuala Lumpur, MY - November 7, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20191105-ATNOG2019-2-Stefan_Funke.pdf) at [ATNOG 2019/2](https://atnog.at/), Vienna, AT - November 5, 2019 - Stefan Funke
 - [Introduction to PeeringDB](presentation/20191105-JBIX-Peering-Forum-Arnold-Nipper-V2.pdf) at [JBIX Peering Forum 2019](http://pf.jbix.my/), Kuala Lumpur, MY - November 5, 2019 - Arnold Nipper
