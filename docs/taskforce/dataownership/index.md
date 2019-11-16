@@ -24,6 +24,7 @@ This webpage is where the work of Data Ownership Task Force will be documented, 
 - Mustafa Timur Sever 
 - Bijal Shangani 
 - Job Snijders 
+- Terry Sweetser
 - Lukas Tribus 
 - Stefan Wahl 
 - Filiz Yilmaz (Chair)
