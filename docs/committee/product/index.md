@@ -29,10 +29,8 @@
 ## Members
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
-- Florian Hibler
 - Aaron Hughes (Board Liaison)
 - Shane Kerr
-- Eric Loos
 - Stephen McManus (Chair)
 - Arnold Nipper
 - Job Snijders
