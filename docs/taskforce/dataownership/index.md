@@ -1,6 +1,6 @@
 # PeeringDB Data Ownership Task Force
 
-The Data Ownership Task Force was established in September 2019 with the aim of working on a PeeringDB Policy proposal about data ownership, after a need was recognized by the Product Committee as issues consistently had been raised relating to who owns the data in PeeringDB when more than one party is involved (as in netixlan, ixfac, netfac etc objects).
+The Data Ownership Task Force was established in September 2019 with the aim of working on a PeeringDB Policy proposal about data ownership, after a need was recognized by the Product Committee as issues consistently had been raised relating to who owns the data in PeeringDB when more than one party is involved (as in netixlan, ixfac, netfac, etc objects).
 
 A [call](https://lists.peeringdb.com/pipermail/pdb-announce/2019-September/000130.html) for participation to the task Force was made on September 10th, 2019. 
 
