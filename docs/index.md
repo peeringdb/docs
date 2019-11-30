@@ -59,6 +59,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [Introduction to PeeringDB](presentation/20191129-APF1-Arnold-Nipper.pdf) at [Angolan Peering Forum 1.0](https://events.apf.nog.community/event/2/overview), Luanda, AO - November 29, 2019 - Arnold Nipper
 - [PeeringDB - Como Está a Adoção no Brasil](presentation/mum-foz-peeringdb.20191129.pdf) at [MUM in Brazil](https://mum.mikrotik.com/2019/BR/agenda), Foz do Iguaçu, BR - November 29, 2019 - Julimar Lunguinho Mendes
 - [PeeringDB Para Que Sirve?](presentation/20191128-cabase-peeringdb-intro-spanish.pdf) at [XII Encuentro Nacional de Técnicos](https://www.eventbrite.com.ar/e/xii-encuentro-nacional-de-tecnicos-28-y-29-de-noviembre-tickets-74689228493), Salta, AR - November 28, 2019 - Hernan Moguilevsky
 - [PeeringDB Update: A Look Into PeeringDB's Data for AT/CH/DE/LU and the Latest Changes](presentation/20191112-DENOG11-Stefan_Funke.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/zeitplan.html), Hamburg, DE - November 12, 2019 - Stefan Funke
