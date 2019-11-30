@@ -59,6 +59,7 @@ Local database replication is accomplished with this [command line tool](https:/
 
 #### 2019
 
+- [PeeringDB para que sirve?](presentation/20191128-cabase-peeringdb-intro-spanish.pdf) at [XII Encuentro Nacional de Técnicos](https://www.eventbrite.com.ar/e/xii-encuentro-nacional-de-tecnicos-28-y-29-de-noviembre-tickets-74689228493), Salta, AR - November 28, 2019 - Hernan Moguilevsky
 - [PeeringDB Update: A Look Into PeeringDB's Data for AT/CH/DE/LU and the Latest Changes](presentation/20191112-DENOG11-Stefan_Funke.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/zeitplan.html), Hamburg, DE - November 12, 2019 - Stefan Funke
 - [PeeringDB Update](presentation/20191107-PeeringAsia3-Arnold-Nipper-V2.pdf) at [Peering Asia 3.0](http://peeringasia.com/), Kuala Lumpur, MY - November 7, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20191105-ATNOG2019-2-Stefan_Funke.pdf) at [ATNOG 2019/2](https://atnog.at/), Vienna, AT - November 5, 2019 - Stefan Funke
