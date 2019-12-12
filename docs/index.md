@@ -66,6 +66,7 @@ Local database replication is accomplished with this [command line tool](https:/
 - [PeeringDB Update](presentation/20191107-PeeringAsia3-Arnold-Nipper-V2.pdf) at [Peering Asia 3.0](http://peeringasia.com/), Kuala Lumpur, MY - November 7, 2019 - Arnold Nipper
 - [PeeringDB Update](presentation/20191105-ATNOG2019-2-Stefan_Funke.pdf) at [ATNOG 2019/2](https://atnog.at/), Vienna, AT - November 5, 2019 - Stefan Funke
 - [Introduction to PeeringDB](presentation/20191105-JBIX-Peering-Forum-Arnold-Nipper-V2.pdf) at [JBIX Peering Forum 2019](http://pf.jbix.my/), Kuala Lumpur, MY - November 5, 2019 - Arnold Nipper
+- [Introduction to PeeringDB](presentation/ngnog-pdb.pdf) at [ngNOG 2019](https://nog.ng/), Lagos, NG - October 30, 2019 - Ben Ryall
 - [Cadastro para participantes do IX.br](presentation/ix-forum-florianopolis-peeringdb.20191025.pdf) at [IX Fórum Regional](https://regional.forum.ix.br/38-SC/), Florianópolis, BR - October 25, 2019 - Julimar Lunguinho Mendes
 - [OAuth for IXP Operators](presentation/euroix-201910-euroix35-oauth-for-ixps.pdf) at the [35th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/35th-euro-ix-forum/), Zaandam, NL - October 21, 2019 - Barry O'Donovan
 - [The PeeringDB API](presentation/20191021-API-EuroIX35-Arnold-Nipper.pdf) at the [35th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/35th-euro-ix-forum/), Zaandam, NL - October 21, 2019 - Arnold Nipper
