@@ -8,6 +8,19 @@ Data Ownership Task Force discussions are archived and can be found at: <https:/
 
 This webpage is where the work of Data Ownership Task Force will be documented, including meeting minutes, draft documents etc. as their work progresses.
 
+# Scope
+
+The Data Ownership Task Force is established to discuss and agree on who owns the data tokens and/or objects in PeeringDB. Their agreements, findings, and any sort of recommendations will be documented in a Policy Document as a direct outcome of the Task Force. 
+
+This Policy Document will include a clear description of each object, sub-object, and associated data, respectively, as well as which type of user (network, IXP, etc.) should be allowed to create and update them. 
+
+The Task Force is estimated to conclude its work within about 6 months from its inception, which was September 2019. This time frame will be extended if the Task Force needs more time to conclude its work. 
+
+The resulting Policy Document will be announced and shared with the PeeringDB Community.
+
+After the publishing of the Policy Document, the Task Force will end. 
+
+
 ## Members
 - Darrell Budic 
 - Chris Caputo 
