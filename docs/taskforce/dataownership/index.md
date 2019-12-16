@@ -8,7 +8,7 @@ Data Ownership Task Force discussions are archived and can be found at: <https:/
 
 This webpage is where the work of Data Ownership Task Force will be documented, including meeting minutes, draft documents etc. as their work progresses.
 
-# Scope
+## Scope
 
 The Data Ownership Task Force is established to discuss and agree on who owns the data tokens and/or objects in PeeringDB. Their agreements, findings, and any sort of recommendations will be documented in a Policy Document as a direct outcome of the Task Force. 
 
