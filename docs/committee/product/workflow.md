@@ -1,27 +1,21 @@
-## Workflow
+## Decision Making Process and Workflow
 
-[Diagram of Workflow](Product_Committee-Workflow.pdf)
+Product Committee members are responsible for driving the development of PeeringDB. To do this, GitHub issues are used to track proposed and in progress work. Product Committee members play two roles in driving forward work: 
 
-The development roadmap is tracked using GitHub issues located at <https://github.com/peeringdb/peeringdb/issues> with the [ZenHub](https://www.zenhub.com/) overlay.
+1) As a shepherd - responsible for driving consensus for a given issue
+2) As a stakeholder - voting on a consensus that has been reached
 
-All members of the Product Committee take part in a _Hot Seat_ schedule with a weekly rotation in order to monitor incoming github issues and ensure the follow-up of existing issues until they are either closed as non-implemented or moved to the backlog.
+Each Product Committee member will choose issues to shepherd to a decision. They will indicate responsibility for this task by assigning the issue to themselves and placing it in the Decide queue.
 
-**New Issues** are evaluated to confirm that they are valid and coherent with the product vision, which may require asking the reporter for feedback. Issues that cannot be reproduced or where the solution is unclear are moved to **Review**. While in **Review** issues are discussed by the community and the Product Committee until a solution is determined.
+To decide whether we act on a given issue that has been reported, a stakeholder group will be formed. This group will consist of Product Committee members, who are responsible for representing the users of PeeringDB. A stakeholder group on a given issue must consist of at least three Product Committee members, including the shepherding member. 
 
-Simple issues that do not require much discussion or have an obvious solution move directly to **Backlog**. Once in **Backlog** the issue can be returned to **Review** or **Decide** if necessary. The issue can also be marked as `wontfix` later.
+Any Product Committee member can be a stakeholder in the decision on an issue. They become a stakeholder on a given issue by either commenting on the issue on GitHub or participating in discussion of the issue on the Product Committee Mailing list. It is up to the shepherding member to help reach a **unanimous consensus** within the stakeholder group on what should be done with the issue - including **not** acting on it. If and only if there are opposing views on how to proceed, and unanimous consensus cannot be reached by the stakeholder committee members, decisions fall to the entire Product Committee (see below).
 
-If the issue is considered not to be coherent with the product vision, it will be marked as `wontfix`; the requester always has the option to forward their issue to the PeeringDB board if they disagree with the assessment by the Product Committee.
+The final proposal of how to resolve each issue, along with votes from stakeholders must be documented in the GitHub issue to be considered to have reached consensus. Product Committee members must document any offline discussion in the GitHub issue to ensure transparency of the discussion process.
 
-The product committee makes the final decision on how each issue is handled. If there are multiple ways to solve an issue it moves to **Decide** and the Product Committee then votes on the way to handle the issue.  When the vote has been made the issue is moved to **Backlog**.
+Issues in the Decide queue are regularly reviewed by the Product Committee to make sure the most impactful issues are being moved along to resolution. All issues in the Decide queue will be reviewed in the monthly Product Committee call to ensure stakeholders have reached consensus and to give members who have not participated in the issue an opportunity to participate.
 
-If an issue is labeled as a bug, the severity will determine how it will be resolved. P1/P2 bugs are considered service impacting and will be treated by the software vendor under the maintenance agreement, P3/P4 bugs will be treated as product enhancement requests.
+After an issue with consensus has been reviewed, Product Committee members who disagree with the proposal have five days after the monthly Product Committee call to vote against the proposed solution, otherwise the issue will move to the backlog.
 
-Depending on the effort required to implement the issue, development will be done either on project basis or as part of the maintenance agreement. The Product Committee follows a budget release process to fund project based development efforts. Developments that fall within the budget envelope allocated to the Product Committee require no further approval by the board, however 75% of the Product Committee members must agree.
+For any issues where consensus cannot be reached, an issue may move forward only if a quorum of 50% or more of the Product Committee has no more than 25% of the quorum in opposition to the issue.
 
-**Sprint** is the column that is next in the pipeline, encompassing everything that is approved to work on, so development starts immediately and it is moved to **In Progress** by the developer. This would be decided by the Product Committee.
-
-Every member of the Product Committee may label one issue a month as **PC Candidate**. An issues labeled as **PC Candidate** must have a solution for development fully specified within the GitHub issue before it can be considered for implementation. Once it is agreed with the developer that no more information is needed to be able to fix/implement an issue, it can be proposed for inclusion in the next sprint to the Product Committee mailing-list. The Product Committee (Vice) Chair will move the agreed upon issues to the **Sprint** column.
-
-All other PeeringDB projects also go through this issue board to decide on priority. For example, when something for peeringdb-py goes into a sprint, an issue will be made on the peeringdb-py project and accessed by the main board.
-
-**Done** means the issue is completed in development and will be pushed to beta for review. Issues are not **Closed** until they are deployed to beta.
