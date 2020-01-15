@@ -54,6 +54,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Finances
 
+- [December 31st, 2019: Finance Report](gov/finances/2019-12-31_PeeringDB_Finances.pdf)
 - [September 17th, 2019: IRS Form W-9](gov/finances/2019-09-17_PeeringDB_IRS_Form_W-9.pdf)
 - [May 9th, 2019: IRS Form 990-EZ for 2018](gov/finances/2019-05-09_2018_Form_990-EZ.pdf)
 - [December 31st, 2018: Finance Report](gov/finances/2018-12-31_PeeringDB_Finances.pdf)
