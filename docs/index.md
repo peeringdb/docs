@@ -208,7 +208,6 @@ PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Compute
 
 ## Historical data
 
-* The PeeringDB 1.0 MySQL interface is gone.  The last available MySQL dump is archived at <https://www.peeringdb.com/v1/final_export.sql>.
 * MySQL dumps from July, 29 2010 to March 14, 2016 are archived by CAIDA at <http://data.caida.org/datasets/peeringdb-v1/>.
 
 ## How you can help
