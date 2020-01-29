@@ -223,6 +223,7 @@ required URL parameters
 
     - id `int`
     - fields to post in either JSON obj "{}" or urlencoded field=value
+    - you have to provide the complete object with modified data. Retrieve data with depth=0, modify and then put up again.
 
 HTTP:
 
