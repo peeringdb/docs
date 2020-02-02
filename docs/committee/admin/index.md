@@ -6,7 +6,10 @@
 {!docs/committee/admin/charter.md!}
 
 ## Members
+- Shaun Coffey
+- Darwin Da Costa
 - Stefan Funke (Chair)
+- Alexandre Guimaraes
 - Christoffer Hansen
 - Peter Helmenstine
 - Julimar Lunguinho Mendes
