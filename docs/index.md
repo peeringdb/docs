@@ -59,6 +59,10 @@ Local database replication is accomplished with this [command line tool](https:/
 
 ## Presentations
 
+#### 2020
+
+- [PeeringDB Update](presentation/20200219-Apricot-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/8), Melbourne, AU - February 19, 2020 - Arnold Nipper
+
 #### 2019
 
 - [PeeringDB Update](presentation/20191205-MoscowPF-Filiz-Yilmaz2.pdf) (English)/[Новости от PeeringDB](presentation/20191205-MoscowPF-Filiz-Yilmaz2-rus.pdf) (Pусский) at [MSK-IX Peering Forum 2019](https://peering-forum.ru/en), Moscow, RU - December 5, 2019 - Filiz Yilmaz
