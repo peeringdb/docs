@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.peeringdb.com/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/gov/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/committee/admin/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/committee/product/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/taskforce/dataownership/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/api_specs/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/ix-f-json-import-rules/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/oauth/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/translation/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.peeringdb.com/faq/</loc>
-     <lastmod>2020-02-21</lastmod>
+     <lastmod>2020-02-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
