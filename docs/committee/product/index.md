@@ -27,12 +27,14 @@
 - [December 6th, 2018: Meeting Notes](notes/2018-12-06_Product_Committee_Notes.pdf)
 
 ## Members
+- Yann Berthier
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
 - Aaron Hughes (Board Liaison)
 - Shane Kerr
 - Stephen McManus (Chair)
 - Arnold Nipper
+- Yolandi Robinson
 - Job Snijders
 - Greg Villain
 - Filiz Yilmaz (Product Manager)
