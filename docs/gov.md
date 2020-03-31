@@ -86,6 +86,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 14th, 2020: Board election voter's guide](gov/misc/2020-04-14_election.html)
 - [April 30th, 2019: Board election results](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2019: Board election voter's guide](gov/misc/2019-04-14_election.html)
 - [April 30th, 2018: Board election results](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf)
