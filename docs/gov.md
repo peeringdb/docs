@@ -21,6 +21,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Policies
 
 - [Acceptable Use Policy](https://www.peeringdb.com/aup)
+- [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
 - [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
 
 ## Board Meetings
