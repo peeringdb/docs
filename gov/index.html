@@ -9,88 +9,101 @@
         <link rel="canonical" href="https://docs.peeringdb.com/gov/">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Governance - PeeringDB Docs</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <link href="../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
-                <a class="navbar-brand" href="..">PeeringDB Docs</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                </div>
 
                 <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href=".." class="nav-link">About</a>
+                            <li >
+                                <a href="..">About</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Governance</a>
+                            <li class="active">
+                                <a href="./">Governance</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li>
-    <a href="../committee/admin/" class="dropdown-item">Admin Committee</a>
+<li >
+    <a href="../committee/admin/">Admin Committee</a>
 </li>
                                     
-<li>
-    <a href="../committee/product/" class="dropdown-item">Product Committee</a>
+<li >
+    <a href="../committee/product/">Product Committee</a>
 </li>
                                     
-<li>
-    <a href="../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+<li >
+    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li>
-    <a href="../api_specs/" class="dropdown-item">API Specs</a>
+<li >
+    <a href="../api_specs/">API Specs</a>
 </li>
                                     
-<li>
-    <a href="../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+<li >
+    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
-<li>
-    <a href="../oauth/" class="dropdown-item">OAuth</a>
+<li >
+    <a href="../oauth/">OAuth</a>
 </li>
                                     
-<li>
-    <a href="../translation/" class="dropdown-item">Translations</a>
+<li >
+    <a href="../translation/">Translations</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
-                                <a href="../faq/" class="nav-link">FAQ</a>
+                            <li >
+                                <a href="../faq/">FAQ</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/gov.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/gov.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -98,86 +111,27 @@
         </div>
 
         <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#peeringdb-governance" class="nav-link">PeeringDB Governance</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#mission-statement" class="nav-link">Mission Statement</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#member-meetings" class="nav-link">Member Meetings</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#strategic-plan-organizational-objectives" class="nav-link">Strategic Plan &amp; Organizational Objectives</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#policies" class="nav-link">Policies</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#board-meetings" class="nav-link">Board Meetings</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#finances" class="nav-link">Finances</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#organizational-documents" class="nav-link">Organizational Documents</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#surveys-elections" class="nav-link">Surveys &amp; Elections</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#board-of-directors" class="nav-link">Board of Directors</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#officers" class="nav-link">Officers</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#admin-committee" class="nav-link">Admin Committee</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#operations-committee" class="nav-link">Operations Committee</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#outreach-committee" class="nav-link">Outreach Committee</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#product-committee" class="nav-link">Product Committee</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#alumni" class="nav-link">Alumni</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#peeringdb-governance">PeeringDB Governance</a></li>
+            <li><a href="#mission-statement">Mission Statement</a></li>
+            <li><a href="#member-meetings">Member Meetings</a></li>
+            <li><a href="#strategic-plan-organizational-objectives">Strategic Plan &amp; Organizational Objectives</a></li>
+            <li><a href="#policies">Policies</a></li>
+            <li><a href="#board-meetings">Board Meetings</a></li>
+            <li><a href="#finances">Finances</a></li>
+            <li><a href="#organizational-documents">Organizational Documents</a></li>
+            <li><a href="#surveys-elections">Surveys &amp; Elections</a></li>
+            <li><a href="#board-of-directors">Board of Directors</a></li>
+            <li><a href="#officers">Officers</a></li>
+            <li><a href="#admin-committee">Admin Committee</a></li>
+            <li><a href="#operations-committee">Operations Committee</a></li>
+            <li><a href="#outreach-committee">Outreach Committee</a></li>
+            <li><a href="#product-committee">Product Committee</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+    </ul>
 </div></div>
-                    <div class="col-md-9" role="main">
+                <div class="col-md-9" role="main">
 
 <h1 id="peeringdb-governance">PeeringDB Governance</h1>
 <h2 id="mission-statement">Mission Statement</h2>
@@ -197,7 +151,6 @@
 </ul>
 <h2 id="policies">Policies</h2>
 <ul>
-<li><a href="misc/PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">PeeringDB Data Ownership Policy</a></li>
 <li><a href="https://www.peeringdb.com/aup">Acceptable Use Policy</a></li>
 <li><a href="misc/2017-04-02-PeeringDB_Privacy_Policy.pdf">Privacy Policy</a></li>
 </ul>
@@ -242,9 +195,9 @@
 <li><a href="finances/2017-12-31_PeeringDB_Finances.pdf">December 31st, 2017: Finance Report</a></li>
 <li><a href="finances/2017-05-10_2016_Form_990-EZ.pdf">May 10th, 2017: IRS Form 990-EZ for 2016</a></li>
 <li><a href="finances/2016-12-31_PeeringDB_Finances.pdf">December 31st, 2016: Finance Report</a></li>
-<li><a href="finances/2016-02-24_PeeringDB_IRS_501%28c%29%286%29_Exemption_Letter.pdf">February 24th, 2016: IRS 501(c)(6) Exemption Letter</a></li>
-<li><a href="finances/2016-02-23_2014_Form%20990-N.pdf">February 23rd, 2016: IRS Form 990-N for 2014</a></li>
-<li><a href="finances/2016-02-18_2015_Form%20990-N.pdf">February 18th, 2016: IRS Form 990-N for 2015</a></li>
+<li><a href="finances/2016-02-24_PeeringDB_IRS_501(c)(6)_Exemption_Letter.pdf">February 24th, 2016: IRS 501(c)(6) Exemption Letter</a></li>
+<li><a href="finances/2016-02-23_2014_Form 990-N.pdf">February 23rd, 2016: IRS Form 990-N for 2014</a></li>
+<li><a href="finances/2016-02-18_2015_Form 990-N.pdf">February 18th, 2016: IRS Form 990-N for 2015</a></li>
 <li><a href="finances/2016-01-07_PeeringDB_Non_Profit_Filing.pdf">January 7th, 2016: IRS 501(c)(6) Application</a></li>
 <li><a href="finances/2015-12-31_PeeringDB_Finances.pdf">December 31st, 2015: Finance Report</a></li>
 <li><a href="finances/2014-12-31_PeeringDB_Finances.pdf">December 31st, 2014: Finance Report</a></li>
@@ -257,7 +210,7 @@
 <li><a href="legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf">May 18th, 2017: Financial Controls Policy</a></li>
 <li><a href="legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf">December 1st, 2016: Annual Report</a></li>
 <li><a href="legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf">May 18th, 2016: Amended Annual Report</a></li>
-<li><a href="legaldocs/2015-12-16_PeeringDB_Certificate%20and%20Articles%20of%20Incorporation.pdf">December 16th, 2015: Certificate and Articles of Incorporation</a></li>
+<li><a href="legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf">December 16th, 2015: Certificate and Articles of Incorporation</a></li>
 <li><a href="legaldocs/2015-12-08_PeeringDB_Organizational_Consent.pdf">December 8th, 2015: Organizational Consent</a></li>
 <li><a href="legaldocs/2015-12-08_PeeringDB_Bylaws.pdf">December 8th, 2015: Bylaws</a></li>
 <li><a href="legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf">December 8th, 2015: Conflict of Interest Policy</a></li>
@@ -314,7 +267,6 @@
 <li>Patrick W. Gilmore, Vice President, 2015-2016</li>
 <li>Arnold Nipper, Director, 2015-2019</li>
 </ul></div>
-            </div>
         </div>
 
         <footer class="col-md-12">
@@ -327,24 +279,24 @@
         </footer>
         <script>
             var base_url = "..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
         <script src="../js/base.js" defer></script>
         <script src="../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form>
+                <form role="form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
@@ -355,12 +307,12 @@
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
