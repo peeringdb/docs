@@ -8,9 +8,10 @@ Data Ownership Task Force discussions are archived and can be found at: <https:/
 
 This webpage is where the work of Data Ownership Task Force will be documented, including meeting minutes, draft documents etc. as their work progresses.
 
-In April 2020, Task Force completed its work and published the resulting PeeringDB Data Ownership Policy Document after few cycles of a Review Phase and a final Last Call over a draft document circulated at their mailing list. (Pls see the mailing list archives linked above).  
+In April 2020, the Task Force completed its work and published the resulting PeeringDB Data Ownership Policy Document after few cycles of a Review Phase and a final Last Call over a draft document circulated on their mailing list. (Please see the mailing list archives linked above.)  
 
-The resulting document can be found at: <https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf>
+The resulting document can be found at:
+<https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf>
 
 
 ## Scope
