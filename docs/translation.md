@@ -24,6 +24,10 @@ The <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate> mailing 
 
 ### Thanks to the translators!
 
+#### ar
+
+ - Sara Alamin Mohamed Hassan
+
 #### de
 
 - Sara Fink
