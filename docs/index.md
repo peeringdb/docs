@@ -44,8 +44,7 @@ List all via API by taking the `id` off:
 Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
 ## Release Notes
-On [this page] (release_notes/index.md) you can find information about Github issues that result in a new release of PeeringDB. 
-
+On [this page](release_notes/index.md) you can find information about Github issues that result in a new release of PeeringDB.
 
 ## Guides
 
