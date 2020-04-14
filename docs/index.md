@@ -43,8 +43,9 @@ List all via API by taking the `id` off:
 
 Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
-## Release Notes
-On [this page](release_notes/index.md) you can find information about Github issues that result in a new release of PeeringDB.
+## Release notes
+
+The [release notes](release_notes/index.md) list the GitHub issues and a summary of what has changed in PeeringDB software releases.
 
 ## Guides
 
@@ -52,7 +53,7 @@ On [this page](release_notes/index.md) you can find information about Github iss
 - [pt-BR] [Guia de cadastro de informações de ASNs no PeeringDB](guide/PeeringDB_Cadastro_de_ASN.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 - [pt-BR] [Guia de cadastro de informações de Facilities no PeeringDB](guide/PeeringDB_Cadastro_de_Facilities.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
 
-## Tutorials and Workshops
+## Tutorials and workshops
 
 - [PeeringDB Tutorial, learning the GUI and the API](presentation/20200220-1-2-GUI-API-APRICOT2020-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/9), Melbourne, AU - February 20, 2020 - Arnold Nipper
 - [How is PeeringDB organised?](presentation/20191110-1-GUI-DENOG11-Arnold-Nipper.pdf) and [The PeeringDB API](presentation/20191110-2-API-DENOG11-Arnold-Nipper.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/workshops.html), Hamburg, DE - November 10, 2019 - Arnold Nipper
