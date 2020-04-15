@@ -7,7 +7,7 @@ Each new release has a one week beta test period on the [beta server](https://be
 This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
 
 ## Release 2.20.0
-Planned Beta Announcement Date: 14 April, 2020
+Beta Announcement Date: 15 April, 2020
 Planned Release Date: 22 April, 2020
 
 | **GitHub Issue** | **Summary** |
