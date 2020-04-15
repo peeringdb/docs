@@ -9,7 +9,6 @@ This page was started in April 2020, and will only have information about Peerin
 ## Release 2.20.0
 Planned Beta Announcement Date: 14 April, 2020
 Planned Release Date: 22 April, 2020
-Changes: [GitHub Milestone](https://github.com/peeringdb/peeringdb/milestone/37?closed=1)
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
