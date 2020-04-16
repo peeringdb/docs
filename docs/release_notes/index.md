@@ -27,7 +27,7 @@ Planned Release Date: 22 April, 2020
 | [#609 - When creating an ix via the API also return ixlan_id and ixpfx_id](https://github.com/peeringdb/peeringdb/issues/609) | When creating an IX record via API, the call will also return the implicitly created ixlan_id and ixpfx_id. This makes it simpler and reduces the number of calls that need to be made to the API. |
 | [#615 - Insert links into ID fields in DESKPRO AUTOASN tickets](https://github.com/peeringdb/peeringdb/issues/615) | This only affects tickets generated for PeeringDB Admin Committee. A link to the object in the UI is added. |
 | [#626 - Update API docs](https://github.com/peeringdb/peeringdb/issues/626) | Internal mechanisms for generating the API docs have been updated to current standards. This also allows for easier user contributions to the docs themselves. |
-| [#634 - Remove support for python2](https://github.com/peeringdb/peeringdb/issues/634) | Python 2.7 and 3.4 support is removed bring removed from PeeringDB packages. |
+| [#634 - Remove support for python2](https://github.com/peeringdb/peeringdb/issues/634) | Python 2.7 and 3.4 support is being removed from PeeringDB packages. |
 | [#636 - Don’t create a new net object, when there only is an ASN block](https://github.com/peeringdb/peeringdb/issues/636) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
 | [#667 - Fix use autocomplete fields in the admincom controlpanel to speed up loading times](https://github.com/peeringdb/peeringdb/issues/667) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
 
