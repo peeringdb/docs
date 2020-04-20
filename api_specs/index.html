@@ -312,7 +312,7 @@ objects updated since then.</p>
 </dd>
 </dl>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
+<pre><code>curl -H "Content-Type: application/json" -X POST --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
 </code></pre>
 <h3 id="put-edit-object">PUT: edit object</h3>
 <p>endpoint: PUT /api/<code>OBJ</code>/<code>id</code></p>
@@ -330,7 +330,7 @@ objects updated since then.</p>
 <pre><code>PUT /api/OBJ/42
 </code></pre>
 <p>curl:</p>
-<pre><code>curl  -H "Accept: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
+<pre><code>curl -H "Content-Type: application/json" -X PUT --data "{\""state"\":\"active\"}" https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre>
 <h3 id="delete-delete-object">DELETE: delete object</h3>
 <p>endpoint: DELETE /api/<code>OBJ</code>/<code>id</code></p>
