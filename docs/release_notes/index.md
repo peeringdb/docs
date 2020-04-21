@@ -8,7 +8,7 @@ This page was started in April 2020, and will only have information about Peerin
 
 ## Release 2.20.0
 Beta Announcement Date: 15 April, 2020
-Planned Release Date: 22 April, 2020
+Release Date: 21 April, 2020
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
