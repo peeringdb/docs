@@ -12,7 +12,7 @@ Release Date: 21 April, 2020
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
-| [#151 - Validation of IRR Records](https://github.com/peeringdb/peeringdb/issues/151) |  |
+| [#151 - Validation of IRR Records](https://github.com/peeringdb/peeringdb/issues/151) | To make the IRR as-set/route-set field of more operational value, strict rules apply <ul><li> the as-set/rs-set name has to conform to RFC 2622 (5.1 and 5.2)</li><li> the source may be specified by AS-SET@SOURCE or SOURCE::AS-SET (preferred)</li> <li> valid sources are taken from the list of known IRRs</li><li> multiple values must be separated by either ,, , or , (i.e. comma, space or comma followed by space)</li></ul> |
 | [#189 - Improve explanatory and help text](https://github.com/peeringdb/peeringdb/issues/189) | A clear help text is added for requesting affiliation to an organisation.  |
 | [#251 - Limit number of concurrent affiliation requests per user](https://github.com/peeringdb/peeringdb/issues/251) | In order to reduce organization affiliation request spamming, the number of pending organization requests has been limited to 5. |
 | [#295 Desk pro tickets -> DeskPRO tickets](https://github.com/peeringdb/peeringdb/issues/295)  | This is a bug fix and only affects the Admin UI. |
