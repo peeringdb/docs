@@ -6,6 +6,22 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
 
+## Release 2.20.2
+Beta Announcement Date: N/A
+Release Date: 23 April, 2020
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#707 - Make source not required for IRR records](https://github.com/peeringdb/peeringdb/issues/707) | Making source not required for IRR records. This requirement was an oversight during implementation of [#151 - Validation of IRR Records] (https://github.com/peeringdb/peeringdb/issues/151) that was released with 2.20.0 - see below. Product Committee revisited the issue after 2.20.0 and reports of concern from community and decided to retract the requirement in an emergency release|
+
+## Release 2.20.1
+Beta Announcement Date: N/A
+Release Date: 21 April, 2020
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#702 - Requests from peeringdb-py error 500](https://github.com/peeringdb/peeringdb/issues/702) | Emergency release for a config change |
+
 ## Release 2.20.0
 Beta Announcement Date: 15 April, 2020
 Release Date: 21 April, 2020
