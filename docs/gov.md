@@ -87,6 +87,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Surveys & Elections
 
+- [April 30th, 2020: Board election results](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2020: Board election voter's guide](gov/misc/2020-04-14_election.html)
 - [April 30th, 2019: Board election results](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2019: Board election voter's guide](gov/misc/2019-04-14_election.html)
@@ -104,9 +105,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 ## Board of Directors
 
 - Seat 1 (term expires 2021): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
-- Seat 2 (term expires 2020): [Job Snijders](mailto:job@peeringdb.com), 2015-
+- Seat 2 (term expires 2022): [Job Snijders](mailto:job@peeringdb.com), 2015-
 - Seat 3 (term expires 2021): [Fredrik Korsbäck](mailto:fk@peeringdb.com), 2019-
-- Seat 4 (term expires 2020): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
+- Seat 4 (term expires 2022): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
 - Seat 5 (term expires 2021): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
 
 ## Officers
