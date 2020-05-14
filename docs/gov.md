@@ -26,6 +26,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Board Meetings
 
+- [May 8th, 2020](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf)
 - [January 13th, 2020](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
 - [September 27th, 2019](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf)
 - [July 16th, 2019](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf)
@@ -57,6 +58,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the exchange of us
 
 ## Finances
 
+- [May 13th, 2020: IRS Form 990-EZ for 2019](gov/finances/2020-05-13_2019_Form_990-EZ.pdf)
 - [December 31st, 2019: Finance Report](gov/finances/2019-12-31_PeeringDB_Finances.pdf)
 - [September 17th, 2019: IRS Form W-9](gov/finances/2019-09-17_PeeringDB_IRS_Form_W-9.pdf)
 - [May 9th, 2019: IRS Form 990-EZ for 2018](gov/finances/2019-05-09_2018_Form_990-EZ.pdf)
