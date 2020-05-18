@@ -28,8 +28,8 @@
 - [January 3rd, 2019: Meeting Notes](notes/2019-01-03_Product_Committee_Notes.pdf)
 - [February 7th, 2019: Meeting Notes](notes/2019-02-07_Product_Committee_Notes.pdf)
 - [March 7th, 2019: Meeting Notes](notes/2019-03-07_Product_Committee_Notes.pdf)
-- [May 5th, 2019: Meeting Notes](notes/2019-05-02_Product_Committee_Notes.pdf)
-- [June 6th, 2019: Meeting Notes](notes/2019-06-07_Product_Committee_Notes.pdf)
+- [May 2nd, 2019: Meeting Notes](notes/2019-05-02_Product_Committee_Notes.pdf)
+- [June 7th, 2019: Meeting Notes](notes/2019-06-07_Product_Committee_Notes.pdf)
 - [July 11th, 2019: Meeting Notes](notes/2019-07-11_Product_Committee_Notes.pdf)
 - [August 8th, 2019: Meeting Notes](notes/2019-08-08_Product_Committee_Notes.pdf)
 - [September 5th, 2019: Meeting Notes](notes/2019-09-05_Product_Committee_Notes.pdf)
@@ -38,7 +38,6 @@
 - [January 9th, 2020: Meeting Notes](notes/2020-01-09_Product_Committee_Notes.pdf)
 - [February 6th, 2020: Meeting Notes](notes/2020-02-06_Product_Committee_Notes.pdf)
 - [April 2nd, 2020: Meeting Notes](notes/2020-04-02_Product_Committee_Notes.pdf)
-
 
 ## Members
 - Yan Berthier
