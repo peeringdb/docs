@@ -8,10 +8,10 @@
 ## Members
 - Shaun Coffey
 - Darwin Da Costa
-- Stefan Funke (Chair)
+- Stefan Funke
 - Alexandre Guimaraes
 - Christoffer Hansen
 - Peter Helmenstine
 - Julimar Lunguinho Mendes
-- Arnold Nipper
+- Arnold Nipper (Chair)
 - Job Snijders (Board Liaison)
