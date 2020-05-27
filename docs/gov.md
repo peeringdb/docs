@@ -3,7 +3,7 @@
 
 ## Mission Statement
 
-PeeringDB, a nonprofit member-based organization, facilitates the exchange of user maintained interconnection related information, primarily for Peering Coordinators and Internet Exchange, Facility, and Network Operators.
+PeeringDB, a nonprofit member-based organization, facilitates the interconnection of Internet networks globally, with user-maintained information.
 
 ## Member Meetings
 
