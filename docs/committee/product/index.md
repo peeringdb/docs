@@ -50,5 +50,4 @@
 - Arnold Nipper
 - Yolandi Robinson
 - Job Snijders
-- Greg Villain
 - Filiz Yilmaz (Product Manager)
