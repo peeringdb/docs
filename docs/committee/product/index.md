@@ -39,6 +39,7 @@
 - [February 6th, 2020: Meeting Notes](notes/2020-02-06_Product_Committee_Notes.pdf)
 - [April 2nd, 2020: Meeting Notes](notes/2020-04-02_Product_Committee_Notes.pdf)
 - [May 7th, 2020: Meeting Notes](notes/2020-05-07_Product_Committee_Notes.pdf)
+- [June 4th, 2020: Meeting Notes](notes/2019-06-04_Product_Committee_Notes.pdf)
 
 ## Members
 - Yan Berthier
