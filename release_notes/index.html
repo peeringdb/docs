@@ -114,6 +114,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2210">Release 2.21.0</a></li>
             <li><a href="#release-2202">Release 2.20.2</a></li>
             <li><a href="#release-2201">Release 2.20.1</a></li>
             <li><a href="#release-2200">Release 2.20.0</a></li>
@@ -125,6 +126,99 @@
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <p>This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.</p>
+<h2 id="release-2210">Release 2.21.0</h2>
+<p>Beta Announcement Date: 24 June, 2020<br />
+Release Date: 1 July, 2020</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/72">#72 - Enable sort and reverse sort of IP column in IX display</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/121">#121 - missing delete button for organisations</a></td>
+<td>New feature. An admin user is able to delete an org if it has no live objects under it.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/290">#290 - Offer 2FA</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/352">#352 - Mark IXP peering LAN as bogon</a></td>
+<td>Allow IXP to tag their LAN prefixes as bogons. In general, LAN prefixes should not be visible in the DFZ. If it should be visible, IXPs are able to debogonise them</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/356">#356 - Sorting by clicking table headers should use local-compare</a></td>
+<td>Bugfix. Sorting now honours locale-sorting</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/519">#519 - Make spelling of traffic levels consistent</a></td>
+<td>This is a bug fix and a minor improvement. Spelling is made consistent and traffic levels up to 100+Tbps are added.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/526">#526 - Show "Last Updated" fields on fac, ix, org records</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/537">#537 - Posting https://www.peeringdb.com onto social media doesn't select a good preview image</a></td>
+<td>Add opengraph image for page preview.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/569">#569 - Don't return any POC data with status=deleted</a></td>
+<td>POC objects do have a visibility scope. If a POC record is deleted it should not be able to retrieve it at all, even if visibility had been set to "public" before. The data will still be kept internally for 30 days for rollback if the deletion happened unintentionally. After 30 days the record will be hard-deleted.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/580">#580 - Add a clear error message, when user tries to re-add a previously deleted facility</a></td>
+<td>Bug fix for an unclear behaviour. If a connection from a network to a facility was deleted the user was unable to re-add this connection by themselves and an unclear error message was given. Now, the user is able to re-add the connection.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/618">#618 - Support alternative direction of writing, e.g. Arabic</a></td>
+<td>For right-to-left written languages, the entire layout of the PeeringDB website has to be flipped around.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/644">#644 - Undeleting an ixlan with an emtpy IPv4 XOR IPv6 field throws a silly error</a></td>
+<td>Bugfix for the Admin Committee UI. An empty field was considered to be a legit non-null value and the system hence enforced uniqueness</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/650">#650 - Add pointer from API docs to tutorial</a></td>
+<td>A URL is added from the API documentation website to the PeeringDB tutorials</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/654">#654 - Add pointer from API docs to tutorial</a></td>
+<td>Bugfix for the Admin Committee UI.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/663">#663 - change default encoding of API calls to 'utf-8'</a></td>
+<td>The output of API calls will change from content-type: application/json; charset=iso-8859-1 to content-type: application/json; charset=utf-8</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/664">#664 - Selection should only present undeleted objects</a></td>
+<td>Admin Committee only related. Only non-deleted should be presented for selection</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/666">#666 - Selection should only present undeleted objects</a></td>
+<td>When changing owner of an ix admin GUI borks because of "Ixlan for exchange already exists"</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/669">#669 - Add help text to "Add {Facility, Network, Exchange} tab</a></td>
+<td>Added a better help text to make crystal clear that adding a Facility, Network, or Exchange means that you are owning this object.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/679">#679 - Add read-only Superuser</a></td>
+<td>Provide PC members with a read-only access to the Admin UI.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/712">#712 - User is unable to update their net record </a></td>
+<td>Bug fix. Missing pointer to where the non-compliant value is</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2202">Release 2.20.2</h2>
 <p>Beta Announcement Date: N/A<br />
 Release Date: 23 April, 2020</p>
@@ -332,5 +426,5 @@ Release Date: 21 April, 2020</p>
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2020-06-12 22:57:45
+Build Date UTC : 2020-06-19 14:44:11
 -->
