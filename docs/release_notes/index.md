@@ -6,6 +6,35 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
 
+
+## Release 2.21.0
+Beta Announcement Date: 24 June, 2020
+Release Date: 1 July, 2020
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#72 - Enable sort and reverse sort of IP column in IX display](https://github.com/peeringdb/peeringdb/issues/72) |  |
+| [#121 - missing delete button for organisations](https://github.com/peeringdb/peeringdb/issues/121) | New feature. An admin user is able to delete an org if it has no live objects under it. |
+| [#290 - Offer 2FA](https://github.com/peeringdb/peeringdb/issues/290) | |
+| [#352 - Mark IXP peering LAN as bogon](https://github.com/peeringdb/peeringdb/issues/352) | Allow IXP to tag their LAN prefixes as bogons. In general, LAN prefixes should not be visible in the DFZ. If it should be visible, IXPs are able to debogonise them |
+| [#356 - Sorting by clicking table headers should use local-compare](https://github.com/peeringdb/peeringdb/issues/356) | Bugfix. Sorting now honours locale-sorting |
+| [#519 - Make spelling of traffic levels consistent](https://github.com/peeringdb/peeringdb/issues/519) | This is a bug fix and a minor improvement. Spelling is made consistent and traffic levels up to 100+Tbps are added.|
+| [#526 - Show "Last Updated" fields on fac, ix, org records](https://github.com/peeringdb/peeringdb/issues/526) | |
+| [#537 - Posting https://www.peeringdb.com onto social media doesn't select a good preview image](https://github.com/peeringdb/peeringdb/issues/537) | Add opengraph image for page preview.|
+| [#569 - Don't return any POC data with status=deleted](https://github.com/peeringdb/peeringdb/issues/569) | POC objects do have a visibility scope. If a POC record is deleted it should not be able to retrieve it at all, even if visibility had been set to "public" before. The data will still be kept internally for 30 days for rollback if the deletion happened unintentionally. After 30 days the record will be hard-deleted.|
+| [#580 - Add a clear error message, when user tries to re-add a previously deleted facility](https://github.com/peeringdb/peeringdb/issues/580) | Bug fix for an unclear behaviour. If a connection from a network to a facility was deleted the user was unable to re-add this connection by themselves and an unclear error message was given. Now, the user is able to re-add the connection. |
+| [#618 - Support alternative direction of writing, e.g. Arabic](https://github.com/peeringdb/peeringdb/issues/618) | For right-to-left written languages, the entire layout of the PeeringDB website has to be flipped around. |
+| [#644 - Undeleting an ixlan with an emtpy IPv4 XOR IPv6 field throws a silly error](https://github.com/peeringdb/peeringdb/issues/644) |Bugfix for the Admin Committee UI. An empty field was considered to be a legit non-null value and the system hence enforced uniqueness |
+| [#650 - Add pointer from API docs to tutorial](https://github.com/peeringdb/peeringdb/issues/650) | A URL is added from the API documentation website to the PeeringDB tutorials |
+| [#654 - Add pointer from API docs to tutorial](https://github.com/peeringdb/peeringdb/issues/654) | Bugfix for the Admin Committee UI. |
+| [#663 - change default encoding of API calls to 'utf-8'](https://github.com/peeringdb/peeringdb/issues/663) | The output of API calls will change from content-type: application/json; charset=iso-8859-1 to content-type: application/json; charset=utf-8 |
+| [#664 - Selection should only present undeleted objects](https://github.com/peeringdb/peeringdb/issues/664) | Admin Committee only related. Only non-deleted should be presented for selection |
+| [#666 - Selection should only present undeleted objects](https://github.com/peeringdb/peeringdb/issues/666) | When changing owner of an ix admin GUI borks because of "Ixlan for exchange already exists" |
+| [#669 - Add help text to "Add {Facility, Network, Exchange} tab](https://github.com/peeringdb/peeringdb/issues/669) | Added a better help text to make crystal clear that adding a Facility, Network, or Exchange means that you are owning this object. |
+| [#679 - Add read-only Superuser](https://github.com/peeringdb/peeringdb/issues/679) | Provide PC members with a read-only access to the Admin UI. |
+| [#712 - User is unable to update their net record ](https://github.com/peeringdb/peeringdb/issues/712) | Bug fix. Missing pointer to where the non-compliant value is |
+
+
 ## Release 2.20.2
 Beta Announcement Date: N/A
 Release Date: 23 April, 2020
