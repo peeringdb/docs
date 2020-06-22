@@ -13,13 +13,13 @@ Release Date: 1 July, 2020
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
-| [#72 - Enable sort and reverse sort of IP column in IX display](https://github.com/peeringdb/peeringdb/issues/72) |  |
+| [#72 - Enable sort and reverse sort of IP column in IX display](https://github.com/peeringdb/peeringdb/issues/72) | Sort and reverse sort of IP column in IX display are added. Sort of the IP addresses in the expected natural order. The IPv4 address is the primary sort key. The IPv6 address is the secondary key. |
 | [#121 - missing delete button for organisations](https://github.com/peeringdb/peeringdb/issues/121) | New feature. An admin user is able to delete an org if it has no live objects under it. |
-| [#290 - Offer 2FA](https://github.com/peeringdb/peeringdb/issues/290) | |
+| [#290 - Offer 2FA](https://github.com/peeringdb/peeringdb/issues/290) | 2FA is offered now. The implementation includes <ul><li> optional 2FA using [TOTP](https://tools.ietf.org/html/rfc6238) is offered</li><li> there is a knob in the user profile to enable and set it up</li><li> email recovery is added using the verified user email address</li><li> an icon is added in the org admin section to denote to org admins if users have 2FA enabled </li></ul> |
 | [#352 - Mark IXP peering LAN as bogon](https://github.com/peeringdb/peeringdb/issues/352) | Allow IXP to tag their LAN prefixes as bogons. In general, LAN prefixes should not be visible in the DFZ. If it should be visible, IXPs are able to debogonise them |
 | [#356 - Sorting by clicking table headers should use local-compare](https://github.com/peeringdb/peeringdb/issues/356) | Bugfix. Sorting now honours locale-sorting |
 | [#519 - Make spelling of traffic levels consistent](https://github.com/peeringdb/peeringdb/issues/519) | This is a bug fix and a minor improvement. Spelling is made consistent and traffic levels up to 100+Tbps are added.|
-| [#526 - Show "Last Updated" fields on fac, ix, org records](https://github.com/peeringdb/peeringdb/issues/526) | |
+| [#526 - Show "Last Updated" fields on fac, ix, org records](https://github.com/peeringdb/peeringdb/issues/526) | A "Last Updated" field is visible now for fac, ix, org objects as well |
 | [#537 - Posting https://www.peeringdb.com onto social media doesn't select a good preview image](https://github.com/peeringdb/peeringdb/issues/537) | Add opengraph image for page preview.|
 | [#569 - Don't return any POC data with status=deleted](https://github.com/peeringdb/peeringdb/issues/569) | POC objects do have a visibility scope. If a POC record is deleted it should not be able to retrieve it at all, even if visibility had been set to "public" before. The data will still be kept internally for 30 days for rollback if the deletion happened unintentionally. After 30 days the record will be hard-deleted.|
 | [#580 - Add a clear error message, when user tries to re-add a previously deleted facility](https://github.com/peeringdb/peeringdb/issues/580) | Bug fix for an unclear behaviour. If a connection from a network to a facility was deleted the user was unable to re-add this connection by themselves and an unclear error message was given. Now, the user is able to re-add the connection. |
