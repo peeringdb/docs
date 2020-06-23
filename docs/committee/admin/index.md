@@ -5,6 +5,8 @@
 
 {!docs/committee/admin/charter.md!}
 
+## Meeting Notes
+
 ## Members
 - Shaun Coffey
 - Darwin Da Costa
