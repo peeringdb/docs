@@ -12,7 +12,7 @@
 - Darwin Da Costa
 - Stefan Funke
 - Alexandre Guimaraes
-- Christoffer Hansen
+- Chriztoffer Hansen
 - Peter Helmenstine
 - Julimar Lunguinho Mendes
 - Arnold Nipper (Chair)
