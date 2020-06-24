@@ -9,7 +9,7 @@
 
 ## Members
 - Shaun Coffey
-- Darwin Da Costa
+- Darwin Da Costa (Vice Chair)
 - Stefan Funke
 - Alexandre Guimaraes
 - Chriztoffer Hansen
