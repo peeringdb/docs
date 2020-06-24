@@ -16,6 +16,7 @@ nav:
     - API Specs: api_specs.md
     - IX-F JSON: ix-f-json-import-rules.md
     - OAuth: oauth.md
+    - Release Notes: release_notes/index.md
     - Translations: translation.md
   - FAQ: faq.md
 
