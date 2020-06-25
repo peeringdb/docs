@@ -174,6 +174,10 @@ Release Date: 1 July, 2020</p>
 <td>Add opengraph image for page preview.</td>
 </tr>
 <tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/566">#566 - Should deleted personal data be accessable through the API?</a></td>
+<td>If a poc object is deleted it is made immediately non-gettable via the API, too. In case the corresponding net object was deleted unintentionally the object is still kept in the DB. After 30 days it will be hard-deleted.</td>
+</tr>
+<tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/569">#569 - Don't return any POC data with status=deleted</a></td>
 <td>POC objects do have a visibility scope. If a POC record is deleted it should not be able to retrieve it at all, even if visibility had been set to "public" before. The data will still be kept internally for 30 days for rollback if the deletion happened unintentionally. After 30 days the record will be hard-deleted.</td>
 </tr>
