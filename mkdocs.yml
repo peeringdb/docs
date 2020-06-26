@@ -10,6 +10,7 @@ nav:
   - Governance: gov.md
   - Committees & Task Forces:
     - Admin Committee: committee/admin/index.md
+    - Outreach Committee: committee/outreach/index.md
     - Product Committee: committee/product/index.md
     - Data Ownership Task Force: taskforce/dataownership/index.md
   - Technical:
