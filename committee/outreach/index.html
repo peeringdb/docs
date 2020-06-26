@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/oauth/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>OAuth - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/committee/outreach/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Outreach Committee - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,59 +48,59 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../admin/">Admin Committee</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
-</li>
-                                    
-<li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
-</li>
-                                    
-<li class="active">
-    <a href="./">OAuth</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../release_notes/">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
 </li>
                                 </ul>
                             </li>
                             <li >
-                                <a href="../faq/">FAQ</a>
+                                <a href="../../faq/">FAQ</a>
                             </li>
                         </ul>
 
@@ -111,7 +111,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/oauth.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/committee/outreach/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -121,71 +121,37 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#oauth">OAuth</a></li>
-            <li><a href="#what-is-oauth">What is OAuth?</a></li>
-            <li><a href="#register-an-application">Register an application</a></li>
-            <li><a href="#urls">URLs</a></li>
-            <li><a href="#fields">Fields</a></li>
+        <li class="main active"><a href="#peeringdb-outreach-committee">PeeringDB Outreach Committee</a></li>
+            <li><a href="#meeting-notes">Meeting Notes</a></li>
+            <li><a href="#members">Members</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="oauth">OAuth</h2>
-<p>PeeringDB now offers OAuth2 authentication for third-party applications to allow users to authenticate against PeeringDB.</p>
-<p>Implementation details are at <a href="https://github.com/peeringdb/peeringdb/issues/131">https://github.com/peeringdb/peeringdb/issues/131</a>.  For an example, see <a href="https://github.com/inex/IXP-Manager/issues/322">https://github.com/inex/IXP-Manager/issues/322</a>.  </p>
-<h3 id="what-is-oauth">What is OAuth?</h3>
-<p>There is a good write up at <a href="https://aaronparecki.com/oauth-2-simplified/">https://aaronparecki.com/oauth-2-simplified/</a>.</p>
-<h3 id="register-an-application">Register an application</h3>
-<p>First you need to register your application at <a href="https://peeringdb.com/oauth2/applications/">https://peeringdb.com/oauth2/applications/</a>.</p>
-<h3 id="urls">URLs</h3>
-<pre><code class="python">PDB_ENDPOINT = &quot;https://auth.peeringdb.com/&quot;
-
-PDB_OAUTH_ACCESS_TOKEN_URL = '{}oauth2/token/'.format(PDB_ENDPOINT)
-PDB_OAUTH_AUTHORIZE_URL = '{}oauth2/authorize/'.format(PDB_ENDPOINT)
-PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
-</code></pre>
-
-<h3 id="fields">Fields</h3>
-<p>The fields are based largely on OpenID Connect.</p>
-<p>Scopes currently are defined as </p>
+<h1 id="peeringdb-outreach-committee">PeeringDB Outreach Committee</h1>
 <ul>
-<li><code>profile</code> : user profile</li>
-<li><code>email</code> : adds fields <code>email</code> and <code>verified_email</code></li>
-<li><code>networks</code> : add field <code>networks</code></li>
+<li>Purpose is to coordinate outreach and evanglism in the community.</li>
+<li>Interested in volunteering? Contact <a href="mailto:outreachcom@lists.peeringdb.com">outreachcom@lists.peeringdb.com</a>.</li>
 </ul>
-<p>The <code>perms</code> field is a bitmask for <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> as the 4 least significant bits. See following:</p>
-<pre><code>0b0000 1 1 1 1
-       | | | +-- Delete
-       | | +---- Update
-       | +------ Read
-       + ------- Create
-</code></pre>
-
-<p>Example for my user:</p>
-<pre><code class="json">{
-  &quot;id&quot;: 3,
-  &quot;name&quot;: &quot;Matt Griswold&quot;,
-  &quot;given_name&quot;: &quot;Matt&quot;,
-  &quot;family_name&quot;: &quot;Griswold&quot;,
-  &quot;email&quot;: &quot;grizz@20c.com&quot;,
-  &quot;verified_user&quot;: true,
-  &quot;verified_email&quot;: true,
-  &quot;networks&quot;: [
-    {
-      &quot;perms&quot;: 15,
-      &quot;asn&quot;: 63311,
-      &quot;name&quot;: &quot;20C&quot;,
-      &quot;id&quot;: 20
-    }, 
-    {
-      &quot;perms&quot;: 15,
-      &quot;asn&quot;: 33713,
-      &quot;name&quot;: &quot;United IX&quot;,
-      &quot;id&quot;: 7889
-    }
-  ]
-}
-</code></pre></div>
+<h2 id="meeting-notes">Meeting Notes</h2>
+<ul>
+<li><a href="notes/2019-12-03_Outreach_Committee_Notes.pdf">December 3rd, 2019: Meeting Notes</a></li>
+<li><a href="notes/2020-01-07_Outreach_Committee_Notes.pdf">January 7th, 2020: Meeting Notes</a></li>
+<li><a href="notes/2020-02-04_Outreach_Committee_Notes.pdf">February 4th, 2020: Meeting Notes</a></li>
+<li><a href="notes/2020-03-17_Outreach_Committee_Notes.pdf">March 17th, 2020: Meeting Notes</a></li>
+<li><a href="notes/2020-04-07_Outreach_Committee_Notes.pdf">April 7th, 2020: Meeting Notes</a></li>
+<li><a href="notes/2020-05-07_Outreach_Committee_Notes.pdf">May 7th, 2020: Meeting Notes</a></li>
+<li><a href="notes/2020-06-02_Outreach_Committee_Notes.pdf">June 2nd, 2020: Meeting Notes</a></li>
+</ul>
+<h2 id="members">Members</h2>
+<ul>
+<li>Greg Hankins (Chair)</li>
+<li>Aaron Hughes (Board Liaison)</li>
+<li>Arnold Nipper</li>
+<li>Ben Ryall</li>
+<li>Bijal Sanghani (Vice Chair)</li>
+<li>Rebecca Stanić</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
@@ -197,11 +163,11 @@ PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
