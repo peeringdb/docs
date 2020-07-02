@@ -82,7 +82,7 @@ We will fix that when time allows, for the time being, just run:
     alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
     
 ### What does the `Never via route servers` flag mean and how does it work?
-With release 2.18.0 a new feature `Never via route servers` (API field `info_never_via_route_servers`) has been introduced. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression _ASN_.
+With release 2.18.0 a new feature `Never via route servers` (API field `info_never_via_route_servers`) has been introduced. There is a tick box in section "Protcols Supported" to set it. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression _ASN_. Please make sure that the IXPs you are connected to ae supporting this feature. I.e. they have to check PeeringDB regularly, evaluate this field and honour the setting.
 
 ## Governance and membership
 ### How does one become a PeeringDB member?
