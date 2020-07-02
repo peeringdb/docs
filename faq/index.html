@@ -188,6 +188,8 @@ authentication in the URL</p>
 <p>We will fix that when time allows, for the time being, just run:</p>
 <pre><code>alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
 </code></pre>
+<h3 id="what-does-the-never-via-route-servers-flag-mean-and-how-does-it-work">What does the <code>Never via route servers</code> flag mean and how does it work?</h3>
+<p>With release 2.18.0 a new feature <code>Never via route servers</code> (API field <code>info_never_via_route_servers</code>) has been introduced. There is a tick box in section "Protcols Supported" to set it. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression <em>ASN</em>. Please make sure that the IXPs you are connected to are supporting this feature. I.e. they have to check PeeringDB regularly, evaluate this field and honour the setting.</p>
 <h2 id="governance-and-membership">Governance and membership</h2>
 <h3 id="how-does-one-become-a-peeringdb-member">How does one become a PeeringDB member?</h3>
 <p>Your organization does not need to be a Member to have an active account at PeeringDB.com, but Membership is available to those that do. Per the Bylaws, Membership is determined by having an active PeeringDB.com account, and a subscription to the <a href="http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov">pdb-gov</a> mailing list.</p>
