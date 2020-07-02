@@ -78,7 +78,6 @@ Release Date: 21 April, 2020
 | [#667 - Fix use autocomplete fields in the admincom controlpanel to speed up loading times](https://github.com/peeringdb/peeringdb/issues/667) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
 
 **Notes:** 
-[#519 Make spelling of traffic levels consistent](https://github.com/peeringdb/peeringdb/issues/519) is also planned to be added to beta.peeringdb.com in April 2020 however it will NOT be released in the immediate next release (2.20.0). This is in order to allow more time for API users for awareness and testing. It will be added to a future May/June release.
 
 
 
