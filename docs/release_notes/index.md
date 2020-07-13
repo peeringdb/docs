@@ -6,6 +6,22 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
 
+## Release 2.22.0
+Beta Announcement Date: 15 July, 2020
+Release Date: 
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#249 - Add the IX-F Member Export URL to the ixlan API endpoint](https://github.com/peeringdb/peeringdb/issues/249) | Add two new fields to the API: <ul><li>ixf_import_url string for the URL to fetch</li><li>ixf_import_url_visible string for visibility the same as the current poc records: public, users, private</li></ul> ixf_import_url_visible will default to private which means it will only display for users who are members of the org|
+| [#268 - Database: unique constraints](https://github.com/peeringdb/peeringdb/issues/268) |  |
+| [#358 - Lock ASN once the record is created](https://github.com/peeringdb/peeringdb/issues/358) |  |
+| [#431 - Null 'rencode' from facility](https://github.com/peeringdb/peeringdb/issues/431) | Null out all values for legacy unused rencode field, and make it read only to prepare for removal in PDB v3 [#625] (https://github.com/peeringdb/peeringdb/issues/625)|
+| [#600 - Visibility for "Allow IXP update" switch](https://github.com/peeringdb/peeringdb/issues/600) | <ul><li> Add new boolean field net.allow_ixp_update to the API</li><li> Add a line in global stats in the footer with a count (called "Automated Networks") of the networks which have "Allow IXP Update" enabled </li></ul>|
+| [#649 - Possible for 'ok' ixpfx to exist in 'pending' ixlan](https://github.com/peeringdb/peeringdb/issues/649) | |
+| [#683 - Add net_count_ixf field to ix object](https://github.com/peeringdb/peeringdb/issues/683) | Add ixf_net_count and ixf_last_import (timestamp) to the ix object. |
+| [#696 - Lock some objects from being deleted by the owner](https://github.com/peeringdb/peeringdb/issues/696) | |
+| [#697 - Creating, changing, and deleting a netixlan object](https://github.com/peeringdb/peeringdb/issues/697) | |
+
 
 ## Release 2.21.0
 Beta Announcement Date: 24 June, 2020
