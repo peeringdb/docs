@@ -8,19 +8,19 @@ This page was started in April 2020, and will only have information about Peerin
 
 ## Release 2.22.0
 Beta Announcement Date: 15 July, 2020
-Release Date: 
+Release Date: 29 July, 2020
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
-| [#249 - Add the IX-F Member Export URL to the ixlan API endpoint](https://github.com/peeringdb/peeringdb/issues/249) | Add two new fields to the API: <ul><li>ixf_import_url string for the URL to fetch</li><li>ixf_import_url_visible string for visibility the same as the current poc records: public, users, private</li></ul> ixf_import_url_visible will default to private which means it will only display for users who are members of the org|
-| [#268 - Database: unique constraints](https://github.com/peeringdb/peeringdb/issues/268) |  |
-| [#358 - Lock ASN once the record is created](https://github.com/peeringdb/peeringdb/issues/358) |  |
-| [#431 - Null 'rencode' from facility](https://github.com/peeringdb/peeringdb/issues/431) | Null out all values for legacy unused rencode field, and make it read only to prepare for removal in PDB v3 [#625] (https://github.com/peeringdb/peeringdb/issues/625)|
-| [#600 - Visibility for "Allow IXP update" switch](https://github.com/peeringdb/peeringdb/issues/600) | <ul><li> Add new boolean field net.allow_ixp_update to the API</li><li> Add a line in global stats in the footer with a count (called "Automated Networks") of the networks which have "Allow IXP Update" enabled </li></ul>|
-| [#649 - Possible for 'ok' ixpfx to exist in 'pending' ixlan](https://github.com/peeringdb/peeringdb/issues/649) | |
-| [#683 - Add net_count_ixf field to ix object](https://github.com/peeringdb/peeringdb/issues/683) | Add ixf_net_count and ixf_last_import (timestamp) to the ix object. |
-| [#696 - Lock some objects from being deleted by the owner](https://github.com/peeringdb/peeringdb/issues/696) | |
-| [#697 - Creating, changing, and deleting a netixlan object](https://github.com/peeringdb/peeringdb/issues/697) | |
+| [#249 - Add the IX-F Member Export URL to the ixlan API endpoint](https://github.com/peeringdb/peeringdb/issues/249) | There are two new fields in the ixlan section resp. the ixlan object, called ixf_ixp_member_list_url and ixf_ixp_member_list_url_visible. The first one contains the URL to the IX-F import file while the second governs the visibility of the URL. Values are the same as for the poc object, namely "Public", "Users" and "Private", defaulting to "Private" (i.e. or users who are members of the org). |
+| [#268 - Database: unique constraints](https://github.com/peeringdb/peeringdb/issues/268) | This issue fixes internal DB behaviour. |
+| [#358 - Lock ASN once the record is created](https://github.com/peeringdb/peeringdb/issues/358) | Once a network has been created, the field asn is made read-only. As the ASN is unique there is no reason to change it. Making the field read-only is to prevent unwanted side effects. |
+| [#431 - Null 'rencode' from facility](https://github.com/peeringdb/peeringdb/issues/431) | Null out all values for legacy unused rencode field, and make it read only to prepare for removal in PDB v3 [#625] (https://github.com/peeringdb/peeringdb/issues/625). |
+| [#600 - Visibility for "Allow IXP update" switch](https://github.com/peeringdb/peeringdb/issues/600) | A new field is added to the ÀPI net object, called allow_ixp_update. Furthermore, a line is added in global stats in the footer with a count (called "Automated Networks") of the networks which have "Allow IXP Update" enabled. |
+| [#649 - Possible for 'ok' ixpfx to exist in 'pending' ixlan](https://github.com/peeringdb/peeringdb/issues/649) | This issue fixes an internal bug |
+| [#683 - Add net_count_ixf field to ix object](https://github.com/peeringdb/peeringdb/issues/683) | A field is added to the API object ix, called net_count_ixf, which indicates the number of net objects the exchange has in their IX-F JSON if they provide one. Otherwise, the value is null. |
+| [#696 - Lock some objects from being deleted by the owner](https://github.com/peeringdb/peeringdb/issues/696) | To protect operational data objects fac, ix, ixlan and org are prevented from being deleted as long as there are other objects related to it. First, these objects must be deleted before the object itself can be deleted. The attempt to delete such a protected object gives an error message and also opens a ticket with the PeeringDB support. |
+| [#697 - Creating, changing, and deleting a netixlan object](https://github.com/peeringdb/peeringdb/issues/697) | We completely re-implemented the way a connection to an exchange is handled. This new procedure allows both for a safe heads up a network can give to their peers as well as a safe way for exchanges to get rid of stale entries. Moreover, it allows networks to easily acknowledge new entries at exchanges which use the IX-F importer feature. See also the webinar for detailed information on this new procedure. |
 
 
 ## Release 2.21.0
