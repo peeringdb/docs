@@ -15,6 +15,7 @@
 - [May 7th, 2020: Meeting Notes](notes/2020-05-07_Outreach_Committee_Notes.pdf)
 - [June 2nd, 2020: Meeting Notes](notes/2020-06-02_Outreach_Committee_Notes.pdf)
 - [July 7th, 2020: Meeting Notes](notes/2020-07-07_Outreach_Committee_Notes.pdf)
+- [August 4th, 2020: Meeting Notes](notes/2020-08-04_Outreach_Committee_Notes.pdf)
 
 ## Members
 
