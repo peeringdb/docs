@@ -51,4 +51,4 @@
 - Arnold Nipper
 - Yolandi Robinson
 - Job Snijders
-- Filiz Yilmaz (Product Manager)
+- Filiz Yilmaz
