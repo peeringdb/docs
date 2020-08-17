@@ -64,6 +64,7 @@ The [release notes](release_notes/index.md) list the GitHub issues and a summary
 
 #### 2020
 
+- [Data Ownership Policy Implementation Presentation](presentation/20200817-dtf-implementation.pdf) - August 17, 2020 - Filiz Yilmaz, Steve McManus, Arnold Nipper ([video](https://youtu.be/mtT_HojbIPs))
 - [PeeringDB Data Ownership Task Force](presentation/20200417-DataTF-AnnualMtg-Update-Filiz-Yilmaz.pdf) at [PeeringDB Annual Meeting 2020](https://www.facebook.com/events/580338329488711/) - April 17, 2020 - Filiz Yilmaz
 - [PeeringDB](presentation/ABRINT_na_Estrada_Campo_Grande-peeringdb-20200310.pdf) at [ABRINT na Estrada Campo Grande](https://www.sympla.com.br/abrint-na-estrada-campo-grande---ms__769250), Campo Grande, BR - March 10, 2020 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20200226-PhNOG-Arnold-Nipper.pdf) at [PhNOG 2020](http://phnog.com/phnog-2020-manila/), Manila, PH - February 26, 2020 - Arnold Nipper

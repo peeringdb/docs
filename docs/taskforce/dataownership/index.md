@@ -24,8 +24,11 @@ The Task Force is estimated to conclude its work within about 6 months from its 
 
 The resulting Policy Document will be announced and shared with the PeeringDB Community.
 
-After the publishing of the Policy Document, the Task Force will end. 
+After publishing the Policy Document, the Task Force ended. 
 
+## Data Ownership Policy Implementation Presentation
+
+This [video](https://youtu.be/mtT_HojbIPs) and [presentation](../../presentation/20200817-dtf-implementation.pdf) explains how PeeringDB handles IX-F import data, creating, changing or deleting netixlan objects and other changes from the implementation of the PeeringDB Data Ownership Policy.
 
 ## Members
 - Darrell Budic 
