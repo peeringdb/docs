@@ -121,32 +121,44 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#rules-for-the-ix-f-json-importer-this-feature-is-disabled-since-2019-08-30-ie-the-last-import-ran-at-2019-08-30-000000-utc">Rules for the IX-F JSON Importer (This feature is disabled since 2019-08-30, i.e. the last import ran at 2019-08-30 00:00:00 UTC)</a></li>
+        <li class="main active"><a href="#note-as-of-august-2020-the-importer-is-being-tested-with-only-a-small-number-of-ixps">NOTE: As of August 2020, the Importer is being tested with only a small number of IXPs.</a></li>
+        <li class="main "><a href="#rules-for-the-ix-f-json-importer">Rules for the IX-F JSON Importer</a></li>
             <li><a href="#general-remarks">General remarks</a></li>
-            <li><a href="#for-networks">For networks</a></li>
+            <li><a href="#for-networks">For Networks</a></li>
             <li><a href="#for-ixps">For IXPs</a></li>
+            <li><a href="#further-information">Further Information</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="rules-for-the-ix-f-json-importer-this-feature-is-disabled-since-2019-08-30-ie-the-last-import-ran-at-2019-08-30-000000-utc">Rules for the IX-F JSON Importer (This feature is disabled since 2019-08-30, i.e. the last import ran at 2019-08-30 00:00:00 UTC)</h1>
-<p>PeeringDB allows networks and IXPs to contol entries via the IX-F JSON import feature.</p>
+<h1 id="note-as-of-august-2020-the-importer-is-being-tested-with-only-a-small-number-of-ixps">NOTE: As of August 2020, the Importer is being tested with only a small number of IXPs.</h1>
+<h1 id="rules-for-the-ix-f-json-importer">Rules for the IX-F JSON Importer</h1>
+<p>PeeringDB allows networks and IXPs to update entries via the IX-F JSON import feature.</p>
 <h2 id="general-remarks">General remarks</h2>
-<p>If and how information is imported heavily depends on the <code>state</code> field. So, both the network and the IXP should check what is set. The importer has been modified to act on <code>active</code>, <code>connected</code>, <code>operational</code> or if the <code>state</code> is not set at all. If <code>state</code> is set to <code>inactive</code> nothing is done, even if the network has set <code>allow_ixp_update</code> to yes.</p>
-<p>If a network is in the IX-F JSON import but not in PeeringDB it is not added.</p>
-<p>See <a href="https://github.com/peeringdb/peeringdb/issues/474">GitHub #474</a> for the exact specification.</p>
-<h2 id="for-networks">For networks</h2>
-<p><strong>Generally, if a network does not have an entry in the IXP member list, the network IXP entry is removed.</strong></p>
-<p>There is a tick box "Allow IXP Update" which governs the behaviour of the import. By <strong>default</strong> this is unticked (set to "no"). If "Allow IXP Update" is ticked, an entry may be created, changed and removed. The entry then is completely governed by the settings in the IX-F JSON import. If "Allow IXP Update" is unticked, an entry may be removed. For details see below.</p>
-<p><code>allow_ixp_update</code>: no<br />
-- If a network has an IXP entry with differing (asn, ipaddr4, ipaddr6), the network IXP entry is removed<br />
-- If a network has an IXP entry with any other differing information (speed, route server peer), this information is not changed<br />
-- If a network does not have an entry for the IXP, nothing is done</p>
-<p><code>allow_ixp_update</code>: yes<br />
-- If a network has an IXP entry with any differing information, the entry is updated (IPv4, IPv6, speed, route server peer)<br />
-- If a network does not have an entry for the IXP, one is added</p>
+<p>The Importer abides by the recommendations of the <a href="/taskforce/dataownership">Data Ownership Task Force</a> and its resulting <a href="/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">Policy Document</a>. Most significantly, this means that unless the tick box "Allow IXP Update" is enabled by a network, published data will not automatically become unpublished nor will unpublished data automatically become published.</p>
+<h2 id="for-networks">For Networks</h2>
+<p>There is a tick box "Allow IXP Update" which governs the behavior of the Importer. By <strong>default</strong> this is set to disabled.</p>
+<p>If "Allow IXP Update" is enabled, a network entry at an IX may automatically be created, changed, or removed. The network's IX entry is completely governed by the settings in the IX-F JSON data provided by the IX.</p>
+<p>If "Allow IXP Update" is disabled, differences in data provided by the IX and the network will result in the following:</p>
+<ul>
+<li>An email to the network with details about the differences.</li>
+<li>An email to the IX with details about the differences.</li>
+<li>Admins for the network will see hints for their network within the PeeringDB web interface. These hints may be accepted or dismissed.</li>
+<li>The network and the IX are encouraged to reach out to each other to resolve any differences.</li>
+<li>After a period of 6 days, unresolved differences will be referred to the PeeringDB <a href="/committee/admin">Admin Committee</a> to assist with resolution.</li>
+</ul>
 <h2 id="for-ixps">For IXPs</h2>
-<p>To enable IX-F JSON import, please provide a URL to your IX-F JSON export list. To do so, edit your entry and add the URL in field <code>LANs</code>. Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</p></div>
+<p>To enable IX-F JSON import:</p>
+<ul>
+<li>Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</li>
+<li>Provide a URL to your IX-F JSON data. To do so, click Edit on your IX web page and set the <code>IX-F Member Export URL</code> to the URL and set <code>Enable IX-F Import</code> to enabled. You may also set the visibility of your IX-F JSON URL.</li>
+<li>Daily at 0000 UTC, the IX-F JSON data will be retrieved and processed by the Importer. The steps above for networks will then be followed.</li>
+</ul>
+<p>If the IX-F JSON <code>state</code> field is present, settings of <code>active</code>, <code>connected</code>, or <code>operational</code> may be used to indicate a network is operational, while a setting of <code>inactive</code> will be interpreted as the network not being operational. This may be used to denote a network in the process of connecting but not yet active, or a network on hiatus.</p>
+<h2 id="further-information">Further Information</h2>
+<ul>
+<li>August 17th, 2020 Data Ownership Policy Implementation Presentation: <a href="/presentation/20200817-dtf-implementation.pdf">slides</a> and <a href="https://youtu.be/mtT_HojbIPs">video</a></li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
