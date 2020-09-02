@@ -23,12 +23,12 @@ The Admin Committee works with other PeeringDB committees to ensure an equitable
 
 
 #### Participation
-The PeeringDB Admin Committee members serve a one-year renewable term. Volunteers can submit their candidacy to the Admin Committee Chair. The Chair and Vice-Chair will choose a new Admin Committee member at any time they see the necessity to ensure the continuity of the Admin Committee.  There is a trial period of one month. New members are onboarded by a more experienced committee member (WebEx / Google Hangouts / 3 example tickets). After the trial period appointment is confirmed by the Chair and Vice-Chair for one year.
+The PeeringDB Admin Committee members serve a one-year renewable term. Volunteers can submit their candidacy to the Admin Committee Chair. The Chair and Vice Chair will choose a new Admin Committee member at any time they see the necessity to ensure the continuity of the Admin Committee.  There is a trial period of one month. New members are onboarded by a more experienced committee member (WebEx / Google Hangouts / 3 example tickets). After the trial period appointment is confirmed by the Chair and Vice Chair for one year.
 
 
 #### Expectations
 - Individual committee members should do their fair share of tickets measured over a month
-- If a committee member is away for an extended period of time, inform the Chair, Vice-Chair and a notification sent to the Admin Committee mailing list
+- If a committee member is away for an extended period of time, inform the Chair, Vice Chair, and a notification sent to the Admin Committee mailing list
 - One month probation where they get taught/mentored by an experienced admin, and where if they do not do the work, they get booted
 - Chairs perform a quarterly review. If you don't meet a fair portion of the work you'll be nudged. Also, three months of inactivity is an automatic ejection
 

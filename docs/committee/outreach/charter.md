@@ -19,7 +19,7 @@ The PeeringDB Outreach Committee (OC) is charged with the marketing efforts and 
 
 
 #### Participation
-The PeeringDB Outreach Committee members serve a one-year renewable term. Volunteers can submit their candidacy to the Outreach Committee chair. The chair and vice-chair will choose a new Outreach Committee member at any time they see the necessity to ensure the continuity of the Outreach Committee.
+The PeeringDB Outreach Committee members serve a one-year renewable term. Volunteers can submit their candidacy to the Outreach Committee Chair. The Chair and Vice Chair will choose a new Outreach Committee member at any time they see the necessity to ensure the continuity of the Outreach Committee.
 
 
 #### Communication
