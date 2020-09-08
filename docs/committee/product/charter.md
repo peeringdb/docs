@@ -1,4 +1,4 @@
-## Product Committee Charter
+## PeeringDB Product Committee Charter
 
 *** Approved by Board July 7th, 2017 ***
 
@@ -30,7 +30,7 @@ The PC shall work with other PeeringDB committees to ensure an equitable divisio
 
 #### Participation
 
-The PeeringDB Product Committee members serve a 2 years renewable term, potential volunteers may submit their candidacy to the PeeringDB Board. The product committee will select their own Chair and Vice chair by simple majority vote. The Board may add or remove members at any time it deems necessary.
+The PeeringDB Product Committee members serve a 2 years renewable term, potential volunteers may submit their candidacy to the PeeringDB Board. The product committee will select their own Chair and Vice Chair by simple majority vote. The Board may add or remove members at any time it deems necessary.
 
 
 #### Communication
@@ -43,3 +43,5 @@ The PeeringDB Product Committee members serve a 2 years renewable term, potentia
 #### Decision Policy
 
 Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair.
+
+{!docs/committee/common.md!}
