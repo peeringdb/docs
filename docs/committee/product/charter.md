@@ -6,7 +6,7 @@
 
 The PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.
 
-##### Out of Scope
+#### Out of Scope
 
 - The PC does not drive PeeringDB improvements related to the administrative interfaces & functions used by the PeeringDB Admin Committee.
 - The PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.
