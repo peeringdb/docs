@@ -6,6 +6,27 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
 
+## Release 2.23
+
+Beta Announcement Date: 30 September, 2020
+
+Release Date: 7 October, 2020
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [IX-F Importer: Add failed email resending #833](https://github.com/peeringdb/peeringdb/issues/833)| Implement re-send mechanic for emails that could not be sent (indicated by a sent value of null). When re-sending an email add a note to the email stating "This email could not be delivered initially and may contain stale information". Add a field to the admin-com import emails table to show this note as well. Update sent if send is successful|
+| [IX-F Importer: suggested update when it should be add + remove #832](https://github.com/peeringdb/peeringdb/issues/832)| In some edge cases a deletion will end up as a requirement incorrectly to a legitimate new entry still. See #770 #816 |
+| [[prod] IX-F importer: NameError: name 'EmailMultiAlternatives' is not defined #831](https://github.com/peeringdb/peeringdb/issues/831)| Corrects an error when updating a database table |
+| [Make technical poc mandatory when adding a netixlan #826](https://github.com/peeringdb/peeringdb/issues/826)| Upon creating a netixlan object check that net has at least one (`Technical`, `NOC`, `Policy`) `poc` if not ask them to create one first. Visibility of at least one (`Technical`, `NOC`, `Policy`) `poc` has to be "Users" resp. "Public" |
+| [[beta] IX-F importer: Make Importer return non-zero when there is an error that Ops should see #825](https://github.com/peeringdb/peeringdb/issues/825)| We need to tackle two main issues here. When importer command is done return a non-zero exit code if we had any unhandled error (e.g the email import issue we fixed in #831) at the end of the import run. Output those errors at the end of the run. I think we can accomplish both by collecting those errors and simply re-raising them at the end of the run serving both purposes of outputting the error information as well as causing the importer command to exit with non-zero return code.|
+| [IX-F Preview - shows the consolidated delete operation when it shouldn't #824](https://github.com/peeringdb/peeringdb/issues/824)| Simplified the UI for consolidated modifications to improve user understanding |
+| [Describe the 'never-via-routeservers' flag #759](https://github.com/peeringdb/peeringdb/issues/759)| During the implementation of #394, having a tooltip to describe what that flag is about was discussed, but never implemented: "On the frontend we should add a tooltip to the field which describes it (leveraging code in #228): "Indicates if this network will announce its routes via route servers or not"|
+| [Facility registration tool adds identifier #571](https://github.com/peeringdb/peeringdb/issues/571)| Fixes small UI bug in facility registration tool|
+| [Add min_speed and max_speed to ixlan #481](https://github.com/peeringdb/peeringdb/issues/481)| Based on the discussion in #475 add to new fields to record `ixlan min_speed:` minimum speed of connections to this `ixlan max_speed:` maximum speed of connections to this `ixlan` Adding these fields improves data quality|
+| [Clean up users in verification queue #371](https://github.com/peeringdb/peeringdb/issues/371)| A tool to delete user entries older than 90 days from the so-called verification queue and run it on a regular schedule|
+| [Make Website mandatory for suggesting a facility #370](https://github.com/peeringdb/peeringdb/issues/370)| Website is now mandatory when suggesting a facility but zip code is not as not all countries use them |
+| [Typos in locale #321](https://github.com/peeringdb/peeringdb/issues/321)| Fixes a number of typographical errors|
+
 ## Release 2.22.0
 Beta Announcement Date: 15 July, 2020
 Release Date: 26 August, 2020
