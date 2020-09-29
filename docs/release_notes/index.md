@@ -24,7 +24,7 @@ Release Date: 7 October, 2020
 | [#571 - Facility registration tool adds identifier ](https://github.com/peeringdb/peeringdb/issues/571)| Fixes small UI bug in facility registration tool|
 | [#481 - Add min_speed and max_speed to ixlan](https://github.com/peeringdb/peeringdb/issues/481)| Based on the discussion in #475 add to new fields to record `ixlan min_speed:` minimum speed of connections to this `ixlan max_speed:` maximum speed of connections to this `ixlan` Adding these fields improves data quality|
 | [#371 - Clean up users in verification queue](https://github.com/peeringdb/peeringdb/issues/371)| A tool to delete user entries older than 90 days from the so-called verification queue and run it on a regular schedule|
-| [#321 - Make Website mandatory for suggesting a facility](https://github.com/peeringdb/peeringdb/issues/370)| Website is now mandatory when suggesting a facility but zip code is not as not all countries use them |
+| [#370 - Make Website mandatory for suggesting a facility](https://github.com/peeringdb/peeringdb/issues/370)| Website is now mandatory when suggesting a facility but zip code is not as not all countries use them |
 | [#321 - Typos in locale](https://github.com/peeringdb/peeringdb/issues/321)| Fixes a number of typographical errors|
 
 ## Release 2.22.0
