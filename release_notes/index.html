@@ -157,15 +157,15 @@
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/831">#831 - [prod] IX-F importer: NameError: name 'EmailMultiAlternatives' is not defined </a></td>
-<td>Corrects an error when updating a database table</td>
+<td>Fixes broken email function of <code>ix-f</code> importer</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/826">#826 - Make technical poc mandatory when adding a netixlan</a></td>
-<td>Upon creating a netixlan object check that net has at least one (<code>Technical</code>, <code>NOC</code>, <code>Policy</code>) <code>poc</code> if not ask them to create one first. Visibility of at least one (<code>Technical</code>, <code>NOC</code>, <code>Policy</code>) <code>poc</code> has to be "Users" resp. "Public"</td>
+<td>Upon creating a netixlan object check that net has at least one (<code>Technical</code>, <code>NOC</code>, <code>Policy</code>) <code>poc</code> and that the <code>poc</code> has an e-mail address. If not ask them to create one first. Visibility of at least one (<code>Technical</code>, <code>NOC</code>, <code>Policy</code>) <code>poc</code> has to be "Users" resp. "Public"</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/825">#825 - [beta] IX-F importer: Make Importer return non-zero when there is an error that Ops should see</a></td>
-<td>We need to tackle two main issues here. When importer command is done return a non-zero exit code if we had any unhandled error (e.g the email import issue we fixed in #831) at the end of the import run. Output those errors at the end of the run. I think we can accomplish both by collecting those errors and simply re-raising them at the end of the run serving both purposes of outputting the error information as well as causing the importer command to exit with non-zero return code.</td>
+<td>Improvements to <code>ix-f</code> importer that allow for easier notification and tracking of errors for the Ops team</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/824">#824 - IX-F Preview - shows the consolidated delete operation when it shouldn't </a></td>
@@ -173,15 +173,15 @@
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/759">#759 - Describe the 'never-via-routeservers' flag</a></td>
-<td>During the implementation of #394, having a tooltip to describe what that flag is about was discussed, but never implemented: "On the frontend we should add a tooltip to the field which describes it (leveraging code in #228): "Indicates if this network will announce its routes via route servers or not"</td>
+<td>Add tooltip for never-via-routeservers option: "Indicates if this network will announce its routes via route servers or not"</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/571">#571 - Facility registration tool adds identifier </a></td>
-<td>Fixes small UI bug in facility registration tool</td>
+<td>Fixes small UI bug in facility registration tool used by the Admin Committee</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/481">#481 - Add min_speed and max_speed to ixlan</a></td>
-<td>Based on the discussion in #475 add to new fields to record <code>ixlan min_speed:</code> minimum speed of connections to this <code>ixlan max_speed:</code> maximum speed of connections to this <code>ixlan</code> Adding these fields improves data quality</td>
+<td>Based on the discussion in #475 adds a new global setting that limits <code>netixlan</code> speed values now. It's not a property on the ixlan anymore.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/371">#371 - Clean up users in verification queue</a></td>
@@ -189,7 +189,7 @@
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/370">#370 - Make Website mandatory for suggesting a facility</a></td>
-<td>Website is now mandatory when suggesting a facility but zip code is not as not all countries use them</td>
+<td>Website is now mandatory when suggesting a facility but zipcode only mandatory for countries that have zipcodes</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/321">#321 - Typos in locale</a></td>
