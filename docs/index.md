@@ -69,6 +69,7 @@ The [release notes](release_notes/index.md) list the GitHub issues and a summary
 - [PeeringDB](presentation/ABRINT_na_Estrada_Campo_Grande-peeringdb-20200310.pdf) at [ABRINT na Estrada Campo Grande](https://www.sympla.com.br/abrint-na-estrada-campo-grande---ms__769250), Campo Grande, BR - March 10, 2020 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20200226-PhNOG-Arnold-Nipper.pdf) at [PhNOG 2020](http://phnog.com/phnog-2020-manila/), Manila, PH - February 26, 2020 - Arnold Nipper
 - [PeeringDB Update](presentation/20200219-Apricot-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/8), Melbourne, AU - February 19, 2020 - Arnold Nipper
+- [Introducción a PeeringDB](presentation/20201002-ANUIES-PeeringDB-Intro-Spanish.pdf) at [Seguridad en el Ruteo: MANRS para Operadores de Red de Universidades](http://anuies.symposium.events/54606/programme/seguridad-en-el-ruteo_-manrs-para-operadores-de-red-de-universidades.html), - October 2, 2020 - Diego Dominguez
 
 #### 2019
 
