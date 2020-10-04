@@ -1,5 +1,11 @@
 # About PeeringDB
 
+## How can PeeringDB help me to interconnect?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QA2PvYbvDhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Create and account and [register](https://www.peeringdb.com/register) in PeeringDB to get started.
+
 ## Getting help
 
 * Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
