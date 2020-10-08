@@ -20,6 +20,7 @@ nav:
     - Release Notes: release_notes/index.md
     - Translations: translation.md
   - FAQ: faq.md
+  - Blogs: blogs.md
 
 extra_css:
   - extra.css
