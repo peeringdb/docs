@@ -72,7 +72,6 @@ Release Date: 1 July, 2020
 
 
 ## Release 2.20.2
-Beta Announcement Date: N/A
 Release Date: 23 April, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -80,7 +79,6 @@ Release Date: 23 April, 2020
 | [#707 - Make source not required for IRR records](https://github.com/peeringdb/peeringdb/issues/707) | Making source not required for IRR records. This requirement was an oversight during implementation of [#151 - Validation of IRR Records] (https://github.com/peeringdb/peeringdb/issues/151) that was released with 2.20.0 - see below. Product Committee revisited the issue after 2.20.0 and reports of concern from community and decided to retract the requirement in an emergency release|
 
 ## Release 2.20.1
-Beta Announcement Date: N/A
 Release Date: 21 April, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -111,12 +109,3 @@ Release Date: 21 April, 2020
 | [#634 - Remove support for python2](https://github.com/peeringdb/peeringdb/issues/634) | Python 2.7 and 3.4 support is being removed from PeeringDB packages. |
 | [#636 - Don't create a new net object, when there only is an ASN block](https://github.com/peeringdb/peeringdb/issues/636) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
 | [#667 - Fix use autocomplete fields in the admincom controlpanel to speed up loading times](https://github.com/peeringdb/peeringdb/issues/667) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
-
-**Notes:** 
-
-
-
-
-
-
-
