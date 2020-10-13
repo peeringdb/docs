@@ -67,7 +67,7 @@ Date strings are ISO 8601 to keep a standard format. Comparison operations such 
 ### How do I sync the whole database to my local machine?
 You may make a full local copy with <https://github.com/peeringdb/peeringdb-py>, see docs at <http://peeringdb.github.io/peeringdb-py/cli/>
 
-Initially it will perform full sync, then it will only do an incremental sync (only updates records that have changed), so you're free to run it as often as you want.
+The initial run will perform a full sync, while subsequent runs will incrementally update changed records.
 
 Alternatively [peeringdb-simplesync](https://git.2e8.dk/peeringdb-simplesync/about/) can be used to maintain a mirror in PostgreSQL.
 
