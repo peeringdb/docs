@@ -83,7 +83,7 @@ curl:
 
 #### Nested data
 
-Any field ending in the suffix **_set** is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
+Any field ending in the suffix **_set** (with the exception of 'irr_as_set') is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
 
 The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API
 
@@ -165,7 +165,7 @@ curl:
 
 #### Nested data
 
-Any field ending in the suffix **_set** is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
+Any field ending in the suffix **_set** (with the exception of 'irr_as_set') is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.
 
 The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API
 
