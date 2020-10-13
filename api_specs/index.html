@@ -214,7 +214,7 @@ data:
 <pre><code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ
 </code></pre>
 <h4 id="nested-data">Nested data</h4>
-<p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
+<p>Any field ending in the suffix <strong>_set</strong> (with the exception of 'irr_as_set') is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
 <p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
 <pre><code>&lt;object_type&gt;_set
 </code></pre>
@@ -284,7 +284,7 @@ objects updated since then.</p>
 <pre><code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/42
 </code></pre>
 <h4 id="nested-data_1">Nested data</h4>
-<p>Any field ending in the suffix <strong>_set</strong> is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
+<p>Any field ending in the suffix <strong>_set</strong> (with the exception of 'irr_as_set') is a list of objects in a relationship with the parent object, you can expand those lists with the 'depth' parameter as explained below.</p>
 <p>The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API</p>
 <pre><code>&lt;object_type&gt;_set
 </code></pre>
