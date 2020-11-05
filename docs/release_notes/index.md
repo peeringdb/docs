@@ -4,7 +4,35 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
-This page was started in April 2020, and will only have information about PeeringDB releases starting from that date.
+This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
+
+## Release 2.24.0
+
+Beta Announcement Date: 3 November, 2020
+
+Release Date: 10 November, 2020
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#381 Network type: Add "Government"](https://github.com/peeringdb/peeringdb/issues/381) | “Government” added as a network type. |
+| [#463 Add new network type for networks that provide network services](https://github.com/peeringdb/peeringdb/issues/463) | “Network Services" for networks whose function is to provide specialized services, like DNS, RDAP, Whois or DDoS protection added as a network type. |
+| [#745 Add “Route Collector” network type](https://github.com/peeringdb/peeringdb/issues/745) | “Route Collector” added as a network type.|
+| [#747 Clean up info_type if name contains "Route Servers" or "Route Collector"](https://github.com/peeringdb/peeringdb/issues/747) | Data cleanup related to #745. All networks with route collectors have now been properly classified.|
+| [#665 Drop ixlan name from displaying at "Peers at this Exchange Point"](https://github.com/peeringdb/peeringdb/issues/665) | Simplified the user interface by removing the name of the ixlan as there is now just one ixlan per exchange point. |
+| [#775 Misleading tooltip of prefix limit fields](https://github.com/peeringdb/peeringdb/issues/775) | NO Improved the user interface with better language in the tooltip. The distinction between maximum prefix length and maximum number of prefixes should now be clearer. |
+| [#814 Suppress RDAP call for contact data/handles for NIC\.br // AUTOTOOL](https://github.com/peeringdb/peeringdb/issues/814) | Internal tool change. This change suppresses calls for contact data over RDAP because NIC.br is no longer allowed to provide direct calls for personal data. |
+| [#803 Searching for a user in /cp/peeringdb\_server/userorgaffiliationrequest results in 500](https://github.com/peeringdb/peeringdb/issues/803) | Internal tool change. Fixed an error that could return a 500 error on some searches. |
+| [#688 Automate creation of Release Notes](https://github.com/peeringdb/peeringdb/issues/688) | Internal tool change. A new script that extracts data from Github milestones to build the markdown for the release notes page. |
+| [#851 sponsorship\_notify RuntimeWarning \(was: End of Sponsorship notification email is no longer working\)](https://github.com/peeringdb/peeringdb/issues/851) | Internal tool change to improve the tracking of sponsorship renewals. |
+| [#861 add explicit order for fields in admin control panel](https://github.com/peeringdb/peeringdb/issues/861) | Internal tool change. Display fields in an explicit order. |
+| [#850  IX\-F Importer: Repeated emails are being generated for things already emailed](https://github.com/peeringdb/peeringdb/issues/850) | Internal procedure optimisation. A series of improvements to the IX-F importer tool. These changes are all related to improving notifications about data quality that were developed by the Data Ownership Task Force. |
+| [#856 IX\-F Importer: Make hyperlinks clickable when creating DeskPRO tickets](https://github.com/peeringdb/peeringdb/issues/856) | See #850. |
+| [#857 IX\-F Importer: intermittent issue with speed validation](https://github.com/peeringdb/peeringdb/issues/857) | See #850. |
+| [#858 IX\-F Importer: Make pdb\_deskpro\_publish command ignore importer tickets](https://github.com/peeringdb/peeringdb/issues/858) | See #850. |
+| [#859 IX\-F Importer: ERROR: 'IXFMemberData' object has no attribute 'ixf\_log\_entry'](https://github.com/peeringdb/peeringdb/issues/859) | See #850. |
+| [#860 IX\-F Importer Blocker: "Days until DeskPRO ticket is created" should now be ignored/removed, such that no ticket or emails happen after a delay](https://github.com/peeringdb/peeringdb/issues/860) | See #850. |
+
+
 
 ## Release 2.23.0
 Beta Announcement Date: 30 September, 2020
