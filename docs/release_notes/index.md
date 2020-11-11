@@ -8,9 +8,8 @@ This page was started in April 2020, and only has information about PeeringDB re
 
 ## Release 2.24.0
 
-Beta Announcement Date: 3 November, 2020
-
-Release Date: 10 November, 2020
+Beta Announcement Date: 4 November, 2020
+Release Date: 11 November, 2020
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
