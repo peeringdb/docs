@@ -1,5 +1,3 @@
-# NOTE: As of August 2020, the Importer is being tested with only a small number of IXPs.
-
 # Rules for the IX-F JSON Importer
 PeeringDB allows networks and IXPs to update entries via the IX-F JSON import feature.
 
