@@ -17,7 +17,6 @@ If "Allow IXP Update" is disabled, differences in data provided by the IX and th
 - An email to the IX with details about the differences.
 - Admins for the network will see hints for their network within the PeeringDB web interface. These hints may be accepted or dismissed.
 - The network and the IX are encouraged to reach out to each other to resolve any differences.
-- After a period of 6 days, unresolved differences will be referred to the PeeringDB [Admin Committee](/committee/admin) to assist with resolution.
 
 ## For IXPs
 To enable IX-F JSON import:
