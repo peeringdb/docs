@@ -25,5 +25,7 @@ To enable IX-F JSON import:
 
 If the IX-F JSON `state` field is present, settings of `active`, `connected`, or `operational` may be used to indicate a network is operational, while a setting of `inactive` will be interpreted as the network not being operational. This may be used to denote a network in the process of connecting but not yet active, or a network on hiatus.
 
+**Note**: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASN, there will be no usefull information. You might want to disable the import.
+
 ## Further Information
 - August 17th, 2020 Data Ownership Policy Implementation Presentation: [slides](/presentation/20200817-dtf-implementation.pdf) and [video](https://youtu.be/mtT_HojbIPs)
