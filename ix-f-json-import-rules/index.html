@@ -155,6 +155,7 @@
 <li>Daily at 0000 UTC, the IX-F JSON data will be retrieved and processed by the Importer. The steps above for networks will then be followed.</li>
 </ul>
 <p>If the IX-F JSON <code>state</code> field is present, settings of <code>active</code>, <code>connected</code>, or <code>operational</code> may be used to indicate a network is operational, while a setting of <code>inactive</code> will be interpreted as the network not being operational. This may be used to denote a network in the process of connecting but not yet active, or a network on hiatus.</p>
+<p><strong>Note</strong>: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.</p>
 <h2 id="further-information">Further Information</h2>
 <ul>
 <li>August 17th, 2020 Data Ownership Policy Implementation Presentation: <a href="/presentation/20200817-dtf-implementation.pdf">slides</a> and <a href="https://youtu.be/mtT_HojbIPs">video</a></li>
