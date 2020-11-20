@@ -1,4 +1,4 @@
-# Rules for the IX-F JSON Importer
+# IX-F JSON Importer
 PeeringDB allows networks and IXPs to update entries via the IX-F JSON import feature.
 
 ## General remarks
@@ -16,6 +16,11 @@ If "Allow IXP Update" is disabled, differences in data provided by the IX and th
 - Admins for the network will see hints for their network within the PeeringDB web interface. These hints may be accepted or dismissed.
 - The network and the IX are encouraged to reach out to each other to resolve any differences.
 
+IXP Update Tools:
+
+- The "Preview" button shows a preview of changes that will be done to your network during the next IX-F import, if "Allow IXP Update" is enabled.
+- The "Postmortem" button shows a log of changes done to you network -> exchange connections as a result of IX-F imports.
+
 ## For IXPs
 To enable IX-F JSON import:
 
@@ -24,6 +29,11 @@ To enable IX-F JSON import:
 - Daily at 0000 UTC, the IX-F JSON data will be retrieved and processed by the Importer. The steps above for networks will then be followed.
 
 If the IX-F JSON `state` field is present, settings of `active`, `connected`, or `operational` may be used to indicate a network is operational, while a setting of `inactive` will be interpreted as the network not being operational. This may be used to denote a network in the process of connecting but not yet active, or a network on hiatus.
+
+IX-F Import Preview:
+
+- The "Preview" button shows the changes that will be performed or suggested, depending on participant network's "Allow IXP Update" setting.
+- A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the number that appears in the URL after /ix/ when viewing your IX page)
 
 **Note**: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.
 
