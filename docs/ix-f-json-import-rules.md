@@ -2,14 +2,14 @@
 PeeringDB allows networks and IXPs to update entries via the IX-F JSON import feature.
 
 ## General remarks
-The Importer abides by the recommendations of the [Data Ownership Task Force](/taskforce/dataownership) and its resulting [Policy Document](/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf). Most significantly, this means that unless the tick box "Allow IXP Update" is enabled by a network, published data will not automatically become unpublished nor will unpublished data automatically become published.
+The Importer abides by the recommendations of the [Data Ownership Task Force](/taskforce/dataownership) and its resulting [Policy Document](/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf). Most significantly, this means that unless the tick box `Allow IXP Update` is enabled by a network, published data will not automatically become unpublished nor will unpublished data automatically become published.
 
 ## For Networks
-There is a tick box "Allow IXP Update" which governs the behavior of the Importer. By **default** this is set to disabled.
+There is a tick box `Allow IXP Update` which governs the behavior of the Importer. By **default** this is set to disabled.
 
-If "Allow IXP Update" is enabled, a network entry at an IX may automatically be created, changed, or removed. The network's IX entry is completely governed by the settings in the IX-F JSON data provided by the IX.
+If `Allow IXP Update` is enabled, a network entry at an IX may automatically be created, changed, or removed. The network's IX entry is completely governed by the settings in the IX-F JSON data provided by the IX.
 
-If "Allow IXP Update" is disabled, differences in data provided by the IX and the network will result in the following:
+If `Allow IXP Update` is disabled, differences in data provided by the IX and the network will result in the following:
 
 - An email to the network with details about the differences.
 - An email to the IX with details about the differences.
@@ -18,8 +18,8 @@ If "Allow IXP Update" is disabled, differences in data provided by the IX and th
 
 IXP Update Tools:
 
-- The "Preview" button shows a preview of changes that will be performed during the next IX-F import, depending on the "Allow IXP Update" setting.
-- The "Postmortem" button shows a log of recent changes performed as a result of IX-F imports.
+- The `Preview` button shows the changes that will be performed or suggested during the next IX-F import, depending on the `Allow IXP Update` setting.
+- The `Postmortem` button shows a log of recent changes performed as a result of IX-F imports.
 
 ## For IXPs
 To enable IX-F JSON import:
@@ -32,8 +32,8 @@ If the IX-F JSON `state` field is present, settings of `active`, `connected`, or
 
 IX-F Import Preview:
 
-- The "Preview" button shows the changes that will be performed or suggested, depending on participant "Allow IXP Update" settings.
-- A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the number that appears in the URL after /ix/ when viewing your IX page)
+- The `Preview` button shows the changes that will be performed or suggested, depending on participant `Allow IXP Update` settings.
+- A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the ID that appears in the URL after /ix/ when viewing your IX page)
 
 **Note**: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.
 
