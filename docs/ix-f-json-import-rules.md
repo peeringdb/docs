@@ -18,7 +18,7 @@ If "Allow IXP Update" is disabled, differences in data provided by the IX and th
 
 IXP Update Tools:
 
-- The "Preview" button shows a preview of changes that will be done to your network during the next IX-F import, if "Allow IXP Update" is enabled.
+- The "Preview" button shows a preview of changes that will be done to your network during the next IX-F import, factoring in your current "Allow IXP Update" setting.
 - The "Postmortem" button shows a log of changes done to you network -> exchange connections as a result of IX-F imports.
 
 ## For IXPs
