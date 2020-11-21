@@ -18,8 +18,8 @@ If "Allow IXP Update" is disabled, differences in data provided by the IX and th
 
 IXP Update Tools:
 
-- The "Preview" button shows a preview of changes that will be done to your network during the next IX-F import, factoring in your current "Allow IXP Update" setting.
-- The "Postmortem" button shows a log of changes done to you network -> exchange connections as a result of IX-F imports.
+- The "Preview" button shows a preview of changes that will be performed during the next IX-F import, depending on the "Allow IXP Update" setting.
+- The "Postmortem" button shows a log of recent changes performed as a result of IX-F imports.
 
 ## For IXPs
 To enable IX-F JSON import:
@@ -32,7 +32,7 @@ If the IX-F JSON `state` field is present, settings of `active`, `connected`, or
 
 IX-F Import Preview:
 
-- The "Preview" button shows the changes that will be performed or suggested, depending on participant network's "Allow IXP Update" setting.
+- The "Preview" button shows the changes that will be performed or suggested, depending on participant "Allow IXP Update" settings.
 - A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the number that appears in the URL after /ix/ when viewing your IX page)
 
 **Note**: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.
