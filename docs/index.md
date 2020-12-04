@@ -70,12 +70,13 @@ The [release notes](release_notes/index.md) list the GitHub issues and a summary
 
 #### 2020
 
+- [PeeringDB](presentation/IX_Forum_14_Sao_Paulo-peeringdb-20201204-V3.pdf) at [IX Fórum 14](https://forum.ix.br/#schedule) - December 4, 2020 - Julimar Lunguinho Mendes
+- [Introducción a PeeringDB](presentation/20201002-ANUIES-PeeringDB-Intro-Spanish.pdf) at [Seguridad en el Ruteo: MANRS para Operadores de Red de Universidades](http://anuies.symposium.events/54606/programme/seguridad-en-el-ruteo_-manrs-para-operadores-de-red-de-universidades.html) - October 2, 2020 - Diego Dominguez
 - [Data Ownership Policy Implementation Presentation](presentation/20200817-dtf-implementation.pdf) - August 17, 2020 - Filiz Yilmaz, Steve McManus, Arnold Nipper ([video](https://youtu.be/mtT_HojbIPs))
 - [PeeringDB Data Ownership Task Force](presentation/20200417-DataTF-AnnualMtg-Update-Filiz-Yilmaz.pdf) at [PeeringDB Annual Meeting 2020](https://www.facebook.com/events/580338329488711/) - April 17, 2020 - Filiz Yilmaz
 - [PeeringDB](presentation/ABRINT_na_Estrada_Campo_Grande-peeringdb-20200310.pdf) at [ABRINT na Estrada Campo Grande](https://www.sympla.com.br/abrint-na-estrada-campo-grande---ms__769250), Campo Grande, BR - March 10, 2020 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/20200226-PhNOG-Arnold-Nipper.pdf) at [PhNOG 2020](http://phnog.com/phnog-2020-manila/), Manila, PH - February 26, 2020 - Arnold Nipper
 - [PeeringDB Update](presentation/20200219-Apricot-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/8), Melbourne, AU - February 19, 2020 - Arnold Nipper
-- [Introducción a PeeringDB](presentation/20201002-ANUIES-PeeringDB-Intro-Spanish.pdf) at [Seguridad en el Ruteo: MANRS para Operadores de Red de Universidades](http://anuies.symposium.events/54606/programme/seguridad-en-el-ruteo_-manrs-para-operadores-de-red-de-universidades.html), - October 2, 2020 - Diego Dominguez
 
 #### 2019
 
