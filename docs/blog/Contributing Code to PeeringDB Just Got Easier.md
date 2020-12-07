@@ -8,6 +8,8 @@ We have radically reduced the barrier for volunteer developers to contribute cod
 
 Andy Davidson, CTO of Asteroid says: “*I recently developed some code against the PeeringDB OAuth instance for [https://trackbgp.com](https://trackbgp.com). But it was hard to get a development environment set up. Now I can spin up a development environment in less time than it takes to boil a kettle.*”
 
+[We have documented](https://github.com/peeringdb/peeringdb/blob/master/docs/container.md) the steps needed to get up and running on GitHub.
+
 If you have an idea to improve PeeringDB you can share it on our low traffic mailing lists or create an issue directly on GitHub. If you find a data quality issue, please let us know at support@peeringdb.com. 
 
 ---
