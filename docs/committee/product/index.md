@@ -50,7 +50,6 @@
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
 - Aaron Hughes (Board Liaison)
-- Shane Kerr
 - Stephen McManus (Chair)
 - Arnold Nipper
 - Yolandi Robinson
