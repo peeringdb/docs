@@ -125,6 +125,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2250">Release 2.25.0</a></li>
             <li><a href="#release-2240">Release 2.24.0</a></li>
             <li><a href="#release-2230">Release 2.23.0</a></li>
             <li><a href="#release-2220">Release 2.22.0</a></li>
@@ -140,6 +141,74 @@
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <p>This page was started in April 2020, and only has information about PeeringDB releases starting from that date.</p>
+<h2 id="release-2250">Release 2.25.0</h2>
+<p>Release Date: 3 February, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/246">#246 IXF should be IX-F </a></td>
+<td>This release introduces various spelling corrections.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/828">#828 IX-F importer: Handle ipv4/ipv6 on same vlan but separate connections </a></td>
+<td>This issue deals with how the IX-F importer handles information from the IX-F JSON import. PeeringDB handles both the IPv4 as well as the IPv6 address in the same object (<code>netixlan</code>). And from a peering partner pov this is ok as it doesn't matter whether these addresses are on the same interface or even same router. However, IX-F JSON differentiates. For the time being, the importer combines IPv4 and IPv6 if both are set to an operational status in the IX-F JSON.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/846">#846 IX-F importer: if ixf_ixp_member_list_url is null then ixf_ixp_import_enabled can't be true </a></td>
+<td>Apply logic to the meaning of <code>ixf_ixp_member_list_url</code>. i.e. only allow <code>ixf_ixp_import_enabled</code> to be set to <code>true</code> if a URL is specified.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/875">#875 "IXF-Importer: improved handling of how contacts are joined into direct conflict resolution deskpro tickets"</a></td>
+<td>Resolved an issue where responses to automatically generated Deskpro tickets were routed to the wrong ticket.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/878">#878 IXF-Importer: reorder of email content </a></td>
+<td>This is mainly an internal improvement. And fixes also not disclosing private IXP information to the public.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/882">#882 IXF-Importer: don't abort when there is nothing to import </a></td>
+<td>If there is nothing to import from an IX-F JSON don't abort with an error message.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/893">#893 IX-F Importer: history of changes per ixlan &amp; netixlan </a></td>
+<td>Fixed bug related to the logging of importer changes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/896">#896 IX-F Importer: Bogus output of "Preview" tool </a></td>
+<td>Fixed a bug in the preview tool, where <code>invalid member type ignored</code> messages weren't filtered for the network viewing the preview.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/888">#888 Type issue when overriding settings through environment variables for numeric types </a></td>
+<td>Fixed a bug and now ensure that overrides are coerced to the correct expected type.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/872">#872 Update dependencies </a></td>
+<td>Updated container to python 3.9 and addressed all dependencies.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/694">#694 add syntactic sugar for entering port speeds </a></td>
+<td>Simplifies the UI for editing port speeds to make it more human friendly.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/717">#717 Loading time issue /cp facility view </a></td>
+<td>Fixed slow load or timeouts for loading data for some facilities</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/837">#837 Provide a friendlier explanation when entering / changing a phone number </a></td>
+<td>Provides a tooltip to help people enter E.164 formatted telephone numbers.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/541">#541 When looking at a network record, show last updated ix&lt;-&gt;net or fac&lt;-&gt;net date </a></td>
+<td>Improved information about when records were last updated.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2240">Release 2.24.0</h2>
 <p>Beta Announcement Date: 4 November, 2020<br />
 Release Date: 11 November, 2020</p>
