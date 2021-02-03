@@ -6,6 +6,28 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
 
+## Release 2.25.0
+
+Release Date: 3 February, 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#246 IXF should be IX-F ](https://github.com/peeringdb/peeringdb/issues/246) | This release introduces various spelling corrections. |
+| [#828 IX-F importer: Handle ipv4/ipv6 on same vlan but separate connections ](https://github.com/peeringdb/peeringdb/issues/828) | This issue deals with how the IX-F importer handles information from the IX-F JSON import. PeeringDB handles both the IPv4 as well as the IPv6 address in the same object (`netixlan`). And from a peering partner pov this is ok as it doesn't matter whether these addresses are on the same interface or even same router. However, IX-F JSON differentiates. For the time being, the importer combines IPv4 and IPv6 if both are set to an operational status in the IX-F JSON. |
+| [#846 IX-F importer: if ixf_ixp_member_list_url is null then ixf_ixp_import_enabled can't be true ](https://github.com/peeringdb/peeringdb/issues/846) | Apply logic to the meaning of `ixf_ixp_member_list_url`. i.e. only allow `ixf_ixp_import_enabled` to be set to `true` if a URL is specified. |
+| [#875 "IXF-Importer: improved handling of how contacts are joined into direct conflict resolution deskpro tickets"](https://github.com/peeringdb/peeringdb/issues/875) | Resolved an issue where responses to automatically generated Deskpro tickets were routed to the wrong ticket. |
+| [#878 IXF-Importer: reorder of email content ](https://github.com/peeringdb/peeringdb/issues/878) | This is mainly an internal improvement. And fixes also not disclosing private IXP information to the public. |
+| [#882 IXF-Importer: don't abort when there is nothing to import ](https://github.com/peeringdb/peeringdb/issues/882) | If there is nothing to import from an IX-F JSON don't abort with an error message. |
+| [#893 IX-F Importer: history of changes per ixlan & netixlan ](https://github.com/peeringdb/peeringdb/issues/893) | Fixed bug related to the logging of importer changes. |
+| [#896 IX-F Importer: Bogus output of "Preview" tool ](https://github.com/peeringdb/peeringdb/issues/896) | Fixed a bug in the preview tool, where `invalid member type ignored` messages weren't filtered for the network viewing the preview. |
+| [#888 Type issue when overriding settings through environment variables for numeric types ](https://github.com/peeringdb/peeringdb/issues/888) | Fixed a bug and now ensure that overrides are coerced to the correct expected type. |
+| [#872 Update dependencies ](https://github.com/peeringdb/peeringdb/issues/872) | Updated container to python 3.9 and addressed all dependencies.|
+| [#694 add syntactic sugar for entering port speeds ](https://github.com/peeringdb/peeringdb/issues/694) | Simplifies the UI for editing port speeds to make it more human friendly. |
+| [#717 Loading time issue /cp facility view ](https://github.com/peeringdb/peeringdb/issues/717) | Fixed slow load or timeouts for loading data for some facilities |
+| [#837 Provide a friendlier explanation when entering / changing a phone number ](https://github.com/peeringdb/peeringdb/issues/837) | Provides a tooltip to help people enter E.164 formatted telephone numbers. |
+| [#541 When looking at a network record, show last updated ix<->net or fac<->net date ](https://github.com/peeringdb/peeringdb/issues/541) | Improved information about when records were last updated. |
+
+
 ## Release 2.24.0
 
 Beta Announcement Date: 4 November, 2020
