@@ -158,3 +158,4 @@ Release Date: 21 April, 2020
 | [#634 - Remove support for python2](https://github.com/peeringdb/peeringdb/issues/634) | Python 2.7 and 3.4 support is being removed from PeeringDB packages. |
 | [#636 - Don't create a new net object, when there only is an ASN block](https://github.com/peeringdb/peeringdb/issues/636) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
 | [#667 - Fix use autocomplete fields in the admincom controlpanel to speed up loading times](https://github.com/peeringdb/peeringdb/issues/667) | This is a bug fix and is only relevant for the PeeringDB Admin Committee. |
+rtat.org
