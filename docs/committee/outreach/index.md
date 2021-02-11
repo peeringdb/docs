@@ -23,10 +23,10 @@
 ## Members
 
 - Yana Glaub
-- Greg Hankins (Chair)
+- Greg Hankins
 - Aaron Hughes (Board Liaison)
 - Arnold Nipper
-- Ben Ryall
+- Ben Ryall (Chair)
 - Bijal Sanghani (Vice Chair)
 - Rebecca Stanić
 - Inga Turner
