@@ -130,11 +130,11 @@
         <li class="main active"><a href="#howto-get-started-with-peeringdb-as-a-network-operator">HOWTO: Get Started with PeeringDB as a Network Operator</a></li>
             <li><a href="#about-peeringdb">About PeeringDB</a></li>
             <li><a href="#why-should-i-add-my-network">Why should I add my network?</a></li>
-            <li><a href="#getting-started">Getting Started</a></li>
-            <li><a href="#information-required">Information Required</a></li>
+            <li><a href="#getting-started">Getting started</a></li>
+            <li><a href="#information-required">Information required</a></li>
             <li><a href="#database-records-to-create">Database Records to Create</a></li>
-            <li><a href="#next-steps">Next Steps</a></li>
-            <li><a href="#more-information">More Information</a></li>
+            <li><a href="#next-steps">Next steps</a></li>
+            <li><a href="#more-information">More information</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -147,10 +147,10 @@
 <p>Almost one-third of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date.</p>
 <p>This data will help you to accelerate the process of finding and connecting with other networks while supporting a faster and more decisive deployment of your own network expansion and development plans.</p>
 <p>Many networks are building automation that relies on PeeringDB. If you don't have an up to date PeeringDB record this might stop their automation configuring sessions.</p>
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="getting-started">Getting started</h2>
 <p>Routine use of PeeringDB can be automated using <a href="https://www.peeringdb.com/apidocs">our API</a> but this document is intended to help new networks get started. Most networks get set up using the web interface and then use the API to automate things that change regularly. This document focuses on the key steps for establishing your network’s presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.</p>
 <p>If you need additional help getting started, please contact us at: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
-<h2 id="information-required">Information Required</h2>
+<h2 id="information-required">Information required</h2>
 <p>You will need to create several database records, known as objects, to establish your presence in PeeringDB. </p>
 <p>Database objects organize relevant information and document the connections making your network attractive to potential peers. Most information is optional but the less you share the less likely your network will benefit from listing itself in PeeringDB. </p>
 <p>You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:</p>
@@ -177,7 +177,7 @@
 <p>Basic network information is automatically retrieved from the RIR or NIR’s database based on the AS Number. Brand names or other identifiers can be listed in the <code>aka</code> field. For example:</p>
 <p><code>name: Example Org Legal Entity</code></p>
 <p><code>aka: Example Superfast Networks, Example Reliable Hosting</code></p>
-<h3 id="permissions-to-grant">Permissions to Grant</h3>
+<h3 id="permissions-to-grant">Permissions to grant</h3>
 <p>Once you are up and running you can create POC (Point of Contact) objects for functional contacts with your network. Not all networks need all POCs. These are:</p>
 <ul>
 <li>Abuse</li>
@@ -198,14 +198,14 @@ Each of the POCs associated with your network can have different visibility perm
 <p>Some organizations will want to make their Abuse, Public Relations, and/or Sales POCs <code>Public</code> but limit the visibility of other POCs to authenticated <code>Users</code>. </p>
 <p>If your network will be present at Public Peering Exchange Points you can grant them permission to add and modify entries for your network via their <code>ixp_member data</code>.  You grant permission using the “Allow IXP Update” box, which will show when you add a Public Peering Exchange Point.</p>
 <p><img alt="" src="../images/allow-ixp-update.png" /></p>
-<h2 id="next-steps">Next Steps</h2>
+<h2 id="next-steps">Next steps</h2>
 <p>This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information with current and potential peers about your network(s). Things to consider sharing:</p>
 <p>We recommend you include the name of your <a href="https://www.rfc-editor.org/rfc/rfc4012.html#section-4">AS-SET or ROUTE-SET</a> if you have multiple net objects. Edit your network object to provide information about your routing policy, traffic ratios and more.</p>
 <p><img alt="" src="../images/network-config-screen.png" /></p>
 <p>What is the maximum number of IPv4 and/or IPv6 prefixes should peers expect to see advertised by your network? You can use the <code>info_prefixes4</code> and <code>info_prefixes6</code> with integer values to share this information.</p>
 <p>How much traffic crosses your network and in which direction? You can share this information using the <code>info_traffic</code> and <code>info_ratio</code> attributes in your <code>net</code> object. You can enter numbers or pre-defined ranges for both attributes.</p>
 <p>Do you have a peering policy? If you do you can use the various policy attributes on your <code>net</code> object to communicate it to potential peers.</p>
-<h2 id="more-information">More Information</h2>
+<h2 id="more-information">More information</h2>
 <p>The <a href="https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">PeeringDB Data Ownership Policy</a> describes all the objects in PeeringDB.</p></div>
         </div>
 
