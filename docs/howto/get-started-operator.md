@@ -12,12 +12,12 @@ This data will help you to accelerate the process of finding and connecting with
 
 Many networks are building automation that relies on PeeringDB. If you don't have an up to date PeeringDB record this might stop their automation configuring sessions.
 
-## Getting Started
+## Getting started
 Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.com/apidocs) but this document is intended to help new networks get started. Most networks get set up using the web interface and then use the API to automate things that change regularly. This document focuses on the key steps for establishing your network’s presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.
 
 If you need additional help getting started, please contact us at: <support@peeringdb.com>.
 
-## Information Required
+## Information required
 You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
 
 Database objects organize relevant information and document the connections making your network attractive to potential peers. Most information is optional but the less you share the less likely your network will benefit from listing itself in PeeringDB. 
@@ -54,7 +54,7 @@ Basic network information is automatically retrieved from the RIR or NIR’s dat
 
 `aka: Example Superfast Networks, Example Reliable Hosting`
 
-### Permissions to Grant
+### Permissions to grant
 Once you are up and running you can create POC (Point of Contact) objects for functional contacts with your network. Not all networks need all POCs. These are:
 
 * Abuse
@@ -78,7 +78,7 @@ If your network will be present at Public Peering Exchange Points you can grant 
 
 ![](images/allow-ixp-update.png)
 
-## Next Steps
+## Next steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information with current and potential peers about your network(s). Things to consider sharing:
 
 We recommend you include the name of your [AS-SET or ROUTE-SET](https://www.rfc-editor.org/rfc/rfc4012.html#section-4) if you have multiple net objects. Edit your network object to provide information about your routing policy, traffic ratios and more.
@@ -91,5 +91,5 @@ How much traffic crosses your network and in which direction? You can share this
 
 Do you have a peering policy? If you do you can use the various policy attributes on your `net` object to communicate it to potential peers.
 
-## More Information
+## More information
 The [PeeringDB Data Ownership Policy](https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf) describes all the objects in PeeringDB.
