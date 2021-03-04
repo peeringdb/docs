@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/ix-f-json-import-rules/">
+        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>IX-F JSON - PeeringDB Docs</title>
+        <title>HOWTO - PeeringDB Docs</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -74,7 +74,7 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -82,8 +82,8 @@
     <a href="../api_specs/">API Specs</a>
 </li>
                                     
-<li class="active">
-    <a href="./">IX-F JSON</a>
+<li >
+    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
@@ -99,8 +99,8 @@
 </li>
                                 </ul>
                             </li>
-                            <li >
-                                <a href="../howtos/">HOWTO</a>
+                            <li class="active">
+                                <a href="./">HOWTO</a>
                             </li>
                             <li >
                                 <a href="../faq/">FAQ</a>
@@ -117,7 +117,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/ix-f-json-import-rules.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -127,51 +127,15 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#ix-f-json-importer">IX-F JSON Importer</a></li>
-            <li><a href="#general-remarks">General remarks</a></li>
-            <li><a href="#for-networks">For Networks</a></li>
-            <li><a href="#for-ixps">For IXPs</a></li>
-            <li><a href="#further-information">Further Information</a></li>
+        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="ix-f-json-importer">IX-F JSON Importer</h1>
-<p>PeeringDB allows networks and IXPs to update entries via the IX-F JSON import feature.</p>
-<h2 id="general-remarks">General remarks</h2>
-<p>The Importer abides by the recommendations of the <a href="/taskforce/dataownership">Data Ownership Task Force</a> and its resulting <a href="/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">Policy Document</a>. Most significantly, this means that unless the tick box <code>Allow IXP Update</code> is enabled by a network, published data will not automatically become unpublished nor will unpublished data automatically become published.</p>
-<h2 id="for-networks">For Networks</h2>
-<p>There is a tick box <code>Allow IXP Update</code> which governs the behavior of the Importer. By <strong>default</strong> this is set to disabled.</p>
-<p>If <code>Allow IXP Update</code> is enabled, a network entry at an IX may automatically be created, changed, or removed. The network's IX entry is completely governed by the settings in the IX-F JSON data provided by the IX.</p>
-<p>If <code>Allow IXP Update</code> is disabled, differences in data provided by the IX and the network will result in the following:</p>
+<h2 id="peeringdb-howtos">PeeringDB HOWTOs</h2>
+<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
 <ul>
-<li>An email to the network with details about the differences.</li>
-<li>An email to the IX with details about the differences.</li>
-<li>Admins for the network will see hints for their network within the PeeringDB web interface. These hints may be accepted or dismissed.</li>
-<li>The network and the IX are encouraged to reach out to each other to resolve any differences.</li>
-</ul>
-<p>IXP Update Tools:</p>
-<ul>
-<li>The <code>Preview</code> button shows the changes that will be performed or suggested during the next IX-F import, depending on the <code>Allow IXP Update</code> setting.</li>
-<li>The <code>Postmortem</code> button shows a log of recent changes performed as a result of IX-F imports.</li>
-</ul>
-<h2 id="for-ixps">For IXPs</h2>
-<p>To enable IX-F JSON import:</p>
-<ul>
-<li>Make sure that your JSON file is <a href="https://www.ixpdb.net/en/validator/">valid</a>.</li>
-<li>Provide a URL to your IX-F JSON data. To do so, click Edit on your IX web page and set the <code>IX-F Member Export URL</code> to the URL and set <code>Enable IX-F Import</code> to enabled. You may also set the visibility of your IX-F JSON URL.</li>
-<li>Daily at 0000 UTC, the IX-F JSON data will be retrieved and processed by the Importer. The steps above for networks will then be followed.</li>
-</ul>
-<p>If the IX-F JSON <code>state</code> field is present, settings of <code>active</code>, <code>connected</code>, or <code>operational</code> may be used to indicate a network is operational, while a setting of <code>inactive</code> will be interpreted as the network not being operational. This may be used to denote a network in the process of connecting but not yet active, or a network on hiatus.</p>
-<p>IX-F Import Preview:</p>
-<ul>
-<li>The <code>Preview</code> button shows the changes that will be performed or suggested, depending on participant <code>Allow IXP Update</code> settings.</li>
-<li>A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the ID that appears in the URL after /ix/ when viewing your IX page)</li>
-</ul>
-<p><strong>Note</strong>: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.</p>
-<h2 id="further-information">Further Information</h2>
-<ul>
-<li>August 17th, 2020 Data Ownership Policy Implementation Presentation: <a href="/presentation/20200817-dtf-implementation.pdf">slides</a> and <a href="https://youtu.be/mtT_HojbIPs">video</a></li>
+<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
 </ul></div>
         </div>
 
