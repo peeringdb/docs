@@ -1,6 +1,6 @@
 # HOWTO: Get Started with PeeringDB as a Network Operator
 
-## PeeringDB
+## About PeeringDB
 PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
 
 We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
@@ -24,8 +24,8 @@ Database objects organize relevant information and document the connections maki
 
 You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:
 
-* Company Name
-* AS Number
+* Company name
+* AS number
 * Contact information (mandatory for networks with a connection to an Internet Exchange)
 
 This information is not required but is useful:
@@ -74,16 +74,16 @@ Each of the POCs associated with your network can have different visibility perm
 
 Some organizations will want to make their Abuse, Public Relations, and/or Sales POCs `Public` but limit the visibility of other POCs to authenticated `Users`. 
 
-If your network will be present at Public Peering Exchange Points you can grant them permission to add and modify entries for your network via their `ixp_member data`.  You grant permission using the “Allox IXP Update” box, which will show when you add a Public Peering Exchange Point.
+If your network will be present at Public Peering Exchange Points you can grant them permission to add and modify entries for your network via their `ixp_member data`.  You grant permission using the “Allow IXP Update” box, which will show when you add a Public Peering Exchange Point.
 
-![](images/Allow IXP Update.png)
+![](images/allow-ixp-update.png)
 
 ## Next Steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information with current and potential peers about your network(s). Things to consider sharing:
 
 We recommend you include the name of your [AS-SET or ROUTE-SET](https://www.rfc-editor.org/rfc/rfc4012.html#section-4) if you have multiple net objects. Edit your network object to provide information about your routing policy, traffic ratios and more.
 
-![](images/Network Config Screen.png)
+![](images/network-config-screen.png)
 
 What is the maximum number of IPv4 and/or IPv6 prefixes should peers expect to see advertised by your network? You can use the `info_prefixes4` and `info_prefixes6` with integer values to share this information.
 

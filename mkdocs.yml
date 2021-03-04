@@ -19,6 +19,7 @@ nav:
     - OAuth: oauth.md
     - Release Notes: release_notes/index.md
     - Translations: translation.md
+  - HOWTO: howtos.md
   - FAQ: faq.md
   - Blogs: blogs.md
 
