@@ -26,7 +26,7 @@ Another key change is the publication of [our first HOWTO document](https://docs
 
 ![[Simple Product Roadmap Diagram]](images/simple-product-roadmap-diagram.png)
 
-If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly [on GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at support@peeringdb.com. 
+If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
 
 ***
 
