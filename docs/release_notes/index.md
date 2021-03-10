@@ -6,6 +6,23 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
 
+## Release 2.26.0
+
+Beta Announcement Date: 10 March, 2021
+
+Release Date: 17 March, 2021
+
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#266 Add API Keys ](https://github.com/peeringdb/peeringdb/issues/266) | This release introduces organization level [API Keys](https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md). |
+| [#827 Make GUI and API feature equivalent ](https://github.com/peeringdb/peeringdb/issues/827) | PeeringDB has a GUI and an API. This issue is a reminder to keep both feature equivalent. |
+| [#865 Allow arbitrary decimal places as input for longitude and latitude. Systems rounds to six ](https://github.com/peeringdb/peeringdb/issues/865) | Allow arbitrary length of inputs to latitude and longitude. Round to 6 digits (including Google Maps output). |
+| [#902 Add "long name" or "aka" field to 'fac' records ](https://github.com/peeringdb/peeringdb/issues/266) | add fields `aka` and `name_long` to object `fac`, `ix`, `net`, and `org`. |
+| [#939 Replace Validation Error with Validation "Warning" for geolocation validation ](https://github.com/peeringdb/peeringdb/issues/939) | If our address validation service cannot find an address corresponding to the user-inputed address it will allow the object to be saved and raise a "validation warning" in the meta object of the API response. The web UI will display a pop-up based on this warning. |
+| [#940 Return geo-normalized fields as "suggested address" ](https://github.com/peeringdb/peeringdb/issues/940) | In an effort to normalize addresses, the system may overwrite the user input. In case of a mismatch, the user now is prompted with a "suggested address" and either confirms or rejects. In case of rejection, the address is taken as provided by the user. Please keep an eye on what you provided and what is suggested. The suggestion may flip street name and house name as well as cut off postal codes. |
+| [#918 drop travis ci and move to github actions ](https://github.com/peeringdb/peeringdb/issues/918) | Changed CI environment to improve deployment speed. |
+
 ## Release 2.25.0
 
 Release Date: 3 February, 2021
