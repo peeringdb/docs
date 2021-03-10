@@ -1,4 +1,4 @@
-#API Keys
+# API Keys
 How often does one new feature deliver three important improvements? Adding support for API Keys in this week’s beta release does this. API Keys will help organizations improve the security of the data they publish while linking the tools to the org itself and not its people.
 ![[Key and Keyboard by Everardo Sanchez on Unsplash]](images/key-keyboard-coffee-everardo-sanchez-550x824.jpg)
 API Keys allow organizations to have authenticated access directly associated with the org itself and not with individual users. Organizations will now have better control of their data and won’t need to tie automation to their users’ credentials, which will improve robust continuity of operations should individuals leave the organization.
