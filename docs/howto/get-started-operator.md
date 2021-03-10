@@ -36,7 +36,7 @@ This information is not required but is useful:
 
 Some networks share additional information. You can look at the information shared by your peers and potential peers to work out what your network should be sharing.
 
-## Database Records to Create
+## Database records to create
 Some objects have a notes field to share additional information. You can use [Markdown](https://daringfireball.net/projects/markdown/) formatting for the notes to make them more readable.
 
 ### User

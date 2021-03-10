@@ -14,11 +14,12 @@ nav:
     - Product Committee: committee/product/index.md
     - Data Ownership Task Force: taskforce/dataownership/index.md
   - Technical:
+    - Release Notes: release_notes/index.md
     - API Specs: api_specs.md
     - IX-F JSON: ix-f-json-import-rules.md
     - OAuth: oauth.md
-    - Release Notes: release_notes/index.md
     - Translations: translation.md
+    - Developer Documentation: https://github.com/peeringdb/peeringdb/tree/master/docs
   - HOWTO: howtos.md
   - FAQ: faq.md
   - Blogs: blogs.md
