@@ -78,6 +78,10 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li class="active">
+    <a href="./">Release Notes</a>
+</li>
+                                    
 <li >
     <a href="../api_specs/">API Specs</a>
 </li>
@@ -90,20 +94,20 @@
     <a href="../oauth/">OAuth</a>
 </li>
                                     
-<li class="active">
-    <a href="./">Release Notes</a>
+<li >
+    <a href="../translation/">Translations</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
 </li>
                                 </ul>
                             </li>
                             <li >
-                                <a href="../howtos/">HOWTO</a>
+                                <a href="../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQ</a>
+                                <a href="../faq/">FAQs</a>
                             </li>
                             <li >
                                 <a href="../blogs/">Blogs</a>
@@ -128,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2260">Release 2.26.0</a></li>
             <li><a href="#release-2250">Release 2.25.0</a></li>
             <li><a href="#release-2240">Release 2.24.0</a></li>
             <li><a href="#release-2230">Release 2.23.0</a></li>
@@ -144,6 +149,47 @@
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <p>This page was started in April 2020, and only has information about PeeringDB releases starting from that date.</p>
+<h2 id="release-2260">Release 2.26.0</h2>
+<p>Beta Announcement Date: 10 March, 2021<br />
+Release Date: 17 March, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/266">#266 Add API Keys </a></td>
+<td>This release introduces organization level <a href="https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md">API Keys</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/827">#827 Make GUI and API feature equivalent </a></td>
+<td>PeeringDB has a GUI and an API. This issue is a reminder to keep both feature equivalent.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/865">#865 Allow arbitrary decimal places as input for longitude and latitude. Systems rounds to six </a></td>
+<td>Allow arbitrary length of inputs to latitude and longitude. Round to 6 digits (including Google Maps output).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/266">#902 Add "long name" or "aka" field to 'fac' records </a></td>
+<td>add fields <code>aka</code> and <code>name_long</code> to object <code>fac</code>, <code>ix</code>, <code>net</code>, and <code>org</code>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/939">#939 Replace Validation Error with Validation "Warning" for geolocation validation </a></td>
+<td>If our address validation service cannot find an address corresponding to the user-inputed address it will allow the object to be saved and raise a "validation warning" in the meta object of the API response. The web UI will display a pop-up based on this warning.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/940">#940 Return geo-normalized fields as "suggested address" </a></td>
+<td>In an effort to normalize addresses, the system may overwrite the user input. In case of a mismatch, the user now is prompted with a "suggested address" and either confirms or rejects. In case of rejection, the address is taken as provided by the user. Please keep an eye on what you provided and what is suggested. The suggestion may flip street name and house name as well as cut off postal codes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/918">#918 drop travis ci and move to github actions </a></td>
+<td>Changed CI environment to improve deployment speed.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2250">Release 2.25.0</h2>
 <p>Release Date: 3 February, 2021</p>
 <table>
