@@ -20,8 +20,8 @@ nav:
     - OAuth: oauth.md
     - Translations: translation.md
     - Developer Documentation: https://github.com/peeringdb/peeringdb/tree/master/docs
-  - HOWTO: howtos.md
-  - FAQ: faq.md
+  - HOWTOs: howtos.md
+  - FAQs: faq.md
   - Blogs: blogs.md
 
 extra_css:

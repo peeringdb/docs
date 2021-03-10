@@ -1,5 +1,5 @@
 
-# Frequently asked questions
+# Frequently Asked Questions
 
 ## General
 ### What is PeeringDB?
