@@ -47,6 +47,7 @@
 
 ## Members
 - Yan Berthier
+- Kayla Clifford
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
 - Aaron Hughes (Board Liaison)

@@ -7,6 +7,8 @@
 
 ## Meeting Notes
 
+- [March 1st, 2021: Meeting Notes](notes/2021-03-01_Outreach_Committee_Notes.pdf)
+- [February 8th, 2021: Meeting Notes](notes/2021-02-08_Outreach_Committee_Notes.pdf)
 - [January 12th, 2021: Meeting Notes](notes/2021-01-12_Outreach_Committee_Notes.pdf)
 - [November 12th, 2020: Meeting Notes](notes/2020-11-12_Outreach_Committee_Notes.pdf)
 - [August 4th, 2020: Meeting Notes](notes/2020-08-04_Outreach_Committee_Notes.pdf)
@@ -22,10 +24,10 @@
 ## Members
 
 - Yana Glaub
-- Greg Hankins (Chair)
+- Greg Hankins
 - Aaron Hughes (Board Liaison)
 - Arnold Nipper
-- Ben Ryall
+- Ben Ryall (Chair)
 - Bijal Sanghani (Vice Chair)
 - Rebecca Stanić
 - Inga Turner
