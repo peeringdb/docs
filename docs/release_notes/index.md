@@ -10,7 +10,7 @@ This page was started in April 2020, and only has information about PeeringDB re
 
 Beta Announcement Date: 10 March, 2021
 
-Release Date: 17 March, 2021
+Release Date: 24 March, 2021
 
 
 | **GitHub Issue** | **Summary** |
