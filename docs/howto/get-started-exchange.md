@@ -1,18 +1,19 @@
-#HOWTO: Get Started with PeeringDB as an Exchange Operator
-##About PeeringDB
+# HOWTO: Get Started with PeeringDB as an Exchange Operator
+
+## About PeeringDB
 PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
 
 We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
 
-##Why?
+## Why?
 PeeringDB is the interconnection database. Registering information about your exchange in PeeringDB makes it visible to network operators who want to peer with others across your fabric. 
 
-##Getting Started
+## Getting started
 Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.com/apidocs) but this document is intended to help new exchange operators get started. Most exchange networks get set up using the web interface and then use the API to automate things that change regularly. This document focuses on the key steps for establishing your exchange’s presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.
 
 If you need additional help getting started, please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
-##Information Required
+## Information required
 You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
 
 Database objects organize relevant information and document your exchange’s current participants, making it attractive to new ones. Most information is optional but sharing all the relevant information maximises the benefit you get from listing in PeeringDB. 
@@ -31,26 +32,27 @@ This information is not required but is useful:
 
 Some exchanges share additional information. You can look at the information shared by other exchange operators to work out what your organization should be sharing.
 
-##Database Records to Create
-###User
+## Database records to create
+
+### User
 The `org` is the parent for the IX but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
-###Org
+### Org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
 
 Your `org` object will be assigned a numeric identifier, called its id. This is what will be referenced by any child net objects.
 
 ![Example Organization Form](images/example-organization-form.png)
 
-###Ix
+### Ix
 Once you have created your organisation you may add the `ix` object. You do this by using the Add Exchange tab in the “Manage” menu below your organization. You’ll be able to input either your IPv4 or IPv6 LAN prefix through this form and will then need to add the other by editing the object once it is created. 
 
-###Prefixes
+### Prefixes
 An IPv4 or IPv6 prefix is needed to register your IX. Once your IX is approved, please also provide the other prefix. For the IPv6 prefix a /64 mask is highly recommended. Please talk to [support](mailto:support@peeringdb.com) if you would like to use another mask. The prefix information is used to verify connections from your participants. 
 
 ![Add an IPv4 Prefix](images/prefixes-add-ipv4.png)
 
-##Next Steps
+## Next steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:
 
 * Encourage your exchange participants to add PeeringDB entries when they join, leave or upgrade the capacity they have with the exchange 
@@ -60,5 +62,5 @@ This short document describes the first steps for getting set up in PeeringDB. O
 
 ![LAN](images/lan.png)
 
-##More Information
+## More information
 The [PeeringDB Data Ownership Policy](https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf) describes all the objects in PeeringDB.
