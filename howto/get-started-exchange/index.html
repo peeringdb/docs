@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/get-started-exchange/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: Get Started with PeeringDB as an Exchange Operator - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">About</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../committee/admin/">Admin Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/outreach/">Outreach Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/product/">Product Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../release_notes/">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../api_specs/">API Specs</a>
+</li>
+                                    
+<li >
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
+</li>
+                                    
+<li >
+    <a href="../../oauth/">OAuth</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
+</li>
+                                    
+<li >
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
+                            </li>
+                            <li >
+                                <a href="../../faq/">FAQs</a>
+                            </li>
+                            <li >
+                                <a href="../../blogs/">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/get-started-exchange.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#howto-get-started-with-peeringdb-as-an-exchange-operator">HOWTO: Get Started with PeeringDB as an Exchange Operator</a></li>
+            <li><a href="#about-peeringdb">About PeeringDB</a></li>
+            <li><a href="#why">Why?</a></li>
+            <li><a href="#getting-started">Getting started</a></li>
+            <li><a href="#information-required">Information required</a></li>
+            <li><a href="#database-records-to-create">Database records to create</a></li>
+            <li><a href="#next-steps">Next steps</a></li>
+            <li><a href="#more-information">More information</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="howto-get-started-with-peeringdb-as-an-exchange-operator">HOWTO: Get Started with PeeringDB as an Exchange Operator</h1>
+<h2 id="about-peeringdb">About PeeringDB</h2>
+<p>PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.</p>
+<p>We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.</p>
+<h2 id="why">Why?</h2>
+<p>PeeringDB is the interconnection database. Registering information about your exchange in PeeringDB makes it visible to network operators who want to peer with others across your fabric. </p>
+<h2 id="getting-started">Getting started</h2>
+<p>Routine use of PeeringDB can be automated using <a href="https://www.peeringdb.com/apidocs">our API</a> but this document is intended to help new exchange operators get started. Most exchange networks get set up using the web interface and then use the API to automate things that change regularly. This document focuses on the key steps for establishing your exchange’s presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.</p>
+<p>If you need additional help getting started, please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<h2 id="information-required">Information required</h2>
+<p>You will need to create several database records, known as objects, to establish your presence in PeeringDB. </p>
+<p>Database objects organize relevant information and document your exchange’s current participants, making it attractive to new ones. Most information is optional but sharing all the relevant information maximises the benefit you get from listing in PeeringDB. </p>
+<p>You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:</p>
+<ul>
+<li>Company Name</li>
+<li>IPv4 and IPv6 Prefixes</li>
+<li>Contact information</li>
+</ul>
+<p>This information is not required but is useful:</p>
+<ul>
+<li>Facilities, where your service is available</li>
+<li>Link to traffic statistics</li>
+<li>Geographical information: city/country/continental region. That will help networks locate your exchange.</li>
+</ul>
+<p>Some exchanges share additional information. You can look at the information shared by other exchange operators to work out what your organization should be sharing.</p>
+<h2 id="database-records-to-create">Database records to create</h2>
+<h3 id="user">User</h3>
+<p>The <code>org</code> is the parent for the IX but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.</p>
+<h3 id="org">Org</h3>
+<p>The <code>org</code> object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.</p>
+<p>Your <code>org</code> object will be assigned a numeric identifier, called its id. This is what will be referenced by any child net objects.</p>
+<p><img alt="Example Organization Form" src="../images/example-organization-form.png" /></p>
+<h3 id="ix">Ix</h3>
+<p>Once you have created your organisation you may add the <code>ix</code> object. You do this by using the Add Exchange tab in the “Manage” menu below your organization. You’ll be able to input either your IPv4 or IPv6 LAN prefix through this form and will then need to add the other by editing the object once it is created. </p>
+<h3 id="prefixes">Prefixes</h3>
+<p>An IPv4 or IPv6 prefix is needed to register your IX. Once your IX is approved, please also provide the other prefix. For the IPv6 prefix a /64 mask is highly recommended. Please talk to <a href="mailto:support@peeringdb.com">support</a> if you would like to use another mask. The prefix information is used to verify connections from your participants. </p>
+<p><img alt="Add an IPv4 Prefix" src="../images/prefixes-add-ipv4.png" /></p>
+<h2 id="next-steps">Next steps</h2>
+<p>This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:</p>
+<ul>
+<li>Encourage your exchange participants to add PeeringDB entries when they join, leave or upgrade the capacity they have with the exchange </li>
+<li>We recommend you automate the process of publishing details about networks that peer at your exchange using an <a href="https://github.com/euro-ix/json-schemas">IX-F JSON export</a>. For that provide an URL at “IX-F Member Export URL” and enable the import. The visibility flag lets you set who is able to see your URL. And the “Preview” button pops a new window showing what actions the next import causes. Many networks are building automation that relies on PeeringDB. If networks peering at your exchange don't have an up to date PeeringDB record this might stop their automation configuring sessions.</li>
+<li>Use the “MTU” field to specify the MTU at your exchange.</li>
+<li>The field “DOT1Q” may go away, so it is not recommended to use it.</li>
+</ul>
+<p><img alt="LAN" src="../images/lan.png" /></p>
+<h2 id="more-information">More information</h2>
+<p>The <a href="https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">PeeringDB Data Ownership Policy</a> describes all the objects in PeeringDB.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.png'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-twitter.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
