@@ -7,7 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
-- April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt)
+- April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
 - April 25th, 2019: [Agenda](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Audio.mp3)
 - April 19th, 2018: [Agenda](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Audio.mp3)
@@ -28,37 +28,13 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board Meetings
 
-- [January 13th, 2021](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
-- [July 9th, 2020](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf)
-- [May 8th, 2020](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf)
-- [January 13th, 2020](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
-- [September 27th, 2019](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf)
-- [July 16th, 2019](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf)
-- [May 16th, 2019](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf)
-- [March 27th, 2019](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf)
-- [January 29th, 2019](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
-- [November 15th, 2018](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf)
-- [October 9th, 2018](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf)
-- [July 19th, 2018](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2018](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf)
-- [April 9th, 2018](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf)
-- [February 8th, 2018](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
-- [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
-- [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
-- [July 7th, 2017](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2017](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf)
-- [February 9th, 2017](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf)
-- [January 13th, 2017](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
-- [December 2nd, 2016](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf)
-- [September 22nd, 2016](gov/legaldocs/2016-09-22_PeeringDB_Board_Minutes.pdf)
-- [August 10th, 2016](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf)
-- [July 1st, 2016](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2016](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf)
-- [April 6th, 2016](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf)
-- [March 4th, 2016](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf)
-- [February 4th, 2016](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf)
-- [January 7th, 2016](gov/legaldocs/2016-01-07_PeeringDB_Board_Minutes.pdf)
-- [December 8th, 2015](gov/legaldocs/2015-12-08_PeeringDB_Board_Minutes.pdf)
+- 2021: [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
+- 2020: [2020-07-09](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf), [2020-05-08](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf), [2020-01-13](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
+- 2019: [2019-09-27](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf), [2019-07-16](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf), [2019-05-16](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf), [2019-03-27](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf), [2019-01-29](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
+- 2018: [2018-11-15](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf), [2018-10-09](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf), [2018-07-19](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf), [2018-05-18](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2018-04-09](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf), [2018-02-08](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
+- 2017: [2017-10-18](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf), [2017-09-20](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf), [2017-07-07](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf), [2017-05-18](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf), [2017-02-09](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf), [2017-01-13](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
+- 2016: [2016-12-02](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf), [2016-09-22](gov/legaldocs/2016-09-22_PeeringDB_Board_Minutes.pdf), [2016-08-10](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf), [2016-07-01](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf), [2016-05-18](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf), [2016-04-06](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf), [2016-03-04](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf), [2016-02-04](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf), [2016-01-07](gov/legaldocs/2016-01-07_PeeringDB_Board_Minutes.pdf)
+- 2015: [2015-12-08](gov/legaldocs/2015-12-08_PeeringDB_Board_Minutes.pdf)
 
 ## Finances
 
