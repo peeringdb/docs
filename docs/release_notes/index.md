@@ -8,9 +8,8 @@ This page was started in April 2020, and only has information about PeeringDB re
 
 ## Release 2.26.1
 
-Beta Announcement Date: 13 April, 2021
-
-Release Date: 20 April, 2021
+Beta Announcement Date: 14 April, 2021
+Release Date: 21 April, 2021
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
@@ -22,7 +21,6 @@ Release Date: 20 April, 2021
 ## Release 2.26.0
 
 Beta Announcement Date: 10 March, 2021
-
 Release Date: 24 March, 2021
 
 | **GitHub Issue** | **Summary** |
