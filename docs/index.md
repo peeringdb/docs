@@ -25,7 +25,7 @@ We have changed the way in which PeeringDB will be announcing future enhancement
     Discussion list for PeeringDB governance issues.  This is a community-based effort, the community’s input will help guide the future of the PeeringDB as it has always done.
 
 * [PeeringDB Technical](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech)
-    Discussion about PeeringDB atechnical topics.
+    Discussion about PeeringDB technical topics.
 
 * [PeeringDB Translate](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate)
     Discussions about PeeringDB translations.
