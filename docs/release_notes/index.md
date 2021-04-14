@@ -6,9 +6,23 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
 
+## Release 2.26.1
+
+Beta Announcement Date: 13 April, 2021
+
+Release Date: 20 April, 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#883 IXF-Importer: minimise emails to Support/DeskPRO/AC ](https://github.com/peeringdb/peeringdb/issues/883) | This change collates all importer suggestions into a single e-mail notification. |
+| [#931 Limit the number of requests for affiliation to an ASN/org to 1 ](https://github.com/peeringdb/peeringdb/issues/931) | Limits the number of affiliation request to an ASN to just one. Provides visual feedback on subsequent request attempts. |
+| [#913 API should do an IP6 address instead of a string match ](https://github.com/peeringdb/peeringdb/issues/913) | Normalizes how IPv6 addresses are stored in the database and updates existing IPv6 addresses in the databases and elsewhere. |
+
+
 ## Release 2.26.0
 
 Beta Announcement Date: 10 March, 2021
+
 Release Date: 24 March, 2021
 
 | **GitHub Issue** | **Summary** |
