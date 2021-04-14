@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2261">Release 2.26.1</a></li>
             <li><a href="#release-2260">Release 2.26.0</a></li>
             <li><a href="#release-2250">Release 2.25.0</a></li>
             <li><a href="#release-2240">Release 2.24.0</a></li>
@@ -149,6 +150,31 @@
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <p>This page was started in April 2020, and only has information about PeeringDB releases starting from that date.</p>
+<h2 id="release-2261">Release 2.26.1</h2>
+<p>Beta Announcement Date: 14 April, 2021<br />
+Release Date: 21 April, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/883">#883 IXF-Importer: minimise emails to Support/DeskPRO/AC </a></td>
+<td>This change collates all importer suggestions into a single e-mail notification.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/931">#931 Limit the number of requests for affiliation to an ASN/org to 1 </a></td>
+<td>Limits the number of affiliation request to an ASN to just one. Provides visual feedback on subsequent request attempts.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/913">#913 API should do an IP6 address instead of a string match </a></td>
+<td>Normalizes how IPv6 addresses are stored in the database and updates existing IPv6 addresses in the databases and elsewhere.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2260">Release 2.26.0</h2>
 <p>Beta Announcement Date: 10 March, 2021<br />
 Release Date: 24 March, 2021</p>
