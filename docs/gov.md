@@ -94,7 +94,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - Seat 2 (term expires 2022): [Job Snijders](mailto:job@peeringdb.com), 2015-
 - Seat 3 (term expires 2023): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
 - Seat 4 (term expires 2022): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2023): Christopher Malayter, 2021-
+- Seat 5 (term expires 2023): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
 
 ## Officers
 
