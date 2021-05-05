@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/blogs/">
+        <link rel="canonical" href="https://docs.peeringdb.com/tools/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Blogs - PeeringDB Docs</title>
+        <title>Tools to Help You Get the Best from PeeringDB - PeeringDB Docs</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -109,8 +109,8 @@
                             <li >
                                 <a href="../faq/">FAQs</a>
                             </li>
-                            <li class="active">
-                                <a href="./">Blogs</a>
+                            <li >
+                                <a href="../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/blogs.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/tools.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,23 +131,56 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-blogs">PeeringDB Blogs</a></li>
+        <li class="main active"><a href="#tools-to-help-you-get-the-best-from-peeringdb">Tools to Help You Get the Best from PeeringDB</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="peeringdb-blogs">PeeringDB Blogs</h2>
-<p>PeeringDB blogs provide deeper insight into the releases and product roadmap.</p>
-<ul>
-<li><a href="../blog/user-developed-tools/">Getting the Most from PeeringDB with User Developed Tools</a> - May 4, 2021</li>
-<li><a href="../blog/geographic_search/">Geographic Search</a> - March 24, 2021</li>
-<li><a href="../blog/api_keys/">API Keys</a> - March 10, 2021</li>
-<li><a href="../blog/peeringdb_2020_survey_2021_roadmap/">2020 Survey Results and 2021 Product Roadmap</a> - March 9, 2021</li>
-<li><a href="../blog/contributing_code/">Contributing Code to PeeringDB Just Got Easier</a> - December 7, 2020</li>
-<li><a href="../blog/peeringdb_release_v2.24.0/">PeeringDB Release v2.24.0</a> - November 12, 2020</li>
-<li><a href="../blog/peeringdb_2020_satisfaction_survey/">PeeringDB 2020 Satisfaction Survey</a> - November 2, 2020</li>
-<li><a href="../blog/peeringdb_release_v2.23.0/">PeeringDB Release v2.23.0</a> - October 7, 2020</li>
-</ul></div>
+<h1 id="tools-to-help-you-get-the-best-from-peeringdb">Tools to Help You Get the Best from PeeringDB</h1>
+<p>Many PeeringDB users develop tools that make use of our API to help you analyze our data and make informed decisions. This page features tools that have been made freely available for anyone to use under permissive licenses.</p>
+<p>If you have developed a tool and would like to be added to this page, please contact <a href="mailto:support@peeringdb.com">support@peeringdb.com</a> with details and we will follow up with you.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://peeringdb.github.io/django-peeringdb/">django-peeringdb </a></td>
+<td>Django library with a local PeeringDB database sync. It defines the database schema to create a local database copy. The library is easy to integrate into a common framework for local tools and custom interfaces, and also supports multiple database engines (MySQL, Postgres, SQLite).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ipcjk/ixgen/blob/master/Readme.md">ixgen </a></td>
+<td>Ixgen is yet-another open-source, multi-platform generator for peering configurations on IXs incorporating the global peeringdb api, but also is able to spin up its own "compatible" server for faster results. Ixgen is configured by an INI- or JSON-style format, producing custom template-driven or fixed json-style configurations, that can be printed on the terminal, to a file or served by HTTP.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/isc-projects/pdb-intersect">pdb-intersect </a></td>
+<td>Find common peering points in peeringdb. This is a brother to <a href="https://github.com/rucarrol/PeerFinder">PeerFinder</a>. It will find common possible peering points, even if either of the peering parties is NOT using the same ASN in all locations (like, incidentally, <a href="https://www.peeringdb.com/net/12712">3557</a> does).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rucarrol/PeerFinder">PeerFinder </a></td>
+<td>PeerFinder is a python3.7 and beyond script which finds common points of presence between ASNs as reported by PeeringDB.</td>
+</tr>
+<tr>
+<td><a href="https://peering-manager.net">Peering Manager </a></td>
+<td>Peering Manager is an open-source BGP management solution built with Python and Django. Designed with features and simplicity in mind, it allows engineers to track and configure BGP sessions on networks without having to copy and paste existing configurations.</td>
+</tr>
+<tr>
+<td><a href="http://peeringdb.github.io/peeringdb-py/">peeringdb-py </a></td>
+<td>peeringdb-py is a Python client for PeeringDB. It features functions to get objects and display them in JSON or YAML format, and provides a whois-like display of records. The client also has an integrated local database sync, and provides a Python library for integration with custom tools. <a href="https://github.com/grizz/pdb-examples">Some examples</a> are available too.</td>
+</tr>
+<tr>
+<td><a href="https://chrome.google.com/webstore/detail/search-in-peeringdb/aogffgldgfjelpadabfbcngmndbceiad?fbclid=IwAR1F_kOMgFe1lHC-lPVaTEQzNSGmqUhlmIzPPVFDrHH6FhvytQJFW1NRvOE">Search in PeeringDB </a></td>
+<td>Search in PeeringDB a Chrome extension to search for ASNs, networks, and IXs in PeeringDB using the context menu.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/RIPE-NCC/tracemon">TraceMON </a></td>
+<td>TraceMON is a tool for visualizing a network topology generated by traceroutes that provides one-click access to IXP and network information. It also displays PeeringDB information and allows the user to update their record. RIPE Atlas users can access it by selecting a traceroute measurement and clicking on the TraceMON tab</td>
+</tr>
+</tbody>
+</table></div>
         </div>
 
         <footer class="col-md-12">
