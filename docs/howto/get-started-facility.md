@@ -1,4 +1,5 @@
 # HOWTO: Get Started with PeeringDB as a Facility Operator 
+
 ## About PeeringDB
 PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
 
@@ -45,9 +46,7 @@ Your `org` object will be assigned a numeric identifier, called its `id`. This i
 
 ### Facility
 Once you have created your organisation you may add the `facility` object. You do this by using the Add Facility tab in the “Manage” menu below your organization. 
-
 ![Excellent Example Facility Object](images/excellent-example-fac.png)
-
 ## Next Steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:
 
