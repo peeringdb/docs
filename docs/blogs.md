@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Getting the Most from PeeringDB with User Developed Tools](blog/user-developed-tools.md) - May 4, 2021
 - [Geographic Search](blog/geographic_search.md) - March 24, 2021
 - [API Keys](blog/api_keys.md) - March 10, 2021
 - [2020 Survey Results and 2021 Product Roadmap](blog/peeringdb_2020_survey_2021_roadmap.md) - March 9, 2021
