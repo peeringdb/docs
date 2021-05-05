@@ -1,4 +1,5 @@
-# Tools to Help You Get the Best from PeeringDB
+# Tools to help you get the best from PeeringDB
+
 Many PeeringDB users develop tools that make use of our API to help you analyze our data and make informed decisions. This page features tools that have been made freely available for anyone to use under permissive licenses.
 
 If you have developed a tool and would like to be added to this page, please contact [support@peeringdb.com](mailto:support@peeringdb.com) with details and we will follow up with you.
