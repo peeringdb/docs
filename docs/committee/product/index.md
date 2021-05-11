@@ -9,6 +9,13 @@
 
 ## Meeting Notes
 
+- [May 6th, 2021: Meeting Notes](notes/2021-05-06_Product_Committee_Notes.pdf)
+- [April 1st, 2021: Meeting Notes](notes/2021-04-01_Product_Committee_Notes.pdf)
+- [March 11th, 2021: Meeting Notes](notes/2021-03-11_Product_Committee_Notes.pdf)
+- [February 4th, 2021: Meeting Notes](notes/2021-02-04_Product_Committee_Notes.pdf)
+- [January 7th, 2021: Meeting Notes](notes/2021-01-07_Product_Committee_Notes.pdf)
+- [December 3rd, 2020: Meeting Notes](notes/2020-12-03_Product_Committee_Notes.pdf)
+- [November 5th, 2020: Meeting Notes](notes/2020-11-05_Product_Committee_Notes.pdf)
 - [October 1st, 2020: Meeting Notes](notes/2020-10-01_Product_Committee_Notes.pdf)
 - [September 3rd, 2020: Meeting Notes](notes/2020-09-03_Product_Committee_Notes.pdf)
 - [August 6th, 2020: Meeting Notes](notes/2020-08-06_Product_Committee_Notes.pdf)
