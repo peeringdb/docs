@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2270">Release 2.27.0</a></li>
             <li><a href="#release-2261">Release 2.26.1</a></li>
             <li><a href="#release-2260">Release 2.26.0</a></li>
             <li><a href="#release-2250">Release 2.25.0</a></li>
@@ -150,6 +151,51 @@
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <p>This page was started in April 2020, and only has information about PeeringDB releases starting from that date.</p>
+<h2 id="release-2270">Release 2.27.0</h2>
+<p>Beta Announcement Date: 19 May, 2021<br />
+Release Date: 26 May, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/946">#946 Evaluate non-google map/geo sources </a></td>
+<td>Evaluated alternative geo data APIs and selected Melissa.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/802">#802 Extend Advanced Search for IXes and Facilities </a></td>
+<td>Adds search filters to advanced search (ix capacity search, organization presence search, and network presence search.)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/799">#799 Additional self-selection fields for IX objects </a></td>
+<td>Added <code>service_level</code> and <code>terms</code> fields to InternetExchange objects to allow exchanges to share additional ifnormation about their offering. These are supported as filters in the advanced search.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/834">#834 Add ix_count to object fac </a></td>
+<td>In the API, added a read-only field to <code>fac</code> called <code>ix_count</code> that counts the number of exchanges the linked to the facility).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/835">#835 Add {ix,fac}_count to object net </a></td>
+<td>In the API, added read-only fields to <code>net</code> called <code>ix_count</code> and <code>fac_count</code> that count the number of exchanges and facilities linked to the network).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/836">#836 Add fac_count to object ix </a></td>
+<td>In the API, added a read-only field to <code>ix</code> called <code>fac_count</code> that counts the number of facilities in which the exchange has a presence.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/922">#922 Circumvent approval of a facility by deleting and re-adding </a></td>
+<td>Fixed bug where if a user deletes a status "pending" fac, they can re-add it and it will be status "ok" (should be "pending").</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/810">#810 Get rid of the 'Protocols supported' fields / UI for IXes </a></td>
+<td>Removed <code>proto_unicast</code>, <code>proto_multicast</code>, and <code>proto_ipv6</code> fields from <code>ix</code> UI. The fields remain in the v2 api but <code>proto_ipv6</code> and <code>proto_unicast</code> will be populated from the existance of protocols in the exchange's <code>ixpfx</code> records.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2261">Release 2.26.1</h2>
 <p>Beta Announcement Date: 14 April, 2021<br />
 Release Date: 21 April, 2021</p>
