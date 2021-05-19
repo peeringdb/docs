@@ -6,6 +6,24 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
 
+## Release 2.27.0
+
+Beta Announcement Date: 19 May, 2021
+
+Release Date: 26 May, 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#946 Evaluate non-google map/geo sources ](https://github.com/peeringdb/peeringdb/issues/946) | Evaluated alternative geo data APIs and selected Melissa. |
+| [#802 Extend Advanced Search for IXes and Facilities ](https://github.com/peeringdb/peeringdb/issues/802) | Adds search filters to advanced search (ix capacity search, organization presence search, and network presence search.) |
+| [#799 Additional self-selection fields for IX objects ](https://github.com/peeringdb/peeringdb/issues/799) | Added `service_level` and `terms` fields to InternetExchange objects to allow exchanges to share additional ifnormation about their offering. These are supported as filters in the advanced search. |
+| [#834 Add ix_count to object fac ](https://github.com/peeringdb/peeringdb/issues/834) | In the API, added a read-only field to `fac` called `ix_count` that counts the number of exchanges the linked to the facility). |
+| [#835 Add {ix,fac}_count to object net ](https://github.com/peeringdb/peeringdb/issues/835) | In the API, added read-only fields to `net` called `ix_count` and `fac_count` that count the number of exchanges and facilities linked to the network). |
+| [#836 Add fac_count to object ix ](https://github.com/peeringdb/peeringdb/issues/836) | In the API, added a read-only field to `ix` called `fac_count` that counts the number of facilities in which the exchange has a presence. |
+| [#922 Circumvent approval of a facility by deleting and re-adding ](https://github.com/peeringdb/peeringdb/issues/922) | Fixed bug where if a user deletes a status "pending" fac, they can re-add it and it will be status "ok" (should be "pending"). |
+| [#810 Get rid of the 'Protocols supported' fields / UI for IXes ](https://github.com/peeringdb/peeringdb/issues/810) | Removed `proto_unicast`, `proto_multicast`, and `proto_ipv6` fields from `ix` UI. The fields remain in the v2 api but `proto_ipv6` and `proto_unicast` will be populated from the existance of protocols in the exchange's `ixpfx` records. |
+
+
 ## Release 2.26.1
 
 Beta Announcement Date: 13 April, 2021
