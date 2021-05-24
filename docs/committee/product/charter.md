@@ -6,7 +6,7 @@
 
 The PeeringDB Product Committee (PC) is charged with steering the future product development and running the market outreach efforts to continuously improve the value that PeeringDB delivers to the networks registered with PeeringDB, and the broader community.
 
-#### Out of Scope
+#### Out of scope
 
 - The PC does not drive PeeringDB improvements related to the administrative interfaces & functions used by the PeeringDB Admin Committee.
 - The PC does not consider PeeringDB improvements related to the server, storage, hosting or network infrastructure.
@@ -40,7 +40,7 @@ The PeeringDB Product Committee members serve a 2 years renewable term, potentia
 - All issues and the product roadmap and feature backlog can be found at <https://github.com/peeringdb/peeringdb/issues>
 
 
-#### Decision Policy
+#### Decision policy
 
 Product Committee members will decide by simple majority vote on contested issues called by the Product Committee Chair.
 

@@ -7,7 +7,7 @@
 
 {!docs/committee/product/workflow.md!}
 
-## Meeting Notes
+## Meeting notes
 
 - [May 6th, 2021: Meeting Notes](notes/2021-05-06_Product_Committee_Notes.pdf)
 - [April 1st, 2021: Meeting Notes](notes/2021-04-01_Product_Committee_Notes.pdf)
