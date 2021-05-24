@@ -6,7 +6,7 @@
 The PeeringDB Outreach Committee (OC) is charged with the marketing efforts and running the organization's external engagement to continuously improve the value that PeeringDB delivers to the organisations registered with PeeringDB, and the broader community.
 
 
-#### Out of Scope
+#### Out of scope
 - The OC Committee does not work on other areas, such as product development, as these are managed by the other respective committees and defined in their respective charters.
 
 
@@ -26,7 +26,7 @@ The PeeringDB Outreach Committee members serve a one-year renewable term. Volunt
 - Questions and suggestions for the Outreach Committee can be sent to <outreachcom@lists.peeringdb.com>
 
 
-#### Decision Policy
+#### Decision policy
 Outreach Committee members will decide by simple majority vote on contested issues called by the Outreach Committee Chair.
 
 
