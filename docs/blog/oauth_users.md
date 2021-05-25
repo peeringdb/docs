@@ -1,4 +1,4 @@
-#PeeringDB Can Bring Users to Your Application
+# PeeringDB Can Bring Users to Your Application
 One of the most challenging parts of developing a new service or expanding an existing one is to get users to register for an account. That’s one of the advantages of using PeeringDB’s OAuth service. We’ve already got plenty of users.
 
 ![Photo of a guard by Eduardo Garcia-Nieto on Unsplash](images/eduardo-garcia-nieto-guards-unsplash.jpg)
