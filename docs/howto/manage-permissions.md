@@ -10,7 +10,7 @@ You only need a PeeringDB user account if you want to do one of three things:
 If you just want to look up information about networks, exchanges, or facilities in PeeringDB, you can do that without an account using the web interface or [the API](/api_specs/).
 
 ## How can I manage permissions for users affiliated with my organization?
-Unless you want your users to manage parts of the data your information publishes, they don’t need to be affiliated with your organization.
+Unless you want your users to manage parts of the data your organization publishes, they don’t need to be affiliated with your organization.
 
 When you allow a user account to affiliate with your organization, you can delegate some permissions to it. You can delegate them permissions related to exchanges, facilities, and networks. For each type of entry you can delegate permissions to create, update, or delete. 
 
