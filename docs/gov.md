@@ -7,7 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
-- April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt)
+- April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
 - April 25th, 2019: [Agenda](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Audio.mp3)
 - April 19th, 2018: [Agenda](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2018-04-19_PeeringDB_Member_Meeting_Audio.mp3)
@@ -28,40 +28,17 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board Meetings
 
-- [January 13th, 2021](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
-- [July 9th, 2020](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf)
-- [May 8th, 2020](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf)
-- [January 13th, 2020](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
-- [September 27th, 2019](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf)
-- [July 16th, 2019](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf)
-- [May 16th, 2019](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf)
-- [March 27th, 2019](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf)
-- [January 29th, 2019](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
-- [November 15th, 2018](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf)
-- [October 9th, 2018](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf)
-- [July 19th, 2018](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2018](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf)
-- [April 9th, 2018](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf)
-- [February 8th, 2018](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
-- [October 18th, 2017](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf)
-- [September 20th, 2017](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf)
-- [July 7th, 2017](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2017](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf)
-- [February 9th, 2017](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf)
-- [January 13th, 2017](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
-- [December 2nd, 2016](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf)
-- [September 22nd, 2016](gov/legaldocs/2016-09-22_PeeringDB_Board_Minutes.pdf)
-- [August 10th, 2016](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf)
-- [July 1st, 2016](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf)
-- [May 18th, 2016](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf)
-- [April 6th, 2016](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf)
-- [March 4th, 2016](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf)
-- [February 4th, 2016](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf)
-- [January 7th, 2016](gov/legaldocs/2016-01-07_PeeringDB_Board_Minutes.pdf)
-- [December 8th, 2015](gov/legaldocs/2015-12-08_PeeringDB_Board_Minutes.pdf)
+- 2021: [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
+- 2020: [2020-07-09](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf), [2020-05-08](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf), [2020-01-13](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
+- 2019: [2019-09-27](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf), [2019-07-16](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf), [2019-05-16](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf), [2019-03-27](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf), [2019-01-29](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
+- 2018: [2018-11-15](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf), [2018-10-09](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf), [2018-07-19](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf), [2018-05-18](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2018-04-09](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf), [2018-02-08](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
+- 2017: [2017-10-18](gov/legaldocs/2017-10-18_PeeringDB_Board_Minutes.pdf), [2017-09-20](gov/legaldocs/2017-09-20_PeeringDB_Board_Minutes.pdf), [2017-07-07](gov/legaldocs/2017-07-07_PeeringDB_Board_Minutes.pdf), [2017-05-18](gov/legaldocs/2017-05-18_PeeringDB_Board_Minutes.pdf), [2017-02-09](gov/legaldocs/2017-02-09_PeeringDB_Board_Minutes.pdf), [2017-01-13](gov/legaldocs/2017-01-13_PeeringDB_Board_Minutes.pdf)
+- 2016: [2016-12-02](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf), [2016-09-22](gov/legaldocs/2016-09-22_PeeringDB_Board_Minutes.pdf), [2016-08-10](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf), [2016-07-01](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf), [2016-05-18](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf), [2016-04-06](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf), [2016-03-04](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf), [2016-02-04](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf), [2016-01-07](gov/legaldocs/2016-01-07_PeeringDB_Board_Minutes.pdf)
+- 2015: [2015-12-08](gov/legaldocs/2015-12-08_PeeringDB_Board_Minutes.pdf)
 
 ## Finances
 
+- [May 12th, 2021: IRS Form 990-EZ for 2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf)
 - [December 31st, 2020: Finance Report](gov/finances/2020-12-31_PeeringDB_Finances.pdf)
 - [May 13th, 2020: IRS Form 990-EZ for 2019](gov/finances/2020-05-13_2019_Form_990-EZ.pdf)
 - [December 31st, 2019: Finance Report](gov/finances/2019-12-31_PeeringDB_Finances.pdf)
@@ -95,6 +72,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 30th, 2021: Board election results](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf)
+- [April 14th, 2021: Board election voter's guide](gov/misc/2021-04-14_election.html)
 - [April 30th, 2020: Board election results](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2020: Board election voter's guide](gov/misc/2020-04-14_election.html)
 - [April 30th, 2019: Board election results](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf)
@@ -112,11 +91,11 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board of Directors
 
-- Seat 1 (term expires 2021): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
+- Seat 1 (term expires 2023): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
 - Seat 2 (term expires 2022): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2021): [Fredrik Korsbäck](mailto:fk@peeringdb.com), 2019-
+- Seat 3 (term expires 2023): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
 - Seat 4 (term expires 2022): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2021): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
+- Seat 5 (term expires 2023): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
 
 ## Officers
 
@@ -142,6 +121,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Alumni
 
-- Matt Griswold, Director, 2015-2017
 - Patrick W. Gilmore, Vice President, 2015-2016
+- Matt Griswold, Director, 2015-2017
+- Fredrik Korsbäck, Director, 2019-2021
 - Arnold Nipper, Director, 2015-2019

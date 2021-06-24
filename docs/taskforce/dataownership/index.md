@@ -26,7 +26,7 @@ The resulting Policy Document will be announced and shared with the PeeringDB Co
 
 After publishing the Policy Document, the Task Force ended. 
 
-## Data Ownership Policy Implementation Presentation
+## Data ownership policy implementation presentation
 
 This [video](https://youtu.be/mtT_HojbIPs) and [presentation](../../presentation/20200817-dtf-implementation.pdf) explains how PeeringDB handles IX-F import data, creating, changing or deleting netixlan objects and other changes from the implementation of the PeeringDB Data Ownership Policy.
 

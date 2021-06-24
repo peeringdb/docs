@@ -1,4 +1,4 @@
-## Decision Making Process and Workflow
+## Decision making process and workflow
 
 Product Committee members are responsible for driving the development of PeeringDB. To do this, GitHub issues are used to track proposed and in progress work. Product Committee members play two roles in driving forward work: 
 

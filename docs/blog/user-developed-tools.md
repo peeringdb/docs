@@ -1,9 +1,9 @@
 # Getting the Most from PeeringDB with User Developed Tools
-We develop PeeringDB based on user demand. Users tell us what they want through [a survey](https://docs.peeringdb.com/blog/peeringdb_2020_survey_2021_roadmap/) and by lodging issues describing the problems they face in Github. But sometimes, users’ needs go beyond what we can do and that’s when user developed tools come in.
+We develop PeeringDB based on user demand. Users tell us what they want through [a survey](/blog/peeringdb_2020_survey_2021_roadmap/) and by opening issues describing the problems they face on GitHub. But sometimes, users’ needs go beyond what we can do and that’s when user developed tools come in.
 
 ![Tongs in Fire by C D X on Unsplash](images/c-d-x-tongs-in-forge-unsplash.jpg)
 
-We have recently refreshed and updated our listing of user developed and maintained [tools](https://docs.peeringdb.com/tools.md). It now has its own page and features eight tools that help you: 
+We have recently refreshed and updated our listing of user developed and maintained [tools](/tools). It now has its own page and features eight tools that help you: 
 
 * Sync PeeringDB data to a local repository
 * Find common peering points

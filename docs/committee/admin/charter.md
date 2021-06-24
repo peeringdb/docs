@@ -8,7 +8,7 @@
 The PeeringDB Admin Committee (AC) is responsible for the day to day end-user support of PeeringDB. The Admin Committee functions as the first point of contact for any inquiries to PeeringDB. The Admin Committee produces definitions for enhancements to the workflow and Admin GUI and works with the Product Committee to plan a coherent roadmap for the PeeringDB software.
 
 
-#### Out of Scope
+#### Out of scope
 - Work covered in the charter of the Operations, Outreach,  Product, and further to be established Committees
 
 
@@ -42,7 +42,7 @@ The PeeringDB Admin Committee members serve a one-year renewable term. Volunteer
 - Regular (4-6 week interval) conference calls are used to stay synced and discuss  issues
 
 
-#### Decision Policy
+#### Decision policy
 Admin Committee members will decide on their own when handling support tickets according to the Admin Committee BCP laid out in the Admin Committee How-To Folder. Otherwise, they will decide by simple majority vote on contested issues called by the Admin Committee Chair. If there is a tie the Chair's vote is counted double.
 
 

@@ -5,7 +5,7 @@
 
 {!docs/committee/admin/charter.md!}
 
-## Meeting Notes
+## Meeting notes
 
 - [June 23rd, 2020: Meeting Notes](notes/2020-06-23_Admin_Committee_Notes.pdf)
 - [May 12th, 2020: Meeting Notes](notes/2020-05-12_Admin_Committee_Notes.pdf)
@@ -15,11 +15,11 @@
 
 ## Members
 - Shaun Coffey
-- Darwin Da Costa (Vice Chair)
+- Darwin Da Costa (Chair)
 - Stefan Funke
 - Alexandre Guimaraes
 - Chriztoffer Hansen
 - Peter Helmenstine
 - Julimar Lunguinho Mendes
-- Arnold Nipper (Chair)
+- Arnold Nipper
 - Job Snijders (Board Liaison)

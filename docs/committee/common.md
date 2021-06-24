@@ -1,6 +1,6 @@
 *** PeeringDB Common Committee Charter Provisions: ***
 
-#### Dispute Resolution
+#### Dispute resolution
 
 If the committee handles an issue in a manner in which a user believes that their view has not been adequately considered, their first action should be to raise the concern with the Committee Chair for further consideration. If the dispute is between the user and the Committee Chair then the issue may alternatively be raised with the Committee Vice Chair. If the dispute cannot be resolved the matter may be brought forward to the PeeringDB Board.  The decision by the PeeringDB Board shall be final.
 
