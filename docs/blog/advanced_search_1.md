@@ -1,5 +1,5 @@
 # Advanced Search (Part 1)
-You told us in [our 2020 survey](https://docs.peeringdb.com/blog/peeringdb_2020_satisfaction_survey/) that improving search was your top priority. That’s why we have been making [some database changes](https://docs.peeringdb.com/blog/geographic_search/) to support better search. In a recent release we rolled out changes that significantly improve the performance of our advanced search feature.
+You told us in [our 2020 survey](blog/peeringdb_2020_satisfaction_survey/) that improving search was your top priority. That’s why we have been making [some database changes](blog/geographic_search/) to support better search. In a recent release we rolled out changes that significantly improve the performance of our advanced search feature.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J2xZnfdr95A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
