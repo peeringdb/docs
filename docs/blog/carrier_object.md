@@ -1,12 +1,12 @@
-#Should PeeringDB Create a New “Carrier” Object?
+# Should PeeringDB Create a New “Carrier” Object?
 That was the question we asked two focus groups on 29 June.
 
 ![Photo of Mountain Lake in Lens by Paul Skorupskas on Unsplash](images/mountain_lake_in_lens_paul_skorupskas_unsplash.jpg)
 
-##Initial Discussion
+## Initial discussion
 Our Product Committee and others have been discussing this issue for about six months now. The one thing we could agree on was that we needed to reach out to more of the people involved in buying and delivering these interconnection services to help make a decision.
 
-##Focus Groups
+## Focus groups
 To do that we held two focus groups on 29 June. One was scheduled at a time that is good for people in APAC and the west coast of the Americas. The other was scheduled at a time that was good for people in EMEA and the east coast of the Americas.
 
 The discussion included 12 people with significant industry experience in running carriers, exchanges, facilities, and networks. To build a trusted environment we applied the Chatham House Rule, so this blog post describes what was discussed but does not quote anyone or attribute views to any participants.
@@ -28,7 +28,7 @@ Participants favored starting off with a less complex object and adding detail i
 
 Any implementation would need to be well supported by extensions to the API. Despite making it easy for people to rapidly deploy information about new and improved deployments to PeeringDB through the API there was support ensuring that a new object can be created and configured through the web interface.
 
-##Next Steps
+## Next steps
 When the Product Committee has evaluated the feedback we got from these two focus groups it will make a decision on the principle of creating this new object. 
 
 If the decision is to proceed there is work to be done in both designing and naming it. 
@@ -38,8 +38,8 @@ If the decision is to proceed there is work to be done in both designing and nam
 
 We’ll keep you updated.
 
-If you have an idea to improve PeeringDB you can share it on our low traffic mailing lists or create an issue directly on GitHub. If you find a data quality issue, please let us know at support@peeringdb.com.
- 
---- 
+If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
+
+***
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
