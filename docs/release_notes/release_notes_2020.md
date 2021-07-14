@@ -1,15 +1,12 @@
-# Release Notes
+# 2020 Release Notes
 
-The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.
+The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases in 2020.  Release notes for the current year are available on the [Release Notes](/release_notes/) page.
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
-
-**This page shows release notes from 2020. Release notes for the currentyear are available [here](https://docs.peeringdb.com/release_notes/).**
 
 ## Release 2.24.0
 
 Beta Announcement Date: 4 November, 2020
-
 Release Date: 11 November, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -36,7 +33,6 @@ Release Date: 11 November, 2020
 
 ## Release 2.23.0
 Beta Announcement Date: 30 September, 2020
-
 Release Date: 7 October, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -55,8 +51,8 @@ Release Date: 7 October, 2020
 | [#321 - Typos in locale](https://github.com/peeringdb/peeringdb/issues/321)| Fixes a number of typographical errors|
 
 ## Release 2.22.0
-Beta Announcement Date: 15 July, 2020
 
+Beta Announcement Date: 15 July, 2020
 Release Date: 26 August, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -71,10 +67,9 @@ Release Date: 26 August, 2020
 | [#696 - Lock some objects from being deleted by the owner](https://github.com/peeringdb/peeringdb/issues/696) | To protect operational data objects fac, ix, ixlan and org are prevented from being deleted as long as there are other objects related to it. First, these objects must be deleted before the object itself can be deleted. The attempt to delete such a protected object gives an error message and also opens a ticket with the PeeringDB support. |
 | [#697 - Creating, changing, and deleting a netixlan object](https://github.com/peeringdb/peeringdb/issues/697) | We completely re-implemented the way a connection to an exchange is handled. This new procedure allows both for a safe heads up a network can give to their peers as well as a safe way for exchanges to get rid of stale entries. Moreover, it allows networks to easily acknowledge new entries at exchanges which use the IX-F importer feature. See also the webinar for detailed information on this new procedure. |
 
-
 ## Release 2.21.0
-Beta Announcement Date: 24 June, 2020
 
+Beta Announcement Date: 24 June, 2020
 Release Date: 1 July, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -101,8 +96,8 @@ Release Date: 1 July, 2020
 | [#679 - Add read-only Superuser](https://github.com/peeringdb/peeringdb/issues/679) | Provide PC members with a read-only access to the Admin UI. |
 | [#712 - User is unable to update their net record ](https://github.com/peeringdb/peeringdb/issues/712) | Bug fix. Missing pointer to where the non-compliant value is |
 
-
 ## Release 2.20.2
+
 Release Date: 23 April, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -110,6 +105,7 @@ Release Date: 23 April, 2020
 | [#707 - Make source not required for IRR records](https://github.com/peeringdb/peeringdb/issues/707) | Making source not required for IRR records. This requirement was an oversight during implementation of [#151 - Validation of IRR Records] (https://github.com/peeringdb/peeringdb/issues/151) that was released with 2.20.0 - see below. Product Committee revisited the issue after 2.20.0 and reports of concern from community and decided to retract the requirement in an emergency release|
 
 ## Release 2.20.1
+
 Release Date: 21 April, 2020
 
 | **GitHub Issue** | **Summary** |
@@ -117,6 +113,7 @@ Release Date: 21 April, 2020
 | [#702 - Requests from peeringdb-py error 500](https://github.com/peeringdb/peeringdb/issues/702) | Emergency release for a config change |
 
 ## Release 2.20.0
+
 Beta Announcement Date: 15 April, 2020
 Release Date: 21 April, 2020
 

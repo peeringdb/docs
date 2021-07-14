@@ -4,12 +4,9 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
-This page was started in April 2020, and only has information about PeeringDB releases starting from that date.
-
 ## Release 2.28.0
 
 Beta Announcement Date: 14 July 2021
-
 Release Date: 21 July 2021
 
 | **GitHub Issue** | **Summary** |
@@ -23,7 +20,6 @@ Release Date: 21 July 2021
 ## Release 2.27.1
 
 Beta Announcement Date: 19 May, 2021
-
 Release Date: 26 May, 2021
 
 | **GitHub Issue** | **Summary** |
@@ -42,7 +38,6 @@ Release Date: 26 May, 2021
 ## Release 2.26.1
 
 Beta Announcement Date: 14 April, 2021
-
 Release Date: 21 April, 2021
 
 | **GitHub Issue** | **Summary** |
@@ -55,7 +50,6 @@ Release Date: 21 April, 2021
 ## Release 2.26.0
 
 Beta Announcement Date: 10 March, 2021
-
 Release Date: 24 March, 2021
 
 | **GitHub Issue** | **Summary** |
@@ -89,3 +83,7 @@ Release Date: 3 February, 2021
 | [#717 Loading time issue /cp facility view ](https://github.com/peeringdb/peeringdb/issues/717) | Fixed slow load or timeouts for loading data for some facilities |
 | [#837 Provide a friendlier explanation when entering / changing a phone number ](https://github.com/peeringdb/peeringdb/issues/837) | Provides a tooltip to help people enter E.164 formatted telephone numbers. |
 | [#541 When looking at a network record, show last updated ix<->net or fac<->net date ](https://github.com/peeringdb/peeringdb/issues/541) | Improved information about when records were last updated. |
+
+## Older releases
+
+* [2020 Release Notes](/release_notes/release_notes_2020/)
