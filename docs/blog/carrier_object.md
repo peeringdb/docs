@@ -1,5 +1,5 @@
 # Should PeeringDB Create a New “Carrier” Object?
-That was the question we asked two focus groups on 29 June.
+That was the question we asked two focus groups on 29 June 2021.
 
 ![Photo of Mountain Lake in Lens by Paul Skorupskas on Unsplash](images/mountain_lake_in_lens_paul_skorupskas_unsplash.jpg)
 
@@ -7,7 +7,7 @@ That was the question we asked two focus groups on 29 June.
 Our Product Committee and others have been discussing this issue for about six months now. The one thing we could agree on was that we needed to reach out to more of the people involved in buying and delivering these interconnection services to help make a decision.
 
 ## Focus groups
-To do that we held two focus groups on 29 June. One was scheduled at a time that is good for people in APAC and the west coast of the Americas. The other was scheduled at a time that was good for people in EMEA and the east coast of the Americas.
+To do that we held two focus groups on 29 June 2021. One was scheduled at a time that is good for people in APAC and the west coast of the Americas. The other was scheduled at a time that was good for people in EMEA and the east coast of the Americas.
 
 The discussion included 12 people with significant industry experience in running carriers, exchanges, facilities, and networks. To build a trusted environment we applied the Chatham House Rule, so this blog post describes what was discussed but does not quote anyone or attribute views to any participants.
 
