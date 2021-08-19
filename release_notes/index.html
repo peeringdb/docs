@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2290">Release 2.29.0</a></li>
             <li><a href="#release-2280">Release 2.28.0</a></li>
             <li><a href="#release-2271">Release 2.27.1</a></li>
             <li><a href="#release-2261">Release 2.26.1</a></li>
@@ -145,6 +146,39 @@
 <h1 id="release-notes">Release Notes</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2290">Release 2.29.0</h2>
+<p>Beta Announcement Date: 18 August 2021<br />
+Release Date: 25 August 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/779">#779 Allow IXP to trigger ix-f importer for their exchange</a></td>
+<td>Exchanges can now trigger theIX-F importer and the UI communicates the status of the request</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/920">#920 IX-F Importer: ticket status change when posting re-occuring conflict to existing resolved ticket </a></td>
+<td>Improve internal handling of IX-F importer conflicts</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/967">#967 IX-F Importer: fix command output buffering </a></td>
+<td>Improve handling of output from IX-F importer command</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/903">#903 Describe the 'DOT1Q' flag</a></td>
+<td>Set the field to <code>false</code> and made it read only (with a tooltip for the web interface) until v3 of the API</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/715">#715 Support for Django 3 </a></td>
+<td>Upgrade to Django 3.2.1 and upgrade dependencies where possible</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2280">Release 2.28.0</h2>
 <p>Beta Announcement Date: 14 July 2021<br />
 Release Date: 21 July 2021</p>
