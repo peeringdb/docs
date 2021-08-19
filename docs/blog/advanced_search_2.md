@@ -1,8 +1,8 @@
 # Advanced Search (Part 2)
 
-We’ve published a couple of [recent](https://docs.peeringdb.com/blog/geographic_search/) [blogs](https://docs.peeringdb.com/blog/advanced_search_1/) about how we are improving search, following feedback on its importance in the [2020 user survey](https://docs.peeringdb.com/blog/peeringdb_2020_survey_2021_roadmap/). Here’s another one!
+We’ve published a couple of [recent](/blog/geographic_search/) [blogs](/blog/advanced_search_1/) about how we are improving search, following feedback on its importance in the [2020 user survey](/blog/peeringdb_2020_survey_2021_roadmap/). Here’s another one!
 
-We introduced two significant improvements in the production release, 2.28.0. 
+We introduced two significant improvements in the production release 2.28.0.
 
 Our first improvement makes it easier to search based on a partial name. When an organization’s name has two parts, you can now search for just the first part and then select from all the organizations that share that name. Previously, search worked on exact matches. This change makes it easier for users to find the organizations they want.
 

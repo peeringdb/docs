@@ -2,6 +2,9 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Advanced Search (Part 2)](blog/advanced_search_2.md) - July 23, 2021
+- [Should PeeringDB Create a New “Carrier” Object?](blog/carrier_object.md) - July 5, 2021
+- [Advanced Search (Part 1)](blog/advanced_search_1.md) - June 23, 2021
 - [PeeringDB Can Bring Users to Your Application](blog/oauth_users.md) - May 24, 2021
 - [Getting the Most from PeeringDB with User Developed Tools](blog/user-developed-tools.md) - May 4, 2021
 - [Geographic Search](blog/geographic_search.md) - March 24, 2021

@@ -2,7 +2,7 @@
 
 ## How can PeeringDB help me to interconnect?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QA2PvYbvDhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QA2PvYbvDhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Create and account and [register](https://www.peeringdb.com/register) in PeeringDB to get started.
 
