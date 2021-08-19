@@ -7,7 +7,6 @@ Each new release has a one week beta test period on the [beta server](https://be
 ## Release 2.29.0
 
 Beta Announcement Date: 18 August 2021
-
 Release Date: 25 August 2021
 
 | **GitHub Issue** | **Summary** |
