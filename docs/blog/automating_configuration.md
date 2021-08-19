@@ -15,7 +15,7 @@ And if you’re an exchange that sees the advantage of automatically sharing inf
 
 Our continuing efforts in this area are designed to help exchanges share more accurate information about their participants, and networks to automate configuration. So, take a look at what the schema can do for your organization.
 
-If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an [issue](https://github.com/peeringdb/peeringdb/issues) directly on GitHub. If you find a data quality issue, please let us know at support@peeringdb.com. 
+If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
 
 --- 
 
