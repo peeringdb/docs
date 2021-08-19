@@ -4,6 +4,20 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.29.0
+
+Beta Announcement Date: 18 August 2021
+
+Release Date: 25 August 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#779 Allow IXP to trigger ix-f importer for their exchange](https://github.com/peeringdb/peeringdb/issues/779) | Exchanges can now trigger theIX-F importer and the UI communicates the status of the request |
+| [#920 IX-F Importer: ticket status change when posting re-occuring conflict to existing resolved ticket ](https://github.com/peeringdb/peeringdb/issues/920) | Improve internal handling of IX-F importer conflicts |
+| [#967 IX-F Importer: fix command output buffering ](https://github.com/peeringdb/peeringdb/issues/967) | Improve handling of output from IX-F importer command |
+| [#903 Describe the 'DOT1Q' flag](https://github.com/peeringdb/peeringdb/issues/903) | Set the field to `false` and made it read only (with a tooltip for the web interface) until v3 of the API |
+| [#715 Support for Django 3 ](https://github.com/peeringdb/peeringdb/issues/715) | Upgrade to Django 3.2.1 and upgrade dependencies where possible |
+
 ## Release 2.28.0
 
 Beta Announcement Date: 14 July 2021
