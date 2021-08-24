@@ -16,6 +16,10 @@ Release Date: 25 August 2021
 | [#967 IX-F Importer: fix command output buffering ](https://github.com/peeringdb/peeringdb/issues/967) | Improve handling of output from IX-F importer command |
 | [#903 Describe the 'DOT1Q' flag](https://github.com/peeringdb/peeringdb/issues/903) | Set the field to `false` and made it read only (with a tooltip for the web interface) until v3 of the API |
 | [#715 Support for Django 3 ](https://github.com/peeringdb/peeringdb/issues/715) | Upgrade to Django 3.2.1 and upgrade dependencies where possible |
+| [#166 Add name, city, country to ixfac (GET operation) ](https://github.com/peeringdb/peeringdb/issues/166) | Add read-only fields `name`, `city` and `country` to object `ixfac`. The values for these fields are `fac.name`, 	`fac.city	` and 	`fac.country` from the facility `fac` with `id` == `fac_id` |
+| [#1023 Bug with email reports for internal errors ](https://github.com/peeringdb/peeringdb/issues/1023) | Fixes an error with e-mail notifications for internal errors |
+| [#1026 Fallback captcha solution is broken ](https://github.com/peeringdb/peeringdb/issues/1026) | Fixes the fallback CAPTCHA on the account signup page |
+
 
 ## Release 2.28.0
 
