@@ -20,6 +20,8 @@ Release Date: 25 August 2021
 | [#166 Add name, city, country to ixfac (GET operation) ](https://github.com/peeringdb/peeringdb/issues/166) | Add read-only fields `name`, `city` and `country` to object `ixfac`. The values for these fields are `fac.name`, 	`fac.city	` and 	`fac.country` from the facility `fac` with `id` == `fac_id` |
 | [#1023 Bug with email reports for internal errors ](https://github.com/peeringdb/peeringdb/issues/1023) | Fixes an error with e-mail notifications for internal errors |
 | [#1026 Fallback captcha solution is broken ](https://github.com/peeringdb/peeringdb/issues/1026) | Fixes the fallback CAPTCHA on the account signup page |
+| [#1013 The process to permanently remove old soft-deleted network contacts pdb_delete_pocs raises a false ProtectedAction ](https://github.com/peeringdb/peeringdb/issues/1013) | Fixes a problem with adminsitrators permanently deleting contacts. |
+| [#1015 Fallback captcha solution is broken ](https://github.com/peeringdb/peeringdb/issues/1015) | Fixes a CAPTCHA bug affecting the AC through work on #715 |
 
 
 ## Release 2.28.0
