@@ -4,6 +4,16 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.29.1
+
+Release Date: 26 August 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1034 CORS Access-Control-Allow-Origin header missing in API responses](https://github.com/peeringdb/peeringdb/issues/1034) | Fixes an issue that stopped cross site API requests in the browser |
+| [#1036 Issue with verification queue and deskpro ticket creation](https://github.com/peeringdb/peeringdb/issues/1036) | Fixes an issue that stopped newly created objects creating verification queue entries and a deskpro ticket |
+
+
 ## Release 2.29.0
 
 Beta Announcement Date: 18 August 2021
