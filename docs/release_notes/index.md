@@ -13,7 +13,6 @@ Release Date: 26 August 2021
 | [#1034 CORS Access-Control-Allow-Origin header missing in API responses](https://github.com/peeringdb/peeringdb/issues/1034) | Fixes an issue that stopped cross site API requests in the browser |
 | [#1036 Issue with verification queue and deskpro ticket creation](https://github.com/peeringdb/peeringdb/issues/1036) | Fixes an issue that stopped newly created objects creating verification queue entries and a deskpro ticket |
 
-
 ## Release 2.29.0
 
 Beta Announcement Date: 18 August 2021
@@ -31,7 +30,6 @@ Release Date: 25 August 2021
 | [#1026 Fallback captcha solution is broken ](https://github.com/peeringdb/peeringdb/issues/1026) | Fixes the fallback CAPTCHA on the account signup page |
 | [#1013 The process to permanently remove old soft-deleted network contacts pdb_delete_pocs raises a false ProtectedAction ](https://github.com/peeringdb/peeringdb/issues/1013) | Fixes a problem with adminsitrators permanently deleting contacts. |
 | [#1015 Fallback captcha solution is broken ](https://github.com/peeringdb/peeringdb/issues/1015) | Fixes a CAPTCHA bug affecting the AC through work on #715 |
-
 
 ## Release 2.28.0
 
@@ -63,7 +61,6 @@ Release Date: 26 May, 2021
 | [#810 Get rid of the 'Protocols supported' fields / UI for IXes ](https://github.com/peeringdb/peeringdb/issues/810) | Removed `proto_unicast`, `proto_multicast`, and `proto_ipv6` fields from `ix` UI. The fields remain in the v2 api but `proto_ipv6` and `proto_unicast` will be populated from the existance of protocols in the exchange's `ixpfx` records. |
 | [#985 500 Error on advanced search ](https://github.com/peeringdb/peeringdb/issues/885) | Resolved an issue where unauthenticated users got a 500 error in advanced search. |
 
-
 ## Release 2.26.1
 
 Beta Announcement Date: 14 April, 2021
@@ -74,7 +71,6 @@ Release Date: 21 April, 2021
 | [#883 IXF-Importer: minimise emails to Support/DeskPRO/AC ](https://github.com/peeringdb/peeringdb/issues/883) | This change collates all importer suggestions into a single e-mail notification. |
 | [#931 Limit the number of requests for affiliation to an ASN/org to 1 ](https://github.com/peeringdb/peeringdb/issues/931) | Limits the number of affiliation request to an ASN to just one. Provides visual feedback on subsequent request attempts. |
 | [#913 API should do an IP6 address instead of a string match ](https://github.com/peeringdb/peeringdb/issues/913) | Normalizes how IPv6 addresses are stored in the database and updates existing IPv6 addresses in the databases and elsewhere. |
-
 
 ## Release 2.26.0
 
