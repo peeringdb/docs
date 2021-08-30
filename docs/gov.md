@@ -23,7 +23,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Policies
 
 - [Acceptable Use Policy](https://www.peeringdb.com/aup)
+- [Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
 - [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
+- [Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
 - [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
 
 ## Board Meetings
