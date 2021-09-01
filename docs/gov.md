@@ -30,7 +30,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board Meetings
 
-- 2021: [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
+- 2021: [2021-09-01](gov/legaldocs/2021-09-01_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
 - 2020: [2020-07-09](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf), [2020-05-08](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf), [2020-01-13](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
 - 2019: [2019-09-27](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf), [2019-07-16](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf), [2019-05-16](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf), [2019-03-27](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf), [2019-01-29](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
 - 2018: [2018-11-15](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf), [2018-10-09](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf), [2018-07-19](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf), [2018-05-18](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2018-04-09](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf), [2018-02-08](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
