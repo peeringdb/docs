@@ -57,6 +57,7 @@
 - Kayla Clifford
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
+- Martin Hannigan
 - Aaron Hughes (Board Liaison)
 - Stephen McManus (Chair)
 - Arnold Nipper
