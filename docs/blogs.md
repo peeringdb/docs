@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [PeeringDB 2021 User Survey](blog/peeringdb_2021_user_survey.md) - September 7, 2021
 - [Automating Configuration - Why We Support the IX-F Member Export Schema](blog/automating_configuration.md) - August 18, 2021
 - [Advanced Search (Part 2)](blog/advanced_search_2.md) - July 23, 2021
 - [Should PeeringDB Create a New “Carrier” Object?](blog/carrier_object.md) - July 5, 2021
