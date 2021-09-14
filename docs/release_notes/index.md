@@ -4,6 +4,22 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.30.0
+
+Beta Announcement Date: 15 September 2021
+
+Release Date: 22 September 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1944 Remove visibility "Private" from POC](https://github.com/peeringdb/peeringdb/issues/944) | Make the "Private" visibility status invalid and requires an admin to review and update contacts when next making an update to their `poc` information |
+| [#800 Additional self-selection fields for Facilities](https://github.com/peeringdb/peeringdb/issues/800) | Adds additional fields to Facilities: Offered Space, Offered Power, Offered Resilience with appropriate details |
+| [#1016 Add additional advanced search filters for new facility fields from #800](https://github.com/peeringdb/peeringdb/issues/1) | Adds the ability to search based on the new elements defined in #800 using Advanced Search |
+| [#1032 Issue with api relationship filtering via __id](https://github.com/peeringdb/peeringdb/issues/1032) | Fixes a bug that impacted filtered searches made via the API |
+| [#500 When network sets netixlan speed to 1200000 only 1T is shown instead of 1.2T ... sometimes](https://github.com/peeringdb/peeringdb/issues/500) | Fixes a bug for speeds above 1Tb |
+| [#1021 504 Gateway Time-out](https://github.com/peeringdb/peeringdb/issues/1024) | Fixes a timeout problem with the adminsitrative interface |
+| [#1019 IX-F Importer: needless saves to deleted netixlans](https://github.com/peeringdb/peeringdb/issues/1) | Fixes a bug that unnecessarily saved data to deleted objects |
+
 ## Release 2.29.1
 
 Release Date: 26 August 2021
