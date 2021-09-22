@@ -68,7 +68,6 @@ Once you are up and running you can create POC (Point of Contact) objects for fu
 The information for each type of contact is the same, with optional telephone numbers, e-mail addresses, and URLs. Visibility of the POC information can be different for each POC.
 Each of the POCs associated with your network can have different visibility permissions. The options are:
 
-* `Private` (meaning that only your Admins and the PeeringDB Admins can see the POC)
 * `Users` (meaning that only other PeeringDB users can see the POC), and 
 * `Public` (meaning that the record is shown to anonymous users as well as authenticated users). 
 
