@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [More Details on Facilities](blog/more_details_facilities.md) - September 21, 2021
 - [Changes to Contacts Marked as Private](blog/contacts_marked_private.md) - September 14, 2021
 - [PeeringDB 2021 User Survey](blog/peeringdb_2021_user_survey.md) - September 7, 2021
 - [Automating Configuration - Why We Support the IX-F Member Export Schema](blog/automating_configuration.md) - August 18, 2021
