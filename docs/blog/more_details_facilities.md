@@ -6,7 +6,7 @@ We’ve been working hard on improving search this year. In release 2.30.0 we ha
 
 ![Power Categories for Facilities](images/facilities-power-search.png)
 
-These improvements build on improvements delivered in [2.27.0](/release_notes/#release-2271) and [2.28.0](release_notes/#release-2280). We have additional search improvements scheduled for development in upcoming releases. If you run a facility you’ll want to login and update its entry, so it can be found when users take advantage of these new searches.
+These improvements build on improvements delivered in [2.27.0](/release_notes/#release-2271) and [2.28.0](/release_notes/#release-2280). We have additional search improvements scheduled for development in upcoming releases. If you run a facility you’ll want to login and update its entry, so it can be found when users take advantage of these new searches.
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
