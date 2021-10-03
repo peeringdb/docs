@@ -6,6 +6,10 @@
 
 Create and account and [register](https://www.peeringdb.com/register) in PeeringDB to get started.
 
+## Acceptable use policy
+
+By using this service, you agree to adhere to our [AUP](https://www.peeringdb.com/aup).
+
 ## Getting help
 
 * Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
