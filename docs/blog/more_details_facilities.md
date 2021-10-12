@@ -1,7 +1,5 @@
 # More Details on Facilities
 
-<mark>Did you know PeeringDB’s 2021 User survey is open until 8 October? It takes about 3 minutes and will set the direction for PeeringDB in 2022. Please [click here](https://surveyhero.com/c/peeringdb2021usersurvey) to tell us where to improve.</mark>
-
 We’ve been working hard on improving search this year. In release 2.30.0 we have an improvement that will help data centers and their users. Organizations running facilities can now share information about ownership status, power availability, diversity and resilience. These can all be used as filters in the [advanced search page](https://www.peeringdb.com/advanced_search). You will need to be logged in to take advantage of these features.
 
 ![Power Categories for Facilities](images/facilities-power-search.png)

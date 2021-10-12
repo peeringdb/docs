@@ -1,5 +1,5 @@
 # Changes to Contacts Marked as Private
-<mark>Did you know PeeringDB’s 2021 User survey is open until 8 October? It takes about 3 minutes and will set the direction for PeeringDB in 2022. Please [click here](https://surveyhero.com/c/peeringdb2021usersurvey) to tell us where to improve.</mark>
+
 ![Photo by Dayne Topkin on Unsplash](images/dayne-topkin-private-signage-door-unsplash.jpg)
 We are removing the “Private” status from Points of Contact in PeeringDB in [Release 2.30.0](/release_notes/#release-2300). This status was carried over from v1 of PeeringDB but is no longer useful, it just confuses users. It will no longer be available as a status for newly created contacts. And if your organization has one or more contacts marked as “Private” in PeeringDB, admin users will be prompted to make a decision between two statuses when they next log in. [These are](/howto/manage-permissions/):
 
