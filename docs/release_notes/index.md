@@ -18,7 +18,7 @@ Release Date: 20 October 2021
 | [#18 IXP and Facility summary](https://github.com/peeringdb/peeringdb/issues/18) | Presents a short statistical summary for `ix`'s and `fac`s |
 | [#232 Incorrect order of search results](https://github.com/peeringdb/peeringdb/issues/232) | ASNs will be moved to the top of the search results when a numeric search is an exact match for that ASN |
 | [#346 Allow users to upload a small logo to their record](https://github.com/peeringdb/peeringdb/issues/346) | `orgs` can now include a small logo in their record |
-| [#453 Missing sponsor status in translations](https://github.com/peeringdb/peeringdb/issues/453) | `orgs` can now include a small logo in their record |
+| [#453 Missing sponsor status in translations](https://github.com/peeringdb/peeringdb/issues/453) | Fixed a bug so sponsor badges now show up properly in translations |
 
 ## Release 2.30.0
 
