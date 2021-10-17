@@ -211,7 +211,7 @@ required URL parameters
 
 curl:
 
-    curl -H "Content-Type: application/json" -X POST --data "{\""state"\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ
+    curl -H "Content-Type: application/json" -X POST --data "{\"state\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ
 
 
 ### PUT: edit object
@@ -231,7 +231,7 @@ HTTP:
 
 curl:
 
-    curl -H "Content-Type: application/json" -X PUT --data "{\""state"\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ/42
+    curl -H "Content-Type: application/json" -X PUT --data "{\"state\":\"active\"}" https://<username>:<password>@peeringdb.com/api/OBJ/42
 
 ### DELETE: delete object
 
