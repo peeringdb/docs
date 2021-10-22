@@ -2,6 +2,7 @@
 # Frequently Asked Questions
 
 ## General
+
 ### What is PeeringDB?
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
