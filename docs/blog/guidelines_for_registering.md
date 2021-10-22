@@ -2,7 +2,7 @@
 
 About one third of ASNs are now registered in PeeringDB. While that’s a success it comes with a responsibility to enhance transparency over what is required when registering a network, IXP, or facility in the database.
 !["Registation Neon Signage" Photo by Phil Desforges on Unsplash](images/phil-desforges-registration-neon-signage-unsplash.jpg)
-We have just published a set of [guidelines](committee/admin/approval-guidelines/) that document the criteria our automation uses, or will use when new software is developed. Where we cannot automate, volunteers on our Admin Committee evaluate requests.
+We have just published a set of [guidelines](/committee/admin/approval-guidelines/) that document the criteria our automation uses, or will use when new software is developed. Where we cannot automate, volunteers on our Admin Committee evaluate requests.
 
 There are clear criteria for the automatic, or semi-automatic, approval of each type of object. These are illustrated with flowcharts that show the possible paths through the process. 
 
