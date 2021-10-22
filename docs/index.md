@@ -7,7 +7,7 @@
 ## Policies
 
 * By using this service, you agree to adhere to PeeringDB's [Acceptable Use Policy](https://www.peeringdb.com/aup).
-* The [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](/committee/admin/approval-guidelines/) documents PeeringDB’s approval process.
+* The [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](committee/admin/approval-guidelines/) documents PeeringDB’s registration approval process.
 
 ## Getting started
 

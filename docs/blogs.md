@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Guidelines for Registering in PeeringDB](blog/guidelines_for_registering.md) - October 21, 2021
 - [Your Logo Goes Here!](blog/your_logo_goes_here.md) - October 12, 2021
 - [More Details on Facilities](blog/more_details_facilities.md) - September 21, 2021
 - [Changes to Contacts Marked as Private](blog/contacts_marked_private.md) - September 14, 2021
