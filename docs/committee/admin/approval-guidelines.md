@@ -66,7 +66,7 @@ The key to approving IXP objects is to confirm the User has a relationship to th
 * IP prefix must be registered through an RIR or NIR.
 * The prefix must not overlap with any existing IXP object in PeeringDB
 * IPv4 prefixes must not be longer than a /27 or shorter than /19
-* IPv6 prefixes must not be shorter than /64 but may be longer i.e. a /120 is allowed by a /63 is not
+* IPv6 prefixes must not be shorter than /64 but may be longer i.e. a /120 is allowed but a /63 is not
 
 Users can verify their relationship to an IP prefix in several ways:
 
@@ -185,7 +185,7 @@ The first step in this process is to get input from all the volunteers on the Ad
 
 ## Appendix
 
-#### Why must peering LANs be between /27 and /19 (IPv4) or shorter than /64 (IPv6)?
+#### Why must peering LANs be between /27 and /19 (IPv4) and not shorter than /64 (IPv6)?
 
 This limit is intended to reduce the likelihood of a typo that goes undetected and causes operational issues. Where a peering LAN uses a /28 or a /18 (IPv4) the Admin Committee can manually process the prefix after verifying its prefix length is correct.
 
