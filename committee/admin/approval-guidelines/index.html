@@ -205,7 +205,7 @@ There are various mechanisms to verify the relationship between the User and a g
 <li>IP prefix must be registered through an RIR or NIR.</li>
 <li>The prefix must not overlap with any existing IXP object in PeeringDB</li>
 <li>IPv4 prefixes must not be longer than a /27 or shorter than /19</li>
-<li>IPv6 prefixes must not be shorter than /64 but may be longer i.e. a /120 is allowed by a /63 is not</li>
+<li>IPv6 prefixes must not be shorter than /64 but may be longer i.e. a /120 is allowed but a /63 is not</li>
 </ul>
 <p>Users can verify their relationship to an IP prefix in several ways:</p>
 <ul>
@@ -287,7 +287,7 @@ services. </p>
 <h3 id="flowchart_2">Flowchart</h3>
 <p><img alt="Exception Process" src="../images/exception-process.png" /></p>
 <h2 id="appendix">Appendix</h2>
-<h4 id="why-must-peering-lans-be-between-27-and-19-ipv4-or-shorter-than-64-ipv6">Why must peering LANs be between /27 and /19 (IPv4) or shorter than /64 (IPv6)?</h4>
+<h4 id="why-must-peering-lans-be-between-27-and-19-ipv4-and-not-shorter-than-64-ipv6">Why must peering LANs be between /27 and /19 (IPv4) and not shorter than /64 (IPv6)?</h4>
 <p>This limit is intended to reduce the likelihood of a typo that goes undetected and causes operational issues. Where a peering LAN uses a /28 or a /18 (IPv4) the Admin Committee can manually process the prefix after verifying its prefix length is correct.</p>
 <p>The technical standards do not allow LANs to have prefixes shorter than a /64, so a /63 would be rejected to avoid causing operational issues to operator equipment that is standards compliant.</p></div>
         </div>
