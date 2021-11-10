@@ -29,8 +29,6 @@ Release Date: 11 November, 2020
 | [#859 IX\-F Importer: ERROR: 'IXFMemberData' object has no attribute 'ixf\_log\_entry'](https://github.com/peeringdb/peeringdb/issues/859) | See #850. |
 | [#860 IX\-F Importer Blocker: "Days until DeskPRO ticket is created" should now be ignored/removed, such that no ticket or emails happen after a delay](https://github.com/peeringdb/peeringdb/issues/860) | See #850. |
 
-
-
 ## Release 2.23.0
 Beta Announcement Date: 30 September, 2020
 Release Date: 7 October, 2020

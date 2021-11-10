@@ -7,6 +7,10 @@
 
 ## Meeting notes
 
+- [November 2nd, 2021: Meeting Notes](notes/2021-11-02_Outreach_Committee_Notes.pdf)
+- [October 5th, 2021: Meeting Notes](notes/2021-10-05_Outreach_Committee_Notes.pdf)
+- [September 7th, 2021: Meeting Notes](notes/2021-09-07_Outreach_Committee_Notes.pdf)
+- [July 6th, 2021: Meeting Notes](notes/2021-07-06_Outreach_Committee_Notes.pdf)
 - [June 1st, 2021: Meeting Notes](notes/2021-06-01_Outreach_Committee_Notes.pdf)
 - [May 5th, 2021: Meeting Notes](notes/2021-05-04_Outreach_Committee_Notes.pdf)
 - [April 6th, 2021: Meeting Notes](notes/2021-04-06_Outreach_Committee_Notes.pdf)

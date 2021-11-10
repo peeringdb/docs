@@ -1,5 +1,9 @@
 # Presentations
 
+## 2021
+- [PeeringDB Update](presentation/Semana_Capacitacao_2021_Sao_Paulo-peeringdb-20211001.pdf) at [Semana de Capacitação On-line 3](https://semanacap.bcp.nic.br/3-online/) - October 1, 2021 - Julimar Lunguinho Mendes
+- [PeeringDB Update](presentation/WTR_POP-MA_2021_Sao_Luis-peeringdb-20210930.pdf) at [WTR PoP-MA](https://wtr.rnp.br/pop-ma/programacao) - September 30, 2021 - Julimar Lunguinho Mendes
+
 ## 2020
 
 - [PeeringDB](presentation/IX_Forum_14_Sao_Paulo-peeringdb-20201204-V3.pdf) at [IX Fórum 14](https://forum.ix.br/#schedule) - December 4, 2020 - Julimar Lunguinho Mendes ([video](https://www.youtube.com/watch?v=9EIBgF6okWs))

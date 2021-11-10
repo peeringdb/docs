@@ -23,12 +23,14 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Policies
 
 - [Acceptable Use Policy](https://www.peeringdb.com/aup)
+- [Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
 - [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
+- [Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
 - [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
 
 ## Board Meetings
 
-- 2021: [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
+- 2021: [2021-09-01](gov/legaldocs/2021-09-01_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
 - 2020: [2020-07-09](gov/legaldocs/2020-07-09_PeeringDB_Board_Minutes.pdf), [2020-05-08](gov/legaldocs/2020-05-08_PeeringDB_Board_Minutes.pdf), [2020-01-13](gov/legaldocs/2020-01-13_PeeringDB_Board_Minutes.pdf)
 - 2019: [2019-09-27](gov/legaldocs/2019-09-27_PeeringDB_Board_Minutes.pdf), [2019-07-16](gov/legaldocs/2019-07-16_PeeringDB_Board_Minutes.pdf), [2019-05-16](gov/legaldocs/2019-05-16_PeeringDB_Board_Minutes.pdf), [2019-03-27](gov/legaldocs/2019-03-27_PeeringDB_Board_Minutes.pdf), [2019-01-29](gov/legaldocs/2019-01-29_PeeringDB_Board_Minutes.pdf)
 - 2018: [2018-11-15](gov/legaldocs/2018-11-15_PeeringDB_Board_Minutes.pdf), [2018-10-09](gov/legaldocs/2018-10-09_PeeringDB_Board_Minutes.pdf), [2018-07-19](gov/legaldocs/2018-07-19_PeeringDB_Board_Minutes.pdf), [2018-05-18](gov/legaldocs/2018-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2018-04-09](gov/legaldocs/2018-04-09_PeeringDB_Board_Minutes.pdf), [2018-02-08](gov/legaldocs/2018-02-08_PeeringDB_Board_Minutes.pdf)
@@ -58,6 +60,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Organizational Documents
 
+- [November 1st, 2021: Annual Report](gov/legaldocs/2021-11-01_PeeringDB_Annual_Report.pdf)
 - [November 2nd, 2020: Annual Report](gov/legaldocs/2020-11-02_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2019: Annual Report](gov/legaldocs/2019-11-01_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2018: Annual Report](gov/legaldocs/2018-11-01_PeeringDB_Annual_Report.pdf)

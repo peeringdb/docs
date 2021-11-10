@@ -4,14 +4,19 @@
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QA2PvYbvDhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Create and account and [register](https://www.peeringdb.com/register) in PeeringDB to get started.
+## Policies
+
+* By using this service, you agree to adhere to PeeringDB's [Acceptable Use Policy](https://www.peeringdb.com/aup).
+* The [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](committee/admin/approval-guidelines/) documents PeeringDB’s registration approval process.
+
+## Getting started
+
+* Several short [HOWTOs](/howtos) provide a beginner detailed instructions on how to get started using PeeringDB.
+* Create and account and [register](https://www.peeringdb.com/register) in PeeringDB.
 
 ## Getting help
 
 * Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
-
-* Several PeeringDB mailing lists are listed below.
-
 * Questions, comments and everything else should go to <support@peeringdb.com>.
 
 ## Mailing lists
@@ -35,7 +40,7 @@ We have changed the way in which PeeringDB will be announcing future enhancement
 
 Our goal is to give you all the information you want, and no more.  Please subscribe to any of these lists you feel are appropriate, or none. You will still be able to use the database even if you are not subscribed to any lists.
 
-## Quick start
+## Quick API start
 
 PeeringDB is available at <https://www.peeringdb.com/> with self-describing API docs at <https://www.peeringdb.com/apidocs/>.  More thorough docs are at [API Specs](api_specs.md), but in a nutshell, just prepend the URL with `api/` to get that object in JSON.
 

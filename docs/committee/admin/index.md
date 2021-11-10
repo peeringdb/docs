@@ -15,9 +15,10 @@
 
 ## Members
 - Shaun Coffey
-- Darwin Da Costa (Chair)
+- Darwin Da Costa (Vice Chair)
 - Stefan Funke
 - Alexandre Guimaraes
+- Patrick Gilmore (Chair)
 - Chriztoffer Hansen
 - Peter Helmenstine
 - Julimar Lunguinho Mendes
