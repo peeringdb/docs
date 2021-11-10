@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2320">Release 2.32.0</a></li>
             <li><a href="#release-2310">Release 2.31.0</a></li>
             <li><a href="#release-2300">Release 2.30.0</a></li>
             <li><a href="#release-2291">Release 2.29.1</a></li>
@@ -149,6 +150,55 @@
 <h1 id="release-notes">Release Notes</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2320">Release 2.32.0</h2>
+<p>Beta Announcement Date: 10 November 2021<br />
+Release Date: 17 November 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/695">#695 Auto focus cursor on search field on main website</a></td>
+<td>Places cursor in search box on first opening https://www.peeringdb.com</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/954">#954 Rework ordering of dependencies</a></td>
+<td>Improved load speed for pages with large lists</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/748">#748 PeeringDB website has a poor choice of line-breaks for IPv6 addresses</a></td>
+<td>IP addresses now have a <code>no wrap</code> style option so their numeric values aren't broken across lines</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/949">#949 Add sales email and phone contact to ix object</a></td>
+<td><code>ix</code> objects can now have a <code>sales_email</code> and <code>sales_phone</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/838">#838 Delete childless org objects</a></td>
+<td>Notifies admins of childless <code>org</code>s that they have no objects and deletes the <code>org</code> after 30 days if none are added</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/956">#956 api documentation generate broken</a></td>
+<td>Fixes a bug that stopped the https://www.peeringdb.com/apidocs/ beingh updated automatically</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/962">#962 Increase timeout timer for IX-F JSON importer to 30s</a></td>
+<td>Adds setting to control IX-F importer request timeout and default to 30 seconds</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1054">#1054 IX-F manually triggered import bugs</a></td>
+<td>Fixes bugs triggered by manually importing IX-F data</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/807">#807 [beta] IX-F importer: manual add followed by IX-F prompted add can result in "The server rejected your data"</a></td>
+<td>Resolves a bug triggered by manually adding <code>netixlan</code> in rare situations</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2310">Release 2.31.0</h2>
 <p>Beta Announcement Date: 12 October 2021<br />
 Release Date: 20 October 2021</p>
@@ -182,7 +232,7 @@ Release Date: 20 October 2021</p>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/453">#453 Missing sponsor status in translations</a></td>
-<td>Fixes translation bugs related to sponsorships</td>
+<td>Fixed a bug so sponsor badges now show up properly in translations</td>
 </tr>
 </tbody>
 </table>
