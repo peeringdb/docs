@@ -4,7 +4,24 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
-##Release 2.31.0
+## Release 2.32.0
+
+Beta Announcement Date: 10 November 2021
+Release Date: 17 November 2021
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#695 Auto focus cursor on search field on main website](https://github.com/peeringdb/peeringdb/issues/695) | Places cursor in search box on first opening https://www.peeringdb.com |
+| [#954 Rework ordering of dependencies](https://github.com/peeringdb/peeringdb/issues/954) | Improved load speed for pages with large lists |
+| [#748 PeeringDB website has a poor choice of line-breaks for IPv6 addresses](https://github.com/peeringdb/peeringdb/issues/748) | IP addresses now have a `no wrap` style option so their numeric values aren't broken across lines |
+| [#949 Add sales email and phone contact to ix object](https://github.com/peeringdb/peeringdb/issues/949) | `ix` objects can now have a `sales_email` and `sales_phone` |
+| [#838 Delete childless org objects](https://github.com/peeringdb/peeringdb/issues/838) | Notifies admins of childless `org`s that they have no objects and deletes the `org` after 30 days if none are added |
+| [#956 api documentation generate broken](https://github.com/peeringdb/peeringdb/issues/956) | Fixes a bug that stopped the https://www.peeringdb.com/apidocs/ beingh updated automatically |
+| [#962 Increase timeout timer for IX-F JSON importer to 30s](https://github.com/peeringdb/peeringdb/issues/962) | Adds setting to control IX-F importer request timeout and default to 30 seconds |
+| [#1054 IX-F manually triggered import bugs](https://github.com/peeringdb/peeringdb/issues/1054) | Fixes bugs triggered by manually importing IX-F data |
+| [#807 [beta] IX-F importer: manual add followed by IX-F prompted add can result in "The server rejected your data"](https://github.com/peeringdb/peeringdb/issues/807) | Resolves a bug triggered by manually adding `netixlan` in rare situations |
+
+## Release 2.31.0
 
 Beta Announcement Date: 12 October 2021
 Release Date: 20 October 2021
@@ -16,7 +33,7 @@ Release Date: 20 October 2021
 | [#18 IXP and Facility summary](https://github.com/peeringdb/peeringdb/issues/18) | Presents a short statistical summary for `ix`'s and `fac`s |
 | [#232 Incorrect order of search results](https://github.com/peeringdb/peeringdb/issues/232) | ASNs will be moved to the top of the search results when a numeric search is an exact match for that ASN |
 | [#346 Allow users to upload a small logo to their record](https://github.com/peeringdb/peeringdb/issues/346) | `orgs` can now include a small logo in their record |
-| [#453 Missing sponsor status in translations](https://github.com/peeringdb/peeringdb/issues/453) | Fixes translation bugs related to sponsorships |
+| [#453 Missing sponsor status in translations](https://github.com/peeringdb/peeringdb/issues/453) | Fixed a bug so sponsor badges now show up properly in translations |
 
 ## Release 2.30.0
 
