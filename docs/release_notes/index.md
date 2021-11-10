@@ -16,7 +16,7 @@ Release Date: 17 November 2021
 | [#748 PeeringDB website has a poor choice of line-breaks for IPv6 addresses](https://github.com/peeringdb/peeringdb/issues/748) | IP addresses now have a `no wrap` style option so their numeric values aren't broken across lines |
 | [#949 Add sales email and phone contact to ix object](https://github.com/peeringdb/peeringdb/issues/949) | `ix` objects can now have a `sales_email` and `sales_phone` |
 | [#838 Delete childless org objects](https://github.com/peeringdb/peeringdb/issues/838) | Notifies admins of childless `org`s that they have no objects and deletes the `org` after 30 days if none are added |
-| [#956 api documentation generate broken](https://github.com/peeringdb/peeringdb/issues/956) | Fixes a bug that stopped the https://www.peeringdb.com/apidocs/ beingh updated automatically |
+| [#956 api documentation generate broken](https://github.com/peeringdb/peeringdb/issues/956) | Fixes a bug that stopped the https://www.peeringdb.com/apidocs/ being updated automatically |
 | [#962 Increase timeout timer for IX-F JSON importer to 30s](https://github.com/peeringdb/peeringdb/issues/962) | Adds setting to control IX-F importer request timeout and default to 30 seconds |
 | [#1054 IX-F manually triggered import bugs](https://github.com/peeringdb/peeringdb/issues/1054) | Fixes bugs triggered by manually importing IX-F data |
 | [#807 [beta] IX-F importer: manual add followed by IX-F prompted add can result in "The server rejected your data"](https://github.com/peeringdb/peeringdb/issues/807) | Resolves a bug triggered by manually adding `netixlan` in rare situations |
