@@ -105,3 +105,18 @@ No, there are not.
 ### To register network information in the PeeringDB, is an organization required to join as a member?
 
 No, that isn't necessary. 
+
+### Mergers and Acquisitions
+
+In case you are employed by a company that has acquired another company. And are looking to bring the acquired companies ressources in PeeringDB under your own management. Please contact PeeringDB support for assistance.
+
+#### Example
+
+1. Company A has been acquired by Company B.
+2. Both A and B has their own organization (objects) in PeeringDB.
+3. Company B wants to manage A's ressources in PeeringDB under their own PeeringDB organization.
+4. Ressources mananged by Company A _can_ be "transferred" to be managed by Company B, _if_ an organization merge is requested by contacting PeeringDB support.
+5. Open a ticket with PeeringDB support.
+   * Additional information may be requested by our support staff.
+   * If you are contacting PeeringDB support by writing from an e-mail address that is an admin for both the Company A and Company B organizations in PeeringDB. The request will most often be executed right away when reviewed by PeeringDB support.
+
