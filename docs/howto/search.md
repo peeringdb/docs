@@ -27,13 +27,17 @@ You can search for Networks by using the name of the networks by:
 - From the search result, under the Networks section, locate the network you have searched.
 - It would be visible if it is in the PeeringDB database.
 
+![name-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/name-search.png)
+
 2. **ASN Search**
 
 You can search for Networks using their ASN number by:
 - Entering the name of the network as seen below. For the example below the ASN is (36914).
 - From the search result, under the Networks section, locate the network you have searched.
 
-Either of the two methods will get the same search results. 
+![asn-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/asn-search.png)
+
+**Note**: Either of the two methods will get the same search results. 
 
 ### Exchanges
 For this example, let’s consider this Internet exchange points (IXs) **UNY-IX** which is an open internet exchange located in Universitas Negeri Yogyakarta.
@@ -41,20 +45,39 @@ For this example, let’s consider this Internet exchange points (IXs) **UNY-IX*
 - Enter the name of the Internet exchange points (IXs) as shown below.
 - From the search result, under the Exchanges section, locate the Internet exchange points (IXs) you have searched.
 
+![exchange-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/exchange-search.png)
+
 ### Facilities
 Data centers are also referred to as Facilities. For this example, let’s consider this university **University of Oslo** which is an institution in Oslo
 To search for an facilities:
 - Enter the name of the Data center or Facilities as shown below.
 - From the search result, under the Facilities section, locate the Facility or data center you have searched.
+- 
+![facilites-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/facilites-search.png)
 
 
 ## How to use the Search in PeeringDB extension
 The PeeringDB search extension is a free to use Google Chrome extension with which you can use to search for ASNs, Networks, and IXs on PeeringDB.
 
+![search-extension](https://github.com/fakela/docs-3/blob/master/docs/howto/images/search-extension.png)
+
 To get started, go to the [Chrome Web Store](https://chrome.google.com/webstore/detail/search-in-peeringdb/aogffgldgfjelpadabfbcngmndbceiad/related?hl=en) and download the extension, then enable it and add it to your extension bar. There are two ways to use the extension once it has been enabled:
 
 - **Using the Extension Bar Icon**: Click the icon and type your search term into the box. The search will open in a new tab with the search result.
+
+![extension-search-bar](https://github.com/fakela/docs-3/blob/master/docs/howto/images/extension-bar-icon.png)
+
+Below is the result:
+
+![extension-search-bar-result](https://github.com/fakela/docs-3/blob/master/docs/howto/images/extension-bar-icon-result.png)
+
 - **Using the Context Menu**: Right-click on any text on a page and select "Search in PeeringDB". The search will open in a new tab with the search result.
+
+![extension-context-menu](https://github.com/fakela/docs-3/blob/master/docs/howto/images/context-menu.png)
+
+Below is the result:
+
+![extension-context-menu-result](https://github.com/fakela/docs-3/blob/master/docs/howto/images/context-menu-result.png)
 
 If the query or highlighted text contains a number, the extension will attempt to find an ASN. 
 
@@ -63,6 +86,8 @@ You can search based on a partial name. When an organization, network, facility 
 
 In the example below, we want to search for “internet Archive”. We will search for it with a single part and not with the full name. 
 In the search box, input “archive''. This brings out a search result that have similar parts in their names. 
+
+![partial-name-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/partial-name-search.png)
 
 You can now search through the results to find the what you want.
 
@@ -73,12 +98,24 @@ Advanced search in PeeringDB  lets you explicitly filter searches location, netw
 Let’s take a look at this example below to demonstrate how advanced search works. We are going to search for an exchange within a particular region.
 On the front page of PeeringDB you will see the advanced search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB.
 
+![advanced-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-link.png)
+
 - Click on the Advanced search link. This takes you to the Advanced search landing page. The search page shows the Exchanges, Networks, Facilities and organizations tabs. 
+
+![advanced-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-interface.png)
+
 - Go to the Exchange tab, in the country field select a country of your choice by scrolling through the different options.
+
+![advanced-exchange-tab](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-exchange-tab.png)
+
 - On the right hand side, in the network presence field, enter the name of the network. You can follow the example shown below and add KENET.
 - Click on the drop down list that appears as you input the network name.
+
+![network-name-dropdown](https://github.com/fakela/docs-3/blob/master/docs/howto/images/network-drop-down.png)
+
 - Click on Search.
 - Scroll down to view information regarding the exchange that you searched for.
+![advanced-search-result](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-result.png)
 - Click on JSON or CSV to download the information in a structured format.
 
 ## Geographic search
