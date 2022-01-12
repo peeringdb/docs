@@ -1,6 +1,7 @@
 # Presentations
 
 ## 2021
+- [Introduction to PeeringDB](presentation/20211214-gna-g-rwg-meeting.pdf) at [GNA-G Routing WG](https://www.gna-g.net/join-working-group/gna-g-routing-wg/) - December 14, 2021 - Arnold Nipper
 - [PeeringDB Update](presentation/Semana_Capacitacao_2021_Sao_Paulo-peeringdb-20211001.pdf) at [Semana de Capacitação On-line 3](https://semanacap.bcp.nic.br/3-online/) - October 1, 2021 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/WTR_POP-MA_2021_Sao_Luis-peeringdb-20210930.pdf) at [WTR PoP-MA](https://wtr.rnp.br/pop-ma/programacao) - September 30, 2021 - Julimar Lunguinho Mendes
 
