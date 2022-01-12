@@ -113,3 +113,160 @@ Below are the categories of objects types(OBJ) in PeeringDB
 - **Basic Objects**: org, fac, ix, net, poc 
 - **Derived Objects**: ixlan, ixpfx, netixlan, netfac
 
+### Basic Objects
+Below is a description of what each of the object types mean and what information they return
+
+- **org**: Root object for fac, ix, net. Holds information about organisation  
+- **fac**: Describes a facility / colocation record, more useful information are in derived records netfac.
+- **ix**: Describes an Internet Exchange, more useful information are in derived records ixlan, ixpfx and netixlan
+- **net**: Describes a network / ASN, more useful information are in netfac and netixlan
+- **poc**: Describes various role accounts (point of contact). This is currently only for net objects
+- **as_set**: Array of all AS-SETs corresponding to a network / ASN, this was introduced recently.
+
+### Derived Objects
+Below is a description of what each of the object types mean and what information they return.
+
+- **Ixlan**: Describes the LAN of an ix, one ix may have multiple ixlan. This feature may go away with PeeringDB 3.0
+- **ixpfx**: Describes the IP range (IPv4 and IPv6) for an ixlan, one ixlan may have multiple ixpfx
+- **netixlan**: Describes the presence of a network at an IX
+- **netfac**: Describes the presence of a network at a facility
+
+## Authentication
+Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:
+`curl -sG https://username:password@peeringdb.com/api/poc `
+`curl -u username:password https://peeringdb.com/api/poc` 
+**Note**: Access to contact information may be restricted if you are using the API as a guest without authentication.
+
+## Making a Request
+When making a request, the URL base is added with `/api/`, followed by the object type and, if applicable, the object primary key (if applicable).
+For example:`https://peeringdb.com/api/OBJ/id`
+If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter.
+Accept Header: Accept: application/json
+Extension type:`https://peeringdb.com/api/network/42.json`
+
+## Operations
+Using the GET operation you can retrieve information from the PeeringDB database. You can retrieve both a single object and multiple objects in an array. Let’s look at each of them individually. 
+
+### Single Object
+To retrieve a single object you need to use this URL:`https://peeringdb.com/api/OBJ/ID` with this endpoint GET: `/api/OBJ/id`. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example 
+HTTP:`GET /api/OBJ/38` where 38 is the ID
+curl: `curl -H "Accept: application/json" -X GET https://<username>:<password>@peeringdb.com/api/OBJ/38`
+
+There are optional parameters you can add to your URL
+- **str**: which retrieves a comma separated list of field names - only matching fields will be returned in the data.
+- **int**: which retrieves two nested sets and objects. 
+
+**Nested sets and objects**: A nested set or object is any field ending in the suffix: set. For example: net_set will hold network objects. The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API <object_type>_set. So a set called '_net_set_' will hold Network objects (API endpoint /net)
+**Note**: unlike GET multiple, 'depth' here will also expand single relationships in addition to sets. So 'net_id' would get expanded into a network object.
+
+```unexpanded:
+{ 
+  ...
+  "net_id" : 1
+}
+expanded:
+
+{
+  ...
+  "net_id" : 1
+  "net" : {
+     ... network object ...
+  }
+}
+```
+**Depth**
+- 0: don't expand anything
+- 1 to 4: expand all sets and related objects according to level of depth specified
+- 2: it is default
+
+### Multiple Object
+To retrieve a single object you need to use this URL: `https://peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example 
+HTTP: `GET /api/OBJ/` which is the endpoint 
+curl: `curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ`
+
+There are optional parameters you can add to your URL
+- **limit** int limits rows in the result set
+- **skip** int skips n rows in the result set
+- **depth** int nested sets will be loaded (slow)
+- **fields** str comma separated list of field names - only matching fields will be returned in the data
+- **since** int retrieve all objects updated since specified time (unix timestamp, seconds)
+- **[field_name]** int|string queries for fields with matching value
+
+## Real world use cases
+### How do I query by ASN?
+To query this ASN (asn=42) using PeeringDB API, you will need to use this URL
+GET `https://peeringdb.com/api/net?asn=42`
+Where `asn=42` is the query parameter. 
+There are different ways we can get our response:
+
+### Using Python 
+To make use of this python code, first, you’ll have to first install pip and requests. Then, create a file and copy and paste the following code. 
+```import requests
+r = requests.get('https://peeringdb.com/api/net?asn=42')
+print(r.text)
+ 
+with open('output.csv', 'w+') as f:
+    f.write(r.text)
+   ```
+From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format.However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv. 
+**Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods
+
+### Using Jq
+You can use Jq to make a request to your API and get your output in a CSV format
+First, you need to install Jq in your system `https://stedolan.github.io/jq/download/`.
+
+Next, we use this curl command to prepare our JSON file. Cd to a directory and copy and paste this code on your terminal
+```
+curl https://peeringdb.com/api/net?asn=42 > test.json
+
+```
+This creates a new file named test.json To convert input JSON file to the CSV format, copy and paste the following code on your terminal.
+
+```
+jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json
+```
+
+```
+"id","org_id","name","aka","name_long","website","asn","looking_glass","route_server","irr_as_set","info_type","info_prefixes4","info_prefixes6","info_traffic","info_ratio","info_scope","info_unicast","info_multicast","info_ipv6","info_never_via_route_servers","ix_count","fac_count","notes","netixlan_updated","netfac_updated","poc_updated","policy_url","policy_general","policy_locations","policy_ratio","policy_contracts","allow_ixp_update","created","updated","status"
+3924,393,"Packet Clearing House AS42","Woodynet, PCH","","http://www.pch.net/",42,"https://www.pch.net/tools/looking_glass","","RADB::AS-PCH","Educational/Research",600,600,"1-5Gbps","Balanced","Global",true,false,true,false,215,50,"AS 42 handles production DNS traffic for several root servers, about 400 TLDs including 130 ccTLDs, and the Quad9 recursive resolver. AS 3856 handles research traffic for a global network of BGP and DNS looking glasses, and a variety of networking research projects hosted on behalf of academic and industry research labs.
+Please also see http://as3856.peeringdb.com, as we peer using both ASes at every location.","2022-01-03T07:19:09.235986Z","2021-06-04T09:04:21.663241Z","2021-04-2`9T10:31:02.922492Z","http://www.pch.net/peering/","Open","Preferred",false,"Not Required",true,"2011-04-06T02:18:39Z","2021-04-29T10:28:19Z","ok"
+```
+This returns the property at the top and the value at the bottom in a format that makes it easier to read
+
+### Using online converter 
+Alternatively you can use an online tool such as `https://www.convertcsv.com/json-to-csv.htm` to convert the raw json file to csv.
+**Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods.
+
+## How to get all the objects owned by https://www.peeringdb.com/net/961 and convert the data to CSV?
+
+To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. You’ll need to use this GET request
+GET `https://peeringdb.com/api/net/961 `
+create a file and copy and paste the following code. This will retrieve the response which you can see below using this python code
+
+ ```
+import requests
+r = requests.get('https://peeringdb.com/api/net/961')
+print(r.text)
+ 
+with open('output.csv', 'w+') as f:
+    f.write(r.text)
+```
+
+## I want the list of networks and their 'type' peering at MICE in Minneapolis
+```
+import requests
+r = requests.get('https://www.peeringdb.com/api/ix/446')
+# print(r.text) 
+
+with open('output1.csv', 'w+') as f:
+    f.write(r.text)
+```
+## How to find all the IXPs where my org has a presence.
+```
+import requests
+r = requests.get('https://www.peeringdb.com/api/org/187')
+# print(r.text) 
+
+with open('output1.csv', 'w+') as f:
+    f.write(r.text)
+```
