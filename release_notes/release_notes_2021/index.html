@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/release_notes/release_notes_2021/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>2021 Release Notes - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">About</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../committee/admin/">Admin Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/outreach/">Outreach Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/product/">Product Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../api_specs/">API Specs</a>
+</li>
+                                    
+<li >
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
+</li>
+                                    
+<li >
+    <a href="../../oauth/">OAuth</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
+</li>
+                                    
+<li >
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
+                            </li>
+                            <li >
+                                <a href="../../faq/">FAQs</a>
+                            </li>
+                            <li >
+                                <a href="../../blogs/">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/release_notes/release_notes_2021.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#2021-release-notes">2021 Release Notes</a></li>
+            <li><a href="#release-2320">Release 2.32.0</a></li>
+            <li><a href="#release-2310">Release 2.31.0</a></li>
+            <li><a href="#release-2300">Release 2.30.0</a></li>
+            <li><a href="#release-2291">Release 2.29.1</a></li>
+            <li><a href="#release-2290">Release 2.29.0</a></li>
+            <li><a href="#release-2280">Release 2.28.0</a></li>
+            <li><a href="#release-2271">Release 2.27.1</a></li>
+            <li><a href="#release-2261">Release 2.26.1</a></li>
+            <li><a href="#release-2260">Release 2.26.0</a></li>
+            <li><a href="#release-2250">Release 2.25.0</a></li>
+            <li><a href="#older-releases">Older releases</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="2021-release-notes">2021 Release Notes</h1>
+<p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases. Release notes for the current year are available on the <a href="/release_notes/">Release Notes</a> page.</p>
+<p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2320">Release 2.32.0</h2>
+<p>Beta Announcement Date: 10 November 2021<br />
+Release Date: 17 November 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/695">#695 Auto focus cursor on search field on main website</a></td>
+<td>Places cursor in search box on first opening https://www.peeringdb.com</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/954">#954 Rework ordering of dependencies</a></td>
+<td>Improved load speed for pages with large lists</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/748">#748 PeeringDB website has a poor choice of line-breaks for IPv6 addresses</a></td>
+<td>IP addresses now have a <code>no wrap</code> style option so their numeric values aren't broken across lines</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/949">#949 Add sales email and phone contact to ix object</a></td>
+<td><code>ix</code> objects can now have a <code>sales_email</code> and <code>sales_phone</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/838">#838 Delete childless org objects</a></td>
+<td>Notifies admins of childless <code>org</code>s that they have no objects and deletes the <code>org</code> after 30 days if none are added</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/956">#956 api documentation generate broken</a></td>
+<td>Fixes a bug that stopped the https://www.peeringdb.com/apidocs/ beingh updated automatically</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/962">#962 Increase timeout timer for IX-F JSON importer to 30s</a></td>
+<td>Adds setting to control IX-F importer request timeout and default to 30 seconds</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1054">#1054 IX-F manually triggered import bugs</a></td>
+<td>Fixes bugs triggered by manually importing IX-F data</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/807">#807 [beta] IX-F importer: manual add followed by IX-F prompted add can result in "The server rejected your data"</a></td>
+<td>Resolves a bug triggered by manually adding <code>netixlan</code> in rare situations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2310">Release 2.31.0</h2>
+<p>Beta Announcement Date: 12 October 2021<br />
+Release Date: 20 October 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/995">#995 Block registering private ASN ranges</a></td>
+<td>Improves error message to user when attempting to register private ASNs and no longer automatically creates a support ticket</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1007">#1007 Add a continental region field for facilities</a></td>
+<td>Continental region is now recorded for <code>fac</code> and is searchable from the advanced search page</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/18">#18 IXP and Facility summary</a></td>
+<td>Presents a short statistical summary for <code>ix</code>'s and <code>fac</code>s</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/232">#232 Incorrect order of search results</a></td>
+<td>ASNs will be moved to the top of the search results when a numeric search is an exact match for that ASN</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/346">#346 Allow users to upload a small logo to their record</a></td>
+<td><code>orgs</code> can now include a small logo in their record</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/453">#453 Missing sponsor status in translations</a></td>
+<td>Fixed a bug so sponsor badges now show up properly in translations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2300">Release 2.30.0</h2>
+<p>Beta Announcement Date: 14 September 2021<br />
+Release Date: 22 September 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/944">#1944 Remove visibility "Private" from POC</a></td>
+<td>Make the "Private" visibility status invalid and requires an admin to review and update contacts when next making an update to their <code>poc</code> information</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/800">#800 Additional self-selection fields for Facilities</a></td>
+<td>Adds additional fields to Facilities: Offered Space, Offered Power, Offered Resilience with appropriate details</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1">#1016 Add additional advanced search filters for new facility fields from #800</a></td>
+<td>Adds the ability to search based on the new elements defined in #800 using Advanced Search</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1032">#1032 Issue with api relationship filtering via __id</a></td>
+<td>Fixes a bug that impacted filtered searches made via the API</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/500">#500 When network sets netixlan speed to 1200000 only 1T is shown instead of 1.2T ... sometimes</a></td>
+<td>Fixes a bug for speeds above 1Tb</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1024">#1021 504 Gateway Time-out</a></td>
+<td>Fixes a timeout problem with the adminsitrative interface</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1">#1019 IX-F Importer: needless saves to deleted netixlans</a></td>
+<td>Fixes a bug that unnecessarily saved data to deleted objects</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2291">Release 2.29.1</h2>
+<p>Release Date: 26 August 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1034">#1034 CORS Access-Control-Allow-Origin header missing in API responses</a></td>
+<td>Fixes an issue that stopped cross site API requests in the browser</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1036">#1036 Issue with verification queue and deskpro ticket creation</a></td>
+<td>Fixes an issue that stopped newly created objects creating verification queue entries and a deskpro ticket</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2290">Release 2.29.0</h2>
+<p>Beta Announcement Date: 18 August 2021<br />
+Release Date: 25 August 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/779">#779 Allow IXP to trigger ix-f importer for their exchange</a></td>
+<td>Exchanges can now trigger theIX-F importer and the UI communicates the status of the request</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/920">#920 IX-F Importer: ticket status change when posting re-occuring conflict to existing resolved ticket </a></td>
+<td>Improve internal handling of IX-F importer conflicts</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/967">#967 IX-F Importer: fix command output buffering </a></td>
+<td>Improve handling of output from IX-F importer command</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/903">#903 Describe the 'DOT1Q' flag</a></td>
+<td>Set the field to <code>false</code> and made it read only (with a tooltip for the web interface) until v3 of the API</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/715">#715 Support for Django 3 </a></td>
+<td>Upgrade to Django 3.2.1 and upgrade dependencies where possible</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/166">#166 Add name, city, country to ixfac (GET operation) </a></td>
+<td>Add read-only fields <code>name</code>, <code>city</code> and <code>country</code> to object <code>ixfac</code>. The values for these fields are <code>fac.name</code>,    <code>fac.city</code> and   <code>fac.country</code> from the facility <code>fac</code> with <code>id</code> == <code>fac_id</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1023">#1023 Bug with email reports for internal errors </a></td>
+<td>Fixes an error with e-mail notifications for internal errors</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1026">#1026 Fallback captcha solution is broken </a></td>
+<td>Fixes the fallback CAPTCHA on the account signup page</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1013">#1013 The process to permanently remove old soft-deleted network contacts pdb_delete_pocs raises a false ProtectedAction </a></td>
+<td>Fixes a problem with adminsitrators permanently deleting contacts.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1015">#1015 Fallback captcha solution is broken </a></td>
+<td>Fixes a CAPTCHA bug affecting the AC through work on #715</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2280">Release 2.28.0</h2>
+<p>Beta Announcement Date: 14 July 2021<br />
+Release Date: 21 July 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/23">#23 make websearch smarter </a></td>
+<td>Provide a better search experience for quick search, advanced search and API filtering. The key features are properly indexed search, which supports search based on partial name matches, and geocoded search, which supports search based on coordinates.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/965">#965 IX-F importer: intermittent bug during consolidation of notifications </a></td>
+<td>Fixes a bug with the IX-F Member Export importer that resulted in intermittent import failures.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/863">#863 Improve error handling when a user tries to add an object which is already there </a></td>
+<td>Increases visibility of field validation error notes by increasing size and font weight.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/375">#375 On changing email address rescan open affiliation requests </a></td>
+<td>When a user changes their e-mail address we now automatically re-evaluate any open affiliation request that the user has that are tied to an ASN.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/923">#923 Prevent deletion of a last technical contact if there is an existing netixlan object </a></td>
+<td>Prevents deletion of the last technical contact of existing <code>netixlan</code>, i.e. enforce that <code>netixlan</code> should always have at least one technical contact</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2271">Release 2.27.1</h2>
+<p>Beta Announcement Date: 19 May, 2021<br />
+Release Date: 26 May, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/946">#946 Evaluate non-google map/geo sources </a></td>
+<td>Evaluated alternative geo data APIs and selected Melissa.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/802">#802 Extend Advanced Search for IXes and Facilities </a></td>
+<td>Adds search filters to advanced search (ix capacity search, organization presence search, and network presence search.)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/799">#799 Additional self-selection fields for IX objects </a></td>
+<td>Added <code>service_level</code> and <code>terms</code> fields to InternetExchange objects to allow exchanges to share additional ifnormation about their offering. These are supported as filters in the advanced search.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/834">#834 Add ix_count to object fac </a></td>
+<td>In the API, added a read-only field to <code>fac</code> called <code>ix_count</code> that counts the number of exchanges the linked to the facility).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/835">#835 Add {ix,fac}_count to object net </a></td>
+<td>In the API, added read-only fields to <code>net</code> called <code>ix_count</code> and <code>fac_count</code> that count the number of exchanges and facilities linked to the network).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/836">#836 Add fac_count to object ix </a></td>
+<td>In the API, added a read-only field to <code>ix</code> called <code>fac_count</code> that counts the number of facilities in which the exchange has a presence.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/922">#922 Circumvent approval of a facility by deleting and re-adding </a></td>
+<td>Fixed bug where if a user deletes a status "pending" fac, they can re-add it and it will be status "ok" (should be "pending").</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/810">#810 Get rid of the 'Protocols supported' fields / UI for IXes </a></td>
+<td>Removed <code>proto_unicast</code>, <code>proto_multicast</code>, and <code>proto_ipv6</code> fields from <code>ix</code> UI. The fields remain in the v2 api but <code>proto_ipv6</code> and <code>proto_unicast</code> will be populated from the existance of protocols in the exchange's <code>ixpfx</code> records.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/885">#985 500 Error on advanced search </a></td>
+<td>Resolved an issue where unauthenticated users got a 500 error in advanced search.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2261">Release 2.26.1</h2>
+<p>Beta Announcement Date: 14 April, 2021<br />
+Release Date: 21 April, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/883">#883 IXF-Importer: minimise emails to Support/DeskPRO/AC </a></td>
+<td>This change collates all importer suggestions into a single e-mail notification.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/931">#931 Limit the number of requests for affiliation to an ASN/org to 1 </a></td>
+<td>Limits the number of affiliation request to an ASN to just one. Provides visual feedback on subsequent request attempts.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/913">#913 API should do an IP6 address instead of a string match </a></td>
+<td>Normalizes how IPv6 addresses are stored in the database and updates existing IPv6 addresses in the databases and elsewhere.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2260">Release 2.26.0</h2>
+<p>Beta Announcement Date: 10 March, 2021<br />
+Release Date: 24 March, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/266">#266 Add API Keys </a></td>
+<td>This release introduces organization level <a href="https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md">API Keys</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/827">#827 Make GUI and API feature equivalent </a></td>
+<td>PeeringDB has a GUI and an API. This issue is a reminder to keep both feature equivalent.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/865">#865 Allow arbitrary decimal places as input for longitude and latitude. Systems rounds to six </a></td>
+<td>Allow arbitrary length of inputs to latitude and longitude. Round to 6 digits (including Google Maps output).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/266">#902 Add "long name" or "aka" field to 'fac' records </a></td>
+<td>add fields <code>aka</code> and <code>name_long</code> to object <code>fac</code>, <code>ix</code>, <code>net</code>, and <code>org</code>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/937">#937 Geocode for org is broken </a></td>
+<td>This was fixed through work on #940.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/939">#939 Replace Validation Error with Validation "Warning" for geolocation validation </a></td>
+<td>If our address validation service cannot find an address corresponding to the user-inputed address it will allow the object to be saved and raise a "validation warning" in the meta object of the API response. The web UI will display a pop-up based on this warning.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/940">#940 Return geo-normalized fields as "suggested address" </a></td>
+<td>In an effort to normalize addresses, the system may overwrite the user input. In case of a mismatch, the user now is prompted with a "suggested address" and either confirms or rejects. In case of rejection, the address is taken as provided by the user. Please keep an eye on what you provided and what is suggested. The suggestion may flip street name and house name as well as cut off postal codes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/918">#918 drop travis ci and move to github actions </a></td>
+<td>Changed CI environment to improve deployment speed.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2250">Release 2.25.0</h2>
+<p>Release Date: 3 February, 2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/246">#246 IXF should be IX-F </a></td>
+<td>This release introduces various spelling corrections.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/828">#828 IX-F importer: Handle ipv4/ipv6 on same vlan but separate connections </a></td>
+<td>This issue deals with how the IX-F importer handles information from the IX-F JSON import. PeeringDB handles both the IPv4 as well as the IPv6 address in the same object (<code>netixlan</code>). And from a peering partner pov this is ok as it doesn't matter whether these addresses are on the same interface or even same router. However, IX-F JSON differentiates. For the time being, the importer combines IPv4 and IPv6 if both are set to an operational status in the IX-F JSON.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/846">#846 IX-F importer: if ixf_ixp_member_list_url is null then ixf_ixp_import_enabled can't be true </a></td>
+<td>Apply logic to the meaning of <code>ixf_ixp_member_list_url</code>. i.e. only allow <code>ixf_ixp_import_enabled</code> to be set to <code>true</code> if a URL is specified.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/875">#875 "IXF-Importer: improved handling of how contacts are joined into direct conflict resolution deskpro tickets"</a></td>
+<td>Resolved an issue where responses to automatically generated Deskpro tickets were routed to the wrong ticket.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/878">#878 IXF-Importer: reorder of email content </a></td>
+<td>This is mainly an internal improvement. And fixes also not disclosing private IXP information to the public.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/882">#882 IXF-Importer: don't abort when there is nothing to import </a></td>
+<td>If there is nothing to import from an IX-F JSON don't abort with an error message.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/893">#893 IX-F Importer: history of changes per ixlan &amp; netixlan </a></td>
+<td>Fixed bug related to the logging of importer changes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/896">#896 IX-F Importer: Bogus output of "Preview" tool </a></td>
+<td>Fixed a bug in the preview tool, where <code>invalid member type ignored</code> messages weren't filtered for the network viewing the preview.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/888">#888 Type issue when overriding settings through environment variables for numeric types </a></td>
+<td>Fixed a bug and now ensure that overrides are coerced to the correct expected type.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/872">#872 Update dependencies </a></td>
+<td>Updated container to python 3.9 and addressed all dependencies.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/694">#694 add syntactic sugar for entering port speeds </a></td>
+<td>Simplifies the UI for editing port speeds to make it more human friendly.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/717">#717 Loading time issue /cp facility view </a></td>
+<td>Fixed slow load or timeouts for loading data for some facilities</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/837">#837 Provide a friendlier explanation when entering / changing a phone number </a></td>
+<td>Provides a tooltip to help people enter E.164 formatted telephone numbers.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/541">#541 When looking at a network record, show last updated ix&lt;-&gt;net or fac&lt;-&gt;net date </a></td>
+<td>Improved information about when records were last updated.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="older-releases">Older releases</h2>
+<ul>
+<li><a href="/release_notes/release_notes_2020/">2020 Release Notes</a></li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-twitter.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
