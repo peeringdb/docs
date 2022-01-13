@@ -253,7 +253,7 @@ Where `asn=42` is the query parameter.
 
 
 ### Using Python 
-To make use of this python code, first, you’ll have to first install python if you don’t have it installed. Then, install pip and requests. After that create a python file and copy and paste the following code. 
+To make use of this python code, first, you’ll have to first install [python](https://www.python.org/downloads/) if you don’t have it installed. Then, install [pip](https://pip.pypa.io/en/stable/cli/pip_install/) and [requests](https://docs.python-requests.org/en/latest/user/install/). After that create a python file and copy and paste the following code. 
 
 ```
 import requests
@@ -309,7 +309,7 @@ To get the list of networks and their type peering at Mice in Minneapolis, copy 
 ```
 curl -sG https://peeringdb.com/api/netixlan --data-urlencode net_id__in=446 --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix --data-urlencode city=Minneapolis | jq -c '[.data[].id]' | sed 's/\[//;s/\]//'` | jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | sort -V
 ```
-## How to find all the IXPs where my org has a presence.
+## How to find all the ixps where my org has a presence.
 Using python: Follow the first example to install python and the requirements. Then, Create a python file and copy and paste the following code. This will retrieve the response which you can see below using this python code
 ```
 import requests
