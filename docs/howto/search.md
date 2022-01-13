@@ -14,7 +14,7 @@ There is no need to create an account in order to use the basic search functiona
 By using PeeringDB, data centers referred to as Facilities and Internet exchange points (IXs) can increase their visibility to potential and existing customers by adding or updating their records in the database, making it significantly easier for networks to access information about their service.
 
 ## How to search for Exchanges, Facilities and Networks in PeeringDB
-On the [front page](https://www.peeringdb.com/) of PeeringDB you will see a simple search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB by simply entering the desired name on the search. Let’s demonstrate with some examples to see how this works.
+On the [front page](https://www.peeringdb.com/) of PeeringDB, you will see a simple search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB by simply entering the desired name on the search. Let’s demonstrate with some examples to see how this works.
 
 ### Networks
 For this example, we have this network **KENET** which is a non-profit operator for education and research and we want to search for it on PeeringDB. 
@@ -52,9 +52,8 @@ Data centers are also referred to as Facilities. For this example, let’s consi
 To search for an facilities:
 - Enter the name of the Data center or Facilities as shown below.
 - From the search result, under the Facilities section, locate the Facility or data center you have searched.
-- 
-![facilites-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/facilites-search.png)
 
+![facilites-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/facilites-search.png)
 
 ## How to use the Search in PeeringDB extension
 The PeeringDB search extension is a free to use Google Chrome extension with which you can use to search for ASNs, Networks, and IXs on PeeringDB.
@@ -84,8 +83,7 @@ If the query or highlighted text contains a number, the extension will attempt t
 ## How to search based on a partial name
 You can search based on a partial name. When an organization, network, facility or exchange name has two parts, you can search for just the first or second part and then select from all the organizations that share that name. This makes it easier to find the organization you want. This can also be helpful in a situation where you can not remember the name of the organization in full. 
 
-In the example below, we want to search for “internet Archive”. We will search for it with a single part and not with the full name. 
-In the search box, input “archive''. This brings out a search result that have similar parts in their names. 
+In the example below, we want to search for “internet archive”. We will search for it with a single part and not with the full name. In the search box, input “archive''. This brings out a search result that have similar parts in their names. 
 
 ![partial-name-search](https://github.com/fakela/docs-3/blob/master/docs/howto/images/partial-name-search.png)
 
@@ -93,7 +91,8 @@ You can now search through the results to find the what you want.
 
 ## What is an Advanced search
 Advanced search in PeeringDB  lets you explicitly filter searches location, network presence, service level and a wide range of other features. You get the results you’re looking for and can export them in structured data formats (JSON or CSV), so you can import the data into tools that will help you make decisions. 
-> **Note**: You need to be logged in to PeeringDB in order to use some of the features of Advanced Search, including the radius search.
+
+**Note**: You need to be logged in to PeeringDB in order to use some of the features of Advanced Search, including the radius search.
 
 Let’s take a look at this example below to demonstrate how advanced search works. We are going to search for an exchange within a particular region.
 On the front page of PeeringDB you will see the advanced search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB.
@@ -115,15 +114,18 @@ On the front page of PeeringDB you will see the advanced search box which you ca
 
 - Click on Search.
 - Scroll down to view information regarding the exchange that you searched for.
-![advanced-search-result](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-result.png)
 - Click on JSON or CSV to download the information in a structured format.
+
+![advanced-search-result](https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-result.png)
 
 ## Geographic search
 As new facilities are created in our database they will be linked to geographic coordinates. PeeringDB has improved search by changing the way it records data for location in its database. You can now search for facilities with a distance radius of a chosen coordinate. 
 
 ### How to search for facilities within a given radius
 You can search for facilities within a given radius, using the Advanced Search interface. Users can search from a country and city, and select a radius in kilometers or miles. Of course, you can achieve the same results using the API or the web interface, which means you can integrate this feature into your own tools.
-> Note: You need to be logged in to PeeringDB in order to search for facilities within a given radius.
+
+**Note**: You need to be logged in to PeeringDB in order to search for facilities within a given radius.
+
 - Login in or Register an account on PeeringDB
 - On the front page of PeeringDB, click on the Advanced search link
 - Go to the Facilities Tab and in the city/postal field add a city or postal of your choice
@@ -133,6 +135,7 @@ You can search for facilities within a given radius, using the Advanced Search i
 - Scroll down to view the information you searched for. The search result will bring up facilities which are in that country, city and state.
 - You can download your information in a JSON or CSV format.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FzOUKhJjRRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Querying with PeeringDB API
 
@@ -144,7 +147,7 @@ The PeeringDB database can be queried using a REST API. REST allows a client to 
 
 ## Object Types
 Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.
-For example: https://peeringdb.com/api/OBJ. The endpoint is: `/api/OBJ`.
+For example: [https://peeringdb.com/api/OBJ](https://peeringdb.com/api/OBJ). The endpoint is: `/api/OBJ`.
 
 Below are the categories of objects types(OBJ) in PeeringDB
 - **Basic Objects**: org, fac, ix, net, poc 
@@ -153,32 +156,37 @@ Below are the categories of objects types(OBJ) in PeeringDB
 ### Basic Objects
 Below is a description of what each of the object types mean and what information they return
 
-- **org**: Root object for fac, ix, net. Holds information about organisation  
+- **org**: Root object for fac, ix, net, this holds information about organisation.  
 - **fac**: Describes a facility / colocation record, more useful information are in derived records netfac.
-- **ix**: Describes an Internet Exchange, more useful information are in derived records ixlan, ixpfx and netixlan
-- **net**: Describes a network / ASN, more useful information are in netfac and netixlan
-- **poc**: Describes various role accounts (point of contact). This is currently only for net objects
+- **ix**: Describes an Internet Exchange, more useful information are in derived records ixlan, ixpfx and netixlan.
+- **net**: Describes a network / ASN, more useful information are in netfac and netixlan.
+- **poc**: Describes various role accounts (point of contact), this is currently only for net objects.
 - **as_set**: Array of all AS-SETs corresponding to a network / ASN, this was introduced recently.
 
 ### Derived Objects
 Below is a description of what each of the object types mean and what information they return.
 
-- **Ixlan**: Describes the LAN of an ix, one ix may have multiple ixlan. This feature may go away with PeeringDB 3.0
-- **ixpfx**: Describes the IP range (IPv4 and IPv6) for an ixlan, one ixlan may have multiple ixpfx
-- **netixlan**: Describes the presence of a network at an IX
-- **netfac**: Describes the presence of a network at a facility
+- **Ixlan**: Describes the LAN of an ix, one ix may have multiple ixlan. This feature may go away with PeeringDB 3.0.
+- **ixpfx**: Describes the IP range (IPv4 and IPv6) for an ixlan, one ixlan may have multiple ixpfx.
+- **netixlan**: Describes the presence of a network at an IX.
+- **netfac**: Describes the presence of a network at a facility.
 
 ## Authentication
 Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:
-`curl -sG https://username:password@peeringdb.com/api/poc `
+
+`curl -sG https://username:password@peeringdb.com/api/poc`
+
 `curl -u username:password https://peeringdb.com/api/poc` 
+
 **Note**: Access to contact information may be restricted if you are using the API as a guest without authentication.
 
 ## Making a Request
 When making a request, the URL base is added with `/api/`, followed by the object type and, if applicable, the object primary key (if applicable).
 For example:`https://peeringdb.com/api/OBJ/id`
 If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter.
-Accept Header: Accept: application/json
+
+Accept Header: `Accept: application/json`
+
 Extension type:`https://peeringdb.com/api/network/42.json`
 
 ## Operations
@@ -186,7 +194,9 @@ Using the GET operation you can retrieve information from the PeeringDB database
 
 ### Single Object
 To retrieve a single object you need to use this URL:`https://peeringdb.com/api/OBJ/ID` with this endpoint GET: `/api/OBJ/id`. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example 
+
 HTTP:`GET /api/OBJ/38` where 38 is the ID
+
 curl: `curl -H "Accept: application/json" -X GET https://<username>:<password>@peeringdb.com/api/OBJ/38`
 
 There are optional parameters you can add to your URL
@@ -218,7 +228,9 @@ expanded:
 
 ### Multiple Object
 To retrieve a single object you need to use this URL: `https://peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example 
+
 HTTP: `GET /api/OBJ/` which is the endpoint 
+
 curl: `curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ`
 
 There are optional parameters you can add to your URL
@@ -230,29 +242,37 @@ There are optional parameters you can add to your URL
 - **[field_name]** int|string queries for fields with matching value
 
 ## Real world use cases
+We will show you different usecases on how to use the PeeringDB API
+
+**Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods
+
 ### How do I query by ASN?
 To query this ASN (asn=42) using PeeringDB API, you will need to use this URL
 GET `https://peeringdb.com/api/net?asn=42`
 Where `asn=42` is the query parameter. 
-There are different ways we can get our response:
+
 
 ### Using Python 
-To make use of this python code, first, you’ll have to first install pip and requests. Then, create a file and copy and paste the following code. 
-```import requests
+To make use of this python code, first, you’ll have to first install python if you don’t have it installed. Then, install pip and requests. After that create a python file and copy and paste the following code. 
+
+```
+import requests
 r = requests.get('https://peeringdb.com/api/net?asn=42')
 print(r.text)
  
 with open('output.csv', 'w+') as f:
     f.write(r.text)
-   ```
+  ```
+   
 From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format.However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv. 
-**Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods
+
 
 ### Using Jq
 You can use Jq to make a request to your API and get your output in a CSV format
-First, you need to install Jq in your system `https://stedolan.github.io/jq/download/`.
+First, you need to install [Jq](https://stedolan.github.io/jq/download/) in your system.
 
 Next, we use this curl command to prepare our JSON file. Cd to a directory and copy and paste this code on your terminal
+
 ```
 curl https://peeringdb.com/api/net?asn=42 > test.json
 
@@ -263,22 +283,17 @@ This creates a new file named test.json To convert input JSON file to the CSV fo
 jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json
 ```
 
-```
-"id","org_id","name","aka","name_long","website","asn","looking_glass","route_server","irr_as_set","info_type","info_prefixes4","info_prefixes6","info_traffic","info_ratio","info_scope","info_unicast","info_multicast","info_ipv6","info_never_via_route_servers","ix_count","fac_count","notes","netixlan_updated","netfac_updated","poc_updated","policy_url","policy_general","policy_locations","policy_ratio","policy_contracts","allow_ixp_update","created","updated","status"
-3924,393,"Packet Clearing House AS42","Woodynet, PCH","","http://www.pch.net/",42,"https://www.pch.net/tools/looking_glass","","RADB::AS-PCH","Educational/Research",600,600,"1-5Gbps","Balanced","Global",true,false,true,false,215,50,"AS 42 handles production DNS traffic for several root servers, about 400 TLDs including 130 ccTLDs, and the Quad9 recursive resolver. AS 3856 handles research traffic for a global network of BGP and DNS looking glasses, and a variety of networking research projects hosted on behalf of academic and industry research labs.
-Please also see http://as3856.peeringdb.com, as we peer using both ASes at every location.","2022-01-03T07:19:09.235986Z","2021-06-04T09:04:21.663241Z","2021-04-2`9T10:31:02.922492Z","http://www.pch.net/peering/","Open","Preferred",false,"Not Required",true,"2011-04-06T02:18:39Z","2021-04-29T10:28:19Z","ok"
-```
-This returns the property at the top and the value at the bottom in a format that makes it easier to read
-
 ### Using online converter 
-Alternatively you can use an online tool such as `https://www.convertcsv.com/json-to-csv.htm` to convert the raw json file to csv.
+Alternatively you can use an online tool such as [https://www.convertcsv.com/json-to-csv.htm](https://www.convertcsv.com/json-to-csv.htm) to convert the raw json file to csv.
+
 **Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods.
 
-## How to get all the objects owned by https://www.peeringdb.com/net/961 and convert the data to CSV?
+## How to get all the objects owned by [https://www.peeringdb.com/net/961](https://www.peeringdb.com/net/961) and convert the data to CSV?
 
 To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. You’ll need to use this GET request
-GET `https://peeringdb.com/api/net/961 `
-create a file and copy and paste the following code. This will retrieve the response which you can see below using this python code
+GET `https://peeringdb.com/api/net/961`
+
+Using python: Follow the first example to install python and the requirements. Then, Create a python file and copy and paste the following code. This will retrieve the response which you can see below using this python code
 
  ```
 import requests
@@ -290,15 +305,12 @@ with open('output.csv', 'w+') as f:
 ```
 
 ## I want the list of networks and their 'type' peering at MICE in Minneapolis
+To get the list of networks and their type peering at Mice in Minneapolis, copy and paste the following code in your terminal
 ```
-import requests
-r = requests.get('https://www.peeringdb.com/api/ix/446')
-# print(r.text) 
-
-with open('output1.csv', 'w+') as f:
-    f.write(r.text)
+curl -sG https://peeringdb.com/api/netixlan --data-urlencode net_id__in=446 --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix --data-urlencode city=Minneapolis | jq -c '[.data[].id]' | sed 's/\[//;s/\]//'` | jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | sort -V
 ```
 ## How to find all the IXPs where my org has a presence.
+Using python: Follow the first example to install python and the requirements. Then, Create a python file and copy and paste the following code. This will retrieve the response which you can see below using this python code
 ```
 import requests
 r = requests.get('https://www.peeringdb.com/api/org/187')
