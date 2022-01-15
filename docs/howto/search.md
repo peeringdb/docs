@@ -246,11 +246,16 @@ We will show you different usecases on how to use the PeeringDB API
 
 **Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods
 
-### How do I query by ASN?
+## How do I query by ASN?
 To query this ASN (asn=42) using PeeringDB API, you will need to use this URL
 GET `https://peeringdb.com/api/net?asn=42`
 Where `asn=42` is the query parameter. 
 
+### Using Curl
+Using Curl example to get this specific network. Copy and paste the following to your command line interface.
+```
+curl GET https://peeringdb.com/api/net/20
+```
 
 ### Using Python 
 To make use of this python code, first, you’ll have to first install [python](https://www.python.org/downloads/) if you don’t have it installed. Then, install [pip](https://pip.pypa.io/en/stable/cli/pip_install/) and [requests](https://docs.python-requests.org/en/latest/user/install/). After that create a python file and copy and paste the following code. 
@@ -290,32 +295,18 @@ Alternatively you can use an online tool such as [https://www.convertcsv.com/jso
 
 ## How to get all the objects owned by [https://www.peeringdb.com/net/961](https://www.peeringdb.com/net/961) and convert the data to CSV?
 
-To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. You’ll need to use this GET request
-GET `https://peeringdb.com/api/net/961`
-
-Using python: Follow the first example to install python and the requirements. Then, Create a python file and copy and paste the following code. This will retrieve the response which you can see below using this python code
-
- ```
-import requests
-r = requests.get('https://peeringdb.com/api/net/961')
-print(r.text)
- 
-with open('output.csv', 'w+') as f:
-    f.write(r.text)
+To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. Copy and paste the following to your command line interface.
+```
+curl GET https://www.peeringdb.com/net/961
 ```
 
 ## I want the list of networks and their 'type' peering at MICE in Minneapolis
 To get the list of networks and their type peering at Mice in Minneapolis, copy and paste the following code in your terminal
 ```
-curl -sG https://peeringdb.com/api/netixlan --data-urlencode net_id__in=446 --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix --data-urlencode city=Minneapolis | jq -c '[.data[].id]' | sed 's/\[//;s/\]//'` | jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | sort -V
+ curl -s -X GET https://www.peeringdb.com/api/net?ix=446&__in=Minneapolis | jq '.data[] 
 ```
 ## How to find all the ixps where my org has a presence.
-Using python: Follow the first example to install python and the requirements. Then, Create a python file and copy and paste the following code. This will retrieve the response which you can see below using this python code
+Using Curl example. Copy and paste the following to your command line interface.
 ```
-import requests
-r = requests.get('https://www.peeringdb.com/api/org/187')
-# print(r.text) 
-
-with open('output1.csv', 'w+') as f:
-    f.write(r.text)
+ curl -s -X GET https://www.peeringdb.com/api/netixlan\?ixlan_id=62 | jq '.data[]'
 ```
