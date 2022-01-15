@@ -244,8 +244,6 @@ There are optional parameters you can add to your URL
 ## Real world use cases
 We will show you different usecases on how to use the PeeringDB API
 
-**Note**: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods
-
 ## How do I query by ASN?
 To query this ASN (asn=42) using PeeringDB API, you will need to use this URL
 GET `https://peeringdb.com/api/net?asn=42`
@@ -254,7 +252,7 @@ Where `asn=42` is the query parameter.
 ### Using Curl
 Using Curl example to get this specific network. Copy and paste the following to your command line interface.
 ```
-curl GET https://peeringdb.com/api/net/20
+curl GET https://peeringdb.com/api/net/42
 ```
 
 ### Using Python 
