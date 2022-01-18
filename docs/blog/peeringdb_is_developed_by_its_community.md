@@ -2,7 +2,7 @@
 PeeringDB community members have contributed two significant improvements that were deployed into production this month.
 ![Lagos Techie on Unsplash](images/lagos_techie_on_unsplash.jpeg)
 ## Simple Search is Smarter Search
-As [reported by NANOG](https://nanog.org/stories/hackathon-solves-real-world-tech-issue/) last week, code developed by Brad Schwyzer, James Lamanna, and Jeff Kala developed code that significantly improves the accuracy of what we call Simple Search. This is the main search box on the front page or the basic API call. Until this month it provided an enthusiastic number of responses when searching for things like small AS Numbers. 
+As [reported by NANOG](https://nanog.org/stories/hackathon-solves-real-world-tech-issue/) last week, we have deployed code developed by Brad Schwyzer, James Lamanna, and Jeff Kala that significantly improves the accuracy of what we call Simple Search. This is the main search box on the front page or the basic API call. Until this month it provided an enthusiastic number of responses when searching for things like small AS Numbers. 
 
 While the answers weren’t wrong, our users needed to pay extra attention to find what they needed. Brad, James, and Jeff developed logic to work out what users are likely to be searching for and give them the most relevant results. Simple Search now knows about the difference between an AS Number, an IPv4 address, and an IPv6 address. It will only respond with IP address information if at least two segments of the address are included in the search.
 
