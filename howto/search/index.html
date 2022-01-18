@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/search/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Get Started with Search in PeeringDB - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">About</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../committee/admin/">Admin Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/outreach/">Outreach Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/product/">Product Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../release_notes/">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../api_specs/">API Specs</a>
+</li>
+                                    
+<li >
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
+</li>
+                                    
+<li >
+    <a href="../../oauth/">OAuth</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
+</li>
+                                    
+<li >
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
+                            </li>
+                            <li >
+                                <a href="../../faq/">FAQs</a>
+                            </li>
+                            <li >
+                                <a href="../../blogs/">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/search.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#get-started-with-search-in-peeringdb">Get Started with Search in PeeringDB</a></li>
+            <li><a href="#introduction-to-peeringdb">Introduction to PeeringDB</a></li>
+            <li><a href="#why-use-peeringdb-to-search-for-networks-exchange-and-data-centers">Why use PeeringDB to search for Networks, Exchange and Data Centers.</a></li>
+            <li><a href="#how-to-search-for-exchanges-facilities-and-networks-in-peeringdb">How to search for Exchanges, Facilities and Networks in PeeringDB</a></li>
+            <li><a href="#how-to-use-the-search-in-peeringdb-extension">How to use the Search in PeeringDB extension</a></li>
+            <li><a href="#how-to-search-based-on-a-partial-name">How to search based on a partial name</a></li>
+            <li><a href="#what-is-an-advanced-search">What is an Advanced search</a></li>
+            <li><a href="#geographic-search">Geographic search</a></li>
+            <li><a href="#querying-with-peeringdb-api">Querying with PeeringDB API</a></li>
+            <li><a href="#object-types">Object Types</a></li>
+            <li><a href="#authentication">Authentication</a></li>
+            <li><a href="#making-a-request">Making a Request</a></li>
+            <li><a href="#operations">Operations</a></li>
+            <li><a href="#how-to-get-all-the-objects-owned-by-httpswwwpeeringdbcomnet961-and-convert-the-data-to-csv">How to get all the objects owned by https://www.peeringdb.com/net/961 and convert the data to CSV?</a></li>
+            <li><a href="#i-want-the-list-of-networks-and-their-type-peering-at-mice-in-minneapolis">I want the list of networks and their 'type' peering at MICE in Minneapolis</a></li>
+            <li><a href="#how-to-find-all-the-ixps-where-my-org-has-a-presence">How to find all the ixps where my org has a presence.</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="get-started-with-search-in-peeringdb">Get Started with Search in PeeringDB</h1>
+<h2 id="introduction-to-peeringdb">Introduction to PeeringDB</h2>
+<p>PeeringDB is a publicly available network database that is the go-to location for interconnection data. The database facilitates global network connections at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and it serves as a starting point for interconnection decisions.</p>
+<p>This online database is a non-profit, community-driven effort that encourages the exchange of Peering-related information and is totally managed and maintained by volunteers. It's a tool for the Internet's growth and enhancement.</p>
+<h2 id="why-use-peeringdb-to-search-for-networks-exchange-and-data-centers">Why use PeeringDB to search for Networks, Exchange and Data Centers.</h2>
+<p>There are a number of Autonomous System Numbers (ASNs) known as networks that use PeeringDB to store their interconnection information. Using PeeringDB, you'll be able to access and search for information about other networks requesting interconnection.  If you contribute your own data to PeeringDB it's also possible for them to find out about your own network details. </p>
+<p>There is no need to create an account in order to use the basic search functionality. But if you want to access private contact information and use advanced search features, like radius search, you'll need to sign up for an account.</p>
+<p>By using PeeringDB, data centers referred to as Facilities and Internet exchange points (IXs) can increase their visibility to potential and existing customers by adding or updating their records in the database, making it significantly easier for networks to access information about their service.</p>
+<h2 id="how-to-search-for-exchanges-facilities-and-networks-in-peeringdb">How to search for Exchanges, Facilities and Networks in PeeringDB</h2>
+<p>On the <a href="https://www.peeringdb.com/">front page</a> of PeeringDB, you will see a simple search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB by simply entering the desired name on the search. Let’s demonstrate with some examples to see how this works.</p>
+<h3 id="networks">Networks</h3>
+<p>For this example, we have this network <strong>KENET</strong> which is a non-profit operator for education and research and we want to search for it on PeeringDB. <br />
+There are two ways to search for Networks in PeeringDB:</p>
+<ol>
+<li><strong>Name search</strong></li>
+</ol>
+<p>You can search for Networks by using the name of the networks by:<br />
+- Entering the name of the network as seen below.<br />
+- From the search result, under the Networks section, locate the network you have searched.<br />
+- It would be visible if it is in the PeeringDB database.</p>
+<p><img alt="name-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/name-search.png" /></p>
+<ol>
+<li><strong>ASN Search</strong></li>
+</ol>
+<p>You can search for Networks using their ASN number by:<br />
+- Entering the name of the network as seen below. For the example below the ASN is (36914).<br />
+- From the search result, under the Networks section, locate the network you have searched.</p>
+<p><img alt="asn-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/asn-search.png" /></p>
+<p><strong>Note</strong>: Either of the two methods will get the same search results. </p>
+<h3 id="exchanges">Exchanges</h3>
+<p>For this example, let’s consider this Internet exchange points (IXs) <strong>UNY-IX</strong> which is an open internet exchange located in Universitas Negeri Yogyakarta.<br />
+ To search for an exchange:<br />
+- Enter the name of the Internet exchange points (IXs) as shown below.<br />
+- From the search result, under the Exchanges section, locate the Internet exchange points (IXs) you have searched.</p>
+<p><img alt="exchange-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/exchange-search.png" /></p>
+<h3 id="facilities">Facilities</h3>
+<p>Data centers are also referred to as Facilities. For this example, let’s consider this university <strong>University of Oslo</strong> which is an institution in Oslo<br />
+To search for an facilities:<br />
+- Enter the name of the Data center or Facilities as shown below.<br />
+- From the search result, under the Facilities section, locate the Facility or data center you have searched.</p>
+<p><img alt="facilites-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/facilites-search.png" /></p>
+<h2 id="how-to-use-the-search-in-peeringdb-extension">How to use the Search in PeeringDB extension</h2>
+<p>The PeeringDB search extension is a free to use Google Chrome extension with which you can use to search for ASNs, Networks, and IXs on PeeringDB.</p>
+<p><img alt="search-extension" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/search-extension.png" /></p>
+<p>To get started, go to the <a href="https://chrome.google.com/webstore/detail/search-in-peeringdb/aogffgldgfjelpadabfbcngmndbceiad/related?hl=en">Chrome Web Store</a> and download the extension, then enable it and add it to your extension bar. There are two ways to use the extension once it has been enabled:</p>
+<ul>
+<li><strong>Using the Extension Bar Icon</strong>: Click the icon and type your search term into the box. The search will open in a new tab with the search result.</li>
+</ul>
+<p><img alt="extension-search-bar" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/extension-bar-icon.png" /></p>
+<p>Below is the result:</p>
+<p><img alt="extension-search-bar-result" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/extension-bar-icon-result.png" /></p>
+<ul>
+<li><strong>Using the Context Menu</strong>: Right-click on any text on a page and select "Search in PeeringDB". The search will open in a new tab with the search result.</li>
+</ul>
+<p><img alt="extension-context-menu" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/context-menu.png" /></p>
+<p>Below is the result:</p>
+<p><img alt="extension-context-menu-result" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/context-menu-result.png" /></p>
+<p>If the query or highlighted text contains a number, the extension will attempt to find an ASN. </p>
+<h2 id="how-to-search-based-on-a-partial-name">How to search based on a partial name</h2>
+<p>You can search based on a partial name. When an organization, network, facility or exchange name has two parts, you can search for just the first or second part and then select from all the organizations that share that name. This makes it easier to find the organization you want. This can also be helpful in a situation where you can not remember the name of the organization in full. </p>
+<p>In the example below, we want to search for “internet archive”. We will search for it with a single part and not with the full name. In the search box, input “archive''. This brings out a search result that have similar parts in their names. </p>
+<p><img alt="partial-name-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/partial-name-search.png" /></p>
+<p>You can now search through the results to find the what you want.</p>
+<h2 id="what-is-an-advanced-search">What is an Advanced search</h2>
+<p>Advanced search in PeeringDB  lets you explicitly filter searches location, network presence, service level and a wide range of other features. You get the results you’re looking for and can export them in structured data formats (JSON or CSV), so you can import the data into tools that will help you make decisions. </p>
+<p><strong>Note</strong>: You need to be logged in to PeeringDB in order to use some of the features of Advanced Search, including the radius search.</p>
+<p>Let’s take a look at this example below to demonstrate how advanced search works. We are going to search for an exchange within a particular region.<br />
+On the front page of PeeringDB you will see the advanced search box which you can use to search for Exchanges, Facilities and Networks that are on PeeringDB.</p>
+<p><img alt="advanced-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-link.png" /></p>
+<ul>
+<li>Click on the Advanced search link. This takes you to the Advanced search landing page. The search page shows the Exchanges, Networks, Facilities and organizations tabs. </li>
+</ul>
+<p><img alt="advanced-search" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-interface.png" /></p>
+<ul>
+<li>Go to the Exchange tab, in the country field select a country of your choice by scrolling through the different options.</li>
+</ul>
+<p><img alt="advanced-exchange-tab" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-exchange-tab.png" /></p>
+<ul>
+<li>On the right hand side, in the network presence field, enter the name of the network. You can follow the example shown below and add KENET.</li>
+<li>Click on the drop down list that appears as you input the network name.</li>
+</ul>
+<p><img alt="network-name-dropdown" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/network-drop-down.png" /></p>
+<ul>
+<li>Click on Search.</li>
+<li>Scroll down to view information regarding the exchange that you searched for.</li>
+<li>Click on JSON or CSV to download the information in a structured format.</li>
+</ul>
+<p><img alt="advanced-search-result" src="https://github.com/fakela/docs-3/blob/master/docs/howto/images/advanced-search-result.png" /></p>
+<h2 id="geographic-search">Geographic search</h2>
+<p>As new facilities are created in our database they will be linked to geographic coordinates. PeeringDB has improved search by changing the way it records data for location in its database. You can now search for facilities with a distance radius of a chosen coordinate. </p>
+<h3 id="how-to-search-for-facilities-within-a-given-radius">How to search for facilities within a given radius</h3>
+<p>You can search for facilities within a given radius, using the Advanced Search interface. Users can search from a country and city, and select a radius in kilometers or miles. Of course, you can achieve the same results using the API or the web interface, which means you can integrate this feature into your own tools.</p>
+<p><strong>Note</strong>: You need to be logged in to PeeringDB in order to search for facilities within a given radius.</p>
+<ul>
+<li>Login in or Register an account on PeeringDB</li>
+<li>On the front page of PeeringDB, click on the Advanced search link</li>
+<li>Go to the Facilities Tab and in the city/postal field add a city or postal of your choice</li>
+<li>In the country field select a country of your choice.</li>
+<li>In the Within Distance field  add a specified distance of your choice </li>
+<li>On the right hand side of the page, click on search</li>
+<li>Scroll down to view the information you searched for. The search result will bring up facilities which are in that country, city and state.</li>
+<li>You can download your information in a JSON or CSV format.</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FzOUKhJjRRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="querying-with-peeringdb-api">Querying with PeeringDB API</h2>
+<p>Throughout this article up to this point, we have been talking on how to use PeeringDB to find information about potential peers, and then after peering has been arranged, using PeeringDB to obtain the peering details.<br />
+The PeeringDB website is very helpful in these regards, but using the website still requires a lot of manual work. It’s also possible to use the PeeringDB API to automate some parts of this. Why use the PeeringDB API? <em>PeeringDB API makes it easy to integrate PeeringDB in your environment</em></p>
+<p>The PeeringDB database can be queried using a REST API. REST allows a client to request information from a server over HTTP or HTTPS. The server then returns the requested information in JSON format.</p>
+<h2 id="object-types">Object Types</h2>
+<p>Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.<br />
+For example: <a href="https://peeringdb.com/api/OBJ">https://peeringdb.com/api/OBJ</a>. The endpoint is: <code>/api/OBJ</code>.</p>
+<p>Below are the categories of objects types(OBJ) in PeeringDB<br />
+- <strong>Basic Objects</strong>: org, fac, ix, net, poc <br />
+- <strong>Derived Objects</strong>: ixlan, ixpfx, netixlan, netfac</p>
+<h3 id="basic-objects">Basic Objects</h3>
+<p>Below is a description of what each of the object types mean and what information they return</p>
+<ul>
+<li><strong>org</strong>: Root object for fac, ix, net, this holds information about organisation.  </li>
+<li><strong>fac</strong>: Describes a facility / colocation record, more useful information are in derived records netfac.</li>
+<li><strong>ix</strong>: Describes an Internet Exchange, more useful information are in derived records ixlan, ixpfx and netixlan.</li>
+<li><strong>net</strong>: Describes a network / ASN, more useful information are in netfac and netixlan.</li>
+<li><strong>poc</strong>: Describes various role accounts (point of contact), this is currently only for net objects.</li>
+<li><strong>as_set</strong>: Array of all AS-SETs corresponding to a network / ASN, this was introduced recently.</li>
+</ul>
+<h3 id="derived-objects">Derived Objects</h3>
+<p>Below is a description of what each of the object types mean and what information they return.</p>
+<ul>
+<li><strong>Ixlan</strong>: Describes the LAN of an ix, one ix may have multiple ixlan. This feature may go away with PeeringDB 3.0.</li>
+<li><strong>ixpfx</strong>: Describes the IP range (IPv4 and IPv6) for an ixlan, one ixlan may have multiple ixpfx.</li>
+<li><strong>netixlan</strong>: Describes the presence of a network at an IX.</li>
+<li><strong>netfac</strong>: Describes the presence of a network at a facility.</li>
+</ul>
+<h2 id="authentication">Authentication</h2>
+<p>Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:</p>
+<p><code>curl -sG https://username:password@peeringdb.com/api/poc</code></p>
+<p><code>curl -u username:password https://peeringdb.com/api/poc</code> </p>
+<p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication.</p>
+<h2 id="making-a-request">Making a Request</h2>
+<p>When making a request, the URL base is added with <code>/api/</code>, followed by the object type and, if applicable, the object primary key (if applicable).<br />
+For example:<code>https://peeringdb.com/api/OBJ/id</code><br />
+If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter.</p>
+<p>Accept Header: <code>Accept: application/json</code></p>
+<p>Extension type:<code>https://peeringdb.com/api/network/42.json</code></p>
+<h2 id="operations">Operations</h2>
+<p>Using the GET operation you can retrieve information from the PeeringDB database. You can retrieve both a single object and multiple objects in an array. Let’s look at each of them individually. </p>
+<h3 id="single-object">Single Object</h3>
+<p>To retrieve a single object you need to use this URL:<code>https://peeringdb.com/api/OBJ/ID</code> with this endpoint GET: <code>/api/OBJ/id</code>. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example </p>
+<p>HTTP:<code>GET /api/OBJ/38</code> where 38 is the ID</p>
+<p>curl: <code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/38</code></p>
+<p>There are optional parameters you can add to your URL<br />
+- <strong>str</strong>: which retrieves a comma separated list of field names - only matching fields will be returned in the data.<br />
+- <strong>int</strong>: which retrieves two nested sets and objects. </p>
+<p><strong>Nested sets and objects</strong>: A nested set or object is any field ending in the suffix: set. For example: net_set will hold network objects. The naming schema of the field will always tell you which type of object the set is holding and will correspond with the object's endpoint on the API <object_type><em>set. So a set called '_net_set</em>' will hold Network objects (API endpoint /net)<br />
+<strong>Note</strong>: unlike GET multiple, 'depth' here will also expand single relationships in addition to sets. So 'net_id' would get expanded into a network object.</p>
+<p>```unexpanded:<br />
+{ <br />
+  ...<br />
+  "net_id" : 1<br />
+}<br />
+expanded:</p>
+<p>{<br />
+  ...<br />
+  "net_id" : 1<br />
+  "net" : {<br />
+     ... network object ...<br />
+  }<br />
+}</p>
+<pre><code>**Depth**
+- 0: don't expand anything
+- 1 to 4: expand all sets and related objects according to level of depth specified
+- 2: it is default
+
+### Multiple Object
+To retrieve a single object you need to use this URL: `https://peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example 
+
+HTTP: `GET /api/OBJ/` which is the endpoint 
+
+curl: `curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ`
+
+There are optional parameters you can add to your URL
+- **limit** int limits rows in the result set
+- **skip** int skips n rows in the result set
+- **depth** int nested sets will be loaded (slow)
+- **fields** str comma separated list of field names - only matching fields will be returned in the data
+- **since** int retrieve all objects updated since specified time (unix timestamp, seconds)
+- **[field_name]** int|string queries for fields with matching value
+
+## Real world use cases
+We will show you different usecases on how to use the PeeringDB API
+
+## How do I query by ASN?
+To query this ASN (asn=42) using PeeringDB API, you will need to use this URL
+GET `https://peeringdb.com/api/net?asn=42`
+Where `asn=42` is the query parameter. 
+
+### Using Curl
+Using Curl example to get this specific network. Copy and paste the following to your command line interface.
+</code></pre>
+
+<p>curl GET https://peeringdb.com/api/net/42</p>
+<pre><code>
+### Using Python 
+To make use of this python code, first, you’ll have to first install [python](https://www.python.org/downloads/) if you don’t have it installed. Then, install [pip](https://pip.pypa.io/en/stable/cli/pip_install/) and [requests](https://docs.python-requests.org/en/latest/user/install/). After that create a python file and copy and paste the following code. 
+
+</code></pre>
+
+<p>import requests<br />
+r = requests.get('https://peeringdb.com/api/net?asn=42')<br />
+print(r.text)</p>
+<p>with open('output.csv', 'w+') as f:<br />
+    f.write(r.text)<br />
+  ```</p>
+<p>From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format.However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv. </p>
+<h3 id="using-jq">Using Jq</h3>
+<p>You can use Jq to make a request to your API and get your output in a CSV format<br />
+First, you need to install <a href="https://stedolan.github.io/jq/download/">Jq</a> in your system.</p>
+<p>Next, we use this curl command to prepare our JSON file. Cd to a directory and copy and paste this code on your terminal</p>
+<pre><code>curl https://peeringdb.com/api/net?asn=42 &gt; test.json
+
+</code></pre>
+
+<p>This creates a new file named test.json To convert input JSON file to the CSV format, copy and paste the following code on your terminal.</p>
+<pre><code>jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json
+</code></pre>
+
+<h3 id="using-online-converter">Using online converter</h3>
+<p>Alternatively you can use an online tool such as <a href="https://www.convertcsv.com/json-to-csv.htm">https://www.convertcsv.com/json-to-csv.htm</a> to convert the raw json file to csv.</p>
+<p><strong>Note</strong>: For the purpose of this article we will focus on the python method but you can conveniently try out the other proposed methods.</p>
+<h2 id="how-to-get-all-the-objects-owned-by-httpswwwpeeringdbcomnet961-and-convert-the-data-to-csv">How to get all the objects owned by <a href="https://www.peeringdb.com/net/961">https://www.peeringdb.com/net/961</a> and convert the data to CSV?</h2>
+<p>To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. Copy and paste the following to your command line interface.</p>
+<pre><code>curl GET https://www.peeringdb.com/net/961
+</code></pre>
+
+<h2 id="i-want-the-list-of-networks-and-their-type-peering-at-mice-in-minneapolis">I want the list of networks and their 'type' peering at MICE in Minneapolis</h2>
+<p>To get the list of networks and their type peering at Mice in Minneapolis, copy and paste the following code in your terminal</p>
+<pre><code> curl -s -X GET https://www.peeringdb.com/api/net?ix=446&amp;__in=Minneapolis | jq '.data[] 
+</code></pre>
+
+<h2 id="how-to-find-all-the-ixps-where-my-org-has-a-presence">How to find all the ixps where my org has a presence.</h2>
+<p>Using Curl example. Copy and paste the following to your command line interface.</p>
+<pre><code> curl -s -X GET https://www.peeringdb.com/api/netixlan\?ixlan_id=62 | jq '.data[]'
+</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-twitter.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
