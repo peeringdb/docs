@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/updates-for-as112/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>What is AS112? - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,29 +48,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../../committee/admin/">Admin Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../../committee/outreach/">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
+    <a href="../../committee/product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -79,23 +79,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../release_notes/">Release Notes</a>
 </li>
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../oauth/">OAuth</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../translation/">Translations</a>
 </li>
                                     
 <li >
@@ -103,14 +103,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">HOWTOs</a>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQs</a>
+                                <a href="../../faq/">FAQs</a>
                             </li>
                             <li >
-                                <a href="../blogs/">Blogs</a>
+                                <a href="../../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/updates-for-as112.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,21 +131,30 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
+        <li class="main active"><a href="#what-is-as112">What is AS112?</a></li>
+        <li class="main "><a href="#what-is-peeringdb">What is PeeringDB?</a></li>
+        <li class="main "><a href="#how-does-peeringdb-visibility-help">How Does PeeringDB Visibility Help?</a></li>
+        <li class="main "><a href="#what-you-need-to-do">What you need to do</a></li>
+            <li><a href="#ixps-sharing-technical-information-using-the-ix-f-member-export-schema">IXPs sharing technical information using the IX-F Member Export Schema</a></li>
+            <li><a href="#ixps-not-sharing-technical-information-using-the-ix-f-member-export-schema">IXPs not sharing technical information using the IX-F Member Export Schema</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="peeringdb-howtos">PeeringDB HOWTOs</h2>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
-<ul>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-</ul></div>
+<h1 id="what-is-as112">What is AS112?</h1>
+<p>Many networks using private address space (<a href="https://www.rfc-editor.org/info/rfc1918">RFC 1918</a>) leak the reverse DNS lookups instead of running a local DNS server to respond to them. To stop this traffic from overwhelming root nameservers, volunteers run <a href="https://www.as112.net">AS112 nameservers</a>, which provide authoritative, local answers.</p>
+<h1 id="what-is-peeringdb">What is PeeringDB?</h1>
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p>
+<p>The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet.</p>
+<h1 id="how-does-peeringdb-visibility-help">How Does PeeringDB Visibility Help?</h1>
+<p>The listing for <a href="https://www.peeringdb.com/net/10664">AS112 in PeeringDB</a> contains the peering LAN IP addresses of the routers for the network. This can be used as a source of configuration information for the peering routers of other networks at the same IXP.</p>
+<h1 id="what-you-need-to-do">What you need to do</h1>
+<h2 id="ixps-sharing-technical-information-using-the-ix-f-member-export-schema">IXPs sharing technical information using the <a href="https://github.com/euro-ix/json-schemas">IX-F Member Export Schema</a></h2>
+<p>When an IXP shares technical information about its infrastructure using the IX-F Member Export Schema the existence of the AS112 node, and its peering LAN address, will automatically be populated in PeeringDB. You, as the operators of the node do not need to do anything.</p>
+<p>This is because AS112 has enabled the option to allow the IXPs' IX-F data to <a href="https://docs.peeringdb.com/howto/get-started-operator/#database-records-to-create">automatically populate</a> its entry in PeeringDB.</p>
+<h2 id="ixps-not-sharing-technical-information-using-the-ix-f-member-export-schema">IXPs not sharing technical information using the IX-F Member Export Schema</h2>
+<p>If your IXP does not share technical information about its infrastructure using the IX-F Member Export Schema you can ask them to do so.</p>
+<p>You can also reach out to ops@as112.net and the PeeringDB entry for AS112 will be manually updated.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -162,11 +171,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
