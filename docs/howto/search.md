@@ -20,11 +20,11 @@ On the [front page](https://www.peeringdb.com/) of PeeringDB, you will see a sim
 
 ### Networks
 
-For this example, we have this network **KENET** which is a non-profit operator for education and research and we want to search for it on PeeringDB.  There are two ways to search for Networks in PeeringDB:
+For this example, we have this network **KENET** which is a non-profit operator for education and research and we want to search for it on PeeringDB.  There are two ways to search for networks in PeeringDB:
 
 #### Name search
 
-You can search for Networks by using the name of the networks by:
+You can search for networks by using the name of the networks by:
 - Entering the name of the network as seen below
 - From the search result, under the Networks section, locate the network you have searched
 - It would be visible if it is in the PeeringDB database
