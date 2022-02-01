@@ -293,7 +293,7 @@ This creates a new file named test.json.  To convert the JSON input file to the 
 
 Alternatively you can use an online tool such as [https://www.convertcsv.com/json-to-csv.htm](https://www.convertcsv.com/json-to-csv.htm) to convert the raw JSON file to CSV.
 
-**Note**: For the purpose of this article we will focus on the Python method but you can conveniently try out the other proposed methods.
+**Note**: For the purpose of this article we will focus on the Curl method but you can conveniently try out the other proposed methods.
 
 ## How to get all the objects owned by [https://www.peeringdb.com/net/961](https://www.peeringdb.com/net/961) and convert the data to CSV?
 
