@@ -355,7 +355,7 @@ with open('output.csv', 'w+') as f:
 <p>This creates a new file named test.json.  To convert the JSON input file to the CSV format, copy and paste the following command: <code>jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json</code></p>
 <h3 id="using-an-online-converter">Using an online converter</h3>
 <p>Alternatively you can use an online tool such as <a href="https://www.convertcsv.com/json-to-csv.htm">https://www.convertcsv.com/json-to-csv.htm</a> to convert the raw JSON file to CSV.</p>
-<p><strong>Note</strong>: For the purpose of this article we will focus on the Python method but you can conveniently try out the other proposed methods.</p>
+<p><strong>Note</strong>: For the purpose of this article we will focus on the curl method but you can conveniently try out the other proposed methods.</p>
 <h2 id="how-to-get-all-the-objects-owned-by-httpswwwpeeringdbcomnet961-and-convert-the-data-to-csv">How to get all the objects owned by <a href="https://www.peeringdb.com/net/961">https://www.peeringdb.com/net/961</a> and convert the data to CSV?</h2>
 <p>To get all the objects owned by this https://www.peeringdb.com/net/961 using the PeeringDB API. Copy and paste the following to your command line interface: <code>curl GET https://www.peeringdb.com/net/961</code>.</p>
 <h2 id="i-want-the-list-of-networks-and-their-type-peering-at-mice-in-minneapolis">I want the list of networks and their 'type' peering at MICE in Minneapolis.</h2>
