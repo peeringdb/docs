@@ -15,7 +15,6 @@ Release Date: 16 February 2022
 | [#853 substantially rate limit unauthenticated /api/ queries to encourage authenticated queries](https://github.com/peeringdb/peeringdb/issues/853) | Introduces rate limiting for unauthenticated API queries to reduce the possibility of service impacting queries. |
 | [#620 Add organisations and registered users to "Global System Statistics" in footer](https://github.com/peeringdb/peeringdb/issues/620) | Adds the number of registered users to the footer, giving users a better idea of the size of the interconnection community. |
 
-
 ## Release 2.33.0
 
 Beta Announcement Date: 12 January 2022
