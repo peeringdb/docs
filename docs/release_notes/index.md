@@ -4,6 +4,18 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.34.0
+
+Beta Announcement Date: 9 February 2022
+Release Date: 16 February 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#722 Create a validation tool for syntactically well defined fields](https://github.com/peeringdb/peeringdb/issues/722) | Introduces a tool to improve data quality by validating syntactically well defined fields. |
+| [#853 substantially rate limit unauthenticated /api/ queries to encourage authenticated queries](https://github.com/peeringdb/peeringdb/issues/853) | Introduces rate limiting for unauthenticated API queries to reduce the possibility of service impacting queries. |
+| [#620 Add organisations and registered users to "Global System Statistics" in footer](https://github.com/peeringdb/peeringdb/issues/620) | Adds the number of registered users to the footer, giving users a better idea of the size of the interconnection community. |
+
+
 ## Release 2.33.0
 
 Beta Announcement Date: 12 January 2022
