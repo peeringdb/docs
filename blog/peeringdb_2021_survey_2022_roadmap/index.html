@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/peeringdb_2021_survey_2022_roadmap/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>2021 Survey Results and 2022 Product Roadmap - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">About</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../committee/admin/">Admin Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/outreach/">Outreach Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/product/">Product Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../release_notes/">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../api_specs/">API Specs</a>
+</li>
+                                    
+<li >
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
+</li>
+                                    
+<li >
+    <a href="../../oauth/">OAuth</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
+</li>
+                                    
+<li >
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
+                            </li>
+                            <li >
+                                <a href="../../faq/">FAQs</a>
+                            </li>
+                            <li >
+                                <a href="../../blogs/">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/blog/peeringdb_2021_survey_2022_roadmap.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#2021-survey-results-and-2022-product-roadmap">2021 Survey Results and 2022 Product Roadmap</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#what-else-data-accuracy">What else? Data accuracy</a></li>
+            <li><a href="#call-to-action">Call to action</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="2021-survey-results-and-2022-product-roadmap">2021 Survey Results and 2022 Product Roadmap</h1>
+<p>Last September <a href="/blog/peeringdb_2021_user_survey/">we asked you</a> for input through our anonymous satisfaction survey, so we could use it to guide our product roadmap for 2022. Today, we are sharing what you told us through the survey and how we’ll be improving PeeringDB and your experience of it in 2022.</p>
+<h2 id="highlights">Highlights</h2>
+<p>We had almost 250 responses to the survey, a 25% increase on last year. As with last year, respondents identified themselves as connected with organizations operating on every continent and in every part of our industry. Overall satisfaction remains unchanged from last year.</p>
+<p><img alt="2021 User Survey - Overall Satisfaction" src="../images/2021_user_survey_overall_satisfaction.png" /></p>
+<p>We asked a few new questions in 2021 and learned:</p>
+<ul>
+<li>Almost 70% of respondents use PeeringDB every day or every week. Most of the rest use it every month.</li>
+<li>Under half of respondents use PeeringDB on a mobile device.</li>
+<li>About 70% of respondents want a way to be notified about changes that are relevant to them.</li>
+</ul>
+<p>From the questions that were repeated from 2021 we learned that Network Configuration Data and Search and Discovery capabilities remained the most important to our users.</p>
+<p>The User Experience and Web Interface remained the service categories with the lowest satisfaction, although 85% of respondents were still somewhat or very satisfied.</p>
+<p>The other lower performing area was Documentation Quality, which is an area that we started to address later in 2021 and some respondents won't have known about. Work on improving <a href="/howtos/">our documentation</a> will continue in 2022.</p>
+<p>We hope that these improvements drive satisfaction in 2022.</p>
+<h2 id="roadmap">Roadmap</h2>
+<p>We have used your feedback, in combination with <a href="/blog/carrier_object/">a focus group consultation</a>, to guide our product roadmap for 2022. The three key focus areas will be:</p>
+<h3 id="introduce-a-new-carrier-object">Introduce a new “Carrier” object</h3>
+<p>This object will describe providers of high capacity links between interconnection facilities. It was named “Carrier” during the discussion but that is a placeholder that could be changed if it is considered confusing or inappropriate. We are developing a design which will be circulated with the focus group before developing this new feature.</p>
+<p>As a new object, we’ll make sure that it is well documented so users can get the most value from it.</p>
+<h3 id="improving-the-web-sites-responsiveness">Improving the web site’s responsiveness</h3>
+<p>We recognize that the overall visual design needs some improvement. But perhaps more importantly we need to improve page load times. We plan to bring PeeringDB nearer to its users by completing deployment to a CDN. We have already tested this by deploying beta.peeringdb.com there and we will be moving www.peeringdb.com to it in 2022. We will also introduce modular page rendering, so each element loads via a separate connection, speeding the overall experience.</p>
+<p>We will use the CDN metrics to learn more about how www.peeringdb.com is used and that will inform improvements to the visual design.</p>
+<h3 id="continue-improving-search">Continue improving search</h3>
+<p>2021 saw significant improvements to advanced search and simple search. We will continue to make improvements to search and help users keep the underlying data more accurate.</p>
+<p>One example of this is work that’s going on, as I type, at the NANOG 84 Hackathon where volunteer developers are introducing <a href="https://github.com/peeringdb/peeringdb/issues/1020">intersection searches</a>. That means you’ll be able to make a single query to find out which IXPs or interconnection facilities have two networks present, such as your own and a desired peer’s.</p>
+<p>This is an example of how PeeringDB is developed by its users as well as the core team.</p>
+<h2 id="what-else-data-accuracy">What else? Data accuracy</h2>
+<p>We know that we need to do work to improve the quality of data in PeeringDB as it plays such an important role in configuration.</p>
+<p>We last looked at this in 2019’s <a href="/taskforce/dataownership/#peeringdb-data-ownership-task-force">Data Ownership Task Force</a>, whose report acknowledged the shared responsibility for data describing the interconnected nature of separately managed parts of our Internet. We plan to work with PeeringDB users to renew our work in this area so we can continue to improve the quality of data we publish.</p>
+<p>We are also setting course towards increased data accuracy by using the <a href="https://en.wikipedia.org/wiki/Resource_Public_Key_Infrastructure">RPKI</a> and <a href="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-rpki-rsc">Resource Signed Checklists</a> (RSC). We want to use RSC validation to cryptographically validate our users’ ability to control specific Internet Number Resources.</p>
+<h2 id="call-to-action">Call to action</h2>
+<p>We just deployed two user developed features: <a href="https://github.com/peeringdb/peeringdb/issues/1083">improvements to simple search</a> and <a href="https://github.com/peeringdb/peeringdb/issues/1070">OpenID Connect</a> integration. We are keen to include more user developed code. If you’d like to contribute to PeeringDB then let me know and we can help you.</p>
+<p>If you have an idea to improve PeeringDB you can share it on our low traffic <a href="/#mailing-lists">mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<hr />
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-twitter.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
