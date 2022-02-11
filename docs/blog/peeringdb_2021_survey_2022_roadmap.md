@@ -1,10 +1,10 @@
 # 2021 Survey Results and 2022 Product Roadmap
-Last September [we asked you](https://docs.peeringdb.com/blog/peeringdb_2021_user_survey/) for input through our anonymous satisfaction survey, so we could use it to guide our product roadmap for 2022. Today, we are sharing what you told us through the survey and how we’ll be improving PeeringDB and your experience of it in 2022.
+Last September [we asked you](/blog/peeringdb_2021_user_survey/) for input through our anonymous satisfaction survey, so we could use it to guide our product roadmap for 2022. Today, we are sharing what you told us through the survey and how we’ll be improving PeeringDB and your experience of it in 2022.
 
 ## Highlights
 We had almost 250 responses to the survey, a 25% increase on last year. As with last year, respondents identified themselves as connected with organizations operating on every continent and in every part of our industry. Overall satisfaction remains unchanged from last year.
 
-![2021 User Survey - Overall Satisfaction](2021_user_survey_overall_satisfaction.png)
+![2021 User Survey - Overall Satisfaction](images/2021_user_survey_overall_satisfaction.png)
 
 We asked a few new questions in 2021 and learned:
 
@@ -16,12 +16,12 @@ From the questions that were repeated from 2021 we learned that Network Configur
 
 The User Experience and Web Interface remained the service categories with the lowest satisfaction, although 85% of respondents were still somewhat or very satisfied.
 
-The other lower performing area was Documentation Quality, which is an area that we started to address later in 2021 and some respondents won't have known about. Work on improving [our documentation](https://docs.peeringdb.com/howtos/) will continue in 2022.
+The other lower performing area was Documentation Quality, which is an area that we started to address later in 2021 and some respondents won't have known about. Work on improving [our documentation](/howtos/) will continue in 2022.
 
 We hope that these improvements drive satisfaction in 2022.
 
 ## Roadmap
-We have used your feedback, in combination with [a focus group consultation](https://docs.peeringdb.com/blog/carrier_object/), to guide our product roadmap for 2022. The three key focus areas will be:
+We have used your feedback, in combination with [a focus group consultation](/blog/carrier_object/), to guide our product roadmap for 2022. The three key focus areas will be:
 
 ### Introduce a new “Carrier” object
 This object will describe providers of high capacity links between interconnection facilities. It was named “Carrier” during the discussion but that is a placeholder that could be changed if it is considered confusing or inappropriate. We are developing a design which will be circulated with the focus group before developing this new feature.
@@ -43,14 +43,14 @@ This is an example of how PeeringDB is developed by its users as well as the cor
 ## What else? Data accuracy
 We know that we need to do work to improve the quality of data in PeeringDB as it plays such an important role in configuration.
 
-We last looked at this in 2019’s [Data Ownership Task Force](https://docs.peeringdb.com/taskforce/dataownership/#peeringdb-data-ownership-task-force), whose report acknowledged the shared responsibility for data describing the interconnected nature of separately managed parts of our Internet. We plan to work with PeeringDB users to renew our work in this area so we can continue to improve the quality of data we publish.
+We last looked at this in 2019’s [Data Ownership Task Force](/taskforce/dataownership/#peeringdb-data-ownership-task-force), whose report acknowledged the shared responsibility for data describing the interconnected nature of separately managed parts of our Internet. We plan to work with PeeringDB users to renew our work in this area so we can continue to improve the quality of data we publish.
 
 We are also setting course towards increased data accuracy by using the [RPKI](https://en.wikipedia.org/wiki/Resource_Public_Key_Infrastructure) and [Resource Signed Checklists](https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-rpki-rsc) (RSC). We want to use RSC validation to cryptographically validate our users’ ability to control specific Internet Number Resources.
 
-## Call to Action
+## Call to action
 We just deployed two user developed features: [improvements to simple search](https://github.com/peeringdb/peeringdb/issues/1083) and [OpenID Connect](https://github.com/peeringdb/peeringdb/issues/1070) integration. We are keen to include more user developed code. If you’d like to contribute to PeeringDB then let me know and we can help you.
 
-If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
+If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ***
 
