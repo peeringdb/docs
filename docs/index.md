@@ -72,6 +72,7 @@ The [tools](tools.md) page features tools developed by PeeringDB users.
 
 High-level [HOWTOs](howtos.md) provide a beginner detailed instructions on how to get started using PeeringDB.
 
+- [PeeringDB Tutorial, learning the GUI and the API](presentation/20220225-Apricot-1-2-GUI-API-with-exercises.pdf) at [APRICOT 2022](https://2022.apricot.net/program/schedule-tutorial/#/day/5/introduction-to-peeringdb-a-tutorial-part-1) - February 25, 2022 - Arnold Nipper
 - [The How-to Guide](presentation/20210506-Teraco_Tech_Day.pdf) at [Teraco Virtual Tech Day with PeeringDB](https://www.teraco.co.za/events/virtual-tech-days/?fbclid=IwAR310Y84fDzXnZOcfXWxnogcgkDTrWaTwfM4u0U8c5wkFPd5ihNaHuNWjzk) - May 6, 2021 - Ben Ryall
 - [PeeringDB Tutorial, learning the GUI and the API](presentation/20200220-1-2-GUI-API-APRICOT2020-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/9), Melbourne, AU - February 20, 2020 - Arnold Nipper
 - [How is PeeringDB organised?](presentation/20191110-1-GUI-DENOG11-Arnold-Nipper.pdf) and [The PeeringDB API](presentation/20191110-2-API-DENOG11-Arnold-Nipper.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/workshops.html), Hamburg, DE - November 10, 2019 - Arnold Nipper
