@@ -4,6 +4,24 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.35.0
+
+Beta Announcement Date: 9 March 2022
+
+Release Date: 22 March 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#506 Add "Management" search field to Advanced Search of Exchanges](https://github.com/peeringdb/peeringdb/issues/506) | Allows users to search for IXPs based on the organization that operates the IXP. |
+| [#727 RS Peer Checkbox also visible on IX Site](https://github.com/peeringdb/peeringdb/issues/727) | Informtion about networks claiming to peer with the Route Server is now shown on the IXP's page. |
+| [#512 New Field "Health Check"](https://github.com/peeringdb/peeringdb/issues/512) | Networks, IXPs, and Facilities can now link to a status dashboard page. |
+| [#653 missing delete button for user](https://github.com/peeringdb/peeringdb/issues/653) | There is now a button to delete a user account directly through the web interface. |
+| [#656 Sort user IDs in https://peeringdb.com/cp/peeringdb_server/userpermission/xxxxx numerically](https://github.com/peeringdb/peeringdb/issues/656) | Fixes the sorting orer of user IDs, so they are now sorted in numerical order. |
+| [#881 wrap correctly on mobile](https://github.com/peeringdb/peeringdb/issues/881) | The ASN column on mobile view will show seven digits before wrapping the number. |
+| [#908 2FA Backup Tokens language doesn't seem correct](https://github.com/peeringdb/peeringdb/issues/908) | Fixes the backup tokens language for 2FA. |
+| [#916 To force or not to force www, that is a question](https://github.com/peeringdb/peeringdb/issues/916) | Forces https://www.peeringdb.com as the URL for PeeringDB, enabling other improvements. |
+| [#1042 Long caching of deleted entries](https://github.com/peeringdb/peeringdb/issues/1042) | Fixes a problem where deleted objects continued to be returned because of cacheing. |
+
 ## Release 2.34.0
 
 Beta Announcement Date: 9 February 2022
