@@ -21,6 +21,8 @@ Release Date: 22 March 2022
 | [#908 2FA Backup Tokens language doesn't seem correct](https://github.com/peeringdb/peeringdb/issues/908) | Fixes the backup tokens language for 2FA. |
 | [#916 To force or not to force www, that is a question](https://github.com/peeringdb/peeringdb/issues/916) | Forces https://www.peeringdb.com as the URL for PeeringDB, enabling other improvements. |
 | [#1042 Long caching of deleted entries](https://github.com/peeringdb/peeringdb/issues/1042) | Fixes a problem where deleted objects continued to be returned because of cacheing. |
+| [#1117 Long caching of deleted entries](https://github.com/peeringdb/peeringdb/issues/1117) | Fixes a problem where corrupt or expired or bogus API key simply resulted in an anonymous user session. |
+
 
 ## Release 2.34.0
 
