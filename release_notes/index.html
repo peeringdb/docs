@@ -190,6 +190,10 @@ Release Date: 22 March 2022</p>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/1042">#1042 Long caching of deleted entries</a></td>
 <td>Fixes a problem where deleted objects continued to be returned because of cacheing.</td>
 </tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1117">#1117 Bad API keys need to return 401 just like a bad user/pass. Presently they return 200</a></td>
+<td>Fixes a problem where corrupt or expired or bogus API key simply resulted in an anonymous user session.</td>
+</tr>
 </tbody>
 </table>
 <h2 id="release-2340">Release 2.34.0</h2>

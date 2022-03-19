@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/get-started-developing/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Get Started with Developing for PeeringDB - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,29 +48,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../../committee/admin/">Admin Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../../committee/outreach/">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
+    <a href="../../committee/product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -79,23 +79,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../release_notes/">Release Notes</a>
 </li>
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../oauth/">OAuth</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../translation/">Translations</a>
 </li>
                                     
 <li >
@@ -103,14 +103,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">HOWTOs</a>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQs</a>
+                                <a href="../../faq/">FAQs</a>
                             </li>
                             <li >
-                                <a href="../blogs/">Blogs</a>
+                                <a href="../../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/get-started-developing.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,22 +131,25 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
+        <li class="main active"><a href="#get-started-with-developing-for-peeringdb">Get Started with Developing for PeeringDB</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#what-to-develop">What to develop</a></li>
+            <li><a href="#style">Style</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="peeringdb-howtos">PeeringDB HOWTOs</h2>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
-<ul>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="../howto/get-started-developing/">Get Started with Developing for PeeringDB</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-</ul></div>
+<h1 id="get-started-with-developing-for-peeringdb">Get Started with Developing for PeeringDB</h1>
+<h2 id="technology">Technology</h2>
+<p>We use Python with Django and MySQL. Django manages interaction with the database. We publish all <a href="https://github.com/peeringdb/peeringdb">our code</a> on GitHub. </p>
+<h2 id="what-to-develop">What to develop</h2>
+<p>PeeringDB users can request features and report bugs by creating <a href="https://github.com/peeringdb/peeringdb/issues">issues on GitHub</a>. Review open issues to either find a project you’d like to work on, or to see if there’s an existing issue for the feature you want.</p>
+<p>If you want to develop a feature that has not been discussed on GitHub, you should either create an issue or contact us to discuss what you need. You can send a message to <a href="mailto:productcom@lists.peeringdb.com">productcom@lists.peeringdb.com</a> or contact any of the members of the <a href="https://docs.peeringdb.com/committee/product/">Product Committee</a>.</p>
+<p>If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as <a href="https://github.com/peeringdb/peeringdb/issues?q=is%3Aopen+is%3Aissue+label%3A" title="Good+first+issue">Good first issue</a>. These are simple issues that will help you get a feel for PeeringDB.</p>
+<h2 id="style">Style</h2>
+<p>Before you start developing code look at how similar functions have been implemented. Use the same design as existing functions and develop unit tests for your code. We aim for 80% unit test coverage. You also need to run <a href="https://pypi.org/project/black/">black</a> on your code before submitting a Pull Request. We use black to ensure that all of our code has the same formatting. Reusing designs, developing unit tests, and using consistent formatting makes it easier for us to maintain the code over time.</p>
+<p>We keep the feature parity between the web interface and the API. A feature added to one needs to be added to the other.</p>
+<p>The implementation details documented in issues should be detailed enough to use as documentation for the web interface. Documentation is also needed for the API. The minimum we need for API documentation is an example of how to format the request and a pointer to the document section to update.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -163,11 +166,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
