@@ -7,9 +7,7 @@ We also want to ensure you adjust any automation aimed at [https://peeringdb.com
 
 Your listing in PeeringDB is how you present your network, IXP, or facility to the world. If a miscreant gains access to your account they can misrepresent you. Reclaiming control of the objects you look after and undoing any changes the miscreant has made could be a lot of work. 
 
-You can protect yourself against this risk by enabling multi-factor authentication on your account.
-
-
+You can protect yourself against this risk by enabling two-factor authentication on your account.
 
 We have supported industry standard Time-based One-Time Passwords, as defined in [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238.html) for a while now. This is the protocol used by popular smartphone authenticator apps. We added support for FIDO U2F hardware tokens in Q1 2022. 
 
@@ -18,11 +16,6 @@ You enable 2FA in the Account Security section of your account settings. Click o
  ![2FA in settings](images/2fa_in_settings.png)
 
 What are you waiting for? Improve the protection for your organization’s listing in PeeringDB today by enabling 2FA.
-
-One consequence of this change is that www.peeringdb.com is now the canonical URL for our service. This change is not only a factor in introducing support for FIDO U2F hardware tokens. It is also a key step in deploying PeeringDB to a CDN and so bringing the service closer to our users.
-
-Putting PeeringDB onto a CDN is one step on the path to a much more responsive service for users. We will also be working to improve the efficiency of page loading. We will then use what we learn from changing usage patterns to inform improvements to the visual design next year.
-
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
 
