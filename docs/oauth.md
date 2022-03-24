@@ -3,7 +3,7 @@
 
 PeeringDB now offers OAuth2 authentication for third-party applications to allow users to authenticate against PeeringDB.
 
-Implementation details are at <https://github.com/peeringdb/peeringdb/issues/131>.  For an example, see <https://github.com/inex/IXP-Manager/issues/322>.  
+Implementation details are at [Github #131](https://github.com/peeringdb/peeringdb/issues/131).  For an example, see [IXP-Manager issue #322](https://github.com/inex/IXP-Manager/issues/322).  
 
 ### What is OAuth?
 
@@ -11,7 +11,7 @@ There is a good write up at <https://aaronparecki.com/oauth-2-simplified/>.
 
 ### Register an application
 
-First you need to register your application at <https://peeringdb.com/oauth2/applications/>.
+First you need to [register](https://www.peeringdb.com/oauth2/applications/) your application at PeeringDB.
 
 ### URLs
 
