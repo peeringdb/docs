@@ -33,7 +33,7 @@ If the IX-F JSON `state` field is present, settings of `active`, `connected`, or
 IX-F Import Preview:
 
 - The `Preview` button shows the changes that will be performed or suggested, depending on participant `Allow IXP Update` settings.
-- A JSON form of this preview is available at: https://peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the ID that appears in the URL after /ix/ when viewing your IX page)
+- A JSON form of this preview is available at: https://www.peeringdb.com/import/ixlan/###/ixf/preview (replace ### with the ID that appears in the URL after /ix/ when viewing your IX page)
 
 **Note**: The Importer expects that you also provide IP addresses. If your IX-F JSON has an empty member_list or only contains ASNs, there will be no useful information. You might want to disable the import.
 

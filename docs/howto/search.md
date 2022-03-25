@@ -154,7 +154,7 @@ The PeeringDB database can be queried using a REST API. REST allows a client to 
 ## Object types
 
 Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.
-For example: [https://peeringdb.com/api/OBJ](https://peeringdb.com/api/OBJ). The endpoint is: `/api/OBJ`.
+For example: [https://www.peeringdb.com/api/OBJ](https://www.peeringdb.com/api/OBJ). The endpoint is: `/api/OBJ`.
 
 Below are the categories of objects types (OBJ) in PeeringDB:
 - **Basic Objects**: org, fac, ix, net, poc 
@@ -186,17 +186,17 @@ Authentication is done through basic HTTP authorization. People who are accessin
 
 `curl -sG https://username:password@peeringdb.com/api/poc`
 
-`curl -u username:password https://peeringdb.com/api/poc` 
+`curl -u username:password https://www.peeringdb.com/api/poc` 
 
 **Note**: Access to contact information may be restricted if you are using the API as a guest without authentication.
 
 ## Making a request
 
-When making a request, the URL base is added with `/api/`, followed by the object type and, if applicable, the object primary key (if applicable).  For example:`https://peeringdb.com/api/OBJ/id`.
+When making a request, the URL base is added with `/api/`, followed by the object type and, if applicable, the object primary key (if applicable).  For example:`https://www.peeringdb.com/api/OBJ/id`.
 
 If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter:
 - Accept Header: `Accept: application/json`
-- Extension type:`https://peeringdb.com/api/network/42.json`
+- Extension type:`https://www.peeringdb.com/api/network/42.json`
 
 ## Operations
 
@@ -204,7 +204,7 @@ Using the GET operation you can retrieve information from the PeeringDB database
 
 ### Single object
 
-To retrieve a single object you need to use this URL:`https://peeringdb.com/api/OBJ/ID` with this endpoint GET: `/api/OBJ/id`. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example:
+To retrieve a single object you need to use this URL:`https://www.peeringdb.com/api/OBJ/ID` with this endpoint GET: `/api/OBJ/id`. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example:
 - HTTP:`GET /api/OBJ/38` where 38 is the ID
 - curl: `curl -H "Accept: application/json" -X GET https://<username>:<password>@peeringdb.com/api/OBJ/38`
 
@@ -244,7 +244,7 @@ A nested set or object is any field ending in the suffix: set. For example: net_
 
 ### Multiple objects
 
-To retrieve a single object you need to use this URL: `https://peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example:
+To retrieve a single object you need to use this URL: `https://www.peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example:
 - HTTP: `GET /api/OBJ/` which is the endpoint 
 - curl: `curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ`
 
@@ -262,11 +262,11 @@ We will show you different use cases on how to use the PeeringDB API.
 
 ## How do I query by ASN?
 
-To query the ASN 42 using PeeringDB API, you will need to use this URL: GET `https://peeringdb.com/api/net?asn=42`, where `asn=42` is the query parameter. 
+To query the ASN 42 using PeeringDB API, you will need to use this URL: GET `https://www.peeringdb.com/api/net?asn=42`, where `asn=42` is the query parameter. 
 
 ### Using curl
 
-Use this curl example to get this specific network. Copy and paste the following to your command line interface: `curl GET https://peeringdb.com/api/net/42`.
+Use this curl example to get this specific network. Copy and paste the following to your command line interface: `curl GET https://www.peeringdb.com/api/net/42`.
 
 ### Using Python 
 
@@ -274,7 +274,7 @@ To make use of this Python code, first, you’ll have to first install [Python](
 
 ```
 import requests
-r = requests.get('https://peeringdb.com/api/net?asn=42')
+r = requests.get('https://www.peeringdb.com/api/net?asn=42')
 print(r.text)
  
 with open('output.csv', 'w+') as f:
@@ -285,7 +285,7 @@ From the above code, we make a request to the API using the request module and p
 
 ### Using jq
 
-You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install [Jq](https://stedolan.github.io/jq/download/).  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: `curl https://peeringdb.com/api/net?asn=42 > test.json`.
+You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install [Jq](https://stedolan.github.io/jq/download/).  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: `curl https://www.peeringdb.com/api/net?asn=42 > test.json`.
 
 This creates a new file named test.json.  To convert the JSON input file to the CSV format, copy and paste the following command: `jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json`
 

@@ -17,7 +17,7 @@ See our Quick Start guide: <http://docs.peeringdb.com/#quick-start>
 
 Q: How does affiliation to an organization work?
 
-A: After you have registered, go to your [profile](https://peeringdb.com/profile).
+A: After you have registered, go to your [profile](https://www.peeringdb.com/profile).
 
 * If your organization owns a network (also called AS or ASN), type in the AS number into the field `ASN`. Then click on the button `Affiliate`.
 
@@ -37,10 +37,10 @@ In any case you should get an answer either from your admin or [PeeringDB Suppor
 
 You may type in the ASN in the search box, or for web:
 `http://as42.peeringdb.com`
-`https://peeringdb.com/net?asn=42`
+`https://www.peeringdb.com/net?asn=42`
 
 For API:
-`https://peeringdb.com/api/net?asn=42`
+`https://www.peeringdb.com/api/net?asn=42`
 
 
 ### Using /asn used to work, what happened?
@@ -92,7 +92,7 @@ Your organization does not need to be a Member to have an active account at Peer
 
 ### What are the Terms and Conditions for PeeringDB membership?
 
-Please see <http://docs.peeringdb.com/gov/#organizational-documents> for the legal aspects of PeeringDB. The Acceptable Use Policy is at <https://peeringdb.com/aup>.
+Please see <http://docs.peeringdb.com/gov/#organizational-documents> for the legal aspects of PeeringDB. The Acceptable Use Policy is at <https://www.peeringdb.com/aup>.
 
 ### Are there any membership fees required for members?
 
