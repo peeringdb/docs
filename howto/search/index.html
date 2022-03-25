@@ -257,7 +257,7 @@ To search for a facility:<br />
 <p>The PeeringDB database can be queried using a REST API. REST allows a client to request information from a server over HTTP or HTTPS. The server then returns the requested information in JSON format.</p>
 <h2 id="object-types">Object types</h2>
 <p>Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.<br />
-For example: <a href="https://peeringdb.com/api/OBJ">https://peeringdb.com/api/OBJ</a>. The endpoint is: <code>/api/OBJ</code>.</p>
+For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.com/api/OBJ</a>. The endpoint is: <code>/api/OBJ</code>.</p>
 <p>Below are the categories of objects types (OBJ) in PeeringDB:<br />
 - <strong>Basic Objects</strong>: org, fac, ix, net, poc <br />
 - <strong>Derived Objects</strong>: ixlan, ixpfx, netixlan, netfac</p>
@@ -282,17 +282,17 @@ For example: <a href="https://peeringdb.com/api/OBJ">https://peeringdb.com/api/O
 <h2 id="authentication">Authentication</h2>
 <p>Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:</p>
 <p><code>curl -sG https://username:password@peeringdb.com/api/poc</code></p>
-<p><code>curl -u username:password https://peeringdb.com/api/poc</code> </p>
+<p><code>curl -u username:password https://www.peeringdb.com/api/poc</code> </p>
 <p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication.</p>
 <h2 id="making-a-request">Making a request</h2>
-<p>When making a request, the URL base is added with <code>/api/</code>, followed by the object type and, if applicable, the object primary key (if applicable).  For example:<code>https://peeringdb.com/api/OBJ/id</code>.</p>
+<p>When making a request, the URL base is added with <code>/api/</code>, followed by the object type and, if applicable, the object primary key (if applicable).  For example:<code>https://www.peeringdb.com/api/OBJ/id</code>.</p>
 <p>If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter:<br />
 - Accept Header: <code>Accept: application/json</code><br />
-- Extension type:<code>https://peeringdb.com/api/network/42.json</code></p>
+- Extension type:<code>https://www.peeringdb.com/api/network/42.json</code></p>
 <h2 id="operations">Operations</h2>
 <p>Using the GET operation you can retrieve information from the PeeringDB database. You can retrieve both a single object and multiple objects in an array. Let’s look at each of them individually. </p>
 <h3 id="single-object">Single object</h3>
-<p>To retrieve a single object you need to use this URL:<code>https://peeringdb.com/api/OBJ/ID</code> with this endpoint GET: <code>/api/OBJ/id</code>. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example:<br />
+<p>To retrieve a single object you need to use this URL:<code>https://www.peeringdb.com/api/OBJ/ID</code> with this endpoint GET: <code>/api/OBJ/id</code>. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example:<br />
 - HTTP:<code>GET /api/OBJ/38</code> where 38 is the ID<br />
 - curl: <code>curl -H "Accept: application/json" -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ/38</code></p>
 <p>There are optional parameters you can add to your URL:<br />
@@ -323,7 +323,7 @@ For example: <a href="https://peeringdb.com/api/OBJ">https://peeringdb.com/api/O
 - 1: expand all first level sets to ids<br />
 - 2: expand all first level sets to objects</p>
 <h3 id="multiple-objects">Multiple objects</h3>
-<p>To retrieve a single object you need to use this URL: <code>https://peeringdb.com/api/OBJ/</code> with this endpoint GET: <code>/api/OBJ/</code>. Let’s look at an example:<br />
+<p>To retrieve a single object you need to use this URL: <code>https://www.peeringdb.com/api/OBJ/</code> with this endpoint GET: <code>/api/OBJ/</code>. Let’s look at an example:<br />
 - HTTP: <code>GET /api/OBJ/</code> which is the endpoint <br />
 - curl: <code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ</code></p>
 <p>There are optional parameters you can add to your URL:<br />
@@ -336,13 +336,13 @@ For example: <a href="https://peeringdb.com/api/OBJ">https://peeringdb.com/api/O
 <h2 id="real-world-use-cases">Real world use cases</h2>
 <p>We will show you different use cases on how to use the PeeringDB API.</p>
 <h2 id="how-do-i-query-by-asn">How do I query by ASN?</h2>
-<p>To query the ASN 42 using PeeringDB API, you will need to use this URL: GET <code>https://peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter. </p>
+<p>To query the ASN 42 using PeeringDB API, you will need to use this URL: GET <code>https://www.peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter. </p>
 <h3 id="using-curl">Using curl</h3>
-<p>Use this curl example to get this specific network. Copy and paste the following to your command line interface: <code>curl GET https://peeringdb.com/api/net/42</code>.</p>
+<p>Use this curl example to get this specific network. Copy and paste the following to your command line interface: <code>curl GET https://www.peeringdb.com/api/net/42</code>.</p>
 <h3 id="using-python">Using Python</h3>
 <p>To make use of this Python code, first, you’ll have to first install <a href="https://www.python.org/downloads/">Python</a> if you don’t have it installed. Then, install <a href="https://pip.pypa.io/en/stable/cli/pip_install/">pip</a> and <a href="https://docs.python-requests.org/en/latest/user/install/">requests</a>. After that create a Python file and copy and paste the following code. </p>
 <pre><code>import requests
-r = requests.get('https://peeringdb.com/api/net?asn=42')
+r = requests.get('https://www.peeringdb.com/api/net?asn=42')
 print(r.text)
 
 with open('output.csv', 'w+') as f:
@@ -351,7 +351,7 @@ with open('output.csv', 'w+') as f:
 
 <p>From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format. However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv. </p>
 <h3 id="using-jq">Using jq</h3>
-<p>You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install <a href="https://stedolan.github.io/jq/download/">Jq</a>.  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: <code>curl https://peeringdb.com/api/net?asn=42 &gt; test.json</code>.</p>
+<p>You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install <a href="https://stedolan.github.io/jq/download/">Jq</a>.  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: <code>curl https://www.peeringdb.com/api/net?asn=42 &gt; test.json</code>.</p>
 <p>This creates a new file named test.json.  To convert the JSON input file to the CSV format, copy and paste the following command: <code>jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json</code></p>
 <h3 id="using-an-online-converter">Using an online converter</h3>
 <p>Alternatively you can use an online tool such as <a href="https://www.convertcsv.com/json-to-csv.htm">https://www.convertcsv.com/json-to-csv.htm</a> to convert the raw JSON file to CSV.</p>

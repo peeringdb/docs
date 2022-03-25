@@ -142,7 +142,7 @@
 
 <h1 id="restful-api-endpoints-and-specifications">RESTful API endpoints and specifications</h1>
 <h2 id="object-types-and-tags">Object types and tags</h2>
-<p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://peeringdb.com/apidocs/">https://peeringdb.com/apidocs/</a>.</p>
+<p>Each object has an associated short hand tag you can use, current available tags are listed at <a href="https://www.peeringdb.com/apidocs/">https://www.peeringdb.com/apidocs/</a>.</p>
 <h2 id="requests">Requests</h2>
 <h4 id="url">URL</h4>
 <dl>
@@ -151,7 +151,7 @@
 <p>Object type is not case sensitive.</p>
 <p>For example:</p>
 <ul>
-<li>https://peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
+<li>https://www.peeringdb.com/api/<code>OBJ</code>/<code>id</code></li>
 </ul>
 </dd>
 </dl>
@@ -162,7 +162,7 @@
 <pre><code>Accept: application/json
 </code></pre>
 <p>Or use extension <code>type</code></p>
-<pre><code>https://peeringdb.com/api/network/42.json
+<pre><code>https://www.peeringdb.com/api/network/42.json
 </code></pre>
 </dd>
 <dt>JSON</dt>
@@ -370,9 +370,9 @@ objects updated since then.</p>
 <h2 id="real-world-example">Real world example</h2>
 <p>Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering points in Europe.  How can I do this?</p>
 <p>A: You can use the API to perform complex queries, like in this example.</p>
-<pre><code>curl -sG https://peeringdb.com/api/netixlan
+<pre><code>curl -sG https://www.peeringdb.com/api/netixlan
 --data-urlencode net_id__in=694,1100,1418
---data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix
+--data-urlencode ix_id__in=`curl -sG https://www.peeringdb.com/api/ix
 --data-urlencode region_continent=Europe | 
 jq -c '[.data[].id]' | 
 sed 's/\[//;s/\]//'` |
@@ -381,7 +381,7 @@ sort -V
 </code></pre>
 <p>The query looks for netixlan records belonging to Microsoft, Salesforce.com and Amazone.com (net_id__in=694,1100,1418) which are constrained to IXes in Europe based on the output from the embedded query.</p>
 <p>The embedded query in single quotes looks for all IXes with "Continental Region = Europe".  We do a little massaging on the IX ids to get a comma-separated list, which we then use as input in the query.</p>
-<pre><code>curl -sG https://peeringdb.com/api/ix
+<pre><code>curl -sG https://www.peeringdb.com/api/ix
 --data-urlencode region_continent=Europe |
 jq -c '[.data[].id]' | 
 sed 's/\[//;s/\]//'
