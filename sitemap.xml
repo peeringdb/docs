@@ -1,78 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://docs.peeringdb.com/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/gov/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/api_specs/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/committee/admin/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/blogs/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/committee/outreach/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/faq/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/committee/product/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/gov/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/taskforce/dataownership/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/howtos/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/release_notes/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/ix-f-json-import-rules/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/api_specs/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/oauth/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/ix-f-json-import-rules/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/presentations/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/oauth/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/tools/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/translation/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/translation/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/blog/advanced_search_1/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/howtos/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/blog/advanced_search_2/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/faq/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/blog/api_keys/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.peeringdb.com/blogs/</loc>
-     <lastmod>2022-03-25</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.peeringdb.com/blog/automating_configuration/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/carrier_object/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/contacts_marked_private/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/contributing_code/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/geographic_search/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/guidelines_for_registering/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/more_details_facilities/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/oauth_users/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_2020_satisfaction_survey/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_2020_survey_2021_roadmap/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_2021_survey_2022_roadmap/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_2021_user_survey/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_is_developed_by_its_community/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_release_v2.23.0/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/peeringdb_release_v2.24.0/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/user_developed_tools/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/blog/your_logo_goes_here/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/common/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/admin/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/admin/approval-guidelines/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/admin/charter/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/outreach/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/outreach/charter/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/product/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/product/charter/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/committee/product/workflow/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/get-started-developing/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/get-started-exchange/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/get-started-facility/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/get-started-operator/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/manage-permissions/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/search/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/updates-for-as112/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/release_notes/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/release_notes/release_notes_2020/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/release_notes/release_notes_2021/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/taskforce/dataownership/</loc>
+         <lastmod>2022-03-25</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>
