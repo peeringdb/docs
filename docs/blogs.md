@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Improve Your Account Security - And Check Our URL](blog/u2f_and_url.md) - March 28, 2022
 - [2021 Survey Results and 2022 Product Roadmap](blog/peeringdb_2021_survey_2022_roadmap.md) - February 10, 2022
 - [PeeringDB is Developed by its Community](blog/peeringdb_is_developed_by_its_community.md) - January 17, 2022
 - [Guidelines for Registering in PeeringDB](blog/guidelines_for_registering.md) - October 21, 2021
