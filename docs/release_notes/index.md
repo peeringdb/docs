@@ -19,7 +19,7 @@ Release Date: 22 March 2022
 | [#656 Sort user IDs in https://peeringdb.com/cp/peeringdb_server/userpermission/xxxxx numerically](https://github.com/peeringdb/peeringdb/issues/656) | Fixes the sorting orer of user IDs, so they are now sorted in numerical order. |
 | [#881 wrap correctly on mobile](https://github.com/peeringdb/peeringdb/issues/881) | The ASN column on mobile view will show seven digits before wrapping the number. |
 | [#908 2FA Backup Tokens language doesn't seem correct](https://github.com/peeringdb/peeringdb/issues/908) | Fixes the backup tokens language for 2FA. |
-| [#916 To force or not to force www, that is a question](https://github.com/peeringdb/peeringdb/issues/916) | Forces https://www.peeringdb.com as the URL for PeeringDB, enabling other improvements. |
+| [#916 To force or not to force www, that is a question](https://github.com/peeringdb/peeringdb/issues/916) | Forces https://www.peeringdb.com as the URL for PeeringDB, enabling other improvements. Some clients will need to adjust their endpoints to use www.peeringdb.com. `curl` users will want to use the `-L` flag. |
 | [#1042 Long caching of deleted entries](https://github.com/peeringdb/peeringdb/issues/1042) | Fixes a problem where deleted objects continued to be returned because of cacheing. |
 | [#1117 Bad API keys need to return 401 just like a bad user/pass. Presently they return 200](https://github.com/peeringdb/peeringdb/issues/1117) | Fixes a problem where corrupt or expired or bogus API key simply resulted in an anonymous user session. |
 
