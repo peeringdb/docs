@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/blog/peeringdb_2020_survey_2021_roadmap/">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/u2f_and_url/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>2020 Survey Results and 2021 Product Roadmap - PeeringDB Docs</title>
+        <title>Improve Your Account Security - And Check Our URL - PeeringDB Docs</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/blog/peeringdb_2020_survey_2021_roadmap.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/blog/u2f_and_url.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,30 +131,22 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#2020-survey-results-and-2021-product-roadmap">2020 Survey Results and 2021 Product Roadmap</a></li>
+        <li class="main active"><a href="#improve-your-account-security-and-check-our-url">Improve Your Account Security - And Check Our URL</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="2020-survey-results-and-2021-product-roadmap">2020 Survey Results and 2021 Product Roadmap</h1>
-<p>Last November <a href="https://docs.peeringdb.com/blog/peeringdb_2020_satisfaction_survey/">we asked you</a> for input through our anonymous satisfaction survey, so we could use it to guide our product roadmap for 2021. Today, we are sharing what you told us through the survey and how we’ll be improving PeeringDB and your experience of it in 2021.</p>
-<p><img alt="[Awesome Arrows by Jon Tyson on Unsplash]" src="../images/awesome_arrows_sign_banner-555x202.png" /></p>
-<p>We had over 200 responses to the survey. Respondents identified themselves as connected with organizations operating on every continent and in every part of our industry. 99% of respondents described themselves as very or somewhat satisfied with PeeringDB overall.</p>
-<p><img alt="[Overall Satisfaction]" src="../images/overall-satisfaction.png" /></p>
-<p>When we asked about specific service categories, we were told that Network Configuration Data and Search and Discovery capabilities were the most important. These service categories had lower, though still high, levels of satisfaction, with 95% and 96% of respondents describing themselves as very or somewhat satisfied with these aspects of PeeringDB.</p>
-<p>Although we saw higher satisfaction with the User Experience and Web Interface, at 97%, this service category both had the most responses and the most divided feedback. One user described the current web interface as “<em>clean and simple</em>” while others said it was “<em>showing its age</em>.”</p>
-<p>Documentation quality was also an area with lower specific satisfaction, at 93%. One comment homed in on a key problem, noting: "<em>Needs a top-level overview document/intro. Or if it exists, I need to find it.</em>"</p>
-<p>We have used your feedback to guide our product roadmap for 2021. The four key focus areas will be:</p>
-<ul>
-<li>Improving geographic search</li>
-<li>Developing a structured framework for user documentation</li>
-<li>Improving the web site’s responsiveness</li>
-<li>Introducing a communications framework to alert users to developments and support future tooling</li>
-</ul>
-<p>Our first steps to accomplish this have been to add database support for coordinates of facilities. All new facilities will be located by their latitude and longitude, with street addresses as human friendly search terms instead of authoritative data. This is a major project and we will share more on this work in a future blog post.</p>
-<p>Another key change is the publication of <a href="https://docs.peeringdb.com/howto/get-started-operator/">our first HOWTO document</a>. This document is designed to help new networks register with PeeringDB using our website. We will be publishing more documents in this series and developing a broader documentation framework to support API and web users equally.</p>
-<p><img alt="[Simple Product Roadmap Diagram]" src="../images/simple-product-roadmap-diagram.png" /></p>
-<p>If you have an idea to improve PeeringDB you can share it on our <a href="https://docs.peeringdb.com/#mailing-lists">low traffic mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb">GitHub</a>. If you find a data quality issue, please let us know at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#101;&#101;&#114;&#105;&#110;&#103;&#100;&#98;&#46;&#99;&#111;&#109;</a>.</p>
+<h1 id="improve-your-account-security-and-check-our-url">Improve Your Account Security - And Check Our URL</h1>
+<p>We completed our support for FIDO U2F hardware tokens this month and have made <a href="https://www.peeringdb.com">www.peeringdb.com</a> the canonical URL for our service. We’d like you to take advantage of two-factor security for your PeeringDB account. </p>
+<p>We also want to ensure you adjust any automation aimed at <a href="https://peeringdb.com">https://peeringdb.com</a> so that it connects to <a href="https://www.peeringdb.com">https://www.peeringdb.com</a> instead. This will ensure continuity of service for API users.</p>
+<p><img alt="Key and security token" src="../images/usb_c_security_token_with_door_key.png" /></p>
+<p>Your listing in PeeringDB is how you present your network, IXP, or facility to the world. If a miscreant gains access to your account they can misrepresent you. Reclaiming control of the objects you look after and undoing any changes the miscreant has made could be a lot of work. </p>
+<p>You can protect yourself against this risk by enabling two-factor authentication on your account.</p>
+<p>We have supported industry standard Time-based One-Time Passwords, as defined in <a href="https://www.rfc-editor.org/rfc/rfc6238.html">RFC 6238</a> for a while now. This is the protocol used by popular smartphone authenticator apps. We added support for FIDO U2F hardware tokens in Q1 2022. </p>
+<p>You enable 2FA in the Account Security section of your account settings. Click on the green button to Manage Two-Factor Authentication and you’ll be guided through the process. Just be aware that you’ll need a secure place to store your backup codes, so you can gain access to your account if you ever lose access to your authenticator app or U2F hardware token.</p>
+<p><img alt="2FA in settings" src="../images/2fa_in_settings.png" /></p>
+<p>What are you waiting for? Improve the protection for your organization’s listing in PeeringDB today by enabling 2FA.</p>
+<p>If you have an idea to improve PeeringDB you can share it on our low traffic <a href="/#mailing-lists">mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <hr />
 <p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
         </div>
