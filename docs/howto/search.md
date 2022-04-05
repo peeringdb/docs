@@ -1,4 +1,4 @@
-# Get Started with Search in PeeringDB
+# HOWTO: Get Started with Search in PeeringDB
 
 ## Introduction to PeeringDB
 
