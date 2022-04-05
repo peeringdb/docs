@@ -1,4 +1,4 @@
-# What is AS112?
+# HOWTO: What is AS112?
 
 Many networks using private address space ([RFC 1918](https://www.rfc-editor.org/info/rfc1918)) leak the reverse DNS lookups instead of running a local DNS server to respond to them. To stop this traffic from overwhelming root nameservers, volunteers run [AS112 nameservers](https://www.as112.net), which provide authoritative, local answers.
 

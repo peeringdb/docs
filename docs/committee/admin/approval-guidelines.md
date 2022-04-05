@@ -86,7 +86,7 @@ PeeringDB encourages but does not require its users to follow industry best prac
 
 A “facility” is a physical location where two or more IP Networks or IXPs interconnect with each other. The key to approving Facility objects is to confirm with multiple existing PeeringDB users that a facility exists. 
 
-* Note: We will need to extend PeeringDB's to support the workflow described here.
+* Note: We will need to extend PeeringDB's software to support the workflow described here.
 * Note: The IP addresses used in the attestation process will be logged.
 
 ### Validation mechanisms
