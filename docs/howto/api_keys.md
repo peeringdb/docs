@@ -1,32 +1,52 @@
-# API Keys
+# About PeeringDB
+
+PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
+
+We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
+
+# What is Our API?
+
+An Application Programming Interface (API) is a way for computer software to communicate with other computers software. Our API allows PeeringDB users to query and update PeeringDB programmatically. That means they can automate work instead of using the website.
+
+# What Are API Keys?
+
+An API key is a secret token for identifying and authenticating a user. That user can be an individual or an organization. That’s why we support both user and organizational API keys.
 
 PeeringDB offers API keys for authenticating API requests. There are two main forms of API keys:
 
-## Organization-level API Keys
+* User-level 
+* Organizational-level
 
-These API keys are created and revoked from the organization admin panel. Each key gets its own custom permissions, which can be modified from the "org api key permissions" panel.
+# User-level API Keys
 
-Each key must have an email attached to it; this is because keys may be allowed to create and modify data in PeeringDB, and we need a contact to reach out to in case of questions.
+These API keys are tied to an individual user account and can be created from the user profile page. 
+
+There are only two permission levels: a normal key will mirror the same permissions of the user, while a readonly key will have read only permissions to all the same namespaces as the user.
+
+!["form to add user api key"](images/user-key-add.png)
+
+# Organization-level API Keys
+
+These API keys are created and revoked from the organization admin panel. Each key gets its own custom permissions, which can be modified from the API Key Permissions panel.
+
+Each key must have an email attached to it. This is because keys may be allowed to create and modify data in PeeringDB, and we need a contact to reach out to in case of questions.
+
+You should use an organization-level API Key for automation that should not be tied to individual users.
 
 !["api key creation"](images/org-key-added.png)
 
 !["manage organization api key permissions"](images/org-key-permissions.png)
 
-## User-level API Keys
 
-These API key are tied to a individual user account and can be created from the user profile page. There are only two permission levels: a normal key will mirror the same permissions of the user, while a readonly key will have readonly permissions to all the same namespaces as the user.
+## Copy/Write Down Keys Immediately
 
-!["form to add user api key"](images/user-key-add.png)
-
-## Copy/Write down keys immediately
-
-**One thing to note** is that the full api key string is only ever exposed to the user or organization at its moment of creation. If this string is lost, then the user or organization should revoke that key and create and permission a new one.
+❗ The full API key string is only ever exposed to the user or organization at its moment of creation. If your organization loses this string, then it should revoke that key and replace it. That means creating and giving permissions to a new one.
 
 
-## Commandline example using Python and Requests
+## Command Line Example Using Python and Requests
 API keys allow developers to interact with their PeeringDB account programmatically, rather than through the website. Here is an example script in Python. It uses the module Requests to GET data about a particular Facility, and then sends a PUT request to modify that data.
 
-This example assumes we have an environment variable set with our API Key. To do that from the commandline, we can run:
+This example assumes we have an environment variable set with our API Key. To do that from the command line, we can run:
 
 ```sh
 export API_KEY="[created api key string]"
@@ -81,6 +101,7 @@ We can print the status code to see if our request was successful.
 ```py
 print(put_response.status_code)
 ```
+
 This will return a code 200 to signal success.
 
 Additionally the content of the request should include data for the now modified Facility
@@ -91,9 +112,9 @@ print(put_response.json())
 
 Would return a dictionary of the values of the now modified Facility.
 
-## Commandline example using Curl
+## Command Line example Using Curl
 
-API keys provide a cleaner way to authenticate api requests. PeeringDB recommends the commandline user creates a API_KEY variable like so
+API keys provide a cleaner way to authenticate api requests. PeeringDB recommends the command Line user creates a API_KEY variable like so
 
 ```sh
 export API_KEY="[created api key string]"
