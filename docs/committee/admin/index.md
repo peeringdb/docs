@@ -3,6 +3,10 @@
 - Purpose is to oversee the administrator mission and volunteers.
 - Interested in volunteering? Contact [admincom@lists.peeringdb.com](mailto:admincom@lists.peeringdb.com).
 
+## Documentation
+
+- [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](approval-guidelines)
+
 {!docs/committee/admin/charter.md!}
 
 ## Meeting notes
