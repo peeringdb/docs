@@ -36,5 +36,4 @@
 - Arnold Nipper
 - Ben Ryall (Chair)
 - Bijal Sanghani (Vice Chair)
-- Rebecca Stanić
 - Inga Turner

@@ -1,10 +1,8 @@
-# About PeeringDB
+# HOWTO: Getting Started with API Keys
 
-PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
+PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet. We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
 
-We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
-
-# What is Our API?
+# What is our API?
 
 An Application Programming Interface (API) is a way for computer software to communicate with other computers software. Our API allows PeeringDB users to query and update PeeringDB programmatically. That means they can automate work instead of using the website.
 
@@ -13,11 +11,10 @@ An Application Programming Interface (API) is a way for computer software to com
 An API key is a secret token for identifying and authenticating a user. That user can be an individual or an organization. That’s why we support both user and organizational API keys.
 
 PeeringDB offers API keys for authenticating API requests. There are two main forms of API keys:
-
 * User-level 
 * Organizational-level
 
-# User-level API Keys
+# User-level API keys
 
 These API keys are tied to an individual user account and can be created from the user profile page. 
 
@@ -25,7 +22,7 @@ There are only two permission levels: a normal key will mirror the same permissi
 
 !["form to add user api key"](images/user-key-add.png)
 
-# Organization-level API Keys
+# Organization-level API keys
 
 These API keys are created and revoked from the organization admin panel. Each key gets its own custom permissions, which can be modified from the API Key Permissions panel.
 
@@ -37,13 +34,12 @@ You should use an organization-level API Key for automation that should not be t
 
 !["manage organization api key permissions"](images/org-key-permissions.png)
 
+## Copy/write down keys immediately
 
-## Copy/Write Down Keys Immediately
+**One thing to note** is that the full API key string is only ever exposed to the user or organization at its moment of creation. If this string is lost, then the user or organization should revoke that key and create and permission a new one.
 
-❗ The full API key string is only ever exposed to the user or organization at its moment of creation. If your organization loses this string, then it should revoke that key and replace it. That means creating and giving permissions to a new one.
+## Command line example using Python and requests
 
-
-## Command Line Example Using Python and Requests
 API keys allow developers to interact with their PeeringDB account programmatically, rather than through the website. Here is an example script in Python. It uses the module Requests to GET data about a particular Facility, and then sends a PUT request to modify that data.
 
 This example assumes we have an environment variable set with our API Key. To do that from the command line, we can run:
@@ -112,9 +108,9 @@ print(put_response.json())
 
 Would return a dictionary of the values of the now modified Facility.
 
-## Command Line example Using Curl
+## Command line example using Curl
 
-API keys provide a cleaner way to authenticate api requests. PeeringDB recommends the command Line user creates a API_KEY variable like so
+API keys provide a cleaner way to authenticate API requests. PeeringDB recommends the command line user creates a API_KEY variable like so
 
 ```sh
 export API_KEY="[created api key string]"

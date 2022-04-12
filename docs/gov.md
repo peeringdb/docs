@@ -7,6 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
+- April 12th, 2022: [Agenda](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Agenda.txt)
 - April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
 - April 25th, 2019: [Agenda](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Audio.mp3)
@@ -40,6 +41,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Finances
 
+- [December 31st, 2021: Finance Report](gov/finances/2021-12-31_PeeringDB_Finances.pdf)
 - [May 12th, 2021: IRS Form 990-EZ for 2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf)
 - [December 31st, 2020: Finance Report](gov/finances/2020-12-31_PeeringDB_Finances.pdf)
 - [May 13th, 2020: IRS Form 990-EZ for 2019](gov/finances/2020-05-13_2019_Form_990-EZ.pdf)
@@ -75,6 +77,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 14th, 2022: Board election voter's guide](gov/misc/2022-04-14_election.html)
 - [April 30th, 2021: Board election results](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2021: Board election voter's guide](gov/misc/2021-04-14_election.html)
 - [April 30th, 2020: Board election results](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf)

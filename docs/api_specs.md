@@ -2,7 +2,7 @@
 
 ## Object types and tags
 
-Each object has an associated short hand tag you can use, current available tags are listed at <https://peeringdb.com/apidocs/>.
+Each object has an associated short hand tag you can use, current available tags are listed at <https://www.peeringdb.com/apidocs/>.
 
 ## Requests
 
@@ -14,7 +14,7 @@ Each object has an associated short hand tag you can use, current available tags
 
     For example:
 
-    - https://peeringdb.com/api/`OBJ`/`id`
+    - https://www.peeringdb.com/api/`OBJ`/`id`
 
 #### Encoding
 
@@ -24,7 +24,7 @@ Each object has an associated short hand tag you can use, current available tags
 
     Or use extension `type`
 
-        https://peeringdb.com/api/network/42.json
+        https://www.peeringdb.com/api/network/42.json
 
 JSON
 
@@ -258,9 +258,9 @@ Q: I'd like to search for Microsoft's, Salesforce.com's and Amazon.com's peering
 
 A: You can use the API to perform complex queries, like in this example.
 
-    curl -sG https://peeringdb.com/api/netixlan
+    curl -sG https://www.peeringdb.com/api/netixlan
     --data-urlencode net_id__in=694,1100,1418
-    --data-urlencode ix_id__in=`curl -sG https://peeringdb.com/api/ix
+    --data-urlencode ix_id__in=`curl -sG https://www.peeringdb.com/api/ix
     --data-urlencode region_continent=Europe | 
     jq -c '[.data[].id]' | 
     sed 's/\[//;s/\]//'` |
@@ -271,7 +271,7 @@ The query looks for netixlan records belonging to Microsoft, Salesforce.com and 
 
 The embedded query in single quotes looks for all IXes with "Continental Region = Europe".  We do a little massaging on the IX ids to get a comma-separated list, which we then use as input in the query.
 
-    curl -sG https://peeringdb.com/api/ix
+    curl -sG https://www.peeringdb.com/api/ix
     --data-urlencode region_continent=Europe |
     jq -c '[.data[].id]' | 
     sed 's/\[//;s/\]//'
