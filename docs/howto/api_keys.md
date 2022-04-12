@@ -11,6 +11,7 @@ An Application Programming Interface (API) is a way for computer software to com
 An API key is a secret token for identifying and authenticating a user. That user can be an individual or an organization. That’s why we support both user and organizational API keys.
 
 PeeringDB offers API keys for authenticating API requests. There are two main forms of API keys:
+
 * User-level 
 * Organizational-level
 
@@ -42,7 +43,7 @@ You should use an organization-level API Key for automation that should not be t
 
 API keys allow developers to interact with their PeeringDB account programmatically, rather than through the website. Here is an example script in Python. It uses the module Requests to GET data about a particular Facility, and then sends a PUT request to modify that data.
 
-This example assumes we have an environment variable set with our API Key. To do that from the command line, we can run:
+This example assumes we have an environment variable set with our API key. To do that from the command line, we can run:
 
 ```sh
 export API_KEY="[created api key string]"
