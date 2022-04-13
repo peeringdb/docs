@@ -4,6 +4,28 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.36.0
+
+Beta Announcement Date: 13 April 2022
+Release Date: 20 April 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [peeringdb-py #62 Support User & Org API keys](https://github.com/peeringdb/peeringdb-py/issues/62) | Adds API keys support for the peeringdb-py cacheing client. |
+| [#1079 Normalize the names of states & provinces for various objects](https://github.com/peeringdb/peeringdb/issues/1079) | Normalizes names for states and provinces, improving search experience. |
+| [#784 Do not show objects in status "pending" on the UI](https://github.com/peeringdb/peeringdb/issues/784) | Objects that do not have an OK status are no longer returned in search results. |
+| [#996 500 Error during login for 2FA enabled accounts with unverified email address](https://github.com/peeringdb/peeringdb/issues/996) | Fixes a bug that generated a 500 error when logging in with an account whose e-mail address had not been verified. |
+| [#845 Need consolidated app logs](https://github.com/peeringdb/peeringdb/issues/845) | Improvements to logging. |
+| [#1119 Some command-line-tool executions are not logged](https://github.com/peeringdb/peeringdb/issues/1119) | Improves logging so AC tools can undo actions. |
+| [#1120 Ops: response header X-Auth-ID to augment logging](https://github.com/peeringdb/peeringdb/issues/1120) | Logs the user for requested authenticated by API keys allowing them to be contacted. |
+| [#1121 Ops: API throttling needs customizable messages](https://github.com/peeringdb/peeringdb/issues/1121) | API requests can now be throttled with custom return code (HTTP 429). |
+| [#1122 Logging for melissa (geo-address normalization) queries](https://github.com/peeringdb/peeringdb/issues/1122) | Adds support for logging geosearch queries to the external API. |
+| [#1124 Allow rate-limiting of melissa enabled api functionality.](https://github.com/peeringdb/peeringdb/issues/1124) | Adds support for rate-limiting the geosearch features that rely on an external API. |
+| [#1126 Ops: API throttling of repeated requests](https://github.com/peeringdb/peeringdb/issues/1126) | Adds support for throttling repeated requests. |
+| [#1096 Clicking on Facility history in AC GUI throws 500](https://github.com/peeringdb/peeringdb/issues/1096) | Fixes a bug that hid `fan` history. |
+| [#1035 Django-Admin: adding a network with existing asn fails with internal error](https://github.com/peeringdb/peeringdb/issues/1035) | Fixes a bug that returned a 500 error when a user attempted to add a `net` with the same ASN as an existing object. It now returns a more helpful validation error. |
+
+
 ## Release 2.35.0
 
 Beta Announcement Date: 8 March 2022
