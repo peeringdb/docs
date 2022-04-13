@@ -1,4 +1,4 @@
-## PeeringDB Blogs
+# PeeringDB Blogs
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
