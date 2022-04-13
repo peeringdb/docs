@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2360">Release 2.36.0</a></li>
             <li><a href="#release-2350">Release 2.35.0</a></li>
             <li><a href="#release-2340">Release 2.34.0</a></li>
             <li><a href="#release-2330">Release 2.33.0</a></li>
@@ -143,6 +144,71 @@
 <h1 id="release-notes">Release Notes</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2360">Release 2.36.0</h2>
+<p>Beta Announcement Date: 13 April 2022<br />
+Release Date: 20 April 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb-py/issues/62">peeringdb-py #62 Support User &amp; Org API keys</a></td>
+<td>Adds API keys support for the peeringdb-py cacheing client.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1079">#1079 Normalize the names of states &amp; provinces for various objects</a></td>
+<td>Normalizes names for states and provinces, improving search experience.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/784">#784 Do not show objects in status "pending" on the UI</a></td>
+<td>Objects that do not have an OK status are no longer returned in search results.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/996">#996 500 Error during login for 2FA enabled accounts with unverified email address</a></td>
+<td>Fixes a bug that generated a 500 error when logging in with an account whose e-mail address had not been verified.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/845">#845 Need consolidated app logs</a></td>
+<td>Improvements to logging.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1119">#1119 Some command-line-tool executions are not logged</a></td>
+<td>Improves logging so AC tools can undo actions.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1120">#1120 Ops: response header X-Auth-ID to augment logging</a></td>
+<td>Logs the user for requested authenticated by API keys allowing them to be contacted.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1121">#1121 Ops: API throttling needs customizable messages</a></td>
+<td>API requests can now be throttled with custom return code (HTTP 429).</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1122">#1122 Logging for melissa (geo-address normalization) queries</a></td>
+<td>Adds support for logging geosearch queries to the external API.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1124">#1124 Allow rate-limiting of melissa enabled api functionality.</a></td>
+<td>Adds support for rate-limiting the geosearch features that rely on an external API.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1126">#1126 Ops: API throttling of repeated requests</a></td>
+<td>Adds support for throttling repeated requests.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1096">#1096 Clicking on Facility history in AC GUI throws 500</a></td>
+<td>Fixes a bug that hid <code>fan</code> history.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1035">#1035 Django-Admin: adding a network with existing asn fails with internal error</a></td>
+<td>Fixes a bug that returned a 500 error when a user attempted to add a <code>net</code> with the same ASN as an existing object. It now returns a more helpful validation error.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2350">Release 2.35.0</h2>
 <p>Beta Announcement Date: 8 March 2022<br />
 Release Date: 22 March 2022</p>
