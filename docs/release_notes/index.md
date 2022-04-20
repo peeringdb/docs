@@ -22,7 +22,7 @@ Release Date: 20 April 2022
 | [#1122 Logging for melissa (geo-address normalization) queries](https://github.com/peeringdb/peeringdb/issues/1122) | Adds support for logging geosearch queries to the external API. |
 | [#1124 Allow rate-limiting of melissa enabled api functionality.](https://github.com/peeringdb/peeringdb/issues/1124) | Adds support for rate-limiting the geosearch features that rely on an external API. |
 | [#1126 Ops: API throttling of repeated requests](https://github.com/peeringdb/peeringdb/issues/1126) | Adds support for throttling repeated requests. |
-| [#1096 Clicking on Facility history in AC GUI throws 500](https://github.com/peeringdb/peeringdb/issues/1096) | Fixes a bug that hid `fan` history. |
+| [#1096 Clicking on Facility history in AC GUI throws 500](https://github.com/peeringdb/peeringdb/issues/1096) | Fixes a bug that hid `fac` history. |
 | [#1035 Django-Admin: adding a network with existing asn fails with internal error](https://github.com/peeringdb/peeringdb/issues/1035) | Fixes a bug that returned a 500 error when a user attempted to add a `net` with the same ASN as an existing object. It now returns a more helpful validation error. |
 
 ## Release 2.35.0
