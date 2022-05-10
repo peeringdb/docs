@@ -4,10 +4,24 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.37.0
+
+Beta Announcement Date: 11 May 2022
+Release Date: 17 May 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#403 Notify a record holder when there is an automated change to the profile](https://github.com/peeringdb/peeringdb/issues/404) | Notifications are now sent when PeeringDB administrators make changes to records. |
+| [#1155 Feature Request: Promote OAuth application to admin-level access?](https://github.com/peeringdb/peeringdb/issues/1155) | Adds organization level OAuth app management and allows organizations to transfer existing OAuth apps tied to their users to the organization. |
+| [#942 Failure on Admin Organization Merge](https://github.com/peeringdb/peeringdb/issues/942) | Fixes a big that prevented PeeringDB Admins from merging organizations. |
+| [#960 Change any "Primary ASN" to "ASN"](https://github.com/peeringdb/peeringdb/issues/960) | Replaces the phrase "Primary ASN" with "ASN" everywhere as the Primary ASN concept does not exist in PeeringDB 2.0. |
+| [#986 Add link to release notes to the footer of www.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/986) | Release notes are now linked from the footer, making them easier for all users to find. |
+
+
 ## Release 2.36.0
 
 Beta Announcement Date: 13 April 2022
-Release Date: 20 April 2022
+Release Date: 11 May 2022
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
