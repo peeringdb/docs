@@ -72,7 +72,7 @@ URL = "https://www.peeringdb.com/api/fac/10003"
 We set the headers to include our API key as authorization. Printing the `headers` variable should allow us to see the API key.
 
 ```py
-headers = {"AUTHORIZATION": "Api-Key " + API_KEY}
+headers = {"Authorization": "Api-Key " + API_KEY}
 print(headers)
 ```
 
