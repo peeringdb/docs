@@ -183,7 +183,7 @@ API_KEY = os.environ.get(&quot;API_KEY&quot;)
 </code></pre>
 
 <p>We set the headers to include our API key as authorization. Printing the <code>headers</code> variable should allow us to see the API key.</p>
-<pre><code class="py">headers = {&quot;AUTHORIZATION&quot;: &quot;Api-Key &quot; + API_KEY}
+<pre><code class="py">headers = {&quot;Authorization&quot;: &quot;Api-Key &quot; + API_KEY}
 print(headers)
 </code></pre>
 
