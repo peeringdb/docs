@@ -66,7 +66,7 @@ API_KEY = os.environ.get("API_KEY")
 We set the url for the Facility we want to interact with. Note the `/api` in the URL, which signals we are making calls to the REST API.
 
 ```py
-URL = "https://www.peeringdb.com/api/fac/10003"
+URL = "https://www.peeringdb.com/api/fac/1"
 ```
 
 We set the headers to include our API key as authorization. Printing the `headers` variable should allow us to see the API key.
@@ -76,7 +76,7 @@ headers = {"Authorization": "Api-Key " + API_KEY}
 print(headers)
 ```
 
-First we make a GET request, to simply get data about example Facility number 10003
+First we make a GET request, to simply get data about example Facility number 1
 
 ```py
 response = requests.get(URL, headers=headers)
