@@ -4,6 +4,8 @@
 
 We use Python with Django and MySQL. Django manages interaction with the database. We publish all [our code](https://github.com/peeringdb/peeringdb) on GitHub. 
 
+We [have documented](https://docs.peeringdb.com/howto/run_development_container/) how to set up our development environment. 
+
 ## What to develop
 
 PeeringDB users can request features and report bugs by creating [issues on GitHub](https://github.com/peeringdb/peeringdb/issues). Review open issues to either find a project you’d like to work on, or to see if there’s an existing issue for the feature you want.
