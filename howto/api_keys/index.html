@@ -220,22 +220,22 @@ Note that this time, we must provide data to the API, using the keyword argument
 <p>then requests can be made with Curl like in the following examples:</p>
 <h3 id="get">GET</h3>
 <p>The following request would return JSON data coresponding to the <a href="https://www.peeringdb.com/ix/239">ChiX</a> Internet Exchange.</p>
-<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X GET https://peeringdb.com/api/ix/239
+<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X GET https://www.peeringdb.com/api/ix/239
 </code></pre>
 
 <h3 id="post">POST</h3>
 <p>The following request would create a new Network under the organization <a href="https://www.peeringdb.com/org/10843">United IX</a>.</p>
-<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X POST --data &quot;{\&quot;&quot;org_id&quot;\&quot;:\&quot;10843\&quot;, \&quot;&quot;name&quot;\&quot;:\&quot;Brand New Network\&quot;, \&quot;&quot;asn&quot;\&quot;:\&quot;63311\&quot;}&quot; https://peeringdb.com/api/net
+<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X POST --data &quot;{\&quot;&quot;org_id&quot;\&quot;:\&quot;10843\&quot;, \&quot;&quot;name&quot;\&quot;:\&quot;Brand New Network\&quot;, \&quot;&quot;asn&quot;\&quot;:\&quot;63311\&quot;}&quot; https://www.peeringdb.com/api/net
 </code></pre>
 
 <h3 id="put">PUT</h3>
 <p>The following request would update the data about a particular Network, <a href="https://www.peeringdb.com/net/7889">ChIX Route Servers</a>, in particular changing the name to "Edited Name".</p>
-<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X PUT --data &quot;{\&quot;&quot;org_id&quot;\&quot;:\&quot;10843\&quot;, \&quot;&quot;name&quot;\&quot;:\&quot;Edited Name\&quot;, \&quot;&quot;asn&quot;\&quot;:\&quot;33713\&quot;}&quot; https://peeringdb.com/api/net/7889
+<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X PUT --data &quot;{\&quot;&quot;org_id&quot;\&quot;:\&quot;10843\&quot;, \&quot;&quot;name&quot;\&quot;:\&quot;Edited Name\&quot;, \&quot;&quot;asn&quot;\&quot;:\&quot;33713\&quot;}&quot; https://www.peeringdb.com/api/net/7889
 </code></pre>
 
 <h3 id="delete">DELETE</h3>
 <p>The following request would delete the <a href="https://www.peeringdb.com/ix/239">ChiX</a> Internet Exchange. The API key holder would need delete privileges to that particular Exchange.</p>
-<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X DELETE https://peeringdb.com/api/ix/239
+<pre><code class="sh">curl -H &quot;Authorization: Api-Key $API_KEY&quot; -H &quot;Content-Type: application/json&quot; -X DELETE https://www.peeringdb.com/api/ix/239
 </code></pre></div>
         </div>
 
