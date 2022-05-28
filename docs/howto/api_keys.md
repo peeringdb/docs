@@ -126,7 +126,7 @@ then requests can be made with Curl like in the following examples:
 The following request would return JSON data coresponding to the [ChiX](https://www.peeringdb.com/ix/239) Internet Exchange.
 
 ```sh
-curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X GET https://peeringdb.com/api/ix/239
+curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X GET https://www.peeringdb.com/api/ix/239
 ```
 
 ### POST
@@ -134,7 +134,7 @@ curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X
 The following request would create a new Network under the organization [United IX](https://www.peeringdb.com/org/10843).
 
 ```sh
-curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X POST --data "{\""org_id"\":\"10843\", \""name"\":\"Brand New Network\", \""asn"\":\"63311\"}" https://peeringdb.com/api/net
+curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X POST --data "{\""org_id"\":\"10843\", \""name"\":\"Brand New Network\", \""asn"\":\"63311\"}" https://www.peeringdb.com/api/net
 ```
 
 ### PUT
@@ -142,12 +142,12 @@ curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X
 The following request would update the data about a particular Network, [ChIX Route Servers](https://www.peeringdb.com/net/7889), in particular changing the name to "Edited Name".
 
 ```sh
-curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X PUT --data "{\""org_id"\":\"10843\", \""name"\":\"Edited Name\", \""asn"\":\"33713\"}" https://peeringdb.com/api/net/7889
+curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X PUT --data "{\""org_id"\":\"10843\", \""name"\":\"Edited Name\", \""asn"\":\"33713\"}" https://www.peeringdb.com/api/net/7889
 ```
 
 ### DELETE
 The following request would delete the [ChiX](https://www.peeringdb.com/ix/239) Internet Exchange. The API key holder would need delete privileges to that particular Exchange.
 
 ```sh
-curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X DELETE https://peeringdb.com/api/ix/239
+curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X DELETE https://www.peeringdb.com/api/ix/239
 ```
