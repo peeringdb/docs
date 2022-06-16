@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2380">Release 2.38.0</a></li>
             <li><a href="#release-2370">Release 2.37.0</a></li>
             <li><a href="#release-2360">Release 2.36.0</a></li>
             <li><a href="#release-2350">Release 2.35.0</a></li>
@@ -145,6 +146,59 @@
 <h1 id="release-notes">Release Notes</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2380">Release 2.38.0</h2>
+<p>Beta Announcement Date: 16 June 2022<br />
+Release Date: 24 June 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/930">#930 Admin user is missing the "Edit" button</a></td>
+<td>Fixes a bug that prevented users from editing their entries.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/963">#963 Add the IX name and id to IX-F Import Emails</a></td>
+<td>Addresses messages to exchange operators more clearly.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/879">#879 Add "Last login" to https://peeringdb.com/cp/peeringdb_server/user/</a></td>
+<td>Let's the Admin Committee know who from an organization most reentlylogged in.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1057">#1057 Force users to provide input for first / last names when registering with PeeringDB</a></td>
+<td>Use the username instead of formal name in tickets when it's not registered.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/660">#660 Bug in renumbering tool </a></td>
+<td>Fixes a bug with the renubering tool.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1172">#1172 Ops: Exempt superusers (PeeringDB Admin Committee &amp; Operations Committee admins) from throttling</a></td>
+<td>API and Melissa request throttling is no longer applied to authenticated admin users.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1177">#1177 Locale field update has uncaught exception</a></td>
+<td>Fixes a bug where a logged in user could send data that generated DataError and Internal Server Error. Exceptions are now caught appropriately and return relevant errors to users.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1174">#1174 Insecure Dependencies</a></td>
+<td>upgrades three dependencies to newer versions that address known vulnerabilities.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1186">#1186 Browser caches OAuth2 application client secrets</a></td>
+<td>Fixes a bug that allowed browsers to cache the OAuth2 application details page.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1184">#1184 Tie CSRF token to session</a></td>
+<td>Fixes a bug by binding the session ID and the CSRF token together to reduce the risk that an old token is misused.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2370">Release 2.37.0</h2>
 <p>Beta Announcement Date: 11 May 2022<br />
 Release Date: 17 May 2022</p>
