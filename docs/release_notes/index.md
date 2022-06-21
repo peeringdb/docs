@@ -6,8 +6,8 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 ## Release 2.38.0
 
-Beta Announcement Date: 16 June 2022
-Release Date: 24 June 2022
+Beta Announcement Date: 15 June 2022
+Release Date: 22 June 2022
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
