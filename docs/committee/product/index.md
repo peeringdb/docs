@@ -9,6 +9,14 @@
 
 ## Meeting notes
 
+- [June 2nd, 2022: Meeting Notes](notes/2022-06-02_Product_Committee_Notes.pdf)
+- [May 5th, 2022: Meeting Notes](notes/2022-05-05_Product_Committee_Notes.pdf)
+- [April 7th, 2022: Meeting Notes](notes/2022-04-07_Product_Committee_Notes.pdf)
+- [March 3rd, 2022: Meeting Notes](notes/2022-03-03_Product_Committee_Notes.pdf)
+- [February 3rd, 2022: Meeting Notes](notes/2022-02-03_Product_Committee_Notes.pdf)
+- [January 6th, 2022: Meeting Notes](notes/2022-01-06_Product_Committee_Notes.pdf)
+- [December 2nd, 2021: Meeting Notes](notes/2021-12-02_Product_Committee_Notes.pdf)
+- No formal meeting in November 2021
 - [October 7th, 2021: Meeting Notes](notes/2021-10-07_Product_Committee_Notes.pdf)
 - [May 6th, 2021: Meeting Notes](notes/2021-05-06_Product_Committee_Notes.pdf)
 - [April 1st, 2021: Meeting Notes](notes/2021-04-01_Product_Committee_Notes.pdf)
