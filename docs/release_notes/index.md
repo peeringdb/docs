@@ -4,10 +4,20 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.38.2
+
+Release Date: 24 June 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1194 Advanced search issues](https://github.com/peeringdb/peeringdb/issues/1194) | Fixes a bug that stopped advanced search from delivering results. |
+| [#1195 UI: active tabs no longer highlighted after switching](https://github.com/peeringdb/peeringdb/issues/1195) | Fixes a bug that stopped the current tab being highlighted in active search after changing tab. |
+
+
 ## Release 2.38.0
 
 Beta Announcement Date: 16 June 2022
-Release Date: 24 June 2022
+Release Date: 22 June 2022
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
