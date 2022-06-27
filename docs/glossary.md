@@ -7,9 +7,9 @@ This glossary focuses on terms that are specific to PeeringDB. Other organizatio
 - [ICANN](https://www.icann.org/resources/en/glossary)
 - [RIPE NCC](https://www.ripe.net/manage-ips-and-asns/db/support/documentation/glossary)
 
-The first set of definitions describes object types and the second set defines the different kinds of contact. 
+The first set of definitions describes object types and the second set defines the different kinds of contacts. 
 
-# PeeringDB Specific Terms
+## PeeringDB specific terms
 
 |  **Object Name**   | **Definition**    |
 | --- | --- |
@@ -25,7 +25,8 @@ The first set of definitions describes object types and the second set defines t
 | PeeringDB | PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions. |
 | `poc` | A Point of Contact for a specific functional role at an organization (see below). |
 
-# Contact Role Types
+## Contact role types
+
 Not all organizations will have all contact types. For example, an academic institution might not need a sales contact.
 
 | **Role** | **Description** |

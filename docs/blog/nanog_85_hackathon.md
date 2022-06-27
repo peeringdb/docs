@@ -1,10 +1,10 @@
 # NANOG 85 Hackathon Project
 
-We’re bringing a project to the NANOG 85 Hackathon on 4-5 June.
+We’re bringing a project to the [NANOG 85 Hackathon](https://www.nanog.org/events/nanog-85-hackathon/) on June 4 - 5, 2022.
 
 This time we’re looking for your help in developing a proof of concept we can later develop into a full implementation. In exchange, we’ll walk you through what PeeringDB does. We’ll explain how we support different parts of the Internet community. And you can choose some PeeringDB swag as a thank you!
 
-We’re looking for help both from people who want to help turn a flowchart into a designed tool and those who can code ([Python and Django](https://docs.peeringdb.com/howto/get-started-developing/)) and. If you can see yourself in one of those roles then let us know at <productcom@lists.peeringdb.com> and [register for the Hackathon](https://nanog.org/events/future/).
+We’re looking for help both from people who want to help turn a flowchart into a designed tool and those who can code ([Python and Django](https://docs.peeringdb.com/howto/get-started-developing/)) and. If you can see yourself in one of those roles then let us know at <productcom@lists.peeringdb.com> and [register for the Hackathon](https://www.nanog.org/events/nanog-85-hackathon/registration/).
 
 ## What’s the project?
 When we [published our updated guidelines](https://docs.peeringdb.com/committee/admin/approval-guidelines/) for registering in PeeringDB we noted that some of the processes would need to be automated. We want to automate the attestation process for confirming new interconnection facilities. This is a new process to let users confirm that an interconnection facility is real and offers relevant services.

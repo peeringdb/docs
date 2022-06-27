@@ -1,16 +1,12 @@
+# HOWTO: Setup a PeeringDB Development Environment
 
-# PeeringDB Container
-
-## Start a developer instance
-
-
-### Install and Run Docker
+## Install and run Docker
 
 PeeringDB runs inside a Docker container. Docker Compose is used to build both the PeeringDB container and a MySQL server container for testing.
 
 Make sure the ```docker``` and ```docker-compose``` commands are installed on your system, and that the Docker Engine is running. Docker Desktop for Mac/Windows (>=2.5.0.1) includes these tools and they are also available for various POSIX systems. Ensure that ```docker-compose version``` indicates at least version 1.25.4, and that ```docker version``` indicates Engine version at least 19.03.5 and does not report any connection errors to Docker Engine. Connection errors may indicate a need to start the engine.
 
-### Fork the PeeringDB repository, Clone it, Set upstream
+## Fork the PeeringDB repository, clone it, set upstream
 
 Your development and experimentation with the PeeringDB code base should take place in a [fork of the project](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).  When you have improvements or fixes to share, you will be able to point other developers to your code, or submit a pull request.
 
@@ -45,7 +41,7 @@ git checkout master    # or other branch you are working on
 git merge upstream/master
 ```
 
-### Create environment variable override file
+## Create environment variable override file
 
 Environment variables for the server config can be added in `Ctl/dev/.env`.
 This file can be empty which will make the django `SECRET_KEY` ephemeral, but
@@ -75,7 +71,7 @@ If you want to enable OIDC's JWT RS256 token signing, you need to specify the fi
 echo "OIDC_RSA_PRIVATE_KEY_ACTIVE_PATH=/srv/www.peeringdb.com/var/jwks/oidc.key" >> Ctl/dev/.env
 ```
 
-### Build the container and set up your dev instance
+## Build the container and set up your developement instance
 
 ```sh
 ./Ctl/dev/compose.sh build peeringdb
@@ -90,7 +86,6 @@ echo "OIDC_RSA_PRIVATE_KEY_ACTIVE_PATH=/srv/www.peeringdb.com/var/jwks/oidc.key"
 On some docker versions `build` can fail with a `ERROR: Service 'peeringdb' failed to build: failed to export image: failed to create image: failed to get layer` error. Simply
 running it again should fix the issue.
 
-
 If you want a copy of the current *public* production data, run this command which often takes more than 15 minutes:
 
 ```sh
@@ -101,9 +96,9 @@ After it is done you should have a PeeringDB instance exposed on port `:8000`: [
 
 (should you want to change this port you can do so by setting the environment variable `DJANGO_PORT`)
 
-### Migration Notes
+## Migration notes
 
-#### Organization management of oauth applications
+### Organization management of OAuth applications
 
 Once migration `0085` has been applied you should override the `OAUTH2_PROVIDER_APPLICATION_MODEL` environment variable to
 `"peeringdb_server.OAuthApplication"` in order to enable organization management of oauth applications.
@@ -114,14 +109,14 @@ Warning: Overriding before migration 0085 has been applied will result in the fo
 Related model 'peeringdb_server.oauthapplication` cannot be resolved
 ```
 
-### Stop and start the containers
+## Stop and start the containers
 
 ```sh
 ./Ctl/dev/compose.sh down
 ./Ctl/dev/compose.sh up -d
 ```
 
-### Environment Variables
+## Environment variables
 
 Edit ```Ctl/dev/.env``` and then stop and start the containers.
 
@@ -137,7 +132,7 @@ Edit ```Ctl/dev/.env``` and then stop and start the containers.
 - `EMAIL_HOST_USERHOST` default ""
 - `EMAIL_HOST_PASSWORD` default ""
 
-### Mount points
+## Mount points
 
 - `/srv/www.peeringdb.com/api-cache`: api cache
 - `/srv/www.peeringdb.com/locale`: translations
@@ -147,7 +142,7 @@ Edit ```Ctl/dev/.env``` and then stop and start the containers.
 - `/srv/www.peeringdb.com/static`: static files
 - `/srv/www.peeringdb.com/var/log`: log files
 
-### Entry point
+## Entry point
 
 With the exception of some specific commands (see below) the entry point will pass directly to django's manage script.
 
@@ -163,8 +158,8 @@ Other options:
 - `/bin/sh` to drop to shell
 - `inetd` run the inetd whois server
 
-### Contributing your code
+## Contributing your code
 
-After testing and carefully code-reviewing your changes, commit and push them to your repository. You can then share the changes with other developers, such as those on the <pdb-tech@lists.peeringdb.com> mailing list: [https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech)
+After testing and carefully code-reviewing your changes, commit and push them to your repository. You can then share the changes with other developers, such as those on the <pdb-tech@lists.peeringdb.com> mailing list: [https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech).
 
 When ready to contribute the change to the project, create a pull request to the main repository along with a description of your goals for the change and/or what you are fixing.

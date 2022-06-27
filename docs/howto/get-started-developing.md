@@ -4,13 +4,13 @@
 
 We use Python with Django and MySQL. Django manages interaction with the database. We publish all [our code](https://github.com/peeringdb/peeringdb) on GitHub. 
 
-We [have documented](https://docs.peeringdb.com/howto/run_development_container/) how to set up our development environment. 
+We [have documented](/howto/run_development_container/) how to set up our development environment. 
 
 ## What to develop
 
 PeeringDB users can request features and report bugs by creating [issues on GitHub](https://github.com/peeringdb/peeringdb/issues). Review open issues to either find a project you’d like to work on, or to see if there’s an existing issue for the feature you want.
 
-If you want to develop a feature that has not been discussed on GitHub, you should either create an issue or contact us to discuss what you need. You can send a message to [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com) or contact any of the members of the [Product Committee](https://docs.peeringdb.com/committee/product/).
+If you want to develop a feature that has not been discussed on GitHub, you should either create an issue or contact us to discuss what you need. You can send a message to [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com) or contact any of the members of the [Product Committee](/committee/product/).
 
 If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as [Good first issue](https://github.com/peeringdb/peeringdb/issues?q=is%3Aopen+is%3Aissue+label%3A"Good+first+issue"). These are simple issues that will help you get a feel for PeeringDB.
 

@@ -16,22 +16,21 @@ Release Date: 24 June 2022
 
 ## Release 2.38.0
 
-Beta Announcement Date: 16 June 2022
+Beta Announcement Date: 15 June 2022
 Release Date: 22 June 2022
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
 | [#930 Admin user is missing the "Edit" button](https://github.com/peeringdb/peeringdb/issues/930) | Fixes a bug that prevented users from editing their entries. |
 | [#963 Add the IX name and id to IX-F Import Emails](https://github.com/peeringdb/peeringdb/issues/963) | Addresses messages to exchange operators more clearly. |
-| [#879 Add "Last login" to https://peeringdb.com/cp/peeringdb_server/user/](https://github.com/peeringdb/peeringdb/issues/879) | Let's the Admin Committee know who from an organization most reentlylogged in. |
+| [#879 Add "Last login" to https://peeringdb.com/cp/peeringdb_server/user/](https://github.com/peeringdb/peeringdb/issues/879) | Let's the Admin Committee know who from an organization most recently logged in. |
 | [#1057 Force users to provide input for first / last names when registering with PeeringDB](https://github.com/peeringdb/peeringdb/issues/1057) | Use the username instead of formal name in tickets when it's not registered. |
 | [#660 Bug in renumbering tool ](https://github.com/peeringdb/peeringdb/issues/660) | Fixes a bug with the renubering tool. |
 | [#1172 Ops: Exempt superusers (PeeringDB Admin Committee & Operations Committee admins) from throttling](https://github.com/peeringdb/peeringdb/issues/1172) | API and Melissa request throttling is no longer applied to authenticated admin users. |
 | [#1177 Locale field update has uncaught exception](https://github.com/peeringdb/peeringdb/issues/1177) | Fixes a bug where a logged in user could send data that generated DataError and Internal Server Error. Exceptions are now caught appropriately and return relevant errors to users. |
-| [#1174 Insecure Dependencies](https://github.com/peeringdb/peeringdb/issues/1174) | upgrades three dependencies to newer versions that address known vulnerabilities. |
+| [#1174 Insecure Dependencies](https://github.com/peeringdb/peeringdb/issues/1174) | Upgrades three dependencies to newer versions that address known vulnerabilities. |
 | [#1186 Browser caches OAuth2 application client secrets](https://github.com/peeringdb/peeringdb/issues/1186) | Fixes a bug that allowed browsers to cache the OAuth2 application details page. |
 | [#1184 Tie CSRF token to session](https://github.com/peeringdb/peeringdb/issues/1184) | Fixes a bug by binding the session ID and the CSRF token together to reduce the risk that an old token is misused. |
-
 
 ## Release 2.37.0
 
@@ -45,7 +44,6 @@ Release Date: 17 May 2022
 | [#942 Failure on Admin Organization Merge](https://github.com/peeringdb/peeringdb/issues/942) | Fixes a big that prevented PeeringDB Admins from merging organizations. |
 | [#960 Change any "Primary ASN" to "ASN"](https://github.com/peeringdb/peeringdb/issues/960) | Replaces the phrase "Primary ASN" with "ASN" everywhere as the Primary ASN concept does not exist in PeeringDB 2.0. |
 | [#986 Add link to release notes to the footer of www.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/986) | Release notes are now linked from the footer, making them easier for all users to find. |
-
 
 ## Release 2.36.0
 
@@ -65,9 +63,8 @@ Release Date: 11 May 2022
 | [#1122 Logging for melissa (geo-address normalization) queries](https://github.com/peeringdb/peeringdb/issues/1122) | Adds support for logging geosearch queries to the external API. |
 | [#1124 Allow rate-limiting of melissa enabled api functionality.](https://github.com/peeringdb/peeringdb/issues/1124) | Adds support for rate-limiting the geosearch features that rely on an external API. |
 | [#1126 Ops: API throttling of repeated requests](https://github.com/peeringdb/peeringdb/issues/1126) | Adds support for throttling repeated requests. |
-| [#1096 Clicking on Facility history in AC GUI throws 500](https://github.com/peeringdb/peeringdb/issues/1096) | Fixes a bug that hid `fan` history. |
+| [#1096 Clicking on Facility history in AC GUI throws 500](https://github.com/peeringdb/peeringdb/issues/1096) | Fixes a bug that hid `fac` history. |
 | [#1035 Django-Admin: adding a network with existing asn fails with internal error](https://github.com/peeringdb/peeringdb/issues/1035) | Fixes a bug that returned a 500 error when a user attempted to add a `net` with the same ASN as an existing object. It now returns a more helpful validation error. |
-
 
 ## Release 2.35.0
 
@@ -80,13 +77,12 @@ Release Date: 22 March 2022
 | [#727 RS Peer Checkbox also visible on IX Site](https://github.com/peeringdb/peeringdb/issues/727) | Information about networks claiming to peer with the Route Server is now shown on the IXP's page. |
 | [#512 New Field "Health Check"](https://github.com/peeringdb/peeringdb/issues/512) | Networks, IXPs, and Facilities can now link to a status dashboard page. |
 | [#653 missing delete button for user](https://github.com/peeringdb/peeringdb/issues/653) | There is now a button to delete a user account directly through the web interface. |
-| [#656 Sort user IDs in https://www.peeringdb.com/cp/peeringdb_server/userpermission/xxxxx numerically](https://github.com/peeringdb/peeringdb/issues/656) | Fixes the sorting orer of user IDs, so they are now sorted in numerical order. |
+| [#656 Sort user IDs in https://www.peeringdb.com/cp/peeringdb_server/userpermission/xxxxx numerically](https://github.com/peeringdb/peeringdb/issues/656) | Fixes the sorting order of user IDs, so they are now sorted in numerical order. |
 | [#881 wrap correctly on mobile](https://github.com/peeringdb/peeringdb/issues/881) | The ASN column on mobile view will show seven digits before wrapping the number. |
 | [#908 2FA Backup Tokens language doesn't seem correct](https://github.com/peeringdb/peeringdb/issues/908) | Fixes the backup tokens language for 2FA. |
 | [#916 To force or not to force www, that is a question](https://github.com/peeringdb/peeringdb/issues/916) | Forces https://www.peeringdb.com as the URL for PeeringDB, enabling other improvements. Some clients will need to adjust their endpoints to use www.peeringdb.com. `curl` users will want to use the `-L` flag. |
 | [#1042 Long caching of deleted entries](https://github.com/peeringdb/peeringdb/issues/1042) | Fixes a problem where deleted objects continued to be returned because of cacheing. |
 | [#1117 Bad API keys need to return 401 just like a bad user/pass. Presently they return 200](https://github.com/peeringdb/peeringdb/issues/1117) | Fixes a problem where corrupt or expired or bogus API key simply resulted in an anonymous user session. |
-
 
 ## Release 2.34.0
 

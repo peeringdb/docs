@@ -7,7 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
-- April 12th, 2022: [Agenda](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Agenda.txt)
+- April 12th, 2022: [Agenda](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Audio.mp3)
 - April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
 - April 25th, 2019: [Agenda](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2019-04-25_PeeringDB_Member_Meeting_Audio.mp3)
@@ -41,6 +41,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Finances
 
+- [May 10th, 2022: IRS Form 990 for 2021](gov/finances/2022-05-10_2021_Form_990.pdf)
 - [December 31st, 2021: Finance Report](gov/finances/2021-12-31_PeeringDB_Finances.pdf)
 - [May 12th, 2021: IRS Form 990-EZ for 2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf)
 - [December 31st, 2020: Finance Report](gov/finances/2020-12-31_PeeringDB_Finances.pdf)
@@ -77,6 +78,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 30th, 2022: Board election results](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2022: Board election voter's guide](gov/misc/2022-04-14_election.html)
 - [April 30th, 2021: Board election results](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2021: Board election voter's guide](gov/misc/2021-04-14_election.html)
@@ -98,9 +100,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Board of Directors
 
 - Seat 1 (term expires 2023): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
-- Seat 2 (term expires 2022): [Job Snijders](mailto:job@peeringdb.com), 2015-
+- Seat 2 (term expires 2024): [Job Snijders](mailto:job@peeringdb.com), 2015-
 - Seat 3 (term expires 2023): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
-- Seat 4 (term expires 2022): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
+- Seat 4 (term expires 2024): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
 - Seat 5 (term expires 2023): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
 
 ## Officers
