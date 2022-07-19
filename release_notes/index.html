@@ -132,6 +132,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes">Release Notes</a></li>
+            <li><a href="#release-2390">Release 2.39.0</a></li>
             <li><a href="#release-2382">Release 2.38.2</a></li>
             <li><a href="#release-2380">Release 2.38.0</a></li>
             <li><a href="#release-2370">Release 2.37.0</a></li>
@@ -147,6 +148,47 @@
 <h1 id="release-notes">Release Notes</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
+<h2 id="release-2390">Release 2.39.0</h2>
+<p>Beta Announcement Date: 20 July 2022<br />
+Release Date: 27 July 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/473">#473 add rir_* fields to keep track of ASN status</a></td>
+<td>Improve data quality by adding fields that will allow us to perform statical analysis and remove ASNs when no longer assigned.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1203">#1203 Validate Local Field against set of Enums</a></td>
+<td>Improvements to error handling should a user mischievously send junk data.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1205">#1205 Ops: Limit Django sessions to pages that need it</a></td>
+<td>Django sessions are now limited to pages that need it.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/941">#941 Organization Merging Tool only offers the first 10 matches</a></td>
+<td>Improve the organization merge tool for admins.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1043">#1043 AC Change User Permission broken</a></td>
+<td>Fixes a big that did not remove users from an organization when it was deleted.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1157">#1157 An account with admin status can not have permissions</a></td>
+<td>Fixes a bug that did not remove granular permissions for an organization when a users was upgraded to an admin.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1135">#1135 #727 RS Peer Checkbox followup changes</a></td>
+<td>Cosmetic changes to the RS Peer Checkbox.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2382">Release 2.38.2</h2>
 <p>Release Date: 24 June 2022</p>
 <table>
