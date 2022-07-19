@@ -4,6 +4,22 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+## Release 2.39.0
+
+Beta Announcement Date: 20 July 2022
+Release Date: 27 July 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#473 add rir_* fields to keep track of ASN status](https://github.com/peeringdb/peeringdb/issues/473) | Improve data quality by adding fields that will allow us to perform statical analysis and remove ASNs when no longer assigned. |
+| [#1203 Validate Local Field against set of Enums](https://github.com/peeringdb/peeringdb/issues/1203) | Improvements to error handling should a user mischievously send junk data. |
+| [#1205 Ops: Limit Django sessions to pages that need it](https://github.com/peeringdb/peeringdb/issues/1205) | Django sessions are now limited to pages that need it. |
+| [#941 Organization Merging Tool only offers the first 10 matches](https://github.com/peeringdb/peeringdb/issues/941) | Improve the organization merge tool for admins. |
+| [#1043 AC Change User Permission broken](https://github.com/peeringdb/peeringdb/issues/1043) | Fixes a big that did not remove users from an organization when it was deleted. |
+| [#1157 An account with admin status can not have permissions](https://github.com/peeringdb/peeringdb/issues/1157) | Fixes a bug that did not remove granular permissions for an organization when a users was upgraded to an admin. |
+| [#1135 #727 RS Peer Checkbox followup changes](https://github.com/peeringdb/peeringdb/issues/1135) | Cosmetic changes to the RS Peer Checkbox. |
+
+
 ## Release 2.38.2
 
 Release Date: 24 June 2022
