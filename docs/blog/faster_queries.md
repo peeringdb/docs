@@ -6,8 +6,8 @@ Our web and API services impose query limits. Network latency is sometimes a fac
 
 That's why we have [peeringdb-py](https://github.com/peeringdb/peeringdb-py/). This is a cache you can run in your own network or even on a laptop. You synchronize the whole database to a machine you run. Once you've done that you are only limited by your own infrastructure.
 
-Re-synchronizing peeringdb-py is efficient - it only syncs changes since the last sync - and doesn't trigger query limits.
-
+Re-synchronizing peeringdb-py is efficient - it only syncs changes since the last sync - and is unlikely to trigger any query limits if updated once per hour or less frequently as needed.
+ 
 Are there reasons you should run a local cache other than query limits and latency? Yes.
 
 If you populate internal databases or generate configurations with PeeringDB then a local cache adds reliability. You'll have local access instead of having to rely on intermediate networks.
