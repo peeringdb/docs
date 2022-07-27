@@ -15,7 +15,7 @@ Release Date: 27 July 2022
 | [#1203 Validate Local Field against set of Enums](https://github.com/peeringdb/peeringdb/issues/1203) | Improvements to error handling should a user mischievously send junk data. |
 | [#1205 Ops: Limit Django sessions to pages that need it](https://github.com/peeringdb/peeringdb/issues/1205) | Django sessions are now limited to pages that need it. |
 | [#941 Organization Merging Tool only offers the first 10 matches](https://github.com/peeringdb/peeringdb/issues/941) | Improve the organization merge tool for admins. |
-| [#1043 AC Change User Permission broken](https://github.com/peeringdb/peeringdb/issues/1043) | Fixes a big that did not remove users from an organization when it was deleted. |
+| [#1043 AC Change User Permission broken](https://github.com/peeringdb/peeringdb/issues/1043) | Fixes a bug that did not remove users from an organization when it was deleted. |
 | [#1157 An account with admin status can not have permissions](https://github.com/peeringdb/peeringdb/issues/1157) | Fixes a bug that did not remove granular permissions for an organization when a users was upgraded to an admin. |
 | [#1135 #727 RS Peer Checkbox followup changes](https://github.com/peeringdb/peeringdb/issues/1135) | Cosmetic changes to the RS Peer Checkbox. |
 
