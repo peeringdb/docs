@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/authenticate/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: Authenticate to PeeringDB - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,29 +48,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../../committee/admin/">Admin Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../../committee/outreach/">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
+    <a href="../../committee/product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -79,23 +79,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../release_notes/">Release Notes</a>
 </li>
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../oauth/">OAuth</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../translation/">Translations</a>
 </li>
                                     
 <li >
@@ -103,14 +103,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">HOWTOs</a>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQs</a>
+                                <a href="../../faq/">FAQs</a>
                             </li>
                             <li >
-                                <a href="../blogs/">Blogs</a>
+                                <a href="../../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/authenticate.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,26 +131,55 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
+        <li class="main active"><a href="#howto-authenticate-to-peeringdb">HOWTO: Authenticate to PeeringDB</a></li>
+            <li><a href="#why-authenticate">Why authenticate?</a></li>
+            <li><a href="#password">Password</a></li>
+            <li><a href="#multi-factor-authentication">Multi-factor authentication</a></li>
+            <li><a href="#oauth">OAuth</a></li>
+            <li><a href="#automating-peeringdb-access">Automating PeeringDB access</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="peeringdb-howtos">PeeringDB HOWTOs</h1>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
-<ul>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="../howto/api_keys/">Get Started with API Keys</a></li>
-<li><a href="../howto/get-started-developing/">Get Started with Developing for PeeringDB</a></li>
-<li><a href="../howto/authenticate/">Authenticate to PeeringDB</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/run_development_container/">Setup a PeeringDB Development Environment</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-<li><a href="../howto/work_within_peeringdbs_query_limits/">Work Within PeeringDB’s Query Limits</a></li>
-</ul></div>
+<h1 id="howto-authenticate-to-peeringdb">HOWTO: Authenticate to PeeringDB</h1>
+<p>This article explains the authentication mechanisms we offer. It also explains how organizations can apply policies for their affiliated users.</p>
+<h2 id="why-authenticate">Why authenticate?</h2>
+<p>You don't need to login to make single queries to PeeringDB. But some features do require you to authenticate.</p>
+<h3 id="update-the-database">Update the database</h3>
+<p>If you want to make updates then you need to authenticate. You can update PeeringDB via the API if you want. So you can either login to the website to make changes, or automate them with tools if you prefer.</p>
+<h3 id="access-contact-data">Access contact data</h3>
+<p>We encourage you to publish contact information for your facility, IXP, or network. You can choose to make contact information public but many organizations limit it to other PeeringDB users. So you’ll need to authenticate if you want access to most contact information.</p>
+<h3 id="higher-query-limits">Higher query limits</h3>
+<p>Authenticated users get four times as many API queries each minute. They are also able to repeat an API query more frequently without being throttled.</p>
+<h3 id="help-peeringdbs-operations-team">Help PeeringDB’s operations team</h3>
+<p>If you authenticate when you send queries, we can contact you if your PeeringDB use starts to cause an unexpected problem. If you don’t authenticate then all we can do is restrict queries from your IP address.</p>
+<h2 id="password">Password</h2>
+<p>You can use password authentication. We recommend adding MFA to password authentication.</p>
+<h2 id="multi-factor-authentication">Multi-factor authentication</h2>
+<p>We support two MFA methods. You can either use a time-based one-time password, as defined in <a href="https://www.rfc-editor.org/rfc/rfc6238.html">RFC 6238</a> or a <a href="https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/">FIDO U2F</a> hardware token.</p>
+<p>You can configure these in your account profile.</p>
+<h2 id="oauth">OAuth</h2>
+<p>Some external services allow or require you to authenticate using your PeeringDB account. One example is networks' peering portals. They might use PeeringDB's OAuth service to ensure they can automate configuration.</p>
+<h2 id="automating-peeringdb-access">Automating PeeringDB access</h2>
+<h3 id="api-keys">API keys</h3>
+<p>We support both user and organizational API keys. You should use organizational API keys when you don't want to tie your application to an individual.</p>
+<p>We have <a href="/howto/api_keys/">a detailed guide</a> on how to create, configure, and use API Keys.</p>
+<h3 id="authentication-http-header">Authentication HTTP header</h3>
+<p>The HTTP authentication header must use the same character set the connection is using.</p>
+<p>This example shows a request and HTTP response:</p>
+<pre><code>$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.valid_apikey' 2&gt;&amp;1 | grep \&lt;\ HTTP
+&lt; HTTP/2 200
+</code></pre>
+
+<p>This example shows what happens if the API key is not authorized:</p>
+<pre><code>$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.invalid_apikey' 2&gt;&amp;1 | grep \&lt;\ HTTP
+&lt; HTTP/2 401
+</code></pre>
+
+<h3 id="canonical-url">Canonical URL</h3>
+<p>The canonical URL for PeeringDB is <code>https://www.peeringdb.com</code>. There is a redirect from <code>https://peeringdb.com</code> but we strongly encourage use of the canonical URL since industry practice in software packages is to drop the authentication header upon redirect, as a safety precaution.</p>
+<h3 id="password-authentication">Password authentication</h3>
+<p>You should only use PeeringDB’s API via the command line interface using API keys. It is technically possible to authenticate with a password but this means disabling MFA. Passwords with MFA make sense for web browser use and API keys are recommended for command line or local tool usage.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -167,11 +196,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

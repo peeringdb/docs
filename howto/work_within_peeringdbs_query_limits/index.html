@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/work_within_peeringdbs_query_limits/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: Work Within PeeringDB’s Query Limits - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,29 +48,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../../committee/admin/">Admin Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../../committee/outreach/">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
+    <a href="../../committee/product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -79,23 +79,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../release_notes/">Release Notes</a>
 </li>
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../oauth/">OAuth</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../translation/">Translations</a>
 </li>
                                     
 <li >
@@ -103,14 +103,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">HOWTOs</a>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQs</a>
+                                <a href="../../faq/">FAQs</a>
                             </li>
                             <li >
-                                <a href="../blogs/">Blogs</a>
+                                <a href="../../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/work_within_peeringdbs_query_limits.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,26 +131,41 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
+        <li class="main active"><a href="#howto-work-within-peeringdbs-query-limits">HOWTO: Work Within PeeringDB’s Query Limits</a></li>
+            <li><a href="#query-limits">Query limits</a></li>
+            <li><a href="#efficient-queries">Efficient queries</a></li>
+            <li><a href="#local-cache">Local cache</a></li>
+            <li><a href="#tools">Tools</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="peeringdb-howtos">PeeringDB HOWTOs</h1>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
+<h1 id="howto-work-within-peeringdbs-query-limits">HOWTO: Work Within PeeringDB’s Query Limits</h1>
+<p>PeeringDB implements query throttling to encourage efficiently formatted queries and/or local caching. Many popular tools have been upgraded to use PeeringDB more efficiently.</p>
+<h2 id="query-limits">Query limits</h2>
+<p>Duplicate queries:</p>
 <ul>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="../howto/api_keys/">Get Started with API Keys</a></li>
-<li><a href="../howto/get-started-developing/">Get Started with Developing for PeeringDB</a></li>
-<li><a href="../howto/authenticate/">Authenticate to PeeringDB</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/run_development_container/">Setup a PeeringDB Development Environment</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-<li><a href="../howto/work_within_peeringdbs_query_limits/">Work Within PeeringDB’s Query Limits</a></li>
-</ul></div>
+<li>Repeated anonymous identical requests with a response size above 100kb are being limited to 1/hour</li>
+<li>Repeated anonymous identical requests of any size are being limited to 2/minute</li>
+</ul>
+<p>Query rate limit:</p>
+<ul>
+<li>Anonymous queries limited to 10/minute per IP address</li>
+<li>Authenticated queries limited to 40/minute per user or organization (when an organizational <a href="/howto/api_keys/">API key</a> is used)</li>
+</ul>
+<h2 id="efficient-queries">Efficient queries</h2>
+<p>We encourage users to make fewer, larger queries instead of making many small queries.</p>
+<p>Instead of sending each ASN you want to learn about as a separate query, create a list of ASNs and send them in a single query. The query element would look like this:</p>
+<p><code>asn__in=$list_of_ASN_separated_by_comma</code></p>
+<p>We encourage sending lists of up to 150 ASNs in a single query. We have a <a href="/howto/search">HOWTO article</a> describing the basics of using our API using popular command line tools such as curl, Python, and jq.</p>
+<p>Please use API Keys when automating queries to PeeringDB and set a User-Agent header that identifies the unique software you are using, rather than just a generic query library name.</p>
+<p>We also encourage you to leave at least two seconds between queries.</p>
+<h2 id="local-cache">Local cache</h2>
+<p>We encourage you to use a local cache and synchronize it every hour or less frequently in accordance with your organization's needs. When you use a local cache you will only be sent changes since the last sync.</p>
+<p>We publish peeringdb-py, which can be used directly or as a reference implementation. <a href="https://github.com/peeringdb/peeringdb-py/">Code is here</a> and <a href="http://peeringdb.github.io/peeringdb-py/">documentation is here</a>.</p>
+<p>If you want to implement a local cache using different tools and would like advice, we are happy to talk. Contact us at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<h2 id="tools">Tools</h2>
+<p>Popular tools, including <a href="https://github.com/pierky/arouteserver">arouteserver</a> have been updated to include support for API Keys and to make more efficient queries. <a href="/tools/">We publish</a> a list of tools that we know use PeeringDB. Check the list for tools that you use and upgrade old versions to take advantage of new features and improve everyone’s PeeringDB experience. </p></div>
         </div>
 
         <footer class="col-md-12">
@@ -167,11 +182,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">

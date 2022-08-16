@@ -280,10 +280,10 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <li><strong>netfac</strong>: Describes the presence of a network at a facility.</li>
 </ul>
 <h2 id="authentication">Authentication</h2>
-<p>Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:</p>
-<p><code>curl -sG https://username:password@peeringdb.com/api/poc</code></p>
-<p><code>curl -u username:password https://www.peeringdb.com/api/poc</code> </p>
-<p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication.</p>
+<p>Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For example:</p>
+<p><code>curl -sG https://username:password@www.peeringdb.com/api/net/961</code></p>
+<p><code>curl -u username:password https://www.peeringdb.com/api/net/961</code></p>
+<p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to query limits and these are set at a lower threshold for unauthenticated users.</p>
 <h2 id="making-a-request">Making a request</h2>
 <p>When making a request, the URL base is added with <code>/api/</code>, followed by the object type and, if applicable, the object primary key (if applicable).  For example:<code>https://www.peeringdb.com/api/OBJ/id</code>.</p>
 <p>If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter:<br />
@@ -325,7 +325,7 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <h3 id="multiple-objects">Multiple objects</h3>
 <p>To retrieve a single object you need to use this URL: <code>https://www.peeringdb.com/api/OBJ/</code> with this endpoint GET: <code>/api/OBJ/</code>. Let’s look at an example:<br />
 - HTTP: <code>GET /api/OBJ/</code> which is the endpoint <br />
-- curl: <code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/OBJ</code></p>
+- curl: <code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@www.peeringdb.com/api/OBJ</code></p>
 <p>There are optional parameters you can add to your URL:<br />
 - <strong>limit</strong>: int limits rows in the result set<br />
 - <strong>skip</strong>: int skips n rows in the result set<br />
@@ -336,9 +336,9 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <h2 id="real-world-use-cases">Real world use cases</h2>
 <p>We will show you different use cases on how to use the PeeringDB API.</p>
 <h2 id="how-do-i-query-by-asn">How do I query by ASN?</h2>
-<p>To query the ASN 42 using PeeringDB API, you will need to use this URL: GET <code>https://www.peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter. </p>
+<p>To query the ASN 42 using PeeringDB API, you will need to use this URL: GET <code>https://www.peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter.</p>
 <h3 id="using-curl">Using curl</h3>
-<p>Use this curl example to get this specific network. Copy and paste the following to your command line interface: <code>curl GET https://www.peeringdb.com/api/net/42</code>.</p>
+<p>Use this curl example to get this specific network. Copy and paste the following to your command line interface: <code>curl GET https://www.peeringdb.com/api/net?asn=42</code>.</p>
 <h3 id="using-python">Using Python</h3>
 <p>To make use of this Python code, first, you’ll have to first install <a href="https://www.python.org/downloads/">Python</a> if you don’t have it installed. Then, install <a href="https://pip.pypa.io/en/stable/cli/pip_install/">pip</a> and <a href="https://docs.python-requests.org/en/latest/user/install/">requests</a>. After that create a Python file and copy and paste the following code. </p>
 <pre><code>import requests
