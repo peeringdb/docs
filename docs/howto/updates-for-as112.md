@@ -18,7 +18,7 @@ The listing for [AS112 in PeeringDB](https://www.peeringdb.com/net/10664) contai
 
 When an IXP shares technical information about its infrastructure using the IX-F Member Export Schema the existence of the AS112 node, and its peering LAN address, will automatically be populated in PeeringDB. You, as the operators of the node do not need to do anything.
 
-This is because AS112 has enabled the option to allow the IXPs' IX-F data to [automatically populate](https://docs.peeringdb.com/howto/get-started-operator/#database-records-to-create) its entry in PeeringDB.
+This is because AS112 has enabled the option to allow the IXPs' IX-F data to [automatically populate](/howto/get-started-operator/#database-records-to-create) its entry in PeeringDB.
 
 ## IXPs not sharing technical information using the IX-F Member Export Schema
 
