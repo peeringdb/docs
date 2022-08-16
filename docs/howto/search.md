@@ -262,11 +262,11 @@ We will show you different use cases on how to use the PeeringDB API.
 
 ## How do I query by ASN?
 
-To query the ASN 42 using PeeringDB API, you will need to use this URL: GET `https://www.peeringdb.com/api/net?asn=42`, where `asn=42` is the query parameter. 
+To query the ASN 42 using PeeringDB API, you will need to use this URL: GET `https://www.peeringdb.com/api/net?asn=961`, where `asn=961` is the query parameter. 
 
 ### Using curl
 
-Use this curl example to get this specific network. Copy and paste the following to your command line interface: `curl GET https://www.peeringdb.com/api/net/42`.
+Use this curl example to get this specific network. Copy and paste the following to your command line interface: `curl GET https://www.peeringdb.com/api/net/961`.
 
 ### Using Python 
 
@@ -274,7 +274,7 @@ To make use of this Python code, first, you’ll have to first install [Python](
 
 ```
 import requests
-r = requests.get('https://www.peeringdb.com/api/net?asn=42')
+r = requests.get('https://www.peeringdb.com/api/net?asn=961')
 print(r.text)
  
 with open('output.csv', 'w+') as f:
@@ -285,7 +285,7 @@ From the above code, we make a request to the API using the request module and p
 
 ### Using jq
 
-You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install [Jq](https://stedolan.github.io/jq/download/).  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: `curl https://www.peeringdb.com/api/net?asn=42 > test.json`.
+You can use jq to make a request to your API and get your output in a CSV format.  First, you need to install [Jq](https://stedolan.github.io/jq/download/).  Next, we use this curl command to prepare our JSON file. Change to a directory and copy and paste this code on your terminal: `curl https://www.peeringdb.com/api/net?asn=961 > test.json`.
 
 This creates a new file named test.json.  To convert the JSON input file to the CSV format, copy and paste the following command: `jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json`
 

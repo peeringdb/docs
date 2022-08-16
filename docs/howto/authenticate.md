@@ -39,10 +39,12 @@ We have [a detailed guide](https://docs.peeringdb.com/howto/api_keys/) on how to
 The HTTP Authentication header must use the same character set the connection is using.
 
 This example shows a request and HTTP response:
+
 ``$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.valid_apikey' 2>&1 | grep \<\ HTTP
 < HTTP/2 200``
 
 This example shows what happens if the API key is not authorized:
+
 ``$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.invalid_apikey' 2>&1 | grep \<\ HTTP
 < HTTP/2 401``
 
