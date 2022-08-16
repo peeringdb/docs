@@ -182,13 +182,13 @@ Below is a description of what each of the object types mean and what informatio
 
 ## Authentication
 
-Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For examples:
+Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For example:
 
-`curl -sG https://username:password@peeringdb.com/api/poc`
+`curl -sG https://username:password@www.peeringdb.com/api/poc`
 
 `curl -u username:password https://www.peeringdb.com/api/poc` 
 
-**Note**: Access to contact information may be restricted if you are using the API as a guest without authentication.
+**Note**: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to query limits and these are set at a lower threshold for unauthenticated users.
 
 ## Making a request
 
@@ -246,7 +246,7 @@ A nested set or object is any field ending in the suffix: set. For example: net_
 
 To retrieve a single object you need to use this URL: `https://www.peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example:
 - HTTP: `GET /api/OBJ/` which is the endpoint 
-- curl: `curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ`
+- curl: `curl -X GET https://<username>:<password>@www.peeringdb.com/api/OBJ`
 
 There are optional parameters you can add to your URL:
 - **limit**: int limits rows in the result set
