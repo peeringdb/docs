@@ -40,13 +40,13 @@ The HTTP Authentication header must use the same character set the connection is
 
 This example shows a request and HTTP response:
 
-``$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.valid_apikey' 2>&1 | grep \<\ HTTP
-< HTTP/2 200``
+`$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.valid_apikey' 2>&1 | grep \<\ HTTP
+< HTTP/2 200`
 
 This example shows what happens if the API key is not authorized:
 
-``$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.invalid_apikey' 2>&1 | grep \<\ HTTP
-< HTTP/2 401``
+`$ curl -v -sG https://www.peeringdb.com/api/net/416 -H 'Authorization: Api-Key example.invalid_apikey' 2>&1 | grep \<\ HTTP
+< HTTP/2 401`
 
 ### Canonical URL
 The canonical URL for PeeringDB is https://www.peeringdb.com. There is a redirect from https://peeringdb.com but we strongly encourage use of the canonical URL since industry practice in software packages is to drop the authentication header upon redirect, as a safety precaution.
