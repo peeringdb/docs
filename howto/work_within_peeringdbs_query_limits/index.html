@@ -150,7 +150,7 @@
 </ul>
 <p>Query rate limit:</p>
 <ul>
-<li>Anonymous queries limited to 10/minute per IP address</li>
+<li>Anonymous queries limited to 20/minute per IP address</li>
 <li>Authenticated queries limited to 40/minute per user or organization (when an organizational <a href="/howto/api_keys/">API key</a> is used)</li>
 </ul>
 <h2 id="efficient-queries">Efficient queries</h2>
@@ -163,6 +163,7 @@
 <h2 id="local-cache">Local cache</h2>
 <p>We encourage you to use a local cache and synchronize it every hour or less frequently in accordance with your organization's needs. When you use a local cache you will only be sent changes since the last sync.</p>
 <p>We publish peeringdb-py, which can be used directly or as a reference implementation. <a href="https://github.com/peeringdb/peeringdb-py/">Code is here</a> and <a href="http://peeringdb.github.io/peeringdb-py/">documentation is here</a>.</p>
+<p>Use of an API key with peeringdb-py is highly recommended.</p>
 <p>If you want to implement a local cache using different tools and would like advice, we are happy to talk. Contact us at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <h2 id="tools">Tools</h2>
 <p>Popular tools, including <a href="https://github.com/pierky/arouteserver">arouteserver</a> have been updated to include support for API Keys and to make more efficient queries. <a href="/tools/">We publish</a> a list of tools that we know use PeeringDB. Check the list for tools that you use and upgrade old versions to take advantage of new features and improve everyone’s PeeringDB experience. </p></div>

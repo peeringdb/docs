@@ -150,7 +150,7 @@
 <h3 id="access-contact-data">Access contact data</h3>
 <p>We encourage you to publish contact information for your facility, IXP, or network. You can choose to make contact information public but many organizations limit it to other PeeringDB users. So you’ll need to authenticate if you want access to most contact information.</p>
 <h3 id="higher-query-limits">Higher query limits</h3>
-<p>Authenticated users get four times as many API queries each minute. They are also able to repeat an API query more frequently without being throttled.</p>
+<p>Authenticated users are allowed more frequent API queries. They are also able to repeat an identical API query more frequently without being throttled.</p>
 <h3 id="help-peeringdbs-operations-team">Help PeeringDB’s operations team</h3>
 <p>If you authenticate when you send queries, we can contact you if your PeeringDB use starts to cause an unexpected problem. If you don’t authenticate then all we can do is restrict queries from your IP address.</p>
 <h2 id="password">Password</h2>
@@ -163,7 +163,7 @@
 <h2 id="automating-peeringdb-access">Automating PeeringDB access</h2>
 <h3 id="api-keys">API keys</h3>
 <p>We support both user and organizational API keys. You should use organizational API keys when you don't want to tie your application to an individual.</p>
-<p>We have <a href="/howto/api_keys/">a detailed guide</a> on how to create, configure, and use API Keys.</p>
+<p>We have <a href="/howto/api_keys/">a detailed guide</a> on how to create, configure, and use API keys.</p>
 <h3 id="authentication-http-header">Authentication HTTP header</h3>
 <p>The HTTP authentication header must use the same character set the connection is using.</p>
 <p>This example shows a request and HTTP response:</p>
@@ -179,7 +179,7 @@
 <h3 id="canonical-url">Canonical URL</h3>
 <p>The canonical URL for PeeringDB is <code>https://www.peeringdb.com</code>. There is a redirect from <code>https://peeringdb.com</code> but we strongly encourage use of the canonical URL since industry practice in software packages is to drop the authentication header upon redirect, as a safety precaution.</p>
 <h3 id="password-authentication">Password authentication</h3>
-<p>You should only use PeeringDB’s API via the command line interface using API keys. It is technically possible to authenticate with a password but this means disabling MFA. Passwords with MFA make sense for web browser use and API keys are recommended for command line or local tool usage.</p></div>
+<p>Using an API key for command line access is simple and more secure. Our <a href="/howto/api_keys/">guide on API keys</a> explains how to create and manage keys, including setting read-only permissions, with examples.</p></div>
         </div>
 
         <footer class="col-md-12">
