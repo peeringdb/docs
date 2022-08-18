@@ -11,7 +11,7 @@ Duplicate queries:
 
 Query rate limit:
 
-* Anonymous queries limited to 10/minute per IP address
+* Anonymous queries limited to 20/minute per IP address
 * Authenticated queries limited to 40/minute per user or organization (when an organizational [API key](/howto/api_keys/) is used)
 
 ## Efficient queries
@@ -33,6 +33,8 @@ We also encourage you to leave at least two seconds between queries.
 We encourage you to use a local cache and synchronize it every hour or less frequently in accordance with your organization's needs. When you use a local cache you will only be sent changes since the last sync.
 
 We publish peeringdb-py, which can be used directly or as a reference implementation. [Code is here](https://github.com/peeringdb/peeringdb-py/) and [documentation is here](http://peeringdb.github.io/peeringdb-py/).
+
+Use of an API key with peeringdb-py is highly recommended.
 
 If you want to implement a local cache using different tools and would like advice, we are happy to talk. Contact us at [support@peeringdb.com](mailto:support@peeringdb.com).
 

@@ -16,7 +16,7 @@ We encourage you to publish contact information for your facility, IXP, or netwo
 
 ### Higher query limits
 
-Authenticated users get four times as many API queries each minute. They are also able to repeat an API query more frequently without being throttled.
+Authenticated users are allowed more frequent API queries. They are also able to repeat an identical API query more frequently without being throttled.
 
 ### Help PeeringDB’s operations team
 
@@ -42,7 +42,7 @@ Some external services allow or require you to authenticate using your PeeringDB
 
 We support both user and organizational API keys. You should use organizational API keys when you don't want to tie your application to an individual.
 
-We have [a detailed guide](/howto/api_keys/) on how to create, configure, and use API Keys.
+We have [a detailed guide](/howto/api_keys/) on how to create, configure, and use API keys.
 
 ### Authentication HTTP header
 
@@ -68,4 +68,4 @@ The canonical URL for PeeringDB is `https://www.peeringdb.com`. There is a redir
 
 ### Password authentication
 
-You should only use PeeringDB’s API via the command line interface using API keys. It is technically possible to authenticate with a password but this means disabling MFA. Passwords with MFA make sense for web browser use and API keys are recommended for command line or local tool usage.
+Using an API key for command line access is simple and more secure. Our [guide on API keys](/howto/api_keys/) explains how to create and manage keys, including setting read-only permissions, with examples.
