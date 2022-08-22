@@ -1,4 +1,4 @@
-## Faster PeeringDB Queries - No Limits
+# Faster PeeringDB Queries - No Limits
 
 Did you know that you can have lightning fast access to PeeringDB's database without query limits?
 
@@ -16,11 +16,11 @@ Of course, peeringdb-py isn't the only choice. Some organizations have developed
 
 And if all you need is to have PeeringDB in a local database, it can be [really simple](https://twitter.com/heymingwei/status/1547737099343781888).
 
-![Tweet about syncing PeeringDB to a local database](images/tweet_sync_peeringdb_ local_db.png)
+![Tweet about syncing PeeringDB to a local database](images/tweet_sync_peeringdb_local_db.png)
 
 If your organization is a heavy PeeringDB user then work out the right caching approach for you. We’re happy to answer any questions.
 
-If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/new/choose). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com). 
+If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
 --- 
 
