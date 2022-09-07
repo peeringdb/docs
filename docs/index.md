@@ -11,7 +11,7 @@
 
 ## Getting started
 
-* Several short [HOWTOs](/howtos) provide a beginner detailed instructions on how to get started using PeeringDB.
+* Our [HOWTOs](/howtos) help you get the best from PeeringDB.
 * Create an account and [register](https://www.peeringdb.com/register) in PeeringDB.
 * We also have a [glossary](glossary.md) of PeeringDB terms.
 
