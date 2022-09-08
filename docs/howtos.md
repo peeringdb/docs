@@ -15,6 +15,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 ## Authentication and security
 - [Authenticate to PeeringDB](howto/authenticate.md)
 - [Get Started with API Keys](howto/api_keys.md)
+- [Report A Security Issue](howto/make-a-security-report.md)
 
 ## Other
 - [What is AS112?](howto/updates-for-as112.md)
