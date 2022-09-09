@@ -22,6 +22,6 @@ We keep the feature parity between the web interface and the API. A feature adde
 
 The implementation details documented in issues should be detailed enough to use as documentation for the web interface. Documentation is also needed for the API. The minimum we need for API documentation is an example of how to format the request and a pointer to the document section to update.
 
-## Pull Requests
+## Pull requests
 
 It's good to let us know which issues you are working on when you start work. It's also helpful if you include the issues being fixed in your Pull Request. Please include "Fixes #issue" for each issue addressed in your Pull Request. We can then close those issues when we deploy your code.
