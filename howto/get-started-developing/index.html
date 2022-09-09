@@ -135,6 +135,7 @@
             <li><a href="#technology">Technology</a></li>
             <li><a href="#what-to-develop">What to develop</a></li>
             <li><a href="#style">Style</a></li>
+            <li><a href="#pull-requests">Pull requests</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -146,11 +147,13 @@
 <h2 id="what-to-develop">What to develop</h2>
 <p>PeeringDB users can request features and report bugs by creating <a href="https://github.com/peeringdb/peeringdb/issues">issues on GitHub</a>. Review open issues to either find a project you’d like to work on, or to see if there’s an existing issue for the feature you want.</p>
 <p>If you want to develop a feature that has not been discussed on GitHub, you should either create an issue or contact us to discuss what you need. You can send a message to <a href="mailto:productcom@lists.peeringdb.com">productcom@lists.peeringdb.com</a> or contact any of the members of the <a href="/committee/product/">Product Committee</a>.</p>
-<p>If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as <a href="https://github.com/peeringdb/peeringdb/issues?q=is%3Aopen+is%3Aissue+label%3A" title="Good+first+issue">Good first issue</a>. These are simple issues that will help you get a feel for PeeringDB.</p>
+<p>If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as "Good first issue". These are simple issues that will help you get a feel for PeeringDB.</p>
 <h2 id="style">Style</h2>
 <p>Before you start developing code look at how similar functions have been implemented. Use the same design as existing functions and develop unit tests for your code. We aim for 80% unit test coverage. You also need to run <a href="https://pypi.org/project/black/">black</a> on your code before submitting a Pull Request. We use black to ensure that all of our code has the same formatting. Reusing designs, developing unit tests, and using consistent formatting makes it easier for us to maintain the code over time.</p>
 <p>We keep the feature parity between the web interface and the API. A feature added to one needs to be added to the other.</p>
-<p>The implementation details documented in issues should be detailed enough to use as documentation for the web interface. Documentation is also needed for the API. The minimum we need for API documentation is an example of how to format the request and a pointer to the document section to update.</p></div>
+<p>The implementation details documented in issues should be detailed enough to use as documentation for the web interface. Documentation is also needed for the API. The minimum we need for API documentation is an example of how to format the request and a pointer to the document section to update.</p>
+<h2 id="pull-requests">Pull requests</h2>
+<p>It's good to let us know which issues you are working on when you start work. It's also helpful if you include the issues being fixed in your Pull Request. Please include "Fixes #issue" for each issue addressed in your Pull Request. We can then close those issues when we deploy your code.</p></div>
         </div>
 
         <footer class="col-md-12">
