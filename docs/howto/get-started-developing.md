@@ -12,7 +12,7 @@ PeeringDB users can request features and report bugs by creating [issues on GitH
 
 If you want to develop a feature that has not been discussed on GitHub, you should either create an issue or contact us to discuss what you need. You can send a message to [productcom@lists.peeringdb.com](mailto:productcom@lists.peeringdb.com) or contact any of the members of the [Product Committee](/committee/product/).
 
-If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as [Good first issue](https://github.com/peeringdb/peeringdb/issues?q=is%3Aopen+is%3Aissue+label%3A"Good+first+issue"). These are simple issues that will help you get a feel for PeeringDB.
+If you want to develop code for an issue that has achieved consensus on GitHub, we suggest starting with issues labeled as "Good first issue". These are simple issues that will help you get a feel for PeeringDB.
 
 ## Style
 
@@ -21,3 +21,7 @@ Before you start developing code look at how similar functions have been impleme
 We keep the feature parity between the web interface and the API. A feature added to one needs to be added to the other.
 
 The implementation details documented in issues should be detailed enough to use as documentation for the web interface. Documentation is also needed for the API. The minimum we need for API documentation is an example of how to format the request and a pointer to the document section to update.
+
+## Pull Requests
+
+It's good to let us know which issues you are working on when you start work. It's also helpful if you include the issues being fixed in your Pull Request. Please include "Fixes #issue" for each issue addressed in your Pull Request. We can then close those issues when we deploy your code.
