@@ -10,7 +10,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 ## Managing PeeringDB entries
 - [Manage User Permissions](howto/manage-permissions.md)
 - [Get Started with Search in PeeringDB](howto/search.md)
-- [Work Within PeeringDB’s Query Limits](work_within_peeringdbs_query_limits.md)
+- [Work Within PeeringDB’s Query Limits](howto/work_within_peeringdbs_query_limits.md)
 
 ## Authentication and security
 - [Authenticate to PeeringDB](howto/authenticate.md)
