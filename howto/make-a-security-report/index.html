@@ -6,22 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/make-a-security-report/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: Report a Security Issue to PeeringDB - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -48,29 +48,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="..">About</a>
+                                <a href="../..">About</a>
                             </li>
                             <li >
-                                <a href="../gov/">Governance</a>
+                                <a href="../../gov/">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../committee/admin/">Admin Committee</a>
+    <a href="../../committee/admin/">Admin Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/outreach/">Outreach Committee</a>
+    <a href="../../committee/outreach/">Outreach Committee</a>
 </li>
                                     
 <li >
-    <a href="../committee/product/">Product Committee</a>
+    <a href="../../committee/product/">Product Committee</a>
 </li>
                                     
 <li >
-    <a href="../taskforce/dataownership/">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -79,23 +79,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../release_notes/">Release Notes</a>
+    <a href="../../release_notes/">Release Notes</a>
 </li>
                                     
 <li >
-    <a href="../api_specs/">API Specs</a>
+    <a href="../../api_specs/">API Specs</a>
 </li>
                                     
 <li >
-    <a href="../ix-f-json-import-rules/">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
 </li>
                                     
 <li >
-    <a href="../oauth/">OAuth</a>
+    <a href="../../oauth/">OAuth</a>
 </li>
                                     
 <li >
-    <a href="../translation/">Translations</a>
+    <a href="../../translation/">Translations</a>
 </li>
                                     
 <li >
@@ -103,14 +103,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="./">HOWTOs</a>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
                             </li>
                             <li >
-                                <a href="../faq/">FAQs</a>
+                                <a href="../../faq/">FAQs</a>
                             </li>
                             <li >
-                                <a href="../blogs/">Blogs</a>
+                                <a href="../../blogs/">Blogs</a>
                             </li>
                         </ul>
 
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/make-a-security-report.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,44 +131,62 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#peeringdb-howtos">PeeringDB HOWTOs</a></li>
-            <li><a href="#creating-your-entry">Creating your entry</a></li>
-            <li><a href="#managing-peeringdb-entries">Managing PeeringDB entries</a></li>
-            <li><a href="#authentication-and-security">Authentication and security</a></li>
-            <li><a href="#other">Other</a></li>
+        <li class="main active"><a href="#howto-report-a-security-issue-to-peeringdb">HOWTO: Report a Security Issue to PeeringDB</a></li>
+            <li><a href="#peeringdb-does-not-permit-the-following-types-of-security-research">PeeringDB does not permit the following types of security research</a></li>
+            <li><a href="#scope-of-the-network">Scope of the network</a></li>
+            <li><a href="#exclusions">Exclusions</a></li>
+            <li><a href="#what-we-request-from-you">What we request from you</a></li>
+            <li><a href="#what-we-promise">What we promise</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="peeringdb-howtos">PeeringDB HOWTOs</h1>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
-<h2 id="creating-your-entry">Creating your entry</h2>
+<h1 id="howto-report-a-security-issue-to-peeringdb">HOWTO: Report a Security Issue to PeeringDB</h1>
+<p>PeeringDB works hard to keep its systems and data as secure as possible. If you are a security researcher and have discovered a security vulnerability in one of our services, we appreciate your help in disclosing it to us in a responsible manner. </p>
+<p>Our responsible disclosure policy is not an invitation to actively hack and potentially disrupt our system and services. We reserve the right to sue researchers for penetrating or attempting to penetrate our systems.</p>
+<h2 id="peeringdb-does-not-permit-the-following-types-of-security-research">PeeringDB does not permit the following types of security research</h2>
+<p>While we encourage you to discover and report to us any vulnerabilities you find in a responsible manner, the following conduct is prohibited:</p>
 <ul>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
+<li>Performing actions that may negatively affect PeeringDB or its users (e.g. any form of Denial of Service attacks)</li>
+<li>Accessing, or attempting to access, data or information that does not belong to you</li>
+<li>Destroying or corrupting, or attempting to destroy or corrupt, data or information that does not belong to you</li>
+<li>Conducting any kind of physical or electronic attack on PeeringDB personnel, property or data centers</li>
+<li>Using social engineering to target any PeeringDB team member</li>
+<li>Violating any laws or breaching any agreements to discover vulnerabilities</li>
 </ul>
-<h2 id="managing-peeringdb-entries">Managing PeeringDB entries</h2>
+<h2 id="scope-of-the-network">Scope of the network</h2>
+<p>The following is in scope:</p>
 <ul>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="work_within_peeringdbs_query_limits.md">Work Within PeeringDB’s Query Limits</a></li>
+<li>The <a href="https://www.peeringdb.com">www.peeringdb.com</a> website and any of its sub-domains, services, APIs and infrastructure.</li>
+<li>Any (internet-facing) infrastructure owned and operated by PeeringDB.</li>
 </ul>
-<h2 id="authentication-and-security">Authentication and security</h2>
+<h2 id="exclusions">Exclusions</h2>
+<p>The following list of issues have already been reported to our Security team, reviewed, and deemed out of scope for the purposes of this program. Please do not report any of the following classes of issues. Unless there are exceptional circumstances or novel attacks, these issues will be rejected:</p>
 <ul>
-<li><a href="../howto/authenticate/">Authenticate to PeeringDB</a></li>
-<li><a href="../howto/api_keys/">Get Started with API Keys</a></li>
-<li><a href="../howto/make-a-security-report/">Report A Security Issue</a></li>
+<li>Missing, or not 'properly' configured SPF, DKIM or DMARC records.</li>
+<li>The presence of public services such as robots.txt or FTP.</li>
+<li>The availability of DNS zone transfers.</li>
+<li>Reports of old software versions without a working Proof of Concept of an exploit.</li>
 </ul>
-<h2 id="other">Other</h2>
+<p>This is not an exclusive list. If you report a vulnerability that has already been reported by someone else, we will let you know. In that case you are not eligible for our Security Hall of Fame or swag.</p>
+<h2 id="what-we-request-from-you">What we request from you</h2>
 <ul>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-<li><a href="../howto/get-started-developing/">Get Started with Developing for PeeringDB</a></li>
-<li><a href="../howto/authenticate/">Authenticate to PeeringDB</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-<li><a href="../howto/run_development_container/">Setup a PeeringDB Development Environment</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-<li><a href="../howto/work_within_peeringdbs_query_limits/">Work Within PeeringDB’s Query Limits</a></li>
+<li>Please do not share the issue with others until it has been resolved.</li>
+<li>Please do not publish anything about the resolved issue unless this has been discussed with us.</li>
+<li>Email your findings to security@peeringdb.com. You may submit a notification under a pseudonym. </li>
+<li>Please provide enough information for us to reproduce the issue so that we can resolve it as soon as possible.</li>
+<li>Please delete all confidential information obtained through the vulnerability as soon as possible after reporting it. Please do this after consulting us to make sure that we can reproduce the issue.</li>
+</ul>
+<h2 id="what-we-promise">What we promise</h2>
+<ul>
+<li>We will act with urgency and necessary resources to resolve the issue.</li>
+<li>We will strive to respond to your report within three business days with our evaluation of the report and an expected resolution date.</li>
+<li>We will handle your report with strict confidentiality and not pass on your personal details to third parties without your permission.</li>
+<li>After a major security issue has been solved, we will publish a report on our website explaining the vulnerability discovered and how we fixed it.</li>
+<li>If you agree to have your name used in the report, we will credit you. Note that we will only credit the first person that reported a specific vulnerability to us.</li>
+<li>After your vulnerability report is verified, the security team will inform you if you are eligible.</li>
+<li>We will send you a unique token of our gratitude, such as a personalized cup, hat, or hoodie.</li>
+<li>We do not issue monetary rewards for reported vulnerabilities.</li>
 </ul></div>
         </div>
 
@@ -186,11 +204,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
