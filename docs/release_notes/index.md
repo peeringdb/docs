@@ -4,6 +4,8 @@ The release notes list the GitHub issues and a summary of what has changed in Pe
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
+We have a page with our planned [future release schedule](https://docs.peeringdb.com/planned-testing-release-schedule.md). You can use this to help plan when to conduct beta testing.
+
 ## Release 2.39.0
 
 Beta Announcement Date: 20 July 2022
