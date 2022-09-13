@@ -1,4 +1,4 @@
-# Release Notes
+# Release Notes and Schedule
 
 The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.
 
