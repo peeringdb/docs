@@ -1,11 +1,12 @@
-# Release Notes
+# Release Notes and Schedule
 
 The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.
 
 Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
 
-## Release Schedule
-This page provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.
+## Release schedule
+
+This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.
 
 We provide a rolling six months schedule. Dates can change, so if you have a question or request please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
@@ -18,8 +19,6 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.42.0 | 2022-11-01 | 2022-11-08 | 2022-11-15 |
 | 2.43.0 | 2023-01-10 | 2023-01-17 | 2023-01-24 |
 | 2.44.0 | 2023-01-31 | 2023-02-07 | 2023-02-21 |
-
-## Release details
 
 ## Release 2.40.0
 

@@ -1,4 +1,5 @@
-# HOWTO Report a Security Issue to PeeringDB
+# HOWTO: Report a Security Issue to PeeringDB
+
 PeeringDB works hard to keep its systems and data as secure as possible. If you are a security researcher and have discovered a security vulnerability in one of our services, we appreciate your help in disclosing it to us in a responsible manner. 
 
 Our responsible disclosure policy is not an invitation to actively hack and potentially disrupt our system and services. We reserve the right to sue researchers for penetrating or attempting to penetrate our systems.
@@ -14,18 +15,20 @@ While we encourage you to discover and report to us any vulnerabilities you find
 * Violating any laws or breaching any agreements to discover vulnerabilities
 
 ## Scope of the network
+
 The following is in scope:
 
-* The www.peeringdb.com website and any of its sub-domains, services, API’s and infrastructure
-* Any (internet-facing) infrastructure owned and operated by PeeringDB
+* The [www.peeringdb.com](https://www.peeringdb.com) website and any of its sub-domains, services, APIs and infrastructure.
+* Any (internet-facing) infrastructure owned and operated by PeeringDB.
 
 ## Exclusions
+
 The following list of issues have already been reported to our Security team, reviewed, and deemed out of scope for the purposes of this program. Please do not report any of the following classes of issues. Unless there are exceptional circumstances or novel attacks, these issues will be rejected:
 
-* Missing, or not 'properly' configured SPF, DKIM or DMARC records
-* The presence of public services such as robots.txt or FTP 
-* The availability of DNS zone transfers
-* Reports of old software versions without a working Proof of Concept of an exploit
+* Missing, or not 'properly' configured SPF, DKIM or DMARC records.
+* The presence of public services such as robots.txt or FTP.
+* The availability of DNS zone transfers.
+* Reports of old software versions without a working Proof of Concept of an exploit.
 
 This is not an exclusive list. If you report a vulnerability that has already been reported by someone else, we will let you know. In that case you are not eligible for our Security Hall of Fame or swag.
 
@@ -46,4 +49,4 @@ This is not an exclusive list. If you report a vulnerability that has already be
 * If you agree to have your name used in the report, we will credit you. Note that we will only credit the first person that reported a specific vulnerability to us.
 * After your vulnerability report is verified, the security team will inform you if you are eligible.
 * We will send you a unique token of our gratitude, such as a personalized cup, hat, or hoodie.
-* 'We do not issue monetary rewards for reported vulnerabilities.
+* We do not issue monetary rewards for reported vulnerabilities.
