@@ -8,13 +8,12 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.
 
-We provide a rolling six months schedule. Dates can change, so if you have a question or request please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
+We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
 Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.40.0 | 2022-09-06 | 2022-09-14 | 2022-09-21 |
 | 2.41.0 | 2022-10-04 | 2022-10-11 | 2022-10-25 |
 | 2.42.0 | 2022-11-01 | 2022-11-08 | 2022-11-15 |
 | 2.43.0 | 2023-01-10 | 2023-01-17 | 2023-01-24 |
@@ -48,7 +47,7 @@ Release Date: 21 September 2022
 | [#1205 Ops: Limit Django sessions to pages that need it](https://github.com/peeringdb/peeringdb/issues/1205) | Only pages that need it get Django sessions now. |
 | [#1228 Change "Resul length" to "Result length"](https://github.com/peeringdb/peeringdb/issues/1228) | Fixes a typo. |
 
-This release also includes a security change that will be described when it is deployed to production. If you notice unexpected behavior, please report it to [support@peeringdb.com](mailto:support@peeringdb.com)
+This release also includes a security change that will be described when it is deployed to production. If you notice unexpected behavior, please report it to [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ## Release 2.39.0
 
