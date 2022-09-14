@@ -133,6 +133,7 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes-and-schedule">Release Notes and Schedule</a></li>
             <li><a href="#release-schedule">Release schedule</a></li>
+            <li><a href="#release-2400">Release 2.40.0</a></li>
             <li><a href="#release-2390">Release 2.39.0</a></li>
             <li><a href="#release-2382">Release 2.38.2</a></li>
             <li><a href="#release-2380">Release 2.38.0</a></li>
@@ -151,7 +152,7 @@
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://twitter.com/PeeringDB">Twitter</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://www.facebook.com/peeringdb">Facebook</a>.</p>
 <h2 id="release-schedule">Release schedule</h2>
 <p>This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.</p>
-<p>We provide a rolling six months schedule. Dates can change, so if you have a question or request please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<p>We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <p>Our releases are generally deployed at around 04:00 UTC.</p>
 <table>
 <thead>
@@ -163,12 +164,6 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>2.40.0</td>
-<td>2022-09-06</td>
-<td>2022-09-14</td>
-<td>2022-09-21</td>
-</tr>
 <tr>
 <td>2.41.0</td>
 <td>2022-10-04</td>
@@ -195,6 +190,100 @@
 </tr>
 </tbody>
 </table>
+<h2 id="release-2400">Release 2.40.0</h2>
+<p>Beta Announcement Date: 14 September 2022<br />
+Release Date: 21 September 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/736">#736 Periodic validation of user's contact information</a></td>
+<td>Organizations can now require affiliated users to revalidate their accounts after a number of days chosen by the organization.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/737">#737 Restrict email domains for organizations</a></td>
+<td>Organizations can now require users to have an email address using a specific domain to affiliate with the organization.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/484">#484 Show username <em>and</em> email address when user is logged in</a></td>
+<td>User will now see their username and email address when logged in to the website.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/738">#738 Allow multiple email addresses per user</a></td>
+<td>User can have multiple email addresses associated with an account.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/907">#907 User email address change should notify previous email</a></td>
+<td>Users will now be notified at the old address when replacing their email address.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/947">#947 Make it possible to display the TOTP secret in text form instead of QR code only</a></td>
+<td>When setting up TOTP MFA, users can now see the secret as well as a QR code.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/267">#267 remove users with duplicate emails</a></td>
+<td>The user database has been cleaned so that only one user account can have an email address.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/280">#380 DB clean-up of elderly ophaned user accounts</a></td>
+<td>Users are notified when their account is not associated with an organization for 60 days. The account is removed a month later if not associated with an organization.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1157">#1157 An account with admin status can not have permissions</a></td>
+<td>When users gain admin status for an organization they now lose all granular permissions as they have all permissions.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/468">#468 Have the "Select language" drop down sorted</a></td>
+<td>Translation language names are now sorted alphabetically in English with the translated version of the language name presented alongside.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1202">#1202 Add Support for Enums against Locale Field</a></td>
+<td>Validates that languages are supported by translations.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1203">#1203 Validate Local Field against set of Enums</a></td>
+<td>Improves error handling when users set invalid languages.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/499">#499 Trigger IX-F import when network sets allow_ixp_update to "yes"</a></td>
+<td>An IX-F import is now triggered when a network sets <code>allow_ixp_update</code> to yes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1213">#1213 robots.txt needed, at a minimum to limit bots from creating Django sessions</a></td>
+<td>Added robots.txt files to stop search engines indexing pages that shouldn't be indexed.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1210">#1210 UX Bugs</a></td>
+<td>Fixes several bugs introduced with the big UX dependency updates rolled out with 2.38.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/959">#959 ASNAUTO tool broken</a></td>
+<td>Fixes an issue with the ASNAuto tool sending out incorrect manual approval requests.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/981">#981 Error-handling of failed creation of DeskPRO tickets</a></td>
+<td>Fixes a problem with the creation of support tickets.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1150">#1150 Ops: Log Melissa payload in django.log</a></td>
+<td>Fixes a logging issue for the Ops team.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1205">#1205 Ops: Limit Django sessions to pages that need it</a></td>
+<td>Only pages that need it get Django sessions now.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1228">#1228 Change "Resul length" to "Result length"</a></td>
+<td>Fixes a typo.</td>
+</tr>
+</tbody>
+</table>
+<p>This release also includes a security change that will be described when it is deployed to production. If you notice unexpected behavior, please report it to <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <h2 id="release-2390">Release 2.39.0</h2>
 <p>Beta Announcement Date: 20 July 2022<br />
 Release Date: 27 July 2022</p>
