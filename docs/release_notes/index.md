@@ -47,7 +47,7 @@ Release Date: 21 September 2022
 | [#1150 Ops: Log Melissa payload in django.log](https://github.com/peeringdb/peeringdb/issues/1150) | Fixes a logging issue for the Ops team. |
 | [#1228 Change "Resul length" to "Result length"](https://github.com/peeringdb/peeringdb/issues/1228) | Fixes a typo. |
 
-This release also includes a security change that will be described when it is deployed to production. If you notice unexpected behavior, please report it to [support@peeringdb.com](mailto:support@peeringdb.com).
+This release also introduced a change for updates made with the API. These operations must now be authenticated with an API Key. Our [HOWTO](https://docs.peeringdb.com/howto/api_keys/) document explains how to get started using API Keys.
 
 ## Release 2.39.0
 
