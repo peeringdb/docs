@@ -9,5 +9,7 @@ Some users misunderstood the maximum prefix limit to mean the maximum prefix len
 While our [anonymous 2020 User Satisfaction Survey](https://surveyhero.com/c/f7be5236) is still open, we can already see that we’ll need to make more improvements along these lines. If you have not yet completed the survey, please do. It takes under three minutes and will help us build our product roadmap for the next year.
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
-***
+
+---
+
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

@@ -14,5 +14,6 @@ Almost 150 applications have registered with PeeringDB and we’re authenticatin
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/new/choose). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com). 
 
--- 
+---
+
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

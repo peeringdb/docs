@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [PeeringDB 2022 User Survey](blog/peeringdb_2022_user_survey.md) - September 14, 2022
 - [Faster PeeringDB Queries - No Limits](blog/faster_queries.md) - July 26, 2022
 - [NANOG 85 Hackathon Project](blog/nanog_85_hackathon.md) - April 25, 2022
 - [Improve Your Account Security - And Check Our URL](blog/u2f_and_url.md) - March 28, 2022

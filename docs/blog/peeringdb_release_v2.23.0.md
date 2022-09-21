@@ -7,5 +7,7 @@ This release includes a key feature that comes out of the [Data Ownership Task F
 Stefan Wahl, Senior Ambassador ECIX, Megaport, says: "This new feature is a great improvement allowing users to correctly identify the authoritative contact of a network. I enjoyed collaborating with the PeeringDB Task Force on this project."
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>. 
-***
+
+---
+
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
