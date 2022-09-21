@@ -20,7 +20,6 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.44.0 | 2023-01-31 | 2023-02-07 | 2023-02-21 |
 | 2.45.0 | TBD | TBD | TBD |
 
-
 ## Release 2.40.0
 
 Beta Announcement Date: 14 September 2022
@@ -65,7 +64,6 @@ Release Date: 27 July 2022
 | [#1157 An account with admin status can not have permissions](https://github.com/peeringdb/peeringdb/issues/1157) | Fixes a bug that did not remove granular permissions for an organization when a users was upgraded to an admin. |
 | [#1135 #727 RS Peer Checkbox followup changes](https://github.com/peeringdb/peeringdb/issues/1135) | Cosmetic changes to the RS Peer Checkbox. |
 
-
 ## Release 2.38.2
 
 Release Date: 24 June 2022
@@ -74,7 +72,6 @@ Release Date: 24 June 2022
 | ----------------- | ----------- |
 | [#1194 Advanced search issues](https://github.com/peeringdb/peeringdb/issues/1194) | Fixes a bug that stopped advanced search from delivering results. |
 | [#1195 UI: active tabs no longer highlighted after switching](https://github.com/peeringdb/peeringdb/issues/1195) | Fixes a bug that stopped the current tab being highlighted in active search after changing tab. |
-
 
 ## Release 2.38.0
 
