@@ -14,11 +14,12 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.40.0 | 2022-09-06 | 2022-09-14 | 2022-09-21 |
 | 2.41.0 | 2022-10-04 | 2022-10-11 | 2022-10-25 |
 | 2.42.0 | 2022-11-01 | 2022-11-08 | 2022-11-15 |
 | 2.43.0 | 2023-01-10 | 2023-01-17 | 2023-01-24 |
 | 2.44.0 | 2023-01-31 | 2023-02-07 | 2023-02-21 |
+| 2.45.0 | TBD | TBD | TBD |
+
 
 ## Release 2.40.0
 
@@ -34,7 +35,7 @@ Release Date: 21 September 2022
 | [#907 User email address change should notify previous email](https://github.com/peeringdb/peeringdb/issues/907) | Users will now be notified at the old address when replacing their email address. |
 | [#947 Make it possible to display the TOTP secret in text form instead of QR code only](https://github.com/peeringdb/peeringdb/issues/947) | When setting up TOTP MFA, users can now see the secret as well as a QR code. |
 | [#267 remove users with duplicate emails](https://github.com/peeringdb/peeringdb/issues/267) | The user database has been cleaned so that only one user account can have an email address. |
-| [#380 DB clean-up of elderly ophaned user accounts](https://github.com/peeringdb/peeringdb/issues/280) | Users are notified when their account is not associated with an organization for 60 days. The account is removed a month later if not associated with an organization. |
+| [#380 DB clean-up of elderly ophaned user accounts](https://github.com/peeringdb/peeringdb/issues/380) | Users are notified when their account is not associated with an organization for 60 days. The account is removed a month later if not associated with an organization. |
 | [#1157 An account with admin status can not have permissions](https://github.com/peeringdb/peeringdb/issues/1157) | When users gain admin status for an organization they now lose all granular permissions as they have all permissions. |
 | [#468 Have the "Select language" drop down sorted](https://github.com/peeringdb/peeringdb/issues/468) | Translation language names are now sorted alphabetically in English with the translated version of the language name presented alongside. |
 | [#1202 Add Support for Enums against Locale Field](https://github.com/peeringdb/peeringdb/issues/1202) | Validates that languages are supported by translations. |
@@ -45,10 +46,9 @@ Release Date: 21 September 2022
 | [#959 ASNAUTO tool broken](https://github.com/peeringdb/peeringdb/issues/959) | Fixes an issue with the ASNAuto tool sending out incorrect manual approval requests. |
 | [#981 Error-handling of failed creation of DeskPRO tickets](https://github.com/peeringdb/peeringdb/issues/981) | Fixes a problem with the creation of support tickets. |
 | [#1150 Ops: Log Melissa payload in django.log](https://github.com/peeringdb/peeringdb/issues/1150) | Fixes a logging issue for the Ops team. |
-| [#1205 Ops: Limit Django sessions to pages that need it](https://github.com/peeringdb/peeringdb/issues/1205) | Only pages that need it get Django sessions now. |
 | [#1228 Change "Resul length" to "Result length"](https://github.com/peeringdb/peeringdb/issues/1228) | Fixes a typo. |
 
-This release also includes a security change that will be described when it is deployed to production. If you notice unexpected behavior, please report it to [support@peeringdb.com](mailto:support@peeringdb.com)
+This release also introduced a change for updates made with the API. These operations must now be authenticated with an API Key. Our [HOWTO](https://docs.peeringdb.com/howto/api_keys/) document explains how to get started using API Keys.
 
 ## Release 2.39.0
 
