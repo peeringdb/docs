@@ -20,6 +20,22 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.44.0 | 2023-01-31 | 2023-02-07 | 2023-02-21 |
 | 2.45.0 | 2023-03-07 | 2023-03-14 | 2023-03-21 |
 
+## Release 2.41.0
+
+Beta Announcement Date: 12 October 2022
+Release Date: 19 October 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#586 Add export tool to https://peeringdb.com/cp/peeringdb_server/$type](https://github.com/peeringdb/peeringdb/issues/586) | Adds new data exports on CSV format. |
+| [#1044 Adding a POC must require an email address or phone number](https://github.com/peeringdb/peeringdb/issues/1044) | Points of Contact must now have either an email address or a phone number. |
+| [#1244 IX-F importer fails on nulled ipv4 / ipv6 properties in vlan_list entries](https://github.com/peeringdb/peeringdb/issues/1244) | Fixes a bug where the IX-F importer would raise an error when encountering `null` values for `ipv6` or `ipv4` properties in the `vlan_list property`. |
+| [#1216 RIR Status update misses ASNs](https://github.com/peeringdb/peeringdb/issues/1216) | Fixes a bug in the way RIR status is recorded for networks. |
+| [#1223 Invalid data (in choice fields) found via API](https://github.com/peeringdb/peeringdb/issues/1223) | Fixes a bug where some records had invalid values. |
+| [#1198 Add automated testing at the browser level](https://github.com/peeringdb/peeringdb/issues/1198) | Introduces automated testing for web functionality. |
+| [#1149 HTTP 404 for dom-purify/purify.min.js.map and showdown/showdown.min.js.map](https://github.com/peeringdb/peeringdb/issues/1149) | Fixes a JS problem affecting several popular browsers. |
+| [#1234 Transition from lgtm.com before the service ends](https://github.com/peeringdb/peeringdb/issues/1234) | Ensures continuity of continuous security analysis now after lgtm.com closes. |
+
 ## Release 2.40.0
 
 Beta Announcement Date: 14 September 2022
