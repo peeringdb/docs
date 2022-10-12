@@ -1,5 +1,6 @@
-# Organizational policy features and more
-We want administrators for organizations in PeeringDB to login and look around. We have created some new settings to help you manage users affiliated with your organization in PeeringDB.
+# Organizational Policy Features and More
+
+We want administrators for organizations in PeeringDB to log in and to look around. We have created some new settings to help you manage users affiliated with your organization in PeeringDB.
 
 There are three key changes you'll want to look at.
 
@@ -7,11 +8,11 @@ There are three key changes you'll want to look at.
 2. You can now force users to revalidate their PeeringDB account periodically. You can set the period that fits with your organization's needs.
 3. Your users can now have multiple email addresses for their PeeringDB account.
 
-We have published a HOWTO document. It walks administrators through the details of how to configure these features. 
+We have published a [HOWTO](/howto/organizational_policy/) that walks administrators through the details of how to configure these features. 
 
 This release also includes improvements contributed by developers at Amazon and Google. We are grateful for their contributions. 
 
-Take a look at our guide to developing for PeeringDB if you'd like to contribute.
+Take a look at our [HOWTO](/howto/get-started-developing/) about developing for PeeringDB if you'd like to contribute.
 
 This release also has several small feature improvements and changes that allow us to provide users with better support.
 
