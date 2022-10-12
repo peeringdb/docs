@@ -133,6 +133,7 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes-and-schedule">Release Notes and Schedule</a></li>
             <li><a href="#release-schedule">Release schedule</a></li>
+            <li><a href="#release-2410">Release 2.41.0</a></li>
             <li><a href="#release-2400">Release 2.40.0</a></li>
             <li><a href="#release-2390">Release 2.39.0</a></li>
             <li><a href="#release-2382">Release 2.38.2</a></li>
@@ -193,6 +194,51 @@
 <td>2023-03-07</td>
 <td>2023-03-14</td>
 <td>2023-03-21</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2410">Release 2.41.0</h2>
+<p>Beta Announcement Date: 12 October 2022<br />
+Release Date: 19 October 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/586">#586 Add export tool to https://peeringdb.com/cp/peeringdb_server/$type</a></td>
+<td>Adds new data exports on CSV format.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1044">#1044 Adding a POC must require an email address or phone number</a></td>
+<td>Points of Contact must now have either an email address or a phone number.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1244">#1244 IX-F importer fails on nulled ipv4 / ipv6 properties in vlan_list entries</a></td>
+<td>Fixes a bug where the IX-F importer would raise an error when encountering <code>null</code> values for <code>ipv6</code> or <code>ipv4</code> properties in the <code>vlan_list property</code>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1216">#1216 RIR Status update misses ASNs</a></td>
+<td>Fixes a bug in the way RIR status is recorded for networks.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1223">#1223 Invalid data (in choice fields) found via API</a></td>
+<td>Fixes a bug where some records had invalid values.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1198">#1198 Add automated testing at the browser level</a></td>
+<td>Introduces automated testing for web functionality.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1149">#1149 HTTP 404 for dom-purify/purify.min.js.map and showdown/showdown.min.js.map</a></td>
+<td>Fixes a JS problem affecting several popular browsers.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1234">#1234 Transition from lgtm.com before the service ends</a></td>
+<td>Ensures continuity of continuous security analysis now after lgtm.com closes.</td>
 </tr>
 </tbody>
 </table>
