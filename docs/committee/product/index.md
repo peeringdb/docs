@@ -9,6 +9,7 @@
 
 ## Meeting notes
 
+- [October 17th, 2022: Meeting Notes](notes/2022-10-17_Product_Committee_Notes.pdf)
 - [October 6th, 2022: Meeting Notes](notes/2022-10-06_Product_Committee_Notes.pdf)
 - [September 8th, 2022: Meeting Notes](notes/2022-09-08_Product_Committee_Notes.pdf)
 - [August 4th, 2022: Meeting Notes](notes/2022-08-04_Product_Committee_Notes.pdf)
