@@ -164,7 +164,7 @@ Below are the categories of objects types (OBJ) in PeeringDB:
 
 Below is a description of what each of the object types mean and what information they return
 
-- **org**: Root object for fac, ix, net, this holds information about organisation.  
+- **org**: Root object for fac, ix, net, this holds information about an organization.
 - **fac**: Describes a facility / colocation record, more useful information are in derived records netfac.
 - **ix**: Describes an exchange, more useful information are in derived records ixlan, ixpfx and netixlan.
 - **net**: Describes a network / ASN, more useful information are in netfac and netixlan.
