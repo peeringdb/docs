@@ -25,3 +25,7 @@ The implementation details documented in issues should be detailed enough to use
 ## Pull requests
 
 It's good to let us know which issues you are working on when you start work. It's also helpful if you include the issues being fixed in your Pull Request. Please include "Fixes #issue" for each issue addressed in your Pull Request. We can then close those issues when we deploy your code.
+
+## What happens next?
+
+When you submit your Pull Request we will run Continuous Integration tests on the code. We'll also review it ourselves. We'll report on the output of the tests in comments on the Pull Request and let you know if you need to make any changes.
