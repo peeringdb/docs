@@ -2,6 +2,9 @@
 
 ## 2022
 
+- [PeeringDB](presentation/WTR_POP-PI_2022_Teresina-peeringdb-20221020.pdf) at [WTR POP-PI 2022](https://wtr.rnp.br/pop-pi/programacao) - October 20, 2022 - Julimar Lunguinho Mendes ([video](https://youtu.be/Y0uoW7YSlQA?t=6628))
+- [PeeringDB Call for Committee Members](presentation/20221019_Gilmore_Lightning_Talk_Peeringdb_v1.pdf) at the [NANOG 86](https://www.nanog.org/events/nanog-86/agenda/), Hollywood, CA, US - October 19, 2022 - Patrick Gilmore
+- [PeeringDB Update](presentation/20220912_EPF15_Arnold.pdf) at [EPF 2022](https://peering-forum.eu/2022/), Rome, IT - September 12, 2022 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20221011-37th-Euro-IX-Greg.pdf) at the [37th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/37th-euro-ix-forum/), Edinburgh, UK - October 11, 2022 - Greg Hankins
 - [PeeringDB Update](presentation/20220912_EPF15_Arnold.pdf) at [EPF 2022](https://peering-forum.eu/2022/), Rome, IT - September 12, 2022 - Arnold Nipper
 - [PeeringDB Update](presentation/20220823_AfPIF_Ben.pdf) at [AfPIF 2022](https://www.afpif.org/afpif2022/), Kigali, RW - August 23, 2022 - Ben Ryall
