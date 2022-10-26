@@ -23,7 +23,7 @@ Our releases are generally deployed at around 04:00 UTC.
 ## Release 2.41.0
 
 Beta Announcement Date: 12 October 2022
-Release Date: 19 October 2022
+Release Date: 26 October 2022
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
