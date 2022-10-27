@@ -2,6 +2,7 @@
 
 ## 2022
 
+- [PeeringDB Operations & Product Update](presentation/20221026_RIPE85_Connect-WG_Arnold.pdf) at [RIPE 85](https://ripe85.ripe.net/programme/meeting-plan/connect-wg/), Belgrade, RS - October 26, 2022 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20221025-ngPIF.pdf) at [ngPIF 2022](https://pif.ng/agenda/), Lagos, NG - October 25, 2022 - Ben Ryall
 - [PeeringDB](presentation/WTR_POP-PI_2022_Teresina-peeringdb-20221020.pdf) at [WTR POP-PI 2022](https://wtr.rnp.br/pop-pi/programacao) - October 20, 2022 - Julimar Lunguinho Mendes ([video](https://youtu.be/Y0uoW7YSlQA?t=6628))
 - [PeeringDB Call for Committee Members](presentation/20221019_Gilmore_Lightning_Talk_Peeringdb_v1.pdf) at the [NANOG 86](https://www.nanog.org/events/nanog-86/agenda/), Hollywood, CA, US - October 19, 2022 - Patrick Gilmore
