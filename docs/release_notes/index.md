@@ -18,6 +18,16 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.43.0 | 2023-01-11 | 2023-01-18 | 2023-01-25 |
 | 2.44.0 | 2023-02-01 | 2023-02-08 | 2023-02-22 |
 | 2.45.0 | 2023-03-08 | 2023-03-15 | 2023-03-22 |
+| 2.45.0 | 2023-04-DD | 2023-04-DD | 2023-04-DD |
+
+## Release 2.41.1
+
+Release Date: 26 October 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1275 Missing allowed sources for scripts](https://github.com/peeringdb/peeringdb/issues/1275) | Adds in some missing sources that were stopping /apidocs and CAPTCHA from working. |
+
 
 ## Release 2.41.0
 
