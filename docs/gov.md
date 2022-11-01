@@ -64,6 +64,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Organizational Documents
 
+- [November 1st, 2022: Annual Report](gov/legaldocs/2022-11-01_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2021: Annual Report](gov/legaldocs/2021-11-01_PeeringDB_Annual_Report.pdf)
 - [November 2nd, 2020: Annual Report](gov/legaldocs/2020-11-02_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2019: Annual Report](gov/legaldocs/2019-11-01_PeeringDB_Annual_Report.pdf)
