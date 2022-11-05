@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Introducing Analytics](blog/introducing_analytics.md) - November 3, 2022
 - [Data Quality Improvements Rolled Out](blog/data_quality_improvements.md) - October 26, 2022
 - [API Writes now Need an API Key](blog/api_writes_need_api_key.md) - September 25, 2022
 - [Organizational Policy Features and More](blog/organizational_policy.md) - September 25, 2022
