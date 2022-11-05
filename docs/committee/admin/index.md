@@ -25,6 +25,7 @@
 - Patrick Gilmore (Chair)
 - Chriztoffer Hansen
 - Peter Helmenstine
+- Gaël Hernandez
 - Julimar Lunguinho Mendes
 - Arnold Nipper
 - Job Snijders (Board Liaison)
