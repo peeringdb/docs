@@ -19,7 +19,7 @@ The PeeringDB Product Committee (PC) is charged with steering the future product
 - Document and maintain workflow process to handle requests and issues.
 - Maintain the product roadmap and feature request backlog and makes them publicly accessible. 
 - Create and maintain PeeringDB product documentation and presentation materials.
-- Develop market outreach and evangelisation to increase the uptake of PeeringDB use and improve data quality.
+- Develop market outreach and evangelization to increase the uptake of PeeringDB use and improve data quality.
 - Propose new features or enhancements based on the long term objectives and validates significant product evolutions with key stakeholders.
 
 
@@ -36,8 +36,9 @@ The PeeringDB Product Committee members serve a 2 years renewable term, potentia
 #### Communication
 
 - Questions and suggestions for the Product Committee can be sent to <productcom@lists.peeringdb.com>
-- Key development communication and community input gathering efforts will be conducted via the PeeringDB Governance Mailinglist [pdb-gov@lists.peeringdb.com](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov)
-- All issues and the product roadmap and feature backlog can be found at <https://github.com/peeringdb/peeringdb/issues>
+- The committee will use a range of mechanisms for communication and community input gathering efforts, including the PeeringDB Governance Mailinglist [pdb-gov@lists.peeringdb.com](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov)
+- Decisions, including their rationale, will be documented in [GitHub issues](https://github.com/peeringdb/peeringdb/issues)
+- All issues and the product roadmap and feature backlog can be found at in [GitHub issues](https://github.com/peeringdb/peeringdb/issues)
 
 
 #### Decision policy
