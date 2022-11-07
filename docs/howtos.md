@@ -21,6 +21,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 - [Report a Security Issue](howto/make-a-security-report.md)
 
 ## Other
+- [Install peeringdb-py](howto/peeringdb-py.md)
 - [Get Started with Developing for PeeringDB](howto/get-started-developing.md)
 - [Setup a PeeringDB Development Environment](howto/run_development_container.md)
 - [What is AS112?](howto/updates-for-as112.md)
