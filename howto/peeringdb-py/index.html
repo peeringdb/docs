@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/peeringdb-py/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: Install peeringdb-py - PeeringDB Docs</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">About</a>
+                            </li>
+                            <li >
+                                <a href="../../gov/">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../committee/admin/">Admin Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/outreach/">Outreach Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../committee/product/">Product Committee</a>
+</li>
+                                    
+<li >
+    <a href="../../taskforce/dataownership/">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../release_notes/">Release Notes</a>
+</li>
+                                    
+<li >
+    <a href="../../api_specs/">API Specs</a>
+</li>
+                                    
+<li >
+    <a href="../../ix-f-json-import-rules/">IX-F JSON</a>
+</li>
+                                    
+<li >
+    <a href="../../oauth/">OAuth</a>
+</li>
+                                    
+<li >
+    <a href="../../translation/">Translations</a>
+</li>
+                                    
+<li >
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../howtos/">HOWTOs</a>
+                            </li>
+                            <li >
+                                <a href="../../faq/">FAQs</a>
+                            </li>
+                            <li >
+                                <a href="../../blogs/">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/peeringdb-py.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#howto-install-peeringdb-py">HOWTO: Install peeringdb-py</a></li>
+            <li><a href="#peeringdb-credentials">PeeringDB credentials</a></li>
+            <li><a href="#software-requirements">Software requirements</a></li>
+            <li><a href="#database">Database</a></li>
+            <li><a href="#installation-instructions-for-peeringdb-py">Installation instructions for peeringdb-py</a></li>
+            <li><a href="#example-usage">Example usage</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="howto-install-peeringdb-py">HOWTO: Install peeringdb-py</h1>
+<p>You can install <code>peeringdb-py</code> on a wide selection of operating systems. Users have installed it on several Linux distributions, macOS, and Windows Subsystem for Linux.</p>
+<p>It will give you a local version of PeeringDB’s SQL database. Unlike the PeeringDB API, the SQL data structure might change without notice. Please do not build tools that make SQL queries. We suggest using our library to make API calls on your local cache. We maintain the library and commit to maintaining the API functionality, even if the underlying database structure changes.</p>
+<p>Please let us know if you find a query that is only possible with SQL and not via the API. Either create an issue in <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>, or send a mail describing the problems to <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<h2 id="peeringdb-credentials">PeeringDB credentials</h2>
+<p>You only need a PeeringDB account if you want to synchronize the contact information to your peeringdb-py cache. If you want to synchronize the whole database, including the contact data, you will need an API Key.</p>
+<p>If you are installing peeringdb-py for organizational use you should use an organizational API Key. You can use an API Key tied to a user account for personal use. We have a <a href="/howto/api_keys/">HOWTO guide for API Keys</a>.</p>
+<h2 id="software-requirements">Software requirements</h2>
+<p>You must ensure these these packages are installed to install and use <code>peeringdb-py</code>:<br />
+- git<br />
+- pip<br />
+- python<br />
+- virtualenv</p>
+<p>You will also need to have a database installed. The configuration defaults to using SQLite.</p>
+<h2 id="database">Database</h2>
+<p><code>peeringdb-py</code>’s defaults to an SQLite3 database. You can choose to use a different database. If you want to do this you must adjust the database engine statement in the <code>config.yaml</code>, which is placed in your <code>.peeringdb/config.yaml</code>, which sits in your home directory. Whichever database you choose, it must use UTF-8 as the character set.</p>
+<h2 id="installation-instructions-for-peeringdb-py">Installation instructions for <code>peeringdb-py</code></h2>
+<h3 id="create-a-directory-for-peeringdb-py-and-go-there">Create a directory for <code>peeringdb-py</code> and go there</h3>
+<p><code>mkdir ~/peeringdb-py &amp;&amp; cd ~/peeringdb-py</code></p>
+<h3 id="create-a-virtual-environment">Create a virtual environment</h3>
+<p><code>virtualenv --python=python3 pdbvenv</code></p>
+<h3 id="activate-the-virtual-environment">Activate the virtual environment</h3>
+<p><code>source pdbvenv/bin/activate</code></p>
+<h3 id="install-peeringdb-py">Install <code>peeringdb-py</code></h3>
+<p>Run <code>pip</code> to install the local cache and Django. </p>
+<pre><code>sh
+pip install --upgrade pip setuptools
+pip install peeringdb django-peeringdb
+
+# check for which version of django suits you
+# when in doubt use the LTS version from https://www.djangoproject.com/download/
+pip install &quot;django&gt;=3.2,&lt;3.3&quot;
+</code></pre>
+
+<h3 id="create-a-peeringdb-py-configuration-file">Create a <code>peeringdb-py</code> configuration file</h3>
+<p><code>peeringdb config set -n</code></p>
+<h3 id="edit-your-configuration">Edit your configuration</h3>
+<p>edit <code>[HOME]/.peeringdb/config.yaml</code>.  Make sure you adjust the directory name. Replace [HOME] with the relevant file path. Replace [CENSORED] with your own API Key, if you are authenticating. Remove [CENSORED] if you choose to remain anonymous. Anonymous users cannot see some contact information.</p>
+<pre><code>orm:
+  backend: django_peeringdb
+  database:
+    engine: sqlite3
+    host: ''
+    name: [HOME]/peeringdb-py/peeringdb.sqlite3
+    password: ''
+    port: 0
+    user: ''
+  migrate: true
+  secret_key: ''
+sync:
+  api_key: [CENSORED]
+  only: []
+  password: ''
+  strip_tz: 1
+  timeout: 0
+  url: https://www.peeringdb.com/api
+  user: ''
+</code></pre>
+
+<h3 id="check-that-the-software-is-installed">Check that the software is installed</h3>
+<p>This will confirm that <code>peeringdb-py</code> is running by showing you the software version:<br />
+<code>peeringdb --version</code>   </p>
+<p>You will see something like:<br />
+<code>peeringdb 1.2.1.1</code></p>
+<p>This will confirm that Django is running by showing you the software version:<br />
+<code>django-admin --version</code></p>
+<p>You will see something like:<br />
+<code>2.2.28</code></p>
+<p>This will show that you have django-peeringdb installed and what version it is.<br />
+<code>pip freeze | grep django-peeringdb</code></p>
+<p>You will see something like this:<br />
+<code>django-peeringdb==2.14.1</code></p>
+<h3 id="synchronize-your-new-local-cache">Synchronize your new local cache</h3>
+<p>This will synchronize your local cache with the server and tell you how long it took.<br />
+<code>time peeringdb sync</code></p>
+<p>You will see something like this:</p>
+<pre><code>real    14m47.515s
+user    14m27.077s
+sys     0m1.939s
+</code></pre>
+
+<p>If you wait and then synchronize again you'll get the changes since your initial sync. The process does not pull the full database, making it a very efficient update process. You will see a faster synchronization for updates than the initial pull.</p>
+<p><code>time peeringdb sync</code></p>
+<p>The times you see will look something like this:</p>
+<pre><code>real    0m3.110s
+user    0m1.074s
+sys     0m0.088s
+</code></pre>
+
+<h3 id="automatically-refreshing-data">Automatically refreshing data</h3>
+<p>You can schedule automatic database updates by creating an entry in your crontab. We recommend synchronizing every hour. You should not synchronize on the hour but offset at a random minute in the hour. This distributes users across the hour and reduces the burden on the server. </p>
+<p>This will open your default editor and allow you to create a scheduled task.</p>
+<p><code>crontab -e</code></p>
+<p>Place this entry in your crontab and save the file, changing [HOME] to the relevant file path.</p>
+<p><code>00 * * * * sleep $[RANDOM\%300] ; cd [HOME]/peeringdb-py ; touch peeringdb.sync.log ; date &gt;&gt; peeringdb.sync.log ; ./pdbvenv/bin/peeringdb sync &gt;&gt; peeringdb.sync.log 2&gt;&amp;1</code></p>
+<p>Confirm what is scheduled:</p>
+<p><code>crontab -l</code> </p>
+<h3 id="upgrade-peeringdb-py-to-the-latest-version">Upgrade <code>peeringdb-py</code> to the latest version</h3>
+<pre><code>sh
+pip install --upgrade peeringdb django-peeringdb
+</code></pre>
+
+<h2 id="example-usage">Example usage</h2>
+<p>The SQL data structure might change without notice. Please do not build tools that make SQL queries. We suggest using our library to make API calls on your local cache. We maintain the library and commit to maintaining the API functionality, even if the underlying database structure changes.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-twitter.png'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png'></a>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
