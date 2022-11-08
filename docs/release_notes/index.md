@@ -19,6 +19,30 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.44.0 | 2023-02-01 | 2023-02-08 | 2023-02-22 |
 | 2.45.0 | 2023-03-08 | 2023-03-15 | 2023-03-22 |
 | 2.45.0 | 2023-04-DD | 2023-04-DD | 2023-04-DD |
+| 2.46.0 | 2023-04-DD | 2023-04-DD | 2023-04-DD |
+
+## Release 2.42.0
+
+Beta Announcement Date: 9 November 2022
+Release Date: 16 November 2022
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#983 Allow REALPEER to overwrite GHOSTPEER netixlan entry, if asn and IPv6/v4 addresses matches the IX-F Members Export information](https://github.com/peeringdb/peeringdb/issues/983) | Improve the quality of IXP data delivered through IX-F Imports for cases when a network disconnects from an IXP but does not update their PeeringDB record. |
+| [#1153 Exporting Advanced Search broken](https://github.com/peeringdb/peeringdb/issues/1153) | Fixes a bug that stopped users exporting some searches as structured data. |
+| [#1091 Adjust "Add Facility" menu to include newly defined fields](https://github.com/peeringdb/peeringdb/issues/1091) | Newly defined `fac` fields, such as available voltage services, can now be entered when creating the Facility. |
+| [#1253 Reset IX-F suggestions link non-functional](https://github.com/peeringdb/peeringdb/issues/1253) | Fixes a link that presents users with suggestions. |
+| [#758 Lightweight user notification mechanism](https://github.com/peeringdb/peeringdb/issues/758) | Introduce a mechanism to alert logged in web users to upcoming changes. |
+| [#1250 UI shows own email when viewing affiliation requests for an organization](https://github.com/peeringdb/peeringdb/issues/1250) | Fixes a bug that showed organization admins their own email address instead of the user requesting affiliation. |
+| [#1234 Transition from lgtm.com before the service ends](https://github.com/peeringdb/peeringdb/issues/1234) | Migrate to a new CI service. |
+| [#1168 Ops: Throttle strings with "Response size" should be renamed "Repeated request"](https://github.com/peeringdb/peeringdb/issues/1168) | Improve the quality of error messages related to usage throttling. |
+| [#953 User may request affiliation with a deleted organisation](https://github.com/peeringdb/peeringdb/issues/953) | Fixes a bug that allowed users to request affiliation with a deleted organization. |
+| [#659 Improve readability when users have special permissions](https://github.com/peeringdb/peeringdb/issues/659) | Makes a support screen easier to read. |
+| [#924 Allow change of ixpfx](https://github.com/peeringdb/peeringdb/issues/924) | Improves automation for updating records associated with IXP peering LANs. |
+| [#1270 Enable Google Analytics for beta.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/1270) | Introduces Google Analytics for beta.peeringdb.com. [More details](https://docs.peeringdb.com/blog/introducing_analytics/). |
+| [#1224 Internal admins only: console 504 time-out bug for ix history](https://github.com/peeringdb/peeringdb/issues/1224) | Fixes a timeout error affecting PeeringDB Admins. |
+| [#1283 Footer "Global System Statistics" should be cached within django instance, not updated with every page load](https://github.com/peeringdb/peeringdb/issues/1283) | Introduces cacheing for the Global System Statistics data on each page. |
+
 
 ## Release 2.41.1
 
