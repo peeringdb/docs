@@ -133,6 +133,7 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes-and-schedule">Release Notes and Schedule</a></li>
             <li><a href="#release-schedule">Release schedule</a></li>
+            <li><a href="#release-2420">Release 2.42.0</a></li>
             <li><a href="#release-2411">Release 2.41.1</a></li>
             <li><a href="#release-2410">Release 2.41.0</a></li>
             <li><a href="#release-2400">Release 2.40.0</a></li>
@@ -195,6 +196,81 @@
 <td>2023-04-DD</td>
 <td>2023-04-DD</td>
 <td>2023-04-DD</td>
+</tr>
+<tr>
+<td>2.46.0</td>
+<td>2023-04-DD</td>
+<td>2023-04-DD</td>
+<td>2023-04-DD</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2420">Release 2.42.0</h2>
+<p>Beta Announcement Date: 9 November 2022<br />
+Release Date: 16 November 2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/983">#983 Allow REALPEER to overwrite GHOSTPEER netixlan entry, if asn and IPv6/v4 addresses matches the IX-F Members Export information</a></td>
+<td>Improve the quality of IXP data delivered through IX-F Imports for cases when a network disconnects from an IXP but does not update their PeeringDB record.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1153">#1153 Exporting Advanced Search broken</a></td>
+<td>Fixes a bug that stopped users exporting some searches as structured data.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1091">#1091 Adjust "Add Facility" menu to include newly defined fields</a></td>
+<td>Newly defined <code>fac</code> fields, such as available voltage services, can now be entered when creating the Facility.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1253">#1253 Reset IX-F suggestions link non-functional</a></td>
+<td>Fixes a link that presents users with suggestions.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/758">#758 Lightweight user notification mechanism</a></td>
+<td>Introduce a mechanism to alert logged in web users to upcoming changes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1250">#1250 UI shows own email when viewing affiliation requests for an organization</a></td>
+<td>Fixes a bug that showed organization admins their own email address instead of the user requesting affiliation.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1234">#1234 Transition from lgtm.com before the service ends</a></td>
+<td>Migrate to a new CI service.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1168">#1168 Ops: Throttle strings with "Response size" should be renamed "Repeated request"</a></td>
+<td>Improve the quality of error messages related to usage throttling.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/953">#953 User may request affiliation with a deleted organisation</a></td>
+<td>Fixes a bug that allowed users to request affiliation with a deleted organization.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/659">#659 Improve readability when users have special permissions</a></td>
+<td>Makes a support screen easier to read.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/924">#924 Allow change of ixpfx</a></td>
+<td>Improves automation for updating records associated with IXP peering LANs.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1270">#1270 Enable Google Analytics for beta.peeringdb.com</a></td>
+<td>Introduces Google Analytics for beta.peeringdb.com. <a href="https://docs.peeringdb.com/blog/introducing_analytics/">More details</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1224">#1224 Internal admins only: console 504 time-out bug for ix history</a></td>
+<td>Fixes a timeout error affecting PeeringDB Admins.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1283">#1283 Footer "Global System Statistics" should be cached within django instance, not updated with every page load</a></td>
+<td>Introduces cacheing for the Global System Statistics data on each page.</td>
 </tr>
 </tbody>
 </table>
