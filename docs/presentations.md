@@ -2,6 +2,7 @@
 
 ## 2022
 
+- [PeeringDB](presentation/AOPF_2022_Luanda-peeringdb-20221208.pdf) at [AOPF/AONOG 2022](https://events.ao.nog.community/event/1/) - December 8, 2022 - Darwin Da Costa
 - [PeeringDB Operations & Product Update](presentation/20221115_DENOG14_Arnold.pdf) at [DENOG14](https://www.denog.de/de/meetings/denog14/agenda.html), Hamburg, DE - November 15, 2022 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20221026_RIPE85_Connect-WG_Arnold.pdf) at [RIPE 85](https://ripe85.ripe.net/programme/meeting-plan/connect-wg/), Belgrade, RS - October 26, 2022 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20221025-ngPIF.pdf) at [ngPIF 2022](https://pif.ng/agenda/), Lagos, NG - October 25, 2022 - Ben Ryall
