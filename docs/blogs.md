@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [PeeringDB 2022 Product Report](blog/2022_product_reeport.md) - January 9, 2023
 - [Installing peeringdb-py at NANOG 86](blog/installing_peeringdb-py.md) - November 8, 2022
 - [Introducing Analytics](blog/introducing_analytics.md) - November 3, 2022
 - [Data Quality Improvements Rolled Out](blog/data_quality_improvements.md) - October 26, 2022
