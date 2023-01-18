@@ -19,7 +19,6 @@
 
 ## Members
 - Shaun Coffey
-- Stefan Funke
 - Patrick Gilmore (Chair)
 - Alexandre Guimaraes
 - Chriztoffer Hansen
