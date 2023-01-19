@@ -40,7 +40,7 @@ Release Date: 25 January 2023
 | [#1284 Ops: django needs lightweight healthcheck route that confirms database connectivity](https://github.com/peeringdb/peeringdb/issues/1284) | Introduces a lightweight health check for database availability. |
 | [#1285 Ops: various indexes are needed](https://github.com/peeringdb/peeringdb/issues/1285) | Introduces new database indexes. |
 | [#1288 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1288) | Add configuration options for ease of operations. |
-| [#1296 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1296) | Fix a bug with CSRF cookies not being set. |
+| [#1296 CSRF cookie not set error from email confirmation view](https://github.com/peeringdb/peeringdb/issues/1296) | Fix a bug with CSRF cookies not being set. |
 
 ## Older releases
 
