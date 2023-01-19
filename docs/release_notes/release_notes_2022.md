@@ -209,9 +209,3 @@ Release Date: 19 January 2022
 | [#1062 Registering a new facility or exchange organization is broken](https://github.com/peeringdb/peeringdb/issues/1062) | Fixes a bug that prevented new `fac` and `ix` objects to be registered. |
 | [#1077 Possible for "pending" exchange to have "deleted" ixlan](https://github.com/peeringdb/peeringdb/issues/1077) | Fixes a bug that allowed linked `ix` objects to jhave a different status, affecting API sync. |
 | [#1088 Tweaks for empty organization clean up](https://github.com/peeringdb/peeringdb/issues/1088) | Fixes a bug that allowed sponsor organizations to be deleted by an automatic process when they should not be. |
-
-
-## Older releases
-
-* [2021 Release Notes](/release_notes/release_notes_2021/)
-* [2020 Release Notes](/release_notes/release_notes_2020/)

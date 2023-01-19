@@ -27,20 +27,20 @@ Release Date: 25 January 2023
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
-| [#909 Add Carrier Record Type](https://github.com/peeringdb/peeringdb/issues/909) Initial deployment of a Carrier record – a record to describe providers of high capacity links between facilities, running at [layers 1 or 2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer). |
-| [#1140 API keys: disabling of user account by a PeeringDB admin does not disable access via a User API key. Also no disable mech, only revoke.](https://github.com/peeringdb/peeringdb/issues/1140) Fixes a bug where user API Keys were not disabled when their account was disabled. |
-| [#1220 API requests with invalid Authentication headers should notify users in some way](https://github.com/peeringdb/peeringdb/issues/1220) Requests with an invalid API key now return appropriate error codes. |
-| [#1130 Allow user to change account username](https://github.com/peeringdb/peeringdb/issues/1130) Users can now change their account name. |
-| [#970 Cache hints are needed for optimal CDN use](https://github.com/peeringdb/peeringdb/issues/970) Adds cache hints to make CDN deployment more effective. |
-| [#1278 Commandline tool "Run command" button gone](https://github.com/peeringdb/peeringdb/issues/1278) Fixes a problem affecting Admins – a tool was hidden. |
-| [#1279 RIR status gets deleted when changes are made to the network](https://github.com/peeringdb/peeringdb/issues/1279) Improves the new process for validating networks against RIR data (see: [#1280](https://github.com/peeringdb/peeringdb/issues/1280)). |
-| [#658 Improve MTU field](https://github.com/peeringdb/peeringdb/issues/658) MTUs now default to 1500 and there's a new dropdown list of options to select from. |
-| [#1282 Ops: Emails to OPERATIONS_EMAIL need to be rate-limited](https://github.com/peeringdb/peeringdb/issues/1282) Introduces a rate limit for automatic mail sent to Operations. |
-| [#1283 Footer "Global System Statistics" should be cached within django instance, not updated with every page load](https://github.com/peeringdb/peeringdb/issues/1283) Global System Statistics are now generated periodically instead of on each page load. |
-| [#1284 Ops: django needs lightweight healthcheck route that confirms database connectivity](https://github.com/peeringdb/peeringdb/issues/1284) Introduces a lightweight health check for database availability. |
-| [#1285 Ops: various indexes are needed](https://github.com/peeringdb/peeringdb/issues/1285) Introduces new database indexes. |
-| [#1288 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1288) Add configuration options for ease of operations. |
-| [#1296 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1296) Fix a bug with CSRF cookies not being set. |
+| [#909 Add Carrier Record Type](https://github.com/peeringdb/peeringdb/issues/909) | Initial deployment of a Carrier record – a record to describe providers of high capacity links between facilities, running at [layers 1 or 2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer). |
+| [#1140 API keys: disabling of user account by a PeeringDB admin does not disable access via a User API key. Also no disable mech, only revoke.](https://github.com/peeringdb/peeringdb/issues/1140) | Fixes a bug where user API Keys were not disabled when their account was disabled. |
+| [#1220 API requests with invalid Authentication headers should notify users in some way](https://github.com/peeringdb/peeringdb/issues/1220) | Requests with an invalid API key now return appropriate error codes. |
+| [#1130 Allow user to change account username](https://github.com/peeringdb/peeringdb/issues/1130) | Users can now change their account name. |
+| [#970 Cache hints are needed for optimal CDN use](https://github.com/peeringdb/peeringdb/issues/970) | Adds cache hints to make CDN deployment more effective. |
+| [#1278 Commandline tool "Run command" button gone](https://github.com/peeringdb/peeringdb/issues/1278) | Fixes a problem affecting Admins – a tool was hidden. |
+| [#1279 RIR status gets deleted when changes are made to the network](https://github.com/peeringdb/peeringdb/issues/1279) | Improves the new process for validating networks against RIR data (see: [#1280](https://github.com/peeringdb/peeringdb/issues/1280)). |
+| [#658 Improve MTU field](https://github.com/peeringdb/peeringdb/issues/658) | MTUs now default to 1500 and there's a new dropdown list of options to select from. |
+| [#1282 Ops: Emails to OPERATIONS_EMAIL need to be rate-limited](https://github.com/peeringdb/peeringdb/issues/1282) | Introduces a rate limit for automatic mail sent to Operations. |
+| [#1283 Footer "Global System Statistics" should be cached within django instance, not updated with every page load](https://github.com/peeringdb/peeringdb/issues/1283) | Global System Statistics are now generated periodically instead of on each page load. |
+| [#1284 Ops: django needs lightweight healthcheck route that confirms database connectivity](https://github.com/peeringdb/peeringdb/issues/1284) | Introduces a lightweight health check for database availability. |
+| [#1285 Ops: various indexes are needed](https://github.com/peeringdb/peeringdb/issues/1285) | Introduces new database indexes. |
+| [#1288 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1288) | Add configuration options for ease of operations. |
+| [#1296 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1296) | Fix a bug with CSRF cookies not being set. |
 
 ## Older releases
 
