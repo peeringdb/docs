@@ -1,6 +1,6 @@
 # PeeringDB Outreach Committee
 
-- Purpose is to coordinate outreach and evanglism in the community.
+- Purpose is to coordinate outreach and evangelism in the community.
 - Interested in volunteering? Contact [outreachcom@lists.peeringdb.com](mailto:outreachcom@lists.peeringdb.com).
 
 {!docs/committee/outreach/charter.md!}

@@ -73,7 +73,7 @@ Release Date: 1 July, 2020
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
 | [#72 - Enable sort and reverse sort of IP column in IX display](https://github.com/peeringdb/peeringdb/issues/72) | Sort and reverse sort of IP column in IX display are added. Sort of the IP addresses in the expected natural order. The IPv4 address is the primary sort key. The IPv6 address is the secondary key. |
-| [#121 - missing delete button for organisations](https://github.com/peeringdb/peeringdb/issues/121) | New feature. An admin user is able to delete an org if it has no live objects under it. |
+| [#121 - missing delete button for organizations](https://github.com/peeringdb/peeringdb/issues/121) | New feature. An admin user is able to delete an org if it has no live objects under it. |
 | [#290 - Offer 2FA](https://github.com/peeringdb/peeringdb/issues/290) | 2FA is offered now. The implementation includes <ul><li> optional 2FA using [TOTP](https://tools.ietf.org/html/rfc6238) is offered</li><li> there is a knob in the user profile to enable and set it up</li><li> email recovery is added using the verified user email address</li><li> an icon is added in the org admin section to denote to org admins if users have 2FA enabled </li></ul> |
 | [#352 - Mark IXP peering LAN as bogon](https://github.com/peeringdb/peeringdb/issues/352) | Allow IXP to tag their LAN prefixes as bogons. In general, LAN prefixes should not be visible in the DFZ. If it should be visible, IXPs are able to debogonise them |
 | [#356 - Sorting by clicking table headers should use local-compare](https://github.com/peeringdb/peeringdb/issues/356) | Bugfix. Sorting now honours locale-sorting |
@@ -118,7 +118,7 @@ Release Date: 21 April, 2020
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
 | [#151 - Validation of IRR Records](https://github.com/peeringdb/peeringdb/issues/151) | To make the IRR as-set/route-set field of more operational value, strict rules apply <ul><li> the as-set/rs-set name has to conform to RFC 2622 (5.1 and 5.2)</li><li> the source may be specified by AS-SET@SOURCE or SOURCE::AS-SET (preferred)</li> <li> valid sources are taken from the list of known IRRs</li><li> multiple values must be separated by either ,, , or , (i.e. comma, space or comma followed by space)</li></ul> |
-| [#189 - Improve explanatory and help text](https://github.com/peeringdb/peeringdb/issues/189) | A clear help text is added for requesting affiliation to an organisation.  |
+| [#189 - Improve explanatory and help text](https://github.com/peeringdb/peeringdb/issues/189) | A clear help text is added for requesting affiliation to an organization.  |
 | [#251 - Limit number of concurrent affiliation requests per user](https://github.com/peeringdb/peeringdb/issues/251) | In order to reduce organization affiliation request spamming, the number of pending organization requests has been limited to 5. |
 | [#295 Desk pro tickets -> DeskPRO tickets](https://github.com/peeringdb/peeringdb/issues/295)  | This is a bug fix and only affects the Admin UI. |
 | [#378 - Add contact information for Facilities (fac) the same way as for ix and net](https://github.com/peeringdb/peeringdb/issues/378) | Contact information is added to Facilities and IXP. |

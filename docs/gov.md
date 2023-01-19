@@ -27,6 +27,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - [Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
 - [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
 - [Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
+- [Press Release Policy](gov/legaldocs/2022-12-24_PeeringDB_Press_Release_Policy.pdf)
 - [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
 
 ## Board Meetings
@@ -42,6 +43,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Finances
 
+- [December 31st, 2022: Finance Report](gov/finances/2022-12-31_PeeringDB_Finances.pdf)
 - [May 10th, 2022: IRS Form 990 for 2021](gov/finances/2022-05-10_2021_Form_990.pdf)
 - [December 31st, 2021: Finance Report](gov/finances/2021-12-31_PeeringDB_Finances.pdf)
 - [May 12th, 2021: IRS Form 990-EZ for 2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf)
@@ -64,6 +66,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Organizational Documents
 
+- [November 1st, 2022: Annual Report](gov/legaldocs/2022-11-01_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2021: Annual Report](gov/legaldocs/2021-11-01_PeeringDB_Annual_Report.pdf)
 - [November 2nd, 2020: Annual Report](gov/legaldocs/2020-11-02_PeeringDB_Annual_Report.pdf)
 - [November 1st, 2019: Annual Report](gov/legaldocs/2019-11-01_PeeringDB_Annual_Report.pdf)

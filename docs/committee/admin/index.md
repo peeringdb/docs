@@ -19,12 +19,11 @@
 
 ## Members
 - Shaun Coffey
-- Darwin Da Costa (Vice Chair)
-- Stefan Funke
-- Alexandre Guimaraes
 - Patrick Gilmore (Chair)
+- Alexandre Guimaraes
 - Chriztoffer Hansen
 - Peter Helmenstine
+- Gaël Hernandez
 - Julimar Lunguinho Mendes
 - Arnold Nipper
 - Job Snijders (Board Liaison)

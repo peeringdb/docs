@@ -1,12 +1,21 @@
 # Presentations
 
 ## 2022
+
+- [PeeringDB](presentation/AOPF_2022_Luanda-peeringdb-20221208.pdf) at [AOPF/AONOG 2022](https://events.ao.nog.community/event/1/) - December 8, 2022 - Darwin Da Costa
+- [PeeringDB Operations & Product Update](presentation/20221115_DENOG14_Arnold.pdf) at [DENOG14](https://www.denog.de/de/meetings/denog14/agenda.html), Hamburg, DE - November 15, 2022 - Arnold Nipper
+- [PeeringDB Operations & Product Update](presentation/20221026_RIPE85_Connect-WG_Arnold.pdf) at [RIPE 85](https://ripe85.ripe.net/programme/meeting-plan/connect-wg/), Belgrade, RS - October 26, 2022 - Arnold Nipper
+- [PeeringDB Operations & Product Update](presentation/20221025-ngPIF.pdf) at [ngPIF 2022](https://pif.ng/agenda/), Lagos, NG - October 25, 2022 - Ben Ryall
+- [PeeringDB](presentation/WTR_POP-PI_2022_Teresina-peeringdb-20221020.pdf) at [WTR POP-PI 2022](https://wtr.rnp.br/pop-pi/programacao) - October 20, 2022 - Julimar Lunguinho Mendes ([video](https://youtu.be/Y0uoW7YSlQA?t=6628))
+- [PeeringDB Call for Committee Members](presentation/20221019_Gilmore_Lightning_Talk_Peeringdb_v1.pdf) at the [NANOG 86](https://www.nanog.org/events/nanog-86/agenda/), Hollywood, CA, US - October 19, 2022 - Patrick Gilmore
+- [PeeringDB Operations & Product Update](presentation/20221011-37th-Euro-IX-Greg.pdf) at the [37th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/37th-euro-ix-forum/), Edinburgh, UK - October 11, 2022 - Greg Hankins
 - [PeeringDB Update](presentation/20220912_EPF15_Arnold.pdf) at [EPF 2022](https://peering-forum.eu/2022/), Rome, IT - September 12, 2022 - Arnold Nipper
 - [PeeringDB Update](presentation/20220823_AfPIF_Ben.pdf) at [AfPIF 2022](https://www.afpif.org/afpif2022/), Kigali, RW - August 23, 2022 - Ben Ryall
 - [PeeringDB Update](presentation/20220512_GPF_2022_Malayter.pdf) at [GPF 2022](https://www.globalpeeringforum.org/), Washington, DC, US - May 12, 2022 - Chris Malayter
 - [2021 Status Update](presentation/20220203-Teraco-Tech-Day.pdf) at [Virtual Tech Day with Euro-IX PeeringToolbox](https://www.teraco.co.za/events/virtual-tech-days/) - February 3, 2022 - Leo Vegoda
 
 ## 2021
+
 - [Introduction to PeeringDB](presentation/20211214-gna-g-rwg-meeting.pdf) at [GNA-G Routing WG](https://www.gna-g.net/join-working-group/gna-g-routing-wg/) - December 14, 2021 - Arnold Nipper
 - [PeeringDB Update](presentation/Semana_Capacitacao_2021_Sao_Paulo-peeringdb-20211001.pdf) at [Semana de Capacitação On-line 3](https://semanacap.bcp.nic.br/3-online/) - October 1, 2021 - Julimar Lunguinho Mendes
 - [PeeringDB Update](presentation/WTR_POP-MA_2021_Sao_Luis-peeringdb-20210930.pdf) at [WTR PoP-MA](https://wtr.rnp.br/pop-ma/programacao) - September 30, 2021 - Julimar Lunguinho Mendes

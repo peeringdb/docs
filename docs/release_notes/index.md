@@ -42,8 +42,6 @@ Release Date: 25 January 2023
 | [#1288 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1288) Add configuration options for ease of operations. |
 | [#1296 Ops: Expose CSP_CONNECT_SRC to .env](https://github.com/peeringdb/peeringdb/issues/1296) Fix a bug with CSRF cookies not being set. |
 
-
-
 ## Older releases
 
 * [2022 Release Notes](/release_notes/release_notes_2022/)

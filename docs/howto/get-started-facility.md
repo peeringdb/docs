@@ -45,7 +45,7 @@ Your `org` object will be assigned a numeric identifier, called its `id`. This i
 ![Excellent Example Org Object](images/excellent-example-org.png)
 
 ### Facility
-Once you have created your organisation you may add the `facility` object. You do this by using the Add Facility tab in the “Manage” menu below your organization. 
+Once you have created your organization you may add the `facility` object. You do this by using the Add Facility tab in the “Manage” menu below your organization.
 ![Excellent Example Facility Object](images/excellent-example-fac.png)
 ## Next Steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:
