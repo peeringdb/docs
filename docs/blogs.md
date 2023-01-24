@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Carrier Objects](blog/carrier_object_deployed.md) - January 24, 2023
 - [PeeringDB 2022 Product Report](blog/2022_product_report.md) - January 9, 2023
 - [Installing peeringdb-py at NANOG 86](blog/installing_peeringdb-py.md) - November 8, 2022
 - [Introducing Analytics](blog/introducing_analytics.md) - November 3, 2022
