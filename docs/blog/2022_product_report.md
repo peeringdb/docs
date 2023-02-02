@@ -51,8 +51,8 @@ Sometimes users need support. We’ve improved lots of support tools, so we can 
 
 Two major improvements scheduled for early 2023 include further improvements to search, and translation for anonymous web users. We’ll publish a more detailed product roadmap towards the end of January.
 
---- 
-
 The improvements we make are only as good as the requests we get from you. We want to make sure that we understand what you need and why. If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
+
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
