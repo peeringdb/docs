@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howto/get-started-carrier/">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/peeringdb_2023_roadmap/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>HOWTO: Get Started with PeeringDB as a Carrier Operator - PeeringDB Docs</title>
+        <title>PeeringDB's Product Roadmap for 2023 - PeeringDB Docs</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -121,7 +121,7 @@
                             </a>
                         </li>
                             <li>
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/get-started-carrier.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/blog/peeringdb_2023_roadmap.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -131,53 +131,24 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#howto-get-started-with-peeringdb-as-a-carrier-operator">HOWTO: Get Started with PeeringDB as a Carrier Operator</a></li>
-            <li><a href="#about-peeringdb">About PeeringDB</a></li>
-            <li><a href="#why">Why?</a></li>
-            <li><a href="#getting-started">Getting started</a></li>
-            <li><a href="#what-is-a-carrier">What is a Carrier?</a></li>
-            <li><a href="#information-required">Information required</a></li>
-            <li><a href="#database-records-to-create">Database records to create</a></li>
-            <li><a href="#next-steps">Next steps</a></li>
+        <li class="main active"><a href="#peeringdbs-product-roadmap-for-2023">PeeringDB's Product Roadmap for 2023</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="howto-get-started-with-peeringdb-as-a-carrier-operator">HOWTO: Get Started with PeeringDB as a Carrier Operator</h1>
-<h2 id="about-peeringdb">About PeeringDB</h2>
-<p>PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.</p>
-<p>We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.</p>
-<h2 id="why">Why?</h2>
-<p>PeeringDB is the interconnection database. Registering information about your carrier in PeeringDB makes it visible to IXPs and network operators who want to use your services to bring in peer or connect to other parts of their own network. </p>
-<h2 id="getting-started">Getting started</h2>
-<p>Routine use of PeeringDB can be automated using <a href="https://www.peeringdb.com/apidocs">our API</a> but this document is intended to help new carrier administrators get started. Carriers are set up using the web interface. Once this is done you can use the API to automate things that change regularly. This document focuses on the key steps for establishing your presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.</p>
-<p>If you need additional help getting started, please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
-<h2 id="what-is-a-carrier">What is a Carrier?</h2>
-<p>The <code>carrier</code> object is used to describe providers offering <a href="https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer">L1 or L2</a> services in a <code>facility</code>. It is different from a <code>net</code> because that describes services provided at L3 and is linked to its autonomous system number.</p>
-<h2 id="information-required">Information required</h2>
-<p>You will need to create several database records, known as objects, to establish your presence in PeeringDB. </p>
-<p>Database objects organize relevant information. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. </p>
-<p>You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. Your company name is required. This information is not required but is useful:</p>
-<ul>
-<li>AKA - If your carrier has an alternative name you can show it here to improve visibility in searches</li>
-<li>Long name - If your carrier has a long name, you can show it here to improve visibility in searches</li>
-<li>Notes - this field, which supports <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, can be used to describe the characteristics of your carrier that would be most useful to PeeringDB users</li>
-</ul>
-<p>You can look at the information shared by other PeeringDB users to work out what your organization should be sharing.</p>
-<h2 id="database-records-to-create">Database records to create</h2>
-<h3 id="user">User</h3>
-<p>The <code>org</code> is the parent for the carrier but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.</p>
-<h3 id="org">Org</h3>
-<p>The <code>org</code> object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.</p>
-<p>Your <code>org</code> object will be assigned a numeric identifier, called its <code>id</code>. This is what will be referenced by any child carrier object.</p>
-<p><img alt="Excellent Example Org Object" src="../images/excellent-example-org.png" /></p>
-<h3 id="carrier">Carrier</h3>
-<p>Once you have created your organization you may add the <code>carrier</code> object. You do this by using the Add Carrier tab in the “Manage” menu below your organization.</p>
-<p><img alt="Add Carrier Tab" src="../images/add_carrier_tab.png" /></p>
-<p>You then click the edit button in the top right of the <code>carrier</code> screen and indicate which facilities your carrier has a presence in. The manager of the facility needs to approve the association.</p>
-<p><img alt="Add Carrier Presence to Facility" src="../images/add_carrier_presence_to_facility_control.png" /></p>
-<h2 id="next-steps">Next steps</h2>
-<p>This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. </p></div>
+<h1 id="peeringdbs-product-roadmap-for-2023">PeeringDB's Product Roadmap for 2023</h1>
+<p>We want to build more agility into our Product Management process in 2023. This blog post describes what we have planned for the start of the year. It also describes how we want to work over the whole year, and how you can help us make good choices.</p>
+<p><img alt="PeeringDB Roadmap Image" src="../images/peeringdb_roadmap.jpg" /></p>
+<p>We are starting the year with features that open new paths to us. Your input will help us choose how we move down them.</p>
+<p><a href="https://docs.peeringdb.com/blog/2022_product_report/">Our roundup of 2022</a> noted that we have some big things planned for the start of 2023. The two biggest are two new objects. We deployed the first in our January release. The new <code>carrier</code> object is a way for providers of high capacity links to show which interconnection facilities they are in. We’ve deployed the minimal possible structure for this new object. We want users to tell us what additional features they cannot do without.</p>
+<p>The next big new addition is a <code>campus</code> object. This will be a way for interconnection facilities to show that inter-building cross-connects are available with the same ease as those within a building. This will help buyers understand when they don't need to be in the same building as something they want to connect to.</p>
+<p>We can expand either or both of these objects. We need your feedback to help us decide what would make them more valuable.</p>
+<p>Respondents to our annual surveys have consistently told us that Network Configuration Data is what they value most. They are also quite divided about the website design. Some people love its simplicity and others want something more modern.</p>
+<p>We knew that we didn't have enough information to make good decisions on how to improve things for the people who want change without disappointing those who like it the way it is. We have deployed Google Analytics for <a href="https://beta.peeringdb.com/">beta.peeringdb.com</a> and would like to deploy it to <a href="http://www.peeringdb.com">www.peeringdb.com</a> and <a href="https://docs.peeringdb.com/">docs.peeringdb.com</a>. This will give us important information about how people use our site. We’ll use this information to understand the problems people experience and develop ways to solve them.</p>
+<p>We also have lots of users who rely on <a href="https://www.peeringdb.com/apidocs/">our API</a> or a <a href="https://docs.peeringdb.com/howto/peeringdb-py/">local cache</a> of PeeringDB data. So, we want to make it easier for users to identify the deltas between what they have in PeeringDB and their local configuration management. This is the focus on the projects we're taking to the <a href="https://nanog.org/events/nanog-87-hackathon/">NANOG 87 Hackathon</a>.</p>
+<p>We want to work with tool developers and anyone who relies on PeeringDB as a source of network configuration data. Ultimately, we'd like to offer a way for users to automatically identify deltas, the changes that could be made, and ways to make or approve those changes.</p>
+<p>Across the rest of the year, we'd like to focus on one theme at a time and deliver a set of significant improvements there. Then we can move on to the next relevant theme.</p>
+<p>So please let us know how we could make PeeringDB more valuable for your organization. As always, you can submit an issue, or comment on existing issues <a href="https://github.com/peeringdb/peeringdb/issues">in GitHub</a>. But you can also <a href="mailto:productcom@lists.peeringdb.com">send us email</a> or chat to us at various community events.</p></div>
         </div>
 
         <footer class="col-md-12">
