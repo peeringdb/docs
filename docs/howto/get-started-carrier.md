@@ -13,12 +13,15 @@ Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.
 
 If you need additional help getting started, please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
+## What is a Carrier?
+The `carrier` object is used to describe providers offering [L1 or L2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer) services in a `facility`. It is different from a `net` because that describes services provided at L3 and is linked to its Autonomous System Number.
+
 ## Information Required
 You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
 
 Database objects organize relevant information. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. 
 
-You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. Your Company Name is required. This information is not required but is useful:
+You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. Your company name is required. This information is not required but is useful:
 
 * AKA - If your carrier has an alternative name you can show it here to improve visibility in searches
 * Long name - If your carrier has a long name, you can show it here to improve visibility in searches
