@@ -14,11 +14,20 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.43.0 | 2023-01-11 | 2023-01-18 | 2023-01-25 |
-| 2.44.0 | 2023-02-01 | 2023-02-08 | 2023-02-22 |
+| 2.43.1 | — | — | 2023-02-10 |
+| 2.44.0 | 2023-02-01 | 2023-02-15 | 2023-02-22 |
 | 2.45.0 | 2023-03-08 | 2023-03-15 | 2023-03-22 |
 | 2.46.0 | 2023-04-05 | 2023-04-12 | 2023-04-19 |
 | 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-25 |
+| 2.48.0 | 2023-06-XX | 2023-06-YY | 2023-06-ZZ |
+
+## Release 2.43.1
+
+Release Date: 10 February 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1315 issues when accepting / denying carrier presence requests](https://github.com/peeringdb/peeringdb/issues/1315) | Fix permission issues when accepting or rejecting `carrier` `facility` presence requests and automatically approve them when they are from the same organization. |
 
 ## Release 2.43.0
 
