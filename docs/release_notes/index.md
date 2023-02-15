@@ -14,12 +14,23 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.43.1 | — | — | 2023-02-10 |
 | 2.44.0 | 2023-02-01 | 2023-02-15 | 2023-02-22 |
 | 2.45.0 | 2023-03-08 | 2023-03-15 | 2023-03-22 |
 | 2.46.0 | 2023-04-05 | 2023-04-12 | 2023-04-19 |
 | 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-25 |
 | 2.48.0 | 2023-06-XX | 2023-06-YY | 2023-06-ZZ |
+
+## Release 2.44.0
+
+Beta Announcement Date: 15 February 2023
+Release Date: 22 February 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1110 Add campus object](https://github.com/peeringdb/peeringdb/issues/1110) Initial deployment of a Campus object  – a record to describe facilities where inter-facility cross connects are available as easily as intra-facility cross connects. |
+| [#1191 OAuth logins with 2FA don't complete first time](https://github.com/peeringdb/peeringdb/issues/1191) Fixes a bug that broke the OAuth flow when MFA was enabled. |
+| [#668 Add "self" as an object identifier, for documentation purposes](https://github.com/peeringdb/peeringdb/issues/668) Adds a "self" object identifier to API and views for GET requests. Authenticated users going to https://www.peeringdb.com/{net | ix | org}/self will redirect to URL for the first object of that type affiliated with the user. Unauthenticated users are taken to an example object. |
+
 
 ## Release 2.43.1
 
