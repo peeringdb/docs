@@ -30,10 +30,12 @@
 
 ## Members
 
+- Lynsey Buckingham
 - Yana Glaub
 - Greg Hankins
 - Aaron Hughes (Board Liaison)
+- Tarryn Kidd
 - Arnold Nipper
+- Ester Paal
 - Ben Ryall (Chair)
 - Bijal Sanghani (Vice Chair)
-- Inga Turner
