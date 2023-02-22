@@ -9,6 +9,7 @@
 
 ## Meeting notes
 
+- [February 14th, 2023: Meeting Notes](notes/2023-02-14_Product_Committee_Notes.pdf)
 - [February 2nd, 2023: Meeting Notes](notes/2023-02-02_Product_Committee_Notes.pdf)
 - [January 5th, 2023: Meeting Notes](notes/2023-01-05_Product_Committee_Notes.pdf)
 - No formal meeting in December 2022
