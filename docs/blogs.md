@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Do You Want Your Configuration Management System to Update PeeringDB](blog/nanog_87_hackathon_proof_of_concept.md) - February 23, 2023
 - [PeeringDB's Product Roadmap for 2023](blog/peeringdb_2023_roadmap.md) - February 6, 2023
 - [Carrier Objects](blog/carrier_object_deployed.md) - January 24, 2023
 - [PeeringDB 2022 Product Report](blog/2022_product_report.md) - January 9, 2023
