@@ -92,7 +92,7 @@ If you want a copy of the current *public* production data, run this command whi
 ./Ctl/dev/run.sh pdb_load_data --commit
 ```
 
-After it is done you should have a PeeringDB instance exposed on port `:8000`: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+After it is done you should have a PeeringDB instance exposed on port `:8000`: [http://localhost:8000/](http://localhost:8000/)
 
 (should you want to change this port you can do so by setting the environment variable `DJANGO_PORT`)
 
