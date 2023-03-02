@@ -9,6 +9,7 @@
 
 ## Meeting notes
 
+- [March 2nd, 2023: Meeting Notes](notes/2023-03-02_Product_Committee_Notes.pdf)
 - [February 14th, 2023: Meeting Notes](notes/2023-02-14_Product_Committee_Notes.pdf)
 - [February 2nd, 2023: Meeting Notes](notes/2023-02-02_Product_Committee_Notes.pdf)
 - [January 5th, 2023: Meeting Notes](notes/2023-01-05_Product_Committee_Notes.pdf)
