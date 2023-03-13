@@ -20,6 +20,22 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-24 |
 | 2.48.0 | 2023-06-14 | 2023-06-21 | 2023-06-28 |
 
+## Release 2.45.0
+
+Beta Announcement Date: 15 March 2023
+Release Date: 22 March 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1204 Improve Search Functionality](https://github.com/peeringdb/peeringdb/issues/1204) Deploy a new search engine to make it easier for users to find the data they want. |
+| [#1295 Allow anonymous users to change languages](https://github.com/peeringdb/peeringdb/issues/1295) It is now possible to select a PeeringDB translation without logging in to the website. |
+| [#1281 better <title> tags](https://github.com/peeringdb/peeringdb/issues/1281) The HTML <title> tag of pages on www.peeringdb.com now shows key information from the page, like a network name or search term. |
+| [#749 Rename Private Peering Facilities to Interconnection Facilities in the UI](https://github.com/peeringdb/peeringdb/issues/749) Private Peering Facilities have been renamed to Interconnection Facilities in the UI. |
+| [#1308 Deploy Google Analytics on www and docs](https://github.com/peeringdb/peeringdb/issues/1308) We have deployed Google Analytics to measure website traffic. |
+| [#1271 Implement auto-removal of stale networks according to DOTF recommendations](https://github.com/peeringdb/peeringdb/issues/1271) Stay networks are now automatically removed as per the [DOTF recommendations](https://docs.peeringdb.com/taskforce/dataownership/). |
+| [#389 It should be impossible to save an active entity under an entity that is marked as deleted.](https://github.com/peeringdb/peeringdb/issues/389) It is no longer possible to save an object under one that's marked as deleted. |
+
+
 ## Release 2.44.0
 
 Beta Announcement Date: 15 February 2023
