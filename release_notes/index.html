@@ -133,6 +133,7 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#release-notes-and-schedule">Release Notes and Schedule</a></li>
             <li><a href="#release-schedule">Release schedule</a></li>
+            <li><a href="#release-2450">Release 2.45.0</a></li>
             <li><a href="#release-2440">Release 2.44.0</a></li>
             <li><a href="#release-2431">Release 2.43.1</a></li>
             <li><a href="#release-2430">Release 2.43.0</a></li>
@@ -159,12 +160,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.44.0</td>
-<td>2023-02-01</td>
-<td>2023-02-15</td>
-<td>2023-02-22</td>
-</tr>
-<tr>
 <td>2.45.0</td>
 <td>2023-03-08</td>
 <td>2023-03-15</td>
@@ -190,6 +185,47 @@
 </tr>
 </tbody>
 </table>
+<h2 id="release-2450">Release 2.45.0</h2>
+<p>Beta Announcement Date: 15 March 2023<br />
+Release Date: 22 March 2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1204">#1204 Improve Search Functionality</a></td>
+<td>Deploy a new search engine to make it easier for users to find the data they want.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1295">#1295 Allow anonymous users to change languages</a></td>
+<td>It is now possible to select a PeeringDB translation without logging in to the website.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1281">#1281 better &lt;title> tags</a></td>
+<td>The HTML &lt;title> tag of pages on www.peeringdb.com now shows key information from the page, like a network name or search term.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/749">#749 Rename Private Peering Facilities to Interconnection Facilities in the UI</a></td>
+<td>Private Peering Facilities have been renamed to Interconnection Facilities in the UI.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1308">#1308 Deploy Google Analytics on www and docs</a></td>
+<td>We have deployed Google Analytics to measure website traffic.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1271">#1271 Implement auto-removal of stale networks according to DOTF recommendations</a></td>
+<td>Stay networks are now automatically removed as per the <a href="https://docs.peeringdb.com/taskforce/dataownership/">DOTF recommendations</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/389">#389 It should be impossible to save an active entity under an entity that is marked as deleted.</a></td>
+<td>It is no longer possible to save an object under one that's marked as deleted.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2440">Release 2.44.0</h2>
 <p>Beta Announcement Date: 15 February 2023<br />
 Release Date: 22 February 2023</p>
@@ -202,16 +238,16 @@ Release Date: 22 February 2023</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1110">#1110 Add campus object</a> Initial deployment of a Campus object  – a record to describe facilities where inter-facility cross connects are available as easily as intra-facility cross connects.</td>
-<td></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1110">#1110 Add campus object</a></td>
+<td>Initial deployment of a Campus object  – a record to describe facilities where inter-facility cross connects are available as easily as intra-facility cross connects.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1191">#1191 OAuth logins with 2FA don't complete first time</a> Fixes a bug that broke the OAuth flow when MFA was enabled.</td>
-<td></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1191">#1191 OAuth logins with 2FA don't complete first time</a></td>
+<td>Fixes a bug that broke the OAuth flow when MFA was enabled.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/668">#668 Add "self" as an object identifier, for documentation purposes</a> Adds a "self" object identifier to API and views for GET requests. Authenticated users going to https://www.peeringdb.com/{net</td>
-<td>ix</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/668">#668 Add "self" as an object identifier, for documentation purposes</a></td>
+<td>Adds a "self" object identifier to API and views for GET requests. Authenticated users going to https://www.peeringdb.com/{net</td>
 </tr>
 </tbody>
 </table>
