@@ -27,7 +27,6 @@ Release Date: 22 March 2023
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1204 Improve Search Functionality](https://github.com/peeringdb/peeringdb/issues/1204) Deploy a new search engine to make it easier for users to find the data they want. |
 | [#1295 Allow anonymous users to change languages](https://github.com/peeringdb/peeringdb/issues/1295) It is now possible to select a PeeringDB translation without logging in to the website. |
 | [#1281 better <title> tags](https://github.com/peeringdb/peeringdb/issues/1281) The HTML <title> tag of pages on www.peeringdb.com now shows key information from the page, like a network name or search term. |
 | [#749 Rename Private Peering Facilities to Interconnection Facilities in the UI](https://github.com/peeringdb/peeringdb/issues/749) Private Peering Facilities have been renamed to Interconnection Facilities in the UI. |
