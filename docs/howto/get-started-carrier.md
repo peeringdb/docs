@@ -17,7 +17,8 @@ Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.
 If you need additional help getting started, please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ## What is a Carrier?
-The `carrier` object is used to describe providers offering [L1 or L2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer) services in a `facility`. It is different from a `net` because that describes services provided at L3 and is linked to its Autonomous System Number.
+
+The `carrier` object is used to describe providers offering [L1 or L2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer) services in a `facility`. It is different from a `net` because that describes services provided at L3 and is linked to its autonomous system number.
 
 ## Information required
 

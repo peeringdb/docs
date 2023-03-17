@@ -1,4 +1,5 @@
 # PeeringDB's Product Roadmap for 2023
+
 We want to build more agility into our Product Management process in 2023. This blog post describes what we have planned for the start of the year. It also describes how we want to work over the whole year, and how you can help us make good choices.
 
 ![PeeringDB Roadmap Image](images/peeringdb_roadmap.jpg)
@@ -23,4 +24,6 @@ Across the rest of the year, we'd like to focus on one theme at a time and deliv
 
 So please let us know how we could make PeeringDB more valuable for your organization. As always, you can submit an issue, or comment on existing issues [in GitHub](https://github.com/peeringdb/peeringdb/issues). But you can also [send us email](mailto:productcom@lists.peeringdb.com) or chat to us at various community events.
 
+---
 
+PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
