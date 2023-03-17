@@ -1,0 +1,84 @@
+** Notice of the Annual Meeting of PeeringDB - Thursday, April 13th, 2023 at 1600-1700 UTC
+
+** The meeting will be held online as follows:
+
+     https://meet.goto.com/613803421
+
+     [dial-in numbers below]
+
+** The meeting will be recorded.
+
+** Bylaws and important docs are posted at https://gov.peeringdb.com/
+
+** Please contact stewards@peeringdb.com if you have additional agenda suggestions.
+
+Agenda:
+
+ - Call To Order - Aaron Hughes
+
+ - Welcome & Thanks - Aaron Hughes
+
+ - Approval of minutes from previous meeting - Aaron Hughes
+
+     https://docs.peeringdb.com/gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Minutes.pdf
+
+ - Financial Update & Call For Sponsors - Chris Caputo
+
+ - Admin Committee Update - Patrick Gilmore
+
+ - Operations Committee Update - Job Snijders
+
+ - Outreach Committee Update - Ben Ryall
+
+ - Product Committee Update - Stephen McManus
+
+ - Items brought up by the members / Technical and Policy Questions & Answers
+
+ - Encourage Voting in Board Election - Aaron Hughes
+
+ - Adjourn
+
+---
+https://meet.goto.com/613803421
+
+You can also dial in using your phone...
+
+Access Code: 613-803-421
+
+Australia: +61 2 9091 7603
+Austria: +43 1 2060 92964
+Belgium: +32 28 93 7002
+Brazil: +55 11 4118-4898
+Bulgaria: +359 2 906 0606
+Canada: +1 (647) 497-9373
+Chile: +56 2 3214 9681
+Colombia: +57 1 600 9954
+Czech Republic: +420 2 96 21 62 28
+Denmark: +45 43 31 47 79
+Finland: +358 923 17 0556
+France: +33 187 210 241
+Germany: +49 721 6059 6510
+Greece: +30 21 0 300 2693
+Hungary: +36 1 933 3700
+Ireland: +353 15 360 756
+Israel: +972 3 376 3071
+Italy: +39 0 230 57 81 80
+Luxembourg: +352 34 2080 9220
+Malaysia: +60 3 7724 4060
+Mexico: +52 55 1500 3598
+Netherlands: +31 207 941 375
+New Zealand: +64 9 913 2226
+Norway: +47 24 05 54 97
+Panama: +507 308 4337
+Peru: +51 1 642 9425
+Romania: +40 31 780 1159
+South Africa: +27 11 259 4925
+Spain: +34 912 71 8488
+Sweden: +46 853 527 818
+Switzerland: +41 315 2081 00
+Turkey: +90 212 900 4812
+United Kingdom: +44 808 178 0872
+United States: +1 (571) 317-3116
+
+Get the app now and be ready when your first meeting starts:
+https://meet.goto.com/install
