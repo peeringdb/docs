@@ -8,15 +8,13 @@ This online database is a non-profit, community-driven effort that encourages th
 
 ## Why use PeeringDB to search for networks, exchange and data centers?
 
-There are a number of Autonomous System Numbers (ASNs) known as networks that use PeeringDB to store their interconnection information. Using PeeringDB, you'll be able to access and search for information about other networks requesting interconnection.  If you contribute your own data to PeeringDB then it's also possible for them to find out about your own network details. 
+About a third of networks (Autonomous Systems) use PeeringDB to share information about how they interconnect. You can use PeeringDB to find information about other networks, exchanges, and more. You make your services easier to find when you contribute your data to PeeringDB. 
 
-There is no need to create an account in order to use the basic search functionality. But if you want to access private contact information and use advanced search features, like radius search, you'll need to sign up for an account.
+You don't need an account to use the basic search functionality. But if you want to access private contact information and use advanced search features, like radius search, you'll need to sign up for an account.
 
-By using PeeringDB, data centers referred to as facilities and exchanges (IXPs) can increase their visibility to potential and existing customers by adding or updating their records in the database, making it significantly easier for networks to access information about their service.
+## How to search for campuses, carriers, exchanges, facilities and networks in PeeringDB
 
-## How to search for exchanges, facilities and networks in PeeringDB
-
-On the [front page](https://www.peeringdb.com/) of PeeringDB, you will see a simple search box which you can use to search for exchanges, facilities and networks that are on PeeringDB by simply entering the desired name on the search. Let’s demonstrate with some examples to see how this works.
+There is a s simple search box on the [front page](https://www.peeringdb.com/) of PeeringDB. You can use it to search for campuses, carriers, exchanges, facilities and networks listed in PeeringDB by simply entering the name you want. Let’s demonstrate with some examples to see how this works.
 
 ### Networks
 
@@ -58,6 +56,18 @@ To search for a facility:
 - From the search result, under the facilities section, locate the facility or data center you have searched
 
 ![facilites-search](images/facilites-search.png)
+
+## How to search for your own organization
+If your organization already uses PeeringDB, when you are logged in to the website you can always find your own information using the `self` search. If you are not logged in, these links will take you to some PeeringDB examples objects.
+
+- [Organization](https://www.peeringdb.com/org/self)
+- [Campus](https://www.peeringdb.com/campus/self)
+- [Carrier](https://www.peeringdb.com/carrier/self)
+- [Facility](https://www.peeringdb.com/fac/self)
+- [Internet Exchange Point](https://www.peeringdb.com/ix/self)
+- [Network](https://www.peeringdb.com/net/self)
+
+The `self` identifier also works for queries made using our API. We encourage the use of [multi-factor authentication](https://docs.peeringdb.com/howto/authenticate/). This means using an API Key instead of basic authentication for API queries.
 
 ## How to use the search in PeeringDB extension
 
@@ -101,11 +111,11 @@ Advanced search in PeeringDB lets you explicitly filter a search location, netwo
 
 **Note**: You need to be logged in to PeeringDB in order to use some of the advanced search features, including the radius search.
 
-Let’s take a look at this example below to demonstrate how advanced search works. We are going to search for an exchange within a particular region.  On the front page of PeeringDB you will see the Advanced Search box which you can use to search for exchanges, facilities and networks that are in PeeringDB.
+Let’s take a look at this example below to demonstrate how advanced search works. We are going to search for an exchange within a particular region.  On the front page of PeeringDB you will see the Advanced Search box which you can use to search for campuses, exchanges, facilities and networks that are in PeeringDB.
 
 ![advanced-search](images/advanced-search-link.png)
 
-- Click on the Advanced Search link. This takes you to the advanced search landing page. The search page shows the exchanges, networks, facilities and organizations tabs. 
+- Click on the Advanced Search link. This takes you to the advanced search landing page. The search page shows the campus, exchanges, facilities, networks, and organizations tabs. 
 
 ![advanced-search](images/advanced-search-interface.png)
 
@@ -127,6 +137,14 @@ Let’s take a look at this example below to demonstrate how advanced search wor
 ## Geographic search
 
 As new facilities are created in our database they will be linked to geographic coordinates. PeeringDB has improved search by changing the way it records data for location in its database. You can now search for facilities with a distance radius of a chosen coordinate. 
+
+### How to search for a campus
+
+You can search for a campus of facilities using the Advanced Search interface. Users can search from a country and city, and select a radius in kilometers or miles. Of course, you can achieve the same results using the API or the web interface, which means you can integrate this feature into your own tools.
+
+**Note**: You need to be logged in to PeeringDB in order to search for a campus of facilities.
+
+![advanced-search-campus-result](images/advanced-search-campus-result.png)
 
 ### How to search for facilities within a given radius
 
