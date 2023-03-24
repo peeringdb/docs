@@ -1,4 +1,4 @@
-# PeeringDB in your preferred language
+# PeeringDB in Your Preferred Language
 
 Volunteers translate PeeringDB into [17 different languages](https://translate.peeringdb.com/projects/peeringdb/#languages). Some of those translations, like Romanian, are complete. Others, like Indonesian, have only just started.
 
