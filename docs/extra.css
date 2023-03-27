@@ -20,47 +20,102 @@ h5 {
 
 .navbar {
   color: #00203e;
-  background-color: #4b6063;
+  background-color: #4b6063 !important;
   border-bottom: 1px solid #4b6063;
   background-image: none;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
+.navbar .dropdown-menu {
+  border: none;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
+@media (min-width: 992px) {
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
+.nav-link {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
+@media (max-width: 991.98px) {
+
+  .navbar-expand-lg>.container,
+  .navbar-expand-lg>.container-fluid {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navbar-collapse .navbar-nav:first-child {
+    margin-top: 0.5rem;
+    border-top: 1px solid white;
+  }
+
+  .navbar>.container {
+    max-width: 100%;
+  }
+
+  .navbar .nav-link {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
 }
 
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
-    text-decoration: none;
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
 }
 
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
-    text-decoration: none;
-    outline: 0;
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus .navbar-dark .navbar-nav .show>.nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link:focus {
+  color: #ffffff;
+  background-color: #33744a;
 }
 
-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #33744a;
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+  color: #ffffff;
+  background-color: #33744a;
+}
+
+.dropdown-menu {
+  background-color: #4b6063;
+}
+
+.dropdown-menu>li>a {
+  color: #fff;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #ffffff;
+  background-color: #33744a;
+  text-decoration: none;
+}
+
+.dropdown-menu a.active {
+  color: #ffffff;
+  background-color: #33744a;
+  text-decoration: none;
+  outline: 0;
+}
+
+
+default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #ffffff;
+  background-color: #33744a;
 }
 
 body {
@@ -74,40 +129,44 @@ body::before {
 }
 
 a {
-    color: #33744a;
-    text-decoration: none;
+  color: #33744a;
+  text-decoration: none;
 }
 
-a:active, a:hover {
-    outline: 0;
-    color: #33744a;
+a:active,
+a:hover {
+  outline: 0;
+  color: #33744a;
 }
 
-.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {
-    font-weight: bold;
-    color: #33744a;
-    background-color: transparent;
-    border-right: 1px solid;
+.bs-sidebar .nav>li>a.active,
+.bs-sidebar .nav>li>a.active:hover,
+.bs-sidebar .nav>li>a.active:focus {
+  font-weight: bold;
+  color: #33744a;
+  background-color: transparent;
+  border-right: 1px solid;
 }
 
-.bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus {
-    text-decoration: none;
-    font-weight: bold;
-    color: #33744a;
-    border-right: 1px solid;
+.bs-sidebar .nav>li>a:hover,
+.bs-sidebar .nav>li>a:focus {
+  text-decoration: none;
+  font-weight: bold;
+  color: #33744a;
+  border-right: 1px solid;
 }
 
 .col-md-9 {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .admonition.note {
-    color: #00203e;
-    background-color: #f1f1f1;
-    border-color: #4b6063;
+  color: #00203e;
+  background-color: #f1f1f1;
+  border-color: #4b6063;
 }
 
 .note .admonition-title {
-    color: #00203e;
-    background-color: #f1f1f1;
+  color: #00203e;
+  background-color: #f1f1f1;
 }
