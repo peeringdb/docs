@@ -20,12 +20,13 @@ Fork the repo
 
 Clone the repo
 ```sh
+cd ~/src # Adjust here and below as appropriate.
 git clone git@github.com:$GITHUB_USERNAME/docs.git
 ```
 
 Install [MkDocs](http://www.mkdocs.org/) and other requirements
 ```sh
-cd docs
+cd ~/src/docs
 python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
@@ -35,7 +36,7 @@ poetry install
 
 Start mkdocs
 ```sh
-cd docs
+cd ~/src/docs
 source venv/bin/activate
 mkdocs serve
 ```
@@ -43,7 +44,7 @@ mkdocs serve
 or, if you'd like to specify the port, use -a $ADDRESS:$PORT, for example:
 
 ```sh
-cd docs
+cd ~/src/docs
 source venv/bin/activate
 mkdocs serve -a 0.0.0.0:7889
 ```
@@ -60,14 +61,14 @@ Markdown has its own formatting syntax, to get started look [here](https://githu
 
 Once you are happy with your changes, commit and push, then run
 ```sh
-cd docs
+cd ~/src/docs
 git commit -a
 git push
 ```
 
 If you want to be able to view your changes at `$GITHUB_USER.github.io/docs`, just run:
 ```sh
-cd docs
+cd ~/src/docs
 source venv/bin/activate
 mkdocs gh-deploy
 ```
@@ -80,13 +81,13 @@ To get your changes pushed to the live site, just create a pull request, if you'
 
 The first time you want to do it, you need to add a remote with
 ```sh
-cd docs
+cd ~/src/docs
 git remote add upstream git@github.com:peeringdb/docs.git
 ```
 
 After that, to sync to the upstream repo and install requirements/updates
 ```sh
-cd docs
+cd ~/src/docs
 git fetch upstream
 git merge upstream/master
 source venv/bin/activate
