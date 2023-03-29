@@ -8,7 +8,7 @@ But until now, you had to create an account – using the English language inter
 
 ![Must use English interface to create an account and set another language preference](images/anonymous_web_default_english_no_translation.png)
 
-We are grateful to Daniel Van Allen of Google. He developed the code to make translation available to anonymous web users. Now, you can land on the homepage and select the language you want to use from the dropdown menu.
+We are grateful to Daniel Van Allen of Google. He developed the code to make translations available to anonymous web users. Now, you can land on the homepage and select the language you want to use from the dropdown menu.
 
 ![Anonymous users now see a translation menu](images/anonymous_web_translation_german.png)
 
