@@ -1,5 +1,9 @@
 # Presentations
 
+## 2023
+
+- [PeeringDB Operations & Product Update](presentation/20230330_Peering_Days_2023_Arnold_Nipper.pdf) at [Peering Days 2023](https://peeringdays.eu/), Sofia, BG - March 30, 2023 - Arnold Nipper
+
 ## 2022
 
 - [PeeringDB](presentation/AOPF_2022_Luanda-peeringdb-20221208.pdf) at [AOPF/AONOG 2022](https://events.ao.nog.community/event/1/) - December 8, 2022 - Darwin Da Costa
