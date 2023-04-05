@@ -2,7 +2,8 @@
 
 ## 2023
 
-- [PeeringDB Operations & Product Update](presentation/20230402_GPF.pdf) at [GPF 2023](https://globalpeeringforum.org/agenda/), Coronado, CA, US - April 4, 2023 - Matt Griswold
+- [PeeringDB Operations & Product Update](presentation/20230404_SEE11_Arnold_Nipper.pdf) at [SEE 11](https://www.ripe.net/participate/meetings/regional-meetings/see/see-11), Split, HR - April 5, 2023 - Arnold Nipper
+- [PeeringDB Operations & Product Update](presentation/20230402_GPF2023_Matt_Griswold.pdf) at [GPF 2023](https://globalpeeringforum.org/agenda/), Coronado, CA, US - April 4, 2023 - Matt Griswold
 - [PeeringDB Operations & Product Update](presentation/20230330_Peering_Days_2023_Arnold_Nipper.pdf) at [Peering Days 2023](https://peeringdays.eu/), Sofia, BG - March 30, 2023 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20230309_DKNOG13_Arnold_Nipper.pdf) at [DKNOG13](https://events.dknog.dk/event/21/), Copenhagen, DK - March 10, 2023 - Arnold Nipper
 
