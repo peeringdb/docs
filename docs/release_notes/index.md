@@ -14,10 +14,28 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.45.0 | 2023-03-08 | 2023-03-15 | 2023-03-22 |
 | 2.46.0 | 2023-04-05 | 2023-04-12 | 2023-04-19 |
 | 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-24 |
 | 2.48.0 | 2023-06-14 | 2023-06-21 | 2023-06-28 |
+| 2.49.0 | 2023-07-xx | 2023-07-xx | 2023-07-xx |
+| 2.50.0 | 2023-08-xx | 2023-08-xx | 2023-08-xx |
+| 2.51.0 | 2023-09-xx | 2023-09-xx | 2023-09-xx |
+
+
+
+## Release 2.46.0
+
+Beta Announcement Date: 12 April 2023
+Release Date: 19 April 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1336 Clearly show when a facility is part of a campus](https://github.com/peeringdb/peeringdb/issues/1336) | Adds a small icon to show that a `fac` is a part of a `campus`.  |
+| [#387 Replace "website" element in API/UI with social media tags](https://github.com/peeringdb/peeringdb/issues/387) | Introduces the ability to include links to social media accounts from PeeringDB pages. |
+| [#1333 Calling /api/carrier with parameters is broken](https://github.com/peeringdb/peeringdb/issues/1333) | Fixes a bug in the API support for the new `carrier` object. |
+| [#1094 IX-F Importer: duplicate address(es) should result in rejection of JSON export and notification of IXP](https://github.com/peeringdb/peeringdb/issues/1094) | Fixes a bug in handling duplicate IP addresses in IX-F imports. |
+| [#1249 Update MkDocs for docs.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/1249) | Updates the software used by https://docs.peeringdb.com |
+
 
 ## Release 2.45.0
 
