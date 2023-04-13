@@ -150,16 +150,16 @@
 <p>Implementation details are at <a href="https://github.com/peeringdb/peeringdb/issues/131">Github #131</a>.  For an example, see <a href="https://github.com/inex/IXP-Manager/issues/322">IXP-Manager issue #322</a>.  </p>
 <h3 id="what-is-oauth">What is OAuth?</h3>
 <p>There is a good write up at <a href="https://aaronparecki.com/oauth-2-simplified/">https://aaronparecki.com/oauth-2-simplified/</a>.</p>
-<h3 id="create-a-new-oauth-application">Create a new OAuth application</h3>
-<p>There are three key elements when creating your OAuth application.</p>
+<h3 id="register-an-application">Register an application</h3>
+<p>First you need to <a href="https://www.peeringdb.com/oauth2/applications/">register</a> your application at PeeringDB.</p>
+<p>:<img alt="" src="../images/peeringdb-oauth-application.png" /></p>
+<p>For most applications, you'll want to use the following:</p>
 <ol>
 <li>Client type: confidential</li>
 <li>Authorization grant type: authorization code</li>
-<li>Redirect URIs: "add your redirect URL"</li>
+<li>Redirect URIs: <em>add your redirect URLs here</em></li>
+<li>OIDC algorithm must be selected.</li>
 </ol>
-<p>You must use RSA with SHA-256 for the OIDC algorithm. </p>
-<h3 id="register-an-application">Register an application</h3>
-<p>First you need to <a href="https://www.peeringdb.com/oauth2/applications/">register</a> your application at PeeringDB.</p>
 <h3 id="urls">URLs</h3>
 <pre><code class="language-python">PDB_ENDPOINT = &quot;https://auth.peeringdb.com/&quot;
 
