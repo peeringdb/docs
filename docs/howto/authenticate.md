@@ -36,6 +36,8 @@ You can configure these in your account profile.
 
 Some external services allow or require you to authenticate using your PeeringDB account. One example is networks' peering portals. They might use PeeringDB's OAuth service to ensure they can automate configuration.
 
+We have a [guide to implementing PeeringDB's OAuth service](https://docs.peeringdb.com/oauth/) for your application.
+
 ## Automating PeeringDB access
 
 ### API keys
