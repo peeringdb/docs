@@ -16,10 +16,10 @@ First you need to [register](https://www.peeringdb.com/oauth2/applications/) you
 
 For most applications, you'll want to use the following:
 
-1. Client type: confidential
-2. Authorization grant type: authorization code
-3. Redirect URIs: *add your redirect URLs here*
-4. OIDC algorithm must be selected.
+1. Client type: Confidential
+2. Authorization grant type: Authorization code
+3. Redirect uris: *add your redirect URLs here*
+4. An OIDC algorithm must be selected.
 
 ### URLs
 
