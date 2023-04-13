@@ -8,19 +8,18 @@ Implementation details are at [Github #131](https://github.com/peeringdb/peering
 
 There is a good write up at <https://aaronparecki.com/oauth-2-simplified/>.
 
-### Create a new OAuth application
-
-There are three key elements when creating your OAuth application.
-
-1. Client type: confidential
-2. Authorization grant type: authorization code
-3. Redirect URIs: "add your redirect URL"
-
-You must use RSA with SHA-256 for the OIDC algorithm. 
-
 ### Register an application
 
 First you need to [register](https://www.peeringdb.com/oauth2/applications/) your application at PeeringDB.
+
+:![](images/peeringdb-oauth-application.png)
+
+For most applications, you'll want to use the following:
+
+1. Client type: confidential
+2. Authorization grant type: authorization code
+3. Redirect URIs: *add your redirect URLs here*
+4. OIDC algorithm must be selected.
 
 ### URLs
 
