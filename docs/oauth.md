@@ -1,4 +1,3 @@
-
 ## OAuth
 
 PeeringDB now offers OAuth2 authentication for third-party applications to allow users to authenticate against PeeringDB.
@@ -10,13 +9,14 @@ Implementation details are at [Github #131](https://github.com/peeringdb/peering
 There is a good write up at <https://aaronparecki.com/oauth-2-simplified/>.
 
 ### Create a new OAuth application
+
 There are three key elements when creating your OAuth application.
 
 1. Client type: confidential
-2. Authorization grant type: Authorization code
-3. Redirect uris: "add your redirect URL"
+2. Authorization grant type: authorization code
+3. Redirect URIs: "add your redirect URL"
 
-You must use RSA with SHA-2 256 for the OIDC Algorithm. 
+You must use RSA with SHA-256 for the OIDC Algorithm. 
 
 ### Register an application
 
