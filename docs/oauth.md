@@ -16,7 +16,7 @@ There are three key elements when creating your OAuth application.
 2. Authorization grant type: authorization code
 3. Redirect URIs: "add your redirect URL"
 
-You must use RSA with SHA-256 for the OIDC Algorithm. 
+You must use RSA with SHA-256 for the OIDC algorithm. 
 
 ### Register an application
 
