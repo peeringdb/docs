@@ -35,6 +35,7 @@
 - Greg Hankins
 - Aaron Hughes (Board Liaison)
 - Tarryn Kidd
+- Jonathan Martone
 - Arnold Nipper
 - Ester Paal
 - Ben Ryall (Chair)
