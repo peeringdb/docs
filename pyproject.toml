@@ -9,11 +9,10 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 # docs
-# Need Jinja <3.1 until https://github.com/mkdocs/mkdocs/issues/2794 is released
-jinja2 = "^3,<3.1"
+jinja2 = "^3"
 markdown = "*"
 markdown-include = ">=0.5,<1"
-mkdocs = "^1.2.3"
+mkdocs = "^1.4.2"
 
 
 [build-system]

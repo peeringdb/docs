@@ -75,7 +75,6 @@
 
 ## Members
 - Yan Berthier
-- Kayla Clifford
 - Matt Griswold (Vice Chair)
 - Greg Hankins (Outreach Liaison)
 - Martin Hannigan
@@ -84,5 +83,4 @@
 - Stephen McManus (Chair)
 - Arnold Nipper
 - Yolandi Robinson
-- Job Snijders
 - Leo Vegoda (Product Manager)

@@ -1,2 +1,0 @@
-markdown-include>=0.5.1
-mkdocs>=1.0

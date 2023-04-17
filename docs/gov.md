@@ -7,6 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
+- April 13th, 2023: [Agenda](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Agenda.txt)
 - April 12th, 2022: [Agenda](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Audio.mp3)
 - April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
@@ -82,6 +83,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 14th, 2023: Board election voter's guide](gov/misc/2023-04-14_election.html)
 - [April 30th, 2022: Board election results](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2022: Board election voter's guide](gov/misc/2022-04-14_election.html)
 - [April 30th, 2021: Board election results](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf)

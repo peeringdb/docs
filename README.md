@@ -1,7 +1,7 @@
 
 # PeeringDB Documentation
 
-As viewable at http://docs.peeringdb.com/
+As viewable at https://docs.peeringdb.com/
 
 *NOTE* Please do not put issues here anymore, new issues should be created at <https://github.com/peeringdb/peeringdb/issues>
 
@@ -15,28 +15,37 @@ To work on and change these documents, you'll need git, python, and pip.
     ```
 
 Fork the repo
-- click the fork button on <https://github.com/peeringdb/docs>
-- select your github username
+- click the Fork button on <https://github.com/peeringdb/docs>
+- select your GitHub username
 
 Clone the repo
 ```sh
+cd ~/src # Adjust here and below as appropriate.
 git clone git@github.com:$GITHUB_USERNAME/docs.git
-cd docs
 ```
 
 Install [MkDocs](http://www.mkdocs.org/) and other requirements
 ```sh
-pip install -r facsimile/requirements-docs.txt
+cd ~/src/docs
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install --upgrade poetry
+poetry install
 ```
 
 Start mkdocs
 ```sh
+cd ~/src/docs
+source venv/bin/activate
 mkdocs serve
 ```
 
 or, if you'd like to specify the port, use -a $ADDRESS:$PORT, for example:
 
 ```sh
+cd ~/src/docs
+source venv/bin/activate
 mkdocs serve -a 0.0.0.0:7889
 ```
 
@@ -52,12 +61,15 @@ Markdown has its own formatting syntax, to get started look [here](https://githu
 
 Once you are happy with your changes, commit and push, then run
 ```sh
+cd ~/src/docs
 git commit -a
 git push
 ```
 
 If you want to be able to view your changes at `$GITHUB_USER.github.io/docs`, just run:
 ```sh
+cd ~/src/docs
+source venv/bin/activate
 mkdocs gh-deploy
 ```
 
@@ -69,12 +81,15 @@ To get your changes pushed to the live site, just create a pull request, if you'
 
 The first time you want to do it, you need to add a remote with
 ```sh
+cd ~/src/docs
 git remote add upstream git@github.com:peeringdb/docs.git
 ```
 
-After that, to sync to the upstream repo and verify requirements
+After that, to sync to the upstream repo and install requirements/updates
 ```sh
+cd ~/src/docs
 git fetch upstream
 git merge upstream/master
-pip install -r facsimile/requirements-docs.txt
+source venv/bin/activate
+poetry install
 ```

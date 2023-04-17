@@ -1,4 +1,3 @@
-
 ## OAuth
 
 PeeringDB now offers OAuth2 authentication for third-party applications to allow users to authenticate against PeeringDB.
@@ -21,6 +20,15 @@ You must use RSA with SHA-2 256 for the OIDC Algorithm.
 ### Register an application
 
 First you need to [register](https://www.peeringdb.com/oauth2/applications/) your application at PeeringDB.
+
+:![](images/peeringdb-oauth-application.png)
+
+For most applications, you'll want to use the following:
+
+1. Client type: Confidential
+2. Authorization grant type: Authorization code
+3. Redirect uris: *add your redirect URLs here*
+4. An OIDC algorithm must be selected.
 
 ### URLs
 
