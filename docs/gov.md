@@ -7,7 +7,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
-- April 13th, 2023: [Agenda](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Agenda.txt)
+- April 13th, 2023: [Agenda](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Minutes.pdf)
 - April 12th, 2022: [Agenda](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2022-04-12_PeeringDB_Member_Meeting_Audio.mp3)
 - April 8th, 2021: [Agenda](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2021-04-08_PeeringDB_Member_Meeting_Audio.mp3)
 - April 17th, 2020: [Agenda](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2020-04-17_PeeringDB_Member_Meeting_Audio.mp3)
