@@ -108,9 +108,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 - Seat 1 (term expires 2025): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
 - Seat 2 (term expires 2024): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2025): Rahul Makhija, 2023-
+- Seat 3 (term expires 2025): [Rahul Makhija](mailto:rahul@peeringdb.com), 2023-
 - Seat 4 (term expires 2024): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2025): Livio Morina, 2023-
+- Seat 5 (term expires 2025): [Livio Morina](mailto:livio@peeringdb.com), 2023-
 
 ## Officers
 
