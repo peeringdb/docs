@@ -83,6 +83,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 30th, 2023: Board election results](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2023: Board election voter's guide](gov/misc/2023-04-14_election.html)
 - [April 30th, 2022: Board election results](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2022: Board election voter's guide](gov/misc/2022-04-14_election.html)
@@ -105,11 +106,11 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board of Directors
 
-- Seat 1 (term expires 2023): [Patrick W. Gilmore](mailto:patrick@peeringdb.com), 2015-
+- Seat 1 (term expires 2025): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
 - Seat 2 (term expires 2024): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2023): [Bijal Sanghani](mailto:bijal@peeringdb.com), 2017-
+- Seat 3 (term expires 2025): Rahul Makhija, 2023-
 - Seat 4 (term expires 2024): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2023): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
+- Seat 5 (term expires 2025): Livio Morina, 2023-
 
 ## Officers
 
@@ -135,7 +136,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Alumni
 
-- Patrick W. Gilmore, Vice President, 2015-2016
-- Matt Griswold, Director, 2015-2017
-- Fredrik Korsbäck, Director, 2019-2021
-- Arnold Nipper, Director, 2015-2019
+- Patrick W. Gilmore, Board of Directors 2015-2023, Vice President 2015-2016
+- Matt Griswold, Board of Directors 2015-2017
+- Fredrik Korsbäck, Board of Directors 2019-2021
+- Arnold Nipper, Board of Directors 2015-2019
+- Bijal Sanghani, Board of Directors 2017-2023
