@@ -81,6 +81,7 @@
 - Martin Hannigan
 - Peter Helmenstine
 - Aaron Hughes (Board Liaison)
+- Laurent Jarbinet
 - Stephen McManus (Chair)
 - Arnold Nipper
 - Yolandi Robinson
