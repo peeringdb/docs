@@ -77,7 +77,6 @@
 ## Members
 - Yan Berthier
 - Matt Griswold (Vice Chair)
-- Greg Hankins (Outreach Liaison)
 - Martin Hannigan
 - Peter Helmenstine
 - Aaron Hughes (Board Liaison)
