@@ -114,8 +114,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Officers
 
-- [Aaron Hughes](mailto:aaronh@peeringdb.com), President, 2015-
-- [Job Snijders](mailto:job@peeringdb.com), Vice President, 2016-
+- [Christopher Malayter](mailto:mustang@peeringdb.com), President, 2023-
+- [Aaron Hughes](mailto:aaronh@peeringdb.com), Vice President, 2023-
 - [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer, 2015-
 
 ## Admin Committee
@@ -138,6 +138,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 - Patrick W. Gilmore, Board of Directors 2015-2023, Vice President 2015-2016
 - Matt Griswold, Board of Directors 2015-2017
+- Aaron Hughes, President 2015-2023
 - Fredrik Korsbäck, Board of Directors 2019-2021
 - Arnold Nipper, Board of Directors 2015-2019
 - Bijal Sanghani, Board of Directors 2017-2023
+- Job Snijders, Vice President 2016-2023
