@@ -45,6 +45,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Finances
 
+- [May 9th, 2023: IRS Form 990 for 2022](gov/finances/2023-05-09_2022_Form_990.pdf)
 - [December 31st, 2022: Finance Report](gov/finances/2022-12-31_PeeringDB_Finances.pdf)
 - [May 10th, 2022: IRS Form 990 for 2021](gov/finances/2022-05-10_2021_Form_990.pdf)
 - [December 31st, 2021: Finance Report](gov/finances/2021-12-31_PeeringDB_Finances.pdf)
