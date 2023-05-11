@@ -19,11 +19,17 @@
 
 ## Members
 - Shaun Coffey
+- Elizabeth Culley
 - Patrick Gilmore (Chair)
+- Ron Grant
 - Alexandre Guimaraes
 - Chriztoffer Hansen
 - Peter Helmenstine
 - Gaël Hernandez
+- Adam Korab
 - Julimar Lunguinho Mendes
 - Arnold Nipper
+- Faisal Reza
+- Tom Samplonius
 - Job Snijders (Board Liaison)
+- Ryan Williams
