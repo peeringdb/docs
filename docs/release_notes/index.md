@@ -25,7 +25,7 @@ Our releases are generally deployed at around 04:00 UTC.
 ## Release 2.47.0
 
 Beta Announcement Date: 17 May 2023
-Release Date: 24 April 2023
+Release Date: 24 May 2023
 
 | **GitHub Issue** | **Summary** |
 | ----------------- | ----------- |

@@ -1,5 +1,6 @@
 site_name: PeeringDB Docs
 site_url: https://docs.peeringdb.com/
+# This line adds the "Edit on GitHub" link
 repo_url: https://github.com/peeringdb/docs
 theme:
   name: mkdocs
