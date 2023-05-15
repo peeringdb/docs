@@ -142,6 +142,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2470" class="nav-link">Release 2.47.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2460" class="nav-link">Release 2.46.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -191,12 +195,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.46.0</td>
-<td>2023-04-05</td>
-<td>2023-04-12</td>
-<td>2023-04-19</td>
-</tr>
-<tr>
 <td>2.47.0</td>
 <td>2023-05-10</td>
 <td>2023-05-17</td>
@@ -237,6 +235,47 @@
 <td>2023-11-22</td>
 <td>2023-11-29</td>
 <td>2023-12-01</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2470">Release 2.47.0</h2>
+<p>Beta Announcement Date: 17 May 2023<br />
+Release Date: 24 April 2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub Issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1204">#1204 Improve Search Functionality</a></td>
+<td>Significant improvements to search via a new backend.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1290">#1290 Add permission 'manage peering sessions'</a></td>
+<td>Adds a permission for managing peering sessions, that is useful for portal enabling PeeringDB OAuth.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1241">#1241 Don't allow the first and last addresses being assigned</a></td>
+<td>Added a validation check to fail on network and broadcast addresses.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1238">#1238 Put an Icon next to user name on https://www.peeringdb.com/org/nnnn#users if the user is using U2F</a></td>
+<td>Added a U2F badge next to user name in organization user listing if the user has set up U2F 2FA</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1339">#1339 Tie TOTP devices and Webauthn Security Keys to the user account</a></td>
+<td>Tie TOTP devices and Webauthn Security Keys to the user account so the AC can see this information.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1291">#1291 Show all e-mail addresses associated with a username</a></td>
+<td>All e-mail addresses associated with a user are now shown in the users tab.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1372">#1372 Facility history still broken</a></td>
+<td>Fixes an issue with <code>fac</code> history for AC use.</td>
 </tr>
 </tbody>
 </table>
