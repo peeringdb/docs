@@ -14,7 +14,6 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.46.0 | 2023-04-05 | 2023-04-12 | 2023-04-19 |
 | 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-24 |
 | 2.48.0 | 2023-06-14 | 2023-06-21 | 2023-06-28 |
 | 2.49.0 | 2023-07-05 | 2023-07-12 | 2023-07-19 |
@@ -22,6 +21,22 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.51.0 | 2023-09-06 | 2023-09-13 | 2023-09-20 |
 | 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
 | 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
+
+## Release 2.47.0
+
+Beta Announcement Date: 17 May 2023
+Release Date: 24 April 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1204 Improve Search Functionality](https://github.com/peeringdb/peeringdb/issues/1204) | Significant improvements to search via a new backend. |
+| [#1290 Add permission 'manage peering sessions'](https://github.com/peeringdb/peeringdb/issues/1290) | Adds a permission for managing peering sessions, that is useful for portal enabling PeeringDB OAuth. |
+| [#1241 Don't allow the first and last addresses being assigned](https://github.com/peeringdb/peeringdb/issues/1241) | Added a validation check to fail on network and broadcast addresses. |
+| [#1238 Put an Icon next to user name on https://www.peeringdb.com/org/nnnn#users if the user is using U2F](https://github.com/peeringdb/peeringdb/issues/1238) | Added a U2F badge next to user name in organization user listing if the user has set up U2F 2FA  |
+| [#1339 Tie TOTP devices and Webauthn Security Keys to the user account](https://github.com/peeringdb/peeringdb/issues/1339) | Tie TOTP devices and Webauthn Security Keys to the user account so the AC can see this information. |
+| [#1291 Show all e-mail addresses associated with a username](https://github.com/peeringdb/peeringdb/issues/1291) | All e-mail addresses associated with a user are now shown in the users tab. |
+| [#1372 Facility history still broken](https://github.com/peeringdb/peeringdb/issues/1372) | Fixes an issue with `fac` history for AC use. |
+
 
 ## Release 2.46.0
 
