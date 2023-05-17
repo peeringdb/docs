@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Search Gets Better](blog/search_gets_better.md) - April 17, 2023
 - [PeeringDB in Your Preferred Language](blog/peeringdb_in_your_preferred_language.md) - March 24, 2023
 - [User Suggestions Improve PeeringDB Usability](blog/user_suggestions_improve_PeeringDB_usability.md) - March 24, 2023
 - [Do You Want Your Configuration Management System to Update PeeringDB](blog/nanog_87_hackathon_proof_of_concept.md) - February 23, 2023

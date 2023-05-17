@@ -12,9 +12,8 @@ Martin Levy gave a use case when he opened [issue #479](https://github.com/peeri
 
 ![Search for facility in Queensland, Australia](images/beta_search_fac_in_qld.png)
 
->In my retirement, I finally had the time to visit and enjoy Montana. It's a wonderful state replete with interesting wildlife and absolutely-stunning landscapes. The fact that you can now find an IXP in Montana with an easy search on PeeringDB's website makes me very happy. I don't think I need to do that search anymore; however, I'm glad others active in the industry can now do that style of search. I wish PeeringDB and the whole industry all the best! I'm happy that my April/2019 issue on GitHub (You can’t find an IXP in Montana; but you should be able to!) is now banished into the history books!
->
- *Martin Levy*
+"*In my retirement, I finally had the time to visit and enjoy Montana. It's a wonderful state replete with interesting wildlife and absolutely-stunning landscapes. The fact that you can now find an IXP in Montana with an easy search on PeeringDB's website makes me very happy. I don't think I need to do that search anymore; however, I'm glad others active in the industry can now do that style of search. I wish PeeringDB and the whole industry all the best! I'm happy that my April 2019 issue on GitHub (You can’t find an IXP in Montana; but you should be able to!) is now banished into the history books!*"
+Martin Levy
 
 When you search for facilities near New York, you’ll get results for relevant locations in nearby New Jersey, just across the river. Similarly, searches for facilities near Los Angeles will extend south into Orange County.
 
@@ -23,3 +22,9 @@ When you search for facilities near New York, you’ll get results for relevant 
 None of this takes away the [Advanced Search tools](https://www.peeringdb.com/advanced_search). They are staying. But you can now find out about the scale of opportunities in a new area nice and quickly.
 
 As our first image shows, we’re testing this new interface side-by-side with the old one. We’d like you to try it and tell us what you think. There’s a link to a feedback form at the top of the page. Please tell us what you like, what you'd like improved, or where our new search tool doesn't work properly.
+
+If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly [on GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
+
+---
+
+PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
