@@ -10,11 +10,10 @@ Today, in [2.47.0](https://docs.peeringdb.com/release_notes/), we’re introduci
 
 It will default to ‘on’ for organizational admins. But other users won’t get this permission by default. If you need this permission you’ll need to speak with the admins for your organization’s presence on PeeringDB.
 
->*Today many peering portals leverage PeeringDB's OAuth to make managing peerings easier and remove the need to manage separate accounts with every network you peer with. The new "manage peerings" permission lets organisations control which of their teams can represent them to external organisations instead of relying on admin privileges in PeeringDB, providing safer and more secure access.*
->Maximilian Wilhelm, Network Automation Engineer, Cloudflare
+"*Today many peering portals leverage PeeringDB's OAuth to make managing peerings easier and remove the need to manage separate accounts with every network you peer with. The new "manage peerings" permission lets organisations control which of their teams can represent them to external organisations instead of relying on admin privileges in PeeringDB, providing safer and more secure access.*"
+Maximilian Wilhelm, Network Automation Engineer, Cloudflare
 
-Take a look at these new permissions if you use PeeringDB OAuth to manage peering sessions. If you operate a peering portal using our OAuth, you should make sure you check 
-the new permission when authenticating users.
+Take a look at these new permissions if you use PeeringDB OAuth to manage peering sessions. If you operate a peering portal using our OAuth, you should make sure you check the new permission when authenticating users.
 
 ![User permissions control tab](images/use_permission_control.png)
 

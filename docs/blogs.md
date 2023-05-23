@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [New Permission: Manage Peering Sessions](blog/new_permission_manage_peering_sessions.md) - May 23, 2023
 - [Search Gets Better](blog/search_gets_better.md) - May 17, 2023
 - [PeeringDB in Your Preferred Language](blog/peeringdb_in_your_preferred_language.md) - March 24, 2023
 - [User Suggestions Improve PeeringDB Usability](blog/user_suggestions_improve_PeeringDB_usability.md) - March 24, 2023
