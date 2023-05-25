@@ -2,6 +2,7 @@
 
 ## 2023
 
+- [PeeringDB Operations & Product Update](presentation/20230510_ITNOG7_Arnold_Nipper.pdf) at [ITNOG7](https://www.itnog.it/itnog7/), Bologna, IT - May 9, 2023 - Arnold Nipper
 - [What’s new on PeeringDB?](presentation/20230424_38_Euro-IX_Arnold_Nipper.pdf) at the [38th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/38th-euro-ix-forum/program/), Cluj-Napoca, RO - April 24, 2023 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20230404_SEE11_Arnold_Nipper.pdf) at [SEE 11](https://www.ripe.net/participate/meetings/regional-meetings/see/see-11), Split, HR - April 5, 2023 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20230402_GPF2023_Matt_Griswold.pdf) at [GPF 2023](https://globalpeeringforum.org/agenda/), Coronado, CA, US - April 4, 2023 - Matt Griswold
