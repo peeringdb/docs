@@ -14,13 +14,22 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.47.0 | 2023-05-10 | 2023-05-17 | 2023-05-24 |
 | 2.48.0 | 2023-06-14 | 2023-06-21 | 2023-06-28 |
 | 2.49.0 | 2023-07-05 | 2023-07-12 | 2023-07-19 |
 | 2.50.0 | 2023-08-09 | 2023-08-16 | 2023-08-23 |
 | 2.51.0 | 2023-09-06 | 2023-09-13 | 2023-09-20 |
 | 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
 | 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
+
+## Release 2.48.0
+
+Beta Announcement Date: 21 June 2023
+Release Date: 28 June 2023
+
+| **GitHub Issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1311 Update Dependencies](https://github.com/peeringdb/peeringdb/issues/1311) | Update all dependencies to new major releases. This year includes Django 4.2 LTS. |
+
 
 ## Release 2.47.0
 
