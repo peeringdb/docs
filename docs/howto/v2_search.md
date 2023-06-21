@@ -1,4 +1,4 @@
-# HOWTO – v2 Search
+# HOWTO: v2 Search
 
 We are testing v2 search in parallel with our production v1 search tools. We encourage you to test it and [give us feedback](https://forms.gle/TYJgvrCGvyTCiaCY8). Is it faster? Does  it simplify the search process? Does it give you the results you expect? Your input helps us deliver the tools you want.
 
@@ -9,6 +9,7 @@ When you click one the [link for v2 search](https://www.peeringdb.com/search/v2?
 v2 lets you use some natural language queries in combination with the name for an area. It helps you get the results in fewer searches, ideally just one!
 
 ## Support for metro sizes
+
 For many areas it will automatically set an appropriate radius. When a common business area crosses a jurisdictional boundary, the search is based on the common business area and not limited to the named metro area.
 
 ![Search for a fac in New York](images/fac_in_new_york_includes_jersey_city.png)
@@ -26,6 +27,7 @@ v2 search finds exchanges based on the facilities they are in. You don’t need 
 *Fig 2: A search for* `ix in tokyo` *finds exchanges at facilities we know about in Tokyo*
 
 ## Support for campus
+
 v2 search knows about campus objects – interconnected facilities under common ownership – so you can find campuses for an area as well a getting a full list of facilities.
 
 ![Search for a campus in Amsterdam](images/campus_in_amsterdam.png)
