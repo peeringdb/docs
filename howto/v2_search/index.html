@@ -6,17 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howtos/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HOWTOs - PeeringDB Docs</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/v2_search/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>HOWTO: v2 Search - PeeringDB Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
@@ -32,7 +32,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -43,29 +43,29 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">About</a>
+                                <a href="../.." class="nav-link">About</a>
                             </li>
                             <li class="navitem">
-                                <a href="../gov/" class="nav-link">Governance</a>
+                                <a href="../../gov/" class="nav-link">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../committee/admin/" class="dropdown-item">Admin Committee</a>
+    <a href="../../committee/admin/" class="dropdown-item">Admin Committee</a>
 </li>
                                     
 <li>
-    <a href="../committee/outreach/" class="dropdown-item">Outreach Committee</a>
+    <a href="../../committee/outreach/" class="dropdown-item">Outreach Committee</a>
 </li>
                                     
 <li>
-    <a href="../committee/product/" class="dropdown-item">Product Committee</a>
+    <a href="../../committee/product/" class="dropdown-item">Product Committee</a>
 </li>
                                     
 <li>
-    <a href="../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
@@ -74,23 +74,23 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../release_notes/" class="dropdown-item">Release Notes</a>
+    <a href="../../release_notes/" class="dropdown-item">Release Notes</a>
 </li>
                                     
 <li>
-    <a href="../api_specs/" class="dropdown-item">API Specs</a>
+    <a href="../../api_specs/" class="dropdown-item">API Specs</a>
 </li>
                                     
 <li>
-    <a href="../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
 </li>
                                     
 <li>
-    <a href="../oauth/" class="dropdown-item">OAuth</a>
+    <a href="../../oauth/" class="dropdown-item">OAuth</a>
 </li>
                                     
 <li>
-    <a href="../translation/" class="dropdown-item">Translations</a>
+    <a href="../../translation/" class="dropdown-item">Translations</a>
 </li>
                                     
 <li>
@@ -98,14 +98,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">HOWTOs</a>
+                            <li class="navitem">
+                                <a href="../../howtos/" class="nav-link">HOWTOs</a>
                             </li>
                             <li class="navitem">
-                                <a href="../faq/" class="nav-link">FAQs</a>
+                                <a href="../../faq/" class="nav-link">FAQs</a>
                             </li>
                             <li class="navitem">
-                                <a href="../blogs/" class="nav-link">Blogs</a>
+                                <a href="../../blogs/" class="nav-link">Blogs</a>
                             </li>
                         </ul>
 
@@ -116,7 +116,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howtos.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/peeringdb/docs/edit/master/docs/howto/v2_search.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -136,25 +136,21 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#peeringdb-howtos" class="nav-link">PeeringDB HOWTOs</a>
+            <li class="nav-item" data-level="1"><a href="#howto-v2-search" class="nav-link">HOWTO: v2 Search</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#create-entries" class="nav-link">Create entries</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#manage-entries" class="nav-link">Manage entries</a>
+            <li class="nav-item" data-level="2"><a href="#concept" class="nav-link">Concept</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#search" class="nav-link">Search</a>
+            <li class="nav-item" data-level="2"><a href="#support-for-metro-sizes" class="nav-link">Support for metro sizes</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#authentication-and-security" class="nav-link">Authentication and security</a>
+            <li class="nav-item" data-level="2"><a href="#searching-directly-for-ixs" class="nav-link">Searching directly for IXs</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#other" class="nav-link">Other</a>
+            <li class="nav-item" data-level="2"><a href="#support-for-campus" class="nav-link">Support for campus</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -165,39 +161,26 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="peeringdb-howtos">PeeringDB HOWTOs</h1>
-<p>HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.</p>
-<h2 id="create-entries">Create entries</h2>
-<ul>
-<li><a href="../howto/get-started-carrier/">Get Started with PeeringDB as a Carrier Operator</a></li>
-<li><a href="../howto/get-started-exchange/">Get Started with PeeringDB as a Exchange Operator</a></li>
-<li><a href="../howto/get-started-facility/">Get Started with PeeringDB as a Facility Operator</a></li>
-<li><a href="../howto/get-started-operator/">Get Started with PeeringDB as a Network Operator</a></li>
-</ul>
-<h2 id="manage-entries">Manage entries</h2>
-<ul>
-<li><a href="../howto/organizational_policy/">Manage Organizational Policy</a></li>
-<li><a href="../howto/manage-permissions/">Manage User Permissions</a></li>
-</ul>
-<h2 id="search">Search</h2>
-<ul>
-<li><a href="../howto/search/">Get Started with Search in PeeringDB</a></li>
-<li><a href="../howto/work_within_peeringdbs_query_limits/">Work Within PeeringDB’s Query Limits</a></li>
-<li><a href="../howto/v2_search/">v2 Search</a></li>
-</ul>
-<h2 id="authentication-and-security">Authentication and security</h2>
-<ul>
-<li><a href="../howto/authenticate/">Authenticate to PeeringDB</a></li>
-<li><a href="../howto/api_keys/">Get Started with API Keys</a></li>
-<li><a href="../howto/make-a-security-report/">Report a Security Issue</a></li>
-</ul>
-<h2 id="other">Other</h2>
-<ul>
-<li><a href="../howto/peeringdb-py/">Install peeringdb-py</a></li>
-<li><a href="../howto/get-started-developing/">Get Started with Developing for PeeringDB</a></li>
-<li><a href="../howto/run_development_container/">Setup a PeeringDB Development Environment</a></li>
-<li><a href="../howto/updates-for-as112/">What is AS112?</a></li>
-</ul></div>
+<h1 id="howto-v2-search">HOWTO: v2 Search</h1>
+<p>We are testing v2 search in parallel with our production v1 search tools. We encourage you to test it and <a href="https://forms.gle/TYJgvrCGvyTCiaCY8">give us feedback</a>. Is it faster? Does  it simplify the search process? Does it give you the results you expect? Your input helps us deliver the tools you want.</p>
+<p>When you click one the <a href="https://www.peeringdb.com/search/v2?q=">link for v2 search</a>, you just type your query in the box and hit enter, like normal.</p>
+<h2 id="concept">Concept</h2>
+<p>v2 lets you use some natural language queries in combination with the name for an area. It helps you get the results in fewer searches, ideally just one!</p>
+<h2 id="support-for-metro-sizes">Support for metro sizes</h2>
+<p>For many areas it will automatically set an appropriate radius. When a common business area crosses a jurisdictional boundary, the search is based on the common business area and not limited to the named metro area.</p>
+<p><img alt="Search for a fac in New York" src="../images/fac_in_new_york_includes_jersey_city.png" /></p>
+<p><em>Fig 1: A search for</em> <code>fac near new york</code> <em>includes results for facilities in Jersey City, NJ</em></p>
+<p>When you want a different radius, our <a href="https://www.peeringdb.com/advanced_search">Advanced Search</a> tool lets you manually set a specific radius based on any street address. </p>
+<h2 id="searching-directly-for-ixs">Searching directly for IXs</h2>
+<p>v2 search finds exchanges based on the facilities they are in. You don’t need to search for facilities in a metro area and then find the exchanges they host. You can do it in a single search.</p>
+<p><img alt="Search for an ix in Tokyo" src="../images/ix_in_tokyo.png" /></p>
+<p><em>Fig 2: A search for</em> <code>ix in tokyo</code> <em>finds exchanges at facilities we know about in Tokyo</em></p>
+<h2 id="support-for-campus">Support for campus</h2>
+<p>v2 search knows about campus objects – interconnected facilities under common ownership – so you can find campuses for an area as well a getting a full list of facilities.</p>
+<p><img alt="Search for a campus in Amsterdam" src="../images/campus_in_amsterdam.png" /></p>
+<p><em>Fig 3: Searching for a</em> <code>campus in amsterdam</code> <em>shows just three entries</em></p>
+<p><img alt="Search for a fan in Amsterdam" src="../images/fac_in_amsterdam.png" /></p>
+<p><em>Fig 4: Searching for a</em> <code>fac in amsterdam</code> <em>shows many more results</em></p></div>
             </div>
         </div>
 
@@ -215,11 +198,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
