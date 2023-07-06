@@ -22,7 +22,6 @@
 - Elizabeth Culley
 - Patrick Gilmore (Chair)
 - Ron Grant
-- Alexandre Guimaraes
 - Chriztoffer Hansen
 - Peter Helmenstine
 - Gaël Hernandez
