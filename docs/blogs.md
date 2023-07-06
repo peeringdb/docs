@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [We're Updating our Web UI](blog/updating_our_webUI.md) - July 6, 2023
 - [Network Type – Your Input Sought](blog/network_type_your_input_sought.md) - June 3, 2023
 - [New Permission: Manage Peering Sessions](blog/new_permission_manage_peering_sessions.md) - May 23, 2023
 - [Search Gets Better](blog/search_gets_better.md) - May 17, 2023
