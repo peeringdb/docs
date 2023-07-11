@@ -39,4 +39,3 @@
 - Arnold Nipper
 - Ester Paal
 - Ben Ryall (Chair)
-- Bijal Sanghani (Vice Chair)
