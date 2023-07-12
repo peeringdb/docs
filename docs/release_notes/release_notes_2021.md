@@ -9,7 +9,7 @@ Each new release has a one week beta test period on the [beta server](https://be
 Beta Announcement Date: 10 November 2021
 Release Date: 17 November 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#695 Auto focus cursor on search field on main website](https://github.com/peeringdb/peeringdb/issues/695) | Places cursor in search box on first opening https://www.peeringdb.com |
 | [#954 Rework ordering of dependencies](https://github.com/peeringdb/peeringdb/issues/954) | Improved load speed for pages with large lists |
@@ -26,7 +26,7 @@ Release Date: 17 November 2021
 Beta Announcement Date: 12 October 2021
 Release Date: 20 October 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#995 Block registering private ASN ranges](https://github.com/peeringdb/peeringdb/issues/995) | Improves error message to user when attempting to register private ASNs and no longer automatically creates a support ticket |
 | [#1007 Add a continental region field for facilities](https://github.com/peeringdb/peeringdb/issues/1007) | Continental region is now recorded for `fac` and is searchable from the advanced search page |
@@ -40,7 +40,7 @@ Release Date: 20 October 2021
 Beta Announcement Date: 14 September 2021
 Release Date: 22 September 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1944 Remove visibility "Private" from POC](https://github.com/peeringdb/peeringdb/issues/944) | Make the "Private" visibility status invalid and requires an admin to review and update contacts when next making an update to their `poc` information |
 | [#800 Additional self-selection fields for Facilities](https://github.com/peeringdb/peeringdb/issues/800) | Adds additional fields to Facilities: Offered Space, Offered Power, Offered Resilience with appropriate details |
@@ -54,7 +54,7 @@ Release Date: 22 September 2021
 
 Release Date: 26 August 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1034 CORS Access-Control-Allow-Origin header missing in API responses](https://github.com/peeringdb/peeringdb/issues/1034) | Fixes an issue that stopped cross site API requests in the browser |
 | [#1036 Issue with verification queue and deskpro ticket creation](https://github.com/peeringdb/peeringdb/issues/1036) | Fixes an issue that stopped newly created objects creating verification queue entries and a deskpro ticket |
@@ -64,7 +64,7 @@ Release Date: 26 August 2021
 Beta Announcement Date: 18 August 2021
 Release Date: 25 August 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#779 Allow IXP to trigger ix-f importer for their exchange](https://github.com/peeringdb/peeringdb/issues/779) | Exchanges can now trigger theIX-F importer and the UI communicates the status of the request |
 | [#920 IX-F Importer: ticket status change when posting re-occuring conflict to existing resolved ticket ](https://github.com/peeringdb/peeringdb/issues/920) | Improve internal handling of IX-F importer conflicts |
@@ -82,7 +82,7 @@ Release Date: 25 August 2021
 Beta Announcement Date: 14 July 2021
 Release Date: 21 July 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#23 make websearch smarter ](https://github.com/peeringdb/peeringdb/issues/23) | Provide a better search experience for quick search, advanced search and API filtering. The key features are properly indexed search, which supports search based on partial name matches, and geocoded search, which supports search based on coordinates. |
 | [#965 IX-F importer: intermittent bug during consolidation of notifications ](https://github.com/peeringdb/peeringdb/issues/965) | Fixes a bug with the IX-F Member Export importer that resulted in intermittent import failures. |
@@ -95,7 +95,7 @@ Release Date: 21 July 2021
 Beta Announcement Date: 19 May, 2021
 Release Date: 26 May, 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#946 Evaluate non-google map/geo sources ](https://github.com/peeringdb/peeringdb/issues/946) | Evaluated alternative geo data APIs and selected Melissa. |
 | [#802 Extend Advanced Search for IXes and Facilities ](https://github.com/peeringdb/peeringdb/issues/802) | Adds search filters to advanced search (ix capacity search, organization presence search, and network presence search.) |
@@ -112,7 +112,7 @@ Release Date: 26 May, 2021
 Beta Announcement Date: 14 April, 2021
 Release Date: 21 April, 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#883 IXF-Importer: minimise emails to Support/DeskPRO/AC ](https://github.com/peeringdb/peeringdb/issues/883) | This change collates all importer suggestions into a single e-mail notification. |
 | [#931 Limit the number of requests for affiliation to an ASN/org to 1 ](https://github.com/peeringdb/peeringdb/issues/931) | Limits the number of affiliation request to an ASN to just one. Provides visual feedback on subsequent request attempts. |
@@ -123,7 +123,7 @@ Release Date: 21 April, 2021
 Beta Announcement Date: 10 March, 2021
 Release Date: 24 March, 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#266 Add API Keys ](https://github.com/peeringdb/peeringdb/issues/266) | This release introduces organization level [API Keys](https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md). |
 | [#827 Make GUI and API feature equivalent ](https://github.com/peeringdb/peeringdb/issues/827) | PeeringDB has a GUI and an API. This issue is a reminder to keep both feature equivalent. |
@@ -138,7 +138,7 @@ Release Date: 24 March, 2021
 
 Release Date: 3 February, 2021
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#246 IXF should be IX-F ](https://github.com/peeringdb/peeringdb/issues/246) | This release introduces various spelling corrections. |
 | [#828 IX-F importer: Handle ipv4/ipv6 on same vlan but separate connections ](https://github.com/peeringdb/peeringdb/issues/828) | This issue deals with how the IX-F importer handles information from the IX-F JSON import. PeeringDB handles both the IPv4 as well as the IPv6 address in the same object (`netixlan`). And from a peering partner pov this is ok as it doesn't matter whether these addresses are on the same interface or even same router. However, IX-F JSON differentiates. For the time being, the importer combines IPv4 and IPv6 if both are set to an operational status in the IX-F JSON. |

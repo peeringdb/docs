@@ -9,7 +9,7 @@ Each new release has a one week beta test period on the [beta server](https://be
 Beta Announcement Date: 9 November 2022
 Release Date: 16 November 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#983 Allow REALPEER to overwrite GHOSTPEER netixlan entry, if asn and IPv6/v4 addresses matches the IX-F Members Export information](https://github.com/peeringdb/peeringdb/issues/983) | Improve the quality of IXP data delivered through IX-F Imports for cases when a network disconnects from an IXP but does not update their PeeringDB record. |
 | [#1153 Exporting Advanced Search broken](https://github.com/peeringdb/peeringdb/issues/1153) | Fixes a bug that stopped users exporting some searches as structured data. |
@@ -31,7 +31,7 @@ Release Date: 16 November 2022
 
 Release Date: 26 October 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1275 Missing allowed sources for scripts](https://github.com/peeringdb/peeringdb/issues/1275) | Adds in some missing sources that were stopping /apidocs and CAPTCHA from working. |
 
@@ -41,7 +41,7 @@ Release Date: 26 October 2022
 Beta Announcement Date: 12 October 2022
 Release Date: 26 October 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#586 Add export tool to https://peeringdb.com/cp/peeringdb_server/$type](https://github.com/peeringdb/peeringdb/issues/586) | Adds new data exports on CSV format. |
 | [#1044 Adding a POC must require an email address or phone number](https://github.com/peeringdb/peeringdb/issues/1044) | Points of Contact must now have either an email address or a phone number. |
@@ -57,7 +57,7 @@ Release Date: 26 October 2022
 Beta Announcement Date: 14 September 2022
 Release Date: 21 September 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#736 Periodic validation of user's contact information](https://github.com/peeringdb/peeringdb/issues/736) | Organizations can now require affiliated users to revalidate their accounts after a number of days chosen by the organization. |
 | [#737 Restrict email domains for organizations](https://github.com/peeringdb/peeringdb/issues/737) | Organizations can now require users to have an email address using a specific domain to affiliate with the organization. |
@@ -86,7 +86,7 @@ This release also introduced a change for updates made with the API. These opera
 Beta Announcement Date: 20 July 2022
 Release Date: 27 July 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#473 add rir_* fields to keep track of ASN status](https://github.com/peeringdb/peeringdb/issues/473) | Improve data quality by adding fields that will allow us to perform statical analysis and remove ASNs when no longer assigned. |
 | [#1203 Validate Local Field against set of Enums](https://github.com/peeringdb/peeringdb/issues/1203) | Improvements to error handling should a user mischievously send junk data. |
@@ -100,7 +100,7 @@ Release Date: 27 July 2022
 
 Release Date: 24 June 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1194 Advanced search issues](https://github.com/peeringdb/peeringdb/issues/1194) | Fixes a bug that stopped advanced search from delivering results. |
 | [#1195 UI: active tabs no longer highlighted after switching](https://github.com/peeringdb/peeringdb/issues/1195) | Fixes a bug that stopped the current tab being highlighted in active search after changing tab. |
@@ -110,7 +110,7 @@ Release Date: 24 June 2022
 Beta Announcement Date: 15 June 2022
 Release Date: 22 June 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#930 Admin user is missing the "Edit" button](https://github.com/peeringdb/peeringdb/issues/930) | Fixes a bug that prevented users from editing their entries. |
 | [#963 Add the IX name and id to IX-F Import Emails](https://github.com/peeringdb/peeringdb/issues/963) | Addresses messages to exchange operators more clearly. |
@@ -128,7 +128,7 @@ Release Date: 22 June 2022
 Beta Announcement Date: 11 May 2022
 Release Date: 17 May 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#403 Notify a record holder when there is an automated change to the profile](https://github.com/peeringdb/peeringdb/issues/404) | Notifications are now sent when PeeringDB administrators make changes to records. |
 | [#1155 Feature Request: Promote OAuth application to admin-level access?](https://github.com/peeringdb/peeringdb/issues/1155) | Adds organization level OAuth app management and allows organizations to transfer existing OAuth apps tied to their users to the organization. |
@@ -141,7 +141,7 @@ Release Date: 17 May 2022
 Beta Announcement Date: 13 April 2022
 Release Date: 11 May 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [peeringdb-py #62 Support User & Org API keys](https://github.com/peeringdb/peeringdb-py/issues/62) | Adds API keys support for the peeringdb-py cacheing client. |
 | [#1079 Normalize the names of states & provinces for various objects](https://github.com/peeringdb/peeringdb/issues/1079) | Normalizes names for states and provinces, improving search experience. |
@@ -162,7 +162,7 @@ Release Date: 11 May 2022
 Beta Announcement Date: 8 March 2022
 Release Date: 22 March 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#506 Add "Management" search field to Advanced Search of Exchanges](https://github.com/peeringdb/peeringdb/issues/506) | Allows users to search for IXPs based on the organization that operates the IXP. |
 | [#727 RS Peer Checkbox also visible on IX Site](https://github.com/peeringdb/peeringdb/issues/727) | Information about networks claiming to peer with the Route Server is now shown on the IXP's page. |
@@ -180,7 +180,7 @@ Release Date: 22 March 2022
 Beta Announcement Date: 9 February 2022
 Release Date: 16 February 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#722 Create a validation tool for syntactically well defined fields](https://github.com/peeringdb/peeringdb/issues/722) | Introduces a tool to improve data quality by validating syntactically well defined fields. |
 | [#853 substantially rate limit unauthenticated /api/ queries to encourage authenticated queries](https://github.com/peeringdb/peeringdb/issues/853) | Introduces rate limiting for unauthenticated API queries to reduce the possibility of service impacting queries. |
@@ -191,7 +191,7 @@ Release Date: 16 February 2022
 Beta Announcement Date: 12 January 2022
 Release Date: 19 January 2022
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1083 Nanog 83 Hackathon improvements to the PeeringDB Website](https://github.com/peeringdb/peeringdb/issues/1083) | When using simple search on the front page of www.peeringdb.com (or via the API) searches for numbers return the most relevant results. Key changes include: searching for a short ASN returns just that network, and searches for two segments of an IP address are required to return related `ix` and `net` objects. |
 | [#1070 OpenID Connect integration](https://github.com/peeringdb/peeringdb/issues/1070) | Allows organizations using PeeringDB to enable an identity federation with a managed service. |

@@ -9,7 +9,7 @@ Each new release has a one week beta test period on the [beta server](https://be
 Beta Announcement Date: 4 November, 2020
 Release Date: 11 November, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#381 Network type: Add "Government"](https://github.com/peeringdb/peeringdb/issues/381) | “Government” added as a network type. |
 | [#463 Add new network type for networks that provide network services](https://github.com/peeringdb/peeringdb/issues/463) | “Network Services" for networks whose function is to provide specialized services, like DNS, RDAP, Whois or DDoS protection added as a network type. |
@@ -33,7 +33,7 @@ Release Date: 11 November, 2020
 Beta Announcement Date: 30 September, 2020
 Release Date: 7 October, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#833 - IX-F Importer: Add failed email resending](https://github.com/peeringdb/peeringdb/issues/833)| Implement re-send mechanic for emails that could not be sent (indicated by a sent value of null). When re-sending an email add a note to the email stating "This email could not be delivered initially and may contain stale information". Add a field to the admin-com import emails table to show this note as well. Update sent if send is successful|
 | [#832 - IX-F Importer: suggested update when it should be add + remove](https://github.com/peeringdb/peeringdb/issues/832)| In some edge cases a deletion will end up as a requirement incorrectly to a legitimate new entry still. See #770 #816 |
@@ -53,7 +53,7 @@ Release Date: 7 October, 2020
 Beta Announcement Date: 15 July, 2020
 Release Date: 26 August, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#249 - Add the IX-F Member Export URL to the ixlan API endpoint](https://github.com/peeringdb/peeringdb/issues/249) | There are two new fields in the ixlan section resp. the ixlan object, called ixf_ixp_member_list_url and ixf_ixp_member_list_url_visible. The first one contains the URL to the IX-F import file while the second governs the visibility of the URL. Values are the same as for the poc object, namely "Public", "Users" and "Private", defaulting to "Private" (i.e. or users who are members of the org). |
 | [#268 - Database: unique constraints](https://github.com/peeringdb/peeringdb/issues/268) | This issue fixes internal DB behaviour. |
@@ -70,7 +70,7 @@ Release Date: 26 August, 2020
 Beta Announcement Date: 24 June, 2020
 Release Date: 1 July, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#72 - Enable sort and reverse sort of IP column in IX display](https://github.com/peeringdb/peeringdb/issues/72) | Sort and reverse sort of IP column in IX display are added. Sort of the IP addresses in the expected natural order. The IPv4 address is the primary sort key. The IPv6 address is the secondary key. |
 | [#121 - missing delete button for organizations](https://github.com/peeringdb/peeringdb/issues/121) | New feature. An admin user is able to delete an org if it has no live objects under it. |
@@ -98,7 +98,7 @@ Release Date: 1 July, 2020
 
 Release Date: 23 April, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#707 - Make source not required for IRR records](https://github.com/peeringdb/peeringdb/issues/707) | Making source not required for IRR records. This requirement was an oversight during implementation of [#151 - Validation of IRR Records] (https://github.com/peeringdb/peeringdb/issues/151) that was released with 2.20.0 - see below. Product Committee revisited the issue after 2.20.0 and reports of concern from community and decided to retract the requirement in an emergency release|
 
@@ -106,7 +106,7 @@ Release Date: 23 April, 2020
 
 Release Date: 21 April, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#702 - Requests from peeringdb-py error 500](https://github.com/peeringdb/peeringdb/issues/702) | Emergency release for a config change |
 
@@ -115,7 +115,7 @@ Release Date: 21 April, 2020
 Beta Announcement Date: 15 April, 2020
 Release Date: 21 April, 2020
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#151 - Validation of IRR Records](https://github.com/peeringdb/peeringdb/issues/151) | To make the IRR as-set/route-set field of more operational value, strict rules apply <ul><li> the as-set/rs-set name has to conform to RFC 2622 (5.1 and 5.2)</li><li> the source may be specified by AS-SET@SOURCE or SOURCE::AS-SET (preferred)</li> <li> valid sources are taken from the list of known IRRs</li><li> multiple values must be separated by either ,, , or , (i.e. comma, space or comma followed by space)</li></ul> |
 | [#189 - Improve explanatory and help text](https://github.com/peeringdb/peeringdb/issues/189) | A clear help text is added for requesting affiliation to an organization.  |
