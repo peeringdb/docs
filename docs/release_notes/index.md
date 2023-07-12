@@ -25,7 +25,7 @@ Our releases are generally deployed at around 04:00 UTC.
 Beta Announcement Date: 12 July 2023
 Release Date: 19 July 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1344 Auto approval of new carrierfac objects](https://github.com/peeringdb/peeringdb/issues/1344) | `carrierfac` objects are now approved automatically, like [`netfac` objects](https://docs.peeringdb.com/howto/search/#querying-with-the-peeringdb-api). |
 | [#1299 Alphabetize simple search results](https://github.com/peeringdb/peeringdb/issues/1299) | Exact match search now go at the top, with other results displayed alphabetically. |
@@ -41,7 +41,7 @@ Release Date: 19 July 2023
 Beta Announcement Date: 21 June 2023
 Release Date: 28 June 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1311 Update Dependencies](https://github.com/peeringdb/peeringdb/issues/1311) | Update all dependencies to new major releases. This year includes Django 4.2 LTS. |
 
@@ -51,7 +51,7 @@ Release Date: 28 June 2023
 Beta Announcement Date: 17 May 2023
 Release Date: 24 May 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1204 Improve Search Functionality](https://github.com/peeringdb/peeringdb/issues/1204) | Significant improvements to search via a new backend. |
 | [#1290 Add permission 'manage peering sessions'](https://github.com/peeringdb/peeringdb/issues/1290) | Adds a permission for managing peering sessions, that is useful for portal enabling PeeringDB OAuth. |
@@ -67,7 +67,7 @@ Release Date: 24 May 2023
 Beta Announcement Date: 12 April 2023
 Release Date: 19 April 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1336 Clearly show when a facility is part of a campus](https://github.com/peeringdb/peeringdb/issues/1336) | Adds a small icon to show that a `fac` is a part of a `campus`.  |
 | [#387 Replace "website" element in API/UI with social media tags](https://github.com/peeringdb/peeringdb/issues/387) | Introduces the ability to include links to social media accounts from PeeringDB pages. |
@@ -81,7 +81,7 @@ Release Date: 19 April 2023
 Beta Announcement Date: 15 March 2023
 Release Date: 22 March 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1295 Allow anonymous users to change languages](https://github.com/peeringdb/peeringdb/issues/1295) | It is now possible to select a PeeringDB translation without logging in to the website. |
 | [#1281 better <title\> tags](https://github.com/peeringdb/peeringdb/issues/1281) | The HTML <title\> tag of pages on www.peeringdb.com now shows key information from the page, like a network name or search term. |
@@ -95,7 +95,7 @@ Release Date: 22 March 2023
 Beta Announcement Date: 15 February 2023
 Release Date: 22 February 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1110 Add campus object](https://github.com/peeringdb/peeringdb/issues/1110) | Initial deployment of a Campus object  – a record to describe facilities where inter-facility cross connects are available as easily as intra-facility cross connects. |
 | [#1191 OAuth logins with 2FA don't complete first time](https://github.com/peeringdb/peeringdb/issues/1191) | Fixes a bug that broke the OAuth flow when MFA was enabled. |
@@ -105,7 +105,7 @@ Release Date: 22 February 2023
 
 Release Date: 10 February 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1315 issues when accepting / denying carrier presence requests](https://github.com/peeringdb/peeringdb/issues/1315) | Fix permission issues when accepting or rejecting `carrier` `facility` presence requests and automatically approve them when they are from the same organization. |
 
@@ -114,7 +114,7 @@ Release Date: 10 February 2023
 Beta Announcement Date: 18 January 2023
 Release Date: 25 January 2023
 
-| **GitHub Issue** | **Summary** |
+| **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#909 Add Carrier Record Type](https://github.com/peeringdb/peeringdb/issues/909) | Initial deployment of a Carrier record – a record to describe providers of high capacity links between facilities, running at [layers 1 or 2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer). |
 | [#1140 API keys: disabling of user account by a PeeringDB admin does not disable access via a User API key. Also no disable mech, only revoke.](https://github.com/peeringdb/peeringdb/issues/1140) | Fixes a bug where user API Keys were not disabled when their account was disabled. |

@@ -32,7 +32,7 @@ Some reinforced their responses to the other questions with calls to remove the 
 
 There was also a call to allow networks to select multiple categories. 
 
-## Next Steps
+## Next steps
 
 The [Product Committee](https://docs.peeringdb.com/committee/product/) has decided to keep the Network Type field. We will not change the types of networks but will implement the ability to select multiple types. This will be implemented in the website and v2 API now deployed. We will plan a more radical update of the field for a future v3 API.
 
