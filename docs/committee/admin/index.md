@@ -27,7 +27,6 @@
 - Gaël Hernandez
 - Adam Korab
 - Julimar Lunguinho Mendes
-- Arnold Nipper
 - Faisal Reza
 - Tom Samplonius
 - Job Snijders (Board Liaison)
