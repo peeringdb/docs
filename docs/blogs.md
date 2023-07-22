@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Alphabetical Search Results](blog/alphabetical_search.md) - July 21, 2023
 - [Network Type – What did you tell us?](blog/network_type_what_you_told_us.md) - July 12, 2023
 - [We're Updating our Web UI](blog/updating_our_webUI.md) - July 6, 2023
 - [Network Type – Your Input Sought](blog/network_type_your_input_sought.md) - June 3, 2023
