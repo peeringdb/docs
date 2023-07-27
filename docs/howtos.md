@@ -21,6 +21,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 - [Authenticate to PeeringDB](howto/authenticate.md)
 - [Get Started with API Keys](howto/api_keys.md)
 - [Report a Security Issue](howto/make-a-security-report.md)
+- [Turn on 2FA and Require Users to Enable It](howto/enable_require_2fa.md)
 
 ## Other
 - [Install peeringdb-py](howto/peeringdb-py.md)
