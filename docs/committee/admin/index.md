@@ -30,5 +30,4 @@
 - Julimar Lunguinho Mendes
 - Faisal Reza
 - Tom Samplonius
-- Job Snijders
 - Ryan Williams
