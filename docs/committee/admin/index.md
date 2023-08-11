@@ -26,8 +26,9 @@
 - Peter Helmenstine
 - Gaël Hernandez
 - Adam Korab
+- Christopher Malayter (Board Liaison)
 - Julimar Lunguinho Mendes
 - Faisal Reza
 - Tom Samplonius
-- Job Snijders (Board Liaison)
+- Job Snijders
 - Ryan Williams
