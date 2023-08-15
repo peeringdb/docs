@@ -14,11 +14,27 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.49.0 | 2023-07-05 | 2023-07-12 | 2023-07-19 |
 | 2.50.0 | 2023-08-09 | 2023-08-16 | 2023-08-23 |
 | 2.51.0 | 2023-09-06 | 2023-09-13 | 2023-09-20 |
 | 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
 | 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
+
+## Release 2.50.0
+
+Beta Announcement Date: 16 August 2023
+Release Date: 23 August 2023
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1352 Include carrier and campus objects in the API](https://github.com/peeringdb/peeringdb/issues/1352) | `carrier` and `campus` objects were not included in the main API at first as we did not know if users would use them. They are now part of the API, making them usable by tools that rely on the API.|
+| [#1300 display website URL on all non-org objects](https://github.com/peeringdb/peeringdb/issues/1300) | The website from org objects is now inherited by all child objects. |
+| [#1381 Add hover tip to describe meaning of routeserver icon](https://github.com/peeringdb/peeringdb/issues/1381) | As title. |
+| [#1361 Add Campus and Carrier Tooltips](https://github.com/peeringdb/peeringdb/issues/1361) | As title. |
+| [#1360 IX-F Importer: IX-F Member Data not being nullified after IX stops/changes import](https://github.com/peeringdb/peeringdb/issues/1360) | Fixes a bug where the IX and participants were being mailed about import issues after the import was turned of by the IX operator. |
+| [#1239 Add a search field to all AC views](https://github.com/peeringdb/peeringdb/issues/1239) | Better search for support tools. |
+| [#1027 Make the search field on cp/peeringdb_server/network/ aware of leading AS/ASN](https://github.com/peeringdb/peeringdb/issues/1027) | Improved handling of variant syntax in support tools. |
+| [#1412 Improve performance by updating Python client code](https://github.com/peeringdb/peeringdb/issues/1412) | Replace old python2 sync code with python3 code. |
+
 
 ## Release 2.49.0
 
