@@ -9,6 +9,7 @@
 
 ## Meeting notes
 
+- [September 7th, 2023: Meeting Notes](notes/2023-09-07_Product_Committee_Notes.pdf)
 - [August 3rd, 2023: Meeting Notes](notes/2023-08-03_Product_Committee_Notes.pdf)
 - [July 6th, 2023: Meeting Notes](notes/2023-07-06_Product_Committee_Notes.pdf)
 - [June 1st, 2023: Meeting Notes](notes/2023-06-01_Product_Committee_Notes.pdf)
