@@ -20,6 +20,9 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.51.0
 
+Beta Announcement Date: 13 September 2023
+Release Date: 20 September 2023
+
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1364 IX Object Creation Per Policy](https://github.com/peeringdb/peeringdb/issues/1364) | Automates approval of new `ix` objects per [policy](https://docs.peeringdb.com/committee/admin/approval-guidelines/#approving-ixp-ix-objects).|
