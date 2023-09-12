@@ -14,10 +14,22 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.50.0 | 2023-08-09 | 2023-08-16 | 2023-08-23 |
 | 2.51.0 | 2023-09-06 | 2023-09-13 | 2023-09-20 |
 | 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
 | 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
+
+## Release 2.51.0
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1364 IX Object Creation Per Policy](https://github.com/peeringdb/peeringdb/issues/1364) | Automates approval of new `ix` objects per [policy](https://docs.peeringdb.com/committee/admin/approval-guidelines/#approving-ixp-ix-objects).|
+| [#1226 Add a "Delete Affiliation" button/option to the profile](https://github.com/peeringdb/peeringdb/issues/1226) | Users can now remove an affiliation from their account.|
+| [#1431 add redis for caching](https://github.com/peeringdb/peeringdb/issues/1431) | Improves cacheing performance.|
+| [#1382 Syntax checker for social media user names broken](https://github.com/peeringdb/peeringdb/issues/1382) | Fixes a bug that rejected social media names that incorporated a hyphen.|
+| [#1401 Creating a new network not possible](https://github.com/peeringdb/peeringdb/issues/1401) | Fixes a bug that stopped `net` creation when social media fields were sent with request.|
+| [#1419 replace missing Glyphicons](https://github.com/peeringdb/peeringdb/issues/1419) | Use Google's "Sort by Alpha" icon in table headers.|
+| [#1182 Manual IX-F import request queue can get stuck](https://github.com/peeringdb/peeringdb/issues/1182) | Fixes a bug that allowed users to enable IX-F imports without setting a URL. The importers also discards imports without a URL.|
+| [#1334 IX-F Importer: Cosmetic issue with "resolved" emails and double-slashes in URLs after the FQDN](https://github.com/peeringdb/peeringdb/issues/1334) | Fixes a cosmetic issue with IX-F notification messages.|
 
 ## Release 2.50.0
 
