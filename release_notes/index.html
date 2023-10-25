@@ -142,6 +142,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2520" class="nav-link">Release 2.52.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2510" class="nav-link">Release 2.51.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -211,12 +215,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.51.0</td>
-<td>2023-09-06</td>
-<td>2023-09-13</td>
-<td>2023-09-20</td>
-</tr>
-<tr>
 <td>2.52.0</td>
 <td>2023-10-18</td>
 <td>2023-10-25</td>
@@ -245,6 +243,55 @@
 <td>2024-03-06</td>
 <td>2024-03-13</td>
 <td>2024-03-20</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2520">Release 2.52.0</h2>
+<p>Beta Announcement Date: 25 October 2023<br />
+Release Date: 6 November 2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1328">#1328 Support web updates from a source of truth</a></td>
+<td>Internal sources of truth, like configuration management systems, can now propose PeeringDB updates that a web user can review and either accept or deny.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1374">#1374 Search to include new objects: Campus &amp; Carrier</a></td>
+<td>Support for new <code>carrier</code> and <code>campus</code> objects in v2 search, which is now the default with v1 search linked for the time being.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1368">#1368 Facility data export into Google Earth KMZ</a></td>
+<td>PeeringDB facility data is now exported into a Google Earth KMZ file that includes the details of the facility fields and their contents (<code>ix</code>, <code>net</code>, <code>carrier</code>). It is linked from the web footer and generated every day.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1394">#1394 v2 search failing to find some names</a></td>
+<td>Fixes a bug where names with hyphens in them were not handled properly by v2 search.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1313">#1313 Improve email confirmation control - add 3 month option &amp; maybe set new default value</a></td>
+<td>Improve the design of the periodic reconfirmation control for user email addresses and add a new 3 month value.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1257">#1257 Help text covers non-compliant email addresses</a></td>
+<td>Non-compliant email addresses of affiliated users are now shown, making it easier to know who to contact.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1164">#1164 better rdap error reporting</a></td>
+<td>Improved error handling and friendlier error reporting to users.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1260">#1260 Add Selenium Grid to CI testing</a></td>
+<td>Improve automated browser testing for website.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1380">#1380 Reset 'Social Media' to '{}' if field is null</a></td>
+<td>Fixes a bug with broken page rendering for backend admin users when a social media field was set to <code>null</code>.</td>
 </tr>
 </tbody>
 </table>
