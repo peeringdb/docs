@@ -14,12 +14,29 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.51.0 | 2023-09-06 | 2023-09-13 | 2023-09-20 |
 | 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
 | 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
 | 2.54.0 | 2024-01-09 | 2024-01-16 | 2024-01-24 |
 | 2.55.0 | 2024-02-07 | 2024-02-14 | 2024-02-21 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
+
+
+## Release 2.52.0
+
+Beta Announcement Date: 25 October 2023
+Release Date: 6 November 2023
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1328 Support web updates from a source of truth](https://github.com/peeringdb/peeringdb/issues/1328) | Internal sources of truth, like configuration management systems, can now propose PeeringDB updates that a web user can review and either accept or deny.|
+| [#1374 Search to include new objects: Campus & Carrier](https://github.com/peeringdb/peeringdb/issues/1374) | Support for new `carrier` and `campus` objects in v2 search, which is now the default with v1 search linked for the time being.|
+| [#1368 Facility data export into Google Earth KMZ](https://github.com/peeringdb/peeringdb/issues/1368) | PeeringDB facility data is now exported into a Google Earth KMZ file that includes the details of the facility fields and their contents (`ix`, `net`, `carrier`). It is linked from the web footer and generated every day.|
+| [#1394 v2 search failing to find some names](https://github.com/peeringdb/peeringdb/issues/1394) | Fixes a bug where names with hyphens in them were not handled properly by v2 search.|
+| [#1313 Improve email confirmation control - add 3 month option & maybe set new default value](https://github.com/peeringdb/peeringdb/issues/1313) | Improve the design of the periodic reconfirmation control for user email addresses and add a new 3 month value.|
+| [#1257 Help text covers non-compliant email addresses](https://github.com/peeringdb/peeringdb/issues/1257) | Non-compliant email addresses of affiliated users are now shown, making it easier to know who to contact.|
+| [#1164 better rdap error reporting](https://github.com/peeringdb/peeringdb/issues/1164) | Improved error handling and friendlier error reporting to users.|
+| [#1260 Add Selenium Grid to CI testing](https://github.com/peeringdb/peeringdb/issues/1260) | Improve automated browser testing for website.|
+| [#1380 Reset 'Social Media' to '{}' if field is null](https://github.com/peeringdb/peeringdb/issues/1380) | Fixes a bug with broken page rendering for backend admin users when a social media field was set to `null`.|
 
 
 ## Release 2.51.0
