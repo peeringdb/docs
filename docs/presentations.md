@@ -2,6 +2,7 @@
 
 ## 2023
 
+- [What’s new on PeeringDB?](presentation/20231025_GRNOG15_Livio_Morina.pdf) at [GRNOG 15](https://grnog.indico.nogalliance.org/event/8/), Athens, GR - October 25, 2023 - Livio Morina
 - [What’s new on PeeringDB?](presentation/20231006_FRNOG38_Livio_Morina.pdf) at [FRnOG 38](https://www.frnog.org/?page=meetings&lang=en), Paris, FR - October 6, 2023 - Livio Morina
 - [PeeringDB Operations & Product Update](presentation/20230621_SwiNOG38_Arnold_Nipper.pdf) at [SwiNOG#38](https://www.swinog.ch/meetings/swinog38/), Berne, CH - June 21, 2023 - Arnold Nipper
 - [PeeringDB Update](presentation/20230525_RIPE86_Leo_Vegoda.pdf) at [RIPE 86](https://ripe86.ripe.net/), Rotterdam, NL - May 25, 2023 - Leo Vegoda
