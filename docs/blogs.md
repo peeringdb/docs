@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Your Internal Source of Truth Can Now Push Updates to PeeringDB](blog/updates_from_an_internal_source_of_truth.md) - October 31, 2023
 - [See Locations in PeeringDB on a Map](blog/peeringdb_map_with_kmz.md) - October 25, 2023
 - [Alphabetical Search Results](blog/alphabetical_search.md) - July 21, 2023
 - [Network Type – What did you tell us?](blog/network_type_what_you_told_us.md) - July 12, 2023
