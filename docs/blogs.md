@@ -2,6 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [PeeringDB Whois Service to Close](blog/whois_to_close.md) - November 2, 2023
 - [Your Internal Source of Truth Can Now Push Updates to PeeringDB](blog/updates_from_an_internal_source_of_truth.md) - November 2, 2023
 - [See Locations in PeeringDB on a Map](blog/peeringdb_map_with_kmz.md) - October 25, 2023
 - [Alphabetical Search Results](blog/alphabetical_search.md) - July 21, 2023
