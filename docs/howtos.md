@@ -24,6 +24,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 - [Turn on 2FA and Require Users to Enable It](howto/enable_require_2fa.md)
 
 ## Other
+- [HOWTO become a PeeringDB member and vote](howto/member_vote.md)
 - [Install peeringdb-py](howto/peeringdb-py.md)
 - [Get Started with Developing for PeeringDB](howto/get-started-developing.md)
 - [Setup a PeeringDB Development Environment](howto/run_development_container.md)
