@@ -271,6 +271,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.peeringdb.com/blog/whois_to_close/</loc>
+         <lastmod>2023-11-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.peeringdb.com/blog/your_logo_goes_here/</loc>
          <lastmod>2023-11-03</lastmod>
          <changefreq>daily</changefreq>
@@ -367,6 +372,11 @@
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/manage-permissions/</loc>
+         <lastmod>2023-11-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/howto/member_vote/</loc>
          <lastmod>2023-11-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
