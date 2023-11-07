@@ -1,4 +1,4 @@
-# HOWTO Become a PeeringDB Member and Vote
+# HOWTO: Become a PeeringDB Member and Vote
 
 PeeringDB is a membership organization. We do not charge for membership. You become a member when you have data in PeeringDB and subscribe to our governance mailing list. When you are a member, you may attend Members’ Meetings and vote in elections.
 
