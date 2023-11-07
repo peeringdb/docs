@@ -1,7 +1,8 @@
 # PeeringDB Whois Service to Close
-We will close down the whois.peeringdb.com service at the end of January 2024.
 
-The PeeringDB whois service is a relic of PeeringDB v1, where there was no API to query the database. PeeringDB v2 can be queried and updated through [our API](https://docs.peeringdb.com/api_specs/) as well as the web. The whois service is just another way to get data from our API that is less supported and infrequently used.
+We will close down the `whois.peeringdb.com` service at the end of January 2024.
+
+The PeeringDB whois service is a relic of PeeringDB v1, where there was no API to query the database. PeeringDB v2 can be queried and updated through [our API](/api_specs/) as well as the web. The whois service is just another way to get data from our API that is less supported and infrequently used.
 
 Keeping the service incurs a maintenance cost. We believe that closing the service is the best use of PeeringDB resources.
 

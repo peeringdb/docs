@@ -4,7 +4,7 @@ We have [an API](/api_specs/). You can use our API to update PeeringDB as well a
 
 Until now, that left a gap. If your network connects at many facilities and IXPs, there might be a gap between a change happening and appearing in PeeringDB. Our users value the quality of configuration data in PeeringDB, so we wanted to fill that gap.
 
-We used the [NANOG 87 Hackathon](/blog/nanog_87_hackathon_proof_of_concept/) as an opportunity to test a proof of concept. It went well, so we've put it into production. Your internal source of truth can now suggest updates to PeeringDB. You then login to our web interface and approve or reject those changes.
+We used the [NANOG 87 Hackathon](/blog/nanog_87_hackathon_proof_of_concept/) as an opportunity to test a proof of concept. It went well, so we've put it into production. Your internal source of truth can now suggest updates to PeeringDB. You then log in to our web interface and approve or reject those changes.
 
 FullCtl, who [participated in the Hackathon challenge](https://www.fullctl.com/blog/NANOG87Hackathon), has already implemented support for this new feature. 
 
