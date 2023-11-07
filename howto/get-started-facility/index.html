@@ -8,7 +8,7 @@
         
         <link rel="canonical" href="https://docs.peeringdb.com/howto/get-started-facility/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>HOWTO: Get Started with PeeringDB as a Facility Operator - PeeringDB Docs</title>
+        <title>HOWTO: Get Started with PeeringDB as a Facility or Campus Operator - PeeringDB Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -136,7 +136,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#howto-get-started-with-peeringdb-as-a-facility-operator" class="nav-link">HOWTO: Get Started with PeeringDB as a Facility Operator</a>
+            <li class="nav-item" data-level="1"><a href="#howto-get-started-with-peeringdb-as-a-facility-or-campus-operator" class="nav-link">HOWTO: Get Started with PeeringDB as a Facility or Campus Operator</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-level="2"><a href="#about-peeringdb" class="nav-link">About PeeringDB</a>
               <ul class="nav flex-column">
@@ -146,23 +146,23 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#getting-started" class="nav-link">Getting Started</a>
+            <li class="nav-item" data-level="2"><a href="#getting-started" class="nav-link">Getting started</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#information-required" class="nav-link">Information Required</a>
+            <li class="nav-item" data-level="2"><a href="#information-required" class="nav-link">Information required</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#database-records-to-create" class="nav-link">Database Records to Create</a>
+            <li class="nav-item" data-level="2"><a href="#database-records-to-create" class="nav-link">Database records to create</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#next-steps" class="nav-link">Next Steps</a>
+            <li class="nav-item" data-level="2"><a href="#next-steps" class="nav-link">Next steps</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#more-information" class="nav-link">More Information</a>
+            <li class="nav-item" data-level="2"><a href="#more-information" class="nav-link">More information</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -173,18 +173,18 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="howto-get-started-with-peeringdb-as-a-facility-operator">HOWTO: Get Started with PeeringDB as a Facility Operator</h1>
+<h1 id="howto-get-started-with-peeringdb-as-a-facility-or-campus-operator">HOWTO: Get Started with PeeringDB as a Facility or Campus Operator</h1>
 <h2 id="about-peeringdb">About PeeringDB</h2>
 <p>PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.</p>
 <p>We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.</p>
 <h2 id="why">Why?</h2>
 <p>PeeringDB is the interconnection database. Registering information about your facility in PeeringDB makes it visible to network operators who want to connect to exchanges or other networks in your facility. </p>
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="getting-started">Getting started</h2>
 <p>Routine use of PeeringDB can be automated using <a href="https://www.peeringdb.com/apidocs">our API</a> but this document is intended to help new facility administrators get started. Facilities are set up using the web interface. Once this is done you can use the API to automate things that change regularly. This document focuses on the key steps for establishing your facility's presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.</p>
 <p>If you need additional help getting started, please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
-<h2 id="information-required">Information Required</h2>
+<h2 id="information-required">Information required</h2>
 <p>You will need to create several database records, known as objects, to establish your presence in PeeringDB. </p>
-<p>Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximises the benefit you get from listing in PeeringDB. </p>
+<p>Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. </p>
 <p>You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:</p>
 <ul>
 <li>Company Name</li>
@@ -200,22 +200,26 @@
 <li>Notes - this field, which supports <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, can be used to describe the characteristics of your facility that would be most useful to PeeringDB users</li>
 </ul>
 <p>You can look at the information shared by other facility managers to work out what your organization should be sharing.</p>
-<h2 id="database-records-to-create">Database Records to Create</h2>
+<h2 id="database-records-to-create">Database records to create</h2>
 <h3 id="user">User</h3>
 <p>The <code>org</code> is the parent for the facility but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.</p>
 <h3 id="org">Org</h3>
-<p>The <code>org</code> object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.<br />
-Your <code>org</code> object will be assigned a numeric identifier, called its <code>id</code>. This is what will be referenced by any child facility object.</p>
+<p>The <code>org</code> object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.</p>
+<p>Your <code>org</code> object will be assigned a numeric identifier, called its <code>id</code>. This is what will be referenced by any child facility object.</p>
 <p><img alt="Excellent Example Org Object" src="../images/excellent-example-org.png" /></p>
 <h3 id="facility">Facility</h3>
-<p>Once you have created your organization you may add the <code>facility</code> object. You do this by using the Add Facility tab in the “Manage” menu below your organization.<br />
-<img alt="Excellent Example Facility Object" src="../images/excellent-example-fac.png" /></p>
-<h2 id="next-steps">Next Steps</h2>
+<p>Once you have created your organization you may add the <code>facility</code> object. You do this by using the Add Facility tab in the “Manage” menu below your organization.</p>
+<p><img alt="Excellent Example Facility Object" src="../images/excellent-example-fac.png" /></p>
+<h3 id="campus">Campus</h3>
+<p>A <code>campus</code> is two or more facilities owned by the same organization where customers can get inter-facility cross-connects.</p>
+<p>When you have two facilities you can create a <code>campus</code> using the Add Campus tab in the “Manage” menu below your organization.</p>
+<p><img alt="Add Campus" src="../images/add_campus.png" /></p>
+<h2 id="next-steps">Next steps</h2>
 <p>This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:</p>
 <ul>
 <li>Encourage the networks and Internet Exchanges to also register with PeeringDB, and to indicate their presence in your facility. Thus making their presence visible to others and so increasing the possibility of interconnection with other networks. </li>
 </ul>
-<h2 id="more-information">More Information</h2>
+<h2 id="more-information">More information</h2>
 <p>The <a href="https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf">PeeringDB Data Ownership Policy</a> describes all the objects in PeeringDB.</p></div>
             </div>
         </div>
