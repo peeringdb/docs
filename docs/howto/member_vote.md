@@ -19,10 +19,10 @@ At the start of the election process, the Secretary/Treasurer will ask each memb
 ## Can I join a committee?
 Yes! Volunteers run our committees. They are:
 
-- Admin – provides support to our users
+- [Admin](https://docs.peeringdb.com/committee/admin/) – provides support to our users
 - Operations – keeps PeeringDB services running smoothly
-- Outreach – keeps the interconnection community aware of PeeringDB activity
-- Product – reviews and refines PeeringDB’s product design
+- [Outreach](https://docs.peeringdb.com/committee/outreach/) – keeps the interconnection community aware of PeeringDB activity
+- [Product](https://docs.peeringdb.com/committee/product/) – reviews and refines PeeringDB’s product design
 
 If you want to join a committee, send a message to [stewards@peeringdb.com](mailto:stewards@peeringdb.com). 
 

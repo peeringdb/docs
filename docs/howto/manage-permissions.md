@@ -18,6 +18,8 @@ The table below shows an example for an affiliated user who has only been delega
 
 |            | Create | Update | Delete |
 |------------|--------|--------|--------|
+| Campus  | No     | No     | No     |
+| Carriers  | No     | No     | No     |
 | Exchanges  | No     | No     | No     |
 | Facilities | No     | No     | No     |
 | Networks   | No     | Yes    | No     |
@@ -27,7 +29,7 @@ Admin users for an organization can do all these things and can delegate granula
 ## How do I give permissions to a user who is already affiliated with other organizations?
 User accounts can be associated with multiple organizations. For instance, a consultant could be associated with each of their client’s organizations. Similarly, a large organization composed of several operating companies could have a different organization for each operating company in PeeringDB and have some users affiliated with those instead of trying to centralize control.
 
-The user just needs to request affiliation with each organization whose data they will be updating in PeeringDB.
+The user just needs to request – and be granted – affiliation with each organization whose data they will be updating in PeeringDB.
 
 ## How do I authenticate at external services using my PeeringDB account?
 If your organization operates a network and has the Autonomous System registered with PeeringDB, your users can use their PeeringDB accounts to [authenticate at external services](/blog/oauth_users/) that have enabled PeeringDB’s OAuth service. 

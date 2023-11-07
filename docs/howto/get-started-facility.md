@@ -1,4 +1,4 @@
-# HOWTO: Get Started with PeeringDB as a Facility Operator 
+# HOWTO: Get Started with PeeringDB as a Facility (and Campus) Operator 
 
 ## About PeeringDB
 PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
@@ -16,7 +16,7 @@ If you need additional help getting started, please contact us at: [support@peer
 ## Information Required
 You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
 
-Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximises the benefit you get from listing in PeeringDB. 
+Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. 
 
 You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:
 
@@ -40,13 +40,24 @@ The `org` is the parent for the facility but you will need to start the process 
 
 ### Org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
+
 Your `org` object will be assigned a numeric identifier, called its `id`. This is what will be referenced by any child facility object.
 
 ![Excellent Example Org Object](images/excellent-example-org.png)
 
 ### Facility
 Once you have created your organization you may add the `facility` object. You do this by using the Add Facility tab in the “Manage” menu below your organization.
+
 ![Excellent Example Facility Object](images/excellent-example-fac.png)
+
+### Campus
+A `campus` is two or more facilities owned by the same organization where customers can get inter-facility cross-connects.
+
+When you have two facilities you can create a `campus` using the Add Campus tab in the “Manage” menu below your organization.
+
+![Add Campus](images/add_campus.png)
+
+
 ## Next Steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:
 
