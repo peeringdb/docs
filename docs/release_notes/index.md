@@ -14,11 +14,26 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.52.0 | 2023-10-18 | 2023-10-25 | 2023-11-06 |
-| 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-01 |
+| 2.53.0 | 2023-11-22 | 2023-11-29 | 2023-12-06 |
 | 2.54.0 | 2024-01-09 | 2024-01-16 | 2024-01-24 |
 | 2.55.0 | 2024-02-07 | 2024-02-14 | 2024-02-21 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
+
+## Release 2.53.0
+
+Beta Announcement Date: 29 November 2023
+Release Date: 6 December 2023
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1362 Show connected networks, exchanges, and carriers on campus results pages](https://github.com/peeringdb/peeringdb/issues/1362) Adds an aggregated view of interconnection resources at a `campus` on the `campus` page.|
+| [#1247 Store language preference in the user's profile instead of cookies](https://github.com/peeringdb/peeringdb/issues/1247) Improved handling of website language preferences.|
+| [#1327 Improve visibility of contact data settings](https://github.com/peeringdb/peeringdb/issues/1327) Admins now see the visibility settings for their contacts alongside the set values. This makes it easier to identify and correct mistakes.|
+| [#1385 Keep the list of IRR up to date](https://github.com/peeringdb/peeringdb/issues/1385) As title.|
+| [#1432 Make dates ISO 8601 compliant everywhere in PeeringDB](https://github.com/peeringdb/peeringdb/issues/1432) As title.|
+| [#1252 Display dates consistently](https://github.com/peeringdb/peeringdb/issues/1252) As title.|
+| [#1433 Timestamps should be consistent](https://github.com/peeringdb/peeringdb/issues/1433) As title.|
+
 
 
 ## Release 2.52.0
