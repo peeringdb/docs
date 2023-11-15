@@ -2,7 +2,7 @@
 
 The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.
 
-Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Twitter](https://twitter.com/PeeringDB), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [Facebook](https://www.facebook.com/peeringdb).
+Each new release has a one week beta test period on the [beta server](https://beta.peeringdb.com/) before it goes live.  The beta and new releases are announced on the [PeeringDB Announce Mailing List](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce) and on [Facebook](https://www.facebook.com/peeringdb), [LinkedIn](https://www.linkedin.com/company/peeringdb) and [X](https://twitter.com/PeeringDB).
 
 ## Release schedule
 
@@ -26,15 +26,13 @@ Release Date: 6 December 2023
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1362 Show connected networks, exchanges, and carriers on campus results pages](https://github.com/peeringdb/peeringdb/issues/1362) Adds an aggregated view of interconnection resources at a `campus` on the `campus` page.|
-| [#1247 Store language preference in the user's profile instead of cookies](https://github.com/peeringdb/peeringdb/issues/1247) Improved handling of website language preferences.|
-| [#1327 Improve visibility of contact data settings](https://github.com/peeringdb/peeringdb/issues/1327) Admins now see the visibility settings for their contacts alongside the set values. This makes it easier to identify and correct mistakes.|
-| [#1385 Keep the list of IRR up to date](https://github.com/peeringdb/peeringdb/issues/1385) As title.|
-| [#1432 Make dates ISO 8601 compliant everywhere in PeeringDB](https://github.com/peeringdb/peeringdb/issues/1432) As title.|
-| [#1252 Display dates consistently](https://github.com/peeringdb/peeringdb/issues/1252) As title.|
-| [#1433 Timestamps should be consistent](https://github.com/peeringdb/peeringdb/issues/1433) As title.|
-
-
+| [#1362 Show connected networks, exchanges, and carriers on campus results pages](https://github.com/peeringdb/peeringdb/issues/1362) | Adds an aggregated view of interconnection resources at a `campus` on the `campus` page.|
+| [#1247 Store language preference in the user's profile instead of cookies](https://github.com/peeringdb/peeringdb/issues/1247) | Improved handling of website language preferences.|
+| [#1327 Improve visibility of contact data settings](https://github.com/peeringdb/peeringdb/issues/1327) | Admins now see the visibility settings for their contacts alongside the set values. This makes it easier to identify and correct mistakes.|
+| [#1385 Keep the list of IRR up to date](https://github.com/peeringdb/peeringdb/issues/1385) | As title.|
+| [#1432 Make dates ISO 8601 compliant everywhere in PeeringDB](https://github.com/peeringdb/peeringdb/issues/1432) | As title.|
+| [#1252 Display dates consistently](https://github.com/peeringdb/peeringdb/issues/1252) | As title.|
+| [#1433 Timestamps should be consistent](https://github.com/peeringdb/peeringdb/issues/1433) | As title.|
 
 ## Release 2.52.0
 
@@ -52,7 +50,6 @@ Release Date: 6 November 2023
 | [#1164 better rdap error reporting](https://github.com/peeringdb/peeringdb/issues/1164) | Improved error handling and friendlier error reporting to users.|
 | [#1260 Add Selenium Grid to CI testing](https://github.com/peeringdb/peeringdb/issues/1260) | Improve automated browser testing for website.|
 | [#1380 Reset 'Social Media' to '{}' if field is null](https://github.com/peeringdb/peeringdb/issues/1380) | Fixes a bug with broken page rendering for backend admin users when a social media field was set to `null`.|
-
 
 ## Release 2.51.0
 
@@ -86,7 +83,6 @@ Release Date: 23 August 2023
 | [#1027 Make the search field on cp/peeringdb_server/network/ aware of leading AS/ASN](https://github.com/peeringdb/peeringdb/issues/1027) | Improved handling of variant syntax in support tools. |
 | [#1412 Improve performance by updating Python client code](https://github.com/peeringdb/peeringdb/issues/1412) | Replace old python2 sync code with python3 code. |
 
-
 ## Release 2.49.0
 
 Beta Announcement Date: 12 July 2023
@@ -102,7 +98,6 @@ Release Date: 19 July 2023
 | [#1219 Optimize Cacheing](https://github.com/peeringdb/peeringdb/issues/1219) | It is now easier to obtain and cache PeeringDB data. |
 | [#1404 Upgrade the django-oauth-toolkit library](https://github.com/peeringdb/peeringdb/issues/1404) | Django update deferred from last month. Oauth application owners were given notice of this breaking change. |
 
-
 ## Release 2.48.0
 
 Beta Announcement Date: 21 June 2023
@@ -111,7 +106,6 @@ Release Date: 28 June 2023
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1311 Update Dependencies](https://github.com/peeringdb/peeringdb/issues/1311) | Update all dependencies to new major releases. This year includes Django 4.2 LTS. |
-
 
 ## Release 2.47.0
 
@@ -128,7 +122,6 @@ Release Date: 24 May 2023
 | [#1291 Show all e-mail addresses associated with a username](https://github.com/peeringdb/peeringdb/issues/1291) | All e-mail addresses associated with a user are now shown in the users tab. |
 | [#1372 Facility history still broken](https://github.com/peeringdb/peeringdb/issues/1372) | Fixes an issue with `fac` history for AC use. |
 
-
 ## Release 2.46.0
 
 Beta Announcement Date: 12 April 2023
@@ -141,7 +134,6 @@ Release Date: 19 April 2023
 | [#1333 Calling /api/carrier with parameters is broken](https://github.com/peeringdb/peeringdb/issues/1333) | Fixes a bug in the API support for the new `carrier` object. |
 | [#1094 IX-F Importer: duplicate address(es) should result in rejection of JSON export and notification of IXP](https://github.com/peeringdb/peeringdb/issues/1094) | Fixes a bug in handling duplicate IP addresses in IX-F imports. |
 | [#1249 Update MkDocs for docs.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/1249) | Updates the software used by https://docs.peeringdb.com |
-
 
 ## Release 2.45.0
 
