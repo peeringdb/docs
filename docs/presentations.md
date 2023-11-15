@@ -2,6 +2,7 @@
 
 ## 2023
 
+- [What's new on PeeringDB?](presentation/20231115_SALOTTO2023_Livio_Morina.pdf) at [MIX Salotto 2023](https://salotto.mix-it.net/en/), Milan, IT - November 15, 2023 - Livio Morina
 - [What is PeeringDB? Why is it important for network operators?](presentation/20231109_RSNOG9_Livio_Morina.pdf) at [RSNOG9](https://rsnog.rs/events/ninth-rsnog-conference/?lang=en), Belgrade, RS - November 9, 2023 - Livio Morina
 - [What’s new on PeeringDB?](presentation/20231025_GRNOG15_Livio_Morina.pdf) at [GRNOG 15](https://grnog.indico.nogalliance.org/event/8/), Athens, GR - October 25, 2023 - Livio Morina
 - [What’s new on PeeringDB?](presentation/20231006_FRNOG38_Livio_Morina.pdf) at [FRnOG 38](https://www.frnog.org/?page=meetings&lang=en), Paris, FR - October 6, 2023 - Livio Morina
