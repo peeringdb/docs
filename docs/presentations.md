@@ -2,12 +2,13 @@
 
 ## 2023
 
+- [PeeringDB Update](presentation/20231130_RIPE87_Leo_Vegoda.pdf) at [RIPE 87](https://ripe87.ripe.net/programme/meeting-plan/connect-wg/), Rome, IT - November 30, 2023 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20231115_SALOTTO2023_Livio_Morina.pdf) at [MIX Salotto 2023](https://salotto.mix-it.net/en/), Milan, IT - November 15, 2023 - Livio Morina
 - [What is PeeringDB? Why is it important for network operators?](presentation/20231109_RSNOG9_Livio_Morina.pdf) at [RSNOG9](https://rsnog.rs/events/ninth-rsnog-conference/?lang=en), Belgrade, RS - November 9, 2023 - Livio Morina
 - [What’s new on PeeringDB?](presentation/20231025_GRNOG15_Livio_Morina.pdf) at [GRNOG 15](https://grnog.indico.nogalliance.org/event/8/), Athens, GR - October 25, 2023 - Livio Morina
 - [What’s new on PeeringDB?](presentation/20231006_FRNOG38_Livio_Morina.pdf) at [FRnOG 38](https://www.frnog.org/?page=meetings&lang=en), Paris, FR - October 6, 2023 - Livio Morina
 - [PeeringDB Operations & Product Update](presentation/20230621_SwiNOG38_Arnold_Nipper.pdf) at [SwiNOG#38](https://www.swinog.ch/meetings/swinog38/), Berne, CH - June 21, 2023 - Arnold Nipper
-- [PeeringDB Update](presentation/20230525_RIPE86_Leo_Vegoda.pdf) at [RIPE 86](https://ripe86.ripe.net/), Rotterdam, NL - May 25, 2023 - Leo Vegoda
+- [PeeringDB Update](presentation/20230525_RIPE86_Leo_Vegoda.pdf) at [RIPE 86](https://ripe86.ripe.net/programme/meeting-plan/connect-wg/), Rotterdam, NL - May 25, 2023 - Leo Vegoda
 - [PeeringDB Operations & Product Update](presentation/20230510_ITNOG7_Arnold_Nipper.pdf) at [ITNOG7](https://www.itnog.it/itnog7/), Bologna, IT - May 9, 2023 - Arnold Nipper
 - [What’s new on PeeringDB?](presentation/20230424_38_Euro-IX_Arnold_Nipper.pdf) at the [38th Euro-IX Forum](https://www.euro-ix.net/en/events/fora/38th-euro-ix-forum/program/), Cluj-Napoca, RO - April 24, 2023 - Arnold Nipper
 - [PeeringDB Operations & Product Update](presentation/20230404_SEE11_Arnold_Nipper.pdf) at [SEE 11](https://www.ripe.net/participate/meetings/regional-meetings/see/see-11), Split, HR - April 5, 2023 - Arnold Nipper
