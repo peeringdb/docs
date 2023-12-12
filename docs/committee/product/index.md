@@ -82,7 +82,9 @@
 - [March 21st, 2017: Meeting Notes](notes/2017-03-21_Product_Committee_Notes.pdf)
 
 ## Members
+- Jeff Bartig
 - Yan Berthier
+- Jack Carrozzo
 - Matt Griswold (Vice Chair)
 - Martin Hannigan
 - Peter Helmenstine
