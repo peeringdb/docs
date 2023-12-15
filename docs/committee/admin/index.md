@@ -18,6 +18,7 @@
 - [May 2nd, 2019: Meeting Notes](notes/2019-05-02_Admin_Committee_Notes.pdf)
 
 ## Members
+- Budiwijaya
 - Shaun Coffey
 - Elizabeth Culley
 - Ron Grant
@@ -30,5 +31,4 @@
 - Julimar Lunguinho Mendes
 - Faisal Reza
 - Tom Samplonius
-- Budi Wijaya
 - Ryan Williams
