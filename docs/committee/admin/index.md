@@ -20,14 +20,15 @@
 ## Members
 - Shaun Coffey
 - Elizabeth Culley
-- Patrick Gilmore (Chair)
 - Ron Grant
-- Chriztoffer Hansen
-- Peter Helmenstine
+- Chriztoffer Hansen (Chair)
+- Peter Helmenstine (Vice Chair)
 - Gaël Hernandez
 - Adam Korab
 - Christopher Malayter (Board Liaison)
+- Crisóstomo Mbundu
 - Julimar Lunguinho Mendes
 - Faisal Reza
 - Tom Samplonius
+- Budi Wijaya
 - Ryan Williams
