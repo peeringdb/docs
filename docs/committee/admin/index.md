@@ -22,11 +22,11 @@
 - Shaun Coffey
 - Elizabeth Culley
 - Ron Grant
-- Chriztoffer Hansen (Chair)
-- Peter Helmenstine (Vice Chair)
+- Chriztoffer Hansen - Chair
+- Peter Helmenstine - Vice Chair
 - Gaël Hernandez
 - Adam Korab
-- Christopher Malayter (Board Liaison)
+- Christopher Malayter - Board Liaison
 - Crisóstomo Mbundu
 - Julimar Lunguinho Mendes
 - Faisal Reza

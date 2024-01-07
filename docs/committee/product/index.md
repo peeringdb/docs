@@ -86,12 +86,13 @@
 - Jeff Bartig
 - Yan Berthier
 - Jack Carrozzo
-- Matt Griswold (Vice Chair)
+- Yolandi Cloete
+- Matt Griswold - Vice Chair
 - Martin Hannigan
 - Peter Helmenstine
-- Aaron Hughes (Board Liaison)
+- Paul Hoogsteder
+- Aaron Hughes - Board Liaison
 - Laurent Jarbinet
-- Stephen McManus (Chair)
+- Stephen McManus - Chair
 - Arnold Nipper
-- Yolandi Robinson
-- Leo Vegoda (Product Manager)
+- Leo Vegoda - Product Manager

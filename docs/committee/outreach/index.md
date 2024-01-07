@@ -33,10 +33,10 @@
 - Lynsey Buckingham
 - Yana Glaub
 - Greg Hankins
-- Aaron Hughes (Board Liaison)
+- Aaron Hughes - Board Liaison
 - Tarryn Kidd
 - Jonathan Martone
 - Livio Morina
 - Arnold Nipper
 - Ester Paal
-- Ben Ryall (Chair)
+- Ben Ryall - Chair
