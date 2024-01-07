@@ -31,7 +31,7 @@ python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install --upgrade poetry
-poetry install
+poetry install --no-root
 ```
 
 Start mkdocs
