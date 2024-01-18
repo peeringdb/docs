@@ -14,13 +14,13 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.54.0 | 2024-01-09 | 2024-01-16 | 2024-01-24 |
+| 2.54.0 | 2024-01-09 | 2024-01-18 | 2024-01-24 |
 | 2.55.0 | 2024-02-07 | 2024-02-14 | 2024-02-21 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
 
 ## Release 2.54.0
 
-Beta Announcement Date: 16 January 2024
+Beta Announcement Date: 18 January 2024
 Release Date: 24 January 2024
 
 | **GitHub issue** | **Summary** |
