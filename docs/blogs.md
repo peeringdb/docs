@@ -2,6 +2,10 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Better Data](blog/better_data.md) - January 19, 2024
+
+## 2023
+
 - [PeeringDB Whois Service to Close](blog/whois_to_close.md) - November 3, 2023
 - [Your Internal Source of Truth Can Now Push Updates to PeeringDB](blog/updates_from_an_internal_source_of_truth.md) - November 2, 2023
 - [See Locations in PeeringDB on a Map](blog/peeringdb_map_with_kmz.md) - October 25, 2023
@@ -17,6 +21,9 @@ PeeringDB blogs provide deeper insight into the releases and product roadmap.
 - [PeeringDB's Product Roadmap for 2023](blog/peeringdb_2023_roadmap.md) - February 6, 2023
 - [Carrier Objects](blog/carrier_object_deployed.md) - January 24, 2023
 - [PeeringDB 2022 Product Report](blog/2022_product_report.md) - January 9, 2023
+
+## 2022
+
 - [Installing peeringdb-py at NANOG 86](blog/installing_peeringdb-py.md) - November 8, 2022
 - [Introducing Analytics](blog/introducing_analytics.md) - November 3, 2022
 - [Data Quality Improvements Rolled Out](blog/data_quality_improvements.md) - October 26, 2022
@@ -28,6 +35,9 @@ PeeringDB blogs provide deeper insight into the releases and product roadmap.
 - [Improve Your Account Security - And Check Our URL](blog/u2f_and_url.md) - March 28, 2022
 - [2021 Survey Results and 2022 Product Roadmap](blog/peeringdb_2021_survey_2022_roadmap.md) - February 10, 2022
 - [PeeringDB is Developed by its Community](blog/peeringdb_is_developed_by_its_community.md) - January 17, 2022
+
+## 2021
+
 - [Guidelines for Registering in PeeringDB](blog/guidelines_for_registering.md) - October 21, 2021
 - [Your Logo Goes Here!](blog/your_logo_goes_here.md) - October 12, 2021
 - [More Details on Facilities](blog/more_details_facilities.md) - September 21, 2021
@@ -42,6 +52,9 @@ PeeringDB blogs provide deeper insight into the releases and product roadmap.
 - [Geographic Search](blog/geographic_search.md) - March 24, 2021
 - [API Keys](blog/api_keys.md) - March 10, 2021
 - [2020 Survey Results and 2021 Product Roadmap](blog/peeringdb_2020_survey_2021_roadmap.md) - March 9, 2021
+
+## 2020
+
 - [Contributing Code to PeeringDB Just Got Easier](blog/contributing_code.md) - December 7, 2020
 - [PeeringDB Release v2.24.0](blog/peeringdb_release_v2.24.0.md) - November 12, 2020
 - [PeeringDB 2020 Satisfaction Survey](blog/peeringdb_2020_satisfaction_survey.md) - November 2, 2020

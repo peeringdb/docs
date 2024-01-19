@@ -2,7 +2,7 @@
 
 PeeringDB users told us in surveys that data quality and search results are their two top priorities. Release 2.54.0 has multiple changes to improve data quality and search results. 
 
-## Report Inaccurate Data
+## Report inaccurate data
 
 One of them is a feature allowing logged in users to report data they believe to be inaccurate. Every page now has a button that lets users report data they believe is inaccurate. The report form lets the user identify the specific element believe to be wrong, along with a reason. If the user knows, they can suggest what the correct data should be.
 
@@ -10,15 +10,15 @@ The Admin Committee will review reports.
 
 ![Report bad data modal](images/Report_bad_data.png)
 
-## Network Types
+## Network types
 
 Many networks provide more than one kind of function. You can now select more than one type for each network you run. 
 
 ![Network type multiselect](images/Network_type_multiselect.png)
 
-The Product Committee considered adding more granularity for network types. They decided against it as not everyone shares the same understanding of terms. Allowing networks to select multiple options is a compromise that doesn't require a breaking change in the API. The Network Type field will probably not be imported into v3 of the API.
+The Product Committee considered adding more granularity for network types. They decided against it, as not everyone shares the same understanding of terms. Allowing networks to select multiple options is a compromise that doesn't require a breaking change in the API. The Network Type field will probably not be imported into v3 of the API.
 
-## Power Choices
+## Power choices
 
 The Available Voltage Services field now only shows non-standard power offers. Everyone expects data centers to offer power at the standard voltages for the country or territory they serve. What users find interesting is the non-standard offers. For the time being we only offer three of these non-standard power options.
 
