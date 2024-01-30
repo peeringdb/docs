@@ -15,8 +15,21 @@ Our releases are generally deployed at around 04:00 UTC.
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
 | 2.54.0 | 2024-01-09 | 2024-01-18 | 2024-01-24 |
-| 2.55.0 | 2024-02-07 | 2024-02-14 | 2024-02-21 |
+| 2.55.0 | 2024-02-07 | 2024-02-21 | 2024-02-28 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
+
+## Release 2.54.1
+
+Beta Announcement Date: 30 January 2024
+
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1511 Non-obvious search box on the front page](https://github.com/peeringdb/peeringdb/issues/1511) | Search bar in header is now auto deployed.|
+| [#1513 Mobile interface front page has lots of misaligned sections](https://github.com/peeringdb/peeringdb/issues/1513) | Fixes layout issues for some mobile devices.|
+| [#1514 Two different search boxes on a network page information page in the same area](https://github.com/peeringdb/peeringdb/issues/1514) | As title.|
+| [#1515 Bottom search box on some pages does not work correctly](https://github.com/peeringdb/peeringdb/issues/1515) | As title.|
+
 
 ## Release 2.54.0
 
