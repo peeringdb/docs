@@ -22,14 +22,12 @@ Our releases are generally deployed at around 04:00 UTC.
 
 Beta Announcement Date: 30 January 2024
 
-
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1511 Non-obvious search box on the front page](https://github.com/peeringdb/peeringdb/issues/1511) | Search bar in header is now auto deployed.|
 | [#1513 Mobile interface front page has lots of misaligned sections](https://github.com/peeringdb/peeringdb/issues/1513) | Fixes layout issues for some mobile devices.|
 | [#1514 Two different search boxes on a network page information page in the same area](https://github.com/peeringdb/peeringdb/issues/1514) | As title.|
 | [#1515 Bottom search box on some pages does not work correctly](https://github.com/peeringdb/peeringdb/issues/1515) | As title.|
-
 
 ## Release 2.54.0
 
@@ -53,7 +51,6 @@ Release Date: 24 January 2024
 | [#1468 translation refresh and dependency update](https://github.com/peeringdb/peeringdb/issues/1468) | As title.|
 | [#1466 Analysis: Investigate use of ECS/Fargate](https://github.com/peeringdb/peeringdb/issues/1466) | As title.|
 | [#1412 Improve performance by updating Python client code](https://github.com/peeringdb/peeringdb/issues/1412) | As title.|
-
 
 ## Older releases
 
