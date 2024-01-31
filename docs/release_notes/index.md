@@ -18,6 +18,15 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.55.0 | 2024-02-07 | 2024-02-21 | 2024-02-28 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
 
+## Release 2.54.2
+
+Production Announcement Date: 31 January 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1536 Support 202311 rollback ux changes](https://github.com/peeringdb/peeringdb/issues/1536) | Reverted web UI changes that caused issues.|
+
+
 ## Release 2.54.1
 
 Beta Announcement Date: 30 January 2024
