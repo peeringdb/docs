@@ -1,7 +1,10 @@
 # PeeringDB Blogs
 
+## 2024
+
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [2023 Product Report](blog/2023_product_report.md) - February 19, 2024
 - [What happened to our web UI?](blog/what_happened_to_our_web_ui.md) - February 5, 2024
 - [Better Data](blog/better_data.md) - January 19, 2024
 
