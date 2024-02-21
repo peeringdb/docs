@@ -14,9 +14,17 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.54.0 | 2024-01-09 | 2024-01-18 | 2024-01-24 |
 | 2.55.0 | 2024-02-07 | 2024-02-21 | 2024-02-28 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
+
+Beta Announcement Date: 21 January 2024
+Release Date: 28 January 2024
+
+## Release 2.55.0
+| [#1410 Adjust IPv4/6 prefix limits automatically](https://github.com/peeringdb/peeringdb/issues/1410) |Max prefix limit is now automatically adjusted based on the DFZ.|
+| [#1455 Org name RIPE-NCC-END-MNT for new networks](https://github.com/peeringdb/peeringdb/issues/1455) |Fixes a bug that named orgs RIPE-NCC-END-MNT.|
+| [#1468 translation refresh and dependency update](https://github.com/peeringdb/peeringdb/issues/1468) |translate.peeringdb.com updated to weblate 5.0 and other dependency updates|
+| [#1480 pdb_load_data no longer creates necessary org usergroups](https://github.com/peeringdb/peeringdb/issues/1480) |Fixes a bug with data sync tool.|
 
 ## Release 2.54.2
 
