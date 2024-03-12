@@ -14,12 +14,31 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.55.0 | 2024-02-07 | 2024-02-21 | 2024-02-28 |
 | 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
 | 2.57.0 | 2024-04-10 | 2024-04-17 | 2024-04-24 |
 | 2.58.0 | 2024-05-21 | 2024-05-29 | 2024-06-05 |
 | 2.59.0 | 2024-06-12 | 2024-06-19 | 2024-06-26 |
 | 2.60.0 | 2024-07-10 | 2024-07-17 | 2024-07-24 |
+
+## Release 2.56.0
+
+Beta Announcement Date: 13 March 2024
+Release Date: 20 March 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1447 v2 search - support for ISO 3166 alpha-2 country codes](https://github.com/peeringdb/peeringdb/issues/1447) v2 search now has support for ISO 3166 alpha-2 codes.|
+| [#1495 Enable .KMZ export for Advanced Search results](https://github.com/peeringdb/peeringdb/issues/1495) As title.|
+| [#1489 Remove unneeded fields from the KMZ](https://github.com/peeringdb/peeringdb/issues/1489) Removes field clutter to optimize file size.|
+| [#1490 Spelling fix for KMZ](https://github.com/peeringdb/peeringdb/issues/1490) Fixes spelling of 'Latitude'.|
+| [#1099 Expose authentication methods on outbound federation](https://github.com/peeringdb/peeringdb/issues/1099) Adds Authentication Method Reference field to OAuth profile, with choices from [Section 2 of RFC8176](https://www.rfc-editor.org/rfc/rfc8176#section-2), documentation, and scope.|
+| [#1133 Return auth error when multiple auth methods are used](https://github.com/peeringdb/peeringdb/issues/1133) Now returns a 401 code with a helpful message when `Authorization: Basic` fails with corrupt base64 input. |
+| [#1456 Duplicate AS-SET name](https://github.com/peeringdb/peeringdb/issues/1456) Adds a tooltip suggesting hierarchical AS-SET names and a warning if a duplicate name is entered.|
+| [#1331 BFD support field in Global and IX specific views](https://github.com/peeringdb/peeringdb/issues/1331) Adds a boolean value for BFD support per IP address and a mouseover icon on the website when it's true.|
+| [#1478 Social link controls showing up when not logged in](https://github.com/peeringdb/peeringdb/issues/14788) Fixes a cosmetic bug that showed non-operational social media controls when not logged in.|
+| [#1425 Update social media icons in footer](https://github.com/peeringdb/peeringdb/issues/1425) Updates social media icons in the footer.|
+| [#1152 Tab URLs don't work anymore](https://github.com/peeringdb/peeringdb/issues/1152) Fixes tab URLs in the admin interface.|
+
 
 ## Release 2.55.0
 
