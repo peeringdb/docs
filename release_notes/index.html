@@ -139,6 +139,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2560" class="nav-link">Release 2.56.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2550" class="nav-link">Release 2.55.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -184,12 +188,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.55.0</td>
-<td>2024-02-07</td>
-<td>2024-02-21</td>
-<td>2024-02-28</td>
-</tr>
-<tr>
 <td>2.56.0</td>
 <td>2024-03-06</td>
 <td>2024-03-13</td>
@@ -221,6 +219,63 @@
 </tr>
 </tbody>
 </table>
+<h2 id="release-2560">Release 2.56.0</h2>
+<p>Beta Announcement Date: 13 March 2024<br />
+Release Date: 20 March 2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1447">#1447 v2 search - support for ISO 3166 alpha-2 country codes</a></td>
+<td>v2 search now has support for ISO 3166 alpha-2 codes.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1495">#1495 Enable .KMZ export for Advanced Search results</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1489">#1489 Remove unneeded fields from the KMZ</a></td>
+<td>Removes field clutter to optimize file size.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1490">#1490 Spelling fix for KMZ</a></td>
+<td>Fixes spelling of 'Latitude'.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1099">#1099 Expose authentication methods on outbound federation</a></td>
+<td>Adds Authentication Method Reference field to OAuth profile, with choices from <a href="https://www.rfc-editor.org/rfc/rfc8176#section-2">Section 2 of RFC8176</a>, documentation, and scope.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1133">#1133 Return auth error when multiple auth methods are used</a></td>
+<td>Now returns a 401 code with a helpful message when <code>Authorization: Basic</code> fails with corrupt base64 input.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1456">#1456 Duplicate AS-SET name</a></td>
+<td>Adds a tooltip suggesting hierarchical AS-SET names and a warning if a duplicate name is entered.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1331">#1331 BFD support field in Global and IX specific views</a></td>
+<td>Adds a boolean value for BFD support per IP address and a mouseover icon on the website when it's true.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/14788">#1478 Social link controls showing up when not logged in</a></td>
+<td>Fixes a cosmetic bug that showed non-operational social media controls when not logged in.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1425">#1425 Update social media icons in footer</a></td>
+<td>Updates social media icons in the footer.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1152">#1152 Tab URLs don't work anymore</a></td>
+<td>Fixes tab URLs in the admin interface.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="release-2550">Release 2.55.0</h2>
 <p>Beta Announcement Date: 21 February 2024<br />
 Release Date: 28 February 2024</p>
@@ -242,7 +297,7 @@ Release Date: 28 February 2024</p>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/1468">#1468 translation refresh and dependency update</a></td>
-<td>translate.peeringdb.com updated to weblate 5.0 and other dependency updates</td>
+<td>translate.peeringdb.com updated to weblate 5.0 and other dependency updates.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/1480">#1480 pdb_load_data no longer creates necessary org usergroups</a></td>
