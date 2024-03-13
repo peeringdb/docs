@@ -35,7 +35,7 @@ Release Date: 20 March 2024
 | [#1133 Return auth error when multiple auth methods are used](https://github.com/peeringdb/peeringdb/issues/1133) |Now returns a 401 code with a helpful message when `Authorization: Basic` fails with corrupt base64 input. |
 | [#1456 Duplicate AS-SET name](https://github.com/peeringdb/peeringdb/issues/1456) |Adds a tooltip suggesting hierarchical AS-SET names and a warning if a duplicate name is entered.|
 | [#1331 BFD support field in Global and IX specific views](https://github.com/peeringdb/peeringdb/issues/1331) |Adds a boolean value for BFD support per IP address and a mouseover icon on the website when it's true.|
-| [#1478 Social link controls showing up when not logged in](https://github.com/peeringdb/peeringdb/issues/14788) |Fixes a cosmetic bug that showed non-operational social media controls when not logged in.|
+| [#1478 Social link controls showing up when not logged in](https://github.com/peeringdb/peeringdb/issues/1478) |Fixes a cosmetic bug that showed non-operational social media controls when not logged in.|
 | [#1425 Update social media icons in footer](https://github.com/peeringdb/peeringdb/issues/1425) |Updates social media icons in the footer.|
 | [#1152 Tab URLs don't work anymore](https://github.com/peeringdb/peeringdb/issues/1152) |Fixes tab URLs in the admin interface.|
 
