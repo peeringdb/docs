@@ -9,7 +9,7 @@
 
 ## Meeting notes
 
-- [March 14the, 2024: Meeting Notes](notes/2024-03-14_Product_Committee_Notes.pdf)
+- [March 14th, 2024: Meeting Notes](notes/2024-03-14_Product_Committee_Notes.pdf)
 - [February 1st, 2024: Meeting Notes](notes/2024-02-01_Product_Committee_Notes.pdf)
 - [January 4th, 2024: Meeting Notes](notes/2024-01-04_Product_Committee_Notes.pdf)
 - [December 7th, 2023: Meeting Notes](notes/2023-12-07_Product_Committee_Notes.pdf)
