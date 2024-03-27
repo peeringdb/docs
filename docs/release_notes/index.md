@@ -14,11 +14,20 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.56.0 | 2024-03-06 | 2024-03-13 | 2024-03-20 |
 | 2.57.0 | 2024-04-10 | 2024-04-17 | 2024-04-24 |
 | 2.58.0 | 2024-05-21 | 2024-05-29 | 2024-06-05 |
 | 2.59.0 | 2024-06-12 | 2024-06-19 | 2024-06-26 |
 | 2.60.0 | 2024-07-10 | 2024-07-17 | 2024-07-24 |
+
+## Release 2.56.1
+
+Beta Release Date: 27 March 2024
+Release Date: 27 March 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1581 rdap to 1.5.2](https://github.com/peeringdb/peeringdb/pull/1581) | Merge third-party library needed for complete fix of [#1455](https://github.com/peeringdb/peeringdb/issues/1455).|
+
 
 ## Release 2.56.0
 
