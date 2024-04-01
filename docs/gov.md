@@ -89,6 +89,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 14th, 2024: Board election voter's guide](gov/misc/2024-04-14_election.html)
 - [April 30th, 2023: Board election results](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2023: Board election voter's guide](gov/misc/2023-04-14_election.html)
 - [April 30th, 2022: Board election results](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf)
