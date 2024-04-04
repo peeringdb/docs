@@ -88,7 +88,7 @@ The [presentations](presentations.md) page has a complete list of PeeringDB pres
 
 #### Source code audit
 
-PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Computest](https://www.computest.nl/) (the auditor) prepared a __Third Pary Memo__, this memo provides a high level overview of the outcome of the source code audit. The report is available [here](gov/misc/2018-05-16_Computest_Source_Code_Audit_TPM.pdf).
+PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Computest](https://www.computest.nl/) (the auditor) prepared a __Third Party Memo__, this memo provides a high level overview of the outcome of the source code audit. The report is available [here](gov/misc/2018-05-16_Computest_Source_Code_Audit_TPM.pdf).
 
 ## Beta development
 
