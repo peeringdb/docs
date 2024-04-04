@@ -21,7 +21,6 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.56.1
 
-Beta Release Date: 27 March 2024
 Release Date: 27 March 2024
 
 | **GitHub issue** | **Summary** |
