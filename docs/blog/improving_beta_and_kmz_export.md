@@ -6,7 +6,7 @@ Just over half a percent of users visit [beta.peeringdb.com](https://beta.peerin
 
 On the good side, people are pretty happy with [www.peeringdb.com](https://www.peeringdb.com). But on the bad side, we only used to refresh the data in [beta.peeringdb.com](https://beta.peeringdb.com) once a month.
 
-But we've changed that. As of release 2.57.0, our beta site refreshes once an hour. This means it's an ideal place to test your searches each month – and get early access to new search features. 
+We're getting ready to refresh data on our beta site every hour. That will come soon. It will make it an ideal place to test your searches each month – and get early access to new search features. 
 
 Of course, you can also test making updates on our beta site. But any changes you make will be wiped at the next refresh.
 
