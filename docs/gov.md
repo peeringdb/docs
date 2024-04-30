@@ -89,6 +89,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Surveys & Elections
 
+- [April 30th, 2024: Board election results](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2024: Board election voter's guide](gov/misc/2024-04-14_election.html)
 - [April 30th, 2023: Board election results](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf)
 - [April 14th, 2023: Board election voter's guide](gov/misc/2023-04-14_election.html)
@@ -114,9 +115,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Board of Directors
 
 - Seat 1 (term expires 2025): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
-- Seat 2 (term expires 2024): [Job Snijders](mailto:job@peeringdb.com), 2015-
+- Seat 2 (term expires 2026): [Job Snijders](mailto:job@peeringdb.com), 2015-
 - Seat 3 (term expires 2025): [Rahul Makhija](mailto:rahul@peeringdb.com), 2023-
-- Seat 4 (term expires 2024): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
+- Seat 4 (term expires 2026): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
 - Seat 5 (term expires 2025): [Livio Morina](mailto:livio@peeringdb.com), 2023-
 
 ## Officers
