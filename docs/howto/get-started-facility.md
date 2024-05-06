@@ -55,6 +55,8 @@ A `campus` is two or more facilities owned by the same organization where custom
 
 When you have two facilities you can create a `campus` using the Add Campus tab in the “Manage” menu below your organization.
 
+PeeringDB relies on facility operators to decide whether their interconnected facilities should be listed as a campus.
+
 ![Add Campus](images/add_campus.png)
 
 ## Next steps
