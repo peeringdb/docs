@@ -18,6 +18,8 @@
 - [May 2nd, 2019: Meeting Notes](notes/2019-05-02_Admin_Committee_Notes.pdf)
 
 ## Members
+- Ankesh Anand
+- Austin Brower
 - Budiwijaya
 - Shaun Coffey
 - Elizabeth Culley
