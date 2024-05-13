@@ -55,7 +55,9 @@ A `campus` is two or more facilities owned by the same organization where custom
 
 When you have two facilities you can create a `campus` using the Add Campus tab in the “Manage” menu below your organization.
 
-PeeringDB relies on facility operators to decide whether their interconnected facilities should be listed as a campus.
+PeeringDB relies on facility operators to decide whether their interconnected facilities should be listed as a campus. 
+
+Facilities need to be within 50 kilometers of each other. The software enforces this limit to help users avoid configuration mistakes. 
 
 ![Add Campus](images/add_campus.png)
 
