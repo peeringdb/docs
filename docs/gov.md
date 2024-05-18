@@ -5,6 +5,21 @@
 
 PeeringDB, a nonprofit member-based organization, facilitates the interconnection of Internet networks globally, with user-maintained information.
 
+## Organizational Documents
+
+- [Organizational Consent (2015-12-08)](gov/legaldocs/2015-12-08_PeeringDB_Organizational_Consent.pdf)
+- [Certificate and Articles of Incorporation (2015-12-16)](gov/legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf)
+- [Bylaws (2024-05-18)](gov/legaldocs/2024-05-18_PeeringDB_Bylaws.pdf)
+
+## Policies
+
+- [Acceptable Use Policy](https://www.peeringdb.com/aup)
+- [Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
+- [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
+- [Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
+- [Press Release Policy](gov/legaldocs/2022-12-24_PeeringDB_Press_Release_Policy.pdf)
+- [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
+
 ## Member Meetings
 
 - April 18th, 2024: [Agenda](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Audio.mp3) - [Video](https://youtu.be/dfNHXOw-lvk)
@@ -17,24 +32,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - April 20th, 2017: [Agenda](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2017-04-20_PeeringDB_Member_Meeting_Audio.mp3)
 - April 21st, 2016: [Agenda](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2016-04-21_PeeringDB_Member_Meeting_Audio.mp3)
 
-## Strategic Plan & Organizational Objectives
+## Board Meetings & Consents
 
-- [2020-2021](gov/misc/2020-05-21-PeeringDB_Strategic_Plan_2020-2021.pdf)
-- [2019-2020](gov/misc/2019-05-20-PeeringDB_Strategic_Plan_2019-2020.pdf)
-- [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
-
-## Policies
-
-- [Acceptable Use Policy](https://www.peeringdb.com/aup)
-- [Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
-- [Data Ownership Policy](gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf)
-- [Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
-- [Press Release Policy](gov/legaldocs/2022-12-24_PeeringDB_Press_Release_Policy.pdf)
-- [Privacy Policy](gov/misc/2017-04-02-PeeringDB_Privacy_Policy.pdf)
-
-## Board Meetings
-
-- 2024: [2024-02-27](gov/legaldocs/2024-02-27_PeeringDB_Board_Minutes.pdf)
+- 2024: [2024-05-18](gov/legaldocs/2024-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2024-02-27](gov/legaldocs/2024-02-27_PeeringDB_Board_Minutes.pdf)
 - 2023: [2023-08-11](gov/legaldocs/2023-08-11_PeeringDB_Board_Minutes.pdf) [2023-05-18](gov/legaldocs/2023-05-18_PeeringDB_Board_Minutes.pdf) [2023-05-08](gov/legaldocs/2023-05-08_PeeringDB_Board_Minutes.pdf)
 - 2022: [2022-07-29](gov/legaldocs/2022-07-29_PeeringDB_Board_Minutes.pdf)
 - 2021: [2021-09-01](gov/legaldocs/2021-09-01_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2021-01-13](gov/legaldocs/2021-01-13_PeeringDB_Board_Minutes.pdf)
@@ -45,73 +45,30 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - 2016: [2016-12-02](gov/legaldocs/2016-12-02_PeeringDB_Board_Minutes.pdf), [2016-09-22](gov/legaldocs/2016-09-22_PeeringDB_Board_Minutes.pdf), [2016-08-10](gov/legaldocs/2016-08-10_PeeringDB_Board_Minutes.pdf), [2016-07-01](gov/legaldocs/2016-07-01_PeeringDB_Board_Minutes.pdf), [2016-05-18](gov/legaldocs/2016-05-18_PeeringDB_Board_Minutes.pdf), [2016-04-06](gov/legaldocs/2016-04-06_PeeringDB_Board_Minutes.pdf), [2016-03-04](gov/legaldocs/2016-03-04_PeeringDB_Board_Minutes.pdf), [2016-02-04](gov/legaldocs/2016-02-04_PeeringDB_Board_Minutes.pdf), [2016-01-07](gov/legaldocs/2016-01-07_PeeringDB_Board_Minutes.pdf)
 - 2015: [2015-12-08](gov/legaldocs/2015-12-08_PeeringDB_Board_Minutes.pdf)
 
+## Strategic Plan & Organizational Objectives
+
+- [2020-2021](gov/misc/2020-05-21-PeeringDB_Strategic_Plan_2020-2021.pdf)
+- [2019-2020](gov/misc/2019-05-20-PeeringDB_Strategic_Plan_2019-2020.pdf)
+- [2017-2018 *DRAFT*](gov/misc/2017-02-09-PeeringDB_Strategic_Plan_2017-2018-DRAFT.pdf)
+
 ## Finances
 
-- [May 12th, 2024: IRS Form 990 for 2023](gov/finances/2024-05-12_2023_Form_990.pdf)
-- [December 31st, 2023: Finance Report](gov/finances/2023-12-31_PeeringDB_Finances.pdf)
-- [May 9th, 2023: IRS Form 990 for 2022](gov/finances/2023-05-09_2022_Form_990.pdf)
-- [December 31st, 2022: Finance Report](gov/finances/2022-12-31_PeeringDB_Finances.pdf)
-- [May 10th, 2022: IRS Form 990 for 2021](gov/finances/2022-05-10_2021_Form_990.pdf)
-- [December 31st, 2021: Finance Report](gov/finances/2021-12-31_PeeringDB_Finances.pdf)
-- [May 12th, 2021: IRS Form 990-EZ for 2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf)
-- [December 31st, 2020: Finance Report](gov/finances/2020-12-31_PeeringDB_Finances.pdf)
-- [May 13th, 2020: IRS Form 990-EZ for 2019](gov/finances/2020-05-13_2019_Form_990-EZ.pdf)
-- [December 31st, 2019: Finance Report](gov/finances/2019-12-31_PeeringDB_Finances.pdf)
-- [September 17th, 2019: IRS Form W-9](gov/finances/2019-09-17_PeeringDB_IRS_Form_W-9.pdf)
-- [May 9th, 2019: IRS Form 990-EZ for 2018](gov/finances/2019-05-09_2018_Form_990-EZ.pdf)
-- [December 31st, 2018: Finance Report](gov/finances/2018-12-31_PeeringDB_Finances.pdf)
-- [May 11th, 2018: IRS Form 990-EZ for 2017](gov/finances/2018-05-11_2017_Form_990-EZ.pdf)
-- [December 31st, 2017: Finance Report](gov/finances/2017-12-31_PeeringDB_Finances.pdf)
-- [May 10th, 2017: IRS Form 990-EZ for 2016](gov/finances/2017-05-10_2016_Form_990-EZ.pdf)
-- [December 31st, 2016: Finance Report](gov/finances/2016-12-31_PeeringDB_Finances.pdf)
-- [February 24th, 2016: IRS 501(c)(6) Exemption Letter](gov/finances/2016-02-24_PeeringDB_IRS_501(c)(6)_Exemption_Letter.pdf)
-- [February 23rd, 2016: IRS Form 990-N for 2014](gov/finances/2016-02-23_2014_Form 990-N.pdf)
-- [February 18th, 2016: IRS Form 990-N for 2015](gov/finances/2016-02-18_2015_Form 990-N.pdf)
-- [January 7th, 2016: IRS 501(c)(6) Application](gov/finances/2016-01-07_PeeringDB_Non_Profit_Filing.pdf)
-- [December 31st, 2015: Finance Report](gov/finances/2015-12-31_PeeringDB_Finances.pdf)
-- [December 31st, 2014: Finance Report](gov/finances/2014-12-31_PeeringDB_Finances.pdf)
+- Finance Reports: [2023](gov/finances/2023-12-31_PeeringDB_Finances.pdf), [2022](gov/finances/2022-12-31_PeeringDB_Finances.pdf), [2021](gov/finances/2021-12-31_PeeringDB_Finances.pdf), [2020](gov/finances/2020-12-31_PeeringDB_Finances.pdf), [2019](gov/finances/2019-12-31_PeeringDB_Finances.pdf), [2018](gov/finances/2018-12-31_PeeringDB_Finances.pdf), [2017](gov/finances/2017-12-31_PeeringDB_Finances.pdf), [2016](gov/finances/2016-12-31_PeeringDB_Finances.pdf), [2015](gov/finances/2015-12-31_PeeringDB_Finances.pdf), [2014](gov/finances/2014-12-31_PeeringDB_Finances.pdf)
+- IRS Form 990 Tax Exempt Return: [2023](gov/finances/2024-05-12_2023_Form_990.pdf), [2022](gov/finances/2023-05-09_2022_Form_990.pdf), [2021](gov/finances/2022-05-10_2021_Form_990.pdf), [2020](gov/finances/2021-05-12_2020_Form_990-EZ.pdf), [2019](gov/finances/2020-05-13_2019_Form_990-EZ.pdf), [2018](gov/finances/2019-05-09_2018_Form_990-EZ.pdf), [2017](gov/finances/2018-05-11_2017_Form_990-EZ.pdf), [2016](gov/finances/2017-05-10_2016_Form_990-EZ.pdf), [2015](gov/finances/2016-02-18_2015_Form 990-N.pdf), [2014](gov/finances/2016-02-23_2014_Form 990-N.pdf)
+- [IRS Form W-9: Request for Taxpayer Identification Number and Certification (2019-09-17)](gov/finances/2019-09-17_PeeringDB_IRS_Form_W-9.pdf)
+- [IRS Exemption Letter for 501(c)(6) (2016-02-24)](gov/finances/2016-02-24_PeeringDB_IRS_501(c)(6)_Exemption_Letter.pdf)
+- [IRS Form 1024: Application for Recognition of Exemption Under Section 501(c)(6) (2016-01-07)](gov/finances/2016-01-07_PeeringDB_Non_Profit_Filing.pdf)
 
-## Organizational Documents
+## Washington State Nonprofit Corporation Annual Reports
 
-- [November 3rd, 2023: Annual Report](gov/legaldocs/2023-11-03_PeeringDB_Annual_Report.pdf)
-- [November 1st, 2022: Annual Report](gov/legaldocs/2022-11-01_PeeringDB_Annual_Report.pdf)
-- [November 1st, 2021: Annual Report](gov/legaldocs/2021-11-01_PeeringDB_Annual_Report.pdf)
-- [November 2nd, 2020: Annual Report](gov/legaldocs/2020-11-02_PeeringDB_Annual_Report.pdf)
-- [November 1st, 2019: Annual Report](gov/legaldocs/2019-11-01_PeeringDB_Annual_Report.pdf)
-- [November 1st, 2018: Annual Report](gov/legaldocs/2018-11-01_PeeringDB_Annual_Report.pdf)
-- [December 1st, 2017: Annual Report](gov/legaldocs/2017-12-01_PeeringDB_Annual_Report.pdf)
-- [May 18th, 2017: Financial Controls Policy](gov/legaldocs/2017-05-18_PeeringDB_Financial_Controls_Policy.pdf)
-- [December 1st, 2016: Annual Report](gov/legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf)
-- [May 18th, 2016: Amended Annual Report](gov/legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf)
-- [December 16th, 2015: Certificate and Articles of Incorporation](gov/legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf)
-- [December 8th, 2015: Organizational Consent](gov/legaldocs/2015-12-08_PeeringDB_Organizational_Consent.pdf)
-- [December 8th, 2015: Bylaws](gov/legaldocs/2015-12-08_PeeringDB_Bylaws.pdf)
-- [December 8th, 2015: Conflict of Interest Policy](gov/legaldocs/2015-12-08_PeeringDB_Conflict_of_Interest_Policy.pdf)
+- [2023-11-03](gov/legaldocs/2023-11-03_PeeringDB_Annual_Report.pdf), [2022-11-01](gov/legaldocs/2022-11-01_PeeringDB_Annual_Report.pdf), [2021-11-01](gov/legaldocs/2021-11-01_PeeringDB_Annual_Report.pdf), [2020-11-02](gov/legaldocs/2020-11-02_PeeringDB_Annual_Report.pdf), [2019-11-01](gov/legaldocs/2019-11-01_PeeringDB_Annual_Report.pdf), [2018-11-01](gov/legaldocs/2018-11-01_PeeringDB_Annual_Report.pdf), [2017-12-01](gov/legaldocs/2017-12-01_PeeringDB_Annual_Report.pdf), [2016-12-01](gov/legaldocs/2016-12-01_PeeringDB_Annual_Report.pdf), [2016-05-18](gov/legaldocs/2016-05-18_PeeringDB_Amended_Annual_Report.pdf) 
 
-## Surveys & Elections
+## Elections & Surveys
 
-- [April 30th, 2024: Board election results](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2024: Board election voter's guide](gov/misc/2024-04-14_election.html)
-- [April 30th, 2023: Board election results](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2023: Board election voter's guide](gov/misc/2023-04-14_election.html)
-- [April 30th, 2022: Board election results](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2022: Board election voter's guide](gov/misc/2022-04-14_election.html)
-- [April 30th, 2021: Board election results](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2021: Board election voter's guide](gov/misc/2021-04-14_election.html)
-- [April 30th, 2020: Board election results](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2020: Board election voter's guide](gov/misc/2020-04-14_election.html)
-- [April 30th, 2019: Board election results](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2019: Board election voter's guide](gov/misc/2019-04-14_election.html)
-- [April 30th, 2018: Board election results](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2018: Board election voter's guide](gov/misc/2018-04-14_election.html)
-- [April 30th, 2017: Board election results](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2017: Board election voter's guide](gov/misc/2017-04-14_election.html)
-- [April 30th, 2016: Board election results](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf)
-- [April 14th, 2016: Board election voter's guide](gov/misc/2016-04-14_election.html)
-- [December 1st, 2015: Board election results](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
-- [November 14th, 2015: Board election voter's guide](gov/misc/2015-11-14_election.html)
-- [October 20th, 2015: Announcement of survey results and Board election plan](gov/misc/2015-10-20_Announcement.txt)
-- [August, 2015: Survey for future of PeeringDB](gov/misc/2015-08-00_PDB_Survey_results.pdf)
+- Election Results: [2024](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf), [2023](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf), [2022](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf), [2021](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf), [2020](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf), [2019](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf), [2018](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf), [2017](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf), [2016](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf), [2015](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
+- Voter's Guides: [2024](gov/misc/2024-04-14_election.html), [2023](gov/misc/2023-04-14_election.html), [2022](gov/misc/2022-04-14_election.html), [2021](gov/misc/2021-04-14_election.html), [2020](gov/misc/2020-04-14_election.html), [2019](gov/misc/2019-04-14_election.html), [2018](gov/misc/2018-04-14_election.html), [2017](gov/misc/2017-04-14_election.html), [2016](gov/misc/2016-04-14_election.html), [2015](gov/misc/2015-11-14_election.html)
+- [Announcement of survey results and Board election plan (2015-10-20)](gov/misc/2015-10-20_Announcement.txt)
+- [Survey for future of PeeringDB (2015-08)](gov/misc/2015-08-00_PDB_Survey_results.pdf)
 
 ## Board of Directors
 
