@@ -89,7 +89,7 @@
 ## Members
 - Jeff Bartig
 - Yan Berthier
-- Jack Carrozzo
+- Jack Carrozzo - Chair
 - Yolandi Cloete
 - Matt Griswold - Vice Chair
 - Martin Hannigan
@@ -97,6 +97,6 @@
 - Paul Hoogsteder
 - Aaron Hughes - Board Liaison
 - Laurent Jarbinet
-- Stephen McManus - Chair
+- Stephen McManus
 - Arnold Nipper
 - Leo Vegoda - Product Manager
