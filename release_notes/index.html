@@ -139,6 +139,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2580" class="nav-link">Release 2.58.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2570" class="nav-link">Release 2.57.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -196,12 +200,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.57.0</td>
-<td>2024-04-10</td>
-<td>2024-04-17</td>
-<td>2024-04-24</td>
-</tr>
-<tr>
 <td>2.58.0</td>
 <td>2024-05-21</td>
 <td>2024-05-29</td>
@@ -218,6 +216,79 @@
 <td>2024-07-10</td>
 <td>2024-07-17</td>
 <td>2024-07-24</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2580">Release 2.58.0</h2>
+<p>Beta Announcement Date: 29 May 2024<br />
+Release Date: 5 June 2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1343">#1343 Inconsistent return results when querying facilities by state (Datafill)</a></td>
+<td>Enforces state naming on validation and normalize data.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1502">#1502 Create preview.peeringdb.com with updated web UI</a></td>
+<td>Preview site for new PeeringDB web design.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1414">#1414 Tooltip with Full IX Name on Mouse-Over IX-Abbreviation</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1115">#1115 Enhancement to Ownership Information Field</a></td>
+<td>Lessee tooltip now says "Leased or Rented".</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1487">#1487 URL Referrer Behavior</a></td>
+<td>Clicking on a link now opens it in a new tab or window.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/840">#840 Add help text to "Traffic Levels"</a></td>
+<td>Add tooltip "Total, self-classified traffic in/out to this network.".</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1491">#1491 Add logo watermark and peeringdb.com URL to kmz</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/975">#975 "Incomplete data" complainer for Peering Policy even with General Policy "None" or "Open"</a></td>
+<td>No longer show missing data warning for empty Peering Policy field if General Policy is set to "Open" or "No".</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/pull/1580">#1580 Validator: Add validator for X usernames, were requirements</a></td>
+<td>Validator for usernames on the X social media network.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1481">#1481 Network Registration fail results in AC action and retry failure</a></td>
+<td>Improved network registration process where email address does not match RDAP output.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1500">#1500 pdb_stats needs to be updated to include Campuses, Carriers, etc. &amp; possible bug with user counts</a></td>
+<td>Improvements to internal stats package.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1503">#1503 Is it possible to create an affiliation request even when the ASN (~Net) has been deleted? (But the ORG still exist)</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1038">#1038 add default for config key</a></td>
+<td>MELISSA_KEY now defaults to a blank string.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1048">#1048 TOTP devices sort is by id. However, only username is shown</a></td>
+<td>Fixes a UI bug with internal support tools.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb-py/issues/85">#85 DB sync fails due to duplicate entries</a></td>
+<td>Fixes a <a href="https://docs.peeringdb.com/howto/peeringdb-py/">peeringdb-py</a> data sync bug.</td>
 </tr>
 </tbody>
 </table>
