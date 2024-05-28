@@ -41,7 +41,6 @@ Release Date: 5 June 2024
 | [#1048 TOTP devices sort is by id. However, only username is shown](https://github.com/peeringdb/peeringdb/issues/1048) | Fixes a UI bug with internal support tools.|
 | [#85 DB sync fails due to duplicate entries](https://github.com/peeringdb/peeringdb-py/issues/85) | Fixes a [peeringdb-py](https://docs.peeringdb.com/howto/peeringdb-py/) data sync bug.|
 
-
 ## Release 2.57.0
 
 Beta Announcement Date: 17 April 2024
@@ -65,7 +64,6 @@ Release Date: 24 April 2024
 | [#1453 DELETION PREVENTED: Link is not formatted as <a> html element](https://github.com/peeringdb/peeringdb/pull/1453) | Fixes a bug in an internal support tool.|
 | [#1484 Update ORG Social Media Option "Twitter" to "X"](https://github.com/peeringdb/peeringdb/pull/1484) | As title.|
 
-
 ## Release 2.56.1
 
 Release Date: 27 March 2024
@@ -73,7 +71,6 @@ Release Date: 27 March 2024
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1581 rdap to 1.5.2](https://github.com/peeringdb/peeringdb/pull/1581) | Merge third-party library needed for complete fix of [#1455](https://github.com/peeringdb/peeringdb/issues/1455).|
-
 
 ## Release 2.56.0
 
