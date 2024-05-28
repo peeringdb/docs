@@ -14,10 +14,33 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.57.0 | 2024-04-10 | 2024-04-17 | 2024-04-24 |
 | 2.58.0 | 2024-05-21 | 2024-05-29 | 2024-06-05 |
 | 2.59.0 | 2024-06-12 | 2024-06-19 | 2024-06-26 |
 | 2.60.0 | 2024-07-10 | 2024-07-17 | 2024-07-24 |
+
+## Release 2.58.0
+
+Beta Announcement Date: 29 May 2024
+Release Date: 5 June 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1343 Inconsistent return results when querying facilities by state (Datafill)](https://github.com/peeringdb/peeringdb/issues/1343) | Enforces state naming on validation and normalize data.|
+| [#1502 Create preview.peeringdb.com with updated web UI](https://github.com/peeringdb/peeringdb/issues/1502) | Preview site for new PeeringDB web design.|
+| [#1414 Tooltip with Full IX Name on Mouse-Over IX-Abbreviation](https://github.com/peeringdb/peeringdb/issues/1414) | As title.|
+| [#1115 Enhancement to Ownership Information Field](https://github.com/peeringdb/peeringdb/issues/1115) | Lessee tooltip now says "Leased or Rented".|
+| [#1487 URL Referrer Behavior](https://github.com/peeringdb/peeringdb/issues/1487) | Clicking on a link now opens it in a new tab or window.|
+| [#840 Add help text to "Traffic Levels"](https://github.com/peeringdb/peeringdb/issues/840) | Add tooltip "Total, self-classified traffic in/out to this network.".|
+| [#1491 Add logo watermark and peeringdb.com URL to kmz](https://github.com/peeringdb/peeringdb/issues/1491) | As title.|
+| [#975 "Incomplete data" complainer for Peering Policy even with General Policy "None" or "Open"](https://github.com/peeringdb/peeringdb/issues/975) | No longer show missing data warning for empty Peering Policy field if General Policy is set to "Open" or "No".|
+| [#1580 Validator: Add validator for X usernames, were requirements](https://github.com/peeringdb/peeringdb/pull/1580) | Validator for usernames on the X social media network.|
+| [#1481 Network Registration fail results in AC action and retry failure](https://github.com/peeringdb/peeringdb/issues/1481) | Improved network registration process where email address does not match RDAP output.|
+| [#1500 pdb_stats needs to be updated to include Campuses, Carriers, etc. & possible bug with user counts](https://github.com/peeringdb/peeringdb/issues/1500) | Improvements to internal stats package.|
+| [#1503 Is it possible to create an affiliation request even when the ASN (~Net) has been deleted? (But the ORG still exist)](https://github.com/peeringdb/peeringdb/issues/1503) | As title.|
+| [#1038 add default for config key](https://github.com/peeringdb/peeringdb/issues/1038) | MELISSA_KEY now defaults to a blank string.|
+| [#1048 TOTP devices sort is by id. However, only username is shown](https://github.com/peeringdb/peeringdb/issues/1048) | Fixes a UI bug with internal support tools.|
+| [#85 DB sync fails due to duplicate entries](https://github.com/peeringdb/peeringdb-py/issues/85) | Fixes a [peeringdb-py](https://docs.peeringdb.com/howto/peeringdb-py/) data sync bug.|
+
 
 ## Release 2.57.0
 
