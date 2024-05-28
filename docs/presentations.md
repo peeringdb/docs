@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [PeeringDB Update](presentation/20240528_LINX122_Ben_Ryall.pdf) at [LINX122](https://www.linx.net/events/linx122/), London, UK - May 28, 2024 - Ben Ryall
 - [What's new on PeeringDB?](presentation/20240507_ITNOG9_Morina_Livio_rev2.pdf) at [ITNOG8](https://www.itnog.it/itnog8/), Bologna, IT - May 7, 2024 - Livio Morina
 - [PeeringDB Introduction & Update](presentation/20240429_SANOG41_Arnold_Nipper.pdf) at [SANOG 41](https://www.sanog.org/sanog41/program.html), Mumbai, IN - April 29, 2024 - Arnold Nipper
 - [What's new on PeeringDB?](presentation/20240422_SEE12_Morina_Livio.pdf) at [SEE 12](https://www.ripe.net/membership/meetings/regional-meetings/see/see-12/), Athens, GR - April 22, 2024 - Livio Morina
