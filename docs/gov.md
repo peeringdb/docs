@@ -82,7 +82,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 - [Christopher Malayter](mailto:mustang@peeringdb.com), President, 2023-
 - [Aaron Hughes](mailto:aaronh@peeringdb.com), Vice President, 2023-
-- [Chris Caputo](mailto:ccaputo@peeringdb.com), Secretary & Treasurer, 2015-
+- [Shawna Bong](mailto:shawna@peeringdb.com), Secretary & Treasurer, 2024-
 
 ## Admin Committee
 
@@ -102,6 +102,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Alumni
 
+- Chris Caputo, Secretary & Treasurer 2015-2024
 - Patrick W. Gilmore, Board of Directors 2015-2023, Vice President 2015-2016
 - Matt Griswold, Board of Directors 2015-2017
 - Aaron Hughes, President 2015-2023
