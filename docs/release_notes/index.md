@@ -14,13 +14,31 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.58.0 | 2024-05-21 | 2024-05-29 | 2024-06-05 |
 | 2.59.0 | 2024-06-12 | 2024-06-19 | 2024-06-26 |
 | 2.60.0 | 2024-07-10 | 2024-07-17 | 2024-07-24 |
 | 2.61.0 | 2024-08-07 | 2024-08-14 | 2024-08-21 |
 | 2.62.0 | 2024-09-11 | 2024-09-18 | 2024-09-25 |
 | 2.63.0 | 2024-10-02 | 2024-10-09 | 2024-10-16 |
 | 2.64.0 | 2024-11-06 | 2024-11-13 | 2024-11-20 |
+
+## Release 2.59.0
+
+Beta Announcement Date: 19 June 2024
+Release Date: 26 June 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1585 Publish OAuth authorization server metadata endpoint](https://github.com/peeringdb/peeringdb/issues/1585) | As title.|
+| [#1483 Address Change UI](https://github.com/peeringdb/peeringdb/issues/1483) | Fixes an error where it was not possible to reject the suggestion for an address.|
+| [#1561 Deploy www on ECS/Fargate](https://github.com/peeringdb/peeringdb/issues/1561) | Switch www.peeringdb.com to ECS/Fargate. Initial deployment will be on beta.peeringdb.com with www.peeringdb.com following at a later date.|
+| [peeringdb-py #49 Automatically update docs site on code release](https://github.com/peeringdb/peeringdb-py/issues/49) | As title.|
+| [peeringdb-py #88 docs need updating to reflect some api changes to the Client.update_all() call](https://github.com/peeringdb/peeringdb-py/issues/88) | As title.|
+| [#1603 Organization API key table formatting broken](https://github.com/peeringdb/peeringdb/issues/1603) | Improves the display of Organizational API Keys.|
+| [#1604 API limit=x does not work when response type set in URL](https://github.com/peeringdb/peeringdb/issues/1604) | Limits to response sizes were ignored as per title.|
+| [#971 Remove white space from strings](https://github.com/peeringdb/peeringdb/issues/971) | As title.|
+| [#1606 rir_status update handler: intermittent bug that may attempt to delete a network too early](https://github.com/peeringdb/peeringdb/issues/1606) | Fixes an over eager data cleanup process.|
+| [#1608 pdb_delete_outdated_pending_affil_request failure](https://github.com/peeringdb/peeringdb/issues/1608) | Fixes an error is a data cleanup process.|
+
 
 ## Release 2.58.0
 
