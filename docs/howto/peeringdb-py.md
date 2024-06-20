@@ -130,7 +130,7 @@ sys     0m0.088s
 
 The initial sync will happen from the public cache, which does not contain data that isn't available to unauthenticated requests, such as network contacts that are set to `Users` visibility. In order to fetch this data you can pass the `--fetch-private` argument.
 
-Note that you will need to have valid authentication set up for this (preferably via api-key)
+Note that you will need to have valid authentication set up for this (preferably with an API key), for example:
 
 ```
 peeringdb sync --fetch-private
