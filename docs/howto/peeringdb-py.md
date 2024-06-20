@@ -126,6 +126,16 @@ user    0m1.074s
 sys     0m0.088s
 ```
 
+### Fetch private data
+
+The initial sync will happen from the public cache, which does not contain data that isn't available to unauthenticated requests, such as network contacts that are set to `Users` visibility. In order to fetch this data you can pass the `--fetch-private` argument.
+
+Note that you will need to have valid authentication set up for this (preferably via api-key)
+
+```
+peeringdb sync --fetch-private
+```
+
 ### Automatically refreshing data
 
 You can schedule automatic database updates by creating an entry in your crontab. We recommend synchronizing every hour. You should not synchronize on the hour but offset at a random minute in the hour. This distributes users across the hour and reduces the burden on the server. 
