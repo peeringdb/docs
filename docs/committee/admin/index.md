@@ -18,19 +18,19 @@
 - [May 2nd, 2019: Meeting Notes](notes/2019-05-02_Admin_Committee_Notes.pdf)
 
 ## Members
+
 - Ankesh Anand
 - Austin Brower
+- John Brown
 - Budiwijaya
 - Shaun Coffey
-- Elizabeth Culley
 - Ron Grant
 - Chriztoffer Hansen - Chair
 - Peter Helmenstine - Vice Chair
 - Gaël Hernandez
 - Adam Korab
 - Christopher Malayter - Board Liaison
+- Aquinas Masakha
 - Crisóstomo Mbundu
 - Julimar Lunguinho Mendes
-- Faisal Reza
-- Tom Samplonius
-- Ryan Williams
+- Laura Yepes
