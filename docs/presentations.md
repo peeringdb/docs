@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [PeeringDB Update](presentation/20240708_NetUK-1_Paul_Hoogsteder.pdf) at [NetUK 1](https://www.netuk.org/netuk1/), London, UK - July 8, 2024 - Paul Hoogsteder
 - [What's new on PeeringDB?](presentation/20240626_WAPF_Ben_Ryall.pdf) at [WAPF 2024](https://www.internetsociety.org/events/west-africa-peering-forum-wapf/2024/), Abidjan, CI - June 26, 2024 - Ben Ryall
 - [PeeringDB Update](presentation/20240614_MWPS2024_Martin_Hannigan.pdf) at [MWPS 2024](https://www.eventcreate.com/e/mwps2024), Kansas City, MO, US - June 14, 2024 - Martin Hannigan
 - [PeeringDB Update](presentation/20240528_LINX122_Ben_Ryall.pdf) at [LINX122](https://www.linx.net/events/linx122/), London, UK - May 28, 2024 - Ben Ryall
