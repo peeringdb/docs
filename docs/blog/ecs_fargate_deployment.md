@@ -1,11 +1,11 @@
 # Putting PeeringDB on ECS/Fargate
 
-We deployed beta.peeringdb.com on Amazon's [ECS/Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html) in [release 2.59.0](https://docs.peeringdb.com/release_notes/#release-2590). We'll be deploying www.peeringdb.com on it when we deploy 2.60.0 in July 2024.
+We deployed beta.peeringdb.com on a container based platform in [release 2.59.0](https://docs.peeringdb.com/release_notes/#release-2590). We'll be deploying www.peeringdb.com on it when we deploy 2.60.0 in July 2024.
 
 ![Image by onlyyouqj on Freepik](images/industrial-port-container-yard.jpg)
 <a href="https://www.freepik.com/free-photo/industrial-port-container-yard_1145654.htm#fromView=search&page=1&position=0&uuid=f0a4aff4-0b55-47b6-ad40-636aa1eb2f06">Image by onlyyouqj on Freepik</a>
 
-Fargate is a technology for running containers, eliminating the need for virtual machines. PeeringDB 2.0 was originally deployed using a LAMP stack on virtual machines, but the technology has advanced since then.
+Fargate is a technology for running containers, eliminating the need for virtual machines. PeeringDB 2.0 was originally deployed using virtual machines about ten years ago, but the technology has advanced since then.
 
 By deploying PeeringDB in containers, we will reduce our computing costs and more easily adjust compute resources dynamically based on load. Managing spending is important as PeeringDB is fully funded by [our sponsors](https://www.peeringdb.com/sponsors). 
 
