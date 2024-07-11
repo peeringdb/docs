@@ -11,7 +11,7 @@ By deploying PeeringDB in containers, we will reduce our computing costs and mor
 
 It should also help us narrow the scope of work for our volunteer Operations Committee.
 
-We have been looking for ways to improve the efficiency of our spending [since 2022](https://github.com/peeringdb/peeringdb/issues/1225). We started looking at ECS/Fargate in [November 2023](https://github.com/peeringdb/peeringdb/issues/1466). This deployment will complete that process. 
+We have been looking for ways to improve the efficiency of our spending [since 2022](https://github.com/peeringdb/peeringdb/issues/1225) and started looking at switching to serving directly from containers in [November 2023](https://github.com/peeringdb/peeringdb/issues/1466). This deployment will complete that process.
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
