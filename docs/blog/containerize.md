@@ -1,11 +1,10 @@
-# Containerized deployment
+# Containerized Deployment
 
-We deployed beta.peeringdb.com on a container based platform in [release 2.59.0](https://docs.peeringdb.com/release_notes/#release-2590). We'll be starting integration on www.peeringdb.com with the 2.60 release.
+We deployed [beta.peeringdb.com](beta.peeringdb.com) on a container based platform in [release 2.59.0](/release_notes/#release-2590). We'll be starting integration on [www.peeringdb.com](www.peeringdb.com) in the 2.60 release.
 
 ![Image by onlyyouqj on Freepik](images/industrial-port-container-yard.jpg)
-<a href="https://www.freepik.com/free-photo/industrial-port-container-yard_1145654.htm#fromView=search&page=1&position=0&uuid=f0a4aff4-0b55-47b6-ad40-636aa1eb2f06">Image by onlyyouqj on Freepik</a>
 
-PeeringDB started on a bare metal LAMP stack, and was deployed to virtual machines with the release of PeeringDB 2.0 about ten years ago, but the technology has advanced since then.
+PeeringDB started on a bare metal LAMP stack, and was deployed to virtual machines with the release of PeeringDB 2.0 about ten years ago, but technology has advanced since then.
 
 By deploying PeeringDB in containers, we will reduce our computing costs and more easily adjust compute resources dynamically based on load. Managing spending is important as PeeringDB is fully funded by [our sponsors](https://www.peeringdb.com/sponsors). 
 

@@ -4,6 +4,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Containerized Deployment](blog/containerize.md) - July 12, 2024
 - [Making beta.peeringdb.com, Search, and KMZ more Attractive](blog/improving_beta_and_kmz_export.md) - April 15, 2024
 - [Better Search and Export](blog/better_search_and_export.md) - March 14, 2024
 - [2023 Product Report](blog/2023_product_report.md) - February 19, 2024
