@@ -1,6 +1,6 @@
 # Containerized Deployment
 
-We deployed [beta.peeringdb.com](beta.peeringdb.com) on a container based platform in [release 2.59.0](/release_notes/#release-2590). We'll be starting integration on [www.peeringdb.com](www.peeringdb.com) in the 2.60 release.
+We deployed [beta.peeringdb.com](https://beta.peeringdb.com) on a container based platform in [release 2.59.0](/release_notes/#release-2590). We'll be starting integration on [www.peeringdb.com](https://www.peeringdb.com) in the 2.60 release.
 
 ![Image by onlyyouqj on Freepik](images/industrial-port-container-yard.jpg)
 
