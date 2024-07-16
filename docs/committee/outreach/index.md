@@ -40,3 +40,4 @@
 - Arnold Nipper
 - Ester Paal
 - Ben Ryall - Chair
+- Leo Vegoda - Product Manager
