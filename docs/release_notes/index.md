@@ -14,12 +14,27 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.59.0 | 2024-06-12 | 2024-06-19 | 2024-06-26 |
 | 2.60.0 | 2024-07-10 | 2024-07-17 | 2024-07-24 |
 | 2.61.0 | 2024-08-07 | 2024-08-14 | 2024-08-21 |
 | 2.62.0 | 2024-09-11 | 2024-09-18 | 2024-09-25 |
 | 2.63.0 | 2024-10-02 | 2024-10-09 | 2024-10-16 |
 | 2.64.0 | 2024-11-06 | 2024-11-13 | 2024-11-20 |
+
+## Release 2.60.0
+
+Beta Announcement Date: 17 July 2024
+Release Date: 24 July 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1452 Normalizing the presentation of place names](https://github.com/peeringdb/peeringdb/issues/1452) | Place names are now normalized, improving the consistency of search results.|
+| [#1189 Data export buttons for Network, Exchange, and Facilities](https://github.com/peeringdb/peeringdb/issues/1189) | As title.|
+| [#1561 Deploy www on ECS/Fargate](https://github.com/peeringdb/peeringdb/issues/1561) | www.peeringdb.com will be deployed using containers.|
+| [peeringdb-py #67 Allow option for logging to co-exist with existing loggers](https://github.com/peeringdb/peeringdb-py/issues/67) | Improves logging support in peeringdb-py local cache.|
+| [peeringdb-py #72 --output-format in cli does not seem to be working](https://github.com/peeringdb/peeringdb-py/issues/72) | Fixes bug as per title.|
+| [#1322 Give API writes high priority and limits](https://github.com/peeringdb/peeringdb/issues/1322) | As title.|
+| [#1610 possible for ixpfx object with empty prefix to exist in a soft-deleted state](https://github.com/peeringdb/peeringdb/issues/1610) | Fixes bug as per title.|
+| [#1040 Verification queue ticket subject changes](https://github.com/peeringdb/peeringdb/issues/1040) | Fixes bug as per title.|
 
 ## Release 2.59.0
 
