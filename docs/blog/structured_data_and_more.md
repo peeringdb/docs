@@ -1,4 +1,4 @@
-# Structured Data and More with PeeringDB
+# Structured Data and More With PeeringDB
 
 This article describes our latest improvements and puts them in the context of recent feature developments.
 

@@ -1,4 +1,4 @@
-# Making beta.peeringdb.com, Search, and KMZ more Attractive
+# Making beta.peeringdb.com, Search, and KMZ More Attractive
 
 Just over half a percent of users visit [beta.peeringdb.com](https://beta.peeringdb.com) each month. We recognize that there are good and bad reasons for this. 
 

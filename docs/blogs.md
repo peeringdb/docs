@@ -4,9 +4,9 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
-- [Structured Data and More with PeeringDB](blog/structured_data_and_more.md) - July 31, 2024
+- [Structured Data and More With PeeringDB](blog/structured_data_and_more.md) - July 31, 2024
 - [Containerized Deployment](blog/containerize.md) - July 12, 2024
-- [Making beta.peeringdb.com, Search, and KMZ more Attractive](blog/improving_beta_and_kmz_export.md) - April 15, 2024
+- [Making beta.peeringdb.com, Search, and KMZ More Attractive](blog/improving_beta_and_kmz_export.md) - April 15, 2024
 - [Better Search and Export](blog/better_search_and_export.md) - March 14, 2024
 - [2023 Product Report](blog/2023_product_report.md) - February 19, 2024
 - [What happened to our web UI?](blog/what_happened_to_our_web_ui.md) - February 5, 2024
