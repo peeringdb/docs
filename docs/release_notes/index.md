@@ -19,6 +19,23 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.63.0 | 2024-10-02 | 2024-10-09 | 2024-10-16 |
 | 2.64.0 | 2024-11-06 | 2024-11-13 | 2024-11-20 |
 
+## Release 2.61.0
+
+Beta Announcement Date: 14 July 2024
+Release Date: 21 July 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1617 Snag list for preview.beta.peeringdb.com](https://github.com/peeringdb/peeringdb/issues/1617) | Updates preview.beta.peeringdb.com to improve the UI.|
+| [#1142 Email one time password button should be less prominent](https://github.com/peeringdb/peeringdb/issues/1142) | As title.|
+| [#766 For any forbidden actions set a 403 and give a "Not Allowed" header](https://github.com/peeringdb/peeringdb/issues/766) | As title.|
+| [#1302 Fix OpenAPI types where needed](https://github.com/peeringdb/peeringdb/issues/1302) | As title.|
+| [peeringdb-py #76 Client should handle rate limiting errors gracefully](https://github.com/peeringdb/peeringdb-py/issues/76) | As title.|
+| [#1583 bfd_support undocumented parameter in API](https://github.com/peeringdb/peeringdb/issues/1583) | Documentation improved.|
+| [django-peeringdb #98 ORM configuration Options is missing (postgreSQL)](https://github.com/peeringdb/peeringdb/issues/98) | Config option updated.|
+| [#1014 When removing a network, removing all netixlans have to happen before removing pocs](https://github.com/peeringdb/peeringdb/issues/1014) | Fixes blocking of network deletion due to to [Prevent deletion of a last technical contact if there is an existing netixlan object #923.](https://github.com/peeringdb/peeringdb/issues/923)|
+
+
 ## Release 2.60.0
 
 Beta Announcement Date: 17 July 2024
