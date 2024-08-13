@@ -21,8 +21,8 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.61.0
 
-Beta Announcement Date: 14 July 2024
-Release Date: 21 July 2024
+Beta Announcement Date: 14 August 2024
+Release Date: 21 August 2024
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
@@ -34,7 +34,6 @@ Release Date: 21 July 2024
 | [#1583 bfd_support undocumented parameter in API](https://github.com/peeringdb/peeringdb/issues/1583) | Documentation improved.|
 | [django-peeringdb #98 ORM configuration Options is missing (postgreSQL)](https://github.com/peeringdb/peeringdb/issues/98) | Config option updated.|
 | [#1014 When removing a network, removing all netixlans have to happen before removing pocs](https://github.com/peeringdb/peeringdb/issues/1014) | Fixes blocking of network deletion due to to [Prevent deletion of a last technical contact if there is an existing netixlan object #923.](https://github.com/peeringdb/peeringdb/issues/923)|
-
 
 ## Release 2.60.0
 
@@ -69,7 +68,6 @@ Release Date: 26 June 2024
 | [#971 Remove white space from strings](https://github.com/peeringdb/peeringdb/issues/971) | As title.|
 | [#1606 rir_status update handler: intermittent bug that may attempt to delete a network too early](https://github.com/peeringdb/peeringdb/issues/1606) | Fixes an over eager data cleanup process.|
 | [#1608 pdb_delete_outdated_pending_affil_request failure](https://github.com/peeringdb/peeringdb/issues/1608) | Fixes an error is a data cleanup process.|
-
 
 ## Release 2.58.0
 
