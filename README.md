@@ -29,9 +29,8 @@ Install [MkDocs](http://www.mkdocs.org/) and other requirements
 cd ~/src/docs
 python3 -m venv venv
 source venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install --upgrade poetry
-poetry install --no-root
+python -m pip install --upgrade uv
+uv sync
 ```
 
 Start mkdocs
@@ -91,5 +90,5 @@ cd ~/src/docs
 git fetch upstream
 git merge upstream/master
 source venv/bin/activate
-poetry install
+uv sync
 ```
