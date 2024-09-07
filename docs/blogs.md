@@ -4,6 +4,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [Data Quality — Removing Closed Networks](blog/data_quality_removing_closed_networks.md) - September 7, 2024
 - [Structured Data and More With PeeringDB](blog/structured_data_and_more.md) - July 31, 2024
 - [Containerized Deployment](blog/containerize.md) - July 12, 2024
 - [Making beta.peeringdb.com, Search, and KMZ More Attractive](blog/improving_beta_and_kmz_export.md) - April 15, 2024

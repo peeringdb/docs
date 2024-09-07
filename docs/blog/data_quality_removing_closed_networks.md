@@ -1,4 +1,4 @@
-# Data Quality⸺Removing Closed Networks
+# Data Quality — Removing Closed Networks
 
 We added an "RIR Status" field in the data returned for networks a few months ago. The "ok" status lets you know that the ASN was assigned by an RIR or NIR. The "RIR Status Updated" field lets you know when we last checked.
 
