@@ -102,4 +102,5 @@
 - Laurent Jarbinet
 - Stephen McManus
 - Arnold Nipper
+- Terry Sweetser
 - Leo Vegoda - Product Manager
