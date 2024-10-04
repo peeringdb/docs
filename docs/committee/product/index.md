@@ -9,6 +9,8 @@
 
 ## Meeting notes
 
+- [October 3rd, 2024: Meeting Notes](notes/2024-10-03_Product_Committee_Notes.pdf)
+- [September 5th, 2024: Meeting Notes](notes/2024-09-05_Product_Committee_Notes.pdf)
 - [August 1st, 2024: Meeting Notes](notes/2024-08-01_Product_Committee_Notes.pdf)
 - [July 11th, 2024: Meeting Notes](notes/2024-07-11_Product_Committee_Notes.pdf)
 - [June 6th, 2024: Meeting Notes](notes/2024-06-06_Product_Committee_Notes.pdf)
