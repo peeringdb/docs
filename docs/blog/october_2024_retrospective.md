@@ -1,8 +1,9 @@
-# PeeringDB Product Update, October 2024
-## Strategy
-We reviewed and updated our strategy earlier in the year. We will be publishing six-monthly overviews of product changes. We've had a blog for a few years but it’s focused on details. These updates will give a bigger picture. We’ll publish them in April and October.
+# October 2024 PeeringDB Product Update
 
-## People and Process
+## Strategy
+We reviewed and updated our strategy earlier in the year. We will be publishing overviews of product changes in April and October. We've had a blog for a few years but it’s focused on details. These updates will give a bigger picture.
+
+## People and process
 Terry Sweetser from APNIC has recently joined the Product Committee (PC). The PC now has members from Africa, Asia Pacific, Europe, and North America. Our committee’s geographic diversity is matched by a diversity in expertise.
  
 We have updated our processes because our members live around the globe. We are using asynchronous work methods more. And we will focus on planning out sets of related issues to improve PeeringDB more quickly.
@@ -52,7 +53,7 @@ Over the next six months we'd like to deploy improvements to our web design. The
 
 We can also start to develop some key feature improvements, including saved searches, notifications, and comparison tools.
 
-![Upcoming user interface example](images/New_admin_ui.png)
+![Upcoming user interface example](images/new_admin_ui.png)
 
 Your input on how you'd use these and other feature improvements  are welcome. You can create or comment on issues in GitHub. But we'd love to speak with you, too. We actively attend industry events around the world, so look for us there. Or send mail so we can schedule a conversation!
 
