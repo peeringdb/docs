@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [What's new on PeeringDB?](presentation/20241002_RONOG9_Morina_Livio.pdf) at [RONOG 9](https://www.ronog.ro/), Bucharest, RO - October 2, 2024 - Livio Morina
 - [PeeringDB in Five Minutes](presentation/20240905_AusNOG_Arnold_Nipper.pdf) at [AusNOG 2024](https://www.ausnog.net/events/ausnog-2024/program), Sydney, AU - September 5, 2024 - Arnold Nipper
 - [What's new on PeeringDB?](presentation/20240820_AfPIF_2024_Ben_Ryall.pdf) at [AfPIF 2024](https://www.afpif.org/afpif2024/), Kinsahsa, CD - August 20, 2024 - Ben Ryall
 - [PeeringDB Introduction & Update](presentation/20240710_PhNOG_Arnold_Nipper.pdf) at [PhNOG 2024 Week](https://bit.ly/PhNOG2024Week), Makati City, PH - July 10, 2024 - Arnold Nipper
