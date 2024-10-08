@@ -23,6 +23,28 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.69.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.70.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
 
+## Release 2.62.0
+
+Beta Announcement Date: 9 October 2024
+Release Date: 16 October 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1584 Passkey support for login](https://github.com/peeringdb/peeringdb/issues/1584) | Adds a new 2FA method, [Passkeys](https://fidoalliance.org/passkeys/).|
+| [#1612 Feature Parity for Carrier Object: Search and Export to JSON, CSV, KMZ](https://github.com/peeringdb/peeringdb/issues/1612) | As title.|
+| [#1555 Remove "Media Type" field for Internet Exchange object](https://github.com/peeringdb/peeringdb/issues/1555) | As title.|
+| [#1563 CSV and JSON exports truncate at 250 records](https://github.com/peeringdb/peeringdb/issues/1563) | Exports no longer truncate at 250 records.|
+| [#607 Add location of Physical IX-Port & Router Port](https://github.com/peeringdb/peeringdb/issues/607) | IXPs can now indicate the location of their switch using the `pdb_facility_id` attribute of the `switch` statement in their [IX-F JSON export](https://github.com/euro-ix/json-schemas).|
+| [peeringdb-py #95 Make client more robust when dealing with api errors.](https://github.com/peeringdb/peeringdb/issues/95) | As title.|
+| [peeringdb-py #86 DB sync fails due to validation error](https://github.com/peeringdb/peeringdb-py/issues/86) | Bug fix as title.|
+| [#1635 ops: add read-only server side switch](https://github.com/peeringdb/peeringdb/issues/1635) | Server can go into read-only mode, while allowing user login. This mode allows basic service to be sustained in adverse situations.|
+| [#1654 Direct query access to Elasticsearch to aid search improvements](https://github.com/peeringdb/peeringdbn/issues/1654) | Direct query access to ElasticSearch for internal PeeringDB users.|
+| [#1653 Update dependencies and modernise](https://github.com/peeringdb/docs/pull/1653) | As title.|
+| [peeringdb-py #94 Update deps and modernize](https://github.com/peeringdb/peeringdbpy/issues/94) | As title.|
+| [django-peeringdb #103 Update dependencies and modernise](https://github.com/peeringdb/django-peeringdb/issues/103) | As title.|
+| [#340 switch to uv, update deps](https://github.com/peeringdb/docs/pull/340) | Dependency update for docs.peeringdb.com.|
+
+
 ## Release 2.61.0
 
 Beta Announcement Date: 14 August 2024
