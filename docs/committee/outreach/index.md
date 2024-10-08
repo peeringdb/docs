@@ -7,7 +7,7 @@
 
 ## Meeting notes
 
-### 2024
+#### 2024
 
 - [October 9th, 2024: Meeting Notes](notes/2024-10-09_Outreach_Committee_Notes.pdf)
 - [September 19th, 2024: Meeting Notes](notes/2024-09-19_Outreach_Committee_Notes.pdf)
@@ -17,7 +17,7 @@
 - [May 14th, 2024: Meeting Notes](notes/2024-05-14_Outreach_Committee_Notes.pdf)
 - [April 9th, 2024: Meeting Notes](notes/2024-04-09_Outreach_Committee_Notes.pdf)
 
-### 2021
+#### 2021
 
 - No formal meeting in December 2021
 - [November 2nd, 2021: Meeting Notes](notes/2021-11-02_Outreach_Committee_Notes.pdf)
@@ -32,7 +32,7 @@
 - [February 8th, 2021: Meeting Notes](notes/2021-02-08_Outreach_Committee_Notes.pdf)
 - [January 12th, 2021: Meeting Notes](notes/2021-01-12_Outreach_Committee_Notes.pdf)
 
-### 2020
+#### 2020
 
 - No formal meeting in December 2020
 - [November 12th, 2020: Meeting Notes](notes/2020-11-12_Outreach_Committee_Notes.pdf)
@@ -47,7 +47,7 @@
 - [February 4th, 2020: Meeting Notes](notes/2020-02-04_Outreach_Committee_Notes.pdf)
 - [January 7th, 2020: Meeting Notes](notes/2020-01-07_Outreach_Committee_Notes.pdf)
 
-### 2019
+#### 2019
 
 - [December 3rd, 2019: Meeting Notes](notes/2019-12-03_Outreach_Committee_Notes.pdf)
 
