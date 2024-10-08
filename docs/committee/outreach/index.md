@@ -53,12 +53,12 @@
 
 ## Members
 
+- Obinna Adumike
 - Lynsey Buckingham
 - Yana Glaub
 - Greg Hankins
 - Aaron Hughes - Board Liaison
 - Tarryn Kidd
-- Jonathan Martone
 - Livio Morina
 - Arnold Nipper
 - Ester Paal
