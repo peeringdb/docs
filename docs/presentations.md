@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [What's new on PeeringDB?](presentation/20241015_Netnod_Tech_Meeting_2024_Morina_Livio.pdf) at [Netnod Tech Meeting 2024](https://www.netnod.se/event/netnod-tech-meeting-2024), Stockhold, SE - October 15, 2024 - Livio Morina
 - [What's new on PeeringDB?](presentation/20241002_RONOG9_Morina_Livio.pdf) at [RONOG 9](https://www.ronog.ro/), Bucharest, RO - October 2, 2024 - Livio Morina
 - [PeeringDB in Five Minutes](presentation/20240905_AusNOG_Arnold_Nipper.pdf) at [AusNOG 2024](https://www.ausnog.net/events/ausnog-2024/program), Sydney, AU - September 5, 2024 - Arnold Nipper
 - [What's new on PeeringDB?](presentation/20240820_AfPIF_2024_Ben_Ryall.pdf) at [AfPIF 2024](https://www.afpif.org/afpif2024/), Kinsahsa, CD - August 20, 2024 - Ben Ryall
