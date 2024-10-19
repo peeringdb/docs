@@ -8,13 +8,21 @@ When you click one the [link for v2 search](https://www.peeringdb.com/search/v2?
 
 v2 lets you use some natural language queries in combination with the name for an area. It helps you get the results in fewer searches, ideally just one!
 
+## Search for a network
+
+Searches for numbers can be interpreted as a search for a location as well as a network. When searching for a network prefixed with 'AS', partial matches show all relevant networks while direct matches take you straight to the network's page.
+
+![Search for as333](images/Search_for_as333.png)
+
+*Fig 1: A search for* `as333` *shows results for AS3330 and AS33309*
+
 ## Support for metro sizes
 
 For many areas it will automatically set an appropriate radius. When a common business area crosses a jurisdictional boundary, the search is based on the common business area and not limited to the named metro area.
 
 ![Search for a fac in New York](images/fac_in_new_york_includes_jersey_city.png)
 
-*Fig 1: A search for* `fac near new york` *includes results for facilities in Jersey City, NJ*
+*Fig 2: A search for* `fac near new york` *includes results for facilities in Jersey City, NJ*
 
 When you want a different radius, our [Advanced Search](https://www.peeringdb.com/advanced_search) tool lets you manually set a specific radius based on any street address. 
 
@@ -24,7 +32,7 @@ v2 search finds exchanges based on the facilities they are in. You don’t need 
 
 ![Search for an ix in Tokyo](images/ix_in_tokyo.png)
 
-*Fig 2: A search for* `ix in tokyo` *finds exchanges at facilities we know about in Tokyo*
+*Fig 3: A search for* `ix in tokyo` *finds exchanges at facilities we know about in Tokyo*
 
 ## Support for campus
 
@@ -32,8 +40,8 @@ v2 search knows about campus objects – interconnected facilities under common 
 
 ![Search for a campus in Amsterdam](images/campus_in_amsterdam.png)
 
-*Fig 3: Searching for a* `campus in amsterdam` *shows just three entries*
+*Fig 4: Searching for a* `campus in amsterdam` *shows just three entries*
 
 ![Search for a fan in Amsterdam](images/fac_in_amsterdam.png)
 
-*Fig 4: Searching for a* `fac in amsterdam` *shows many more results*
+*Fig 5: Searching for a* `fac in amsterdam` *shows many more results*
