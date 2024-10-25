@@ -24,8 +24,7 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.62.1
 
-Beta Release Date: 24 October 2024
-Production Release Date: 24 October 2024
+Release Date: 25 October 2024
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
