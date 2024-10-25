@@ -14,7 +14,6 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.62.0 | 2024-10-02 | 2024-10-09 | 2024-10-16 |
 | 2.63.0 | 2024-11-06 | 2024-11-13 | 2024-11-20 |
 | 2.64.0 | 2024-01-08 | 2024-01-15 | 2024-01-22 |
 | 2.65.0 | 2025-02-05 | 2025-02-12 | 2025-02-19 |
@@ -22,6 +21,16 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.67.0 | 2025-04-22 | 2025-04-29 | 2025-04-30 |
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
+
+## Release 2.62.1
+
+Beta Release Date: 24 October 2024
+Production Release Date: 24 October 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1692 Fix otp email one time password](https://github.com/peeringdb/peeringdb/pull/1692) | Fixes compatibility issues after two-factor library upgrade, causing issues with emailing one time passwords.|
+
 
 ## Release 2.62.0
 
