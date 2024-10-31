@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [PeeringDB Update](presentation/20241031_RIPE89_Connect_WG_Leo_Vegoda.pdf) at [RIPE 89](https://ripe89.ripe.net/), Prague, CZ - October 31, 2024 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20241023_NgNOG_2024_Obinna_Adumike.pdf) at [NgNOG 2024](https://nog.ng/), Lagos, NG - October 23, 2024 - Obinna Adumike
 - [What's new on PeeringDB?](presentation/20241015_Netnod_Tech_Meeting_2024_Morina_Livio.pdf) at [Netnod Tech Meeting 2024](https://www.netnod.se/event/netnod-tech-meeting-2024), Stockhold, SE - October 15, 2024 - Livio Morina
 - [What's new on PeeringDB?](presentation/20241002_RONOG9_Morina_Livio.pdf) at [RONOG 9](https://www.ronog.ro/), Bucharest, RO - October 2, 2024 - Livio Morina
