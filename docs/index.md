@@ -73,6 +73,7 @@ The [tools](tools.md) page features tools developed by PeeringDB users.
 
 High-level [HOWTOs](howtos.md) provide a beginner detailed instructions on how to get started using PeeringDB.
 
+- [PDB 101 in 20 Minutes](presentation/20241105_PeeringAsia6_Arnold_Nipper.pdf) at [Peering Asia 6.0](https://6.peeringasia.org/agenda/tutorial) - November 5, 2024 - Arnold Nipper
 - [PeeringDB Tutorial, learning the GUI and the API](presentation/20220225-Apricot-1-2-GUI-API-with-exercises.pdf) at [APRICOT 2022](https://2022.apricot.net/program/schedule-tutorial/#/day/5/introduction-to-peeringdb-a-tutorial-part-1) - February 25, 2022 - Arnold Nipper
 - [The How-to Guide](presentation/20210506-Teraco_Tech_Day.pdf) at [Teraco Virtual Tech Day with PeeringDB](https://www.teraco.co.za/events/virtual-tech-days/?fbclid=IwAR310Y84fDzXnZOcfXWxnogcgkDTrWaTwfM4u0U8c5wkFPd5ihNaHuNWjzk) - May 6, 2021 - Ben Ryall
 - [PeeringDB Tutorial, learning the GUI and the API](presentation/20200220-1-2-GUI-API-APRICOT2020-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/9), Melbourne, AU - February 20, 2020 - Arnold Nipper
