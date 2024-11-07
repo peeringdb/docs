@@ -195,6 +195,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#how-do-i-query-for-an-ixs-in-a-particular-state" class="nav-link">How do I query for an IXs in a particular state?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#how-to-get-all-the-objects-owned-by-httpswwwpeeringdbcomnet961-and-convert-the-data-to-csv" class="nav-link">How to get all the objects owned by https://www.peeringdb.com/net/961 and convert the data to CSV?</a>
               <ul class="nav flex-column">
               </ul>
@@ -409,7 +413,10 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <h2 id="real-world-use-cases">Real world use cases</h2>
 <p>We will show you different use cases on how to use the PeeringDB API.</p>
 <h2 id="how-do-i-query-by-asn">How do I query by ASN?</h2>
-<p>To query the ASN 42 using PeeringDB API, you will need to use this URL: GET <code>https://www.peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter.</p>
+<p>To query for an ASN using the PeeringDB API, you will need to use this URL: GET <code>https://www.peeringdb.com/api/net?asn=42</code>, where <code>asn=42</code> is the query parameter.</p>
+<h2 id="how-do-i-query-for-an-ixs-in-a-particular-state">How do I query for an IXs in a particular state?</h2>
+<p>To query for IXs based in a state (in countries with a state system), you will need to use a URL like this: GET <code>https://www.peeringdb.com/api/ixfac?fac__state=NSW</code>, where <code>fac__state</code> tells the API to look at the state field in the facility record and <code>NSW</code> is the normalized code for the state. In this example, NSW is the Australian state of New South Wales.</p>
+<p>Similarly, <code>https://www.peeringdb.com/api/ixfac?fac__state=NV</code> gets IXs in facilities in the US state of Nevada.</p>
 <h3 id="using-curl">Using curl</h3>
 <p>Use this curl example to get this specific network. Copy and paste the following to your command line interface: <code>curl GET https://www.peeringdb.com/api/net?asn=42</code>.</p>
 <h3 id="using-python">Using Python</h3>
