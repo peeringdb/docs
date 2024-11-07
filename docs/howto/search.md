@@ -280,9 +280,9 @@ We will show you different use cases on how to use the PeeringDB API.
 
 ## How do I query by ASN?
 
-To query the ASN 42 using PeeringDB API, you will need to use this URL: GET `https://www.peeringdb.com/api/net?asn=42`, where `asn=42` is the query parameter.
+To query for an ASN using the PeeringDB API, you will need to use this URL: GET `https://www.peeringdb.com/api/net?asn=42`, where `asn=42` is the query parameter.
 
-## How do I query for an IXs in a particular state
+## How do I query for an IXs in a particular state?
 
 To query for IXs based in a state (in countries with a state system), you will need to use a URL like this: GET `https://www.peeringdb.com/api/ixfac?fac__state=NSW`, where `fac__state` tells the API to look at the state field in the facility record and `NSW` is the normalized code for the state. In this example, NSW is the Australian state of New South Wales.
 
