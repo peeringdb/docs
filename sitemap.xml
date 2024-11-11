@@ -2,492 +2,492 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.peeringdb.com/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/api_specs/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blogs/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/faq/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/glossary/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/gov/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howtos/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/ix-f-json-import-rules/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/oauth/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/presentations/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/tools/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/translation/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/2022_product_report/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/2023_product_report/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/advanced_search_1/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/advanced_search_2/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/alphabetical_search/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/api_keys/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/api_writes_need_api_key/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/automating_configuration/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/better_data/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/better_search_and_export/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/carrier_object/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/carrier_object_deployed/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/contacts_marked_private/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/containerize/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/contributing_code/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/data_quality_improvements/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/data_quality_removing_closed_networks/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/faster_queries/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/geographic_search/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/guidelines_for_registering/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/improving_beta_and_kmz_export/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/installing_peeringdb-py/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/introducing_analytics/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/more_details_facilities/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/nanog_85_hackathon/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/nanog_87_hackathon_proof_of_concept/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/network_type_what_you_told_us/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/network_type_your_input_sought/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/new_permission_manage_peering_sessions/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/oauth_users/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/october_2024_retrospective/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/organizational_policy/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2020_satisfaction_survey/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2020_survey_2021_roadmap/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2021_survey_2022_roadmap/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2021_user_survey/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2022_user_survey/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_2023_roadmap/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_in_your_preferred_language/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_is_developed_by_its_community/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_map_with_kmz/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_release_v2.23.0/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/peeringdb_release_v2.24.0/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/search_gets_better/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/structured_data_and_more/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/u2f_and_url/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/updates_from_an_internal_source_of_truth/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/updating_our_webUI/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/user_developed_tools/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/user_suggestions_improve_PeeringDB_usability/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/what_happened_to_our_web_ui/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/whois_to_close/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/blog/your_logo_goes_here/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/common/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/admin/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/admin/approval-guidelines/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/admin/charter/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/outreach/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/outreach/charter/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/product/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/product/charter/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/product/workflow/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/api_keys/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/authenticate/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/enable_require_2fa/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/get-started-carrier/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/get-started-developing/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/get-started-exchange/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/get-started-facility/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/get-started-operator/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/make-a-security-report/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/manage-permissions/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/member_vote/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/organizational_policy/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/peeringdb-py/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/run_development_container/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/search/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/updates-for-as112/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/v2_search/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/howto/work_within_peeringdbs_query_limits/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/release_notes/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/release_notes/release_notes_2020/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/release_notes/release_notes_2021/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/release_notes/release_notes_2022/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/release_notes/release_notes_2023/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.peeringdb.com/taskforce/dataownership/</loc>
-         <lastmod>2024-11-07</lastmod>
+         <lastmod>2024-11-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
