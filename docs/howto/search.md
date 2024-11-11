@@ -16,6 +16,12 @@ You don't need an account to use the basic search functionality. But if you want
 
 There is a s simple search box on the [front page](https://www.peeringdb.com/) of PeeringDB. You can use it to search for campuses, carriers, exchanges, facilities and networks listed in PeeringDB by simply entering the name you want. Let’s demonstrate with some examples to see how this works.
 
+### Place name normalization
+
+PeeringDB normalizes place names at the presentation layer. For example, München will always be normalized to Munich in search output. This ensures that users can get all the results for Munich in a single search. Users can search using multiple names. As long as the name selected is well known, the search will be centered on the correct place.
+
+![Search for Tokyo using Japanese spelling](images/Search_in_local_language.png)
+
 ### Networks
 
 For this example, we have this network **KENET** which is a non-profit operator for education and research and we want to search for it on PeeringDB.  There are two ways to search for networks in PeeringDB:
