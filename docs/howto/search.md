@@ -20,7 +20,7 @@ There is a s simple search box on the [front page](https://www.peeringdb.com/) o
 
 PeeringDB normalizes place names at the presentation layer. For example, München will always be normalized to Munich in search output. This ensures that users can get all the results for Munich in a single search. Users can search using multiple names. As long as the name selected is well known, the search will be centered on the correct place.
 
-![Search for Tokyo using Japanese spelling](images/Search_in_local_language.png)
+![Search for Tokyo using Japanese spelling](images/search_in_local_language.png)
 
 ### Networks
 

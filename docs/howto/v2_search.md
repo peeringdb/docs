@@ -12,7 +12,7 @@ v2 lets you use some natural language queries in combination with the name for a
 
 Searches for numbers can be interpreted as a search for a location as well as a network. When searching for a network prefixed with 'AS', partial matches show all relevant networks while direct matches take you straight to the network's page.
 
-![Search for as333](images/Search_for_as333.png)
+![Search for as333](images/search_for_as333.png)
 
 *Fig 1: A search for* `as333` *shows results for AS3330 and AS33309*
 
