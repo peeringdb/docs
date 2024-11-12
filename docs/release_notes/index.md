@@ -22,6 +22,19 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
 
+## Release 2.63.0
+
+Beta Announcement Date: 13 November 2024
+Release Date: 20 November 2024
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1666 Schedule reset of tutorial server database](https://github.com/peeringdb/peeringdb/issues/1666) | As title.|
+| [#1635 ops: add read-only server side switch](https://github.com/peeringdb/peeringdb/issues/1635) | PeeringDB can now be placed into read-only mode when needed.|
+| [#1593 Dev module docs auto generation broken](https://github.com/peeringdb/peeringdb/issues/1593) | Fixes a bug that broke autogeneration of documentation.|
+| [#1690 New net_side and ix_side fields on netixlan breaks sync once django-peeringdb is released](https://github.com/peeringdb/peeringdb/issues/1690) | Fixes a bug that blocked the release of an updated django-peeringdb because of the new new `net_side` and `ix_side` fields added to `netixlan` in 2.62.0.|
+| [peeringdb-py  #65 Make spinning up peeringdb-py fully automated](https://github.com/peeringdb/peeringdb-py/issues/65) | As title.|
+
 ## Release 2.62.1
 
 Release Date: 24 October 2024
