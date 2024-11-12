@@ -139,6 +139,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2630" class="nav-link">Release 2.63.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2621" class="nav-link">Release 2.62.1</a>
               <ul class="nav flex-column">
               </ul>
@@ -260,6 +264,43 @@
 <td>2025-06-11</td>
 <td>2025-06-18</td>
 <td>2025-05-25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2630">Release 2.63.0</h2>
+<p>Beta Announcement Date: 13 November 2024<br />
+Release Date: 20 November 2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1671">#1671 Inconsistent netixlan ASN data can result in inability for deleted netixlan to be claimed by new user</a></td>
+<td>Nullify the local <code>asn</code> field of <code>netixlan</code> objects and make it a read only view of $network.asn..</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1666">#1666 Schedule reset of tutorial server database</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1635">#1635 ops: add read-only server side switch</a></td>
+<td>PeeringDB can now be placed into read-only mode when needed.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1593">#1593 Dev module docs auto generation broken</a></td>
+<td>Fixes a bug that broke autogeneration of documentation.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1690">#1690 New net_side and ix_side fields on netixlan breaks sync once django-peeringdb is released</a></td>
+<td>Fixes a bug that blocked the release of an updated django-peeringdb because of the new new <code>net_side</code> and <code>ix_side</code> fields added to <code>netixlan</code> in 2.62.0.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb-py/issues/65">peeringdb-py  #65 Make spinning up peeringdb-py fully automated</a></td>
+<td>As title.</td>
 </tr>
 </tbody>
 </table>
