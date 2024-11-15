@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [What's new on PeeringDB?](presentation/20241114_ZAPF_2024_Obinna_Adumike.pdf) at [8th South African Peering Forum](https://www.zapf.africa/), Cape Town, ZA - November 14, 2024 - Obinna Adumike
 - [What's new on PeeringDB?](presentation/20241106_nog.fi_meeting_2024.11_Morina_Livio.pdf) at [nog.fi meeting 2024.11](https://nog.fi/event/12/), Helsinki, FI - November 6, 2024 - Livio Morina
 - [PeeringDB Update](presentation/20241031_RIPE89_Connect_WG_Leo_Vegoda.pdf) at [RIPE 89](https://ripe89.ripe.net/), Prague, CZ - October 31, 2024 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20241023_NgNOG_2024_Obinna_Adumike.pdf) at [NgNOG 2024](https://nog.ng/), Lagos, NG - October 23, 2024 - Obinna Adumike
