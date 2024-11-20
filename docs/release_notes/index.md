@@ -29,7 +29,9 @@ Release Date: 20 November 2024
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1671 Inconsistent netixlan ASN data can result in inability for deleted netixlan to be claimed by new user](https://github.com/peeringdb/peeringdb/issues/1671) | Nullify the local `asn` field of `netixlan` objects and make it a read only view of $network.asn..|
+| [#1707 No Password Length Vulnerability](https://github.com/peeringdb/peeringdb/issues/1707) | Implemented a 1,024 character password limit to limit potential attacks.|
+| [#1708 Enable 2FA without verifying the email](https://github.com/peeringdb/peeringdb/issues/1708) | Fixed a bug that allowed MFA to be set up without confirming control of the account's address.|
+| [#1671 Inconsistent netixlan ASN data can result in inability for deleted netixlan to be claimed by new user](https://github.com/peeringdb/peeringdb/issues/1671) | Nullify the local `asn` field of `netixlan` objects and make it a read only view of $network.asn.|
 | [#1666 Schedule reset of tutorial server database](https://github.com/peeringdb/peeringdb/issues/1666) | As title.|
 | [#1635 ops: add read-only server side switch](https://github.com/peeringdb/peeringdb/issues/1635) | PeeringDB can now be placed into read-only mode when needed.|
 | [#1593 Dev module docs auto generation broken](https://github.com/peeringdb/peeringdb/issues/1593) | Fixes a bug that broke autogeneration of documentation.|
