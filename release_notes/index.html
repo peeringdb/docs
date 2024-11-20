@@ -279,8 +279,16 @@ Release Date: 20 November 2024</p>
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1707">#1707 No Password Length Vulnerability</a></td>
+<td>Implemented a 1,024 character password limit to limit potential attacks.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1708">#1708 Enable 2FA without verifying the email</a></td>
+<td>Fixed a bug that allowed MFA to be set up without confirming control of the account's address.</td>
+</tr>
+<tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/1671">#1671 Inconsistent netixlan ASN data can result in inability for deleted netixlan to be claimed by new user</a></td>
-<td>Nullify the local <code>asn</code> field of <code>netixlan</code> objects and make it a read only view of $network.asn..</td>
+<td>Nullify the local <code>asn</code> field of <code>netixlan</code> objects and make it a read only view of $network.asn.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/peeringdb/peeringdb/issues/1666">#1666 Schedule reset of tutorial server database</a></td>

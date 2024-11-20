@@ -286,6 +286,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.peeringdb.com/blog/two_security_fixes/</loc>
+         <lastmod>2024-11-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.peeringdb.com/blog/u2f_and_url/</loc>
          <lastmod>2024-11-20</lastmod>
          <changefreq>daily</changefreq>
