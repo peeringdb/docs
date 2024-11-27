@@ -2,6 +2,7 @@
 
 ## 2024
 
+- [PeeringDB Update](presentation/20241121_LINX123_Lynsey_Buckingham.pdf) at [LINX123](https://www.linx.net/events/linx123-2/), London, UK - November 21, 2024 - Lynsey Buckingham
 - [What's new on PeeringDB?](presentation/20241119_RSNOG10_Livio_Morina.pdf) at [RSNOG 10](https://rsnog.rs/events/tenth-rsnog-conference/?lang=en), Belgrade, RS - November 19, 2024 - Livio Morina
 - [What's new on PeeringDB?](presentation/20241114_ZAPF_2024_Obinna_Adumike.pdf) at [8th South African Peering Forum](https://www.zapf.africa/), Cape Town, ZA - November 14, 2024 - Obinna Adumike
 - [What's new on PeeringDB?](presentation/20241106_nog.fi_meeting_2024.11_Morina_Livio.pdf) at [nog.fi meeting 2024.11](https://nog.fi/event/12/), Helsinki, FI - November 6, 2024 - Livio Morina
