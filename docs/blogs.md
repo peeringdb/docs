@@ -4,6 +4,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+- [API Keys: Basic Authentication is Going Away](blog/api_keys_basic_auth_going_away.md) - December 5, 2024
 - [Two Security Fixes](blog/two_security_fixes.md) - November 20, 2024
 - [October 2024 PeeringDB Product Update](blog/october_2024_retrospective.md) - October 4, 2024
 - [Data Quality — Removing Closed Networks](blog/data_quality_removing_closed_networks.md) - September 7, 2024
