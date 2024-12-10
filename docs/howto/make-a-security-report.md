@@ -48,5 +48,5 @@ This is not an exclusive list. If you report a vulnerability that has already be
 * After a major security issue has been solved, we will publish a report on our website explaining the vulnerability discovered and how we fixed it.
 * If you agree to have your name used in the report, we will credit you. Note that we will only credit the first person that reported a specific vulnerability to us.
 * After your vulnerability report is verified, the security team will inform you if you are eligible.
-* We will send you a unique token of our gratitude, such as a personalized bottle, cup or hat.
+* We will send you a gift with the PeeringDB logo.
 * We do not issue monetary rewards for reported vulnerabilities.

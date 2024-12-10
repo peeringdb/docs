@@ -11,7 +11,7 @@ These reports were timely as we are working to [make MFA mandatory](https://gith
 
 We welcome reports like those made by Mridul Vohra. If you notice an issue, please check our [HOWTO](/howto/make-a-security-report/) on making security reports.
 
-We will do our best to resolve security issues in a timely fashion. We'll also send you a personalized gift item like a cup or hoodie. And, we'll recognize your contribution in a report like this.
+We will do our best to resolve security issues in a timely fashion. We'll also send you a gift with the PeeringDB logo, and we'll recognize your contribution in a report like this.
 
 --- 
 
