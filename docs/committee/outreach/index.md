@@ -9,6 +9,8 @@
 
 #### 2024
 
+- [December 10, 2024: Meeting Notes](notes/2024-12-10_Outreach_Committee_Notes.pdf)
+- [November 22, 2024: Meeting Notes](notes/2024-11-22_Outreach_Committee_Notes.pdf)
 - [October 9th, 2024: Meeting Notes](notes/2024-10-09_Outreach_Committee_Notes.pdf)
 - [September 19th, 2024: Meeting Notes](notes/2024-09-19_Outreach_Committee_Notes.pdf)
 - [August 13th, 2024: Meeting Notes](notes/2024-08-13_Outreach_Committee_Notes.pdf)
