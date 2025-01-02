@@ -9,6 +9,10 @@
 
 ## Meeting notes
 
+#### 2025
+
+- [January 2nd, 2025: Meeting Notes](notes/2025-01-02_Product_Committee_Notes.pdf)
+
 #### 2024
 
 - [December 5th, 2024: Meeting Notes](notes/2024-12-05_Product_Committee_Notes.pdf)
