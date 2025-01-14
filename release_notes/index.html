@@ -139,59 +139,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#release-2630" class="nav-link">Release 2.63.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2621" class="nav-link">Release 2.62.1</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2620" class="nav-link">Release 2.62.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2610" class="nav-link">Release 2.61.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2600" class="nav-link">Release 2.60.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2590" class="nav-link">Release 2.59.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2580" class="nav-link">Release 2.58.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2570" class="nav-link">Release 2.57.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2561" class="nav-link">Release 2.56.1</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2560" class="nav-link">Release 2.56.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2550" class="nav-link">Release 2.55.0</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2542" class="nav-link">Release 2.54.2</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2541" class="nav-link">Release 2.54.1</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#release-2540" class="nav-link">Release 2.54.0</a>
+            <li class="nav-item" data-level="2"><a href="#release-2640" class="nav-link">Release 2.64.0</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -225,7 +173,7 @@
 <tbody>
 <tr>
 <td>2.64.0</td>
-<td>2024-01-08</td>
+<td>2025-01-08</td>
 <td>2024-01-15</td>
 <td>2024-01-22</td>
 </tr>
@@ -261,9 +209,9 @@
 </tr>
 </tbody>
 </table>
-<h2 id="release-2630">Release 2.63.0</h2>
-<p>Beta Announcement Date: 13 November 2024<br />
-Release Date: 20 November 2024</p>
+<h2 id="release-2640">Release 2.64.0</h2>
+<p>Beta Announcement Date: 15 January 2025<br />
+Release Date: 22 January 2025</p>
 <table>
 <thead>
 <tr>
@@ -273,630 +221,70 @@ Release Date: 20 November 2024</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1707">#1707 No Password Length Vulnerability</a></td>
-<td>Implemented a 1,024 character password limit to limit potential attacks.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1522">#1522 Request: A Light/Dark/Auto Mode Toggle</a></td>
+<td>Introduces Dark Mode and use controls for it.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1708">#1708 Enable 2FA without verifying the email</a></td>
-<td>Fixed a bug that allowed MFA to be set up without confirming control of the account's address.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1446">#1446 v2 Search - extra facility results are returned with exact match search</a></td>
+<td>Fixes a problem with exact matches in search.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1671">#1671 Inconsistent netixlan ASN data can result in inability for deleted netixlan to be claimed by new user</a></td>
-<td>Nullify the local <code>asn</code> field of <code>netixlan</code> objects and make it a read only view of $network.asn.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1517">#1517 Searching for an AS number returns less than helpful search results</a></td>
+<td>Improves search results for AS Numbers.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1666">#1666 Schedule reset of tutorial server database</a></td>
-<td>As title.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1542">#1542 v2 search does not find a fac in Charlotte, NC but finds an ix in a fac there</a></td>
+<td>Improves completeness for location based searches.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1635">#1635 ops: add read-only server side switch</a></td>
-<td>PeeringDB can now be placed into read-only mode when needed.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1596">#1596 Improvements to search</a></td>
+<td>Several search improvements.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1593">#1593 Dev module docs auto generation broken</a></td>
-<td>Fixes a bug that broke autogeneration of documentation.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1646">#1646 Valid search syntax fails to return complete results as expected</a></td>
+<td>Improves completeness for location based searches.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1690">#1690 New net_side and ix_side fields on netixlan breaks sync once django-peeringdb is released</a></td>
-<td>Fixes a bug that blocked the release of an updated django-peeringdb because of the new new <code>net_side</code> and <code>ix_side</code> fields added to <code>netixlan</code> in 2.62.0.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1473">#1473 Searching for specific facilities (so far Equinix) returns incorrect results</a></td>
+<td>Improves results for specific facility or IXP searches.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/65">peeringdb-py  #65 Make spinning up peeringdb-py fully automated</a></td>
-<td>As title.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1704">#1704 Advanced Search for Carriers - web UI and data export </a></td>
+<td>Improves Advanced Search for Carriers and fixes data export options.</td>
 </tr>
-</tbody>
-</table>
-<h2 id="release-2621">Release 2.62.1</h2>
-<p>Release Date: 24 October 2024</p>
-<table>
-<thead>
 <tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1628">#1628 Search failure for FAC and "diverse serving substations"</a></td>
+<td>Fixes a problem with advanced search for facilities.</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1692">#1692 Fix otp email one time password</a></td>
-<td>Fixes compatibility issues after two-factor library upgrade, causing issues with emailing one time passwords.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1659">#1659 API key cannot be used to retrieve IX-F import preview</a></td>
+<td>API Keys can now be used to get previews of IX-F imports.</td>
 </tr>
-</tbody>
-</table>
-<h2 id="release-2620">Release 2.62.0</h2>
-<p>Beta Announcement Date: 9 October 2024<br />
-Release Date: 16 October 2024</p>
-<table>
-<thead>
 <tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1482">#1482 Clarify location inside of ORG-a-building</a></td>
+<td>Floor and suite fields aren't included in output address when not specified. Suite is used when a location within a building is documented.</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1584">#1584 Passkey support for login</a></td>
-<td>Adds a new 2FA method, <a href="https://fidoalliance.org/passkeys/">Passkeys</a>.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1687">#1687 Create a "profile" control for changing a person's name</a></td>
+<td>Users may not change their names themselves, instead of asking the AC to do it for them.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1612">#1612 Feature Parity for Carrier Object: Search and Export to JSON, CSV, KMZ</a></td>
-<td>As title.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1674">#1674 "[peeringdb.com] Please Confirm Your Email Address" messages should present an https:// URL</a></td>
+<td>Changes URL to use HTTPS.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1555">#1555 Remove "Media Type" field for Internet Exchange object</a></td>
-<td>As title.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1665">#1665 Be specific and correct about login field case sensitivity in error message</a></td>
+<td>Fixes wording for login pages.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1563">#1563 CSV and JSON exports truncate at 250 records</a></td>
-<td>Exports no longer truncate at 250 records.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/607">#607 Add location of Physical IX-Port &amp; Router Port</a></td>
-<td>IXPs can now indicate the location of their switch using the <code>pdb_facility_id</code> attribute of the <code>switch</code> statement in their <a href="https://github.com/euro-ix/json-schemas">IX-F JSON export</a>.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/95">peeringdb-py #95 Make client more robust when dealing with api errors.</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/86">peeringdb-py #86 DB sync fails due to validation error</a></td>
-<td>Bug fix as title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1635">#1635 ops: add read-only server side switch</a></td>
-<td>Server can go into read-only mode, while allowing user login. This mode allows basic service to be sustained in adverse situations.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdbn/issues/1654">#1654 Direct query access to Elasticsearch to aid search improvements</a></td>
-<td>Direct query access to ElasticSearch for internal PeeringDB users.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/docs/pull/1653">#1653 Update dependencies and modernise</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdbpy/issues/94">peeringdb-py #94 Update deps and modernize</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/django-peeringdb/issues/103">django-peeringdb #103 Update dependencies and modernise</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/docs/pull/340">#340 switch to uv, update deps</a></td>
-<td>Dependency update for docs.peeringdb.com.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2610">Release 2.61.0</h2>
-<p>Beta Announcement Date: 14 August 2024<br />
-Release Date: 21 August 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1617">#1617 Snag list for preview.beta.peeringdb.com</a></td>
-<td>Updates preview.beta.peeringdb.com to improve the UI.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1142">#1142 Email one time password button should be less prominent</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/766">#766 For any forbidden actions set a 403 and give a "Not Allowed" header</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1302">#1302 Fix OpenAPI types where needed</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/76">peeringdb-py #76 Client should handle rate limiting errors gracefully</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1583">#1583 bfd_support undocumented parameter in API</a></td>
-<td>Documentation improved.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/98">django-peeringdb #98 ORM configuration Options is missing (postgreSQL)</a></td>
-<td>Config option updated.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1014">#1014 When removing a network, removing all netixlans have to happen before removing pocs</a></td>
-<td>Fixes blocking of network deletion due to to <a href="https://github.com/peeringdb/peeringdb/issues/923">Prevent deletion of a last technical contact if there is an existing netixlan object #923.</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2600">Release 2.60.0</h2>
-<p>Beta Announcement Date: 17 July 2024<br />
-Release Date: 24 July 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1452">#1452 Normalizing the presentation of place names</a></td>
-<td>Place names are now normalized, improving the consistency of search results.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1189">#1189 Data export buttons for Network, Exchange, and Facilities</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1561">#1561 Deploy www on ECS/Fargate</a></td>
-<td>www.peeringdb.com will be deployed using containers.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/67">peeringdb-py #67 Allow option for logging to co-exist with existing loggers</a></td>
-<td>Improves logging support in peeringdb-py local cache.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/72">peeringdb-py #72 --output-format in cli does not seem to be working</a></td>
-<td>Fixes bug as per title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1322">#1322 Give API writes high priority and limits</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1610">#1610 possible for ixpfx object with empty prefix to exist in a soft-deleted state</a></td>
-<td>Fixes bug as per title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1040">#1040 Verification queue ticket subject changes</a></td>
-<td>Fixes bug as per title.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2590">Release 2.59.0</h2>
-<p>Beta Announcement Date: 19 June 2024<br />
-Release Date: 26 June 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1585">#1585 Publish OAuth authorization server metadata endpoint</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1483">#1483 Address Change UI</a></td>
-<td>Fixes an error where it was not possible to reject the suggestion for an address.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1561">#1561 Deploy www on ECS/Fargate</a></td>
-<td>Switch www.peeringdb.com to ECS/Fargate. Initial deployment will be on beta.peeringdb.com with www.peeringdb.com following at a later date.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/49">peeringdb-py #49 Automatically update docs site on code release</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/88">peeringdb-py #88 docs need updating to reflect some api changes to the Client.update_all() call</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1603">#1603 Organization API key table formatting broken</a></td>
-<td>Improves the display of Organizational API Keys.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1604">#1604 API limit=x does not work when response type set in URL</a></td>
-<td>Limits to response sizes were ignored as per title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/971">#971 Remove white space from strings</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1606">#1606 rir_status update handler: intermittent bug that may attempt to delete a network too early</a></td>
-<td>Fixes an over eager data cleanup process.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1608">#1608 pdb_delete_outdated_pending_affil_request failure</a></td>
-<td>Fixes an error is a data cleanup process.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2580">Release 2.58.0</h2>
-<p>Beta Announcement Date: 29 May 2024<br />
-Release Date: 5 June 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1343">#1343 Inconsistent return results when querying facilities by state (Datafill)</a></td>
-<td>Enforces state naming on validation and normalize data.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1502">#1502 Create preview.peeringdb.com with updated web UI</a></td>
-<td>Preview site for new PeeringDB web design.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1414">#1414 Tooltip with Full IX Name on Mouse-Over IX-Abbreviation</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1115">#1115 Enhancement to Ownership Information Field</a></td>
-<td>Lessee tooltip now says "Leased or Rented".</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1487">#1487 URL Referrer Behavior</a></td>
-<td>Clicking on a link now opens it in a new tab or window.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/840">#840 Add help text to "Traffic Levels"</a></td>
-<td>Add tooltip "Total, self-classified traffic in/out to this network.".</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1491">#1491 Add logo watermark and peeringdb.com URL to kmz</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/975">#975 "Incomplete data" complainer for Peering Policy even with General Policy "None" or "Open"</a></td>
-<td>No longer show missing data warning for empty Peering Policy field if General Policy is set to "Open" or "No".</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1580">#1580 Validator: Add validator for X usernames, were requirements</a></td>
-<td>Validator for usernames on the X social media network.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1481">#1481 Network Registration fail results in AC action and retry failure</a></td>
-<td>Improved network registration process where email address does not match RDAP output.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1500">#1500 pdb_stats needs to be updated to include Campuses, Carriers, etc. &amp; possible bug with user counts</a></td>
-<td>Improvements to internal stats package.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1503">#1503 Is it possible to create an affiliation request even when the ASN (~Net) has been deleted? (But the ORG still exist)</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1038">#1038 add default for config key</a></td>
-<td>MELISSA_KEY now defaults to a blank string.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1048">#1048 TOTP devices sort is by id. However, only username is shown</a></td>
-<td>Fixes a UI bug with internal support tools.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb-py/issues/85">#85 DB sync fails due to duplicate entries</a></td>
-<td>Fixes a <a href="https://docs.peeringdb.com/howto/peeringdb-py/">peeringdb-py</a> data sync bug.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2570">Release 2.57.0</h2>
-<p>Beta Announcement Date: 17 April 2024<br />
-Release Date: 24 April 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1545">#1545 Feature request: Allow permissions to be given per user on Carrier</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1123">#1123 Make a Technical POC mandatory when enabling "Allow IXP Update"</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1231">#1231 Change ix-f to IX-F</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1577">#1577 Remove more clutter from KMZ Metadata</a></td>
-<td>Makes data easier to read and slims download size.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1475">#1475 KML Placemark/Point Meta Data Not Displaying Correctly</a></td>
-<td>Fixes a bug that broke the way metadata displayed for .KMZ pins.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1546">#1546 v2 search: 500 error when last character is a colon</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1530">#1530 missing search results when doing a city location search for facilities</a></td>
-<td>Fixes a bug that did not show <code>fac</code> entries located in a city in simple search.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1533">#1533 Exchange Advanced search fails and returns bad search data</a></td>
-<td>Fixes and intermittent Advanced Search failure.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1451">#1451 Cosmetic issue with affiliation emails and double-slash in URL</a></td>
-<td>Fixes a cosmetic bug in autogenerated support messages.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1416">#1416 Add (PeeringDB Support) after superuser name in public notifications</a></td>
-<td>Support messages now more clearly identified as coming from PeeringDB Support.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1415">#1415 Auto-CleanUp old pending "User to Organization Affiliation Request"</a></td>
-<td>Pending affiliation requests are now cleaned up after 3 months.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1494">#1494 drop any facilities without location data (PDB Example)</a></td>
-<td>No <code>fac</code> without a geocode is now listed in the .KMZ export.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1528">#1528 pdb_rir_status task errors on deskpro ticket creation</a></td>
-<td>Fixes a bug in an internal support tool.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1453">#1453 DELETION PREVENTED: Link is not formatted as <a> html element</a></td>
-<td>Fixes a bug in an internal support tool.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1484">#1484 Update ORG Social Media Option "Twitter" to "X"</a></td>
-<td>As title.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2561">Release 2.56.1</h2>
-<p>Release Date: 27 March 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/pull/1581">#1581 rdap to 1.5.2</a></td>
-<td>Merge third-party library needed for complete fix of <a href="https://github.com/peeringdb/peeringdb/issues/1455">#1455</a>.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2560">Release 2.56.0</h2>
-<p>Beta Announcement Date: 13 March 2024<br />
-Release Date: 20 March 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1447">#1447 v2 search - support for ISO 3166 alpha-2 country codes</a></td>
-<td>v2 search now has support for ISO 3166 alpha-2 codes.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1495">#1495 Enable .KMZ export for Advanced Search results</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1489">#1489 Remove unneeded fields from the KMZ</a></td>
-<td>Removes field clutter to optimize file size.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1490">#1490 Spelling fix for KMZ</a></td>
-<td>Fixes spelling of 'Latitude'.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1099">#1099 Expose authentication methods on outbound federation</a></td>
-<td>Adds Authentication Method Reference field to OAuth profile, with choices from <a href="https://www.rfc-editor.org/rfc/rfc8176#section-2">Section 2 of RFC8176</a>, documentation, and scope.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1133">#1133 Return auth error when multiple auth methods are used</a></td>
-<td>Now returns a 401 code with a helpful message when <code>Authorization: Basic</code> fails with corrupt base64 input.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1456">#1456 Duplicate AS-SET name</a></td>
-<td>Adds a tooltip suggesting hierarchical AS-SET names and a warning if a duplicate name is entered.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1331">#1331 BFD support field in Global and IX specific views</a></td>
-<td>Adds a boolean value for BFD support per IP address and a mouseover icon on the website when it's true.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1478">#1478 Social link controls showing up when not logged in</a></td>
-<td>Fixes a cosmetic bug that showed non-operational social media controls when not logged in.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1425">#1425 Update social media icons in footer</a></td>
-<td>Updates social media icons in the footer.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1152">#1152 Tab URLs don't work anymore</a></td>
-<td>Fixes tab URLs in the admin interface.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2550">Release 2.55.0</h2>
-<p>Beta Announcement Date: 21 February 2024<br />
-Release Date: 28 February 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1410">#1410 Adjust IPv4/6 prefix limits automatically</a></td>
-<td>Max prefix limit is now automatically adjusted based on the DFZ.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1455">#1455 Org name RIPE-NCC-END-MNT for new networks</a></td>
-<td>Fixes a bug that named orgs RIPE-NCC-END-MNT.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1468">#1468 translation refresh and dependency update</a></td>
-<td>translate.peeringdb.com updated to weblate 5.0 and other dependency updates.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1480">#1480 pdb_load_data no longer creates necessary org usergroups</a></td>
-<td>Fixes a bug with data sync tool.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2542">Release 2.54.2</h2>
-<p>Release Date: 31 January 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1536">#1536 Support 202311 rollback ux changes</a></td>
-<td>Reverted web UI changes that caused issues.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2541">Release 2.54.1</h2>
-<p>Release Date: 30 January 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1511">#1511 Non-obvious search box on the front page</a></td>
-<td>Search bar in header is now auto deployed.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1513">#1513 Mobile interface front page has lots of misaligned sections</a></td>
-<td>Fixes layout issues for some mobile devices.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1514">#1514 Two different search boxes on a network page information page in the same area</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1515">#1515 Bottom search box on some pages does not work correctly</a></td>
-<td>As title.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="release-2540">Release 2.54.0</h2>
-<p>Beta Announcement Date: 18 January 2024<br />
-Release Date: 24 January 2024</p>
-<table>
-<thead>
-<tr>
-<th><strong>GitHub issue</strong></th>
-<th><strong>Summary</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1463">#1463 Update website to take advantage of wider screen and improve mobile device support</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1357">#1357 Clarifying the Network Type field</a></td>
-<td>Add multi-select for Network Type field.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1341">#1341 Only indicate availability of DC voltage for facilities</a></td>
-<td>Limits power options to non-standard voltages.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1476">#1476 v2 search not able to find organization and network - Marconi Solutions Srls</a></td>
-<td>Fixes a bug where bad search results are returned.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/170">#170 Add a "flag bad data" button on various places</a></td>
-<td>Adds a box web users can click to report bad data.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1430">#1430 Changing ASN field on "Add Network" to be numbers only</a></td>
-<td>The text box is now restricted to numbers, reducing scope for data entry issues.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1455">#1455 Org name RIPE-NCC-END-MNT for new networks</a></td>
-<td>Fixes a bug tat set some networks' names to RIPE-NCC-END-MNT.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1280">#1280 Improve RIR Update Procedure</a></td>
-<td>Improves the process for removing stale networks from PeeringDB.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1065">#1065 api-cache improvements</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1303">#1303 Add headers to API requests</a></td>
-<td>Adds a mechanism to indicate that behavior/schema has changed to API consumers.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1410">#1410 Adjust IPv4/6 prefix limits automatically</a></td>
-<td>Now automatically sets the maximum to 25% of the DFZ.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/410">#410 Add a "last synced at $date" to beta.peeringdb.com</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1468">#1468 translation refresh and dependency update</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1466">#1466 Analysis: Investigate use of ECS/Fargate</a></td>
-<td>As title.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1412">#1412 Improve performance by updating Python client code</a></td>
-<td>As title.</td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1652">#1652 Django-admin allows setting an ok object back to pending.</a></td>
+<td>Fixes an internal admin UI issues that allowed objects to be unapproved.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="older-releases">Older releases</h2>
 <ul>
+<li><a href="/release_notes/release_notes_2024/">2024 Release Notes</a></li>
 <li><a href="/release_notes/release_notes_2023/">2023 Release Notes</a></li>
 <li><a href="/release_notes/release_notes_2022/">2022 Release Notes</a></li>
 <li><a href="/release_notes/release_notes_2021/">2021 Release Notes</a></li>
