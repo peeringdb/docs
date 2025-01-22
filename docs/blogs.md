@@ -1,8 +1,11 @@
 # PeeringDB Blogs
 
-## 2024
-
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
+
+## 2025
+- [2025 Starts With Better Search](blog/2025_better_search.md) - January 22, 2024
+
+## 2024
 
 - [API Keys: Basic Authentication is Going Away](blog/api_keys_basic_auth_going_away.md) - December 5, 2024
 - [Two Security Fixes](blog/two_security_fixes.md) - November 20, 2024
