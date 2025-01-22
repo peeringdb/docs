@@ -14,7 +14,6 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.64.0 | 2025-01-08 | 2024-01-15 | 2024-01-22 |
 | 2.65.0 | 2025-02-05 | 2025-02-12 | 2025-02-19 |
 | 2.66.0 | 2025-03-14 | 2025-03-23 | 2025-03-30 |
 | 2.67.0 | 2025-04-22 | 2025-04-29 | 2025-04-30 |
@@ -37,6 +36,7 @@ Release Date: 22 January 2025
 | [#1473 Searching for specific facilities (so far Equinix) returns incorrect results](https://github.com/peeringdb/peeringdb/issues/1473) | Improves results for specific facility or IXP searches.|
 | [#1704 Advanced Search for Carriers - web UI and data export ](https://github.com/peeringdb/peeringdb/issues/1704) | Improves Advanced Search for Carriers and fixes data export options.|
 | [#1628 Search failure for FAC and "diverse serving substations"](https://github.com/peeringdb/peeringdb/issues/1628) | Fixes a problem with advanced search for facilities.|
+| [#1712 Search doesn't work](https://github.com/peeringdb/peeringdb/issues/1712) | Fixes a bug with Advanced Search for facilities.|
 | [#1659 API key cannot be used to retrieve IX-F import preview](https://github.com/peeringdb/peeringdb/issues/1659) | API Keys can now be used to get previews of IX-F imports.|
 | [#1482 Clarify location inside of ORG-a-building](https://github.com/peeringdb/peeringdb/issues/1482) | Floor and suite fields aren't included in output address when not specified. Suite is used when a location within a building is documented.|
 | [#1687 Create a "profile" control for changing a person's name](https://github.com/peeringdb/peeringdb/issues/1687) | Users may not change their names themselves, instead of asking the AC to do it for them.|
