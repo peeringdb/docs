@@ -1,5 +1,9 @@
 # Presentations
 
+## 2025
+
+- [Introduction to PeeringDB](presentation/20250124_Ethiopia_Peering_Day_Ben_Ryall) at [Ethiopia Peering Day](https://www.internetsociety.org/events/ethiopia-peering-day/), Addis Ababa, ET - January 24, 2025 - Ben Ryall
+
 ## 2024
 
 - [PeeringDB Update](presentation/20241121_LINX123_Lynsey_Buckingham.pdf) at [LINX123](https://www.linx.net/events/linx123-2/), London, UK - November 21, 2024 - Lynsey Buckingham
