@@ -2,7 +2,7 @@
 
 ## 2025
 
-- [Introduction to PeeringDB](presentation/20250124_Ethiopia_Peering_Day_Ben_Ryall) at [Ethiopia Peering Day](https://www.internetsociety.org/events/ethiopia-peering-day/), Addis Ababa, ET - January 24, 2025 - Ben Ryall
+- [Introduction to PeeringDB](presentation/20250124_Ethiopia_Peering_Day_Ben_Ryall.pdf) at [Ethiopia Peering Day](https://www.internetsociety.org/events/ethiopia-peering-day/), Addis Ababa, ET - January 24, 2025 - Ben Ryall
 
 ## 2024
 
