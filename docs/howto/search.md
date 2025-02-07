@@ -230,7 +230,7 @@ Using the GET operation you can retrieve information from the PeeringDB database
 
 To retrieve a single object you need to use this URL:`https://www.peeringdb.com/api/OBJ/ID` with this endpoint GET: `/api/OBJ/id`. The ID is a unique identifier and should be added to the URL when retrieving a single object. Let’s look at an example:
 - HTTP:`GET /api/OBJ/38` where 38 is the ID
-- curl: `curl -H "Accept: application/json" -X GET https://<username>:<password>@peeringdb.com/api/OBJ/38`
+- curl: `curl -H "Accept: application/json" -X GET https://<username>:<password>@www.peeringdb.com/api/OBJ/38`
 
 There are optional parameters you can add to your URL:
 - **str**: which retrieves a comma separated list of field names - only matching fields will be returned in the data
