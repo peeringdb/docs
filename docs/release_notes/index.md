@@ -20,6 +20,21 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
 
+## Release 2.65.0
+
+Beta Announcement Date: 12 February 2025
+Release Date: 19 February 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1713 IX-F Importer previews are timing out after 5 seconds.](https://github.com/peeringdb/peeringdb/issues/1713) | Bug fix: as per title.|
+| [#1660 IX-F import requested in the Beta instance remains in the Queued state](https://github.com/peeringdb/peeringdb/issues/1660) | Fixes a bug that stopped IX-F imports to beta completing.|
+| [#1663 Display issue: approved by text in approval email](https://github.com/peeringdb/peeringdb/issues/1663) | The name of the approver is now included in approval mails.|
+| [#1718 Delete Affiliation uses the wrong dropdown](https://github.com/peeringdb/peeringdb/issues/1718) | Bug fix: as per title.|
+| [#1586 Django admin date selector month "Next" and "Prev" emojis/glyphs are missing/invisible](https://github.com/peeringdb/peeringdb/issues/1586) | Makes backend admin controls visible to Admin Committee users.|
+| [#1706 Admin Control Panel: viewing ixlan results in 504 Gateway Time-out](https://github.com/peeringdb/peeringdb/issues/1706) | Bug fix: as per title.|
+
+
 ## Release 2.64.0
 
 Beta Announcement Date: 15 January 2025
