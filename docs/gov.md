@@ -34,6 +34,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Board Meetings & Consents
 
+- 2025: [2025-01-23](gov/legaldocs/2025-01-23_PeeringDB_Board_Minutes.pdf)
 - 2024: [2024-05-18](gov/legaldocs/2024-05-18_PeeringDB_Board_Consent_of_Directors_in_Lieu_of_Annual_Meeting.pdf), [2024-02-27](gov/legaldocs/2024-02-27_PeeringDB_Board_Minutes.pdf)
 - 2023: [2023-08-11](gov/legaldocs/2023-08-11_PeeringDB_Board_Minutes.pdf), [2023-05-18](gov/legaldocs/2023-05-18_PeeringDB_Board_Minutes.pdf), [2023-05-08](gov/legaldocs/2023-05-08_PeeringDB_Board_Minutes.pdf)
 - 2022: [2022-07-29](gov/legaldocs/2022-07-29_PeeringDB_Board_Minutes.pdf)
