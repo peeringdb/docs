@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howto/peeringdb-py/">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/peeringdb_py_improvements/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>HOWTO: Install peeringdb-py - PeeringDB Docs</title>
+        <title>Improvements for peeringdb-py - PeeringDB Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -133,24 +133,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#howto-install-peeringdb-py" class="nav-link">HOWTO: Install peeringdb-py</a>
+            <li class="nav-item" data-level="1"><a href="#improvements-for-peeringdb-py" class="nav-link">Improvements for peeringdb-py</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#peeringdb-credentials" class="nav-link">PeeringDB credentials</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#software-requirements" class="nav-link">Software requirements</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#database" class="nav-link">Database</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#installation-instructions-for-peeringdb-py" class="nav-link">Installation instructions for peeringdb-py</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -158,25 +142,15 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="howto-install-peeringdb-py">HOWTO: Install peeringdb-py</h1>
-<p>You can install <code>peeringdb-py</code> on a wide selection of operating systems. Users have installed it on several Linux distributions, macOS, and Windows Subsystem for Linux.</p>
-<p>It will give you a local version of PeeringDB’s SQL database. Unlike the PeeringDB API, the SQL data structure might change without notice. Please do not build tools that make SQL queries. We suggest using our library to make <a href="https://docs.peeringdb.com/api_specs/">API calls</a> on your local cache. We maintain the library and commit to maintaining the API functionality, even if the underlying database structure changes.</p>
-<p>Please let us know if you find a query that is only possible with SQL and not via the API. Either create an issue in <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>, or send a mail describing the problems to <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
-<h2 id="peeringdb-credentials">PeeringDB credentials</h2>
-<p>You only need a PeeringDB account if you want to synchronize the contact information to your peeringdb-py cache. If you want to synchronize the whole database, including the contact data, you will need an API Key.</p>
-<p>If you are installing peeringdb-py for organizational use you should use an organizational API Key. You can use an API Key tied to a user account for personal use. We have a <a href="/howto/api_keys/">HOWTO guide for API Keys</a>.</p>
-<h2 id="software-requirements">Software requirements</h2>
-<p>You must ensure these these packages are installed to install and use <code>peeringdb-py</code>:<br />
-- git<br />
-- pip<br />
-- python<br />
-- virtualenv</p>
-<p>You will also need to have a database installed. The configuration defaults to using SQLite.</p>
-<h2 id="database">Database</h2>
-<p><code>peeringdb-py</code>’s defaults to an SQLite3 database. You can choose to use a different database. If you want to do this you must adjust the database engine statement in the <code>config.yaml</code>, which is placed in your <code>.peeringdb/config.yaml</code>, which sits in your home directory. Whichever database you choose, it must use UTF-8 as the character set.</p>
-<h2 id="installation-instructions-for-peeringdb-py">Installation instructions for <code>peeringdb-py</code></h2>
-<p>We have a <a href="https://github.com/peeringdb/peeringdb-py/blob/master/docs/local_server.md">separate document</a> describing how to install <code>peeringdb-py</code>, run the server setup, and make local queries using the API. </p>
-<p>Because the server now has an automatic synchronization process, you no longer need to create a cron job to synchronize data.</p></div>
+<h1 id="improvements-for-peeringdb-py">Improvements for peeringdb-py</h1>
+<p>We just made installing <code>peeringdb-py</code> easier and updated <a href="/howto/peeringdb-py/">our documentation</a>. Now, you can install it with a single command and you can query it using our API.</p>
+<p><code>peeringdb-py</code> is the reference implementation for our local cache. You can keep it synchronized with our database but keep all your queries local.</p>
+<p>This means it's ideal for testing out automation in a local environment. It also means you can use <code>peeringdb-py</code> as a data source for local services, instead of sending queries over the internet. So, you can integrate PeeringDB with other datasets. It also means lower latency and no need to work within our query limits.</p>
+<p>You can synchronize it anonymously if you don't need contact information. If you want the contact information for entries then you should synchronize using an <a href="/howto/api_keys/">API Key</a>.</p>
+<p>Give it a go and see how simple it is to install and keep in sync. </p>
+<p>If you have an idea to improve PeeringDB you can share it on our <a href="https://docs.peeringdb.com/#mailing-lists">low traffic mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues/">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<hr />
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
             </div>
         </div>
 
