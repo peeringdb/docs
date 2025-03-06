@@ -26,7 +26,7 @@ If you authenticate when you send queries, we can contact you if your PeeringDB 
 
 You can use password authentication. We recommend adding MFA to password authentication.
 
-## Multi-factor authentication
+## Multi-factor authentication (MFA)
 
 We support three MFA methods. You can use:
 
