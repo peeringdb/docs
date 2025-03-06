@@ -28,9 +28,24 @@ You can use password authentication. We recommend adding MFA to password authent
 
 ## Multi-factor authentication
 
-We support two MFA methods. You can either use a time-based one-time password, as defined in [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238.html) or a [FIDO U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/) hardware token.
+We support three MFA methods. You can use:
+
+* A time-based one-time password, as defined in [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238.html)
+* A [FIDO U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/) hardware token
+* A [Passkey](https://www.passkeycentral.org/introduction-to-passkeys/how-passkeys-work)
+
+You can choose to have more than one second factor configured. 
+
+You can also download and securely store backup codes, in case a second factor is destroyed.
 
 You can configure these in your account profile.
+
+## Account recovery
+
+You can recover your account if you forget your username or password. Just go to the login screen and click on the relevant link. An account recovery message will be mailed to you.
+
+![](images/lost_credentials.png)
+
 
 ## OAuth
 
