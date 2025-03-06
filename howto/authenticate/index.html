@@ -143,7 +143,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#multi-factor-authentication" class="nav-link">Multi-factor authentication</a>
+            <li class="nav-item" data-level="2"><a href="#multi-factor-authentication-mfa" class="nav-link">Multi-factor authentication (MFA)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#account-recovery" class="nav-link">Account recovery</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -176,9 +180,19 @@
 <p>If you authenticate when you send queries, we can contact you if your PeeringDB use starts to cause an unexpected problem. If you don’t authenticate then all we can do is restrict queries from your IP address.</p>
 <h2 id="password">Password</h2>
 <p>You can use password authentication. We recommend adding MFA to password authentication.</p>
-<h2 id="multi-factor-authentication">Multi-factor authentication</h2>
-<p>We support two MFA methods. You can either use a time-based one-time password, as defined in <a href="https://www.rfc-editor.org/rfc/rfc6238.html">RFC 6238</a> or a <a href="https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/">FIDO U2F</a> hardware token.</p>
+<h2 id="multi-factor-authentication-mfa">Multi-factor authentication (MFA)</h2>
+<p>We support three MFA methods. You can use:</p>
+<ul>
+<li>A time-based one-time password, as defined in <a href="https://www.rfc-editor.org/rfc/rfc6238.html">RFC 6238</a></li>
+<li>A <a href="https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/">FIDO U2F</a> hardware token</li>
+<li>A <a href="https://www.passkeycentral.org/introduction-to-passkeys/how-passkeys-work">Passkey</a></li>
+</ul>
+<p>You can choose to have more than one second factor configured. </p>
+<p>You can also download and securely store backup codes, in case a second factor is destroyed.</p>
 <p>You can configure these in your account profile.</p>
+<h2 id="account-recovery">Account recovery</h2>
+<p>You can recover your account if you forget your username or password. Just go to the login screen and click on the relevant link. An account recovery message will be mailed to you.</p>
+<p><img alt="" src="../images/lost_credentials.png" /></p>
 <h2 id="oauth">OAuth</h2>
 <p>Some external services allow or require you to authenticate using your PeeringDB account. One example is networks' peering portals. They might use PeeringDB's OAuth service to ensure they can automate configuration.</p>
 <p>We have a <a href="https://docs.peeringdb.com/oauth/">guide to implementing PeeringDB's OAuth service</a> for your application.</p>
