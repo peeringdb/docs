@@ -2,7 +2,7 @@
 
 ## 2025
 
-- [PeeringDB Update](presentation/20250306_DKNOG15_2025_Paul_Hoogsteder.pdf) at [DKNOG15](https://events.dknog.dk/event/32/), Copenhagen, DK - March 6, 2024 - Paul Hoogsteder
+- [PeeringDB Update](presentation/20250307_DKNOG15_2025_Paul_Hoogsteder.pdf) at [DKNOG15](https://events.dknog.dk/event/32/), Copenhagen, DK - March 7, 2024 - Paul Hoogsteder
 - [Introduction to PeeringDB](presentation/20250124_Ethiopia_Peering_Day_Ben_Ryall.pdf) at [Ethiopia Peering Day](https://www.internetsociety.org/events/ethiopia-peering-day/), Addis Ababa, ET - January 24, 2025 - Ben Ryall
 
 ## 2024
