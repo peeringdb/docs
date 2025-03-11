@@ -14,11 +14,26 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.65.0 | 2025-02-05 | 2025-02-12 | 2025-02-19 |
-| 2.66.0 | 2025-03-14 | 2025-03-23 | 2025-03-30 |
+| 2.66.0 | 2025-03-05 | 2025-03-12 | 2025-03-19 |
 | 2.67.0 | 2025-04-22 | 2025-04-29 | 2025-04-30 |
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
+
+## Release 2.66.0
+
+Beta Announcement Date: 12 March 2025
+Release Date: 19 March 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1701 Continuously enforce place name normalization.](https://github.com/peeringdb/peeringdb/issues/1701) | Normalization of place names is now enforced.|
+| [#1689 Profile setting: hide IXs where fac_count == 0.](https://github.com/peeringdb/peeringdb/issues/1689) | Users can now hide exchanges without a `facix` from search results by selecting a profile setting.|
+| [#1547 Enable non-disclosure of the number of "IPv4 Prefixes" and/or "IPv6 Prefixes" in the net object.](https://github.com/peeringdb/peeringdb/issues/1547) | Networks can now indicate that they do not share their prefix count.|
+| [#1708 Web search > API query link.](https://github.com/peeringdb/peeringdb/issues/1709) | Click a link to put the API query for a web search into your copy buffer.|
+| [#1727 new search is not using AKA field.](https://github.com/peeringdb/peeringdb/issues/1727) | Fixes a bug, so search uses AKA field again.|
+| [#1689 Integrate 2FA methods into a single web UI.](https://github.com/peeringdb/peeringdb/issues/1689) | Improved web interface for managing 2FA settings.|
+| [#1680 POC for Internet Exchange Point IX-F Import Errors.](https://github.com/peeringdb/peeringdb/issues/1680) | Adds a new point of contact type for exchange operators. They can now add a contact to be notified about problems with their [IX-F JSON](https://github.com/euro-ix/json-schemas) imports.|
+
 
 ## Release 2.65.0
 
