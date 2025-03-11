@@ -139,6 +139,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2660" class="nav-link">Release 2.66.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2650" class="nav-link">Release 2.65.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -176,16 +180,10 @@
 </thead>
 <tbody>
 <tr>
-<td>2.65.0</td>
-<td>2025-02-05</td>
-<td>2025-02-12</td>
-<td>2025-02-19</td>
-</tr>
-<tr>
 <td>2.66.0</td>
-<td>2025-03-14</td>
-<td>2025-03-23</td>
-<td>2025-03-30</td>
+<td>2025-03-05</td>
+<td>2025-03-12</td>
+<td>2025-03-19</td>
 </tr>
 <tr>
 <td>2.67.0</td>
@@ -204,6 +202,47 @@
 <td>2025-06-11</td>
 <td>2025-06-18</td>
 <td>2025-05-25</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2660">Release 2.66.0</h2>
+<p>Beta Announcement Date: 12 March 2025<br />
+Release Date: 19 March 2025</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1701">#1701 Continuously enforce place name normalization.</a></td>
+<td>Normalization of place names is now enforced.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1689">#1689 Profile setting: hide IXs where fac_count == 0.</a></td>
+<td>Users can now hide exchanges without a <code>facix</code> from search results by selecting a profile setting.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1547">#1547 Enable non-disclosure of the number of "IPv4 Prefixes" and/or "IPv6 Prefixes" in the net object.</a></td>
+<td>Networks can now indicate that they do not share their prefix count.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1709">#1708 Web search &gt; API query link.</a></td>
+<td>Click a link to put the API query for a web search into your copy buffer.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1727">#1727 new search is not using AKA field.</a></td>
+<td>Fixes a bug, so search uses AKA field again.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1689">#1689 Integrate 2FA methods into a single web UI.</a></td>
+<td>Improved web interface for managing 2FA settings.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1680">#1680 POC for Internet Exchange Point IX-F Import Errors.</a></td>
+<td>Adds a new point of contact type for exchange operators. They can now add a contact to be notified about problems with their <a href="https://github.com/euro-ix/json-schemas">IX-F JSON</a> imports.</td>
 </tr>
 </tbody>
 </table>
