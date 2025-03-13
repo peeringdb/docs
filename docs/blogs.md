@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2025
+- [PeeringDB To Require MFA and API Keys](blog/mfa_mandatory.md) - March 13, 2025
 - [Improvements for peeringdb-py](blog/peeringdb_py_improvements.md) - February 28, 2025
 - [2025 Starts With Better Search](blog/2025_better_search.md) - January 22, 2025
 
