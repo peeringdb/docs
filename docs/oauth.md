@@ -81,4 +81,4 @@ Example for my user:
 
 ### Backend configuration
 
-We have an [example backend configuration](https://github.com/peeringdb/peeringdb/blob/master/docs/dev/oauth.md) for python social core. It describes the [RFC 8176](https://datatracker.ietf.org/doc/html/rfc8176) Authentication Method Reference Values we collect.
+We have an [example backend configuration](https://github.com/peeringdb/peeringdb/blob/master/docs/dev/oauth.md) for Python Social Core. It describes the [RFC 8176](https://datatracker.ietf.org/doc/html/rfc8176) Authentication Method Reference Values we collect.
