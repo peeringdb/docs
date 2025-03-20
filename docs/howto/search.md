@@ -175,6 +175,14 @@ Throughout this article up to this point, we have been talking on how to use Pee
 
 The PeeringDB database can be queried using a REST API. REST allows a client to request information from a server over HTTP or HTTPS. The server then returns the requested information in JSON format.
 
+## Get an API query from a web query
+
+You can put the API query for simple searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for `curl`, and a selection of programming languages.
+
+Just replace the placeholder with your own [API Key](/api_keys/) or remove the authorization section to make an anonymous query. Note that anonymous users get a [lower query limit](/work_within_peeringdbs_query_limits/).
+
+![Put an API query in your copy buffer](images/copy_API_query.png)
+
 ## Object types
 
 Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.
@@ -206,13 +214,13 @@ Below is a description of what each of the object types mean and what informatio
 
 ## Authentication
 
-Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For example:
+Authentication is uses [API Keys](/api_keys/). 
 
-`curl -sG https://username:password@www.peeringdb.com/api/net/961`
+People who are accessing the API as a guest do not need any authentication. For example:
 
-`curl -u username:password https://www.peeringdb.com/api/net/961`
+`curl -sG https://www.peeringdb.com/api/net/961`
 
-**Note**: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to query limits and these are set at a lower threshold for unauthenticated users.
+**Note**: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to [query limits](/work_within_peeringdbs_query_limits/) and these are set at a lower threshold for unauthenticated users.
 
 ## Making a request
 
@@ -270,7 +278,7 @@ A nested set or object is any field ending in the suffix: set. For example: net_
 
 To retrieve a single object you need to use this URL: `https://www.peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example:
 - HTTP: `GET /api/OBJ/` which is the endpoint 
-- curl: `curl -X GET https://<username>:<password>@www.peeringdb.com/api/OBJ`
+- curl: `curl -H "Authorization: api-key $YOUR_API_KEY" "https://www.peeringdb.com/api/OBJ""`
 
 There are optional parameters you can add to your URL:
 - **limit**: int limits rows in the result set
