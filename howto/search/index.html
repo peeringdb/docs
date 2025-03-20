@@ -171,6 +171,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#get-an-api-query-from-a-web-query" class="nav-link">Get an API query from a web query</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#object-types" class="nav-link">Object types</a>
               <ul class="nav flex-column">
               </ul>
@@ -337,6 +341,10 @@ To search for a facility:<br />
 <h2 id="querying-with-the-peeringdb-api">Querying with the PeeringDB API</h2>
 <p>Throughout this article up to this point, we have been talking on how to use PeeringDB to find information about potential peers, and then after peering has been arranged, using PeeringDB to obtain the peering details.  The PeeringDB website is very helpful in these regards, but using the website still requires a lot of manual work. It’s also possible to use the PeeringDB API to automate some parts of this. Why use the PeeringDB API? The PeeringDB API makes it easy to integrate PeeringDB in your environment.</p>
 <p>The PeeringDB database can be queried using a REST API. REST allows a client to request information from a server over HTTP or HTTPS. The server then returns the requested information in JSON format.</p>
+<h2 id="get-an-api-query-from-a-web-query">Get an API query from a web query</h2>
+<p>You can put the API query for simple searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for <code>curl</code>, and a selection of programming languages.</p>
+<p>Just replace the placeholder with your own <a href="/howto/api_keys/">API Key</a> or remove the authorization section to make an anonymous query. Note that anonymous users get a <a href="/work_within_peeringdbs_query_limits/">lower query limit</a>.</p>
+<p><img alt="Put an API query in your copy buffer" src="../images/copy_API_query.png" /></p>
 <h2 id="object-types">Object types</h2>
 <p>Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.<br />
 For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.com/api/OBJ</a>. The endpoint is: <code>/api/OBJ</code>.</p>
@@ -362,10 +370,10 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <li><strong>netfac</strong>: Describes the presence of a network at a facility.</li>
 </ul>
 <h2 id="authentication">Authentication</h2>
-<p>Authentication is done through basic HTTP authorization. People who are accessing the API as a guest do not need any authentication. For example:</p>
-<p><code>curl -sG https://username:password@www.peeringdb.com/api/net/961</code></p>
-<p><code>curl -u username:password https://www.peeringdb.com/api/net/961</code></p>
-<p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to query limits and these are set at a lower threshold for unauthenticated users.</p>
+<p>Authentication is uses <a href="/howto/api_keys/">API Keys</a>. </p>
+<p>People who are accessing the API as a guest do not need any authentication. For example:</p>
+<p><code>curl -sG https://www.peeringdb.com/api/net/961</code></p>
+<p><strong>Note</strong>: Access to contact information may be restricted if you are using the API as a guest without authentication. API usage is subject to <a href="/work_within_peeringdbs_query_limits/">query limits</a> and these are set at a lower threshold for unauthenticated users.</p>
 <h2 id="making-a-request">Making a request</h2>
 <p>When making a request, the URL base is added with <code>/api/</code>, followed by the object type and, if applicable, the object primary key (if applicable).  For example:<code>https://www.peeringdb.com/api/OBJ/id</code>.</p>
 <p>If you want to select the output format, either use the Accept: HTTP header or use the extension type parameter:<br />
@@ -405,7 +413,7 @@ For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.c
 <h3 id="multiple-objects">Multiple objects</h3>
 <p>To retrieve a single object you need to use this URL: <code>https://www.peeringdb.com/api/OBJ/</code> with this endpoint GET: <code>/api/OBJ/</code>. Let’s look at an example:<br />
 - HTTP: <code>GET /api/OBJ/</code> which is the endpoint <br />
-- curl: <code>curl -X GET https://&lt;username&gt;:&lt;password&gt;@www.peeringdb.com/api/OBJ</code></p>
+- curl: <code>curl -H "Authorization: api-key $YOUR_API_KEY" "https://www.peeringdb.com/api/OBJ""</code></p>
 <p>There are optional parameters you can add to your URL:<br />
 - <strong>limit</strong>: int limits rows in the result set<br />
 - <strong>skip</strong>: int skips n rows in the result set<br />
