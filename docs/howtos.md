@@ -11,6 +11,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 ## Manage entries
 - [Manage Organizational Policy](howto/organizational_policy.md)
 - [Manage User Permissions](howto/manage-permissions.md)
+- [User Management API](howto/user_management_api.md)
 
 ## Search 
 - [Get Started with Search in PeeringDB](howto/search.md)
