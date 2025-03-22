@@ -14,12 +14,12 @@ Include the API key in the HTTP header:
 `Authorization: api-key YOUR_API_KEY`
 ```
 
-## Rate Limits 
+## Rate limits 
 
 All endpoints are rate-limited to 1 request per second. 
 
 ## Endpoints 
-### List Organization Users
+### List organization users
 
 Retrieves all users associated with an organization.
 
@@ -27,14 +27,14 @@ Retrieves all users associated with an organization.
 
 **Method:**  `GET`
 
-**Required Permission:** There are two options
+**Required permission:** There are two options
 
 1. `admin organization`
 2. `read` on `org.{id}.users` namespace (basically just add `User Management Privileges` permission in Organization API Key Permission editor)
 
 ![List users permission](images/list_users_no_other_permissions.png)
 
-**Example Request:**
+**Example request:**
 
 ```
 curl -X GET \
@@ -42,7 +42,7 @@ curl -X GET \
  https://peeringdb.com/api/org/365/users/
 ```
 
-**Successful Response** (200 OK):
+**Successful response** (200 OK):
 ```
 {
   "data": [
@@ -71,7 +71,7 @@ curl -X GET \
 }
 ```
 
-### Add User to Organization
+### Add user to organization
 
 Adds a user to the organization with a specified role.
 
@@ -79,19 +79,19 @@ Adds a user to the organization with a specified role.
 
 **Method:** `POST`
 
-**Required Permission:** There are two options
+**Required permission:** There are two options
 
 1. `admin organization`
 2. `create` on `org.{id}.users namespace`
 
 ![Add users permission](images/create_permission.png)
 
-**Request Body:**
+**Request body:**
 
 * `user_email` (required): Email address of the user to add
 * `role` (optional): Role to assign (`admin` or `member`, defaults to `member`)
 
-**Example Request:**
+**Example request:**
 ```
 curl -X POST \
  -H "Authorization: api-key AAzWkPvR.waJqOendMCyS0eOdFGXHGhiYjtee6h6X" \
@@ -100,7 +100,7 @@ curl -X POST \
  http://peeringdb.com/api/org/365/users/add
 ```
 
-**Successful Response** (201 Created):
+**Successful response** (201 Created):
 ```
 {
  "data": [
@@ -119,13 +119,13 @@ curl -X POST \
 }
 ```
 
-**Error Responses**:
+**Error responses**:
 
 * **400 Bad Request**: Missing or invalid parameters
 * **403 Forbidden**: Insufficient permissions
 * **404 Not Found**: User not found
 
-### Update User Role
+### Update user role
 
 Updates a user's role within the organization.
 
@@ -133,18 +133,18 @@ Updates a user's role within the organization.
 
 **Method:** `PUT`
 
-**Required Permission:** There are two options
+**Required permission:** There are two options
 
 1. `admin organization`
 2. `update` on `org.{id}.users` namespace
 
 ![Update users permission](images/update_permission.png)
 
-**Request Body:**
+**Request body:**
 
 * `role` (required): New role to assign (`admin` or `member`)
 
-**Example Request:**
+**Example request:**
 
 ```
 curl -X PUT \
@@ -154,7 +154,7 @@ curl -X PUT \
  http://peeringdb.com/api/org/365/users/21
 ```
 
-**Successful Response** (200 OK):
+**Successful response** (200 OK):
 
 ```
 {
@@ -174,13 +174,13 @@ curl -X PUT \
 }
 ```
 
-**Error Responses:**
+**Error responses:**
 
 * **400 Bad Request**: Missing or invalid parameters
 * **403 Forbidden**: Insufficient permissions
 * **404 Not Found**: User not in organization
 
-### Remove User from Organization
+### Remove user from organization
 
 Removes a user from the organization.
 
@@ -188,15 +188,15 @@ Removes a user from the organization.
 
 **Method:** `DELETE`
 
-**Required Permission:** `delete` on `org.{id}.users` namespace
+**Required permission:** `delete` on `org.{id}.users` namespace
 
 ![Delete users permission](images/delete_permission.png)
 
-**Request Body:**
+**Request body:**
 
 * `user_email` (required): Email address of the user to remove
 
-**Example Request:**
+**Example request:**
 
 ```
 curl -X DELETE \
@@ -206,15 +206,15 @@ curl -X DELETE \
  http://localhost:8000/api/org/365/users/remove
 ```
 
-**Successful Response** (204 No Content)
+**Successful response** (204 No Content)
 
-**Error Responses:**
+**Error responses:**
 
 * **400 Bad Request**: Missing or invalid parameters
 * **403 Forbidden**: Insufficient permissions
 * **404 Not Found**: User not in organization
 
-## Error Handling
+## Error handling
 
 The API returns appropriate HTTP status codes and error messages:
 
