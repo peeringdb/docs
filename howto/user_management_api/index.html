@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/howto/manage-permissions/">
+        <link rel="canonical" href="https://docs.peeringdb.com/howto/user_management_api/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>HOWTO: Manage User Permissions - PeeringDB Docs</title>
+        <title>HOWTO: Manage Users With Our API - PeeringDB Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -133,21 +133,29 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#howto-manage-user-permissions" class="nav-link">HOWTO: Manage User Permissions</a>
+            <li class="nav-item" data-level="1"><a href="#howto-manage-users-with-our-api" class="nav-link">HOWTO: Manage Users With Our API</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#do-i-need-a-peeringdb-account" class="nav-link">Do I need a PeeringDB account?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#how-can-i-manage-permissions-for-users-affiliated-with-my-organization" class="nav-link">How can I manage permissions for users affiliated with my organization?</a>
+            <li class="nav-item" data-level="2"><a href="#introduction" class="nav-link">Introduction</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#how-do-i-give-permissions-to-a-user-who-is-already-affiliated-with-other-organizations" class="nav-link">How do I give permissions to a user who is already affiliated with other organizations?</a>
+            <li class="nav-item" data-level="2"><a href="#authentication" class="nav-link">Authentication</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#how-do-i-authenticate-at-external-services-using-my-peeringdb-account" class="nav-link">How do I authenticate at external services using my PeeringDB account?</a>
+            <li class="nav-item" data-level="2"><a href="#rate-limits" class="nav-link">Rate limits</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#endpoints" class="nav-link">Endpoints</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#error-handling" class="nav-link">Error handling</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#permissions" class="nav-link">Permissions</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -158,68 +166,201 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="howto-manage-user-permissions">HOWTO: Manage User Permissions</h1>
-<h2 id="do-i-need-a-peeringdb-account">Do I need a PeeringDB account?</h2>
-<p>You only need a PeeringDB user account if you want to do one of three things:</p>
+<h1 id="howto-manage-users-with-our-api">HOWTO: Manage Users With Our API</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This document outlines how to use the Organization Users API for managing users within an organization. The API provides endpoints for listing, adding, updating roles, and removing users.</p>
+<h2 id="authentication">Authentication</h2>
+<p>All API requests require authentication using API keys. There are two types of authentication:</p>
+<ol>
+<li><strong>User API Key:</strong> The user must be an admin of the organization</li>
+<li><strong>Organization API Key:</strong> The key must have specific permissions for the operation</li>
+</ol>
+<p>Include the API key in the HTTP header:</p>
+<pre><code>`Authorization: api-key YOUR_API_KEY`
+</code></pre>
+<h2 id="rate-limits">Rate limits</h2>
+<p>All endpoints are rate-limited to 1 request per second. </p>
+<h2 id="endpoints">Endpoints</h2>
+<h3 id="list-organization-users">List organization users</h3>
+<p>Retrieves all users associated with an organization.</p>
+<p><strong>URL:</strong>  <code>/api/org/{org_id}/users/</code></p>
+<p><strong>Method:</strong>  <code>GET</code></p>
+<p><strong>Required permission:</strong> There are two options</p>
+<ol>
+<li><code>admin organization</code></li>
+<li><code>read</code> on <code>org.{id}.users</code> namespace (basically just add <code>User Management Privileges</code> permission in Organization API Key Permission editor)</li>
+</ol>
+<p><img alt="List users permission" src="../images/list_users_no_other_permissions.png" /></p>
+<p><strong>Example request:</strong></p>
+<pre><code>curl -X GET \
+ -H &quot;Authorization: api-key a3bXQSbD.D5WtkaSzsryacujQCMeY2hSzcDO1d3oP&quot; \
+ https://peeringdb.com/api/org/365/users/
+</code></pre>
+<p><strong>Successful response</strong> (200 OK):</p>
+<pre><code>{
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 16,
+      &quot;first_name&quot;: &quot;John&quot;,
+      &quot;last_name&quot;: &quot;Doe&quot;,
+      &quot;full_name&quot;: &quot;John Doe&quot;,
+      &quot;is_active&quot;: true,
+      &quot;date_joined&quot;: &quot;2024-10-23T08:37:39Z&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;role&quot;: &quot;admin&quot;
+    },
+    {
+      &quot;id&quot;: 21,
+      &quot;first_name&quot;: &quot;Jane&quot;,
+      &quot;last_name&quot;: &quot;Smith&quot;,
+      &quot;full_name&quot;: &quot;Jane Smith&quot;,
+      &quot;is_active&quot;: true,
+      &quot;date_joined&quot;: &quot;2024-10-23T09:13:50Z&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;role&quot;: &quot;member&quot;
+    }
+  ],
+  &quot;meta&quot;: {}
+}
+</code></pre>
+<h3 id="add-user-to-organization">Add user to organization</h3>
+<p>Adds a user to the organization with a specified role.</p>
+<p><strong>URL:</strong> <code>/api/org/{org_id}/users/add/</code></p>
+<p><strong>Method:</strong> <code>POST</code></p>
+<p><strong>Required permission:</strong> There are two options</p>
+<ol>
+<li><code>admin organization</code></li>
+<li><code>create</code> on <code>org.{id}.users namespace</code></li>
+</ol>
+<p><img alt="Add users permission" src="../images/create_permission.png" /></p>
+<p><strong>Request body:</strong></p>
 <ul>
-<li>Access contact information</li>
-<li>Create, update, or delete entries in PeeringDB</li>
-<li>Use PeeringDB to login to external services, using the <a href="/blog/oauth_users/">PeeringDB OAuth service</a>.</li>
+<li><code>user_email</code> (required): Email address of the user to add</li>
+<li><code>role</code> (optional): Role to assign (<code>admin</code> or <code>member</code>, defaults to <code>member</code>)</li>
 </ul>
-<p>If you just want to look up information about networks, exchanges, or facilities in PeeringDB, you can do that without an account using the web interface or <a href="/api_specs/">the API</a>.</p>
-<h2 id="how-can-i-manage-permissions-for-users-affiliated-with-my-organization">How can I manage permissions for users affiliated with my organization?</h2>
-<p>Unless you want your users to manage parts of the data your organization publishes, they don’t need to be affiliated with your organization.</p>
-<p>When you allow a user account to affiliate with your organization, you can delegate some permissions to it. You can delegate them permissions related to exchanges, facilities, and networks. For each type of entry you can delegate permissions to create, update, or delete. </p>
-<p>The table below shows an example for an affiliated user who has only been delegated permission to update the organization’s <code>net</code> object.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Create</th>
-<th>Update</th>
-<th>Delete</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Campus</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Carriers</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Exchanges</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Facilities</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Networks</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-<p>Admin users for an organization can do all these things and can delegate granular permissions to users based on the needs of their organization.</p>
-<h2 id="how-do-i-give-permissions-to-a-user-who-is-already-affiliated-with-other-organizations">How do I give permissions to a user who is already affiliated with other organizations?</h2>
-<p>User accounts can be associated with multiple organizations. For instance, a consultant could be associated with each of their client’s organizations. Similarly, a large organization composed of several operating companies could have a different organization for each operating company in PeeringDB and have some users affiliated with those instead of trying to centralize control.</p>
-<p>The user just needs to request, and be granted affiliation with each organization whose data they will be updating in PeeringDB.</p>
-<h2 id="how-do-i-authenticate-at-external-services-using-my-peeringdb-account">How do I authenticate at external services using my PeeringDB account?</h2>
-<p>If your organization operates a network and has the Autonomous System registered with PeeringDB, your users can use their PeeringDB accounts to <a href="/blog/oauth_users/">authenticate at external services</a> that have enabled PeeringDB’s OAuth service. </p>
-<p>In March 2025 over 500 applications had enabled PeeringDB OAuth. It is used to facilitate peering requests, use network telemetry services, and more.</p></div>
+<p><strong>Example request:</strong></p>
+<pre><code>curl -X POST \
+ -H &quot;Authorization: api-key AAzWkPvR.waJqOendMCyS0eOdFGXHGhiYjtee6h6X&quot; \
+ -H &quot;Content-Type: application/json&quot; \
+ -d '{&quot;user_email&quot;: &quot;user@email.com&quot;, &quot;role&quot;: &quot;admin&quot;}' \
+ http://peeringdb.com/api/org/365/users/add
+</code></pre>
+<p><strong>Successful response</strong> (201 Created):</p>
+<pre><code>{
+ &quot;data&quot;: [
+   {
+     &quot;id&quot;: 22,
+     &quot;first_name&quot;: &quot;User&quot;,
+     &quot;last_name&quot;: &quot;user&quot;,
+     &quot;full_name&quot;: &quot;User user&quot;,
+     &quot;is_active&quot;: true,
+     &quot;date_joined&quot;: &quot;2024-10-23T08:37:39Z&quot;,
+     &quot;status&quot;: &quot;ok&quot;,
+     &quot;role&quot;: &quot;admin&quot;
+   }
+ ],
+ &quot;meta&quot;: {}
+}
+</code></pre>
+<p><strong>Error responses</strong>:</p>
+<ul>
+<li><strong>400 Bad Request</strong>: Missing or invalid parameters</li>
+<li><strong>403 Forbidden</strong>: Insufficient permissions</li>
+<li><strong>404 Not Found</strong>: User not found</li>
+</ul>
+<h3 id="update-user-role">Update user role</h3>
+<p>Updates a user's role within the organization.</p>
+<p><strong>URL:</strong> <code>/api/org/{org_id}/users/{user_id}/</code></p>
+<p><strong>Method:</strong> <code>PUT</code></p>
+<p><strong>Required permission:</strong> There are two options</p>
+<ol>
+<li><code>admin organization</code></li>
+<li><code>update</code> on <code>org.{id}.users</code> namespace</li>
+</ol>
+<p><img alt="Update users permission" src="../images/update_permission.png" /></p>
+<p><strong>Request body:</strong></p>
+<ul>
+<li><code>role</code> (required): New role to assign (<code>admin</code> or <code>member</code>)</li>
+</ul>
+<p><strong>Example request:</strong></p>
+<pre><code>curl -X PUT \
+ -H &quot;Authorization: api-key AAzWkPvR.waJqOendMCyS0eOdFGXHGhiYjtee6h6X&quot; \
+ -H &quot;Content-Type: application/json&quot; \
+ -d '{&quot;role&quot;: &quot;admin&quot; }' \
+ http://peeringdb.com/api/org/365/users/21
+</code></pre>
+<p><strong>Successful response</strong> (200 OK):</p>
+<pre><code>{
+ &quot;data&quot;: [
+   {
+     &quot;id&quot;: 21,
+     &quot;first_name&quot;: &quot;&quot;,
+     &quot;last_name&quot;: &quot;&quot;,
+     &quot;full_name&quot;: &quot;&quot;,
+     &quot;is_active&quot;: true,
+     &quot;date_joined&quot;: &quot;2024-10-23T09:13:50Z&quot;,
+     &quot;status&quot;: &quot;ok&quot;,
+     &quot;role&quot;: &quot;admin&quot;
+   }
+ ],
+ &quot;meta&quot;: {}
+}
+</code></pre>
+<p><strong>Error responses:</strong></p>
+<ul>
+<li><strong>400 Bad Request</strong>: Missing or invalid parameters</li>
+<li><strong>403 Forbidden</strong>: Insufficient permissions</li>
+<li><strong>404 Not Found</strong>: User not in organization</li>
+</ul>
+<h3 id="remove-user-from-organization">Remove user from organization</h3>
+<p>Removes a user from the organization.</p>
+<p><strong>URL:</strong> <code>/api/org/{org_id}/users/remove/</code></p>
+<p><strong>Method:</strong> <code>DELETE</code></p>
+<p><strong>Required permission:</strong> <code>delete</code> on <code>org.{id}.users</code> namespace</p>
+<p><img alt="Delete users permission" src="../images/delete_permission.png" /></p>
+<p><strong>Request body:</strong></p>
+<ul>
+<li><code>user_email</code> (required): Email address of the user to remove</li>
+</ul>
+<p><strong>Example request:</strong></p>
+<pre><code>curl -X DELETE \
+ -H &quot;Authorization: api-key AAzWkPvR.waJqOendMCyS0eOdFGXHGhiYjtee6h6X&quot; \
+ -H &quot;Content-Type: application/json&quot; \
+ -d '{&quot;user_email&quot;: &quot;user@email.com&quot; }' \
+ http://localhost:8000/api/org/365/users/remove
+</code></pre>
+<p><strong>Successful response</strong> (204 No Content)</p>
+<p><strong>Error responses:</strong></p>
+<ul>
+<li><strong>400 Bad Request</strong>: Missing or invalid parameters</li>
+<li><strong>403 Forbidden</strong>: Insufficient permissions</li>
+<li><strong>404 Not Found</strong>: User not in organization</li>
+</ul>
+<h2 id="error-handling">Error handling</h2>
+<p>The API returns appropriate HTTP status codes and error messages:</p>
+<ul>
+<li><strong>400 Bad Request</strong>: Invalid input parameters</li>
+<li><strong>403 Forbidden</strong>: Authentication failed or insufficient permissions</li>
+<li><strong>404 Not Found</strong>: Requested resource not found</li>
+<li><strong>429 Too Many Requests</strong>: Rate limit exceeded</li>
+</ul>
+<p>Error responses include a detail message explaining the issue:</p>
+<pre><code>{
+ &quot;meta&quot;: {
+   &quot;error&quot;: &quot;Permission denied: User is not an admin of this organization&quot;
+ }
+}
+</code></pre>
+<h2 id="permissions">Permissions</h2>
+<p>The API uses a permission system to control access:</p>
+<ol>
+<li>For user API keys, the user must be an admin of the organization</li>
+<li>For organization API keys, the key must have specific permissions, editable through Organization API Key Permission editor UI:</li>
+<li><code>User Management Privileges Permission</code>: List users</li>
+<li><code>Check Create Option</code>: Add users</li>
+<li><code>Check Update Option</code>: Update user roles</li>
+<li><code>Check Delete Option</code>: Remove users</li>
+</ol></div>
             </div>
         </div>
 
