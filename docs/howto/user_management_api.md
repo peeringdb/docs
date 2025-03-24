@@ -239,7 +239,7 @@ The API uses a permission system to control access:
 
 1. For user API keys, the user must be an admin of the organization
 2. For organization API keys, the key must have specific permissions, editable through Organization API Key Permission editor UI:
-- `User Management Privileges Permission`: List users
-- `Check Create Option`: Add users
-- `Check Update Option`: Update user roles
-- `Check Delete Option`: Remove users
+    - `User Management Privileges Permission`: List users
+    - `Check Create Option`: Add users
+    - `Check Update Option`: Update user roles
+    - `Check Delete Option`: Remove users
