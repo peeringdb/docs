@@ -1,6 +1,6 @@
 # PeeringDB To Require MFA and API Keys 
 
-You must have a [second factor](/howto/enable_require_2fa/) to login to PeeringDB from 1 July 2025. If you automate updates using [our API](/api_specs/), you'll need to use an [API Key](/howto/api_keys/).
+You must have a [second factor](/howto/enable_require_2fa/) to log in to PeeringDB starting on 1 July 2025. If you automate updates using [our API](/api_specs/), you'll need to use an [API Key](/howto/api_keys/).
 
 But anonymous usage will not be going away. You can query the website or API without authenticating. This change will impact users who make updates or need access to contact information published in PeeringDB.
 
