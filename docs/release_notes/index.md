@@ -14,10 +14,18 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.66.0 | 2025-03-05 | 2025-03-12 | 2025-03-19 |
 | 2.67.0 | 2025-04-22 | 2025-04-29 | 2025-04-30 |
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
+
+## Release 2.66.1
+
+Release Date: 3 April 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1753 fix anon user search autocomplete error.](https://github.com/peeringdb/peeringdb/pull/1753) | As title.|
+
 
 ## Release 2.66.0
 
