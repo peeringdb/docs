@@ -69,6 +69,5 @@
 - Tarryn Kidd
 - Livio Morina
 - Arnold Nipper
-- Ester Paal
 - Ben Ryall - Chair
 - Leo Vegoda - Product Manager
