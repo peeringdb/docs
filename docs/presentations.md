@@ -2,6 +2,7 @@
 
 ## 2025
 
+- [What’s New and What’s Next](presentation/20250415_GPF_2025_Greg_Hankins.pdf) at [GPF 2025](https://globalpeeringforum.org/gpf-agenda-2025/), Denver, CO, US - April 15, 2025 - Greg Hankins
 - [What's new on PeeringDB?](presentation/20250407_SEE13_Morina_Livio.pdf) at [SEE 13](https://www.ripe.net/meetings/regional-meetings/see/see-13/), Sofia, BG - April 7, 2025 - Livio Morina
 - [What’s New and What’s Next](presentation/20250327_PeeringDays2025_Yolandi_Cloete.pdf) at [Peering Days 2025](https://events.dknog.dk/event/32/), Split, HR - March 27, 2025 - Yolandi Cloete
 - [PeeringDB Update](presentation/20250307_DKNOG15_2025_Paul_Hoogsteder.pdf) at [DKNOG15](https://events.dknog.dk/event/32/), Copenhagen, DK - March 7, 2025 - Paul Hoogsteder
