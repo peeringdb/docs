@@ -14,9 +14,35 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.67.0 | 2025-04-22 | 2025-04-29 | 2025-04-30 |
-| 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-21 |
+| 2.67.0 | 2025-04-16 | 2025-04-23 | 2025-04-30 |
+| 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-20 |
 | 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
+| 2.70.0 | 2025-07-16 | 2025-07-23 | 2025-07-30 |
+| 2.71.0 | 2025-08-13 | 2025-08-20 | 2025-08-27 |
+| 2.72.0 | 2025-09-10 | 2025-09-17 | 2025-09-24 |
+| 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
+| 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
+
+
+## Release 2.67.0
+
+Beta Announcement Date: 23 April 2025
+Release Date: 30 April 2025
+
+| [#1534 Enable Regular Beta Data Refresh.](https://github.com/peeringdb/peeringdb/issues/1534) | Data is now synced to beta.peeringdb.com more regularly, making beta more attractive for searching and testing.|
+| [#1726 Port Advanced Search to v2.](https://github.com/peeringdb/peeringdb/issues/1726) | Advanced Search now uses the v2 search code.|
+| [#1711 Rename capacity to speed within Advanced Search in UI.](https://github.com/peeringdb/peeringdb/issues/1711) | As title.|
+| [#1739 Port speed is corrupted when editing multiple ports.](https://github.com/peeringdb/peeringdb/issues/1739) | Fixed bug as per title.|
+| [#1720 Users with email-based 2FA do not show the 2FA label in the organization user view.](https://github.com/peeringdb/peeringdb/issues/1720) | Label is now added to users relying on mail for 2FA.|
+| [#1729 Add affiliation at affiliation request/denial.](https://github.com/peeringdb/peeringdb/issues/1729) | User and org are both listed in affiliation requests now.|
+| [#1733 Sponsorship level font colors are wrong on the search page vs. the record page.](https://github.com/peeringdb/peeringdb/issues/1733) | As title.|
+| [#1658 Net and ixlan keys missing in netixlan API response.](https://github.com/peeringdb/peeringdb/issues/1658) | As title.|
+| [#1116 Intermittent json errors with cached api responses.](https://github.com/peeringdb/peeringdb/issues/1116) | Fixed bug as per title.|
+| [#1730 Server error on getting ixf_ixp_member_list_url.](https://github.com/peeringdb/peeringdb/issues/1730) | Fixed bug as per title.|
+| [#1678 remove PeeringDB v1 password hashers.](https://github.com/peeringdb/peeringdb/issues/1678) | Remove legacy hashers from v1.|
+| [#972 Clean up facilities and ixes in verification queue.](https://github.com/peeringdb/peeringdb/issues/972) | As title.|
+| [#1710 Fix/update org merger tool.](https://github.com/peeringdb/peeringdb/issues/1710) | As title.|
+
 
 ## Release 2.66.1
 
