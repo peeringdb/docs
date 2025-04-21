@@ -23,12 +23,13 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
 
-
 ## Release 2.67.0
 
 Beta Announcement Date: 23 April 2025
 Release Date: 30 April 2025
 
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
 | [#1534 Enable Regular Beta Data Refresh.](https://github.com/peeringdb/peeringdb/issues/1534) | Data is now synced to beta.peeringdb.com more regularly, making beta more attractive for searching and testing.|
 | [#1726 Port Advanced Search to v2.](https://github.com/peeringdb/peeringdb/issues/1726) | Advanced Search now uses the v2 search code.|
 | [#1711 Rename capacity to speed within Advanced Search in UI.](https://github.com/peeringdb/peeringdb/issues/1711) | As title.|
@@ -43,7 +44,6 @@ Release Date: 30 April 2025
 | [#972 Clean up facilities and ixes in verification queue.](https://github.com/peeringdb/peeringdb/issues/972) | As title.|
 | [#1710 Fix/update org merger tool.](https://github.com/peeringdb/peeringdb/issues/1710) | As title.|
 
-
 ## Release 2.66.1
 
 Release Date: 3 April 2025
@@ -51,7 +51,6 @@ Release Date: 3 April 2025
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
 | [#1753 fix anon user search autocomplete error.](https://github.com/peeringdb/peeringdb/pull/1753) | As title.|
-
 
 ## Release 2.66.0
 
@@ -68,7 +67,6 @@ Release Date: 19 March 2025
 | [#1689 Integrate 2FA methods into a single web UI.](https://github.com/peeringdb/peeringdb/issues/1689) | Improved web interface for managing 2FA settings.|
 | [#1680 POC for Internet Exchange Point IX-F Import Errors.](https://github.com/peeringdb/peeringdb/issues/1680) | Adds a new point of contact type for exchange operators. They can now add a contact to be notified about problems with their [IX-F JSON](https://github.com/euro-ix/json-schemas) imports.|
 
-
 ## Release 2.65.0
 
 Beta Announcement Date: 12 February 2025
@@ -82,7 +80,6 @@ Release Date: 19 February 2025
 | [#1718 Delete Affiliation uses the wrong dropdown](https://github.com/peeringdb/peeringdb/issues/1718) | Bug fix: as per title.|
 | [#1586 Django admin date selector month "Next" and "Prev" emojis/glyphs are missing/invisible](https://github.com/peeringdb/peeringdb/issues/1586) | Makes backend admin controls visible to Admin Committee users.|
 | [#1706 Admin Control Panel: viewing ixlan results in 504 Gateway Time-out](https://github.com/peeringdb/peeringdb/issues/1706) | Bug fix: as per title.|
-
 
 ## Release 2.64.0
 
