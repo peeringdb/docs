@@ -1,7 +1,8 @@
 # April 2025 PeeringDB Product Update
+
 ## Strategy
 
-This is our second half yearly update. We publish [notes with every release](https://docs.peeringdb.com/release_notes/) and promote new features and bug fixes on social media, these reports are an opportunity to step back and look at the broad sweep of change.
+This is our second half yearly update. We publish [notes with every release](/release_notes/) and promote new features and bug fixes on social media, these reports are an opportunity to step back and look at the broad sweep of change.
 
 PeeringDB’s board has approved more spending on development and operations work. We now have about 50 percent more resources available. All our committees have access to these development and operations resources. 
 
@@ -18,9 +19,10 @@ Product Committee membership has stabilized and we are working more efficiently.
 We still encourage users to submit feature requests and bug reports [in GitHub](https://github.com/peeringdb/peeringdb/issues). We want to understand how feature developments can help our users. Please tell us whether you'd use a feature and how it would help. You can do this in GitHub, on [our mailing list](mailto:productcom@lists.peeringdb.com), or when you meet us at industry events.
 
 ## Last six months
+
 ### `peeringdb-py`
 
-We have been making [`peeringdb-py`](https://docs.peeringdb.com/howto/peeringdb-py/) more robust, reliable, and easier to install. You can now install it with a single command.
+We have been making [`peeringdb-py`](/howto/peeringdb-py/) more robust, reliable, and easier to install. You can now install it with a single command.
 
 `peeringdb-py` is our reference implementation for a PeeringDB cache. We encourage users who want to integrate PeeringDB data into their infrastructure to use `peeringdb-py` or a similar cache. It’s a good way of keeping queries local and so minimizing latency. And it makes any services that rely on our data more robust.
 
@@ -32,7 +34,7 @@ We implemented dark mode for PeeringDB. If you like dark mode, you can choose to
 
 ![PeeringDB now has dark mode if you want it](images/Dark_mode.png)
 
-### MFA Mandate
+### MFA mandate
 
 The Product Committee has decided to require all users to use a second factor when authenticating. The mandate will be enforced from 1 July 2025.
 
@@ -44,9 +46,9 @@ Our first step towards this was enabling Passkeys support. You can now login to 
 
 We have new, integrated web pages for managing these methods with a single set of controls. If you need to login to update PeeringDB or look at contact data, please enable at least one second factor.
 
-This change also means changes for authenticated API usage. You won’t be able to use basic authentication from 1 July 2025. You’ll need to use [an API Key](https://docs.peeringdb.com/howto/api_keys/).
+This change also means changes for authenticated API usage. You won’t be able to use basic authentication from 1 July 2025. You’ll need to use [an API Key](/howto/api_keys/).
 
-This doesn’t mean that anonymous access is going away. You can continue to make anonymous queries on the website and with the API. The only differences are that anonymous users can’t see contact data and have a [lower query limit](https://docs.peeringdb.com/howto/work_within_peeringdbs_query_limits/).
+This doesn’t mean that anonymous access is going away. You can continue to make anonymous queries on the website and with the API. The only differences are that anonymous users can’t see contact data and have a [lower query limit](/howto/work_within_peeringdbs_query_limits/).
 
 ### Search
 
@@ -72,7 +74,7 @@ We’ve expanded our tools for managing users. We already had:
 * Require users to have an email using a specific domain
 * Require users to revalidate periodically
 
-We now have an API for managing user accounts. [This API](https://docs.peeringdb.com/howto/user_management_api/) won’t create accounts for users but it will let you automate user management. That means you automate user management.
+We now have an API for managing user accounts. [This API](/howto/user_management_api/) won’t create accounts for users but it will let you automate user management. That means you automate user management.
 
 You can:
 
@@ -83,9 +85,10 @@ You can:
 
 ## Security
 
-We now only support TLS 1.2 and 1.3. Gaurang Maheta suggested this change. We have a [responsible disclosure policy](https://docs.peeringdb.com/howto/make-a-security-report/) and welcome security reports.
+We now only support TLS 1.2 and 1.3. Gaurang Maheta suggested this change. We have a [responsible disclosure policy](/howto/make-a-security-report/) and welcome security reports.
 
-## Coming Up
+## Coming up
+
 ### Website
 
 We’ve started rolling out our new webUI. Our new process has webUI changes go to PeeringDB volunteers first. Then, one in five users will be opted in to the changes. They are notified that they are seeing a new design and have the option to opt out. We will use the acceptance rate along with user feedback to guide the pace of change.
