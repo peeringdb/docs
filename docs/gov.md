@@ -68,18 +68,18 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Elections & Surveys
 
-- Election Results: [2024](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf), [2023](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf), [2022](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf), [2021](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf), [2020](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf), [2019](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf), [2018](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf), [2017](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf), [2016](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf), [2015](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
+- Election Results: [2025](gov/misc/2025-04-30_Comprehensive_Poll_Results.pdf), [2024](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf), [2023](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf), [2022](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf), [2021](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf), [2020](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf), [2019](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf), [2018](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf), [2017](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf), [2016](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf), [2015](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
 - Voter's Guides: [2025](gov/misc/2025-04-14_election.html), [2024](gov/misc/2024-04-14_election.html), [2023](gov/misc/2023-04-14_election.html), [2022](gov/misc/2022-04-14_election.html), [2021](gov/misc/2021-04-14_election.html), [2020](gov/misc/2020-04-14_election.html), [2019](gov/misc/2019-04-14_election.html), [2018](gov/misc/2018-04-14_election.html), [2017](gov/misc/2017-04-14_election.html), [2016](gov/misc/2016-04-14_election.html), [2015](gov/misc/2015-11-14_election.html)
 - [Announcement of survey results and Board election plan (2015-10-20)](gov/misc/2015-10-20_Announcement.txt)
 - [Survey for future of PeeringDB (2015-08)](gov/misc/2015-08-00_PDB_Survey_results.pdf)
 
 ## Board of Directors
 
-- Seat 1 (term expires 2025): [Christopher Malayter](mailto:mustang@peeringdb.com), 2021-
+- Seat 1 (term expires 2027): [Livio Morina](mailto:livio@peeringdb.com), 2023-
 - Seat 2 (term expires 2026): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2025): [Rahul Makhija](mailto:rahul@peeringdb.com), 2023-
+- Seat 3 (term expires 2027): Isabel Odida, 2025-
 - Seat 4 (term expires 2026): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2025): [Livio Morina](mailto:livio@peeringdb.com), 2023-
+- Seat 5 (term expires 2027): Alexandre Corso, 2025-
 
 ## Officers
 
@@ -110,6 +110,8 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - Matt Griswold, Board of Directors 2015-2017
 - Aaron Hughes, President 2015-2023
 - Fredrik Korsbäck, Board of Directors 2019-2021
+- Rahul Makhija, Board of Directors 2023-2025
+- Christopher Malayter, Board of Directors 2021-2025, President 2023-2025
 - Arnold Nipper, Board of Directors 2015-2019
 - Bijal Sanghani, Board of Directors 2017-2023
 - Job Snijders, Vice President 2016-2023
