@@ -63,6 +63,10 @@ To search for a facility:
 
 ![facilites-search](images/facilites-search.png)
 
+You can also search on a map, using our [.KMZ download](https://www.peeringdb.com/export/kmz/). You can either download it and load it into a GIS application or add it as a network location. Whichever you choose, you then search the map for names or by dragging it around. GIS applications often let you show PeeringDB data with other datasets, enabling a simple, visual, integrated analysis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6DicZPMXZ5E?si=8SLtGCgtAyFSFEmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## How to search for your own organization
 If your organization already uses PeeringDB, when you are logged in to the website you can always find your own information using the `self` search. If you are not logged in, these links will take you to some PeeringDB examples objects.
 
