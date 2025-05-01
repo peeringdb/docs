@@ -77,9 +77,9 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 - Seat 1 (term expires 2027): [Livio Morina](mailto:livio@peeringdb.com), 2023-
 - Seat 2 (term expires 2026): [Job Snijders](mailto:job@peeringdb.com), 2015-
-- Seat 3 (term expires 2027): Isabel Odida, 2025-
+- Seat 3 (term expires 2027): [Isabel Odida](mailto:isabel@peeringdb.com), 2025-
 - Seat 4 (term expires 2026): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
-- Seat 5 (term expires 2027): Alexandre Corso, 2025-
+- Seat 5 (term expires 2027): [Alexandre Corso](mailto:alex@peeringdb.com), 2025-
 
 ## Officers
 
