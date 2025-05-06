@@ -3,6 +3,7 @@
 ## 2025
 
 - [What's new on PeeringDB?](presentation/20250505_LAC_PF_Livio_Morina_Elisa_Peirano.pdf) at [LAC Peering Forum 2025](https://peeringforum.lat/), São Paulo, BR - May 5, 2025 - Livio Morina and Elisa Peirano
+- [IP block renumbering of an IXP in PeeringDB](presentation/20250505_LAC_PF_Julimar_Mendes.pdf) at [LAC Peering Forum 2025](https://peeringforum.lat/), São Paulo, BR - May 5, 2025 - Julimar Lunguinho Mendes
 - [What’s New and What’s Next](presentation/20250415_GPF_2025_Greg_Hankins.pdf) at [GPF 2025](https://globalpeeringforum.org/gpf-agenda-2025/), Denver, CO, US - April 15, 2025 - Greg Hankins
 - [What's new on PeeringDB?](presentation/20250407_SEE13_Morina_Livio.pdf) at [SEE 13](https://www.ripe.net/meetings/regional-meetings/see/see-13/), Sofia, BG - April 7, 2025 - Livio Morina
 - [What’s New and What’s Next](presentation/20250327_PeeringDays2025_Yolandi_Cloete.pdf) at [Peering Days 2025](https://events.dknog.dk/event/32/), Split, HR - March 27, 2025 - Yolandi Cloete
