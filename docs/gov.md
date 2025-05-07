@@ -108,6 +108,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - Chris Caputo, Secretary & Treasurer 2015-2024
 - Patrick W. Gilmore, Board of Directors 2015-2023, Vice President 2015-2016
 - Matt Griswold, Board of Directors 2015-2017
+- Aaron Hughes, Vice President 2023-2025
 - Fredrik Korsbäck, Board of Directors 2019-2021
 - Rahul Makhija, Board of Directors 2023-2025
 - Christopher Malayter, Board of Directors 2021-2025, President 2023-2025
