@@ -15,7 +15,7 @@ Our releases are generally deployed at around 04:00 UTC.
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
 | 2.68.0 | 2025-05-07 | 2025-05-14 | 2025-05-20 |
-| 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-05-25 |
+| 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-06-25 |
 | 2.70.0 | 2025-07-16 | 2025-07-23 | 2025-07-30 |
 | 2.71.0 | 2025-08-13 | 2025-08-20 | 2025-08-27 |
 | 2.72.0 | 2025-09-10 | 2025-09-17 | 2025-09-24 |
@@ -38,7 +38,6 @@ Release Date: 20 May 2025
 | [#1145 NetworkFacility local_asn complete transition to read-only property.](https://github.com/peeringdb/peeringdb/issues/1145) | As title.|
 | [#1719 Allowed Origins field not visible when clicking "edit" in OAuth application view.](https://github.com/peeringdb/peeringdb/issues/1719) | Fixed bug, field is now editable.|
 | [#1732 Firefox always shows the scroll bar in dark colors.](https://github.com/peeringdb/peeringdb/issues/1732) | Fixed bug for Firefox scrollbars.|
-
 
 ## Release 2.67.0
 
