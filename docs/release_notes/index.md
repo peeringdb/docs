@@ -22,6 +22,24 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
 
+## Release 2.68.0
+
+Beta Announcement Date: 14 May 2025
+Release Date: 20 May 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1705 Start moving users to new web UI.](https://github.com/peeringdb/peeringdb/issues/1705) | Phased introduction of new webUI: volunteers first, then a randomly selected 20% (with opt-out), then everyone.|
+| [#1737 Normalization for street addresses.](https://github.com/peeringdb/peeringdb/issues/1737) | Street address formatting g is now normalized.|
+| [#1682 The IX {sales,tech}_phone field is not E.164 checked/formatted.](https://github.com/peeringdb/peeringdb/issues/1682) | E.164 formatting is now enforced.|
+| [#1614 IX-F importer ignores changes in connection speed.](https://github.com/peeringdb/peeringdb/issues/1614) | Connection speed updates are now processed when "Allow IXP Update" is configured.|
+| [#1639 IX-F Importer: Enhance error message.](https://github.com/peeringdb/peeringdb/issues/1639) | Error message now includea a reference to the key_id of the object failing validation.|
+| [#1757 ipaddr4 ixpfx mismatch.](https://github.com/peeringdb/peeringdb/issues/1757) | Fixed bug so they now match.|
+| [#1145 NetworkFacility local_asn complete transition to read-only property.](https://github.com/peeringdb/peeringdb/issues/1145) | As title.|
+| [#1719 Allowed Origins field not visible when clicking "edit" in OAuth application view.](https://github.com/peeringdb/peeringdb/issues/1719) | Fixed bug, field is now editable.|
+| [#1732 Firefox always shows the scroll bar in dark colors.](https://github.com/peeringdb/peeringdb/issues/1732) | Fixed bug for Firefox scrollbars.|
+
+
 ## Release 2.67.0
 
 Beta Announcement Date: 23 April 2025
