@@ -2,6 +2,7 @@
 
 ## 2025
 
+- [PeeringDB Updates](presentation/20250515_RIPE90_2025_Leo_Vegoda.pdf) at [RIPE 90](https://ripe90.ripe.net/programme/meeting-plan/connect-wg/), Lisbon, PT - May 15, 2025 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20250505_LAC_PF_Livio_Morina_Elisa_Peirano.pdf) at [LAC Peering Forum 2025](https://peeringforum.lat/), São Paulo, BR - May 5, 2025 - Livio Morina and Elisa Peirano
 - [IP block renumbering of an IXP in PeeringDB](presentation/20250505_LAC_PF_Julimar_Mendes.pdf) at [LAC Peering Forum 2025](https://peeringforum.lat/), São Paulo, BR - May 5, 2025 - Julimar Lunguinho Mendes
 - [What’s New and What’s Next](presentation/20250415_GPF_2025_Greg_Hankins.pdf) at [GPF 2025](https://globalpeeringforum.org/gpf-agenda-2025/), Denver, CO, US - April 15, 2025 - Greg Hankins
