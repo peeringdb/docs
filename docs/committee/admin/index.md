@@ -29,7 +29,7 @@
 - Peter Helmenstine - Vice Chair
 - Gaël Hernandez
 - Adam Korab
-- Christopher Malayter - Board Liaison
+- Christopher Malayter
 - Aquinas Masakha
 - Crisóstomo Mbundu
 - Julimar Lunguinho Mendes
