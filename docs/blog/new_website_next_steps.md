@@ -19,7 +19,7 @@ We will randomly select users to be opted into the new design. But users who dis
 
 We will also be creating a new feature that allows users to volunteer to test new website features in the future.
 
-## Next Steps
+## Next steps
 
 We are now designing and deploying fixes for the issues raised by PeeringDB volunteer testers. When these are ready, we’ll roll out the new design to 20% of users.
 
