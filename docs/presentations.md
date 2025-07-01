@@ -2,7 +2,8 @@
 
 ## 2025
 
-- [PeeringDB Update](presentation/20250617_WAPF2025_Obinna_Adumike.pdf) at [Wast Africa Peering Forum 2025](https://www.internetsociety.org/events/west-africa-peering-forum-wapf/2025/), Dakar, SN - June 17, 2025 - Obinna Adumike
+- [What’s New and What’s Next](presentation/20250624_Swinog40_Arnold_Nipper.pdf) at [SwiNOG #40](https://www.swinog.ch/meetings/swinog40/), Berne, CH - June 24, 2025 - Arnold Nipper
+- [PeeringDB Update](presentation/20250617_WAPF2025_Obinna_Adumike.pdf) at [West Africa Peering Forum 2025](https://www.internetsociety.org/events/west-africa-peering-forum-wapf/2025/), Dakar, SN - June 17, 2025 - Obinna Adumike
 - [What's new on PeeringDB?](presentation/20250520_ITNOG9_Morina_Livio.pdf) at [ITNOG9](https://www.itnog.it/itnog9/), Bologna, IT - May 20, 2025 - Livio Morina
 - [PeeringDB Updates](presentation/20250515_RIPE90_2025_Leo_Vegoda.pdf) at [RIPE 90](https://ripe90.ripe.net/programme/meeting-plan/connect-wg/), Lisbon, PT - May 15, 2025 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20250505_LAC_PF_Livio_Morina_Elisa_Peirano.pdf) at [LAC Peering Forum 2025](https://peeringforum.lat/), São Paulo, BR - May 5, 2025 - Livio Morina and Elisa Peirano
