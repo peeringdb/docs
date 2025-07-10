@@ -481,6 +481,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.peeringdb.com/howto/share_contact_info/</loc>
+         <lastmod>2025-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.peeringdb.com/howto/updates-for-as112/</loc>
          <lastmod>2025-07-10</lastmod>
          <changefreq>daily</changefreq>
