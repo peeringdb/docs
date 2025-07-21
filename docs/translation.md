@@ -38,12 +38,10 @@ Do the same with javascript
 3. Search for desired language and select it
 4. Clicked "Start new translation"
 
-Now any translator can go to:
+Now any translator can go to the following pages and find the added language to perform translations.
 
-- https://translate.peeringdb.com/projects/peeringdb/server/lt/
-- https://translate.peeringdb.com/projects/peeringdb/javascript/lt/
-
-and perform translations.
+- https://translate.peeringdb.com/projects/peeringdb/server/
+- https://translate.peeringdb.com/projects/peeringdb/javascript/
 
 
 ### Thanks to the translators!
