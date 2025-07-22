@@ -14,12 +14,32 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.69.0 | 2025-06-11 | 2025-06-18 | 2025-06-25 |
 | 2.70.0 | 2025-07-16 | 2025-07-23 | 2025-07-30 |
 | 2.71.0 | 2025-08-13 | 2025-08-20 | 2025-08-27 |
 | 2.72.0 | 2025-09-10 | 2025-09-17 | 2025-09-24 |
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
+
+## Release 2.70.0
+
+Beta Announcement Date: 23 July 2025
+Release Date: 30 July 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1574 Add comparison function to assess datacenter connectivity attractiveness.](https://github.com/peeringdb/peeringdb/issues/1574) | New feature to compare `fac`s.|
+| [#1697 IPv6 addresses are overlapping with the new IX-Port location information.](https://github.com/peeringdb/peeringdb/issues/1697) | Fixed bug is data table display.|
+| [#1788 Sorting "Public Peering Exchange Points" of a "net" by "RS Peer" column actually sorts by "Speed" column.](https://github.com/peeringdb/peeringdb/issues/1788) | Fixed bug as per title.|
+| [#1642 Advanced Search Fails on Address Search.](https://github.com/peeringdb/peeringdb/issues/1642) | Fixed bug where address searches failed.|
+| [#1655 Advanced search doesn't find DC in Turin.](https://github.com/peeringdb/peeringdb/issues/1655) | Fixed bug where some `fac` results were missing.|
+| [#1748 Social Media links - Add Bluesky, Youtube, Others?.](https://github.com/peeringdb/peeringdb/issues/1748) | Added support for links to a wide range of social media platforms.|
+| [#804 [beta] Add ixf_ixp_import_enabled to object ixlan API.](https://github.com/peeringdb/peeringdb/issues/804) | As title.|
+| [#1791 Unable to change netmask for ixlan when the network address is unchanged.](https://github.com/peeringdb/peeringdb/issues/1791) | Fixed bug preventing `ix`s from expanding a peering LAN prefix from e.,g. a /24 to a /23.|
+| [#1790 New WebUI - I can't modify "Public Peering Exchange Points" details.](https://github.com/peeringdb/peeringdb/issues/1790) | Fixed bug as per title.|
+| [#1771 UI - Runaway window close control .](https://github.com/peeringdb/peeringdb/issues/1771) | Fixed a bug as per title.|
+| [#1802 Search results and sponsorships badges.](https://github.com/peeringdb/peeringdb/issues/1802) | Sponsor badges no appear for `org` objects only in search results.|
+| [#926 Unit test performance degradation.](https://github.com/peeringdb/peeringdb/issues/926) | Tests now run at the normal speed again.|
+
 
 ## Release 2.69.0
 
