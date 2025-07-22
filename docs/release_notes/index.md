@@ -40,7 +40,6 @@ Release Date: 30 July 2025
 | [#1802 Search results and sponsorships badges.](https://github.com/peeringdb/peeringdb/issues/1802) | Sponsor badges no appear for `org` objects only in search results.|
 | [#926 Unit test performance degradation.](https://github.com/peeringdb/peeringdb/issues/926) | Tests now run at the normal speed again.|
 
-
 ## Release 2.69.0
 
 Beta Announcement Date: 18 June 2025
