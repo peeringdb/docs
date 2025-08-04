@@ -6,17 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/translation/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Translations - PeeringDB Docs</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/asn_comparison/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Comparing Networks on PeeringDB’s Website - PeeringDB Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
-        <link href="../extra.css" rel="stylesheet">
+        <link href="../../extra.css" rel="stylesheet">
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
@@ -32,7 +32,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                <a class="navbar-brand" href="../..">PeeringDB Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -43,54 +43,54 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">About</a>
+                                <a href="../.." class="nav-link">About</a>
                             </li>
                             <li class="navitem">
-                                <a href="../gov/" class="nav-link">Governance</a>
+                                <a href="../../gov/" class="nav-link">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../committee/admin/" class="dropdown-item">Admin Committee</a>
+    <a href="../../committee/admin/" class="dropdown-item">Admin Committee</a>
 </li>
                                     
 <li>
-    <a href="../committee/outreach/" class="dropdown-item">Outreach Committee</a>
+    <a href="../../committee/outreach/" class="dropdown-item">Outreach Committee</a>
 </li>
                                     
 <li>
-    <a href="../committee/product/" class="dropdown-item">Product Committee</a>
+    <a href="../../committee/product/" class="dropdown-item">Product Committee</a>
 </li>
                                     
 <li>
-    <a href="../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+    <a href="../../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../release_notes/" class="dropdown-item">Release Notes</a>
+    <a href="../../release_notes/" class="dropdown-item">Release Notes</a>
 </li>
                                     
 <li>
-    <a href="../api_specs/" class="dropdown-item">API Specs</a>
+    <a href="../../api_specs/" class="dropdown-item">API Specs</a>
 </li>
                                     
 <li>
-    <a href="../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+    <a href="../../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
 </li>
                                     
 <li>
-    <a href="../oauth/" class="dropdown-item">OAuth</a>
+    <a href="../../oauth/" class="dropdown-item">OAuth</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Translations</a>
+    <a href="../../translation/" class="dropdown-item">Translations</a>
 </li>
                                     
 <li>
@@ -99,13 +99,13 @@
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="../howtos/" class="nav-link">HOWTOs</a>
+                                <a href="../../howtos/" class="nav-link">HOWTOs</a>
                             </li>
                             <li class="navitem">
-                                <a href="../faq/" class="nav-link">FAQs</a>
+                                <a href="../../faq/" class="nav-link">FAQs</a>
                             </li>
                             <li class="navitem">
-                                <a href="../blogs/" class="nav-link">Blogs</a>
+                                <a href="../../blogs/" class="nav-link">Blogs</a>
                             </li>
                         </ul>
 
@@ -133,7 +133,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#contributing-to-translations" class="nav-link">Contributing to translations</a>
+            <li class="nav-item" data-level="1"><a href="#comparing-networks-on-peeringdbs-website" class="nav-link">Comparing Networks on PeeringDB’s Website</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -142,71 +142,14 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="contributing-to-translations">Contributing to translations</h2>
-<p>Translation is done using PeeringDB's Weblate instance at <a href="https://translate.peeringdb.com/">https://translate.peeringdb.com/</a>.</p>
-<h3 id="signing-in-to-weblate">Signing in to Weblate</h3>
-<p>Authentication is done via your PeeringDB credentials. So the only thing you have to do is to <a href="https://www.peeringdb.com/register">register</a> with PeeringDB.</p>
-<h3 id="selecting-languages">Selecting languages</h3>
-<p>Go to <a href="https://translate.peeringdb.com/accounts/profile/">https://translate.peeringdb.com/accounts/profile/</a> to edit your profile and also to select the <a href="https://translate.peeringdb.com/accounts/profile/#languages">languages</a> you want to help with.</p>
-<h3 id="viewing-updates">Viewing updates</h3>
-<p>Translations are updated hourly on the beta website <a href="https://beta.peeringdb.com/">https://beta.peeringdb.com/</a> and daily at 0000 UTC on the production website <a href="https://www.peeringdb.com/">https://www.peeringdb.com/</a>.</p>
-<h3 id="mailing-list">Mailing list</h3>
-<p>The <a href="http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate">http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate</a> mailing list is open to anyone working on, or interested in translations.</p>
-<h3 id="adding-a-new-language">Adding a new language</h3>
-<p>If you wish to add a new language, create a new ticket at <a href="https://github.com/peeringdb/peeringdb/issues">https://github.com/peeringdb/peeringdb/issues</a> stating your intent and one of the operators / developers will generate the necessary files for your language and add them to the repository.</p>
-<h4 id="admins-instructions-to-add-a-new-language">Admin's instructions to add a new language</h4>
-<p>Go to <a href="https://translate.peeringdb.com/projects/peeringdb/">https://translate.peeringdb.com/projects/peeringdb/</a>:<br />
-1. Select "Server"<br />
-2. Click the "+" to add a Language<br />
-3. Search for desired language and select it<br />
-4. Clicked "Start new translation"</p>
-<p>Do the same with Javascript:<br />
-1. Select "Javascript"<br />
-2. Click the "+" to add a Language<br />
-3. Search for desired language and select it<br />
-4. Clicked "Start new translation"</p>
-<p>Now any translator can go to the following pages and find the added language to add translations.</p>
-<ul>
-<li><a href="https://translate.peeringdb.com/projects/peeringdb/server/">https://translate.peeringdb.com/projects/peeringdb/server/</a></li>
-<li><a href="https://translate.peeringdb.com/projects/peeringdb/javascript/">https://translate.peeringdb.com/projects/peeringdb/javascript/</a></li>
-</ul>
-<h3 id="thanks-to-the-translators">Thanks to the translators!</h3>
-<h4 id="ar">ar</h4>
-<ul>
-<li>Sara Alamin Mohamed Hassan</li>
-</ul>
-<h4 id="de">de</h4>
-<ul>
-<li>Sara Fink</li>
-<li>Stefan Funke</li>
-<li>Arnold Nipper</li>
-</ul>
-<h4 id="jp">jp</h4>
-<ul>
-<li>Yutaro Fujii</li>
-<li>Norisuke Hirai</li>
-<li>Yuki Ikuno</li>
-<li>Chise Kawamura</li>
-<li>Kaoru Kitauchi</li>
-<li>Shintaro Kojima</li>
-<li>Yutaka Kumamoto</li>
-<li>Ryohey Matsumoto</li>
-<li>Masataka Mawatari</li>
-<li>Akira Nakagawa</li>
-<li>Satoshi Okawa</li>
-<li>Hideyuki Sasaki</li>
-<li>Tomocha</li>
-<li>Katsuyasu Toyama</li>
-<li>Taiji Tsuchiya</li>
-<li>Yudai Yamagishi</li>
-<li>Katsushi Yamaguchi</li>
-<li>Junpei Yoshino</li>
-</ul>
-<h4 id="pt">pt</h4>
-<ul>
-<li>Ligio Gomes (NTT Communications)</li>
-<li>Robert Philips (NTT Communications)</li>
-</ul></div>
+<h1 id="comparing-networks-on-peeringdbs-website">Comparing Networks on PeeringDB’s Website</h1>
+<p>We have just launched the initial version of a new feature that will allow users to compare facilities on our website. This feature was suggested by users and gives website users the same capabilities that API users have had since PeeringDB v2 launched in 2016.</p>
+<p><img alt="ASN Comparison Feature" src="../images/asn_comparison.png" /></p>
+<p>Now, users can ask the website to compare networks. As always, results can be exported, so you can further analyze them alongside other sources of data.</p>
+<p>Now that we have this feature, we need your feedback on how to improve it. What would make it more useful to you? Let us know, so we can improve it for you. We’ve already had some suggestions, which are great. Did they capture your needs? What would make this feature most useful for you?</p>
+<p>If you have an idea to improve PeeringDB you can share it on our low traffic <a href="https://docs.peeringdb.com/#mailing-lists">mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<hr />
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
             </div>
         </div>
 
@@ -224,11 +167,11 @@
 
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
