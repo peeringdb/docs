@@ -18,30 +18,28 @@ Translations are updated hourly on the beta website <https://beta.peeringdb.com/
 
 The <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate> mailing list is open to anyone working on, or interested in translations.
 
-### Adding a new locale
+### Adding a new language
 
-If you wish to add a new locale, create a new ticket at <https://github.com/peeringdb/peeringdb/issues> stating your intent and one of the operators / developers will generate the necessary files for your locale and add them to the repository.
+If you wish to add a new language, create a new ticket at <https://github.com/peeringdb/peeringdb/issues> stating your intent and one of the operators / developers will generate the necessary files for your language and add them to the repository.
 
-#### Admins instructions to add
+#### Admin'ss instructions to add a new language
 
-Go to https://translate.peeringdb.com/projects/peeringdb/
-
+Go to <https://translate.peeringdb.com/projects/peeringdb/>:
 1. Select "Server"
 2. Click the "+" to add a Language
 3. Search for desired language and select it
 4. Clicked "Start new translation"
 
-Do the same with javascript
-
+Do the same with Javascript:
 1. Select "Javascript"
 2. Click the "+" to add a Language
 3. Search for desired language and select it
 4. Clicked "Start new translation"
 
-Now any translator can go to the following pages and find the added language to perform translations.
+Now any translator can go to the following pages and find the added language to add translations.
 
-- https://translate.peeringdb.com/projects/peeringdb/server/
-- https://translate.peeringdb.com/projects/peeringdb/javascript/
+- <https://translate.peeringdb.com/projects/peeringdb/server/>
+- <https://translate.peeringdb.com/projects/peeringdb/javascript/>
 
 
 ### Thanks to the translators!
