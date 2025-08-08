@@ -20,7 +20,9 @@ The <http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-translate> mailing 
 
 ### Adding a new language
 
-If you wish to add a new language, create a new ticket at <https://github.com/peeringdb/peeringdb/issues> stating your intent and one of the operators / developers will generate the necessary files for your language and add them to the repository.
+If you wish to add a new language, create a new ticket at <https://github.com/peeringdb/peeringdb/issues> stating your intent and one of the operators / developers will generate the necessary files for your language and add them to the repository. 
+
+New languages are added alongside a new release. Planned release dates are published on our [release notes](https://docs.peeringdb.com/release_notes/) page.
 
 #### Admin's instructions to add a new language
 
@@ -74,6 +76,9 @@ Now any translator can go to the following pages and find the added language to 
 - Yudai Yamagishi
 - Katsushi Yamaguchi
 - Junpei Yoshino
+
+### lt
+- Saulius Jeraminas
 
 #### pt
 
