@@ -11,6 +11,7 @@
 
 #### 2025
 
+- [August 7th, 2025: Meeting Notes](notes/2025-08-07_Product_Committee_Notes.pdf)
 - [July 3rd, 2025: Meeting Notes](notes/2025-07-03_Product_Committee_Notes.pdf)
 - [June 5th, 2025: Meeting Notes](notes/2025-06-05_Product_Committee_Notes.pdf)
 - [May 1st, 2025: Meeting Notes](notes/2025-05-01_Product_Committee_Notes.pdf)
