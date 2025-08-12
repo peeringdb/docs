@@ -29,6 +29,9 @@
 - [June 17th, 2024: Meeting Notes](notes/2024-06-17_Outreach_Committee_Notes.pdf)
 - [May 14th, 2024: Meeting Notes](notes/2024-05-14_Outreach_Committee_Notes.pdf)
 - [April 9th, 2024: Meeting Notes](notes/2024-04-09_Outreach_Committee_Notes.pdf)
+- No formal meeting in March 2024
+- No formal meeting in February 2024
+- No formal meeting in January 2024
 
 #### 2021
 
