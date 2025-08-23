@@ -78,7 +78,7 @@ Now any translator can go to the following pages and find the added language to 
 - Junpei Yoshino
 
 ### lt
-- Saulius Jeraminas (IPXO)
+- Saulius Jeraminas [IPXO](https://www.ipxo.com/)
 
 #### pt
 
