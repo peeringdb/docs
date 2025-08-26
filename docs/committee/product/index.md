@@ -150,7 +150,6 @@
 - Peter Helmenstine
 - Paul Hoogsteder
 - Aaron Hughes - Board Liaison
-- Laurent Jarbinet
 - Stephen McManus
 - Arnold Nipper
 - Terry Sweetser
