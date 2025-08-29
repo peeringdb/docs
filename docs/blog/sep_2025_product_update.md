@@ -1,9 +1,10 @@
 # September 2025 PeeringDB Product Update
+
 ## Strategy
 
-This is our third half yearly update. We publish [notes with every release](https://docs.peeringdb.com/release_notes/) and promote new features and bug fixes on social media. These reports are an opportunity to step back and look at the broad sweep of change.
+This is our third half yearly update. We publish [notes with every release](/release_notes/) and promote new features and bug fixes on social media. These reports are an opportunity to step back and look at the broad sweep of change.
 
-You can find our previous half yearly reports here: [one](https://docs.peeringdb.com/blog/october_2024_retrospective/), [two](https://docs.peeringdb.com/blog/april_2025_product_update/).
+You can find our previous half yearly reports here: [one](/blog/october_2024_retrospective/), [two](/blog/april_2025_product_update/).
 
 PeeringDB’s board approved a 50 percent increase in spending on development and operations work in 2025 from the 2024 level. All our committees have access to these development and operations resources. This means we can get more development work done each month and put more effort into operations improvements.
 
@@ -13,10 +14,11 @@ Product Committee membership has stabilized and we are working more efficiently.
 
 We have a new translation available: Lithuanian. It was provided by Saulius Jeraminas and deployed in our August release.
 
-We still encourage users to submit feature requests and bug reports [in GitHub](https://github.com/peeringdb/peeringdb/issues). We want to understand how feature developments can help our users. Please tell us whether you'd use a feature and how it would help. You can do this in GitHub, on [our mailing list](productcom@lists.peeringdb.com), or when you meet us at industry events.
+We still encourage users to submit feature requests and bug reports [in GitHub](https://github.com/peeringdb/peeringdb/issues). We want to understand how feature developments can help our users. Please tell us whether you'd use a feature and how it would help. You can do this in GitHub, on [our mailing list](mailto:productcom@lists.peeringdb.com), or when you meet us at industry events.
 
 ## Last six months
-### Comparison in Search
+
+### Comparison in search
 
 Users can now compare networks at facilities. This new feature was initially released in July and we’ve already had two great suggestions for improvements to it.
 
@@ -36,12 +38,13 @@ We have to do this as we’ve been adding columns to let users show things like 
 
 We are working on refinements identified during the first stage of deployment. When those are deployed we’ll start opting users into the new design, allowing them to opt out if they prefer the old design.
 
-### MFA Mandate
+### MFA mandate
+
 Anonymous use has not gone away and will remain. 
 
 But if you want to authenticate, whether to get more queries or to make changes to data you control, you now have to have a second factor. That means:
 
-* [API Keys](https://docs.peeringdb.com/howto/api_keys/) for API queries
+* [API Keys](/howto/api_keys/) for API queries
 * Backup codes
 * Passkeys
 * TOTP 
@@ -63,7 +66,8 @@ Over the last year we have been normalizing the presentation of addresses. We us
 
 We have seen a few anomalies arising from normalization and will fix those in the coming weeks.
 
-## Coming Up
+## Coming up
+
 ### Website
 
 You will be seeing our new web UI in the next few months. You might be opted in to test it. If you are and you don’t like it, you can go to your profile and choose to use the original design, while we refine the new one.
@@ -78,11 +82,11 @@ Once this is complete we’ll be implementing lazy loading to improve the speed 
 
 Enthusiastic early users of the ASN Comparison function have suggested some brilliant ways to improve it. We’ll be working on implementing these. We want your ideas. How can we improve this feature so it’s more useful to you when you do your job, or want to automate parts of it?
 
-### Behind the Scenes
+### Behind the scenes
 
-We are completing our transition to containers. We’re also implementing some service level indicators so we know if PeeringDB is up but loading slowly. We’ve had a couple of incidents recently where an enthusiastic developer has run code that hammers the site heavily. We’ll be working on ways to retain high availability despite users exceeding [query limits](https://docs.peeringdb.com/howto/work_within_peeringdbs_query_limits/).
+We are completing our transition to containers. We’re also implementing some service level indicators so we know if PeeringDB is up but loading slowly. We’ve had a couple of incidents recently where an enthusiastic developer has run code that hammers the site heavily. We’ll be working on ways to retain high availability despite users exceeding [query limits](/howto/work_within_peeringdbs_query_limits/).
 
-And while we are working on PeeringDB’s website, we also make all the data available for query through a local mirror: `peeringdb-py`. It’s [been improved](https://docs.peeringdb.com/howto/peeringdb-py/) and is now even simpler to install and keep updated.
+And while we are working on PeeringDB’s website, we also make all the data available for query through a local mirror: `peeringdb-py`. It’s [been improved](/howto/peeringdb-py/) and is now even simpler to install and keep updated.
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
