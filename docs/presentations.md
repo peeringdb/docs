@@ -2,6 +2,7 @@
 
 ## 2025
 
+- [PeeringDB Update](presentation/20250903_AusNOG2025_Alex_Corso.pdf) at [AusNOG 2025](https://www.ausnog.net/events/ausnog-2025/), Melbourne, AU - September 3, 2025 - Alexandre Corso
 - [PeeringDB Update](presentation/20250821_AfPIF2025_Obinna_Adumike.pdf) at [AfPIF 2025](https://www.afpif.org/afpif2025/), Lagos, NG - August 21, 2025 - Obinna Adumike
 - [PeeringDB Update](presentation/20250707_NetUK2_Elisa_Peirano.pdf) at [NetUK2](https://indico.netuk.org/event/2/timetable/#20250708.detailed), London, UK - July 7, 2025 - Elisa Peirano
 - [What’s New and What’s Next](presentation/20250624_Swinog40_Arnold_Nipper.pdf) at [SwiNOG #40](https://www.swinog.ch/meetings/swinog40/), Berne, CH - June 24, 2025 - Arnold Nipper
