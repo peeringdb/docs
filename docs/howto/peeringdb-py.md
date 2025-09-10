@@ -31,3 +31,7 @@ You will also need to have a database installed. The configuration defaults to u
 We have a [separate document](https://github.com/peeringdb/peeringdb-py/blob/master/docs/local_server.md) describing how to install `peeringdb-py`, run the server setup, and make local queries using the API. 
 
 Because the server now has an automatic synchronization process, you no longer need to create a cron job to synchronize data.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

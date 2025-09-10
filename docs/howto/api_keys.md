@@ -151,3 +151,7 @@ The following request would delete the [ChiX](https://www.peeringdb.com/ix/239) 
 ```sh
 curl -H "Authorization: Api-Key $API_KEY" -H "Content-Type: application/json" -X DELETE https://www.peeringdb.com/api/ix/239
 ```
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

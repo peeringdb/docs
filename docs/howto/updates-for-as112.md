@@ -25,3 +25,7 @@ This is because AS112 has enabled the option to allow the IXPs' IX-F data to [au
 If your IXP does not share technical information about its infrastructure using the IX-F Member Export Schema you can ask them to do so.
 
 You can also reach out to ops@as112.net and the PeeringDB entry for AS112 will be manually updated.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

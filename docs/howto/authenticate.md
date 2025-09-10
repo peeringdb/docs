@@ -86,3 +86,7 @@ The canonical URL for PeeringDB is `https://www.peeringdb.com`. There is a redir
 ### Password authentication
 
 Using an API key for command line access is simple and more secure. Our [guide on API keys](/howto/api_keys/) explains how to create and manage keys, including setting read-only permissions, with examples.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).
