@@ -147,6 +147,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#improving-this-howto" class="nav-link">Improving this HOWTO</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -156,14 +160,28 @@
 
 <h1 id="howto-turn-on-2fa-and-require-users-to-enable-it">HOWTO: Turn on 2FA and Require Users to Enable It</h1>
 <h2 id="what-is-2fa">What is 2FA?</h2>
-<p>2FA is two-factor authentication. Enabling 2FA for PeeringDB means you must both have an account password and another factor.</p>
-<p>We support both <a href="https://en.wikipedia.org/wiki/Time-based_one-time_password">TOTP</a> and <a href="https://fidoalliance.org/specifications/">U2F tokens</a> as additional factors. There are many popular software and hardware devices supporting these standards.</p>
+<p>2FA is two-factor authentication, also known as Multi-factor authentication. It means you use a password and a second factor.  </p>
+<p>All PeeringDB users must have at least one second factor.</p>
+<p>We support three types of 2FA: </p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Time-based_one-time_password">TOTP</a></li>
+<li><a href="https://fidoalliance.org/specifications/">U2F tokens</a></li>
+<li><a href="https://www.passkeys.com/what-are-passkeys">Passkeys</a></li>
+</ul>
+<p>There are many popular software and hardware devices supporting these standards.</p>
+<p>If you lose your second factor, or have not set one yet, you'll need to follow the password reset route.</p>
+<p><img alt="Password reset" src="../images/Password_reset.png" /></p>
 <h2 id="how-do-users-enable-2fa">How do users enable 2FA?</h2>
-<p>Click on your account name. Then click on the green "Manage Two-Factor Authentication" box and follow the instructions.</p>
-<p><img alt="2FA control for users" src="../images/manage_two-factor_authentication.png" /></p>
+<p>Click on your account name and select your profile.</p>
+<p><img alt="Select profile" src="../images/Location_of_profile.png" /></p>
+<p>Then select the button for managing Multi-factor Authentication in the column on the right.</p>
+<p><img alt="Location of the MFA button" src="../images/Location_of_MFA_button.png" /></p>
+<p>Then, add the methods you want. You can select multiple methods.</p>
+<p><img alt="2FA control for users" src="../images/MFA_management.png" /></p>
 <h2 id="how-do-organizations-require-users-to-enable-it">How do organizations require users to enable it?</h2>
-<p>In the Manage panel at the bottom of the screen, select the Users tab and check the box "Require users in your organization to enable 2FA."</p>
-<p><img alt="Organizational policy control for 2FA" src="../images/require_users_to_enable_2fa.png" /></p></div>
+<p>All PeeringDB users must have at least one factor in addition to their password. Organizations cannot vary this policy.</p>
+<h2 id="improving-this-howto">Improving this HOWTO</h2>
+<p>Please let us know how we could improve this article. Send a mail to the <a href="mailto:outreachcom@lists.peeringdb.com">Outreach Committee</a>.</p></div>
             </div>
         </div>
 
