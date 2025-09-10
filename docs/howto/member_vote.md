@@ -33,4 +33,8 @@ If you want to join a committee, send a message to [stewards@peeringdb.com](mail
 
 ## Where can I learn more?
 
-We publish detailed governance documentation and records on our [governance website](https://docs.peeringdb.com/gov/). 
+We publish detailed governance documentation and records on our [governance website](https://docs.peeringdb.com/gov/). ]
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

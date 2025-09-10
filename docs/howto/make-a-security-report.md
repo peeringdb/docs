@@ -50,3 +50,7 @@ This is not an exclusive list. If you report a vulnerability that has already be
 * After your vulnerability report is verified, the security team will inform you if you are eligible.
 * We will send you a gift with the PeeringDB logo.
 * We do not issue monetary rewards for reported vulnerabilities.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

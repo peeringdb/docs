@@ -31,3 +31,7 @@ This lets you limit the chance of the teams who run your network being contacted
 ## Next steps
 
 Review your organization's contacts and their permissions. Adjust the contacts based on your current needs.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

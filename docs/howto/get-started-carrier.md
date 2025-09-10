@@ -61,3 +61,7 @@ You then click the edit button in the top right of the `carrier` screen and indi
 ## Next steps
 
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. 
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

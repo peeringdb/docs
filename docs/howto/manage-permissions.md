@@ -35,3 +35,7 @@ The user just needs to request, and be granted affiliation with each organizatio
 If your organization operates a network and has the Autonomous System registered with PeeringDB, your users can use their PeeringDB accounts to [authenticate at external services](/blog/oauth_users/) that have enabled PeeringDB’s OAuth service. 
 
 In March 2025 over 500 applications had enabled PeeringDB OAuth. It is used to facilitate peering requests, use network telemetry services, and more.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

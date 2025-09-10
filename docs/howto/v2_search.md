@@ -45,3 +45,7 @@ v2 search knows about campus objects – interconnected facilities under common 
 ![Search for a fan in Amsterdam](images/fac_in_amsterdam.png)
 
 *Fig 5: Searching for a* `fac in amsterdam` *shows many more results*
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

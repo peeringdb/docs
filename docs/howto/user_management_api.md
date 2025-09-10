@@ -243,3 +243,7 @@ The API uses a permission system to control access:
     - `Check Create Option`: Add users
     - `Check Update Option`: Update user roles
     - `Check Delete Option`: Remove users
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

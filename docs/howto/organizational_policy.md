@@ -39,3 +39,7 @@ Each email address can only be associated with one user.
 When a user with multiple email addresses associated with their account wants to remove the primary address, they will have to select another address as the primary address.
 
 ![Control Panel to Add Additional Email Addresses](images/add_email_control_panel.png)
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

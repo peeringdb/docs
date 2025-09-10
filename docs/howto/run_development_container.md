@@ -163,3 +163,7 @@ Other options:
 After testing and carefully code-reviewing your changes, commit and push them to your repository. You can then share the changes with other developers, such as those on the <pdb-tech@lists.peeringdb.com> mailing list: [https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech).
 
 When ready to contribute the change to the project, create a pull request to the main repository along with a description of your goals for the change and/or what you are fixing.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

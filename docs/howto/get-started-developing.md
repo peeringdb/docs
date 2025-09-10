@@ -29,3 +29,7 @@ It's good to let us know which issues you are working on when you start work. It
 ## What happens next?
 
 When you submit your pull request we will run continuous integration tests on the code. We'll also review it ourselves. We'll report on the output of the tests in comments on the pull request and let you know if you need to make any changes.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).

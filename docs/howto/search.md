@@ -348,3 +348,7 @@ To get the list of networks and their type peering at Mice in Minneapolis, copy 
 ## How to find all the exchanges where my organization has a presence?
 
 Use this curl example. Copy and paste the following to your command line interface: `curl -s -X GET https://www.peeringdb.com/api/netixlan\?ixlan_id=62 | jq '.data[]'`.
+
+## Improving this HOWTO
+
+Please let us know how we could improve this article. Send a mail to the [Outreach Committee](mailto:outreachcom@lists.peeringdb.com).
