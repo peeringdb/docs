@@ -4,7 +4,7 @@ We’re running [an anonymous user survey](https://docs.google.com/forms/d/e/1FA
 
 So, we’ve deployed changes. We now normalize location data, we’ve introduced new ways to search, and new types of data: carriers and campuses.
 
-But don’t worry, that doesn’t mean lots of questions. There are just 11 and you don’t have to answer them all. And there’s lots of opportunity to leave comments – if you want to. Comments are often even more valuable than satisfaction ratings.
+But don’t worry, that doesn’t mean lots of questions. There are just 11 questions and you don’t have to answer them all. And there are lots of opportunity to leave comments – if you want to. Comments are often even more valuable than satisfaction ratings.
 
 Dynamic web translation is now very good, so we’re just publishing the survey in English. You can use your favorite tool to translate the survey. And feel free to comment in the language you are happiest writing in.
 

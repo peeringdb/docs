@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2025
+- [PeeringDB's 2025 User Survey](blog/peeringdb_2025_user_survey.md) - September 12, 2025
 - [September 2025 PeeringDB Product Update](blog/sep_2025_product_update.md) - August 29, 2025
 - [Comparing Networks on PeeringDB’s Website](blog/asn_comparison.md) - August 4, 2025
 - [PeeringDB Website Update](blog/new_website_next_steps.md) - June 15, 2025
