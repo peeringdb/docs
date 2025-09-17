@@ -19,6 +19,24 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
 
+## Release 2.72.0
+
+Beta Announcement Date: 17 September 2025
+Release Date: 24 September 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1765 Make radius search for facilities easier to use and less buggy.](https://github.com/peeringdb/peeringdb/issues/1765) | As title.|
+| [#1812 Inconsistent/missing results when searching for IP addresses in v2.](https://github.com/peeringdb/peeringdb/issues/1812) | As title.|
+| [#1815 Address normalization bugs.](https://github.com/peeringdb/peeringdb/issues/1815) | Fixes address normalization bugs affecting Iceland and Germany.|
+| [#1806 Modifier info_type is not working.](https://github.com/peeringdb/peeringdb/issues/1806) | Fixes a bug where all networks had type of Enterprise.|
+| [#1796 Support setting logo per object, rather than per org.](https://github.com/peeringdb/peeringdb/issues/1796) | As title.|
+| [#1794 Add a “Peering” Contact Type in the Contact Information.](https://github.com/peeringdb/peeringdb/issues/1794) | New tooltips when setting contact data. [New HOWTO](https://docs.peeringdb.com/howto/share_contact_info/) on what each contact type is for.|
+| [#1803 new ui dark mode is hard to read.](https://github.com/peeringdb/peeringdb/issues/1803) | Now using a lighter color for tab text in Dark Mode.|
+| [#1799 Campus object web pages are missing sponsor badges.](https://github.com/peeringdb/peeringdb/issues/1799) | As title.|
+| [#1811 Scheduled updates for translate.peeringdb.com.](https://github.com/peeringdb/peeringdb/issues/1811) | As title.|
+
+
 ## Release 2.71.0
 
 Beta Announcement Date: 20 August 2025
