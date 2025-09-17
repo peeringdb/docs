@@ -36,7 +36,6 @@ Release Date: 24 September 2025
 | [#1799 Campus object web pages are missing sponsor badges.](https://github.com/peeringdb/peeringdb/issues/1799) | As title.|
 | [#1811 Scheduled updates for translate.peeringdb.com.](https://github.com/peeringdb/peeringdb/issues/1811) | As title.|
 
-
 ## Release 2.71.0
 
 Beta Announcement Date: 20 August 2025
@@ -49,7 +48,6 @@ Release Date: 27 August 2025
 | [django-peeringdb #107 Dependency updates.](https://github.com/peeringdb/django-peeringdb/issues/107) | As title.|
 | [#1800 Orgs with lots of objects take a long time to render while orgs with few objects render quickly.](https://github.com/peeringdb/peeringdb/issues/1800) | Improved load speed.|
 | [#1749 CP: Highlight when facility is a SUGGESTION.](https://github.com/peeringdb/peeringdb/issues/1749) | Improvement for AC tools.|
-
 
 ## Release 2.70.0
 
