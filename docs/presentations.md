@@ -2,6 +2,7 @@
 
 ## 2025
 
+- [What’s New and What’s Next](presentation/20250918_RONOG10_Arnold_Nipper.pdf) at [RONOG 10](https://www.ronog.ro/), Bucharest, RO - September 18, 2025 - Arnold Nipper
 - [What's new on PeeringDB?](presentation/20250917_EPF2025_Livio_Morina.pdf) at [EPF 2025](https://peering-forum.eu/), Bucharest, RO - September 17, 2025 - Livio Morina
 - [PeeringDB Update](presentation/20250903_AusNOG2025_Alex_Corso.pdf) at [AusNOG 2025](https://www.ausnog.net/events/ausnog-2025/), Melbourne, AU - September 3, 2025 - Alexandre Corso
 - [PeeringDB Update](presentation/20250821_AfPIF2025_Obinna_Adumike.pdf) at [AfPIF 2025](https://www.afpif.org/afpif2025/), Lagos, NG - August 21, 2025 - Obinna Adumike
