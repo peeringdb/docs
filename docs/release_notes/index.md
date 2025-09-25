@@ -14,10 +14,18 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.71.0 | 2025-08-13 | 2025-08-20 | 2025-08-27 |
 | 2.72.0 | 2025-09-10 | 2025-09-17 | 2025-09-24 |
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
+
+## Release 2.72.1
+
+Release Date: 25 September 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1842 Cannot edit page without adding a logo.](https://github.com/peeringdb/peeringdb/issues/1842) | Fixed a bug that stopped users saving edits unless they uploaded a logo.|
+
 
 ## Release 2.72.0
 
