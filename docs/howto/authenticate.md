@@ -32,7 +32,6 @@ We recommend using a randomly generated password or passphrase.
 
 ![Example of a random password and passphrase generator](images/password_generator.png)
 
-
 ## Multi-factor authentication (MFA)
 
 We support three MFA methods. You can use:
