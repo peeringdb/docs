@@ -24,7 +24,14 @@ If you authenticate when you send queries, we can contact you if your PeeringDB 
 
 ## Password
 
-You can use password authentication. We recommend adding MFA to password authentication.
+You must set a password.
+
+Passwords must be at least 10 characters long and must not exceed 1,000 characters.
+
+We recommend using a randomly generated password or passphrase.
+
+![Example of a random password and passphrase generator](images/password_generator.png)
+
 
 ## Multi-factor authentication (MFA)
 
