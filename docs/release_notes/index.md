@@ -15,7 +15,7 @@ Our releases are generally deployed at around 04:00 UTC.
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
 | 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
-| 2.70.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
+| 2.74.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
 
 ## Release 2.73.0
 
@@ -28,7 +28,6 @@ Release Date: 29 October 2025
 | [#1755 Expand OAuth availability to accredited organizations without a network.](https://github.com/peeringdb/peeringdb/issues/1755) | As title.|
 | [#1078 Field logo is missing from object org.](https://github.com/peeringdb/peeringdb/issues/1078) | As title.|
 | [peeringdb-py #113 Failure to start if invalid 'failed_entries.json'.](https://github.com/peeringdb/peeringdb-py/issues/113) | Fixes a bug that stopped peeringdb-py from starting without this file.|
-
 
 ## Release 2.72.1
 
