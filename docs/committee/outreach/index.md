@@ -9,6 +9,7 @@
 
 #### 2025
 
+- [October 20, 2025: Meeting Notes](notes/2025-10-20_Outreach_Committee_Notes.pdf)
 - [September 18, 2025: Meeting Notes](notes/2025-09-18_Outreach_Committee_Notes.pdf)
 - [August 12, 2025: Meeting Notes](notes/2025-08-12_Outreach_Committee_Notes.pdf)
 - [July 10, 2025: Meeting Notes](notes/2025-07-10_Outreach_Committee_Notes.pdf)
