@@ -146,7 +146,6 @@
 - Jeff Bartig
 - Yan Berthier
 - Jack Carrozzo - Chair
-- Yolandi Cloete
 - Matt Griswold - Vice Chair
 - Martin Hannigan
 - Peter Helmenstine

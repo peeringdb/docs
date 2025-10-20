@@ -73,6 +73,7 @@
 
 - Obinna Adumike
 - Lynsey Buckingham
+- Yolandi Cloete
 - Greg Hankins
 - Aaron Hughes - Board Liaison
 - Tarryn Kidd
