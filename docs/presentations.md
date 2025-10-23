@@ -2,6 +2,7 @@
 
 ## 2025
 
+- [PeeringDB Updates](presentation/20251022_RIPE_91_Leo_Vegoda.pdf) at [RIPE 91](https://ripe91.ripe.net/programme/meeting-plan/sessions/27/), Bucharest, RO - October 22, 2025 - Leo Vegoda
 - [What's new on PeeringDB?](presentation/20250924_BalticNOG1_Livio_Morina.pdf) at [BalticNOG 2025](https://events.balticnog.org/event/1/timetable/#all.detailed), Vilnius, LT - September 24, 2025 - Livio Morina
 - [What’s New and What’s Next](presentation/20250918_RONOG10_Arnold_Nipper.pdf) at [RONOG 10](https://www.ronog.ro/), Bucharest, RO - September 18, 2025 - Arnold Nipper
 - [What's new on PeeringDB?](presentation/20250917_EPF2025_Livio_Morina.pdf) at [EPF 2025](https://peering-forum.eu/), Bucharest, RO - September 17, 2025 - Livio Morina
