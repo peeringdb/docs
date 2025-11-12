@@ -14,8 +14,28 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.73.0 | 2025-10-08 | 2025-10-15 | 2025-10-29 |
 | 2.74.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
+| 2.75.0 | 2026-01-12 | 2026-01-19 | 2026-01-27 |
+| 2.76.0 | 2026-02-10 | 2026-02-17 | 2026-02-24 |
+| 2.77.0 | 2026-03-03 | 2026-03-10 | 2026-03-17 |
+| 2.78.0 | 2026-04-13 | 2026-04-20 | 2026-04-28 |
+| 2.79.0 | 2026-05-05 | 2026-05-12 | 2026-05-19 |
+| 2.80.0 | 2026-06-08 | 2026-06-15 | 2026-05-23 |
+
+## Release 2.74.0
+
+Beta Announcement Date: 12 November 2025
+Release Date: 19 November 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1813 ASN Connectivity - Beta Feedback.](https://github.com/peeringdb/peeringdb/issues/1813) | Adds ability to compare IXs and Facilities with additional columns, sorting, and filtering.|
+| [#1820 ASN Comparison Tool - Initial Feedback.](https://github.com/peeringdb/peeringdb/issues/1820) | Adds a country column and a color coding legend.|
+| [#1839 API query broken?.](https://github.com/peeringdb/peeringdb/issues/1839) | Fixes a bug with API output.|
+| [#1562 When updating netixlan entry it seems we accept a non-validated status field content.](https://github.com/peeringdb/peeringdb/issues/1562) | Fixes a bug that allowed a status to be set to an undefined value.|
+| [#1602 IX-F importer fails on nulled if_speed & pdb_facility_id properties in if_list entries.](https://github.com/peeringdb/peeringdb/issues/1602) | We now accept and ignore these values if they invalid.|
+| [#1607 net_count & ixf_net_count values are incorrect.](https://github.com/peeringdb/peeringdb/issues/1607) | Fixes a bug with count values.|
+
 
 ## Release 2.73.0
 
