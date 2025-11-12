@@ -1,9 +1,7 @@
 # More ASN Comparisons
 
 We have improved the [ASN Comparison](https://www.peeringdb.com/advanced_search#asn_connectivity) feature. 
-
 ![Now with country, filters, and exchanges](images/improved_asn_comparison.png)
-
 You can now compare networks at IXPs as well as in Facilities. We also:
 
  - Show you country names
