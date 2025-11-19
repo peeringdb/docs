@@ -35,6 +35,7 @@ Release Date: 19 November 2025
 | [#1562 When updating netixlan entry it seems we accept a non-validated status field content.](https://github.com/peeringdb/peeringdb/issues/1562) | Fixes a bug that allowed a status to be set to an undefined value.|
 | [#1602 IX-F importer fails on nulled if_speed & pdb_facility_id properties in if_list entries.](https://github.com/peeringdb/peeringdb/issues/1602) | We now accept and ignore these values if they invalid.|
 | [#1607 net_count & ixf_net_count values are incorrect.](https://github.com/peeringdb/peeringdb/issues/1607) | Fixes a bug with count values.|
+| [#1863 HTTP GET for "{ix,net,fac}/#", for many #'s, is triggering an HTTP GET for "{ix,net,fac}/None".](https://github.com/peeringdb/peeringdb/issues/1863) | Fixes a bug where extra GETs were generated wasting resources.|
 
 
 ## Release 2.73.0
