@@ -61,9 +61,11 @@ The [release notes and schedule](release_notes/index.md) page lists upcoming rel
 
 ## Guides
 
+- [en] [PeeringDB information registration guide and facility presence for NNI's](guide/IX.br - Guide for registering information in PeeringDB-English-Version - 2023.pdf) - Julimar Lunguinho Mendes
 - [es] [Guía corta para uso de peeringdb.com](guide/guia_PeeringDB.pdf) - Fabián Mejía
-- [pt-BR] [Guia de cadastro de informações de ASNs no PeeringDB](guide/PeeringDB_Cadastro_de_ASN.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
-- [pt-BR] [Guia de cadastro de informações de Facilities no PeeringDB](guide/PeeringDB_Cadastro_de_Facilities.pdf) - Julimar Lunguinho Mendes / Equipe de Engenharia
+- [es] [Guía de registro de información en PeeringDB y presencia en facilities para NNI's](guide/IX.br - Guia para el registro de informacion en el PeeringDB-Version-Espanol - 2023.pdf) - Julimar Lunguinho Mendes
+- [pt-BR] [Guia de cadastro de Carrier no PeeringDB](guide/IX.br - Guia de cadastro de Carrier no PeeringDB-Versao-Portugues - 2025.pdf) - Julimar Lunguinho Mendes
+- [pt-BR] [Guia de cadastro de informações no PeeringDB e presença em facility para NNI's](guide/IX.br - Guia de cadastro de informacoes no PeeringDB-Versao-Portugues - 2023.pdf) - Julimar Lunguinho Mendes
 
 ## Tools
 
