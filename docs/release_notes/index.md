@@ -14,7 +14,6 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.74.0 | 2025-11-05 | 2025-11-12 | 2025-11-19 |
 | 2.75.0 | 2026-01-12 | 2026-01-19 | 2026-01-27 |
 | 2.76.0 | 2026-02-10 | 2026-02-17 | 2026-02-24 |
 | 2.77.0 | 2026-03-03 | 2026-03-10 | 2026-03-17 |
@@ -36,7 +35,6 @@ Release Date: 19 November 2025
 | [#1602 IX-F importer fails on nulled if_speed & pdb_facility_id properties in if_list entries.](https://github.com/peeringdb/peeringdb/issues/1602) | We now accept and ignore these values if they invalid.|
 | [#1607 net_count & ixf_net_count values are incorrect.](https://github.com/peeringdb/peeringdb/issues/1607) | Fixes a bug with count values.|
 | [#1863 HTTP GET for "{ix,net,fac}/#", for many #'s, is triggering an HTTP GET for "{ix,net,fac}/None".](https://github.com/peeringdb/peeringdb/issues/1863) | Fixes a bug where extra GETs were generated wasting resources.|
-
 
 ## Release 2.73.0
 
