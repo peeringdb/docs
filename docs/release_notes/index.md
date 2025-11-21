@@ -21,6 +21,15 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.79.0 | 2026-05-05 | 2026-05-12 | 2026-05-19 |
 | 2.80.0 | 2026-06-08 | 2026-06-15 | 2026-05-23 |
 
+## Release 2.74.1
+
+Release Date: 21 November 2025
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1868 intermittant 500 errors on large objects.](https://github.com/peeringdb/peeringdb/issues/1868) | Fixes an error that intermitently caused 500s errors when loading pages with large objects .|
+
+
 ## Release 2.74.0
 
 Beta Announcement Date: 12 November 2025
