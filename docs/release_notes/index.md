@@ -27,8 +27,7 @@ Release Date: 21 November 2025
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1868 intermittant 500 errors on large objects.](https://github.com/peeringdb/peeringdb/issues/1868) | Fixes an error that intermitently caused 500s errors when loading pages with large objects .|
-
+| [#1868 intermittant 500 errors on large objects.](https://github.com/peeringdb/peeringdb/issues/1868) | Fixes an error that intermitently caused 500s errors when loading pages with large objects.|
 
 ## Release 2.74.0
 
