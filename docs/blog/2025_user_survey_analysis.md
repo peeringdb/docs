@@ -1,4 +1,4 @@
-# What we learned from our 2025 user survey 
+# What we Learned From our 2025 User Survey 
 
 We ran a user survey again in 2025. We saw declining participation surveys between 2020 and 2022, so we paused while we made some changes. 
 
@@ -12,7 +12,7 @@ The degraded service was very important as the people who responded were overwhe
 
 And most of the users who responded have very few PeeringDB users in their organization: more than half have up to three and another third up to nine. This aligns with the preference for the web interface and lack of API and tools usage. 
 
-## Key Findings
+## Key findings
 
  * Almost two-thirds of respondents think that PeeringDB’s data quality has improved over the last two years. About one-in-six thinks it’s much better. 
  * Just under 10% of respondents have tried the new copy button to see example API queries. This aligns with the preference for using the website. API users commented that they wanted higher rate limits.
@@ -22,7 +22,7 @@ And most of the users who responded have very few PeeringDB users in their organ
  
  * Almost a fifth of respondents have downloaded [facility data as a .KMZ file](https://www.peeringdb.com/export/kmz/). A comment reported a failure getting the .KMZ into https://earth.google.com and [we investigated the report](https://github.com/peeringdb/peeringdb/issues/1860). 
 
-## Focusing Future Efforts
+## Focusing future efforts
 
 We asked about how we should focus our future efforts. The responses were highly divided with very little agreement on what needs improvement or what is a priority.
 
@@ -36,7 +36,7 @@ There was least satisfaction with system security, scalability and performance. 
 
 Dissatisfaction was fairly evenly spread across the other categories.
 
-## Next Steps
+## Next steps
 
 Decisions about how to improve PeeringDB are made by volunteer committees. They will analyze the survey responses and comments to work out the best path towards improved satisfaction. We’ll then focus on the improvements that will make our users’ lives easier.
 
