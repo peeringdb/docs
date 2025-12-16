@@ -28,13 +28,13 @@ Please use API Keys when automating queries to PeeringDB and set a User-Agent he
 
 We also encourage you to leave at least two seconds between queries.
 
-## Local cache
+## Local cache – `peeringdb-py`
 
-We encourage you to use a local cache and synchronize it every hour or less frequently in accordance with your organization's needs. When you use a local cache you will only be sent changes since the last sync.
+We encourage you to use a local cache, like `peeringdb-py`, and synchronize it every hour. Synchronizing every hour is the most efficienct and minimizes the chance that you'll hit query limits. This is because a local cache like `peeringdb-py` will only be sent changes since the last sync.
 
-We publish peeringdb-py, which can be used directly or as a reference implementation. [Code is here](https://github.com/peeringdb/peeringdb-py/) and [documentation is here](http://peeringdb.github.io/peeringdb-py/).
+`peeringdb-py`, can be used directly or as a reference implementation. [Code is here](https://github.com/peeringdb/peeringdb-py/) and [documentation is here](http://peeringdb.github.io/peeringdb-py/).
 
-Use of an API key with peeringdb-py is highly recommended.
+We highly recommend using an API key with `peeringdb-py`.
 
 If you want to implement a local cache using different tools and would like advice, we are happy to talk. Contact us at [support@peeringdb.com](mailto:support@peeringdb.com).
 
