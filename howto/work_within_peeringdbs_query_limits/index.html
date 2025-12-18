@@ -143,7 +143,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#local-cache" class="nav-link">Local cache</a>
+            <li class="nav-item" data-level="2"><a href="#local-cache-peeringdb-py" class="nav-link">Local cache – peeringdb-py</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -173,7 +173,7 @@
 <p>Query rate limit:</p>
 <ul>
 <li>Anonymous queries limited to 20/minute per IP address</li>
-<li>Authenticated queries limited to 40/minute per user or organization (when an organizational <a href="/howto/api_keys/">API key</a> is used)</li>
+<li>Authenticated queries limited to 40/minute per user or organization (when an organizational <a href="/howto/api_keys">API key</a> is used)</li>
 </ul>
 <h2 id="efficient-queries">Efficient queries</h2>
 <p>We encourage users to make fewer, larger queries instead of making many small queries.</p>
@@ -182,10 +182,10 @@
 <p>We encourage sending lists of up to 150 ASNs in a single query. We have a <a href="/howto/search">HOWTO article</a> describing the basics of using our API using popular command line tools such as curl, Python, and jq.</p>
 <p>Please use API Keys when automating queries to PeeringDB and set a User-Agent header that identifies the unique software you are using, rather than just a generic query library name.</p>
 <p>We also encourage you to leave at least two seconds between queries.</p>
-<h2 id="local-cache">Local cache</h2>
-<p>We encourage you to use a local cache and synchronize it every hour or less frequently in accordance with your organization's needs. When you use a local cache you will only be sent changes since the last sync.</p>
-<p>We publish peeringdb-py, which can be used directly or as a reference implementation. <a href="https://github.com/peeringdb/peeringdb-py/">Code is here</a> and <a href="http://peeringdb.github.io/peeringdb-py/">documentation is here</a>.</p>
-<p>Use of an API key with peeringdb-py is highly recommended.</p>
+<h2 id="local-cache-peeringdb-py">Local cache – <code>peeringdb-py</code></h2>
+<p>We encourage you to use local cache <code>peeringdb-py</code> and synchronize it at least once a day, possibly as frequently as once per hour. Please use a random time – <a href="https://peeringdb.github.io/peeringdb-py/cli/#sync">examples</a> – for each sync to avoid pulling from the servers at the same time as others. Synchronizing at least once a day minimizes the chance that you'll hit query limits. This is because <code>peeringdb-py</code> will only be sent changes since the last sync.</p>
+<p><code>peeringdb-py</code>, can be used directly or as a reference implementation. <a href="https://github.com/peeringdb/peeringdb-py/">Code is here</a>, <a href="http://peeringdb.github.io/peeringdb-py/">documentation is here</a>, and <a href="/howto/peeringdb-py">install HOWTO is here</a>.</p>
+<p>We highly recommend using an API key with <code>peeringdb-py</code>.</p>
 <p>If you want to implement a local cache using different tools and would like advice, we are happy to talk. Contact us at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <h2 id="tools">Tools</h2>
 <p>Popular tools, including <a href="https://github.com/pierky/arouteserver">arouteserver</a> have been updated to include support for API Keys and to make more efficient queries. <a href="/tools/">We publish</a> a list of tools that we know use PeeringDB. Check the list for tools that you use and upgrade old versions to take advantage of new features and improve everyone’s PeeringDB experience. </p>
