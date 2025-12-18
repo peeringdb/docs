@@ -2,7 +2,7 @@
 
 You can install `peeringdb-py` on a wide selection of operating systems. Users have installed it on several Linux distributions, macOS, and Windows Subsystem for Linux.
 
-It will give you a local version of PeeringDB’s SQL database. Unlike the PeeringDB API, the SQL data structure might change without notice. Please do not build tools that make SQL queries. We suggest using our library to make [API calls](https://docs.peeringdb.com/api_specs/) on your local cache. We maintain the library and commit to maintaining the API functionality, even if the underlying database structure changes.
+It will give you a local version of PeeringDB’s SQL database. Unlike the PeeringDB API, the SQL data structure might change without notice. Please do not build tools that make SQL queries. We suggest using our library to make [API calls](/api_specs/) on your local cache. We maintain the library and commit to maintaining the API functionality, even if the underlying database structure changes.
 
 Please let us know if you find a query that is only possible with SQL and not via the API. Either create an issue in [GitHub](https://github.com/peeringdb/peeringdb/issues), or send a mail describing the problems to [support@peeringdb.com](mailto:support@peeringdb.com).
 
@@ -10,7 +10,7 @@ Please let us know if you find a query that is only possible with SQL and not vi
 
 You only need a PeeringDB account if you want to synchronize the contact information to your peeringdb-py cache. If you want to synchronize the whole database, including the contact data, you will need an API Key.
 
-If you are installing peeringdb-py for organizational use you should use an organizational API Key. You can use an API Key tied to a user account for personal use. We have a [HOWTO guide for API Keys](/howto/api_keys/).
+If you are installing peeringdb-py for organizational use you should use an organizational API Key. You can use an API Key tied to a user account for personal use. We have a [HOWTO guide for API Keys](/howto/api_keys) and a [HOWTO guide for working with PeeringDB's query limits](/howto/work_within_peeringdbs_query_limits/#local-cache-peeringdb-py).
 
 ## Software requirements
 
