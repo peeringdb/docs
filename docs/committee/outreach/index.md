@@ -7,6 +7,10 @@
 
 ## Meeting notes
 
+#### 2026
+
+- [January 13, 2026: Meeting Notes](notes/2026-01-13_Outreach_Committee_Notes.pdf)
+
 #### 2025
 
 - [December 9, 2025: Meeting Notes](notes/2025-12-09_Outreach_Committee_Notes.pdf)
