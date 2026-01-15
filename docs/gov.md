@@ -9,7 +9,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 - [Organizational Consent (2015-12-08)](gov/legaldocs/2015-12-08_PeeringDB_Organizational_Consent.pdf)
 - [Certificate and Articles of Incorporation (2015-12-16)](gov/legaldocs/2015-12-16_PeeringDB_Certificate and Articles of Incorporation.pdf)
-- [Bylaws (2024-05-18)](gov/legaldocs/2024-05-18_PeeringDB_Bylaws.pdf)
+- [Bylaws (2026-01-14)](gov/legaldocs/2026-01-14_PeeringDB_Bylaws.pdf)
 
 ## Policies
 
