@@ -154,3 +154,7 @@ Release Date: 3 February, 2021
 | [#717 Loading time issue /cp facility view ](https://github.com/peeringdb/peeringdb/issues/717) | Fixed slow load or timeouts for loading data for some facilities |
 | [#837 Provide a friendlier explanation when entering / changing a phone number ](https://github.com/peeringdb/peeringdb/issues/837) | Provides a tooltip to help people enter E.164 formatted telephone numbers. |
 | [#541 When looking at a network record, show last updated ix<->net or fac<->net date ](https://github.com/peeringdb/peeringdb/issues/541) | Improved information about when records were last updated. |
+
+## Older releases
+
+* [2020 Release Notes](/release_notes/release_notes_2020/)

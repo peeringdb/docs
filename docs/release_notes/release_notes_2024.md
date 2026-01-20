@@ -227,3 +227,10 @@ Release Date: 24 January 2024
 | [#1468 translation refresh and dependency update](https://github.com/peeringdb/peeringdb/issues/1468) | As title.|
 | [#1466 Analysis: Investigate use of ECS/Fargate](https://github.com/peeringdb/peeringdb/issues/1466) | As title.|
 | [#1412 Improve performance by updating Python client code](https://github.com/peeringdb/peeringdb/issues/1412) | As title.|
+
+## Older releases
+
+* [2023 Release Notes](/release_notes/release_notes_2023/)
+* [2022 Release Notes](/release_notes/release_notes_2022/)
+* [2021 Release Notes](/release_notes/release_notes_2021/)
+* [2020 Release Notes](/release_notes/release_notes_2020/)
