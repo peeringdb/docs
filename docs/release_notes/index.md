@@ -14,17 +14,17 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.75.0 | 2026-01-12 | 2026-01-19 | 2026-01-27 |
-| 2.76.0 | 2026-02-10 | 2026-02-17 | 2026-02-24 |
-| 2.77.0 | 2026-03-03 | 2026-03-10 | 2026-03-17 |
-| 2.78.0 | 2026-04-13 | 2026-04-20 | 2026-04-28 |
-| 2.79.0 | 2026-05-05 | 2026-05-12 | 2026-05-19 |
-| 2.80.0 | 2026-06-08 | 2026-06-15 | 2026-05-23 |
+| 2.75.0 | 2026-01-12 | 2026-01-21 | 2026-01-28 |
+| 2.76.0 | 2026-02-10 | 2026-02-18 | 2026-02-25 |
+| 2.77.0 | 2026-03-03 | 2026-03-18 | 2026-03-25 |
+| 2.78.0 | 2026-04-13 | 2026-04-22 | 2026-04-29 |
+| 2.79.0 | 2026-05-05 | 2026-05-20 | 2026-05-27 |
+| 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-25 |
 
 ## Release 2.75.0
 
-Beta Announcement Date: 19 January 2026
-Release Date: 27 January 2026
+Beta Announcement Date: 21 January 2026
+Release Date: 28 January 2026
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
@@ -39,7 +39,7 @@ Release Date: 27 January 2026
 | [#1847 Carrier is missing numbers in overview if there is none .](https://github.com/peeringdb/peeringdb/issues/1847) | As title.|
 | [#1640 Add carrier_count to fac object.](https://github.com/peeringdb/peeringdb/issues/1640) | As title.|
 | [#1821 Remove default country setting from "Add Exchange" form.](https://github.com/peeringdb/peeringdb/issues/1821) | As title.|
-| [#1851 tutorial webserver is broken.](https://github.com/peeringdb/peeringdb/issues/1851) | Fixes forn remaining tutorial server issues.|
+| [#1851 tutorial webserver is broken.](https://github.com/peeringdb/peeringdb/issues/1851) | Fixes for remaining tutorial server issues.|
 
 
 ## Older releases
