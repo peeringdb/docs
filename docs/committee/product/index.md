@@ -9,6 +9,11 @@
 
 ## Meeting notes
 
+#### 2026
+
+- [January 15th, 2026: Meeting Notes](notes/2026-01-15_Product_Committee_Notes.pdf)
+
+
 #### 2025
 
 - [December 4th, 2025: Deferred Meeting Agenda](notes/2025-12-04_Product_Committee_Notes.pdf)
