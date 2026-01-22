@@ -14,7 +14,7 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.75.0 | 2026-01-12 | 2026-01-21 | 2026-01-28 |
+| 2.75.0 | 2026-01-12 | 2026-01-22 | 2026-01-28 |
 | 2.76.0 | 2026-02-10 | 2026-02-18 | 2026-02-25 |
 | 2.77.0 | 2026-03-03 | 2026-03-11 | 2026-03-18 |
 | 2.78.0 | 2026-04-13 | 2026-04-22 | 2026-04-29 |
@@ -23,7 +23,7 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.75.0
 
-Beta Announcement Date: 21 January 2026
+Beta Announcement Date: 22 January 2026
 Release Date: 28 January 2026
 
 | **GitHub issue** | **Summary** |
