@@ -151,6 +151,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#information-about-connected-networks" class="nav-link">Information about connected networks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#database-records-to-create" class="nav-link">Database records to create</a>
               <ul class="nav flex-column">
               </ul>
@@ -190,6 +194,7 @@
 <ul>
 <li>Company Name</li>
 <li>IPv4 and IPv6 Prefixes</li>
+<li>Three ASNs ready to peer at the exchange, not including IXP's route servers or own ASN</li>
 <li>Contact information</li>
 </ul>
 <p>This information is not required but is useful:</p>
@@ -199,6 +204,9 @@
 <li>Geographical information: city/country/continental region. That will help networks locate your exchange.</li>
 </ul>
 <p>Some exchanges share additional information. You can look at the information shared by other exchange operators to work out what your organization should be sharing.</p>
+<h2 id="information-about-connected-networks">Information about connected networks</h2>
+<p>You can provide information about the networks that will be peering at your exchange using the <a href="https://github.com/euro-ix/json-schemas">X-F Member Export JSON Schema</a>. We also <a href="https://docs.peeringdb.com/ix-f-json-import-rules/">support this format</a> as a way to automate updates about your exchange to PeeringDB.  </p>
+<p>Software for IXPs will generate this file for you but when you have just a few peering networks, you can create it in a text editor.</p>
 <h2 id="database-records-to-create">Database records to create</h2>
 <h3 id="user">User</h3>
 <p>The <code>org</code> is the parent for the IX but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.</p>
