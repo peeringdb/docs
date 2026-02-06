@@ -11,8 +11,8 @@
 
 #### 2026
 
-- [January 15th, 2026: Meeting Notes](notes/2026-01-15_Product_Committee_Notes.pdf)
 - [February 5th, 2026: Meeting Notes](notes/2026-02-05_Product_Committee_Notes.pdf)
+- [January 15th, 2026: Meeting Notes](notes/2026-01-15_Product_Committee_Notes.pdf)
 
 
 #### 2025
