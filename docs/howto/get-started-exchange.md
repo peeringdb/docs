@@ -22,6 +22,7 @@ You can create your entry with the minimum required data and add and update the 
 
 * Company Name
 * IPv4 and IPv6 Prefixes
+* Three ASNs ready to peer at the exchange, not including IXP's route servers or own ASN
 * Contact information
 
 This information is not required but is useful:
@@ -31,6 +32,12 @@ This information is not required but is useful:
 * Geographical information: city/country/continental region. That will help networks locate your exchange.
 
 Some exchanges share additional information. You can look at the information shared by other exchange operators to work out what your organization should be sharing.
+
+## Information about connected networks
+
+You can provide information about the networks that will be peering at your exchange using the [X-F Member Export JSON Schema](https://github.com/euro-ix/json-schemas). We also [support this format](https://docs.peeringdb.com/ix-f-json-import-rules/) as a way to automate updates about your exchange to PeeringDB.  
+
+Software for IXPs will generate this file for you but when you have just a few peering networks, you can create it in a text editor.
 
 ## Database records to create
 
