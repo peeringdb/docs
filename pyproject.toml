@@ -14,5 +14,5 @@ dependencies = [
     "markdown",
     "markdown-include>=0.5",
     # needs theme update for new mkdocs version
-    "mkdocs==1.5.3",
+    "mkdocs==1.4.2",
 ]
