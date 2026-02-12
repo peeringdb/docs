@@ -27,8 +27,8 @@ git clone git@github.com:$GITHUB_USERNAME/docs.git
 Install [MkDocs](http://www.mkdocs.org/) and other requirements
 ```sh
 cd ~/src/docs
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install --upgrade uv
 uv sync
 ```
@@ -36,7 +36,7 @@ uv sync
 Start mkdocs
 ```sh
 cd ~/src/docs
-source venv/bin/activate
+source .venv/bin/activate
 mkdocs serve
 ```
 
@@ -44,7 +44,7 @@ or, if you'd like to specify the port, use -a $ADDRESS:$PORT, for example:
 
 ```sh
 cd ~/src/docs
-source venv/bin/activate
+source .venv/bin/activate
 mkdocs serve -a 0.0.0.0:7889
 ```
 
@@ -68,8 +68,8 @@ git push
 If you want to be able to view your changes at `$GITHUB_USER.github.io/docs`, just run:
 ```sh
 cd ~/src/docs
-source venv/bin/activate
-mkdocs gh-deploy
+source .venv/bin/activate
+mkdocs gh-deploy --clean
 ```
 
 To get your changes pushed to the live site, just create a pull request, if you're unfamiliar with how to do that, GitHub has [documentation](https://help.github.com/articles/creating-a-pull-request/).
@@ -89,6 +89,6 @@ After that, to sync to the upstream repo and install requirements/updates
 cd ~/src/docs
 git fetch upstream
 git merge upstream/master
-source venv/bin/activate
+source .venv/bin/activate
 uv sync
 ```

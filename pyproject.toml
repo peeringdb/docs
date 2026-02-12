@@ -13,5 +13,6 @@ dependencies = [
     "jinja2>=3",
     "markdown",
     "markdown-include>=0.5",
-    "mkdocs>=1.6.1",
+    # needs theme update and warning fixes for newer mkdocs version, so locking at 1.4.3 for now:
+    "mkdocs==1.4.3",
 ]
