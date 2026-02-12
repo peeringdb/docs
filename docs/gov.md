@@ -94,7 +94,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Operations Committee
 
-- Board members Snijders (Chair) and Hughes.
+- Please see the [Operations Committee](/committee/operations/) page.
 
 ## Outreach Committee
 
