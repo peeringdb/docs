@@ -14,6 +14,7 @@ nav:
   - Committees & Task Forces:
     - Admin Committee: committee/admin/index.md
     - Outreach Committee: committee/outreach/index.md
+    - Operations Committee: committee/operations/index.md
     - Product Committee: committee/product/index.md
     - Data Ownership Task Force: taskforce/dataownership/index.md
   - Technical:
