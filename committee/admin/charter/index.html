@@ -12,17 +12,20 @@
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
         <link href="../../../extra.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script>
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', "G-14LRNCMV44");
+          gtag('config', 'G-14LRNCMV44');
         </script> 
     </head>
 
@@ -140,7 +143,7 @@
                     <div class="col-md-9" role="main">
 
 <h2 id="peeringdb-admin-committee-charter">PeeringDB Admin Committee Charter</h2>
-<p>*** Approved by Board July 9th, 2020 ***</p>
+<p><strong><em> Approved by Board July 9th, 2020 </em></strong></p>
 <h4 id="scope">Scope</h4>
 <p>The PeeringDB Admin Committee (AC) is responsible for the day to day end-user support of PeeringDB. The Admin Committee functions as the first point of contact for any inquiries to PeeringDB. The Admin Committee produces definitions for enhancements to the workflow and Admin GUI and works with the Product Committee to plan a coherent roadmap for the PeeringDB software.</p>
 <h4 id="out-of-scope">Out of scope</h4>
@@ -177,7 +180,7 @@
 <p>Admin Committee members will decide on their own when handling support tickets according to the Admin Committee BCP laid out in the Admin Committee How-To Folder. Otherwise, they will decide by simple majority vote on contested issues called by the Admin Committee Chair. If there is a tie the Chair's vote is counted double.</p>
 <h4 id="workflow">Workflow</h4>
 <p>Admincom uses <a href="https://peeringdb.deskpro.com/agent">DeskPRO</a> and <a href="https://github.com/peeringdb/admincom/issues">GitHub</a> as well as direct communication with the main service contractor <a href="https://20c.com/">20C</a> to achieve its deliverables. In communicating with 3rd parties the Admin Committee should be kept in the loop if the issue is of general interest.</p>
-<p>*** PeeringDB Common Committee Charter Provisions: ***</p>
+<p><strong><em> PeeringDB Common Committee Charter Provisions: </em></strong></p>
 <h4 id="dispute-resolution">Dispute resolution</h4>
 <p>If the committee handles an issue in a manner in which a user believes that their view has not been adequately considered, their first action should be to raise the concern with the Committee Chair for further consideration. If the dispute is between the user and the Committee Chair then the issue may alternatively be raised with the Committee Vice Chair. If the dispute cannot be resolved the matter may be brought forward to the PeeringDB Board.  The decision by the PeeringDB Board shall be final.</p>
 <h4 id="committee-chair-and-vice-chair">Committee Chair and Vice Chair</h4>
@@ -198,14 +201,12 @@
  </tr></table>
 
         </footer>
-        <script src="../../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../../js/bootstrap.min.js"></script>
         <script>
             var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../../js/base.js"></script>
-        <script src="../../../search/main.js"></script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
