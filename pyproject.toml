@@ -13,5 +13,6 @@ dependencies = [
     "jinja2>=3",
     "markdown",
     "markdown-include>=0.5",
-    "mkdocs>=1.6.1",
+    # needs theme update for new mkdocs version
+    "mkdocs==1.5.3",
 ]
