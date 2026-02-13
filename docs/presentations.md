@@ -2,6 +2,7 @@
 
 ## 2026
 
+- [Authenticating Networks With RPKI RSC](presentation/20260211_APRICOT2026_Arnold_Nipper.pdf) at [APRICOT 2026](https://2026.apricot.net/programme/programme#/day/8/), Jakarta, ID - February 11, 2025 - Yolandi Cloete and Arnold Nipper
 - [What's new on PeeringDB?](presentation/20260205_ANIX_Meeting_2026_Morina_Livio.pdf) at [ANIX Meeting 2026](https://anix2026.anix.al/), Tirana, AL - February 6, 2025 - Livio Morina
 
 ## 2025
