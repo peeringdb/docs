@@ -143,6 +143,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2760" class="nav-link">Release 2.76.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2750" class="nav-link">Release 2.75.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -160,7 +164,7 @@
 
 <h1 id="release-notes-and-schedule">Release Notes and Schedule</h1>
 <p>The release notes list the GitHub issues and a summary of what has changed in PeeringDB software releases.</p>
-<p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://www.facebook.com/peeringdb">Facebook</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://twitter.com/PeeringDB">X</a>.</p>
+<p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://www.facebook.com/peeringdb">Facebook</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://x.com/PeeringDB">X</a>.</p>
 <h2 id="release-schedule">Release schedule</h2>
 <p>This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.</p>
 <p>We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
@@ -175,12 +179,6 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>2.75.0</td>
-<td>2026-01-12</td>
-<td>2026-01-22</td>
-<td>2026-01-28</td>
-</tr>
 <tr>
 <td>2.76.0</td>
 <td>2026-02-10</td>
@@ -210,6 +208,83 @@
 <td>2026-06-08</td>
 <td>2026-06-17</td>
 <td>2026-06-24</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2760">Release 2.76.0</h2>
+<p>Beta Announcement Date: 18 February 2026<br />
+Release Date: 25 Februaryy 2026</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1849">#1849 Add rate limiting for unauthenticated web pages queries.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1846">#1846 Page load time dramatically goes up when limiting queries.</a></td>
+<td>Improves page load time for complex queries.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1844">#1844 Exclude AC members from rate limiting.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1814">#1814 Improve Passkey or Security Key login flow.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1889">#1889 Security key setup fails on some conditions.</a></td>
+<td>Fixes a bug where adding a security key before TOTP failed.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1830">#1830 Remove "Require users in your organization to enable 2FA." radio button from Org &gt; Users tab.</a></td>
+<td>Clean up web UI now MFA is mandatory.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1855">#1855 No way to check if an API key has been created read-only or not.</a></td>
+<td>Make API Key  permissions visible.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1870">#1870 Ctl/local/setup.sh: input data doesn't fit schema limits.</a></td>
+<td>Fixes bug that stopped installation of self-hosted instances.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb-py/issues/133">peeringdb-py #133 Field Mismatch Between Cache and Official API.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1876">#1876 UI Inconsistency in Filter Selection (ASN Connectivity Search).</a></td>
+<td>Web UI improvements for ASN Conectivity searches.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1862">#1862 Cannot upload .png logo.</a></td>
+<td>Fixes a bug for logos.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1834">#1834 Reverse action order for export interstitial and add color to button.</a></td>
+<td>Improve web UI grammar for action buttons.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1838">#1838 Affiliation requires ASN, but text on page suggests it isn't required.</a></td>
+<td>Fixes text to align with policy.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1779">#1779 New web UI is missing "Port Location" field under "Public Peering Exchange Points".</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1871">#1871 facmerge tool broken as of release 2.68.0.</a></td>
+<td>Fixes the facmerge tool.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1499">#1499 Stop Ticket Opening Post Object Creation (anti-automat).</a></td>
+<td>As title.</td>
 </tr>
 </tbody>
 </table>
@@ -257,7 +332,7 @@ Release Date: 28 January 2026</p>
 <td>As title.</td>
 </tr>
 <tr>
-<td><a href="https://github.com/peeringdb/peeringdb/issues/1847">#1847 Carrier is missing numbers in overview if there is none .</a></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1847">#1847 Carrier is missing numbers in overview if there is none.</a></td>
 <td>As title.</td>
 </tr>
 <tr>
