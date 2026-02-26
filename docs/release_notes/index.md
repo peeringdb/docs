@@ -27,7 +27,6 @@ Release Date: 25 February 2026
 | ----------------- | ----------- |
 | [#1905 Support 202601 Fixes.](https://github.com/peeringdb/peeringdb/pull/1905) | Fix issue where redis unavailable during negative cache checks could lead to cascading failures.|
 
-
 ## Release 2.76.0
 
 Beta Announcement Date: 18 February 2026
