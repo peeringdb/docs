@@ -14,11 +14,19 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.76.0 | 2026-02-10 | 2026-02-18 | 2026-02-25 |
 | 2.77.0 | 2026-03-03 | 2026-03-11 | 2026-03-18 |
 | 2.78.0 | 2026-04-13 | 2026-04-22 | 2026-04-29 |
 | 2.79.0 | 2026-05-05 | 2026-05-13 | 2026-05-20 |
 | 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
+
+## Release 2.76.1
+
+Release Date: 25 February 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1905 Support 202601 Fixes.](https://github.com/peeringdb/peeringdb/pull/1905) | Fix issue where redis unavailable during negative cache checks could lead to cascading failures.|
+
 
 ## Release 2.76.0
 
