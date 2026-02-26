@@ -1,4 +1,4 @@
-# Web rate limiting for unauthenticated users
+# Website Rate Limiting for Unauthenticated Users
 
 Unauthenticated website access is now rate limited. Logged in users aren't rate limited.
 
