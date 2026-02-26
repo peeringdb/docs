@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/web_rate_limiting/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Website Rate Limiting for Unauthenticated Users - PeeringDB Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-14LRNCMV44');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">About</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../gov/" class="nav-link">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../committee/admin/" class="dropdown-item">Admin Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/operations/" class="dropdown-item">Operations Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/outreach/" class="dropdown-item">Outreach Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/product/" class="dropdown-item">Product Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../release_notes/" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="../../api_specs/" class="dropdown-item">API Specs</a>
+</li>
+                                    
+<li>
+    <a href="../../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+</li>
+                                    
+<li>
+    <a href="../../oauth/" class="dropdown-item">OAuth</a>
+</li>
+                                    
+<li>
+    <a href="../../translation/" class="dropdown-item">Translations</a>
+</li>
+                                    
+<li>
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs" class="dropdown-item">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../howtos/" class="nav-link">HOWTOs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../blogs/" class="nav-link">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#website-rate-limiting-for-unauthenticated-users" class="nav-link">Website Rate Limiting for Unauthenticated Users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="website-rate-limiting-for-unauthenticated-users">Website Rate Limiting for Unauthenticated Users</h1>
+<p>Unauthenticated website access is now rate limited. Logged in users aren't rate limited.</p>
+<p><img alt="Rate limitging infographic" src="../images/rate_limiting_infographic.png" /></p>
+<p>API calls <a href="https://github.com/peeringdb/peeringdb/issues/853">have been rate limited</a> since 2022. We did this in combination with outreach to users to tackle broken and poorly designed scripts, and some abuse. We didn’t add rate limiting to the website for two reasons: human users can’t work fast enough to be a problem and most users get the answer to their query and move on.</p>
+<p>But the website suffered from an influx of automated scrapers in the second half of 2025. These users took a disproportionate amount of resources, impacting other users’ experience. We <a href="https://github.com/peeringdb/peeringdb/issues/1835">got requests</a> for infrastructure improvements.</p>
+<p>Introducing rate limiting for unauthenticated website users is one of several changes we are making to improve overall performance.</p>
+<p>The first was to complete the move to containers, allowing us to scale horizontally much more quickly when we need to. This configuration change is another. We’ll also be serving PeeringDB from <a href="https://github.com/peeringdb/peeringdb/issues/1865">additional locations</a>.</p>
+<p>We now rate limit unauthenticated web users to 120 requests per minute per IP address. We’ll review and update this limit based on experience.</p>
+<p>We are making these changes to improve service reliability. But we also offer a local cache you can sync with PeeringDB and query locally. Using <a href="https://docs.peeringdb.com/howto/peeringdb-py/"><code>peeringdb-py</code></a> or an equivalent local cache will always give you the fastest response because it’s running where you are.</p>
+<p>The improvements we make are only as good as the requests we get from you. We want to make sure that we understand what you need and why. If you have an idea to improve PeeringDB you can share it on our low traffic <a href="/#mailing-lists">mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<hr />
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg' alt='PeeringDB Logo'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png' alt='Facebook Logo'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png' alt='GitHub Logo'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png' alt='LinkedIn Logo'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-x.png' alt='X Logo'></a>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png' alt='YouTube Logo'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
