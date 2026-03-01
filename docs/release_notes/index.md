@@ -19,6 +19,14 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.79.0 | 2026-05-05 | 2026-05-13 | 2026-05-20 |
 | 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
 
+## Release 2.76.3
+
+Release Date: 28 February 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1910 OAuth broken with (at least) U2F 2FA keys.](https://github.com/peeringdb/peeringdb/pull/1910) | As title.|
+
 ## Release 2.76.2
 
 Release Date: 26 February 2026
