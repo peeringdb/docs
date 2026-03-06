@@ -40,7 +40,13 @@ Some networks share additional information. You can look at the information shar
 Some objects have a notes field to share additional information. You can use [Markdown](https://daringfireball.net/projects/markdown/) formatting for the notes to make them more readable.
 
 ### User
-The `org` is the parent for the network but you will need to start the process by creating a user account. We recommend that you use an e-mail address that exists in the publicly available contact information for the network’s ASN so that we can automatically validate your affiliation with the network. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
+The `org` is the parent for the network but you will need to start the process by creating a user account. We recommend that you use an e-mail address that exists in the publicly available contact information for the network’s ASN so that we can automatically validate your affiliation with the network.
+
+Once created, you will login using your username, password, and second factor.
+
+You can associate more than one address with your account when you've created it.
+
+If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
 ### Org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.

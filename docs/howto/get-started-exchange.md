@@ -42,7 +42,13 @@ Software for IXPs will generate this file for you but when you have just a few p
 ## Database records to create
 
 ### User
-The `org` is the parent for the IX but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
+The `org` is the parent for the IX but you will need to start the process by creating a user account. 
+
+Once created, you will login using your username, password, and second factor.
+
+You can associate more than one address with your account when you've created it.
+
+If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
 ### Org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
