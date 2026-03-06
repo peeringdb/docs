@@ -38,7 +38,13 @@ You can look at the information shared by other PeeringDB users to work out what
 
 ### User
 
-The `org` is the parent for the carrier but you will need to start the process by creating a user account. If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
+The `org` is the parent for the carrier but you will need to start the process by creating a user account. 
+
+Once created, you will login using your username, password, and second factor.
+
+You can associate more than one address with your account when you've created it.
+
+If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
 ### Org
 
