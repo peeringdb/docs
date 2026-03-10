@@ -19,6 +19,32 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.79.0 | 2026-05-05 | 2026-05-13 | 2026-05-20 |
 | 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
 
+## Release 2.77.0
+
+Beta Announcement Date: 11 March 2026
+Release Date: 18 March 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1390 Use RPKI to verify Networks and IXPs during sign-up.](https://github.com/peeringdb/peeringdb/issues/1390) | Implemenmt support for RFC 9323 based checks.|
+| [#1920 Search not showing current results.](https://github.com/peeringdb/peeringdb/issues/1920) | Fixes bug as per title.|
+| [#1805 SLIs for PeeringDB load time.](https://github.com/peeringdb/peeringdb/issues/1805) | Add measures for user experience of www.peeringdb.com.|
+| [#1437 Investigate performance tuning opportunities.](https://github.com/peeringdb/peeringdb/issues/1437) | As title.|
+| [#1884 Adding manholes as facilities.](https://github.com/peeringdb/peeringdb/issues/1884) | Facilities can now indicate when they do not provide power.|
+| [#1873 ASN Comparison - allow users to paste in a comma separated list of ASNs to check.](https://github.com/peeringdb/peeringdb/issues/1873) | As title.|
+| [#1872 ASN Comparison - intermittent failure.](https://github.com/peeringdb/peeringdb/issues/1872) | Fixes bug as per title.|
+| [#1912 Logging in with a 2FA backup code still require a U2F tap (making them useless).](https://github.com/peeringdb/peeringdb/issues/1912) | Fixes bug as per title.|
+| [#1874 Populate Port Location using information from the IX-F import.](https://github.com/peeringdb/peeringdb/issues/1874) | As title.|
+| [#1878 Errors and warnings with api-schema.](https://github.com/peeringdb/peeringdb/issues/1878) | Fix schema to avoid errors.|
+| [peeringdb-py #128 django-countries dependency missing.](https://github.com/peeringdb/peeringdb-py/issues/128) | As title.|
+| [peeringdb-py #129 auto_pdb_load_data.sh fails with MySQL Error Data too long for column 'logo'.](https://github.com/peeringdb/peeringdb-py/issues/129) | As title.|
+| [#1918 Double // cause multiple issues with integrations and peeringdb-py.](https://github.com/peeringdb/peeringdb/issues/1918) | Fixes bug as per title.|
+| [peeringdb-py #134 peeringdb.client.Client constructor type is too strict.](https://github.com/peeringdb/peeringdb-py/issues/134) | Fixes bug as per title.|
+| [peeringdb-py #91 Investigate odd missing relationships during initial syncs.](https://github.com/peeringdb/peeringdb-py/issues/91) | Fixes bug as per title.|
+| [#1891 Broken AS-SET checking.](https://github.com/peeringdb/peeringdb/issues/1891) | Fixes bug as per title.|
+| [#1886 Drop down button incorrectly placed out of page.](https://github.com/peeringdb/peeringdb/issues/1886) | Fixes bug as per title.|
+| [#1877 Auto undelete network.](https://github.com/peeringdb/peeringdb/issues/1877) | Automatically undelete networks when an ASN is reassigned and passes the normal checks. This was previously done manually.|
+
 ## Release 2.76.3
 
 Release Date: 28 February 2026
