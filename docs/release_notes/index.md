@@ -26,7 +26,6 @@ Release Date: 18 March 2026
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1390 Use RPKI to verify Networks and IXPs during sign-up.](https://github.com/peeringdb/peeringdb/issues/1390) | Implement support for RFC 9323 based checks.|
 | [#1920 Search not showing current results.](https://github.com/peeringdb/peeringdb/issues/1920) | Fixes bug as per title.|
 | [#1805 SLIs for PeeringDB load time.](https://github.com/peeringdb/peeringdb/issues/1805) | Add measures for user experience of www.peeringdb.com.|
 | [#1437 Investigate performance tuning opportunities.](https://github.com/peeringdb/peeringdb/issues/1437) | As title.|
