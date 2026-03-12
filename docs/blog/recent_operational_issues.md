@@ -1,6 +1,6 @@
 # Recent Operational Issues
 
-We had some operational issues following the production deployment of [2.76.0](https://docs.peeringdb.com/release_notes/#release-2760). We have a full [root cause analysis](rca-2.76.md) available but we also want to provide a summary and confirm that the issues are resolved.
+We had some operational issues following the production deployment of [2.76.0](/release_notes/#release-2760). We have a full [root cause analysis](/blog/rca-2.76/) available but we also want to provide a summary and confirm that the issues are resolved.
 
 We completed our transition from VMs to Kubernetes with 2.76.0. As with any major infrastructure migration, we hit a few hiccups along the way — some interactions between the old storage layer and the new environment caused a brief service disruption. We've published a full root cause analysis for those interested in the technical details, but the short version is: we identified and resolved the issues quickly, and PeeringDB is running more reliably than ever on the new platform.
 
