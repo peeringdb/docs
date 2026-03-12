@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/rca-2.76/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>PeeringDB Root Cause Analyses for Release 2.67 - PeeringDB Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../extra.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-14LRNCMV44');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">PeeringDB Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">About</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../gov/" class="nav-link">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../committee/admin/" class="dropdown-item">Admin Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/operations/" class="dropdown-item">Operations Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/outreach/" class="dropdown-item">Outreach Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../committee/product/" class="dropdown-item">Product Committee</a>
+</li>
+                                    
+<li>
+    <a href="../../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../release_notes/" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="../../api_specs/" class="dropdown-item">API Specs</a>
+</li>
+                                    
+<li>
+    <a href="../../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+</li>
+                                    
+<li>
+    <a href="../../oauth/" class="dropdown-item">OAuth</a>
+</li>
+                                    
+<li>
+    <a href="../../translation/" class="dropdown-item">Translations</a>
+</li>
+                                    
+<li>
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs" class="dropdown-item">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../howtos/" class="nav-link">HOWTOs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../blogs/" class="nav-link">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#peeringdb-root-cause-analyses-for-release-267" class="nav-link">PeeringDB Root Cause Analyses for Release 2.67</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#2671-production-outage-2026-02-25" class="nav-link">2.67.1 — Production outage (2026-02-25)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2762-oom-crash-loop-and-rate-limiting-2026-02-26" class="nav-link">2.76.2 — OOM crash loop and rate limiting (2026-02-26)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2763-third-party-library-relink-2026-02-28" class="nav-link">2.76.3 — Third-party library relink (2026-02-28)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2764-outbound-email-failure-2026-03-02" class="nav-link">2.76.4 — Outbound email failure (2026-03-02)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="peeringdb-root-cause-analyses-for-release-267">PeeringDB Root Cause Analyses for Release 2.67</h1>
+<hr />
+<h2 id="2671-production-outage-2026-02-25">2.67.1 — Production outage (2026-02-25)</h2>
+<p><strong>Impact:</strong> PeeringDB pods entered crash loop, causing service degradation for ~20 minutes.</p>
+<p><strong>Timeline:</strong></p>
+<ul>
+<li>Karpenter initiated node consolidation and forcefully evicted redis-0 (the Redis Sentinel master).</li>
+<li>redis-0's EBS volume hit a multi-attach error — EBS is single-attach, so the volume couldn't mount on the new node while still attached to the old one.</li>
+<li>redis-0 was down for ~13 minutes waiting for the volume to detach and reattach.</li>
+<li>During this window, Sentinel on redis-1/redis-2 could not resolve redis-0's DNS, and failover did not complete cleanly.</li>
+<li>PeeringDB pods lost Redis connectivity, causing <code>RedisNegativeCacheMiddleware</code> to generate unhandled exceptions.</li>
+<li>Because <code>RedisNegativeCacheMiddleware</code> runs before <code>PDBSessionMiddleware</code> in the middleware stack, the session was never initialized on the request.</li>
+<li>Django's <code>CsrfViewMiddleware</code> (with <code>CSRF_USE_SESSIONS=True</code>) then failed with <code>ImproperlyConfigured: request.session is not set</code>.</li>
+<li>This caused <code>/healthcheck</code> to return HTTP 500, failing all liveness and readiness probes.</li>
+<li>Kubernetes restarted pods, creating a cascading restart loop.</li>
+</ul>
+<p><strong>Root causes:</strong></p>
+<ol>
+<li><strong>EBS storage for Redis:</strong> Single-attach volumes cause long rescheduling delays during node consolidation.</li>
+<li><strong>Middleware ordering:</strong> <code>RedisNegativeCacheMiddleware</code> ran before <code>PDBSessionMiddleware</code>, so a Redis failure prevented session initialization, which cascaded into CSRF failures on every request including healthchecks.</li>
+</ol>
+<p><strong>Fixes:</strong></p>
+<ol>
+<li><strong>App fix (<a href="https://github.com/peeringdb/peeringdb/pull/1905">PR #1905</a>):</strong> Reorders middleware so session middleware runs before the Redis-dependent negative cache middleware; adds try/except around Redis cache calls; adds <code>DJANGO_REDIS_IGNORE_EXCEPTIONS</code> setting.</li>
+<li><strong>Infra fix (planned):</strong> Switch Redis storage from EBS to EFS (multi-attach, no AZ lock) to eliminate volume rescheduling delays.</li>
+</ol>
+<hr />
+<h2 id="2762-oom-crash-loop-and-rate-limiting-2026-02-26">2.76.2 — OOM crash loop and rate limiting (2026-02-26)</h2>
+<p><strong>Impact:</strong> Pods entered OOM crash loop due to two concurrent issues compounding each other.</p>
+<p><strong>Root causes:</strong></p>
+<ol>
+<li><strong>Bot scan traffic spike:</strong> A surge of bot scans drove memory usage high enough to trigger OOM kills on web pods.</li>
+<li><strong>Healthcheck rate limiting:</strong> Healthcheck requests were being counted against the web page rate limiter. Under normal conditions this was invisible, but combined with the OOM-induced pod restarts, pods couldn't pass healthchecks fast enough to stabilize — creating a crash cycle.</li>
+<li><strong>OAuth OIDC key permissions:</strong> Separately, after the OIDC signing key was moved to a Kubernetes secret, file permissions were incorrect, breaking OAuth authentication.</li>
+</ol>
+<p><strong>Fixes:</strong></p>
+<ol>
+<li><strong>Rate limiter fix (<a href="https://github.com/peeringdb/peeringdb/pull/1909">PR #1909</a>):</strong> Exempt healthcheck endpoints from web page rate limiting.</li>
+<li><strong>OIDC fix:</strong> Corrected permissions on the OIDC key within the Kubernetes secret mount.</li>
+</ol>
+<hr />
+<h2 id="2763-third-party-library-relink-2026-02-28">2.76.3 — Third-party library relink (2026-02-28)</h2>
+<p><strong>Impact:</strong> None. Unrelated to the release itself.</p>
+<p><strong>Root cause:</strong> A third-party library dependency needed to be relinked.</p>
+<p><strong>Fix:</strong> Relinked the library. No functional changes.</p>
+<hr />
+<h2 id="2764-outbound-email-failure-2026-03-02">2.76.4 — Outbound email failure (2026-03-02)</h2>
+<p><strong>Impact:</strong> Email sending was broken following the migration from local postfix relays to external SMTP.</p>
+<p><strong>Root cause:</strong> Sent emails included an erroneous <code>Return-Path: &lt;&gt;</code> header that the external SMTP provider rejected or mishandled. This header was a leftover from the local postfix relay configuration where it was either ignored or handled differently.</p>
+<p><strong>Fix:</strong> Removed the erroneous <code>Return-Path: &lt;&gt;</code> header from outbound emails.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg' alt='PeeringDB Logo'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png' alt='Facebook Logo'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png' alt='GitHub Logo'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png' alt='LinkedIn Logo'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-x.png' alt='X Logo'></a>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png' alt='YouTube Logo'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
