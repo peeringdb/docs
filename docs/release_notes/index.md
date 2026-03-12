@@ -44,6 +44,15 @@ Release Date: 18 March 2026
 | [#1886 Drop down button incorrectly placed out of page.](https://github.com/peeringdb/peeringdb/issues/1886) | Fixes bug as per title.|
 | [#1877 Auto undelete network.](https://github.com/peeringdb/peeringdb/issues/1877) | Automatically undelete networks when an ASN is reassigned and passes the normal checks. This was previously done manually.|
 
+## Release 2.76.4
+
+Release Date: 2 March 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1916 remove empty return-path header.](https://github.com/peeringdb/peeringdb/pull/1916) | Removed the erroneous `Return-Path: <>` header from outbound emails.|
+
+
 ## Release 2.76.3
 
 Release Date: 28 February 2026
