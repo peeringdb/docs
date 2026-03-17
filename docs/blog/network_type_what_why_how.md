@@ -6,9 +6,9 @@ When you add a network to PeeringDB you can choose to describe it with one or mo
 
 # The intention?
 
-It’s a way to hint at the value of interconnection with a network. For instance, a network describing itself as “Cable/DSL/ISP” is likely to have many subscribers who want access to streaming content. Similarly, an exchange might want to clearly distinguish its route server networks from any other networks it runs.
+It’s a way to hint at the value of interconnection with a network. For instance, a network describing itself as “Cable/DSL/ISP” is likely to have many subscribers who want access to streaming content. Similarly, an internet exchange might want to clearly distinguish its route server networks from any other networks it runs.
 
-The network type was a part of our first API and was imported into the [current API](https://docs.peeringdb.com/api_specs/) when we transitioned. Since then, we’ve added extra types, like [government](https://github.com/peeringdb/peeringdb/issues/381) and [network services](https://github.com/peeringdb/peeringdb/issues/463). But growing the list is only useful if the information is reliable and actually used.
+The network type was a part of our first API and was imported into the [current API](/api_specs/) when we transitioned. Since then, we’ve added extra types, like [government](https://github.com/peeringdb/peeringdb/issues/381) and [network services](https://github.com/peeringdb/peeringdb/issues/463). But growing the list is only useful if the information is reliable and actually used.
 
 # Used in peering decisions?
 
@@ -18,7 +18,7 @@ But when we asked users they told us that they found it useful and considered it
 
 # Reliable data?
 
-We haven’t commissioned research into the accuracy of the data. When you use it you should consider two things: it is self declared and rarely updated. It could be that it’s rarely updated because networks don’t add new services that could be added in the multi-selector. And it’s also possible that they just set and forget.
+We haven’t commissioned research into the accuracy of the data. When you use it you should consider two things: it is self-declared and might be rarely updated. It could be that it’s rarely updated because networks don’t add new services that could be added in the multi-selector. And it’s also possible that it was just set and forgotten.
 
 # The future
 

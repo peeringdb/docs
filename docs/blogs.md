@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [Network Type: What's it for? How to use it?](blog/network_type_what_why_how.md) - March 17, 2026
 - [Recent Operational Issues](blog/recent_operational_issues.md) - March 12, 2026
 - [Website Rate Limiting for Unauthenticated Users](blog/web_rate_limiting.md) - February 25, 2026
 - [Actively Learning and Testing with Our Tutorial Server](blog/tutorial_server.md) - February 3, 2026
