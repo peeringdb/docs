@@ -24,7 +24,7 @@ But we haven’t normalized in every country. We know that internal subdivisions
 
 One example is Germany. We’ve not forced the names of internal subdivisions, which leads to some inconsistencies. Do these matter?
 
-![Hessen is not always included with addresses in Frankfurt](images/Cogent_in_Frankfurt.png) ![Hessen is sometimes included with addresses in Frankfurt](images/Digital_Realty_in_Frankfurt.png)
+![Hessen is not always included with addresses in Frankfurt](images/Colo_Centere_in_Frankfurt.png) ![Hessen is sometimes included with addresses in Frankfurt](images/Digital_Realty_in_Frankfurt.png)
 
 And are there other aspects of data quality that are important to PeeringDB users? Please let us know.
 
