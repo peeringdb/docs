@@ -3,6 +3,8 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [Engaging with the Product Committee](blog/engaging_with_the_product_committee.md) - March 19, 2026
+- [Data Quality and Location Data Normalization](blog/data_quality_location_data_normalization.md) - March 18, 2026
 - [Network Type: What's it for? How to use it?](blog/network_type_what_why_how.md) - March 17, 2026
 - [Recent Operational Issues](blog/recent_operational_issues.md) - March 12, 2026
 - [Website Rate Limiting for Unauthenticated Users](blog/web_rate_limiting.md) - February 25, 2026
