@@ -1,4 +1,5 @@
 # More Details on Facilities
+*September 21, 2021*
 
 We’ve been working hard on improving search this year. In release 2.30.0 we have an improvement that will help data centers and their users. Organizations running facilities can now share information about ownership status, power availability, diversity and resilience. These can all be used as filters in the [advanced search page](https://www.peeringdb.com/advanced_search). You will need to be logged in to take advantage of these features.
 

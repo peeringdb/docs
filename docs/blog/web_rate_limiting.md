@@ -1,4 +1,5 @@
 # Website Rate Limiting for Unauthenticated Users
+*February 25, 2026*
 
 Unauthenticated website access is now rate limited. Logged in users aren't rate limited.
 

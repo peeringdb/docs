@@ -1,4 +1,6 @@
 # Automating Configuration - Why We Support the IX-F Member Export Schema
+*August 18, 2021*
+
 We just released 2.29.0-beta and three of the improvements relate to our support for the [IX-F Member Export Schema](https://github.com/euro-ix/json-schemas). The last year has seen half a dozen releases with changes to better support it. But why should PeeringDB support this API? Why should exchanges use it? And how can networks benefit from it?
 
 It is an agreed standard for which allows IXPs to make their member lists available for automatic consumption by tools like PeeringDB. Exchanges can publish important technical information about their participating networks, including their AS Number and IP address information.

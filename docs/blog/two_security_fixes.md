@@ -1,4 +1,5 @@
 # Two Security Fixes
+*November 20, 2024*
 
 Our [November release](/release_notes/#release-2630) includes fixes for two security issues.
 

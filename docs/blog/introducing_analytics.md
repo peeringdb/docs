@@ -1,4 +1,5 @@
 # Introducing Analytics
+*November 3, 2022*
 
 Until now, we have not had any analytics about PeeringDB usage. This is a problem. It means we can't make informed decisions that will help us deliver a better service to users.
 

@@ -1,4 +1,5 @@
 # PeeringDB Whois Service to Close
+*November 3, 2023*
 
 We will close down the `whois.peeringdb.com` service at the end of January 2024.
 

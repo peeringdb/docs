@@ -1,4 +1,5 @@
 # Recent Operational Issues
+*March 12, 2026*
 
 We had some operational issues following the production deployment of [2.76.0](/release_notes/#release-2760). We have a full [root cause analysis](/blog/rca-2.76/) available but we also want to provide a summary and confirm that the issues are resolved.
 

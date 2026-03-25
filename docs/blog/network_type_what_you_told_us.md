@@ -1,4 +1,5 @@
 # Network Type – What did you tell us?
+*July 12, 2023*
 
 [We invited](https://docs.peeringdb.com/blog/network_type_your_input_sought/) PeeringDB users to tell us what they thought about the Network Type setting. This is the setting that describes your network to other PeeringDB users.
 

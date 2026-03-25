@@ -1,4 +1,5 @@
 # Guidelines for Registering in PeeringDB
+*October 21, 2021*
 
 About one third of ASNs are now registered in PeeringDB. While that’s a success it comes with a responsibility to enhance transparency over what is required when registering a network, IXP, or facility in the database.
 !["Registation Neon Signage" Photo by Phil Desforges on Unsplash](images/phil-desforges-registration-neon-signage-unsplash.jpg)

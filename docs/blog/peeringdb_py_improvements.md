@@ -1,4 +1,5 @@
 # Improvements for peeringdb-py
+*February 28, 2025*
 
 We just made installing `peeringdb-py` easier and updated [our documentation](/howto/peeringdb-py/). Now, you can install it with a single command and you can query it using our API.
 

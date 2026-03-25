@@ -1,4 +1,5 @@
 # Network Type: What's it for? How to use it?
+*March 17, 2026*
 
 When you add a network to PeeringDB you can choose to describe it with one or more human readable types selected from a list.  
 

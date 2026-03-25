@@ -1,4 +1,5 @@
 # PeeringDB Release v2.23.0
+*October 7, 2020*
 
 PeeringDB is pleased to announce the release of v2.23.0. Summary release notes are published on the [release notes page](https://docs.peeringdb.com/release_notes/).
 ![Man listening to a paper cup phone](images/listening_to_paper_cup_phone.jpg)

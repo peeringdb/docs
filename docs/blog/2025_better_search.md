@@ -1,4 +1,5 @@
 # 2025 Starts With Better Search
+*January 22, 2025*
 
 We’ve made some improvements to search. Both the results returned and the way they are presented are better. Now, you can have results presented in a simple list or in categories, as before.
 

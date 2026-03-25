@@ -1,4 +1,5 @@
 # Your Logo Goes Here!
+*October 12, 2021*
 
 We’ve just deployed 2.31.0-beta and it’s an opportunity to test out how your logo will look alongside your organization’s name. 
 

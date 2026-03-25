@@ -1,4 +1,5 @@
 # PeeringDB 2022 User Survey
+*September 14, 2022*
 
 PeeringDB wants input from everyone who uses our interconnection database. Our [anonymous survey](https://surveyhero.com/c/pdb22blog) is now open until 23:59 UTC on 16 October 2022. We would like your feedback to help us make PeeringDB more useful to everyone involved in connecting networks.
 

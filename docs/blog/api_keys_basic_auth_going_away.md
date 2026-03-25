@@ -1,4 +1,5 @@
 # API Keys: Basic Authentication is Going Away
+*December 5, 2024*
 
 If you authenticate when you query the PeeringDB API you'll soon need to use API Keys: we’re deprecating basic auth (username/password) for API calls. We expect to implement this change within six months.
 

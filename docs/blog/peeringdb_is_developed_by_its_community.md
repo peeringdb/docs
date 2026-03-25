@@ -1,4 +1,6 @@
 # PeeringDB is Developed by its Community
+*January 17, 2022*
+
 PeeringDB community members have contributed two significant improvements that were deployed into production this month.
 ![Lagos Techie on Unsplash](images/lagos_techie_on_unsplash.jpeg)
 ## Simple Search is Smarter Search

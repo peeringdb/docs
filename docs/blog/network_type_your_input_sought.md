@@ -1,4 +1,5 @@
 # Network Type – Your Input Sought
+*June 3, 2023*
 
 You can select from 10 options to describe your network in PeeringDB. We want to know if these options are useful. If we need to improve this part of PeeringDB, [how should we improve it](https://forms.gle/yU53MyDUpvaUkMjR8)?
 

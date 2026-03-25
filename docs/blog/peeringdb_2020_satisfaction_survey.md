@@ -1,4 +1,6 @@
 # PeeringDB 2020 Satisfaction Survey
+*November 2, 2020*
+
 PeeringDB wants input from network operators, exchange operators, facility providers, content distributors and anyone who uses our interconnection database. We are running [an anonymous satisfaction survey](https://surveyhero.com/c/f7be5236) until 23:59 UTC on 20 November 2020 and would like your feedback to help us make PeeringDB more useful to everyone involved in connecting networks.
 ![[Awesome Arrows by Jon Tyson on Unsplash]](images/awesome_arrows_sign_banner-555x202.png)
 We haven’t had the diversity of input we’d like in previous surveys, so we are making an extra effort to reach parts of the community who weren’t aware of our previous surveys. We're telling you here and we are teaming up with partners around the world to get the message out.
