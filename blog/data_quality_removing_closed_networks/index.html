@@ -147,6 +147,7 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="data-quality-removing-closed-networks">Data Quality — Removing Closed Networks</h1>
+<p><em>September 7, 2024</em></p>
 <p>We added an "RIR Status" field in the data returned for networks a few months ago. The "ok" status lets you know that the ASN was assigned by an RIR or NIR. The "RIR Status Updated" field lets you know when we last checked.</p>
 <p><img alt="RIR Status" src="../images/rir_status.png" /></p>
 <p>We use these fields to enable automation. In September we’ll remove about 400 networks that have been returned to the RIR. We check the status of the network every day and will only flag it for deletion if the status was “not assigned” for three months. This automation runs every month.</p>

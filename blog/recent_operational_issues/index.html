@@ -147,6 +147,7 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="recent-operational-issues">Recent Operational Issues</h1>
+<p><em>March 12, 2026</em></p>
 <p>We had some operational issues following the production deployment of <a href="/release_notes/#release-2760">2.76.0</a>. We have a full <a href="/blog/rca-2.76/">root cause analysis</a> available but we also want to provide a summary and confirm that the issues are resolved.</p>
 <p>We completed our transition from VMs to Kubernetes with 2.76.0. As with any major infrastructure migration, we hit a few hiccups along the way — some interactions between the old storage layer and the new environment caused a brief service disruption. We've published a full root cause analysis for those interested in the technical details, but the short version is: we identified and resolved the issues quickly, and PeeringDB is running more reliably than ever on the new platform.</p>
 <p>We also introduced rate limiting for unauthenticated web users in the same release. Automated scrapers started testing our new rate limiting shortly after release. We’ve refined the rate limiting and ensured that web browsers can cache more web page elements, reducing the scope of their requests.</p>
