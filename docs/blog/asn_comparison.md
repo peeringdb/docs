@@ -1,4 +1,5 @@
 # Comparing Networks on PeeringDB’s Website
+*August 4, 2025*
 
 We have just launched the initial version of a new feature that will allow users to compare facilities on our website. This feature was suggested by users and gives website users the same capabilities that API users have had since PeeringDB v2 launched in 2016.
 

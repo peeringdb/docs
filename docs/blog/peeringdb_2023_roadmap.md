@@ -1,4 +1,5 @@
 # PeeringDB's Product Roadmap for 2023
+*February 6, 2023*
 
 We want to build more agility into our Product Management process in 2023. This blog post describes what we have planned for the start of the year. It also describes how we want to work over the whole year, and how you can help us make good choices.
 

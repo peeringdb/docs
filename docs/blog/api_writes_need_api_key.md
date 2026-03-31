@@ -1,4 +1,5 @@
 # API Writes now Need an API Key
+*September 25, 2022*
 
 You now need to use an API key if you want to update PeeringDB using the API. PeeringDB will continue to support HTTP Basic Authentication (HBA) for queries with the existing API, but transitioning to an API key is strongly recommended for users and organizations who have not already done so, since it is a more secure operational practice.
 

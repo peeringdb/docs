@@ -1,4 +1,5 @@
 # PeeringDB Release v2.24.0
+*November 12, 2020*
 
 PeeringDB is pleased to announce the release of v2.24.0.  Summary release notes are published on the [release notes page](https://docs.peeringdb.com/release_notes/). This release focuses on improving data quality in the database by improving the way networks can identify themselves and making the user interface clearer where people misunderstood what was meant.
 ![Finding organization types](images/dmitry-ratushny-sight-unsplash.jpg)

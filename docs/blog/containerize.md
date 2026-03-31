@@ -1,4 +1,5 @@
 # Containerized Deployment
+*July 12, 2024*
 
 We deployed [beta.peeringdb.com](https://beta.peeringdb.com) on a container based platform in [release 2.59.0](/release_notes/#release-2590). We'll be starting integration on [www.peeringdb.com](https://www.peeringdb.com) in the 2.60 release.
 

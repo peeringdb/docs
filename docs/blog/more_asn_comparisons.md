@@ -1,4 +1,5 @@
 # More ASN Comparisons
+*November 12, 2025*
 
 We have improved the [ASN Comparison](https://www.peeringdb.com/advanced_search#asn_connectivity) feature. 
 ![Now with country, filters, and exchanges](images/improved_asn_comparison.png)

@@ -1,4 +1,5 @@
 # Do You Want Your Configuration Management System to Update PeeringDB?
+*February 23, 2023*
 
 The theme for NANOG 87's Hackathon was interacting with sources of truth. Our project focused on identifying the difference between what's in a configuration system and PeeringDB - then sending an update.
 

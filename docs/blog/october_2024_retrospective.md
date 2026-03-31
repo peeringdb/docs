@@ -1,4 +1,5 @@
 # October 2024 PeeringDB Product Update
+*October 4, 2024*
 
 ## Strategy
 We reviewed and updated our strategy earlier in the year. We will be publishing overviews of product changes in April and October. We've had a blog for a few years but it’s focused on details. These updates will give a bigger picture.
