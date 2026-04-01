@@ -22,6 +22,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 
 ## Member Meetings
 
+- April 21st, 2026: [Agenda](gov/legaldocs/2026-04-21_PeeringDB_Member_Meeting_Agenda.txt)
 - April 10th, 2025: [Agenda](gov/legaldocs/2025-04-10_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2025-04-10_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2025-04-10_PeeringDB_Member_Meeting_Audio.mp3) - [Video](https://youtu.be/m4BaRMGwo4s)
 - April 18th, 2024: [Agenda](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Minutes.pdf) - [Audio](gov/legaldocs/2024-04-18_PeeringDB_Member_Meeting_Audio.mp3) - [Video](https://youtu.be/dfNHXOw-lvk)
 - April 13th, 2023: [Agenda](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Agenda.txt) - [Minutes](gov/legaldocs/2023-04-13_PeeringDB_Member_Meeting_Minutes.pdf)
@@ -70,7 +71,7 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Elections & Surveys
 
 - Election Results: [2025](gov/misc/2025-04-30_Comprehensive_Poll_Results.pdf), [2024](gov/misc/2024-04-30_Comprehensive_Poll_Results.pdf), [2023](gov/misc/2023-04-30_Comprehensive_Poll_Results.pdf), [2022](gov/misc/2022-04-30_Comprehensive_Poll_Results.pdf), [2021](gov/misc/2021-04-30_Comprehensive_Poll_Results.pdf), [2020](gov/misc/2020-04-30_Comprehensive_Poll_Results.pdf), [2019](gov/misc/2019-04-30_Comprehensive_Poll_Results.pdf), [2018](gov/misc/2018-04-30_Comprehensive_Poll_Results.pdf), [2017](gov/misc/2017-04-30_Comprehensive_Poll_Results.pdf), [2016](gov/misc/2016-04-30_Comprehensive_Poll_Results.pdf), [2015](gov/misc/2015-12-01_Comprehensive_Poll_Results.pdf)
-- Voter's Guides: [2025](gov/misc/2025-04-14_election.html), [2024](gov/misc/2024-04-14_election.html), [2023](gov/misc/2023-04-14_election.html), [2022](gov/misc/2022-04-14_election.html), [2021](gov/misc/2021-04-14_election.html), [2020](gov/misc/2020-04-14_election.html), [2019](gov/misc/2019-04-14_election.html), [2018](gov/misc/2018-04-14_election.html), [2017](gov/misc/2017-04-14_election.html), [2016](gov/misc/2016-04-14_election.html), [2015](gov/misc/2015-11-14_election.html)
+- Voter's Guides: [2026](gov/misc/2026-04-14_election.html), [2025](gov/misc/2025-04-14_election.html), [2024](gov/misc/2024-04-14_election.html), [2023](gov/misc/2023-04-14_election.html), [2022](gov/misc/2022-04-14_election.html), [2021](gov/misc/2021-04-14_election.html), [2020](gov/misc/2020-04-14_election.html), [2019](gov/misc/2019-04-14_election.html), [2018](gov/misc/2018-04-14_election.html), [2017](gov/misc/2017-04-14_election.html), [2016](gov/misc/2016-04-14_election.html), [2015](gov/misc/2015-11-14_election.html)
 - [Announcement of survey results and Board election plan (2015-10-20)](gov/misc/2015-10-20_Announcement.txt)
 - [Survey for future of PeeringDB (2015-08)](gov/misc/2015-08-00_PDB_Survey_results.pdf)
 
