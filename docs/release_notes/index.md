@@ -43,6 +43,8 @@ Release Date: 18 March 2026
 | [#1891 Broken AS-SET checking.](https://github.com/peeringdb/peeringdb/issues/1891) | Fixes bug as per title.|
 | [#1886 Drop down button incorrectly placed out of page.](https://github.com/peeringdb/peeringdb/issues/1886) | Fixes bug as per title.|
 | [#1877 Auto undelete network.](https://github.com/peeringdb/peeringdb/issues/1877) | Automatically undelete networks when an ASN is reassigned and passes the normal checks. This was previously done manually.|
+| [peeringdb-py #128 django-countries dependency missing.](https://github.com/peeringdb/peeringdb-py/issues/128) | As title.|
+| [peeringdb-py #129 auto_pdb_load_data.sh fails with MySQL Error Data too long for column 'logo'.](https://github.com/peeringdb/peeringdb-py/issues/129) | As title.|
 
 ## Release 2.76.4
 
