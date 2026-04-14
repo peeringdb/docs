@@ -2,6 +2,7 @@
 
 ## 2026
 
+- [PeeringDB Updates (YoY) & Engaging with the Product Committee](presentation/20260412_GPF2026_Morina_Livio.pdf) at [GPF 2026](https://globalpeeringforum.org/gpf-2026-agenda/), Panama City, PA - April 14, 2025 - Livio Morina
 - [Engaging with the Product Committee](presentation/20260324_PeeringDays_Arnold_Nipper.pdf) at [Peering Days 2026](https://peeringdays.eu/programme/), Bologna, IT - March 24, 2026 - Arnold Nipper
 - [Authenticating Networks With RPKI RSC](presentation/20260211_APRICOT2026_Arnold_Nipper.pdf) at [APRICOT 2026](https://2026.apricot.net/programme/programme#/day/8/), Jakarta, ID - February 11, 2025 - Yolandi Cloete and Arnold Nipper
 - [What's new on PeeringDB?](presentation/20260205_ANIX_Meeting_2026_Morina_Livio.pdf) at [ANIX Meeting 2026](https://anix2026.anix.al/), Tirana, AL - February 6, 2025 - Livio Morina
