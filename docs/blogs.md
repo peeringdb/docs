@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [OAuth Isn’t Just for Networks](blog/oauth_not_just_for_networks.md) - April 16, 2026
 - [Engaging with the Product Committee](blog/engaging_with_the_product_committee.md) - March 19, 2026
 - [Data Quality and Location Data Normalization](blog/data_quality_location_data_normalization.md) - March 18, 2026
 - [Network Type: What's it for? How to use it?](blog/network_type_what_why_how.md) - March 17, 2026
