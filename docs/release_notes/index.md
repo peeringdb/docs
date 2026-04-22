@@ -32,7 +32,6 @@ Release Date: 29 March 2026
 | [#1881 Allow 'docker compose' in addition to 'docker-compose'.](https://github.com/peeringdb/peeringdb/issues/1881) | Removes the 'version' in docker-compose.yml and ensures the services restart unless they are stopped, improving upgrades.|
 | [peeringdb-py #91 Investigate odd missing relationships during initial syncs.](https://github.com/peeringdb/peeringdb-py/issues/91) | Fixes bug with syncs.|
 
-
 ## Release 2.77.0
 
 Beta Announcement Date: 11 March 2026
