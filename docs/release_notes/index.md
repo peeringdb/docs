@@ -20,8 +20,8 @@ Our releases are generally deployed at around 04:00 UTC.
 
 ## Release 2.78.0
 
-Beta Announcement Date: 22 March 2026
-Release Date: 29 March 2026
+Beta Announcement Date: 22 April 2026
+Release Date: 29 April 2026
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
