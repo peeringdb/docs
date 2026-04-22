@@ -14,10 +14,24 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.77.0 | 2026-03-03 | 2026-03-11 | 2026-03-18 |
 | 2.78.0 | 2026-04-13 | 2026-04-22 | 2026-04-29 |
 | 2.79.0 | 2026-05-05 | 2026-05-13 | 2026-05-20 |
 | 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
+
+## Release 2.78.0
+
+Beta Announcement Date: 22 March 2026
+Release Date: 29 March 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1810 Allow disabling either passwords or TOTP for users with passkeys.](https://github.com/peeringdb/peeringdb/issues/1810) | As title.|
+| [#1825 Make "Copy API Query" Feature Available in Advanced Search.](https://github.com/peeringdb/peeringdb/issues/1825) | As title.|
+| [#1911 2FA backup codes are not retrivable.](https://github.com/peeringdb/peeringdb/issues/1911) | Fixes bug as per title.|
+| [#1918 Double // cause multiple issues with integrations and peeringdb-py.](https://github.com/peeringdb/peeringdb/issues/1918) | Fixes bug as per title.|
+| [#1881 Allow 'docker compose' in addition to 'docker-compose'.](https://github.com/peeringdb/peeringdb/issues/1881) | Removes the 'version' in docker-compose.yml and ensures the services restart unless they are stopped, improving upgrades.|
+| [peeringdb-py #91 Investigate odd missing relationships during initial syncs.](https://github.com/peeringdb/peeringdb-py/issues/91) | Fixes bug with syncs.|
+
 
 ## Release 2.77.0
 
