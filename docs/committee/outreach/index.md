@@ -9,6 +9,7 @@
 
 #### 2026
 
+- [April 29, 2026: Meeting Notes](notes/2026-04-29_Outreach_Committee_Notes.pdf)
 - [March 10, 2026: Meeting Notes](notes/2026-03-10_Outreach_Committee_Notes.pdf)
 - February 10, 2026
 - [January 13, 2026: Meeting Notes](notes/2026-01-13_Outreach_Committee_Notes.pdf)
@@ -82,7 +83,6 @@
 - Obinna Adumike
 - Lynsey Buckingham
 - Yolandi Cloete
-- Greg Hankins
 - Aaron Hughes - Board Liaison
 - Tarryn Kidd
 - Livio Morina
