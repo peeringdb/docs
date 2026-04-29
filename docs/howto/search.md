@@ -181,11 +181,13 @@ The PeeringDB database can be queried using a REST API. REST allows a client to 
 
 ## Get an API query from a web query
 
-You can put the API query for simple searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for `curl`, and a selection of programming languages.
+You can put the API query for simple and advanced searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for `curl`, and a selection of programming languages.
 
-Just replace the placeholder with your own [API Key](/howto/api_keys/) or remove the authorization section to make an anonymous query. Note that anonymous users get a [lower query limit](/work_within_peeringdbs_query_limits/).
+You need to replace the placeholder with your own [API Key](/howto/api_keys/) for advanced queries. You can remove the authorization section anonymous simple queries. Note that anonymous users get a [lower query limit](/work_within_peeringdbs_query_limits/).
 
 ![Put an API query in your copy buffer](images/copy_API_query.png)
+
+![Advanced Search copy API query](images/advanced_search_copy_api_query.png)
 
 ## Object types
 
