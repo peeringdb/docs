@@ -353,9 +353,10 @@ To search for a facility:<br />
 <p>Throughout this article up to this point, we have been talking on how to use PeeringDB to find information about potential peers, and then after peering has been arranged, using PeeringDB to obtain the peering details.  The PeeringDB website is very helpful in these regards, but using the website still requires a lot of manual work. It’s also possible to use the PeeringDB API to automate some parts of this. Why use the PeeringDB API? The PeeringDB API makes it easy to integrate PeeringDB in your environment.</p>
 <p>The PeeringDB database can be queried using a REST API. REST allows a client to request information from a server over HTTP or HTTPS. The server then returns the requested information in JSON format.</p>
 <h2 id="get-an-api-query-from-a-web-query">Get an API query from a web query</h2>
-<p>You can put the API query for simple searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for <code>curl</code>, and a selection of programming languages.</p>
-<p>Just replace the placeholder with your own <a href="/howto/api_keys/">API Key</a> or remove the authorization section to make an anonymous query. Note that anonymous users get a <a href="/work_within_peeringdbs_query_limits/">lower query limit</a>.</p>
+<p>You can put the API query for simple and advanced searches directly into your copy buffer. Just click on the "Copy Query" button. It will present you with a screen that lets you choose that query formatted for <code>curl</code>, and a selection of programming languages.</p>
+<p>You need to replace the placeholder with your own <a href="/howto/api_keys/">API Key</a> for advanced queries. You can remove the authorization section anonymous simple queries. Note that anonymous users get a <a href="/work_within_peeringdbs_query_limits/">lower query limit</a>.</p>
 <p><img alt="Put an API query in your copy buffer" src="../images/copy_API_query.png" /></p>
+<p><img alt="Advanced Search copy API query" src="../images/advanced_search_copy_api_query.png" /></p>
 <h2 id="object-types">Object types</h2>
 <p>Each object has an associated shorthand tag you can use. Object types are not case sensitive and the output is an array.<br />
 For example: <a href="https://www.peeringdb.com/api/OBJ">https://www.peeringdb.com/api/OBJ</a>. The endpoint is: <code>/api/OBJ</code>.</p>
