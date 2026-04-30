@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [PeeringDB Update October 2025 – April 2026](blog/update_oct_2025-apr_2026.md) - April 30, 2026
 - [OAuth Isn’t Just for Networks](blog/oauth_not_just_for_networks.md) - April 16, 2026
 - [Engaging with the Product Committee](blog/engaging_with_the_product_committee.md) - March 19, 2026
 - [Data Quality and Location Data Normalization](blog/data_quality_location_data_normalization.md) - March 18, 2026

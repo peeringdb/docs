@@ -1,4 +1,5 @@
 # PeeringDB Update October 2025 – April 2026
+*April 30, 2026*
 
 ## This update
 
@@ -6,7 +7,7 @@ We publish [notes with every release](https://docs.peeringdb.com/release_notes/)
 
 You can find our previous half yearly reports here: [one](https://docs.peeringdb.com/blog/october_2024_retrospective/), [two](https://docs.peeringdb.com/blog/april_2025_product_update/), [three](https://docs.peeringdb.com/blog/sep_2025_product_update/).
 
-## Operational Changes
+## Operational changes
 
 We’ve now completed our transition to Kubernetes. This will allow us to scale faster when we need to.
 
@@ -14,7 +15,7 @@ We’ve also implemented rate limiting for unauthenticated web users. We saw unp
 
 But automated web scrapers did cause problems. They are now limited to 120 queries/minute and we’ll review and update this limit based on experience.
 
-## ASN Comparison is Better
+## ASN comparison is better
 
 ![Improved ASN Comparison](images/improved_asn_comparison.png)
 
@@ -25,7 +26,7 @@ We’ve made several improvements to the ASN Comparison feature in [Advanced Sea
 3. See the country matches are in  
 4. Dynamically filter results on the page
 
-## Data Quality
+## Data quality
 
 We have normalized more location data. We do this because it makes search and data analysis simpler when a single place has a single name. We also know that some users want to use a particular spelling, so we support multiple inputs.
 
@@ -41,7 +42,7 @@ We normalize the presentation of internal divisions within countries, like provi
 
 ![Not in Germany so far](images/location_data_quality_search_output.png)
 
-## Expanding the ‘copy an API query’ Feature
+## Expanding the ‘Copy API Query’ feature
 
 In March 2025 we added a feature that lets users get a properly formatted API query for basic queries. We’ve just expanded the feature to support Advanced Search. This makes the feature more useful and should help users get more from PeeringDB in less time.
 
@@ -49,7 +50,7 @@ As before, you can get queries formatted for curl, Python, JavaScript, Go, Ruby,
 
 ![Advanced Search copy API query](images/advanced_search_copy_api_query.png)
 
-## Looking Forward
+## Looking forward
 
 We are examining ways to support AI assisted software development for PeeringDB. We anticipate demand from users who will want to develop and add features, whether in the service we operate or in a local mirror used under the terms of [our AUP](https://www.peeringdb.com/aup).
 
