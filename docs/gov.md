@@ -78,15 +78,15 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 ## Board of Directors
 
 - Seat 1 (term expires 2027): [Livio Morina](mailto:livio@peeringdb.com), 2023-
-- Seat 2 (term expires 2026): [Job Snijders](mailto:job@peeringdb.com), 2015-
+- Seat 2 (term expires 2028): [Brian Burke](mailto:brian@peeringdb.com), 2026-
 - Seat 3 (term expires 2027): [Isabel Odida](mailto:isabel@peeringdb.com), 2025-
-- Seat 4 (term expires 2026): [Aaron Hughes](mailto:aaronh@peeringdb.com), 2015-
+- Seat 4 (term expires 2028): [Marco Marzetti](mailto:marco@peeringdb.com), 2026-
 - Seat 5 (term expires 2027): [Alexandre Corso](mailto:alex@peeringdb.com), 2025-
 
 ## Officers
 
-- [Aaron Hughes](mailto:aaronh@peeringdb.com), President, 2015-2023, 2025-
-- [Livio Morina](mailto:livio@peeringdb.com), Vice President, 2025-
+- [Livio Morina](mailto:livio@peeringdb.com), President, 2026-
+- [Isabel Odida](mailto:isabel@peeringdb.com), Vice President, 2026-
 - [Shawna Bong](mailto:shawna@peeringdb.com), Secretary & Treasurer, 2024-
 
 ## Admin Committee
@@ -110,10 +110,10 @@ PeeringDB, a nonprofit member-based organization, facilitates the interconnectio
 - Chris Caputo, Secretary & Treasurer 2015-2024
 - Patrick W. Gilmore, Board of Directors 2015-2023, Vice President 2015-2016
 - Matt Griswold, Board of Directors 2015-2017
-- Aaron Hughes, Vice President 2023-2025
+- Aaron Hughes, Board of Directors 2015-2026, President 2015-2023, 2025-2026, Vice President 2023-2025
 - Fredrik Korsbäck, Board of Directors 2019-2021
 - Rahul Makhija, Board of Directors 2023-2025
 - Christopher Malayter, Board of Directors 2021-2025, President 2023-2025
 - Arnold Nipper, Board of Directors 2015-2019
 - Bijal Sanghani, Board of Directors 2017-2023
-- Job Snijders, Vice President 2016-2023
+- Job Snijders, Board of Directors 2015-2026, Vice President 2016-2023
