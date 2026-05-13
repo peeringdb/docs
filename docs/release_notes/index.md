@@ -14,9 +14,25 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.78.0 | 2026-04-13 | 2026-04-22 | 2026-04-29 |
 | 2.79.0 | 2026-05-05 | 2026-05-13 | 2026-05-20 |
 | 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
+
+## Release 2.79.0
+
+Beta Announcement Date: 13 May 2026
+Release Date: 20 May 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1392 Replace v1 search with v2 search in Release TBD.](https://github.com/peeringdb/peeringdb/issues/1392) | As title.|
+| [#1888 Allow minimum port speed of 50M?.](https://github.com/peeringdb/peeringdb/issues/1888) | As title.|
+| [#1928 API output format significantly differs from spec.](https://github.com/peeringdb/peeringdb/issues/1928) | Spec updated to reflect structure in endpoints.|
+| [#1957 Unable to open OAuth Details page for OAuth id:671.](https://github.com/peeringdb/peeringdb/issues/1957) | Fixes bug as per title.|
+| [#1899 "/data/enum/" JSON data is not being cached by browsers/javascript code .](https://github.com/peeringdb/peeringdb/issues/1899) | Fixes bug as per title.|
+| [#1832 Enhancement of the Auto-IX process.](https://github.com/peeringdb/peeringdb/issues/1832) | Auto-IX process now requires an IX-F feed with at least 3 different ASNs.|
+| [#1897 IX-F can't actually update IXPFX and IPv6PFX.](https://github.com/peeringdb/peeringdb/issues/1897) | Speeds process for IXPs reassigning previously reused IP addresses.|
+| [#1945 Duplicate user ⟶ organisation affiliation requests.](https://github.com/peeringdb/peeringdb/issues/1945) | Fixes a bug that duplicated support tickets.|
+| [#1875 can't delete IXs with IX-F import logs and/or member data from cp.](https://github.com/peeringdb/peeringdb/issues/1875) | Superusers can now delete IXs that previously important via IX-F Member Data.|
 
 ## Release 2.78.0
 
