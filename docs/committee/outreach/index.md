@@ -83,7 +83,6 @@
 - Obinna Adumike
 - Lynsey Buckingham
 - Yolandi Cloete
-- Aaron Hughes - Board Liaison
 - Tarryn Kidd
 - Livio Morina
 - Arnold Nipper

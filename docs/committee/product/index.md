@@ -161,7 +161,6 @@
 - Martin Hannigan
 - Peter Helmenstine
 - Paul Hoogsteder
-- Aaron Hughes - Board Liaison
 - Stephen McManus
 - Arnold Nipper
 - Terry Sweetser
