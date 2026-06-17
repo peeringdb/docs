@@ -21,6 +21,23 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
 
+## Release 2.80.0
+
+Beta Announcement Date: 17 Jun 2026
+Release Date: 24 Jun 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1982 Searching for entities in Ireland yields entities from the UK as well.](https://github.com/peeringdb/peeringdb/issues/1982) | As title.|
+| [#1967 In page map for advanced facility search is broken.](https://github.com/peeringdb/peeringdb/issues/1967) | As title.|
+| [#1894 Drop postfixing as-set with @IIR.](https://github.com/peeringdb/peeringdb/issues/1894) | PeeringDB no longer supports @IRR suffixes for set names.|
+| [#1943 Give users more granular control over what to accept from IX-F imports.](https://github.com/peeringdb/peeringdb/issues/1943) | Networks can limit what is accepted from IX-F imports.|
+| [#1949 Export to file of the “IX-F Import Preview”.](https://github.com/peeringdb/peeringdb/issues/1949) | Exchanges can now preview changes their export would make before confirming.|
+| [#1942 Remove networks faster when the RIR/NIR reclaims an ASN.](https://github.com/peeringdb/peeringdb/issues/1942) | We now remove networks from PeeringDB as soon as we learn that their ASN has been reclaimed.|
+| [#1831 Create a feature flag for Auto-IX.](https://github.com/peeringdb/peeringdb/issues/1831) | Auto-IX can now be disabled by the AC when a network operator submits an IX form, instead of adding their network to an existing IX.|
+| [#1948 Auto-close DeskPro ticket when pending ⟶ deleted status change happens.](https://github.com/peeringdb/peeringdb/issues/1948) | As title.|
+
+
 ## Release 2.79.0
 
 Beta Announcement Date: 13 May 2026
