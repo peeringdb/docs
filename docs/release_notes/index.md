@@ -14,12 +14,22 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.80.0 | 2026-06-08 | 2026-06-17 | 2026-06-24 |
 | 2.81.0 | 2026-07-07 | 2026-07-14 | 2026-07-21 |
 | 2.82.0 | 2026-08-04 | 2026-08-11 | 2026-08-18 |
 | 2.83.0 | 2026-09-08 | 2026-09-15 | 2026-09-22 |
 | 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
+
+
+
+## Release 2.80.1
+
+Release Date: 24 Jun 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#1992 In page map for advanced facility search is still broken.](https://github.com/peeringdb/peeringdb/issues/1992) | Fixes an API Keys to allow the in page map to show the distribution of facilities.|
+
 
 ## Release 2.80.0
 
