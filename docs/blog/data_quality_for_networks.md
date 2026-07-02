@@ -3,8 +3,6 @@
 
 Over 34,000 organizations have data in PeeringDB, so we try to automate improvements to data quality. For instance, we’ve recently automated changes to normalize country and city names for facilities using external geolocation databases. When we improve data quality we make PeeringDB more valuable for users. 
 
-![Noun quality control from tanahairstudio, The Noun Project, on Wikimedia Commons](images/noun_quality_control.png)
-
 A conversation at RIPE 92 led to suggestions for improvements in how we publish data about AS-SETs.
 
 An AS-SET describes your ‘customer cone’ to networks you peer with. It indicates which prefixes should be accepted by their BGP neighbors.
