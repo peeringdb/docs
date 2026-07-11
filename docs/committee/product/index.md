@@ -160,7 +160,6 @@
 - Yan Berthier
 - Jack Carrozzo - Chair
 - Matt Griswold - Vice Chair
-- Martin Hannigan
 - Peter Helmenstine
 - Paul Hoogsteder
 - Stephen McManus
