@@ -14,12 +14,26 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.81.0 | 2026-07-07 | 2026-07-14 | 2026-07-21 |
 | 2.82.0 | 2026-08-04 | 2026-08-11 | 2026-08-18 |
 | 2.83.0 | 2026-09-08 | 2026-09-15 | 2026-09-22 |
 | 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
 
+## Release 2.81.0
+
+Beta Announcement Date: 15 Jul 2026
+Release Date: 22 Jul 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#2005 IXF importer adding netixlan entries with no v4 or v6 address.](https://github.com/peeringdb/peeringdb/issues/2005) | Fixes bug as per title.|
+| [#2001 pdb_rir_status script removed live ASN.](https://github.com/peeringdb/peeringdb/issues/2001) | Fixes a bug that could remove valid networks.|
+| [#1996 Javascript error cleanup.](https://github.com/peeringdb/peeringdb/issues/1996) | As title.|
+| [#1984 Name field allows trailing/consecutive whitespace, enabling duplicate-like entries (PEERINGDB-202606KL4081.](https://github.com/peeringdb/peeringdb/issues/1984) | Fixes bug as per title.|
+| [#1972 peeringdb sync --fetch-private' {'available_voltage_services': ['Invalid value: No Power']}.](https://github.com/peeringdb/peeringdb/issues/1972) | Fixes bug as per title.|
+| [#1971 Inaccurate Tooltip Text on Campus Edit Page.](https://github.com/peeringdb/peeringdb/issues/1971) | Fixes bug as per title.|
+| [peeringdb-py #135 Race condition can caused missed records syncing incremental updates.](https://github.com/peeringdb/peeringdb-py/issues/135) | Fixes bug as per title.|
+| [peeringdb-py #92 with --fetch-private ixlan is not being cached.](https://github.com/peeringdb/peeringdb-py/issues/92) | Fixes bug as per title.|
 
 
 ## Release 2.80.1
