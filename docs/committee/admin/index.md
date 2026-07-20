@@ -6,6 +6,8 @@
 ## Documentation
 
 - [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](approval-guidelines)
+- [AdminCom Userscripts](userscripts/index.md) — browser tooling for the Control Panel, public
+  frontend, and DeskPro that streamlines day-to-day moderation work
 
 {!docs/committee/admin/charter.md!}
 
