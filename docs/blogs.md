@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [Do we still need public beta?](blog/public_beta.md) - July 26, 2026
 - [Data Quality for Networks](blog/data_quality_for_networks.md) - July 1, 2026
 - [PeeringDB Update October 2025 – April 2026](blog/update_oct_2025-apr_2026.md) - April 30, 2026
 - [OAuth Isn’t Just for Networks](blog/oauth_not_just_for_networks.md) - April 16, 2026
