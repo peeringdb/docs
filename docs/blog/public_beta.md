@@ -1,4 +1,4 @@
-# Do we still need public beta?
+# Do We Still Need Public Beta?
 *July 21, 2026*
 
 We will deploy updates to production, www.peeringdb.com, without a public beta period in August 2026.
