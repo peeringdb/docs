@@ -14,7 +14,7 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.82.0 | 2026-08-04 | 2026-08-11 | 2026-08-18 |
+| 2.82.0 | 2026-08-04 |  [See blog post](https://docs.peeringdb.com/blog/public_beta/) | 2026-08-18 |
 | 2.83.0 | 2026-09-08 | 2026-09-15 | 2026-09-22 |
 | 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
