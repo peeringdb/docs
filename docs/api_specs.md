@@ -51,7 +51,13 @@ JSON
 
 #### Authentication
 
+- API key, sent in the `Authorization` header as `Authorization: Api-Key <KEY>` (recommended)
 - Basic HTTP authorization
+
+An API key is required for write operations (`POST`, `PUT`, `DELETE`). Basic
+HTTP authorization is still accepted for read queries, but moving to an API key
+is strongly recommended. See our [guide on API keys](/howto/api_keys/) for how
+to create and use one.
 
 In order to access the API as a guest simply omit any authentication
 
