@@ -159,6 +159,7 @@
 - Jeff Bartig
 - Yan Berthier
 - Jack Carrozzo - Chair
+- Maximiliano Estudies
 - Matt Griswold - Vice Chair
 - Peter Helmenstine
 - Paul Hoogsteder
