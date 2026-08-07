@@ -16,6 +16,17 @@ If you need additional help getting started, please contact us at: [support@peer
 
 The `carrier` object is used to describe providers offering [L1 or L2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer) services in a `facility`. It is different from a `net` because that describes services provided at L3 and is linked to its autonomous system number.
 
+## Carrier infrastructure qualification checklist
+
+**Eligible**: carrier-grade network infrastructure services — such as dark fibre, wavelengths/DWDM, Ethernet transport, or MPLS VPN — delivered over fibre infrastructure that your organization owns and operates.
+
+**Not eligible**:
+
+* Internet access services alone
+* Transport that is resold or leased from another provider, rather than delivered over infrastructure your organization owns and operates
+
+Your website must clearly describe the carrier services you offer and indicate that they run over infrastructure you own and operate — this is required for approval.
+
 ## Information required
 
 You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
