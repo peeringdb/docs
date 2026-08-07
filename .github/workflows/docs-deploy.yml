@@ -1,0 +1,43 @@
+name: Deploy Docs Preview
+
+on:
+  push:
+    branches:
+      - master
+      - admincom/docs-improvements
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Strip production CNAME before building (fork preview must not claim docs.peeringdb.com)
+        run: rm -f docs/CNAME
+
+      - name: Configure git identity for the gh-deploy commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy to gh-pages
+        run: uv run mkdocs gh-deploy --clean --force
