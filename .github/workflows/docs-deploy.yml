@@ -43,7 +43,7 @@ jobs:
       # as a repo variable (Settings -> Secrets and variables -> Actions ->
       # Variables -> SITE_URL_OVERRIDE) rather than hardcoded here, so it can be
       # changed without editing this file. It feeds both scripts/generate_cname.py
-      # (writes docs/CNAME) and scripts/generate_atom_feed.py (the feed's
+      # (writes docs/CNAME) and scripts/generate_blog_atom_feed.py (the feed's
       # self-link), so both stay in sync with wherever this deploy actually serves
       # from. Safe by default if this branch is ever merged upstream: with no
       # variable set there, both hooks fall back to mkdocs.yml's site_url
