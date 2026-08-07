@@ -51,4 +51,4 @@ jobs:
       - name: Deploy to gh-pages
         env:
           SITE_URL_OVERRIDE: ${{ vars.SITE_URL_OVERRIDE }}
-        run: uv run mkdocs gh-deploy --clean --force
+        run: uv run mkdocs gh-deploy --clean --force --no-history
