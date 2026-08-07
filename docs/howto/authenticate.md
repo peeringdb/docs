@@ -34,17 +34,31 @@ We recommend using a randomly generated password or passphrase.
 
 ## Multi-factor authentication (MFA)
 
+MFA is mandatory: you must have a second factor configured to log in to PeeringDB.
+
 We support three MFA methods. You can use:
 
 * A time-based one-time password, as defined in [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238.html)
 * A [FIDO U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/) hardware token
 * A [Passkey](https://www.passkeycentral.org/introduction-to-passkeys/how-passkeys-work)
 
-You can choose to have more than one second factor configured. 
+You can choose to have more than one second factor configured.
 
-You can also download and securely store backup codes, in case a second factor is destroyed.
+### Setting up your second factor
 
-You can configure these in your account profile.
+Go to your [profile](https://www.peeringdb.com/profile) and click "Manage Multi-factor Authentication" under Account Security.
+
+![Location of the Manage Multi-factor Authentication button on the profile page](images/Location_of_MFA_button.png)
+
+From there you can set up a TOTP app, register U2F hardware tokens or Passkeys, and manage the factors you've already configured. You can also download and securely store backup codes, in case a second factor is destroyed.
+
+![Multi-factor Authentication Management screen showing TOTP, backup tokens, and registered security keys](images/MFA_management.png)
+
+### Requiring MFA for your organization
+
+Organization admins can require everyone affiliated with their organization to enable 2FA. This option is on the Users tab of your organization's Manage page.
+
+![Require users in your organization to enable 2FA checkbox on the organization Users tab](images/require_users_to_enable_2fa.png)
 
 ## Account recovery
 
