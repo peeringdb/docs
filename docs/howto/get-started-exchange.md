@@ -30,6 +30,9 @@ This information is not required but is useful:
 
 Some exchanges share additional information. You can look at the information shared by other exchange operators to work out what your organization should be sharing.
 
+!!! important "The 3-ASN minimum"
+    An `ix` application needs at least **3 independent Autonomous Systems** ready to peer at the exchange. Route servers, route collectors, route viewers, and any ASN operated by or affiliated with the applicant organization do not count toward that minimum. Your application also needs a public website, a participant list, and globally unique IPv4 and/or IPv6 peering LAN prefixes that can be verified as belonging to your organization via [RDAP](https://about.rdap.org/).
+
 ## Information about connected networks
 
 You can provide information about the networks that will be peering at your exchange using the [X-F Member Export JSON Schema](https://github.com/euro-ix/json-schemas). We also [support this format](https://docs.peeringdb.com/ix-f-json-import-rules/) as a way to automate updates about your exchange to PeeringDB.  
@@ -73,6 +76,11 @@ This short document describes the first steps for getting set up in PeeringDB. O
 * The field “DOT1Q” may go away, so it is not recommended to use it.
 
 ![LAN](images/lan.png)
+
+## Deleting an IX prefix
+
+!!! warning "IX prefixes with connected networks can't be deleted"
+    PeeringDB blocks deletion of an IX prefix as long as networks are still connected to your exchange using it — removing it would also drop those connections. If you're turning down the exchange, migrating to a new prefix, or enlarging the prefix mask, unlink or migrate the affected networks first, or contact [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ## More information
 The [PeeringDB Data Ownership Policy](https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf) describes all the objects in PeeringDB.
