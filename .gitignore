@@ -3,5 +3,6 @@ site/
 venv/
 .venv/
 docs/atom.xml
+docs/CNAME
 __pycache__/
 *.pyc

@@ -22,7 +22,7 @@ MAX_ENTRIES = 20
 def on_pre_build(config, **kwargs):
     docs_dir = Path(config["docs_dir"])
     repo_root = Path(config["config_file_path"]).resolve().parent
-    site_url = os.environ.get("ATOM_SITE_URL") or config.get("site_url") or "https://docs.peeringdb.com/"
+    site_url = os.environ.get("SITE_URL_OVERRIDE") or config.get("site_url") or "https://docs.peeringdb.com/"
     if not site_url.endswith("/"):
         site_url += "/"
 
