@@ -1,6 +1,9 @@
 site_name: PeeringDB Docs
 site_url: https://docs.peeringdb.com/
-# This line adds the "Edit on GitHub" link
+# Deliberately disabled: uncommenting repo_url adds an "Edit on GitHub" link to every
+# page. It was intentionally removed in commit fcb252c2 ("Removed the 'Edit on GitHub'
+# link.", 2024-02-05) -- that commit doesn't record a reason, so if you're deciding
+# whether to re-enable it, treat it as an open question rather than an oversight.
 #repo_url: https://github.com/peeringdb/docs
 theme:
   name: mkdocs
