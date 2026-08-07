@@ -1,24 +1,23 @@
 """mkdocs hook: regenerate docs/CNAME before every build.
 
-Derives the GitHub Pages custom domain from SITE_URL_OVERRIDE (if set --
-used by non-production deploys, e.g. this fork's dev preview) or falls
-back to mkdocs.yml's site_url (correct for a real production deploy with
-no override set, so this is safe by default if this branch is ever
-merged upstream -- no manual CNAME edit required).
+Domain comes from site_url.resolve_site_url() -- see that module for the
+PROD=TRUE / SITE_URL_OVERRIDE / local-serve precedence.
 """
 from __future__ import annotations
 
-import os
+import sys
 from pathlib import Path
 from urllib.parse import urlparse
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_url import LOOPBACK_HOSTS, resolve_site_url
 
 
 def on_pre_build(config, **kwargs):
     docs_dir = Path(config["docs_dir"])
-    site_url = os.environ.get("SITE_URL_OVERRIDE") or config.get("site_url")
-    if not site_url:
-        return
-    domain = urlparse(site_url).hostname
-    if not domain:
+    domain = urlparse(resolve_site_url(config.get("site_url"))).hostname
+    if not domain or domain in LOOPBACK_HOSTS:
+        # A CNAME file only means anything for a real GitHub Pages deploy --
+        # skip it for a local build/serve session.
         return
     (docs_dir / "CNAME").write_text(domain + "\n", encoding="utf-8")
