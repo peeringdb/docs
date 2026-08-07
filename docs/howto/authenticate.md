@@ -81,6 +81,8 @@ If your organization already has a `net`, `ix`, `fac`, or `carrier` record in Pe
 * Ask a current admin to affiliate you and grant admin rights, if you can identify and reach one through your organization's own records.
 * If no admin can be reached, contact [PeeringDB Support](mailto:support@peeringdb.com) with proof that ties you to the organization. An email address matching the RDAP/WHOIS record for the ASN is the fastest path, since it lets support verify the request the same way automated affiliation does. For ASN acquisitions, include the RIR transfer confirmation showing the ASN now belongs to your organization.
 
+If the acquired organization's admins are still active and simply want to hand off management voluntarily, see the [Mergers and Acquisitions FAQ](/faq/#mergers-and-acquisitions) instead.
+
 ## OAuth
 
 Some external services allow or require you to authenticate using your PeeringDB account. One example is networks' peering portals. They might use PeeringDB's OAuth service to ensure they can automate configuration.
