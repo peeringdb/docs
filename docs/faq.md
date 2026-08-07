@@ -11,7 +11,7 @@ The database is a non-profit, community-driven initiative run and promoted by vo
 
 ### How do I get started?
 
-See our Quick Start guide: <http://docs.peeringdb.com/#quick-start>
+See our [HOWTOs](/howtos/) for step-by-step guides to get started as a Network, Exchange, Facility, or Carrier operator.
 
 ### Affiliation requests 
 
