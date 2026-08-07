@@ -22,7 +22,7 @@ Instead of sending each ASN you want to learn about as a separate query, create 
 
 `asn__in=$list_of_ASN_separated_by_comma`
 
-We encourage sending lists of up to 150 ASNs in a single query. We have a [HOWTO article](/howto/search) describing the basics of using our API using popular command line tools such as curl, Python, and jq.
+We encourage sending lists of up to 150 ASNs in a single query. We have a [HOWTO article](/howto/query_the_api/) describing the basics of using our API using popular command line tools such as curl, Python, and jq.
 
 Please use API Keys when automating queries to PeeringDB and set a User-Agent header that identifies the unique software you are using, rather than just a generic query library name.
 
