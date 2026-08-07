@@ -4,16 +4,21 @@
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QA2PvYbvDhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Getting started
+
+New to PeeringDB? [Register an account](https://www.peeringdb.com/register), then follow the HOWTO for your role:
+
+* [Network Operator](howto/get-started-operator.md)
+* [Exchange Operator](howto/get-started-exchange.md)
+* [Facility or Campus Operator](howto/get-started-facility.md)
+* [Carrier Operator](howto/get-started-carrier.md)
+
+See all [HOWTOs](howtos.md) for more guides, our [glossary](glossary.md) of PeeringDB terms, and [guides in other languages](#guides-in-other-languages) below.
+
 ## Policies
 
 * By using this service, you agree to adhere to PeeringDB's [Acceptable Use Policy](https://www.peeringdb.com/aup).
 * The [Admin Committee Guidelines and Criteria for Approving Networks, IXPs, and Facilities](committee/admin/approval-guidelines/) documents PeeringDB’s registration approval process.
-
-## Getting started
-
-* Several short [HOWTOs](/howtos) provide a beginner detailed instructions on how to get started using PeeringDB.
-* Create an account and [register](https://www.peeringdb.com/register) in PeeringDB.
-* We also have a [glossary](glossary.md) of PeeringDB terms.
 
 ## Getting help
 
@@ -55,11 +60,7 @@ List all via API by taking the `id` off:
 
 Local database replication is accomplished with this [command line tool](https://github.com/peeringdb/peeringdb-py), please see the [documentation](http://peeringdb.github.io/peeringdb-py/cli/#sync) for more information.
 
-## Release notes and schedule
-
-The [release notes and schedule](release_notes/index.md) page lists upcoming releases, and the GitHub issues and a summary of what has changed in PeeringDB software releases.
-
-## Guides
+## Guides in other languages
 
 - [en] [PeeringDB information registration guide and facility presence for NNI's](guide/IX.br - Guide for registering information in PeeringDB-English-Version - 2023.pdf) - Julimar Lunguinho Mendes
 - [es] [Guía corta para uso de peeringdb.com](guide/guia_PeeringDB.pdf) - Fabián Mejía
@@ -67,41 +68,14 @@ The [release notes and schedule](release_notes/index.md) page lists upcoming rel
 - [pt-BR] [Guia de cadastro de Carrier no PeeringDB](guide/IX.br - Guia de cadastro de Carrier no PeeringDB-Versao-Portugues - 2025.pdf) - Julimar Lunguinho Mendes
 - [pt-BR] [Guia de cadastro de informações no PeeringDB e presença em facility para NNI's](guide/IX.br - Guia de cadastro de informacoes no PeeringDB-Versao-Portugues - 2023.pdf) - Julimar Lunguinho Mendes
 
-## Tools
+## Learn more
 
-The [tools](tools.md) page features tools developed by PeeringDB users.
-
-## Tutorials and workshops
-
-High-level [HOWTOs](howtos.md) provide a beginner detailed instructions on how to get started using PeeringDB.
-
-- [PDB 101 in 20 Minutes](presentation/20241105_PeeringAsia6_Arnold_Nipper.pdf) at [Peering Asia 6.0](https://6.peeringasia.org/agenda/tutorial) - November 5, 2024 - Arnold Nipper
-- [PeeringDB Tutorial, learning the GUI and the API](presentation/20220225-Apricot-1-2-GUI-API-with-exercises.pdf) at [APRICOT 2022](https://2022.apricot.net/program/schedule-tutorial/#/day/5/introduction-to-peeringdb-a-tutorial-part-1) - February 25, 2022 - Arnold Nipper
-- [The How-to Guide](presentation/20210506-Teraco_Tech_Day.pdf) at [Teraco Virtual Tech Day with PeeringDB](https://www.teraco.co.za/events/virtual-tech-days/?fbclid=IwAR310Y84fDzXnZOcfXWxnogcgkDTrWaTwfM4u0U8c5wkFPd5ihNaHuNWjzk) - May 6, 2021 - Ben Ryall
-- [PeeringDB Tutorial, learning the GUI and the API](presentation/20200220-1-2-GUI-API-APRICOT2020-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/9), Melbourne, AU - February 20, 2020 - Arnold Nipper
-- [How is PeeringDB organised?](presentation/20191110-1-GUI-DENOG11-Arnold-Nipper.pdf) and [The PeeringDB API](presentation/20191110-2-API-DENOG11-Arnold-Nipper.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/workshops.html), Hamburg, DE - November 10, 2019 - Arnold Nipper
-- [PeeringDB Workshop](presentation/20190820_PeeringDB_Workshop_1-2_AfPIF_2019.pdf) at [AfPIF-10](https://www.afpif.org/afpif-10/), Balaclava, MV - August 20, 2019 - Arnold Nipper ([video](https://livestream.com/internetsociety/afpif2019/videos/195303661) starts at 14:00)
-- [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
-
-## Presentations
-
-The [presentations](presentations.md) page has a complete list of PeeringDB presentations that were given at events around the world.
-
-## Open source
-
-#### Source code audit
-
-PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Computest](https://www.computest.nl/) (the auditor) prepared a __Third Party Memo__, this memo provides a high level overview of the outcome of the source code audit. The report is available [here](gov/misc/2018-05-16_Computest_Source_Code_Audit_TPM.pdf).
-
-## Beta development
-
-* The [PeeringDB beta server](https://beta.peeringdb.com/) runs the latest beta software version, with full access over HTTP and the API.  Note that changes made to the beta database are local to the beta server only, and are not reflected on the production servers.
-
-* The [latest changes to PeeringDB](https://beta.peeringdb.com/changes) automagically redirects to the list of issues on PeeringDB's GitHub repository that document all of the changes in the current beta version.
-
-## Historical data
-
-* MySQL dumps from July, 29 2010 to March 14, 2016 are archived by CAIDA at <http://data.caida.org/datasets/peeringdb-v1/>.
+* [Release notes and schedule](release_notes/index.md) — upcoming releases, and a summary of what has changed in PeeringDB software releases.
+* [Tools](tools.md) — tools developed by PeeringDB users.
+* [Presentations](presentations.md) — tutorials, workshops, and presentations given at events around the world.
+* [Beta server](https://beta.peeringdb.com/) — runs the latest beta software, with full access over HTTP and the API. Changes made there are local to the beta server only. The [latest changes](https://beta.peeringdb.com/changes) redirects to the GitHub issues documenting them.
+* [Source code audit](gov/misc/2018-05-16_Computest_Source_Code_Audit_TPM.pdf) — a Third Party Memo from a full audit of PeeringDB's source code, commissioned in 2018.
+* Historical data — MySQL dumps from July 29, 2010 to March 14, 2016 are archived by CAIDA at <http://data.caida.org/datasets/peeringdb-v1/>.
 
 ## How you can help
 

@@ -1,5 +1,17 @@
 # Presentations
 
+## Tutorials and workshops
+
+Hands-on tutorial and workshop materials, as opposed to the conference update talks listed below.
+
+- [PDB 101 in 20 Minutes](presentation/20241105_PeeringAsia6_Arnold_Nipper.pdf) at [Peering Asia 6.0](https://6.peeringasia.org/agenda/tutorial) - November 5, 2024 - Arnold Nipper
+- [PeeringDB Tutorial, learning the GUI and the API](presentation/20220225-Apricot-1-2-GUI-API-with-exercises.pdf) at [APRICOT 2022](https://2022.apricot.net/program/schedule-tutorial/#/day/5/introduction-to-peeringdb-a-tutorial-part-1) - February 25, 2022 - Arnold Nipper
+- [The How-to Guide](presentation/20210506-Teraco_Tech_Day.pdf) at [Teraco Virtual Tech Day with PeeringDB](https://www.teraco.co.za/events/virtual-tech-days/?fbclid=IwAR310Y84fDzXnZOcfXWxnogcgkDTrWaTwfM4u0U8c5wkFPd5ihNaHuNWjzk) - May 6, 2021 - Ben Ryall
+- [PeeringDB Tutorial, learning the GUI and the API](presentation/20200220-1-2-GUI-API-APRICOT2020-Arnold-Nipper.pdf) at [APRICOT 2020](https://2020.apricot.net/program/schedule/#/day/9), Melbourne, AU - February 20, 2020 - Arnold Nipper
+- [How is PeeringDB organised?](presentation/20191110-1-GUI-DENOG11-Arnold-Nipper.pdf) and [The PeeringDB API](presentation/20191110-2-API-DENOG11-Arnold-Nipper.pdf) at [DENOG11](https://www.denog.de/de/meetings/denog11/workshops.html), Hamburg, DE - November 10, 2019 - Arnold Nipper
+- [PeeringDB Workshop](presentation/20190820_PeeringDB_Workshop_1-2_AfPIF_2019.pdf) at [AfPIF-10](https://www.afpif.org/afpif-10/), Balaclava, MV - August 20, 2019 - Arnold Nipper ([video](https://livestream.com/internetsociety/afpif2019/videos/195303661) starts at 14:00)
+- [Part 1: Intro](presentation/20190227-peeringdb-workshop-1-intro.pdf), [Part 2: Main](presentation/20190227-peeringdb-workshop-2-main.pdf), [Part 3: API](presentation/20190227-peeringdb-workshop-3-api.pdf) at [APRICOT 2019](https://2019.apricot.net/program/schedule/#/day/10/peeringdb-tutorial), Daejeon, KR - February 27, 2018 - Arnold Nipper ([video](https://www.youtube.com/watch?v=cygDlOqs9tI))
+
 ## 2026
 
 - [PeeringDB Updates (YoY) & Engaging with the Product Committee](presentation/20260421_ITNOG10_Morina_Livio.pdf) at [ITNOG10](https://www.itnog.it/itnog10/), Bologna, IT - April 21, 2025 - Livio Morina
