@@ -75,7 +75,7 @@ Release Date: 19 July 2023
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
-| [#1344 Auto approval of new carrierfac objects](https://github.com/peeringdb/peeringdb/issues/1344) | `carrierfac` objects are now approved automatically, like [`netfac` objects](https://docs.peeringdb.com/howto/search/#querying-with-the-peeringdb-api). |
+| [#1344 Auto approval of new carrierfac objects](https://github.com/peeringdb/peeringdb/issues/1344) | `carrierfac` objects are now approved automatically, like [`netfac` objects](https://docs.peeringdb.com/howto/query_the_api/#querying-with-the-peeringdb-api). |
 | [#1299 Alphabetize simple search results](https://github.com/peeringdb/peeringdb/issues/1299) | Exact match search now go at the top, with other results displayed alphabetically. |
 | [#997 Allow organizations to require affiliated users to enable 2FA](https://github.com/peeringdb/peeringdb/issues/997) | Organizations can now require their users to turn on MFA. |
 | [#1370 Facility Geocode not working](https://github.com/peeringdb/peeringdb/issues/1370) | Fixed a bug that meant some `fac`s did not have a geocode. |

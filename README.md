@@ -11,7 +11,7 @@ To work on and change these documents, you'll need git, python, and pip.
 
 - CentOS
     ```sh
-    sudo yum install python-pip
+    sudo dnf install python3 python3-pip
     ```
 
 Fork the repo

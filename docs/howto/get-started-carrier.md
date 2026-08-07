@@ -1,10 +1,6 @@
 # HOWTO: Get Started with PeeringDB as a Carrier Operator 
 
-## About PeeringDB
-
-PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
-
-We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
+New to PeeringDB? See [About PeeringDB](../index.md) for background on what it is and who runs it.
 
 ## Why?
 
@@ -19,6 +15,17 @@ If you need additional help getting started, please contact us at: [support@peer
 ## What is a Carrier?
 
 The `carrier` object is used to describe providers offering [L1 or L2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer) services in a `facility`. It is different from a `net` because that describes services provided at L3 and is linked to its autonomous system number.
+
+## Carrier infrastructure qualification checklist
+
+**Eligible**: carrier-grade network infrastructure services — such as dark fibre, wavelengths/DWDM, Ethernet transport, or MPLS VPN — delivered over fibre infrastructure that your organization owns and operates.
+
+**Not eligible**:
+
+* Internet access services alone
+* Transport that is resold or leased from another provider, rather than delivered over infrastructure your organization owns and operates
+
+Your website must clearly describe the carrier services you offer and indicate that they run over infrastructure you own and operate — this is required for approval.
 
 ## Information required
 
@@ -36,7 +43,9 @@ You can look at the information shared by other PeeringDB users to work out what
 
 ## Database records to create
 
-### User
+Follow these steps in order — each object depends on the one before it.
+
+### 1. Create a user account
 
 The `org` is the parent for the carrier but you will need to start the process by creating a user account. 
 
@@ -46,7 +55,7 @@ You can associate more than one address with your account when you've created it
 
 If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
-### Org
+### 2. Create your org
 
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
 
@@ -54,7 +63,7 @@ Your `org` object will be assigned a numeric identifier, called its `id`. This i
 
 ![Excellent Example Org Object](images/excellent-example-org.png)
 
-### Carrier
+### 3. Create your carrier
 
 Once you have created your organization you may add the `carrier` object. You do this by using the Add Carrier tab in the “Manage” menu below your organization.
 
@@ -67,6 +76,10 @@ You then click the edit button in the top right of the `carrier` screen and indi
 ## Next steps
 
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. 
+
+## More information
+
+The [PeeringDB Data Ownership Policy](https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf) describes all the objects in PeeringDB.
 
 ## Improving this HOWTO
 
