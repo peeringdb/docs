@@ -2,13 +2,16 @@
 from __future__ import annotations
 
 import logging
-import os
 import re
 import subprocess
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from xml.dom import minidom
 from xml.etree import ElementTree as ET
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_url import resolve_site_url
 
 log = logging.getLogger("mkdocs.hooks.atom")
 
@@ -22,7 +25,7 @@ MAX_ENTRIES = 20
 def on_pre_build(config, **kwargs):
     docs_dir = Path(config["docs_dir"])
     repo_root = Path(config["config_file_path"]).resolve().parent
-    site_url = os.environ.get("SITE_URL_OVERRIDE") or config.get("site_url") or "https://docs.peeringdb.com/"
+    site_url = resolve_site_url(config.get("site_url"))
     if not site_url.endswith("/"):
         site_url += "/"
 
