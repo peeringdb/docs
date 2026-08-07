@@ -66,6 +66,20 @@ You can recover your account if you forget your username or password. Just go to
 
 ![](images/lost_credentials.png)
 
+## Organization affiliation & admin succession
+
+### RDAP email verification
+
+When you request to affiliate with an organization that doesn't yet have an admin, PeeringDB looks up the ASN's registration data via [RDAP](https://about.rdap.org/) at the relevant Regional Internet Registry (RIPE, ARIN, APNIC, LACNIC, or AFRINIC). If the email address on your PeeringDB account matches one of the email addresses published in that RDAP record, your affiliation request is approved automatically.
+
+If your account email doesn't match, add the RIR-registered address as a secondary email on your [profile](https://www.peeringdb.com/profile) rather than switching your primary login email. Secondary emails are checked during the same automated match, so this is usually the fastest way to unblock an affiliation request without waiting on [PeeringDB Support](mailto:support@peeringdb.com).
+
+### Claiming admin rights for an existing organization
+
+If your organization already has a `net`, `ix`, `fac`, or `carrier` record in PeeringDB but you can't reach its existing admins — for example, after staff turnover or an ASN acquisition — you have two options:
+
+* Ask a current admin to affiliate you and grant admin rights, if you can identify and reach one through your organization's own records.
+* If no admin can be reached, contact [PeeringDB Support](mailto:support@peeringdb.com) with proof that ties you to the organization. An email address matching the RDAP/WHOIS record for the ASN is the fastest path, since it lets support verify the request the same way automated affiliation does. For ASN acquisitions, include the RIR transfer confirmation showing the ASN now belongs to your organization.
 
 ## OAuth
 
