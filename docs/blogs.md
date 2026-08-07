@@ -2,7 +2,7 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
-Subscribe via [Atom feed](atom.xml) to get notified of new posts.
+Subscribe via [Atom feed](blog/atom.xml) to get notified of new posts.
 
 ## 2026
 - [Do We Still Need Public Beta?](blog/public_beta.md) - July 26, 2026
