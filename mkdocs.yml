@@ -3,6 +3,7 @@ site_url: https://docs.peeringdb.com/
 
 hooks:
   - scripts/generate_blog_atom_feed.py
+  - scripts/generate_release_notes_atom_feed.py
   - scripts/generate_cname.py
   - scripts/generate_banner.py
 # Deliberately disabled: uncommenting repo_url adds an "Edit on GitHub" link to every
