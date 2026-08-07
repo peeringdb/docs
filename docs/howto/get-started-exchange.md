@@ -1,9 +1,6 @@
 # HOWTO: Get Started with PeeringDB as an Exchange Operator
 
-## About PeeringDB
-PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
-
-We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
+New to PeeringDB? See [About PeeringDB](../index.md) for background on what it is and who runs it.
 
 ## Why?
 PeeringDB is the interconnection database. Registering information about your exchange in PeeringDB makes it visible to network operators who want to peer with others across your fabric. 
@@ -41,7 +38,9 @@ Software for IXPs will generate this file for you but when you have just a few p
 
 ## Database records to create
 
-### User
+Follow these steps in order — each object depends on the one before it.
+
+### 1. Create a user account
 The `org` is the parent for the IX but you will need to start the process by creating a user account. 
 
 Once created, you will login using your username, password, and second factor.
@@ -50,17 +49,17 @@ You can associate more than one address with your account when you've created it
 
 If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
-### Org
+### 2. Create your org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
 
 Your `org` object will be assigned a numeric identifier, called its id. This is what will be referenced by any child net objects.
 
 ![Example Organization Form](images/example-organization-form.png)
 
-### Ix
+### 3. Create your ix
 Once you have created your organization you may add the `ix` object. You do this by using the Add Exchange tab in the “Manage” menu below your organization. You’ll be able to input either your IPv4 or IPv6 LAN prefix through this form and will then need to add the other by editing the object once it is created.
 
-### Prefixes
+### 4. Add prefixes
 An IPv4 or IPv6 prefix is needed to register your IX. Once your IX is approved, please also provide the other prefix. For the IPv6 prefix a /64 mask is highly recommended. Please talk to [support](mailto:support@peeringdb.com) if you would like to use another mask. The prefix information is used to verify connections from your participants. 
 
 ![Add an IPv4 Prefix](images/prefixes-add-ipv4.png)
