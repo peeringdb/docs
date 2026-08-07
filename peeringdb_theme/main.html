@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  <link rel="alternate" type="application/atom+xml" title="PeeringDB Blog" href="{{ base_url }}/atom.xml">
+{% endblock %}
+
 <!-- Disable next/prev by overriding. -->
 {%- block next_prev %}{%- endblock %}
 

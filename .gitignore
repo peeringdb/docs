@@ -2,3 +2,6 @@ site/
 .DS_Store
 venv/
 .venv/
+docs/atom.xml
+__pycache__/
+*.pyc
