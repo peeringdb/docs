@@ -215,8 +215,14 @@ data:
 </dl>
 <h4 id="authentication">Authentication</h4>
 <ul>
-<li>Basic HTTP authorization</li>
+<li>API key, sent in the <code>Authorization</code> header as <code>Authorization: Api-Key &lt;KEY&gt;</code></li>
 </ul>
+<p>An API key is required for all authenticated requests, including all writes<br />
+(<code>POST</code>, <code>PUT</code>, <code>PATCH</code>, <code>DELETE</code>). See our <a href="/howto/api_keys/">guide on API keys</a><br />
+for how to create and use one, and <a href="/howto/search/#querying-with-the-peeringdb-api">querying with the PeeringDB<br />
+API</a> for copy/paste examples.</p>
+<p>Basic HTTP authorization is deprecated and is no longer accepted. Authenticated<br />
+requests that use it are rejected with a <code>403</code>.</p>
 <p>In order to access the API as a guest simply omit any authentication</p>
 <h2 id="operations">Operations</h2>
 <h3 id="get-multiple-objects">GET: multiple objects</h3>
