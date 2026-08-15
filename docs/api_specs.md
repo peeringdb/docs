@@ -51,7 +51,15 @@ JSON
 
 #### Authentication
 
-- Basic HTTP authorization
+- API key, sent in the `Authorization` header as `Authorization: Api-Key <KEY>`
+
+An API key is required for all authenticated requests, including all writes
+(`POST`, `PUT`, `PATCH`, `DELETE`). See our [guide on API keys](/howto/api_keys/)
+for how to create and use one, and [querying with the PeeringDB
+API](/howto/search/#querying-with-the-peeringdb-api) for copy/paste examples.
+
+Basic HTTP authorization is deprecated and is no longer accepted. Authenticated
+requests that use it are rejected with a `403`.
 
 In order to access the API as a guest simply omit any authentication
 
