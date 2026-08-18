@@ -205,13 +205,6 @@
 <h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
 <p>You may make a full local copy with <a href="https://github.com/peeringdb/peeringdb-py">https://github.com/peeringdb/peeringdb-py</a>, see docs at <a href="http://peeringdb.github.io/peeringdb-py/cli/">http://peeringdb.github.io/peeringdb-py/cli/</a></p>
 <p>The initial run will perform a full sync, while subsequent runs will incrementally update changed records.</p>
-<h3 id="when-syncing-to-mysql-i-get-illegal-mix-of-collations">When syncing to MySQL I get 'Illegal mix of collations'</h3>
-<p>Such as:</p>
-<pre><code>django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
-</code></pre>
-<p>We will fix that when time allows, for the time being, just run:</p>
-<pre><code>alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
-</code></pre>
 <h3 id="what-does-the-never-via-route-servers-flag-mean-and-how-does-it-work">What does the <code>Never via route servers</code> flag mean and how does it work?</h3>
 <p>With release 2.18.0 a new feature <code>Never via route servers</code> (API field <code>info_never_via_route_servers</code>) has been introduced. There is a tick box in section "Protocols Supported" to set it. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression <em>ASN</em>. Please make sure that the IXPs you are connected to are supporting this feature. I.e. they have to check PeeringDB regularly, evaluate this field and honour the setting.</p>
 <h2 id="governance-and-membership">Governance and membership</h2>
