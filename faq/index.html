@@ -196,14 +196,10 @@
 <h3 id="using-asn-used-to-work-what-happened">Using /asn used to work, what happened?</h3>
 <p>Please see <a href="http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html">http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.html</a> for details.</p>
 <h3 id="how-do-the-new-permissions-work">How do the new permissions work?</h3>
-<p>Now there is an <code>org</code> entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.</p>
+<p>Now there is an <code>org</code> entity which owns the records. A record can be a carrier, a facility, an exchange, or a network. Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.</p>
 <h3 id="authenticating-via-embedded-userpass-in-the-url">Authenticating via embedded user/pass in the URL</h3>
-<p>Support for this depends on the client and some browsers have stopped supporting embedded<br />
-authentication in the URL</p>
-<p>So for example </p>
-<pre><code>https://&lt;username&gt;:&lt;password&gt;@peeringdb.com/api/net/1
-</code></pre>
-<p>may work or it may not depending on the browser you are using.</p>
+<p>We have <a href="https://docs.peeringdb.com/blog/mfa_mandatory/">required MFA</a> since mid-2025. Requiring MFA meant ending support for simple authentication in API queries. You must now use an API Key when authenticating to the API. </p>
+<p>There is a "Copy API Query" button for every web query. The example shows where you need to insert your API Key to authenticate the query.</p>
 <h3 id="why-are-dates-represented-as-strings-in-the-api">Why are dates represented as strings in the API?</h3>
 <p>Date strings are ISO 8601 to keep a standard format. Comparison operations such as <code>__gt</code>, <code>__lt</code>, etc all still work as expected. For fetching records against updated timestamp, you may also use <code>?since=&lt;seconds since epoch&gt;</code></p>
 <h3 id="how-do-i-sync-the-whole-database-to-my-local-machine">How do I sync the whole database to my local machine?</h3>
