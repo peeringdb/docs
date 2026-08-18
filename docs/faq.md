@@ -49,18 +49,13 @@ Please see <http://lists.peeringdb.com/pipermail/pdb-announce/2016-March/000036.
 
 ### How do the new permissions work?
 
-Now there is an `org` entity which owns the records.  A record can be a facility, an exchange point, or a network.  Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.
+Now there is an `org` entity which owns the records. A record can be a carrier, a facility, an exchange, or a network. Users are added to the org entity and can then be given access to any facility, any network, any exchange point, or anything the org itself owns.
 
 ### Authenticating via embedded user/pass in the URL
 
-Support for this depends on the client and some browsers have stopped supporting embedded
-authentication in the URL
+We have [required MFA](https://docs.peeringdb.com/blog/mfa_mandatory/) since mid-2025. Requiring MFA meant ending support for simple authentication in API queries. You must now use an API Key when authenticating to the API. 
 
-So for example 
-
-    https://<username>:<password>@peeringdb.com/api/net/1 
-    
-may work or it may not depending on the browser you are using.
+There is a "Copy API Query" button for every web query. The example shows where you need to insert your API Key to authenticate the query.
 
 ### Why are dates represented as strings in the API?
 Date strings are ISO 8601 to keep a standard format. Comparison operations such as `__gt`, `__lt`, etc all still work as expected. For fetching records against updated timestamp, you may also use `?since=<seconds since epoch>`
