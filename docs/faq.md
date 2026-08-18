@@ -65,16 +65,6 @@ You may make a full local copy with <https://github.com/peeringdb/peeringdb-py>,
 
 The initial run will perform a full sync, while subsequent runs will incrementally update changed records.
 
-### When syncing to MySQL I get 'Illegal mix of collations'
-
-Such as:
-
-    django.db.utils.OperationalError: (1267, "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='")
-
-We will fix that when time allows, for the time being, just run:
-
-    alter database peeringdb default character set utf8 default collate utf8_unicode_ci;
-    
 ### What does the `Never via route servers` flag mean and how does it work?
 With release 2.18.0 a new feature `Never via route servers` (API field `info_never_via_route_servers`) has been introduced. There is a tick box in section "Protocols Supported" to set it. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression _ASN_. Please make sure that the IXPs you are connected to are supporting this feature. I.e. they have to check PeeringDB regularly, evaluate this field and honour the setting.
 
