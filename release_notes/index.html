@@ -143,6 +143,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2820" class="nav-link">Release 2.82.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2810" class="nav-link">Release 2.81.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -220,12 +224,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.82.0</td>
-<td>2026-08-04</td>
-<td><a href="https://docs.peeringdb.com/blog/public_beta/">See blog post</a></td>
-<td>2026-08-18</td>
-</tr>
-<tr>
 <td>2.83.0</td>
 <td>2026-09-08</td>
 <td>2026-09-15</td>
@@ -242,6 +240,50 @@
 <td>2026-11-03</td>
 <td>2026-11-10</td>
 <td>2026-11-17</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2820">Release 2.82.0</h2>
+<p>Release Date: 19 Aug 2026</p>
+<table>
+<thead>
+<tr>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2032">#2032 Fix CSRF and 403 handling issues.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2019">#2019 Not all logged in users see the map option in Advanced Search&gt; Facilities.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2017">#2017 Map pins should show facility name in Advanced Search in page map.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1991">#1991 Add OpenAPI spec validation to CI.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/pull/1976">#1976 Fix api count query.</a></td>
+<td>Improvement removes a wasted query.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1990">#1990 normalize Carrier.fac_count implementation.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/pull/1977">#1977 Optimization: Denormalize Carrier.fac_count to eliminate N+1 API query loops.</a></td>
+<td><code>Carrier.fac_count</code> now natively handled by the database schema like other objects.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1993">#1993 Dependency updates.</a></td>
+<td>As title.</td>
 </tr>
 </tbody>
 </table>
