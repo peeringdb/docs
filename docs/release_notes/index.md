@@ -14,10 +14,24 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** | **Beta release** | **Production release** |
 | -------------- | ---------------- | ------------ | ------------------ |
-| 2.82.0 | 2026-08-04 |  [See blog post](https://docs.peeringdb.com/blog/public_beta/) | 2026-08-18 |
 | 2.83.0 | 2026-09-08 | 2026-09-15 | 2026-09-22 |
 | 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
+
+## Release 2.82.0
+
+Release Date: 19 Aug 2026
+
+| **GitHub issue** | **Summary** |
+| ----------------- | ----------- |
+| [#2032 Fix CSRF and 403 handling issues.](https://github.com/peeringdb/peeringdb/issues/2032) | Fixes bug as per title.|
+| [#2019 Not all logged in users see the map option in Advanced Search> Facilities.](https://github.com/peeringdb/peeringdb/issues/2019) | Fixes bug as per title.|
+| [#2017 Map pins should show facility name in Advanced Search in page map.](https://github.com/peeringdb/peeringdb/issues/2017) | Fixes bug as per title.|
+| [#1991 Add OpenAPI spec validation to CI.](https://github.com/peeringdb/peeringdb/issues/1991) | As title.|
+| [#1976 Fix api count query.](https://github.com/peeringdb/peeringdb/pull/1976) | Improvement removes a wasted query.|
+| [#1990 normalize Carrier.fac_count implementation.](https://github.com/peeringdb/peeringdb/issues/1990) | As title.|
+| [#1977 Optimization: Denormalize Carrier.fac_count to eliminate N+1 API query loops.](https://github.com/peeringdb/peeringdb/pull/1977) | `Carrier.fac_count` now natively handled by the database schema like other objects.|
+| [#1993 Dependency updates.](https://github.com/peeringdb/peeringdb/issues/1993) | As title.|
 
 ## Release 2.81.0
 
