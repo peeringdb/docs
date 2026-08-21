@@ -11,7 +11,7 @@ The database is a non-profit, community-driven initiative run and promoted by vo
 
 ### How do I get started?
 
-See our Quick Start guide: <http://docs.peeringdb.com/#quick-start>
+See our [HOWTOs](/howtos/) for step-by-step guides to get started as a Network, Exchange, Facility, or Carrier operator.
 
 ### Affiliation requests 
 
@@ -31,6 +31,21 @@ A: After you have registered, go to your [profile](https://www.peeringdb.com/pro
 
 In any case you should get an answer either from your admin or [PeeringDB Support](mailto:support@peeringdb.com). If you don't get an answer within two working days, please mail [PeeringDB Support](mailto:support@peeringdb.com) providing necessary information (ASN, Organization).
 
+### Mergers and Acquisitions
+
+If your company has acquired another company and you want to bring the acquired company's resources under your own management in PeeringDB, contact [PeeringDB Support](mailto:support@peeringdb.com) for assistance.
+
+#### Example
+
+1. Company A has been acquired by Company B.
+2. Both A and B have their own organization (objects) in PeeringDB.
+3. Company B wants to manage Company A's resources under their own PeeringDB organization.
+4. Resources managed by Company A _can_ be transferred to Company B's management, if an organization merge is requested by contacting [PeeringDB Support](mailto:support@peeringdb.com).
+5. Open a ticket with [PeeringDB Support](mailto:support@peeringdb.com):
+   * Additional information may be requested by our support staff.
+   * If you write from an e-mail address that is an admin for both organizations, the request is usually processed as soon as support reviews it.
+
+If Company A's admins can no longer be reached — rather than this being a voluntary handoff — see [Claiming admin rights for an existing organization](/howto/authenticate/#claiming-admin-rights-for-an-existing-organization) instead.
 
 ## Technical
 ### How do I query by ASN?
@@ -68,6 +83,16 @@ The initial run will perform a full sync, while subsequent runs will incremental
 ### What does the `Never via route servers` flag mean and how does it work?
 With release 2.18.0 a new feature `Never via route servers` (API field `info_never_via_route_servers`) has been introduced. There is a tick box in section "Protocols Supported" to set it. If set it is a hint for an IXP to use that information to block any BGP updates where the AS_PATH matches the regular expression _ASN_. Please make sure that the IXPs you are connected to are supporting this feature. I.e. they have to check PeeringDB regularly, evaluate this field and honour the setting.
 
+### Why can't I delete my Facility, IX Prefix, or Point of Contact?
+
+PeeringDB blocks deletion of certain objects while other records still depend on them, to avoid silently breaking someone else's configuration:
+
+* **Facility** — can't be deleted while any `net` or `ix` still lists a presence there. Remove or migrate those connections first, or contact [PeeringDB Support](mailto:support@peeringdb.com) if the facility has shut down entirely.
+* **IX Prefix** — can't be deleted while networks are still connected to that exchange using it, since removing it would also drop those connections.
+* **Technical Point of Contact** — your last Technical, NOC, or Policy contact can't be deleted while your network still has active IXP connections, since exchanges need a way to reach you.
+
+In each case, either resolve the dependency first or contact [PeeringDB Support](mailto:support@peeringdb.com) explaining why the deletion should proceed.
+
 ## Governance and membership
 ### How does one become a PeeringDB member?
 
@@ -88,3 +113,4 @@ No, there are not.
 ### To register network information in the PeeringDB, is an organization required to join as a member?
 
 No, that isn't necessary. 
+

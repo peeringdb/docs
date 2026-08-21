@@ -34,17 +34,31 @@ We recommend using a randomly generated password or passphrase.
 
 ## Multi-factor authentication (MFA)
 
+MFA is mandatory: you must have a second factor configured to log in to PeeringDB.
+
 We support three MFA methods. You can use:
 
 * A time-based one-time password, as defined in [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238.html)
 * A [FIDO U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/) hardware token
 * A [Passkey](https://www.passkeycentral.org/introduction-to-passkeys/how-passkeys-work)
 
-You can choose to have more than one second factor configured. 
+You can choose to have more than one second factor configured.
 
-You can also download and securely store backup codes, in case a second factor is destroyed.
+### Setting up your second factor
 
-You can configure these in your account profile.
+Go to your [profile](https://www.peeringdb.com/profile) and click "Manage Multi-factor Authentication" under Account Security.
+
+![Location of the Manage Multi-factor Authentication button on the profile page](images/Location_of_MFA_button.png)
+
+From there you can set up a TOTP app, register U2F hardware tokens or Passkeys, and manage the factors you've already configured. You can also download and securely store backup codes, in case a second factor is destroyed.
+
+![Multi-factor Authentication Management screen showing TOTP, backup tokens, and registered security keys](images/MFA_management.png)
+
+### Requiring MFA for your organization
+
+Organization admins can require everyone affiliated with their organization to enable 2FA. This option is on the Users tab of your organization's Manage page.
+
+![Require users in your organization to enable 2FA checkbox on the organization Users tab](images/require_users_to_enable_2fa.png)
 
 ## Account recovery
 
@@ -52,6 +66,22 @@ You can recover your account if you forget your username or password. Just go to
 
 ![](images/lost_credentials.png)
 
+## Organization affiliation & admin succession
+
+### RDAP email verification
+
+When you request to affiliate with an organization that doesn't yet have an admin, PeeringDB looks up the ASN's registration data via [RDAP](https://about.rdap.org/) at the relevant Regional Internet Registry (RIPE, ARIN, APNIC, LACNIC, or AFRINIC). If the email address on your PeeringDB account matches one of the email addresses published in that RDAP record, your affiliation request is approved automatically.
+
+If your account email doesn't match, add the RIR-registered address as a secondary email on your [profile](https://www.peeringdb.com/profile) rather than switching your primary login email. Secondary emails are checked during the same automated match, so this is usually the fastest way to unblock an affiliation request without waiting on [PeeringDB Support](mailto:support@peeringdb.com).
+
+### Claiming admin rights for an existing organization
+
+If your organization already has a `net`, `ix`, `fac`, or `carrier` record in PeeringDB but you can't reach its existing admins — for example, after staff turnover or an ASN acquisition — you have two options:
+
+* Ask a current admin to affiliate you and grant admin rights, if you can identify and reach one through your organization's own records.
+* If no admin can be reached, contact [PeeringDB Support](mailto:support@peeringdb.com) with proof that ties you to the organization. An email address matching the RDAP/WHOIS record for the ASN is the fastest path, since it lets support verify the request the same way automated affiliation does. For ASN acquisitions, include the RIR transfer confirmation showing the ASN now belongs to your organization.
+
+If the acquired organization's admins are still active and simply want to hand off management voluntarily, see the [Mergers and Acquisitions FAQ](/faq/#mergers-and-acquisitions) instead.
 
 ## OAuth
 

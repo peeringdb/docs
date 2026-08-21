@@ -1,11 +1,8 @@
 # HOWTO: Get Started with PeeringDB as a Network Operator
 
-## About PeeringDB
-PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
+New to PeeringDB? See [About PeeringDB](../index.md) for background on what it is and who runs it.
 
-We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
-
-## Why should I add my network?
+## Why?
 Almost half of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date.
 
 This data will help you to accelerate the process of finding and connecting with other networks while supporting a faster and more decisive deployment of your own network expansion and development plans.
@@ -37,9 +34,9 @@ This information is not required but is useful:
 Some networks share additional information. You can look at the information shared by your peers and potential peers to work out what your network should be sharing.
 
 ## Database records to create
-Some objects have a notes field to share additional information. You can use [Markdown](https://daringfireball.net/projects/markdown/) formatting for the notes to make them more readable.
+Some objects have a notes field to share additional information. You can use [Markdown](https://daringfireball.net/projects/markdown/) formatting for the notes to make them more readable. Follow these steps in order — each object depends on the one before it.
 
-### User
+### 1. Create a user account
 The `org` is the parent for the network but you will need to start the process by creating a user account. We recommend that you use an e-mail address that exists in the publicly available contact information for the network’s ASN so that we can automatically validate your affiliation with the network.
 
 Once created, you will login using your username, password, and second factor.
@@ -48,19 +45,19 @@ You can associate more than one address with your account when you've created it
 
 If you use a role account for a PeeringDB user you should update the password when people who had access to the role account leave your organization. If you use a ticketing system, please make sure it does not auto-respond in a way that generates a slew of new tickets.
 
-### Org
+### 2. Create your org
 The `org` object is your organization’s core record in PeeringDB. All it needs is an organization name but you can add extra value by including information about where your organization is located. You could specify as little as a country name or as much as a full postal address.
 
 Your `org` object will be assigned a numeric identifier, called its `id`. This is what will be referenced by any child net objects.
 
-### Net
+### 3. Create your net
 Basic network information is automatically retrieved from the RIR or NIR’s database based on the AS Number. Brand names or other identifiers can be listed in the `aka` field. For example:
 
 `name: Example Org Legal Entity`
 
 `aka: Example Superfast Networks, Example Reliable Hosting`
 
-### Permissions to grant
+### 4. Set up contacts and permissions
 Once you are up and running you can create POC (Point of Contact) objects for functional contacts with your network. Not all networks need all POCs. These are:
 
 * Abuse
