@@ -32,6 +32,7 @@ Release Date: 19 Aug 2026
 | [#1990 normalize Carrier.fac_count implementation.](https://github.com/peeringdb/peeringdb/issues/1990) | As title.|
 | [#1977 Optimization: Denormalize Carrier.fac_count to eliminate N+1 API query loops.](https://github.com/peeringdb/peeringdb/pull/1977) | `Carrier.fac_count` now natively handled by the database schema like other objects.|
 | [#1993 Dependency updates.](https://github.com/peeringdb/peeringdb/issues/1993) | As title.|
+| [peeringdb-py #139 Dependency updates.](https://github.com/peeringdb/peeringdb-py/issues/139) | As title.|
 
 ## Release 2.81.0
 
