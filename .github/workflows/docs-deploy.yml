@@ -1,0 +1,54 @@
+name: Deploy Docs Preview
+
+on:
+  push:
+    branches:
+      - master
+      - admincom/docs-improvements
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Configure git identity for the gh-deploy commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # This fork's preview serves at a dedicated dev domain, docs-dev.peeringdb.dk,
+      # distinct from upstream production's docs.peeringdb.com. The domain is set
+      # as a repo variable (Settings -> Secrets and variables -> Actions ->
+      # Variables -> SITE_URL_OVERRIDE) rather than hardcoded here, so it can be
+      # changed without editing this file. It feeds both scripts/generate_cname.py
+      # (writes docs/CNAME) and scripts/generate_blog_atom_feed.py (the feed's
+      # self-link), so both stay in sync with wherever this deploy actually serves
+      # from. Safe by default if this branch is ever merged upstream: with no
+      # variable set there, both hooks fall back to mkdocs.yml's site_url
+      # (docs.peeringdb.com), so no manual CNAME edit is needed at merge time.
+      - name: Deploy to gh-pages
+        env:
+          SITE_URL_OVERRIDE: ${{ vars.SITE_URL_OVERRIDE }}
+        run: uv run mkdocs gh-deploy --clean --force --no-history
