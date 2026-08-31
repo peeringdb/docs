@@ -2,11 +2,12 @@
 
 HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.
 
-## Create entries 
-- [Get Started with PeeringDB as a Carrier Operator](howto/get-started-carrier.md)
-- [Get Started with PeeringDB as a Exchange Operator](howto/get-started-exchange.md)
-- [Get Started with PeeringDB as a Facility or Campus Operator](howto/get-started-facility.md)
-- [Get Started with PeeringDB as a Network Operator](howto/get-started-operator.md)
+## New here? Start with your role
+
+- [Network Operator](howto/get-started-operator.md)
+- [Exchange Operator](howto/get-started-exchange.md)
+- [Facility or Campus Operator](howto/get-started-facility.md)
+- [Carrier Operator](howto/get-started-carrier.md)
 
 ## Manage entries
 - [Reclaim a Network](howto/reclaim_network.md)
@@ -17,6 +18,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 
 ## Search 
 - [Get Started with Search in PeeringDB](howto/search.md)
+- [Query the PeeringDB API](howto/query_the_api.md)
 - [Work Within PeeringDB’s Query Limits](howto/work_within_peeringdbs_query_limits.md)
 - [v2 Search](howto/v2_search.md)
 
