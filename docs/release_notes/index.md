@@ -24,6 +24,7 @@ Release Date: 19 Aug 2026
 
 | **GitHub issue** | **Summary** |
 | ----------------- | ----------- |
+| [#1973 Force networks to publish as-sets unambiguously.](https://github.com/peeringdb/peeringdb/issues/1973) | Introduced an intelligent AS-SET name editor and proactively fixed unambiguous set names while contacting owners of networks with ambiguously named sets.|
 | [#2032 Fix CSRF and 403 handling issues.](https://github.com/peeringdb/peeringdb/issues/2032) | Fixes bug as per title.|
 | [#2019 Not all logged in users see the map option in Advanced Search> Facilities.](https://github.com/peeringdb/peeringdb/issues/2019) | Fixes bug as per title.|
 | [#2017 Map pins should show facility name in Advanced Search in page map.](https://github.com/peeringdb/peeringdb/issues/2017) | Fixes bug as per title.|
