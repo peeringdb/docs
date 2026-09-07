@@ -6,17 +6,19 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 ## Release schedule
 
-This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead for testing new and improved features in beta. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before beta release.
+This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before release.
+
+We don't schedule a public beta period every month anymore. This change was based on user feedback that it is not necessary. Public beta periods will be schedule for spoecific changes that require public review.
 
 We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
 Our releases are generally deployed at around 04:00 UTC.
 
-| **Release number** | **Internal testing** | **Beta release** | **Production release** |
-| -------------- | ---------------- | ------------ | ------------------ |
-| 2.83.0 | 2026-09-08 | 2026-09-15 | 2026-09-22 |
-| 2.84.0 | 2026-10-06 | 2026-10-13 | 2026-10-20 |
-| 2.85.0 | 2026-11-03 | 2026-11-10 | 2026-11-17 |
+| **Release number** | **Internal testing** |  **Production release** |
+| -------------- | ---------------- | ------------------ |
+| 2.83.0 | 2026-09-08 | 2026-09-22 |
+| 2.84.0 | 2026-10-06 | 2026-10-20 |
+| 2.85.0 | 2026-11-03 | 2026-11-17 |
 
 ## Release 2.82.0
 
