@@ -11,6 +11,7 @@
 
 #### 2026
 
+- [September 3rd, 2026: Meeting Notes](notes/2026-09-03_Product_Committee_Notes.pdf)
 - [August 6th, 2026: Meeting Notes](notes/2026-08-06_Product_Committee_Notes.pdf)
 - [July 2nd, 2026: Meeting Notes](notes/2026-07-02_Product_Committee_Notes.pdf)
 - June 4th, 2026: Deferred Meeting
