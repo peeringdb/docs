@@ -30,6 +30,9 @@ We have changed the way in which PeeringDB will be announcing future enhancement
 * [PeeringDB Governance](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov)
     Discussion list for PeeringDB governance issues.  This is a community-based effort, the community’s input will help guide the future of the PeeringDB as it has always done.
 
+* [API v3 Discuss](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss)
+    Discussion about v3 of the PeeringDB API.
+
 * [PeeringDB Technical](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech)
     Discussion about PeeringDB technical topics.
 
