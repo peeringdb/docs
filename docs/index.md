@@ -98,6 +98,8 @@ PeeringDB commissioned a full audit of PeeringDB's source code in 2018. [Compute
 
 ## Beta development
 
+[Since August 2026](/blog/public_beta/), PeeringDB software changes go directly to production without a public beta by default. A public beta is only scheduled for major changes to the UI or API. When a new version of PeeringDB has a public beta test we deploy a PeeringDB beta server.
+
 * The [PeeringDB beta server](https://beta.peeringdb.com/) runs the latest beta software version, with full access over HTTP and the API.  Note that changes made to the beta database are local to the beta server only, and are not reflected on the production servers.
 
 * The [latest changes to PeeringDB](https://beta.peeringdb.com/changes) automagically redirects to the list of issues on PeeringDB's GitHub repository that document all of the changes in the current beta version.
