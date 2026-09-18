@@ -20,6 +20,10 @@
 * Please log bugs and feature requests at [GitHub](https://github.com/peeringdb/peeringdb/issues).
 * Questions, comments and everything else should go to <support@peeringdb.com>.
 
+## API v3
+
+API v3 is the start of modernizing the PeeringDB API, and the [draft spec](api_v3.md) is open for comments. Send feedback to the [tracking issue #625](https://github.com/peeringdb/peeringdb/issues/625) or the [API v3 Discuss](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss) mailing list.
+
 ## Mailing lists
 
 We have changed the way in which PeeringDB will be announcing future enhancements, changes, maintenance windows, and other information. If you would like to be notified of certain events, or participate in certain discussions, please subscribe to one of the following email lists:

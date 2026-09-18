@@ -20,6 +20,7 @@ nav:
   - Technical:
     - Release Notes: release_notes/index.md
     - API Specs: api_specs.md
+    - API v3 (draft): api_v3.md
     - IX-F JSON: ix-f-json-import-rules.md
     - OAuth: oauth.md
     - Translations: translation.md
