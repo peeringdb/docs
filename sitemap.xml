@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.peeringdb.com/api_v3/</loc>
+         <lastmod>2026-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.peeringdb.com/blogs/</loc>
          <lastmod>2026-09-18</lastmod>
          <changefreq>daily</changefreq>
@@ -47,6 +52,16 @@
     </url>
     <url>
          <loc>https://docs.peeringdb.com/presentations/</loc>
+         <lastmod>2026-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/testing/</loc>
+         <lastmod>2026-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/thanks/</loc>
          <lastmod>2026-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -492,6 +507,16 @@
     </url>
     <url>
          <loc>https://docs.peeringdb.com/committee/product/workflow/</loc>
+         <lastmod>2026-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/gov/test/</loc>
+         <lastmod>2026-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.peeringdb.com/gov/finances/test/</loc>
          <lastmod>2026-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>

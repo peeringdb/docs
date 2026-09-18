@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.peeringdb.com/api_v3/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>API v3 (draft) - PeeringDB Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-14LRNCMV44"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-14LRNCMV44');
+        </script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">PeeringDB Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">About</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../gov/" class="nav-link">Governance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../committee/admin/" class="dropdown-item">Admin Committee</a>
+</li>
+                                    
+<li>
+    <a href="../committee/operations/" class="dropdown-item">Operations Committee</a>
+</li>
+                                    
+<li>
+    <a href="../committee/outreach/" class="dropdown-item">Outreach Committee</a>
+</li>
+                                    
+<li>
+    <a href="../committee/product/" class="dropdown-item">Product Committee</a>
+</li>
+                                    
+<li>
+    <a href="../taskforce/dataownership/" class="dropdown-item">Data Ownership Task Force</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../release_notes/" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="../api_specs/" class="dropdown-item">API Specs</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">API v3 (draft)</a>
+</li>
+                                    
+<li>
+    <a href="../ix-f-json-import-rules/" class="dropdown-item">IX-F JSON</a>
+</li>
+                                    
+<li>
+    <a href="../oauth/" class="dropdown-item">OAuth</a>
+</li>
+                                    
+<li>
+    <a href="../translation/" class="dropdown-item">Translations</a>
+</li>
+                                    
+<li>
+    <a href="https://github.com/peeringdb/peeringdb/tree/master/docs" class="dropdown-item">Developer Documentation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../howtos/" class="nav-link">HOWTOs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../faq/" class="nav-link">FAQs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../blogs/" class="nav-link">Blogs</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#peeringdb-api-v3" class="nav-link">PeeringDB API v3</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#summary" class="nav-link">Summary</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#decisions-to-be-made" class="nav-link">Decisions to be made</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#schema-changes" class="nav-link">Schema changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#closing" class="nav-link">Closing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#appendices" class="nav-link">Appendices</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="peeringdb-api-v3">PeeringDB API v3</h1>
+<p><strong>Date:</strong> 2026-09-18 · <strong>Status:</strong> DRAFT — first call for comments and review</p>
+<p><strong>Audience:</strong> PeeringDB users, tool authors and the Product Committee. <strong>Feedback:</strong> <a href="https://github.com/peeringdb/peeringdb/issues/625">API v3 tracking issue #625</a>.</p>
+<p>The key words MUST, MUST NOT, SHOULD and MAY are interpreted as described in <a href="https://www.rfc-editor.org/rfc/rfc2119">RFC 2119</a>.</p>
+<p>API v3 is the start of modernizing the PeeringDB API. Its first release is a deliberately small building block that leaves later steps open. Changes to v2 are outside this document's scope.</p>
+<h2 id="summary">Summary</h2>
+<h3 id="goals-and-principles">Goals and principles</h3>
+<p>PeeringDB API v3 is a public, read-only API designed to be served from multiple locations. It launches alongside the current API, called v2 here, with flat objects and incremental sync. Daily snapshots provide the bulk and fallback path.</p>
+<p>OpenAPI will define queries, responses, errors and compatibility. Access and rate-limit policy will be decided before implementation.</p>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>What it means for consumers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Minimal by design</td>
+<td>The first release covers known common reads; features are added as real consumer needs appear.</td>
+</tr>
+<tr>
+<td>Public data only</td>
+<td>Every caller MUST receive the same public data; keys MUST NOT change which data is visible.</td>
+</tr>
+<tr>
+<td>Read-only</td>
+<td>Writes remain on v2.</td>
+</tr>
+<tr>
+<td>Flat objects</td>
+<td>Base objects contain their own fields and related IDs, without <code>depth</code>; relation endpoints and composites provide useful curl-able one-liners (Appendix C).</td>
+</tr>
+<tr>
+<td>Bounded lists</td>
+<td>Every list MUST be paginated; unbounded results are unavailable.</td>
+</tr>
+<tr>
+<td>Strict queries</td>
+<td>Unknown fields, parameters and operators MUST produce errors instead of being ignored.</td>
+</tr>
+<tr>
+<td>Cacheable reads</td>
+<td>Public reads MUST be cacheable and usable by browser applications, without a session-dependent view.</td>
+</tr>
+<tr>
+<td>Eventual consistency</td>
+<td>Public views MUST converge on the same dataset state.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="not-in-the-first-release-on-purpose">Not in the first release, on purpose</h3>
+<ul>
+<li>Writes.</li>
+<li>Authenticated or per-key data views.</li>
+<li><code>depth</code> expansion.</li>
+<li>Ranked full-text search.</li>
+<li>Spatial and distance queries.</li>
+</ul>
+<p>Request additions in <a href="https://github.com/peeringdb/peeringdb/issues/625">peeringdb#625 — API v3</a>. Additions are non-breaking, so existing integrations keep working as v3 grows.</p>
+<h3 id="service-targets">Service targets</h3>
+<p>v3 has the following availability and freshness targets. Freshness measures the time from a source change to a latest-data response, including cache delay; it excludes daily snapshots, historical traversals, third-party mirrors and a client's own polling interval. Responses MUST identify their dataset version, and a version endpoint MUST report source freshness.</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Availability</td>
+<td>At least 99.95%</td>
+</tr>
+<tr>
+<td>Normal freshness</td>
+<td>99% of changes visible within one minute</td>
+</tr>
+<tr>
+<td>Freshness ceiling</td>
+<td>15 minutes for latest-data responses, including cached responses</td>
+</tr>
+</tbody>
+</table>
+<p>Missing a freshness target SHOULD raise an alert and MUST NOT cause an outage or stop serving data; the ceiling is an alerting target, not a serving cutoff.</p>
+<h3 id="public-data-and-withdrawal">Public data and withdrawal</h3>
+<p>v3 MUST exclude restricted and non-public data. Public consumers see active objects, contacts marked Public and public IX-F member-list URLs; restricted contacts, restricted IX-F member-list URLs and non-active objects are absent. The current public field set stays, including public contact details, notes and precise coordinates.</p>
+<p>PeeringDB MUST publish a retention window for older data it serves and provide emergency removal. This policy covers PeeringDB-served copies, not copies third parties already hold.</p>
+<h3 id="what-changes-and-what-stays">What changes and what stays</h3>
+<p>v3 starts with limited search: name and ASN lookup. PeeringDB will measure how often search is used and re-evaluate its scope as usage develops.</p>
+<p>Writes, private data and distance queries remain on v2; whether v3 ever gains writes is outside this release. Authentication remains the sole purpose of the separate authentication service; its work is tracked in <a href="https://github.com/peeringdb/peeringdb/issues/1968">#1968</a>.</p>
+<p>Existing dump URLs are unchanged by this work.</p>
+<h2 id="decisions-to-be-made">Decisions to be made</h2>
+<ol>
+<li>
+<p><strong>Website scope and priority.</strong> The recommendation is a new single-page website that reflects API v3 use and measures how and what people use on v2 and v3, including users who stay on v2 and users who adopt v3.</p>
+<p>A — Develop the website as a companion project; its priority is undecided and adoption can proceed separately.</p>
+<p>B — Include it in the first API release; ties the API launch to the website work.</p>
+<p>C — Leave website requirements out; risks an API that does not meet the site's needs.</p>
+<p><strong>Recommendation:</strong> A, with the new single-page website and usage measurements above.</p>
+</li>
+<li>
+<p><strong>Schema changes for the first release.</strong> Decide whether to complete the agreed schema changes before the first v3 release.</p>
+<p>A — Include them in the first release; consumers and incremental sync start with the agreed schema.</p>
+<p>B — Defer changes until after launch; makes the first migration smaller but requires later client updates and compatibility work.</p>
+<p><strong>Recommendation:</strong> A, include schema changes in the first release, keeping features small while settling the data shape up front.</p>
+</li>
+</ol>
+<h2 id="schema-changes">Schema changes</h2>
+<p>Several changes are already givens and will not delay launch. The Product Committee (PC) SHOULD decide the field and object changes separately, with community input, so they can be folded into the initial v3 release. Appendices F and G collect that discussion; an issue request does not commit a field change to the release.</p>
+<p>Including the changes in the first release gives consumers one schema migration and lets incremental sync start with that schema. Changes after launch require further client updates and a compatibility rule for lists, snapshots and deltas, so consumers never silently interpret incompatible data under the wrong schema.</p>
+<h2 id="closing">Closing</h2>
+<p>This is the first call for feedback on the v3 contract; send comments and concrete use cases to <a href="https://github.com/peeringdb/peeringdb/issues/625">issue #625</a>. The next revision will address that feedback and the remaining decisions, with field and object changes reviewed separately by the PC with community input. OpenAPI will then specify the exact requests and responses.</p>
+<h2 id="appendices">Appendices</h2>
+<h3 id="a-operators-and-filtering">A. Operators and filtering</h3>
+<p>The API v3 path is undecided; <code>/v3/</code> is an example prefix only. Example paths, parameter spelling, header names and JSON shapes are illustrative pending OpenAPI. The operator set below is decided; supported field/type combinations and exact value encodings remain undecided.</p>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+<th>Qualification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Equality</td>
+<td>Exact match</td>
+<td>Case-sensitive for strings by default; exact query spelling pending OpenAPI</td>
+</tr>
+<tr>
+<td><code>lt</code>, <code>lte</code></td>
+<td>Less than, less than or equal</td>
+<td>Supported fields and types to be specified</td>
+</tr>
+<tr>
+<td><code>gt</code>, <code>gte</code></td>
+<td>Greater than, greater than or equal</td>
+<td>Supported fields and types to be specified</td>
+</tr>
+<tr>
+<td><code>in</code></td>
+<td>Match any listed value</td>
+<td>At most 500 values; list encoding undecided</td>
+</tr>
+<tr>
+<td><code>contains</code></td>
+<td>Substring match</td>
+<td>Strings; case-sensitive</td>
+</tr>
+<tr>
+<td><code>startswith</code></td>
+<td>Prefix match</td>
+<td>Strings; case-sensitive</td>
+</tr>
+<tr>
+<td><code>iexact</code></td>
+<td>Case-insensitive equality</td>
+<td>Strings only</td>
+</tr>
+<tr>
+<td><code>icontains</code></td>
+<td>Case-insensitive substring</td>
+<td>Strings only</td>
+</tr>
+<tr>
+<td><code>istartswith</code></td>
+<td>Case-insensitive prefix</td>
+<td>Strings only</td>
+</tr>
+</tbody>
+</table>
+<p>Ordering operators and <code>in</code> have no case-insensitive variants. Unicode normalization, case and diacritic handling MUST mean the same thing everywhere; the exact rules remain undecided. OpenAPI MUST also settle null versus absent, duplicate parameters, filter composition, timestamp precision/time zone and default ordering.</p>
+<p>Unknown parameters, fields and unsupported operators MUST return <code>400</code> rather than being ignored. Errors use RFC 9457 problem details, <code>application/problem+json</code>; their exact fields will be in OpenAPI. Public responses permit browser access with <code>Access-Control-Allow-Origin: *</code>.</p>
+<p>A list traversal MUST read one dataset version or receive an explicit restart requirement. Lists use 250 records per page by default, with a maximum of 1,000, and omit total counts; consumers finish the traversal to establish completeness.</p>
+<p>Illustrative requests; angle-bracketed values are placeholders, not literal query values:</p>
+<pre><code>GET /v3/net/&lt;net-id&gt;
+GET /v3/net?asn=&lt;asn&gt;
+GET /v3/fac?city__istartswith=&lt;city-prefix&gt;
+GET /v3/netixlan?net_id=&lt;net-id&gt;
+</code></pre>
+<h3 id="b-object-types-and-references">B. Object types and references</h3>
+<p>These are the current object types and verified v2 reference names. They do not promise that every current object or field will be preserved in v3; proposed folds and renames appear in Appendix F.</p>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Meaning</th>
+<th>Current related IDs (v2, verified)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>org</code></td>
+<td>Organization</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>fac</code></td>
+<td>Facility</td>
+<td><code>org_id</code>, <code>campus_id</code></td>
+</tr>
+<tr>
+<td><code>ix</code></td>
+<td>Internet exchange</td>
+<td><code>org_id</code></td>
+</tr>
+<tr>
+<td><code>ixlan</code></td>
+<td>Exchange LAN</td>
+<td><code>ix_id</code></td>
+</tr>
+<tr>
+<td><code>ixpfx</code></td>
+<td>Exchange LAN prefix</td>
+<td><code>ixlan_id</code></td>
+</tr>
+<tr>
+<td><code>net</code></td>
+<td>Network</td>
+<td><code>org_id</code></td>
+</tr>
+<tr>
+<td><code>netfac</code></td>
+<td>Network at a facility</td>
+<td><code>net_id</code>, <code>fac_id</code></td>
+</tr>
+<tr>
+<td><code>netixlan</code></td>
+<td>Network on an exchange LAN</td>
+<td><code>net_id</code>, <code>ixlan_id</code>, <code>ix_id</code>; optional facility references <code>net_side_id</code>, <code>ix_side_id</code></td>
+</tr>
+<tr>
+<td><code>poc</code></td>
+<td>Network contact</td>
+<td><code>net_id</code></td>
+</tr>
+<tr>
+<td><code>campus</code></td>
+<td>Campus</td>
+<td><code>org_id</code></td>
+</tr>
+<tr>
+<td><code>carrier</code></td>
+<td>Carrier</td>
+<td><code>org_id</code></td>
+</tr>
+<tr>
+<td><code>carrierfac</code></td>
+<td>Carrier at a facility</td>
+<td><code>carrier_id</code>, <code>fac_id</code></td>
+</tr>
+<tr>
+<td><code>ixfac</code></td>
+<td>Exchange at a facility</td>
+<td><code>ix_id</code>, <code>fac_id</code></td>
+</tr>
+</tbody>
+</table>
+<p>Base responses contain their own fields and related IDs, without nested related objects. Composites and relation endpoints cover common requests for related data.</p>
+<h3 id="c-relation-endpoints-and-composites">C. Relation endpoints and composites</h3>
+<p>v3 will provide curl-able relation endpoints and composites for common one-liners: a network with its exchange presences, an exchange with its members, or a facility with its occupants. The initial set will be chosen from user requests and MAY land in a second v3 phase; its scope and paths are undecided. These endpoints replace common uses of <code>depth</code> without requiring consumers to assemble several lists themselves, and their responses MUST remain bounded.</p>
+<h3 id="d-daily-snapshots">D. Daily snapshots</h3>
+<p>Daily snapshots already exist at public.peeringdb.com and are updated once a day. They provide the bulk, bootstrap and fallback path, with the dataset version included in every file. This existing service needs better documentation.</p>
+<h3 id="e-incremental-sync">E. Incremental sync</h3>
+<p>v3 MUST offer delta sync. A client polling at a tight interval, for example every five minutes, MUST be able to keep a fresh copy; deletions and withdrawals MUST be visible in the delta. Daily snapshots provide the bootstrap and fallback path. OpenAPI will define the requests used for delta sync.</p>
+<h3 id="schema-changes-to-be-decided-separately-by-the-pc">Schema changes (to be decided separately by the PC)</h3>
+<p>The schema changes and linked issues below will be reviewed and decided separately by the PC.</p>
+<h4 id="f-schema-changes-by-object">F. Schema changes by object</h4>
+<p>This list separates requirements from proposals and issue requests. A request's presence here does not set its release date, and a change to the public representation need not change the stored data model. Renames with no agreed destination say <strong>target undecided</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decided in the design</td>
+<td>A requirement of v3 in this document.</td>
+</tr>
+<tr>
+<td>Proposed</td>
+<td>A recommendation that remains undecided.</td>
+</tr>
+<tr>
+<td>Issue request, undecided</td>
+<td>A change requested for discussion, without a decision here.</td>
+</tr>
+<tr>
+<td>Confirmed in tracker; v3.0 scope undecided</td>
+<td>#625 lists the removal as confirmed, but this draft has not settled its inclusion in v3.0.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="org">org</h5>
+<ul>
+<li>Review: <code>floor</code>/<code>suite</code>; the v2 summary favors <code>suite</code> and deprecates <code>floor</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1482#issuecomment-1881460414">#1482</a>, <a href="https://github.com/peeringdb/peeringdb/issues/1482#issuecomment-1877476257">v3 deferral</a>).</li>
+<li>Rename: <code>address1</code> → <code>address</code>; <code>address2</code> → <code>extended-address</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>).</li>
+<li>New field: <code>po-box</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>).</li>
+<li>Object split: move address details into a <code>location</code> object, an alternative to inline address fields — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>).</li>
+<li>Rename: <code>country</code> → <code>geography</code> was proposed; target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/552#issuecomment-739108140">#552</a>, <a href="https://github.com/peeringdb/peeringdb/issues/552#issuecomment-1151570218">closure without agreement</a>).</li>
+<li>Rename/drop: merge <code>aka</code> and <code>name_long</code> into one alias field; API target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1488">#1488</a>).</li>
+</ul>
+<h5 id="fac">fac</h5>
+<ul>
+<li>Drop: <code>npanxx</code>; the final drop summary does not include <code>clli</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/895#issuecomment-1146065458">#895</a>).</li>
+<li>Drop: <code>rencode</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/431#issuecomment-657242735">#431</a>).</li>
+<li>Rename: <code>address1</code> → <code>address</code>; <code>address2</code> → <code>extended-address</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>).</li>
+<li>New field: <code>po-box</code>, empty for facilities in the issue's proposal — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>).</li>
+<li>Object split: address details into a <code>location</code> object, including physical/delivery address distinctions — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/255#issuecomment-695051528">#255</a>, <a href="https://github.com/peeringdb/peeringdb/issues/1407#issuecomment-1665875011">#1407</a>).</li>
+<li>Rename: <code>country</code> → <code>geography</code> was proposed; target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/552#issuecomment-739108140">#552</a>).</li>
+<li>Rename/drop: merge <code>aka</code> and <code>name_long</code> into one alias field; API target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1488">#1488</a>).</li>
+<li>Type change (reference values): return <code>campus_id</code> as null when the campus is excluded from public data; not necessarily a database type change — Proposed.</li>
+</ul>
+<h5 id="ix">ix</h5>
+<ul>
+<li>Drop: <code>media</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/487#issuecomment-643343262">#487</a>, <a href="https://github.com/peeringdb/peeringdb/issues/1555#issuecomment-1997908031">#1555</a>).</li>
+<li>Drop: <code>proto_unicast</code>, <code>proto_multicast</code>, <code>proto_ipv6</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/810#issuecomment-682827697">#810</a>).</li>
+<li>Object fold: absorb <code>ixlan</code> into <code>ix</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/609#issuecomment-574101794">#609</a>, <a href="https://github.com/peeringdb/django-peeringdb/issues/55#issuecomment-699138755">django-peeringdb#55</a>).</li>
+<li>New fields/object fold: replace separate <code>ixpfx</code> objects with <code>prefixlist4</code> and <code>prefixlist6</code> on <code>ix</code>, allowing multiple prefixes — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/609#issuecomment-567082668">#609</a>, <a href="https://github.com/peeringdb/peeringdb/issues/609#issuecomment-572414268">v3 deferral</a>).</li>
+<li>Rename: <code>country</code> → <code>geography</code> was proposed; target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/552#issuecomment-739108140">#552</a>).</li>
+<li>Rename/drop: merge <code>aka</code> and <code>name_long</code> into one alias field; API target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1488">#1488</a>).</li>
+</ul>
+<h5 id="ixlan">ixlan</h5>
+<ul>
+<li>Drop: <code>dot1q_support</code> — confirmed in tracker; v3.0 scope undecided (<a href="https://github.com/peeringdb/peeringdb/issues/903#issuecomment-802957948">#903</a>, <a href="https://github.com/peeringdb/peeringdb/issues/625">#625</a>).</li>
+<li>Object fold: remove the separate IXLAN object in favor of IX — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/609#issuecomment-574101794">#609</a>).</li>
+<li>Type change (client-library relationship): one IXLAN per IX; distinct from removing the HTTP API object — issue request, undecided (<a href="https://github.com/peeringdb/django-peeringdb/issues/55#issuecomment-699429818">django-peeringdb#55</a>, <a href="https://github.com/peeringdb/django-peeringdb/issues/55#issuecomment-731330969">summary</a>).</li>
+<li>Drop (conditional public projection): omit <code>ixf_ixp_member_list_url</code> when its visibility is not Public — Proposed; public-only access is decided in the design.</li>
+</ul>
+<h5 id="ixpfx">ixpfx</h5>
+<ul>
+<li>Drop: <code>in_dfz</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/761#issuecomment-658024265">#761</a>).</li>
+<li>Object fold: replace separate prefix objects with IX prefix lists, <code>prefixlist4</code> and <code>prefixlist6</code> — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/609#issuecomment-567082668">#609</a>).</li>
+</ul>
+<h5 id="net">net</h5>
+<ul>
+<li>Drop: <code>info_type</code> in favor of existing multi-select <code>info_types</code>; not a new v3 field — confirmed in tracker; v3.0 scope undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1357#issuecomment-1741115010">#1357</a>, <a href="https://github.com/peeringdb/peeringdb/issues/625">#625</a>).</li>
+<li>Review: <code>info_traffic</code>; the issue retained it with help text before the tracker called for review — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/594#issuecomment-612933223">#594</a>, <a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-615530249">#625</a>).</li>
+<li>Review: all <code>info_</code> fields for relevance and naming; individual changes and targets undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-675478320">#625</a>).</li>
+<li>Rename: <code>irr_as_set</code>, target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-712475656">#625 comment linking PR #854</a>).</li>
+<li>New field: read-only global BFD-support boolean aggregated from connection flags; target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1331#issuecomment-1464762901">#1331</a>).</li>
+<li>Drop (expanded representation): nested <code>org</code> in base responses; retain related IDs — decided in the design; resolves the shape difference in <a href="https://github.com/peeringdb/peeringdb/issues/1217">#1217</a>.</li>
+</ul>
+<h5 id="netfac">netfac</h5>
+<ul>
+<li>Review: copied <code>name</code>, <code>city</code>, <code>country</code>; the issue body identifies them on <code>netfac</code>, but its v3 removal comment reverses <code>netfac</code>/<code>ixfac</code>, leaving the intended object ambiguous — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/166">#166 body</a>, <a href="https://github.com/peeringdb/peeringdb/issues/166#issuecomment-311860430">v3 comment</a>).</li>
+</ul>
+<h5 id="netixlan">netixlan</h5>
+<ul>
+<li>Drop: duplicated ASN; the v3 comment calls it <code>local_asn</code>, while a later summary identifies <code>netixlan.asn</code> and a read-only view of the network ASN as the interim change — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1671#issuecomment-2344397781">#1671 v3 comment</a>, <a href="https://github.com/peeringdb/peeringdb/issues/1671#issuecomment-2350028156">clarification</a>).</li>
+</ul>
+<h5 id="poc">poc</h5>
+<ul>
+<li>Drop (public projection only): omit contact records whose <code>visible</code> is not Public, including references exposing their IDs — Proposed; public-only access is decided in the design.</li>
+</ul>
+<h5 id="campus">campus</h5>
+<ul>
+<li>Type change (response shape): minimal pending-campus records as an alternative to clearing facility references; not the default proposal — Proposed.</li>
+</ul>
+<h5 id="carrier">carrier</h5>
+<ul>
+<li>Rename/drop: merge <code>aka</code> and <code>name_long</code> into one alias field; API target undecided — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1488">#1488</a>).</li>
+</ul>
+<h5 id="carrierfac">carrierfac</h5>
+<ul>
+<li>No object-specific v3 field change identified; flat representations apply — decided in the design.</li>
+</ul>
+<h5 id="ixfac">ixfac</h5>
+<ul>
+<li>Review: copied <code>name</code>, <code>city</code>, <code>country</code>; the v3 comment names <code>ixfac</code>, while the final v2 summary adds those fields to it — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/166#issuecomment-311860430">#166 v3 comment</a>, <a href="https://github.com/peeringdb/peeringdb/issues/166#issuecomment-669237092">v2 summary</a>).</li>
+</ul>
+<h5 id="cross-object">Cross-object</h5>
+<ul>
+<li>Address model: align the postal address fields with ISO 19160 per the gap analysis — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/1797">#1797</a>; predecessor <a href="https://github.com/peeringdb/peeringdb/issues/1127">#1127</a>).</li>
+<li>Drop: implicit nested related objects from base responses; scalar fields and related IDs remain — decided in the design.</li>
+<li>Type change (enum values, not primitive types): discuss lowercasing all enum values; no enum-by-enum mapping — issue request, undecided (<a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-682896669">#625</a>).</li>
+<li>Type change (reference values): null references whose targets are outside public data, with minimal-parent records as an alternative — Proposed.</li>
+<li>Drop (public projection only): pending/deleted rows and fields outside an explicit public-field list; not database field removals — Proposed.</li>
+<li>New fields (snapshot metadata): dataset version, schema/projection version, complete file list, per-file sizes and hashes; field names undecided — decided in the design.</li>
+<li>New field (each snapshot file): dataset version; field name undecided — Proposed.</li>
+<li>New fields (response/version metadata): served dataset version plus a version endpoint reporting source freshness; names undecided — decided in the design.</li>
+</ul>
+<h4 id="g-linked-issues-and-coverage">G. Linked issues and coverage</h4>
+<p><strong>Covered</strong> means the requirement is decided in this draft; <strong>listed, undecided</strong> means its adoption is unresolved. The two tracker-confirmed removals use the status defined in Appendix F. The final two rows capture requests made in #625 comments rather than in separately linked issues.</p>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Ask</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/487">#487</a></td>
+<td>Drop IX <code>media</code></td>
+<td>Listed, undecided — F: ix</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/895">#895</a></td>
+<td>Drop facility <code>npanxx</code></td>
+<td>Listed, undecided — F: fac; <code>clli</code> was excluded from the final issue summary</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/django-peeringdb/issues/55">django-peeringdb#55</a></td>
+<td>IX–IXLAN one-to-one relation; discuss removing IXLAN</td>
+<td>Listed, undecided — F: ixlan; library relation and API object fold are separate asks</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/595">#595</a></td>
+<td>Establish a v3 planning tracker</td>
+<td>Covered — #625 is the tracking issue</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/609">#609</a></td>
+<td>Fold IXLAN and prefix lists into IX</td>
+<td>Listed, undecided — F: ix/ixlan/ixpfx; the create-response fix shipped on v2</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/255">#255</a></td>
+<td>Restructure organization/facility addresses</td>
+<td>Listed, undecided — F: org/fac; floor/suite additions shipped on v2</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/552">#552</a></td>
+<td>Rename <code>country</code> and accept the new query name</td>
+<td>Rename listed, undecided — F: org/fac/ix; query-alias behavior unspecified</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/761">#761</a></td>
+<td>Drop prefix <code>in_dfz</code></td>
+<td>Listed, undecided — F: ixpfx</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1217">#1217</a></td>
+<td>Resolve single/list nested-organization inconsistency</td>
+<td>Covered — flat objects without <code>depth</code>, B/C; nested expansion is not retained</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1331">#1331</a></td>
+<td>Add a network-wide BFD aggregate</td>
+<td>Listed, undecided — F: net; per-IP support shipped on v2</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1407">#1407</a></td>
+<td>Address objects and duplicate-facility policy</td>
+<td>Address change listed, undecided — F: fac; duplicate policy unspecified</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1488">#1488</a></td>
+<td>Merge <code>aka</code> and <code>name_long</code></td>
+<td>Listed, undecided — F: org/fac/ix/carrier</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/166">#166</a></td>
+<td>Review copied facility name/city/country</td>
+<td>Listed, undecided — F: netfac/ixfac; issue comments disagree about the object</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/594">#594</a></td>
+<td>Review dropping <code>info_traffic</code></td>
+<td>Listed, undecided — F: net; previously retained with help text</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/903">#903</a></td>
+<td>Drop <code>dot1q_support</code></td>
+<td>Confirmed in tracker; v3.0 scope undecided — F: ixlan</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1357">#1357</a></td>
+<td>Drop <code>info_type</code> for <code>info_types</code></td>
+<td>Confirmed in tracker; v3.0 scope undecided — F: net</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/431">#431</a></td>
+<td>Drop facility <code>rencode</code></td>
+<td>Listed, undecided — F: fac</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/810">#810</a></td>
+<td>Drop IX protocol flags</td>
+<td>Listed, undecided — F: ix</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1555">#1555</a></td>
+<td>Drop IX <code>media</code></td>
+<td>Listed, undecided — F: ix; same field as #487</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1671">#1671</a></td>
+<td>Remove duplicated connection ASN</td>
+<td>Listed, undecided — F: netixlan; <code>local_asn</code> wording clarified as <code>netixlan.asn</code> later in the issue</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1482">#1482</a></td>
+<td>Review organization floor/suite drops</td>
+<td>Listed, undecided — F: org</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/pull/854">#854 (PR)</a></td>
+<td>Review <code>irr_as_set</code> naming</td>
+<td>Listed, undecided — F: net; rename ask is in #625's linking comment</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1797">#1797</a></td>
+<td>Address schema gap analysis against ISO 19160</td>
+<td>Listed, undecided — F: cross-object; added address reference, not a #625 cross-reference</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1127">#1127</a></td>
+<td>Standardized addresses supporting floor/suite</td>
+<td>Listed, undecided — F: cross-object; predecessor to #1797</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-682896669">#625: enums</a></td>
+<td>Lowercase enum values</td>
+<td>Listed, undecided — F: cross-object</td>
+</tr>
+<tr>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/625#issuecomment-675478320">#625: info fields</a></td>
+<td>Review all <code>info_</code> fields for relevance and naming</td>
+<td>Listed, undecided — F: net</td>
+</tr>
+</tbody>
+</table>
+<h3 id="h-glossary">H. Glossary</h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v2</td>
+<td>The current, unversioned PeeringDB API at <code>/api/</code>.</td>
+</tr>
+<tr>
+<td>Flat object</td>
+<td>An object's own fields plus related IDs, without nested related objects.</td>
+</tr>
+<tr>
+<td>Snapshot</td>
+<td>A complete public dataset at one consistent state.</td>
+</tr>
+<tr>
+<td>Dataset version</td>
+<td>An identifier for a particular state of the public data.</td>
+</tr>
+<tr>
+<td>Schema version</td>
+<td>An identifier for the fields and shapes used to represent that data.</td>
+</tr>
+<tr>
+<td>Public projection</td>
+<td>The rows and fields PeeringDB includes in its public dataset.</td>
+</tr>
+<tr>
+<td>Delta sync</td>
+<td>Updating a local copy using the changes since an earlier sync.</td>
+</tr>
+<tr>
+<td>Withdrawal</td>
+<td>Removing a row or field from public data, including after deletion or a visibility change.</td>
+</tr>
+<tr>
+<td>Relation endpoint</td>
+<td>A list of objects related to a specified object.</td>
+</tr>
+<tr>
+<td>Composite</td>
+<td>A documented response containing several related objects or lists.</td>
+</tr>
+<tr>
+<td>IX-F member-list URL</td>
+<td>An exchange's URL for its IX-F member-list data; its visibility can be restricted.</td>
+</tr>
+<tr>
+<td>Active</td>
+<td>An object with <code>status: ok</code>, as opposed to pending or deleted.</td>
+</tr>
+<tr>
+<td>Pending</td>
+<td>An object with <code>status: pending</code>; excluded from v3 public data.</td>
+</tr>
+<tr>
+<td>Restricted</td>
+<td>A record or field whose visibility is not Public and therefore requires permission to read.</td>
+</tr>
+<tr>
+<td>Retention window</td>
+<td>The published period during which older data remains available.</td>
+</tr>
+<tr>
+<td>Traversal</td>
+<td>Reading successive pages until a list is complete.</td>
+</tr>
+<tr>
+<td>Eventual consistency</td>
+<td>Public views converge on the same dataset state as changes propagate.</td>
+</tr>
+<tr>
+<td>PC</td>
+<td>PeeringDB Product Committee.</td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.peeringdb.com/'><img align=left style='height:69px' src='/img/./pdb-logo-coloured.svg' alt='PeeringDB Logo'></a>
+ </tr></table>
+ <table border="0" cellpadding ="0" cellspacing ="0"><tr>
+ <a target='_blank' href='https://www.facebook.com/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-facebook.png' alt='Facebook Logo'></a>
+ <a target='_blank' href='https://github.com/peeringdb/peeringdb/issues'><img align=left style='height:50px; padding:5px' src='/img/social-github.png' alt='GitHub Logo'></a>
+ <a target='_blank' href='https://www.linkedin.com/company/peeringdb'><img align=left style='height:50px; padding:5px' src='/img/social-linkedin.png' alt='LinkedIn Logo'></a>
+ <a target='_blank' href='https://twitter.com/PeeringDB'><img align=left style='height:50px; padding:5px' src='/img/social-x.png' alt='X Logo'></a>
+ <a target='_blank' href='https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg'><img align=left style='height:50px; padding:5px' src='/img/social-youtube.png' alt='YouTube Logo'></a>
+ </tr></table>
+
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
