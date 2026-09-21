@@ -3,6 +3,7 @@
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
 ## 2026
+- [A New API](blog/a_new_api.md) - 21 September, 2026
 - [Data Quality Improvements: IRRs and AS-SET names](blog/irr_data_quality_update.md) - August 25, 2026
 - [Do We Still Need Public Beta?](blog/public_beta.md) - July 26, 2026
 - [Data Quality for Networks](blog/data_quality_for_networks.md) - July 1, 2026
