@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/blog/irr_data_quality_update/">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/april_sep_2026_product_update/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Data Quality Improvements: IRRs and AS-SET names - PeeringDB Docs</title>
+        <title>PeeringDB Update April – September 2026 - PeeringDB Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -141,8 +141,28 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#data-quality-improvements-irrs-and-as-set-names" class="nav-link">Data Quality Improvements: IRRs and AS-SET names</a>
+            <li class="nav-item" data-level="1"><a href="#peeringdb-update-april-september-2026" class="nav-link">PeeringDB Update April – September 2026</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#this-update" class="nav-link">This update</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#feature-updates" class="nav-link">Feature Updates</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#operational-changes" class="nav-link">Operational changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#data-quality" class="nav-link">Data quality</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#looking-forward" class="nav-link">Looking forward</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -150,15 +170,47 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="data-quality-improvements-irrs-and-as-set-names">Data Quality Improvements: IRRs and AS-SET names</h1>
-<p><em>25 August, 2026</em></p>
-<p>We’ve now implemented the data quality improvements <a href="../data_quality_for_networks/">we wrote about</a> last month. You can see this in the editor, which suggests the correct IRR for AS-SET names that exist, and tells you when there’s a miss. From our perspective, this is one of the most exciting improvements we’ve made. We’re grateful to James Bensley for proposing it.</p>
-<p><img alt="Name validating editor" src="../images/as-set_validation_in_editor.gif" /></p>
-<p>We’re automatically updating AS-SET names that are already unique to show the IRR they use. We’ll also notify anyone with an ambiguous AS-SET name that they need to update it. We’ll do this over the next few weeks and hope we’ll see a large proportion of these names fixed soon.</p>
-<p>We recognise that this is not the end of the road on better data quality. We know that the changes implemented for <a href="https://github.com/peeringdb/peeringdb/issues/1973">#1973</a> and <a href="https://github.com/peeringdb/peeringdb/issues/1974">#1974</a> won't immediately deliver perfection. We’ll be monitoring data quality changes over time.</p>
-<p>As we notice opportunities for improvement we are publicly documenting them and will implement them. One we noticed is that some organizations operate multiple networks – for instance, a service network and an enterprise network. Human error could lead to a valid hierarchical AS-SET name being used for the wrong network.</p>
-<p>So we’ve created <a href="https://github.com/peeringdb/peeringdb/issues/2036">an issue</a> to lower this risk for a small set of users.</p>
-<p>We’ll report on the data quality improvements later in the year.</p>
+<h1 id="peeringdb-update-april-september-2026">PeeringDB Update April – September 2026</h1>
+<p><em>21 September, 2026</em></p>
+<h2 id="this-update">This update</h2>
+<p>We publish notes with every release and promote new features and bug fixes on social media. These reports are an opportunity to step back and look at the broad sweep of change.</p>
+<p>You can find our previous half yearly reports here: <a href="../october_2024_retrospective/">one</a>, <a href="../april_2025_product_update/">two</a>, <a href="../sep_2025_product_update/">three</a>, <a href="../update_oct_2025-apr_2026/">four</a>.</p>
+<h2 id="feature-updates">Feature Updates</h2>
+<p>As promised in April, we delivered the “Copy API Query” feature for Advanced Search. You can now run a search once on our website and then grab the query to use on the command line, if you’re using <code>curl</code>, or formatted for popular scripting languages.</p>
+<p><img alt="Copy Advanced API box" src="../images/copy_API_query_advanced.jpg" /></p>
+<p>We’ve also introduced an in-page map in the <a href="https://www.peeringdb.com/advanced_search">Advanced Search</a> pages where it’s relevant. You activate the feature using the slider in your profile. Then you’ll be able to see the distribution of facilities across a city as well as seeing them in a table.</p>
+<p><img alt="In page map showing interconnection facilities around Brussels" src="../images/in_page_map_facilities.jpg" /></p>
+<p>Of course, you can always download a .KMZ formatted <a href="https://public.peeringdb.com/peeringdb.kmz">file of all facilities</a>, which you can view in many GIS applications. The advantage of that option is the ability to show and hide multiple layers of data.</p>
+<h2 id="operational-changes">Operational changes</h2>
+<p>We tested a change to our deployment process in August by <a href="../public_beta/">removing the public beta period</a> and going straight to production deployment at the end of internal testing. This followed feedback that the public beta is no longer necessary. We didn’t get any feedback on August’s test, so we’re making the change permanent.</p>
+<p>We recognise that major changes will need a public beta period. So when we develop a significant change to the UI or API we will run a public beta.</p>
+<p>We’ve also redeveloped our internal operations dashboard. All PeeringDB volunteers will gain access to it in September and we’ll make it public later in the year.</p>
+<p><img alt="Extract from operations dashboard" src="../images/operations_dashboard.png" /></p>
+<h2 id="data-quality">Data quality</h2>
+<p>James Bensely suggested some changes to the way we publish AS-SET names and we implemented his ideas.</p>
+<ul>
+<li>Over September we’re updating set names to show which IRR an AS-SET is in. e.g. <code>AS-RIPENCC</code> will be shown as <code>RIPE::AS-RIPENCC</code>.</li>
+<li>When we aren’t sure which IRR should be listed we’re contacting the network and asking them to update it.</li>
+<li>We’ve introduced a new editor to help you show the set name unambiguously.</li>
+</ul>
+<p><img alt="Animated gif of new editor" src="../images/as-set_validation_in_editor.gif" /></p>
+<p>We have a couple of minor refinements associated with these improvements coming in then next month or two. For instance, we’ll let you know if the AS-SET name is already used elsewhere in PeeringDB.</p>
+<h2 id="looking-forward">Looking forward</h2>
+<p>We’re introducing some new metadata values. From next month you’ll be able to signal the date on which you’re joining or leaving an exchange, your MTU, and more.</p>
+<p>We’ve published a discussion document for <a href="https://docs.peeringdb.com/api_v3/">a new PeeringDB API</a>. The two key drivers are: </p>
+<ul>
+<li>To let us separate the read and write parts of our architecture, which will let us place PeeringDB instances in many places.</li>
+<li>To enable some more efficient queries. For instance, “<em>a network with its exchange presences, an exchange with its members, or a facility with its occupants.</em>”</li>
+</ul>
+<p>If you or a colleague use our API, please read the draft and <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss">subscribe to the API v3 discussion list</a>. We want your input so we can refine the design before implementing it.</p>
+<p>We’re also looking at how we can let users know if a network’s published maximum prefix count is smaller than the observed number of prefixes. </p>
+<p>Most of our users are human. But we’ve noticed a lot of automated searches by AI systems. To help these users make efficient use of PeeringDB we’ll set up an MCP server and publish an Agent Skills directory in <a href="https://github.com/peeringdb/peeringdb/">peeringdb/peeringdb</a>. </p>
+<p>But while AI systems are good at automating some things for us, we could also improve some of our own comparison tools. We have <a href="https://github.com/peeringdb/peeringdb/issues/1979">ideas for improvements</a>. Please leave a comment in the issue if you’d like us to enhance our comparison tool to do things like:</p>
+<ul>
+<li>Given 2 IXes, show the list of common networks</li>
+<li>Given 2 Facilities, show the list of common networks</li>
+<li>Given an ASN (A) and a location, the nearest IX that ASN (B) is present</li>
+</ul>
 <p>If you have an idea to improve PeeringDB you can share it on our low traffic <a href="https://docs.peeringdb.com/#mailing-lists">mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <hr />
 <p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>

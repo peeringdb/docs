@@ -126,6 +126,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.peeringdb.com/blog/april_sep_2026_product_update/</loc>
+         <lastmod>2026-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.peeringdb.com/blog/asn_comparison/</loc>
          <lastmod>2026-09-21</lastmod>
          <changefreq>daily</changefreq>
