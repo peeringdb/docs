@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://docs.peeringdb.com/gov/test/">
+        <link rel="canonical" href="https://docs.peeringdb.com/blog/a_new_api/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Test - PeeringDB Docs</title>
+        <title>A new API for PeeringDB - PeeringDB Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                                 <a href="../.." class="nav-link">About</a>
                             </li>
                             <li class="navitem">
-                                <a href="../" class="nav-link">Governance</a>
+                                <a href="../../gov/" class="nav-link">Governance</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Committees & Task Forces <b class="caret"></b></a>
@@ -140,12 +140,28 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#a-new-api-for-peeringdb" class="nav-link">A new API for PeeringDB</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>hi</p></div>
+<h1 id="a-new-api-for-peeringdb">A new API for PeeringDB</h1>
+<p><em>21 September, 2026</em></p>
+<p>We want to improve the speed and efficiency of your PeeringDB queries. We also want to serve PeeringDB out of multiple locations, lowering network latency and improving resilience. To do this properly we need to update <a href="https://www.peeringdb.com/apidocs/">our API</a>.</p>
+<p>We’ve published a document explaining the key changes we anticipate for <a href="../../api_v3/">this new API</a>. </p>
+<p>A key element is separating the read and write functions. As most traffic is queries, not updates, that would mean we could have widely distributed query servers. All reads would be cacheable. </p>
+<p>And there would be support for efficient, <code>curl</code>-able one liners: “<em>a network with its exchange presences, an exchange with its members, or a facility with its occupants.</em>”</p>
+<p>Of course, we need your input on the API, especially if you maintain software that uses it. So we’ve created <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss">a mailing list for this discussion</a>. You’re welcome to sign up and let us know what you like, what you’d change, and why.</p>
+<p>We’ll use your input to improve the design and publish that.</p>
+<p>We also need your input on the transition period, if we choose to retire our current API, which will initially remain for updates.</p>
+<p>If you have an idea to improve PeeringDB you can share it on our <a href="https://docs.peeringdb.com/#mailing-lists">low traffic mailing lists</a> or create an issue directly on <a href="https://github.com/peeringdb/peeringdb/issues/">GitHub</a>. If you find a data quality issue, please let us know at <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
+<hr />
+<p>PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.</p></div>
             </div>
         </div>
 
