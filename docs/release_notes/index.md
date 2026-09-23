@@ -8,7 +8,7 @@ Each new release has a one week beta test period on the [beta server](https://be
 
 This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before release.
 
-We don't schedule a public beta period every month anymore. This change was based on user feedback that it is not necessary. Public beta periods will be schedule for spoecific changes that require public review.
+We don't schedule a public beta period every month anymore. This change was based on user feedback that it is not necessary. Public beta periods will be schedule for specific changes that require public review. [Read more](../blog/public_beta/).
 
 We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
@@ -16,9 +16,21 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** |  **Production release** |
 | -------------- | ---------------- | ------------------ |
-| 2.83.0 | 2026-09-08 | 2026-09-22 |
 | 2.84.0 | 2026-10-06 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-17 |
+
+## Release 2.83.0
+
+| **Category** | **GitHub issue** | **Summary** |
+| --------| ----------------- | ----------- |
+| ![Fix](images/fix.png) | [#2002 Another search anomaly.](https://github.com/peeringdb/peeringdb/issues/2002) | Fixes a bug that served different results if queries had a trailing space. |
+| ![Improve](images/improve.png) | [#1999 Ongoing address normalization.](https://github.com/peeringdb/peeringdb/issues/1999) | More address normalization. |
+| ![Improve](images/improve.png) | [#1978 Add rtbh_community field to Network (net) object.](https://github.com/peeringdb/peeringdb/issues/1978) | Networks can now publish an rtbh_community. |
+| ![Improve](images/improve.png) | [#1981 More semantic information in te API docs.](https://github.com/peeringdb/peeringdb/issues/1981) | As title. |
+| ![Fix](images/fix.png) | [#2038 User-level (grainy) permissions are not reliably cleared when an org user's role changes (user <-> admin).](https://github.com/peeringdb/peeringdb/issues/2038) | Fixes bug as per title. |
+| ![Fix](images/fix.png) | [#2039 Org permission wipe filters can remove a user's permissions for other orgs whose ID shares a prefix.](https://github.com/peeringdb/peeringdb/issues/2039) | Fixes bug as per title. |
+| ![Fix](images/fix.png) | [#2040 Better handling for some AS-SET names.](https://github.com/peeringdb/peeringdb/issues/2040) | Fixes bug as per title. |
+| ![Fix](images/fix.png) | [#2043 users seeing CSRF Failed errors, unable to edit netixlan entries.](https://github.com/peeringdb/peeringdb/issues/2043) | Fixes bug as per title. |
 
 ## Release 2.82.0
 
