@@ -147,6 +147,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2830" class="nav-link">Release 2.83.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2820" class="nav-link">Release 2.82.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -215,7 +219,7 @@
 <p>Each new release has a one week beta test period on the <a href="https://beta.peeringdb.com/">beta server</a> before it goes live.  The beta and new releases are announced on the <a href="https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-announce">PeeringDB Announce Mailing List</a> and on <a href="https://www.facebook.com/peeringdb">Facebook</a>, <a href="https://www.linkedin.com/company/peeringdb">LinkedIn</a> and <a href="https://x.com/PeeringDB">X</a>.</p>
 <h2 id="release-schedule">Release schedule</h2>
 <p>This schedule provides planned dates for PeeringDB’s future releases. We are sharing these dates to help PeeringDB users plan ahead. We also want to help volunteer developers know the date on which their code changes are needed for internal testing before release.</p>
-<p>We don't schedule a public beta period every month anymore. This change was based on user feedback that it is not necessary. Public beta periods will be schedule for spoecific changes that require public review.</p>
+<p>We don't schedule a public beta period every month anymore. This change was based on user feedback that it is not necessary. Public beta periods will be schedule for specific changes that require public review. <a href="../blog/public_beta/">Read more</a>.</p>
 <p>We provide a rolling schedule. Dates can change, so if you have a question or request please contact us at: <a href="mailto:support@peeringdb.com">support@peeringdb.com</a>.</p>
 <p>Our releases are generally deployed at around 04:00 UTC.</p>
 <table>
@@ -228,11 +232,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.83.0</td>
-<td>2026-09-08</td>
-<td>2026-09-22</td>
-</tr>
-<tr>
 <td>2.84.0</td>
 <td>2026-10-06</td>
 <td>2026-10-20</td>
@@ -241,6 +240,58 @@
 <td>2.85.0</td>
 <td>2026-11-03</td>
 <td>2026-11-17</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2830">Release 2.83.0</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2002">#2002 Another search anomaly.</a></td>
+<td>Fixes a bug that served different results if queries had a trailing space.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1999">#1999 Ongoing address normalization.</a></td>
+<td>More address normalization.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1978">#1978 Add rtbh_community field to Network (net) object.</a></td>
+<td>Networks can now publish an rtbh_community.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1981">#1981 More semantic information in te API docs.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2038">#2038 User-level (grainy) permissions are not reliably cleared when an org user's role changes (user &lt;-&gt; admin).</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2039">#2039 Org permission wipe filters can remove a user's permissions for other orgs whose ID shares a prefix.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2040">#2040 Better handling for some AS-SET names.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2043">#2043 users seeing CSRF Failed errors, unable to edit netixlan entries.</a></td>
+<td>Fixes bug as per title.</td>
 </tr>
 </tbody>
 </table>
