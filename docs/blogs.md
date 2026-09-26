@@ -2,6 +2,8 @@
 
 PeeringDB blogs provide deeper insight into the releases and product roadmap.
 
+Subscribe via [Atom feed](blog/atom.xml) to get notified of new posts.
+
 ## 2026
 - [PeeringDB Update April – September 2026](blog/april_sep_2026_product_update.md) - 21 September, 2026
 - [A New API](blog/a_new_api.md) - 21 September, 2026
