@@ -28,6 +28,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 ## Other
 - [Become a PeeringDB Member and Vote](howto/member_vote.md)
 - [Install peeringdb-py](howto/peeringdb-py.md)
+- [Mirroring PeeringDB Data](howto/mirror.md)
 - [Get Started with Developing for PeeringDB](howto/get-started-developing.md)
 - [Setup a PeeringDB Development Environment](howto/run_development_container.md)
 - [What is AS112?](howto/updates-for-as112.md)
