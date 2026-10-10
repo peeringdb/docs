@@ -170,3 +170,45 @@ a:hover {
   color: #00203e;
   background-color: #f1f1f1;
 }
+
+/* 3.5rem matches the nav bar's own documented height (see mkdocs's base.css:
+   `scroll-padding-top: calc(3.5rem + 20px)`), which is exactly what .nav-link's
+   1rem top + 1rem bottom padding plus Bootstrap's 1.5rem default line-height add
+   up to. Setting the banner to the same value keeps it visually equal-height
+   without measuring anything at runtime. */
+.fork-banner {
+  background-color: #e6e6fa;
+  color: #ff69b4;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  padding: 0 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1031; /* above Bootstrap's .navbar.fixed-top (1030), so it stays on top when both stick */
+}
+
+/* The nav bar normally sticks at the very top (base.css's .navbar.fixed-top
+   override). With the banner also stuck at top:0 above it, offset the nav down
+   by the banner's own height so they stack together instead of overlapping. */
+body.has-fork-banner .navbar.fixed-top {
+  top: 3.5rem;
+}
+
+.fork-banner-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.fork-banner a {
+  color: #ff1493;
+  text-decoration: underline;
+}

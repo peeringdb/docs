@@ -1,5 +1,11 @@
 site_name: PeeringDB Docs
 site_url: https://docs.peeringdb.com/
+
+hooks:
+  - scripts/generate_blog_atom_feed.py
+  - scripts/generate_release_notes_atom_feed.py
+  - scripts/generate_cname.py
+  - scripts/generate_banner.py
 # This line adds the "Edit on GitHub" link
 #repo_url: https://github.com/peeringdb/docs
 theme:
