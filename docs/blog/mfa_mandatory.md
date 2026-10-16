@@ -27,7 +27,7 @@ We have self-service account recovery for users who lose a credential. Click the
 
 All users can get support from [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 

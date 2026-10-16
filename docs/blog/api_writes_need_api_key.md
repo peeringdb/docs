@@ -9,14 +9,14 @@ We made this change because there is no way to perform MFA with HBA. Removing th
 
 We support both user and organizational API keys. We have a [HOWTO](/howto/api_keys/) about creating API keys and using them.
 
-We have also introduced some [organizational policy features](/howto/organizational_policy) this month. Organizations can now require users: 
+We have also introduced some [organizational policy features](/howto/organizational_policy) this month. Organizations can now require users:
 
 * To enable MFA
-* To have an email address from a specific domain 
+* To have an email address from a specific domain
 * To revalidate their account on a schedule set by the organization
 
-We made this change because of an internal security analysis. We accept security reports to [security@peeringdb.com](mailto:security@peeringdb.com). We have published a [HOWTO](/howto/make-a-security-report/) for making security reports. 
+We made this change because of an internal security analysis. We accept security reports to [security@peeringdb.com](mailto:security@peeringdb.com). We have published a [HOWTO](/howto/make-a-security-report/) for making security reports.
 
---- 
+---
 
 If you have questions about PeeringDB security, please write to [security@peeringdb.com](mailto:security@peeringdb.com). If you need help configuring API keys, please write to [support@peeringdb.com](mailto:support@peeringdb.com).

@@ -26,14 +26,14 @@ There was a strong sense across both sessions that it can be a challenge to find
 
 There was support for putting this information in PeeringDB because keeping related information in a single database makes things easier for users.
 
-Participants favored starting off with a less complex object and adding detail in future iterations. Including information about whether links between locations were L1, L2, or L3, and owned or leased seemed to be the agreed minimum set of information. That said, there were concerns that keeping this information accurate could be a challenge for multiple reasons, including inaccurate internal asset databases and a desire from marketing people to overclaim. 
+Participants favored starting off with a less complex object and adding detail in future iterations. Including information about whether links between locations were L1, L2, or L3, and owned or leased seemed to be the agreed minimum set of information. That said, there were concerns that keeping this information accurate could be a challenge for multiple reasons, including inaccurate internal asset databases and a desire from marketing people to overclaim.
 
 Any implementation would need to be well supported by extensions to the API. Despite making it easy for people to rapidly deploy information about new and improved deployments to PeeringDB through the API there was support ensuring that a new object can be created and configured through the web interface.
 
 ## Next steps
-When the Product Committee has evaluated the feedback we got from these two focus groups it will make a decision on the principle of creating this new object. 
+When the Product Committee has evaluated the feedback we got from these two focus groups it will make a decision on the principle of creating this new object.
 
-If the decision is to proceed there is work to be done in both designing and naming it. 
+If the decision is to proceed there is work to be done in both designing and naming it.
 
 * What is the minimum set of information that would be useful to PeeringDB users?
 * What name would cause least confusion?

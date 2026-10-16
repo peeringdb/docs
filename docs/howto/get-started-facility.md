@@ -1,4 +1,4 @@
-# HOWTO: Get Started with PeeringDB as a Facility or Campus Operator 
+# HOWTO: Get Started with PeeringDB as a Facility or Campus Operator
 
 ## About PeeringDB
 PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet.
@@ -6,7 +6,7 @@ PeeringDB, as the name suggests, was set up to facilitate peering between networ
 We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
 
 ## Why?
-PeeringDB is the interconnection database. Registering information about your facility in PeeringDB makes it visible to network operators who want to connect to exchanges or other networks in your facility. 
+PeeringDB is the interconnection database. Registering information about your facility in PeeringDB makes it visible to network operators who want to connect to exchanges or other networks in your facility.
 
 ## Getting started
 Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.com/apidocs) but this document is intended to help new facility administrators get started. Facilities are set up using the web interface. Once this is done you can use the API to automate things that change regularly. This document focuses on the key steps for establishing your facility's presence in PeeringDB and assumes you are using the web interface, which is available in 14 languages.
@@ -14,9 +14,9 @@ Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.
 If you need additional help getting started, please contact us at: [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ## Information required
-You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
+You will need to create several database records, known as objects, to establish your presence in PeeringDB.
 
-Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. 
+Database objects organize relevant information. Your facility’s current participants can add their presence in your facility, making it attractive to others. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB.
 
 You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:
 
@@ -36,7 +36,7 @@ You can look at the information shared by other facility managers to work out wh
 
 ## Database records to create
 ### User
-The `org` is the parent for the facility but you will need to start the process by creating a user account. 
+The `org` is the parent for the facility but you will need to start the process by creating a user account.
 
 Once created, you will login using your username, password, and second factor.
 
@@ -61,16 +61,16 @@ A `campus` is two or more facilities owned by the same organization where custom
 
 When you have two facilities you can create a `campus` using the Add Campus tab in the “Manage” menu below your organization.
 
-PeeringDB relies on facility operators to decide whether their interconnected facilities should be listed as a campus. 
+PeeringDB relies on facility operators to decide whether their interconnected facilities should be listed as a campus.
 
-Facilities need to be within 50 kilometers of each other. The software enforces this limit to help users avoid configuration mistakes. 
+Facilities need to be within 50 kilometers of each other. The software enforces this limit to help users avoid configuration mistakes.
 
 ![Add Campus](images/add_campus.png)
 
 ## Next steps
 This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. Things to consider sharing:
 
-* Encourage the networks and Internet Exchanges to also register with PeeringDB, and to indicate their presence in your facility. Thus making their presence visible to others and so increasing the possibility of interconnection with other networks. 
+* Encourage the networks and Internet Exchanges to also register with PeeringDB, and to indicate their presence in your facility. Thus making their presence visible to others and so increasing the possibility of interconnection with other networks.
 
 ## More information
 The [PeeringDB Data Ownership Policy](https://docs.peeringdb.com/gov/misc/2020-04-06_PeeringDB_Data_Ownership_Policy_Document_v1.0.pdf) describes all the objects in PeeringDB.

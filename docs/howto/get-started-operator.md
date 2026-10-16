@@ -18,9 +18,9 @@ Routine use of PeeringDB can be automated using [our API](https://www.peeringdb.
 If you need additional help getting started, please contact us at: <support@peeringdb.com>.
 
 ## Information required
-You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
+You will need to create several database records, known as objects, to establish your presence in PeeringDB.
 
-Database objects organize relevant information and document the connections making your network attractive to potential peers. Most information is optional but the less you share the less likely your network will benefit from listing itself in PeeringDB. 
+Database objects organize relevant information and document the connections making your network attractive to potential peers. Most information is optional but the less you share the less likely your network will benefit from listing itself in PeeringDB.
 
 You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. This information is required:
 
@@ -77,10 +77,10 @@ The information for each type of contact is the same, with optional telephone nu
 
 Each of the POCs associated with your network can have different visibility permissions. The options are:
 
-* `Users` (meaning that only other PeeringDB users can see the POC), and 
-* `Public` (meaning that the record is shown to anonymous users as well as authenticated users). 
+* `Users` (meaning that only other PeeringDB users can see the POC), and
+* `Public` (meaning that the record is shown to anonymous users as well as authenticated users).
 
-Some organizations will want to make their Abuse, Public Relations, and/or Sales POCs `Public` but limit the visibility of other POCs to authenticated `Users`. 
+Some organizations will want to make their Abuse, Public Relations, and/or Sales POCs `Public` but limit the visibility of other POCs to authenticated `Users`.
 
 If your network will be present at Public Peering Exchange Points you can grant them permission to add and modify entries for your network via their `ixp_member data`.  You grant permission using the “Allow IXP Update” box, which will show when you add a Public Peering Exchange Point.
 

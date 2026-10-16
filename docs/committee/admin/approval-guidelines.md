@@ -48,11 +48,11 @@ There are various mechanisms to verify the relationship between the User and a g
 * The registration details listed in RDAP match the registration details in the sign-up request (same email domain)
 * The user can confirm the relationship to the ASN through a RPKI based challenge/response (work in progress: draft-ietf-sidrops-rpki-rsc)
 * The user can confirm the relationship to the ASN by entering a PeeringDB suggested random string in their WHOIS record in a comments/remarks field (not yet implemented, a similar strategy to how Amazon AWS does BYOIP)
-* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process 
+* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process
 
-PeeringDB encourages but does not require its users to follow industry best practices. This means we recommend: 
+PeeringDB encourages but does not require its users to follow industry best practices. This means we recommend:
 
-* Making a BGP looking glass publicly available, or 
+* Making a BGP looking glass publicly available, or
 * A website listing the Network services, and a publicly documented Routing Policy
 
 ## Approving IXP (`ix`) objects
@@ -74,17 +74,17 @@ Users can verify their relationship to an IP prefix in several ways:
 * The registration details listed in RDAP match the registration details in the sign-up request (same email domain).
 * The user can confirm the relationship to the IP prefix through a RPKI based challenge/response (work in progress - draft-ietf-sidrops-rpki-rsc).
 * The user can confirm the relationship to the IP prefix by entering a PeeringDB suggested random string in their inetnum record in the authoritative RIR or NIR database in a comments/remarks field (note: IRR route/route6 objects cannot be used for this purpose). RDAP should be used to discover which RIR or NIR is authoritative
-* For Legacy IPv4 space, a PeeringDB suggested random string can be placed in a TXT record for the reverse DNS label representing the first IPv4 address in the prefix. (This is a variant of the Amazon AWS BYOIP process). The assumption is that if someone controls Reverse DNS for a given prefix, they have full control over the prefix. 
-* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process 
+* For Legacy IPv4 space, a PeeringDB suggested random string can be placed in a TXT record for the reverse DNS label representing the first IPv4 address in the prefix. (This is a variant of the Amazon AWS BYOIP process). The assumption is that if someone controls Reverse DNS for a given prefix, they have full control over the prefix.
+* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process
 
-PeeringDB encourages but does not require its users to follow industry best practices. This means we recommend: 
+PeeringDB encourages but does not require its users to follow industry best practices. This means we recommend:
 
 * A website detailing the IXP service
 * A public overview of connected members and locations, service level, and terms of membership.
 
 ## Approving Facility (`fac`) objects
 
-A “facility” is a physical location where two or more IP Networks or IXPs interconnect with each other. The key to approving Facility objects is to confirm with multiple existing PeeringDB users that a facility exists. 
+A “facility” is a physical location where two or more IP Networks or IXPs interconnect with each other. The key to approving Facility objects is to confirm with multiple existing PeeringDB users that a facility exists.
 
 * Note: We will need to extend PeeringDB's software to support the workflow described here.
 * Note: The IP addresses used in the attestation process will be logged.
@@ -98,8 +98,8 @@ The owner of the facility is an existing PeeringDB user, and adds the facility t
 One user will suggest the facility (peeringdb.com/suggest/fac), after filling in the details the form will generate a unique URL where the attestations can be collected. The user then distributes the URL (which can only be accessed by logged-in users) to the other interested parties, who can then attest or disprove the facility. When 3 PeeringDB users positively attest the facility exists, the facility is approved.
 * The owner of the facility is a new peeringdb user and does not have any objects associated with their account. There are two mechanisms to claim a Facility object.
 * The building has a website that has an interconnection or colocation section or
-An attestation process similar to how new facilities are suggested by existing users is followed, where the attempting-to-claim PeeringDB user must collect 3 positive attestations from three existing PeeringDB users. 
-* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process 
+An attestation process similar to how new facilities are suggested by existing users is followed, where the attempting-to-claim PeeringDB user must collect 3 positive attestations from three existing PeeringDB users.
+* [Exception approval](/committee/admin/approval-guidelines/#exception-process) follows the standard process
 
 ### Flowchart - Facility
 
@@ -117,7 +117,7 @@ PeeringDB users can flag a facility as “junk”. This puts the Facility object
 * The 3 people who attested that the facility exists can point at two existing PeeringDB IXP or Network object owners who are willing to attest they are present in the facility.
 * The Admin Committee contacts the IXP or Network object owners and asks them to confirm their presence in the facility. At this point the facility record will list at least two network and/or IXP objects.
 
-A facility without networks or IXPs is considered potential “junk”. 
+A facility without networks or IXPs is considered potential “junk”.
 
 Empty facilities will be deleted after 90 days. This happens when neither the owner of the facility, nor any other PeeringDB users were willing to indicate a relationship to the facility. The “junk” button only appears in the UI for objects which are both unclaimed, and where no networks or IXPs indicate a presence.
 
@@ -155,18 +155,18 @@ If the AC can’t collect the attestations the facility will be deleted in 90 da
 
 #### Facility approval example 3
 
-A Facility owner is a PeeringDB user and wishes to add its facility to PeeringDB using the “Suggest a Facility” function. The building owner is leasing suites to carriers in the basement of his facility, but primarily focuses on leasing office space. The building has a webpage, but data center/interconnection services are not listed on the webpage. The building owner has provided a list of four carriers who have leased space in the building. 
+A Facility owner is a PeeringDB user and wishes to add its facility to PeeringDB using the “Suggest a Facility” function. The building owner is leasing suites to carriers in the basement of his facility, but primarily focuses on leasing office space. The building has a webpage, but data center/interconnection services are not listed on the webpage. The building owner has provided a list of four carriers who have leased space in the building.
 
 *Validation Process*
 
-The building owner can add webpage showing that they provide interconnection 
-services. 
+The building owner can add webpage showing that they provide interconnection
+services.
 
-The attestation process can be used to demonstrate the building is used for interconnection. 
+The attestation process can be used to demonstrate the building is used for interconnection.
 
 #### Facility approval example 4
 
-An existing facility operator with other facilities listed in PeeringDB submits a new facility that does not yet have any customers. 
+An existing facility operator with other facilities listed in PeeringDB submits a new facility that does not yet have any customers.
 
 *Validation Process*
 
@@ -175,7 +175,7 @@ None - The facility should be immediately added.
 After the Facility object has been added, networks and IXPs can indicate their presence.
 
 ## Exception process
-We know that these guidelines will need to be improved and updated as we learn, so we have built in an “exception” process to help with that. Whenever an easy path is not possible, the requester can ask for more review of their registration request. 
+We know that these guidelines will need to be improved and updated as we learn, so we have built in an “exception” process to help with that. Whenever an easy path is not possible, the requester can ask for more review of their registration request.
 
 The first step in this process is to get input from all the volunteers on the Admin Committee. If more eyes are needed, the request can be shared with all of PeeringDB’s Stewards, a group made from the committee chairs and board members. Where a formal decision is needed, the board can vote on a request and make a final decision.
 

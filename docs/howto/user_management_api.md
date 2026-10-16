@@ -3,7 +3,7 @@
 ## Introduction
 This document outlines how to use the Organization Users API for managing users within an organization. The API provides endpoints for listing, adding, updating roles, and removing users.
 
-## Authentication 
+## Authentication
 All API requests require authentication using API keys. There are two types of authentication:
 
 1. **User API Key:** The user must be an admin of the organization
@@ -14,11 +14,11 @@ Include the API key in the HTTP header:
 `Authorization: api-key YOUR_API_KEY`
 ```
 
-## Rate limits 
+## Rate limits
 
-All endpoints are rate-limited to 1 request per second. 
+All endpoints are rate-limited to 1 request per second.
 
-## Endpoints 
+## Endpoints
 ### List organization users
 
 Retrieves all users associated with an organization.

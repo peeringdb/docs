@@ -2,7 +2,7 @@
 
 The Data Ownership Task Force was established in September 2019 with the aim of working on a PeeringDB Policy proposal about data ownership, after a need was recognized by the Product Committee as issues consistently had been raised relating to who owns the data in PeeringDB when more than one party is involved (as in netixlan, ixfac, netfac, etc objects).
 
-A [call](https://lists.peeringdb.com/pipermail/pdb-announce/2019-September/000130.html) for participation to the task Force was made on September 10th, 2019. 
+A [call](https://lists.peeringdb.com/pipermail/pdb-announce/2019-September/000130.html) for participation to the task Force was made on September 10th, 2019.
 
 Data Ownership Task Force discussions are archived and can be found at: <https://lists.peeringdb.com/pipermail/dataownership-tf/>
 
@@ -16,37 +16,37 @@ The resulting document can be found at:
 
 ## Scope
 
-The Data Ownership Task Force is established to discuss and agree on who owns the data tokens and/or objects in PeeringDB. Their agreements, findings, and any sort of recommendations will be documented in a Policy Document as a direct outcome of the Task Force. 
+The Data Ownership Task Force is established to discuss and agree on who owns the data tokens and/or objects in PeeringDB. Their agreements, findings, and any sort of recommendations will be documented in a Policy Document as a direct outcome of the Task Force.
 
 This Policy Document will include a clear description of each data element and the relation between each other, as well as who should be allowed to create, update, and delete them.
 
-The Task Force is estimated to conclude its work within about 6 months from its inception, which was September 2019. This time frame will be extended if the Task Force needs more time to conclude its work. 
+The Task Force is estimated to conclude its work within about 6 months from its inception, which was September 2019. This time frame will be extended if the Task Force needs more time to conclude its work.
 
 The resulting Policy Document will be announced and shared with the PeeringDB Community.
 
-After publishing the Policy Document, the Task Force ended. 
+After publishing the Policy Document, the Task Force ended.
 
 ## Data ownership policy implementation presentation
 
 This [video](https://youtu.be/mtT_HojbIPs) and [presentation](../../presentation/20200817-dtf-implementation.pdf) explains how PeeringDB handles IX-F import data, creating, changing or deleting netixlan objects and other changes from the implementation of the PeeringDB Data Ownership Policy.
 
 ## Members
-- Darrell Budic 
-- Chris Caputo 
-- Patrick Gilmore 
-- Shane Kerr 
+- Darrell Budic
+- Chris Caputo
+- Patrick Gilmore
+- Shane Kerr
 - Fredrik Korsbäck
-- Jhonny Lima 
-- Ben Maddison 
-- Christopher Malayter 
-- William Marantz 
+- Jhonny Lima
+- Ben Maddison
+- Christopher Malayter
+- William Marantz
 - Jeri McNeill
-- Arnold Nipper 
-- Barry O’Donovan 
-- Mustafa Timur Sever 
-- Bijal Shangani 
-- Job Snijders 
+- Arnold Nipper
+- Barry O’Donovan
+- Mustafa Timur Sever
+- Bijal Shangani
+- Job Snijders
 - Terry Sweetser
-- Lukas Tribus 
-- Stefan Wahl 
+- Lukas Tribus
+- Stefan Wahl
 - Filiz Yilmaz (Chair)

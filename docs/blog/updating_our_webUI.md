@@ -7,7 +7,7 @@ We must update it to fully integrate the new carrier and campus objects. Carrier
 
 Our priorities are:
 
-* Improve tabular data available for Campus and Carrier pages 
+* Improve tabular data available for Campus and Carrier pages
 * Mobile UI optimization
 * Personalization features for logged in users
 * Visualization of metro areas in a dynamic map

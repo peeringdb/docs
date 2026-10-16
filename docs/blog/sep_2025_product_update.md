@@ -29,7 +29,7 @@ Based on the initial feedback we will add comparisons based on exchanges (IXPs) 
 
 ### Web UI
 
-We have started deploying our new web UI to users. We are using a staged approach. We’ve started by deploying to PeeringDB volunteers and we’ll next start opting in 20 percent of users, who will be able to opt out of UI testing. 
+We have started deploying our new web UI to users. We are using a staged approach. We’ve started by deploying to PeeringDB volunteers and we’ll next start opting in 20 percent of users, who will be able to opt out of UI testing.
 
 ![The new PeeringDB front page – before refinements are applied](images/New_design_front_page.png)
 
@@ -41,14 +41,14 @@ We are working on refinements identified during the first stage of deployment. W
 
 ### MFA mandate
 
-Anonymous use has not gone away and will remain. 
+Anonymous use has not gone away and will remain.
 
 But if you want to authenticate, whether to get more queries or to make changes to data you control, you now have to have a second factor. That means:
 
 * [API Keys](/howto/api_keys/) for API queries
 * Backup codes
 * Passkeys
-* TOTP 
+* TOTP
 * U2F Hardware Tokens
 
 We flagged this change well in advance and have not seen users locked out. Users can recover their account via email.
@@ -91,6 +91,6 @@ And while we are working on PeeringDB’s website, we also make all the data ava
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

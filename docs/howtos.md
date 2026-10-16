@@ -2,7 +2,7 @@
 
 HOWTOs provide a beginner detailed instructions on how to get started using PeeringDB.
 
-## Create entries 
+## Create entries
 - [Get Started with PeeringDB as a Carrier Operator](howto/get-started-carrier.md)
 - [Get Started with PeeringDB as a Exchange Operator](howto/get-started-exchange.md)
 - [Get Started with PeeringDB as a Facility or Campus Operator](howto/get-started-facility.md)
@@ -15,7 +15,7 @@ HOWTOs provide a beginner detailed instructions on how to get started using Peer
 - [Manage Users With Our API](howto/user_management_api.md)
 - [Manage and Share Contact Information](howto/share_contact_info.md)
 
-## Search 
+## Search
 - [Get Started with Search in PeeringDB](howto/search.md)
 - [Work Within PeeringDB’s Query Limits](howto/work_within_peeringdbs_query_limits.md)
 - [v2 Search](howto/v2_search.md)

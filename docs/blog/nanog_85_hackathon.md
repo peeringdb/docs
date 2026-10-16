@@ -17,7 +17,7 @@ It’s a simple workflow.
 ## What will you learn?
 We’ll make sure that you have a good understanding of PeeringDB’s structure. You’ll learn what a network is - in PeeringDB. And we’ll also explain about Internet Exchange Points and interconnection facilities.
 
-And you’ll get a good understanding of how and why people use PeeringDB. 
+And you’ll get a good understanding of how and why people use PeeringDB.
 
 ## What will we test together?
 We want to look at ways that facility operators could activate the process. How should they get the unique URL? Do we need to implement ways for them to share it? What should PeeringDB users see when they visit the URL? Should we implement [#1156](https://github.com/peeringdb/peeringdb/issues/1156)?
@@ -27,6 +27,6 @@ Success is helping people understand PeeringDB and using that to work out how ou
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

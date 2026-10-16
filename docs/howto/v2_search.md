@@ -24,7 +24,7 @@ For many areas it will automatically set an appropriate radius. When a common bu
 
 *Fig 2: A search for* `fac near new york` *includes results for facilities in Jersey City, NJ*
 
-When you want a different radius, our [Advanced Search](https://www.peeringdb.com/advanced_search) tool lets you manually set a specific radius based on any street address. 
+When you want a different radius, our [Advanced Search](https://www.peeringdb.com/advanced_search) tool lets you manually set a specific radius based on any street address.
 
 ## Searching directly for IXs
 

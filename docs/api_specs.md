@@ -44,7 +44,7 @@ JSON
         }
 
     - meta are optional
-    - data always array 
+    - data always array
 
     !!! Note
         Please let us know what serializers you'd like to see.
@@ -69,7 +69,7 @@ In order to access the API as a guest simply omit any authentication
 endpoint: GET /api/`OBJ`
 
 optional URL parameters
-:   
+:  
 
     - limit `int` limits rows in the result set
     - skip `int` skips n rows in the result set
@@ -110,7 +110,7 @@ Note: unlike GET single, 'depth' here will **ONLY** expand sets, no single relat
 curl:
 
     curl -X GET https://<username>:<password>@peeringdb.com/api/OBJ?depth=2
- 
+
 #### Querying examples
 
 exact:
@@ -124,7 +124,7 @@ modifier:
 #### Querying modifiers
 
 numeric fields:
-    
+
 - \_\_lt, less than
 - \_\_lte, less than equal
 - \_\_gt, greater than
@@ -150,12 +150,12 @@ objects updated since then.
 endpoint: GET /api/`OBJ`/`id`
 
 required URL parameters
-:   
+:  
 
   1. id `int`
 
 optional URL parameters
-:    
+:  
 
   1. depth `int` defaults to 2 aka. nested sets and objects will be expanded
   2. fields `str` comma separated list of field names - only matching fields will be returned in the data
@@ -185,13 +185,13 @@ Note: unlike GET multiple, 'depth' here will also expand single relationship in 
 
 unexpanded:
 
-    { 
+    {
       ...
       "net_id" : 1
     }
 
 expanded:
-    
+
     {
       ...
       "net_id" : 1
@@ -212,7 +212,7 @@ expanded:
 endpoint: POST /api/`OBJ`
 
 required URL parameters
-:    
+:  
 
     - id `int`
     - fields to post in either JSON obj "{}" or urlencoded field=value
@@ -227,7 +227,7 @@ curl:
 endpoint: PUT /api/`OBJ`/`id`
 
 required URL parameters
-:    
+:  
 
     - id `int`
     - fields to post in either JSON obj "{}" or urlencoded field=value
@@ -246,7 +246,7 @@ curl:
 endpoint: DELETE /api/`OBJ`/`id`
 
 required URL parameters
-:    
+:  
 
     - id `int`
 
@@ -269,10 +269,10 @@ A: You can use the API to perform complex queries, like in this example.
     curl -sG https://www.peeringdb.com/api/netixlan
     --data-urlencode net_id__in=694,1100,1418
     --data-urlencode ix_id__in=`curl -sG https://www.peeringdb.com/api/ix
-    --data-urlencode region_continent=Europe | 
-    jq -c '[.data[].id]' | 
+    --data-urlencode region_continent=Europe |
+    jq -c '[.data[].id]' |
     sed 's/\[//;s/\]//'` |
-    jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' | 
+    jq -c '.data[] | [.ix_id, .net_id, .ipaddr4, .ipaddr6, .speed]' |
     sort -V
 
 The query looks for netixlan records belonging to Microsoft, Salesforce.com and Amazone.com (net_id__in=694,1100,1418) which are constrained to IXes in Europe based on the output from the embedded query.
@@ -281,5 +281,5 @@ The embedded query in single quotes looks for all IXes with "Continental Region 
 
     curl -sG https://www.peeringdb.com/api/ix
     --data-urlencode region_continent=Europe |
-    jq -c '[.data[].id]' | 
+    jq -c '[.data[].id]' |
     sed 's/\[//;s/\]//'

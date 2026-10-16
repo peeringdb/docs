@@ -40,7 +40,7 @@ We support three MFA methods. You can use:
 * A [FIDO U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/) hardware token
 * A [Passkey](https://www.passkeycentral.org/introduction-to-passkeys/how-passkeys-work)
 
-You can choose to have more than one second factor configured. 
+You can choose to have more than one second factor configured.
 
 You can also download and securely store backup codes, in case a second factor is destroyed.
 

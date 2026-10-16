@@ -5,9 +5,9 @@ We introduced support for `carrier` objects in release 2.43.0. This is the first
 
 ![A cross-section of a fiber optic “ribbon” cable by Infestor on Wikimedia Commons - CC BY-SA 4.0](images/ribbon_cutout_by_Infestor.jpg)
 
-A “Carrier” provides high capacity links between facilities. Networks and IXPs use these to connect equipment spread across multiple interconnection facilities in a metro area. They are different from the regular network in PeeringDB because their services run [at layers 1 or 2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer). 
+A “Carrier” provides high capacity links between facilities. Networks and IXPs use these to connect equipment spread across multiple interconnection facilities in a metro area. They are different from the regular network in PeeringDB because their services run [at layers 1 or 2](https://en.wikipedia.org/wiki/OSI_model#Layer_1:_Physical_layer).
 
-Our initial deployment lets carriers show that they have a presence in an interconnection facility. It does not show what services are provided, like wavelengths or fiber. 
+Our initial deployment lets carriers show that they have a presence in an interconnection facility. It does not show what services are provided, like wavelengths or fiber.
 
 ![You can register now!](images/carriers_register.png)
 

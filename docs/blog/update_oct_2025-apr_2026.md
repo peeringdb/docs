@@ -46,7 +46,7 @@ We normalize the presentation of internal divisions within countries, like provi
 
 In March 2025 we added a feature that lets users get a properly formatted API query for basic queries. We’ve just expanded the feature to support Advanced Search. This makes the feature more useful and should help users get more from PeeringDB in less time.
 
-As before, you can get queries formatted for curl, Python, JavaScript, Go, Ruby, and PHP. 
+As before, you can get queries formatted for curl, Python, JavaScript, Go, Ruby, and PHP.
 
 ![Advanced Search copy API query](images/advanced_search_copy_api_query.png)
 
@@ -58,6 +58,6 @@ A key concern will be ensuring that submitted code is thoroughly reviewed and te
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

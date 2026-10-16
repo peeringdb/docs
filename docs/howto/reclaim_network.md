@@ -9,7 +9,7 @@ We believe in, and rely on the community to grow and improve the PeeringDB datab
 Almost half of Autonomous System Numbers (ASNs) register their interconnection data in the PeeringDB database. That means, by using PeeringDB and adding your own interconnection data, you’ll be able to confidently find information about networks looking to interconnect, where and how to connect with them, and they’ll be able to find the same information about your network. Since the database is user-maintained and validated by our volunteers, you can trust that the information is accurate and up-to-date.
 
 ## You will need
-We rely on the RIR or NIR records to show who a network is assigned to. So to ensure your request is approved via automation, if your org is the parent of a network object, the primary, verified email address of your PeeringDB user account should be visible in the RDAP data of your ASN.  You should either update your RDAP data to include your email address, or verify an email address that is visible within the RDAP data, on your PeeringDB user account. 
+We rely on the RIR or NIR records to show who a network is assigned to. So to ensure your request is approved via automation, if your org is the parent of a network object, the primary, verified email address of your PeeringDB user account should be visible in the RDAP data of your ASN.  You should either update your RDAP data to include your email address, or verify an email address that is visible within the RDAP data, on your PeeringDB user account.
 
 ## Request ownership
 To request ownership of a network you need to login to your PeeringDB account. To do this, you need to have:

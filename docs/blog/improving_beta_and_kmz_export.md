@@ -1,13 +1,13 @@
 # Making beta.peeringdb.com, Search, and KMZ More Attractive
 *April 15, 2024*
 
-Just over half a percent of users visit [beta.peeringdb.com](https://beta.peeringdb.com) each month. We recognize that there are good and bad reasons for this. 
+Just over half a percent of users visit [beta.peeringdb.com](https://beta.peeringdb.com) each month. We recognize that there are good and bad reasons for this.
 
 ![Screenshot of beta.peeringdb.com](images/beta_screenshot.png)
 
 On the good side, people are pretty happy with [www.peeringdb.com](https://www.peeringdb.com). But on the bad side, we only used to refresh the data in [beta.peeringdb.com](https://beta.peeringdb.com) once a month.
 
-We're getting ready to refresh data on our beta site every hour. That will come soon. It will make it an ideal place to test your searches each month – and get early access to new search features. 
+We're getting ready to refresh data on our beta site every hour. That will come soon. It will make it an ideal place to test your searches each month – and get early access to new search features.
 
 Of course, you can also test making updates on our beta site. But any changes you make will be wiped at the next refresh.
 
@@ -19,6 +19,6 @@ So, head on over to [beta.peeringdb.com](https://beta.peeringdb.com) and test th
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

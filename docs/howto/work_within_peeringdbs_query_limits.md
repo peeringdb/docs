@@ -41,7 +41,7 @@ If you want to implement a local cache using different tools and would like advi
 
 ## Tools
 
-Popular tools, including [arouteserver](https://github.com/pierky/arouteserver) have been updated to include support for API Keys and to make more efficient queries. [We publish](/tools/) a list of tools that we know use PeeringDB. Check the list for tools that you use and upgrade old versions to take advantage of new features and improve everyone’s PeeringDB experience. 
+Popular tools, including [arouteserver](https://github.com/pierky/arouteserver) have been updated to include support for API Keys and to make more efficient queries. [We publish](/tools/) a list of tools that we know use PeeringDB. Check the list for tools that you use and upgrade old versions to take advantage of new features and improve everyone’s PeeringDB experience.
 
 ## Improving this HOWTO
 

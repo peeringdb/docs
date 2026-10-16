@@ -14,7 +14,7 @@ Meanwhile, we have added new columns to tables over time. For instance, you can 
 
 In some situations, the density of information has led to some elements obscuring others. One example is long IPv6 addresses being obscured.
 
-We have started rolling out the new website design to PeeringDB volunteers. This has been a success in generating usable feedback. We will update the design before taking the next rollout step: opting in a fifth of logged in users. 
+We have started rolling out the new website design to PeeringDB volunteers. This has been a success in generating usable feedback. We will update the design before taking the next rollout step: opting in a fifth of logged in users.
 
 We will randomly select users to be opted into the new design. But users who dislike the new design – or just don't want to be part of testing – can opt out by selecting Legacy under Select UI Version in their profile.
 
@@ -34,6 +34,6 @@ Of course, we’ll continue to adapt the site to meet users’ needs. We’ll le
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

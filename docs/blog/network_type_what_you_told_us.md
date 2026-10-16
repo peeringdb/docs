@@ -7,9 +7,9 @@
 
 ## It's OK
 
-162 people participated and their core message was that the field is largely working for both those sharing and reading the data. 
+162 people participated and their core message was that the field is largely working for both those sharing and reading the data.
 
-Just over half of respondents use the field to make decisions. 
+Just over half of respondents use the field to make decisions.
 
 ![53% use it to make decisions](images/network_type_do_you_use_it.png)
 
@@ -27,11 +27,11 @@ About half think the level of granularity is about right, while almost a third w
 
 ## Comments
 
-Lots of people told us how they use the Network Type field in the comments. 
+Lots of people told us how they use the Network Type field in the comments.
 
 Some reinforced their responses to the other questions with calls to remove the field, add additional options, or restrict the options to “eyeball”, “content”, and “hybrid”.
 
-There was also a call to allow networks to select multiple categories. 
+There was also a call to allow networks to select multiple categories.
 
 ## Next steps
 

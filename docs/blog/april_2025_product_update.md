@@ -5,7 +5,7 @@
 
 This is our second half yearly update. We publish [notes with every release](/release_notes/) and promote new features and bug fixes on social media, these reports are an opportunity to step back and look at the broad sweep of change.
 
-PeeringDB’s board has approved more spending on development and operations work. We now have about 50 percent more resources available. All our committees have access to these development and operations resources. 
+PeeringDB’s board has approved more spending on development and operations work. We now have about 50 percent more resources available. All our committees have access to these development and operations resources.
 
 One reason for this change was to introduce and expand new features. For instance, while our [daily .KMZ download](https://www.peeringdb.com/export/kmz/) of interconnection facilities was a rapid hit with many users, refining it took too long.
 
@@ -65,7 +65,7 @@ It’s not just available for `curl`. You can get little snippets for several po
 
 ![Click get get the API query for a search in your copy buffer. Multiple languages supported](images/API_Query_to_copy_buffer.png)
 
-The other side of improving search is improving data quality. We are now continuously enforcing place name normalization. That means fewer problems with alternative spellings requiring alternative searches. 
+The other side of improving search is improving data quality. We are now continuously enforcing place name normalization. That means fewer problems with alternative spellings requiring alternative searches.
 
 ### User management API
 
@@ -104,6 +104,6 @@ You will have to use a second factor when authenticating from 1 July 2025. If yo
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

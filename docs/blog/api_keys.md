@@ -9,11 +9,11 @@ Organizations previously faced a problem that if a user left, and their PeeringD
 
 And if you automate searches to find new peers, your scripts can now be updated to collect contact information as well as other details.
 
-As more organizations use API Keys to automate more of their interactions with PeeringDB, we will get a better idea of who is using the API and who is not. This will allow us to engage with them so we can understand what they value. Of course, this does not mean that we’ll be abandoning users who want to focus on using the web interface. 
+As more organizations use API Keys to automate more of their interactions with PeeringDB, we will get a better idea of who is using the API and who is not. This will allow us to engage with them so we can understand what they value. Of course, this does not mean that we’ll be abandoning users who want to focus on using the web interface.
 
-Aris Lambrianidis, a senior security engineer with White & Case LLP, says: “*The ability to leverage API keys means that programmatic workflows can work reliably using an authentication and authorization model independently of any credentials assigned to humans. Decoupling these access methods should significantly benefit the security and scalability of such operations.*” 
+Aris Lambrianidis, a senior security engineer with White & Case LLP, says: “*The ability to leverage API keys means that programmatic workflows can work reliably using an authentication and authorization model independently of any credentials assigned to humans. Decoupling these access methods should significantly benefit the security and scalability of such operations.*”
 
-We have [published some documentation](https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md) showing how to generate an API Key, and use that API Key to achieve tasks that will be common to many organizations using PeeringDB. We have also published sample code to help you develop your own automation. Additional examples that others can use are also welcome. Everyone benefits from sharing this kind of code as it means more accurate data quality. 
+We have [published some documentation](https://github.com/peeringdb/peeringdb/blob/master/docs/api_keys.md) showing how to generate an API Key, and use that API Key to achieve tasks that will be common to many organizations using PeeringDB. We have also published sample code to help you develop your own automation. Additional examples that others can use are also welcome. Everyone benefits from sharing this kind of code as it means more accurate data quality.
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
 
