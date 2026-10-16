@@ -1,5 +1,12 @@
-# Published records and assets are served byte-for-byte; never rewrite them.
-exclude: ^(docs/gov/(legaldocs|misc)/.*\.(txt|html)|.*\.svg)$
+# Published records and vendored theme assets are served byte-for-byte;
+# never rewrite them.
+exclude: |
+  (?x)^(
+    docs/gov/(legaldocs|misc)/.*\.(txt|html)|
+    peeringdb_theme/(css|fonts)/.*|
+    peeringdb_theme/js/(bootstrap|jquery).*|
+    .*\.svg
+  )$
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks

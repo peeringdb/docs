@@ -3,7 +3,7 @@
 
 We want to improve the speed and efficiency of your PeeringDB queries. We also want to serve PeeringDB out of multiple locations, lowering network latency and improving resilience. To do this properly we need to update [our API](https://www.peeringdb.com/apidocs/).
 
-We’ve published a document explaining the key changes we anticipate for [this new API](../../api_v3/).
+We’ve published a document explaining the key changes we anticipate for [this new API](../api_v3.md).
 
 A key element is separating the read and write functions. As most traffic is queries, not updates, that would mean we could have widely distributed query servers. All reads would be cacheable.
 

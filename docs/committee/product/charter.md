@@ -1,6 +1,6 @@
 ## PeeringDB Product Committee Charter
 
-*** Approved by Board July 7th, 2017 ***
+***Approved by Board July 7th, 2017***
 
 #### Scope
 

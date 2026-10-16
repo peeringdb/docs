@@ -1,0 +1,197 @@
+{#-
+Vendored from the MkDocs 1.4.3 "mkdocs" theme and adapted to run as a
+standalone Zensical theme (theme.name: null). Zensical renders with Minijinja
+and rebuilds config.theme from a fixed key set, so the MkDocs theme options
+the live site used are inlined here and strings are English only.
+-#}
+{%- set is_homepage = page and page.url == nav.homepage.url %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      {%- block site_meta %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if is_homepage and config.site_description %}<meta name="description" content="{{ config.site_description }}">{% endif %}
+        {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
+        {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+        <link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">
+      {%- endblock %}
+
+      {%- block htmltitle %}
+        <title>{% if page and page.title and not is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+      {%- endblock %}
+
+      {%- block styles %}
+        <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
+        <link href="{{ 'css/font-awesome.min.css'|url }}" rel="stylesheet">
+        <link href="{{ 'css/base.css'|url }}" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        {%- for path in config.extra_css %}
+        <link href="{{ path|url }}" rel="stylesheet">
+        {%- endfor %}
+      {%- endblock %}
+
+      {%- block libs %}
+
+        <script src="{{ 'js/jquery-1.10.2.min.js'|url }}" defer></script>
+        <script src="{{ 'js/bootstrap.min.js'|url }}" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+      {%- endblock %}
+
+      {%- block analytics %}
+        {%- if config.extra.analytics and config.extra.analytics.property %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.analytics.property }}"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '{{ config.extra.analytics.property }}');
+        </script>
+        {%- endif %}
+      {%- endblock %}
+
+      {%- block extrahead %} {% endblock %}
+    </head>
+
+    <body{% if is_homepage %} class="homepage"{% endif %}>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+
+                {%- block site_name %}
+                <a class="navbar-brand" href="{{ nav.homepage.url|url }}">{{ config.site_name }}</a>
+                {%- endblock %}
+
+                {%- if nav.items|length>1 or (page and (page.next_page or page.previous_page)) or config.repo_url %}
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {%- endif %}
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                  {%- block site_nav %}
+                    {%- if nav.items|length>1 %}
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                        {%- for nav_item in nav.items %}
+                        {%- if nav_item.children %}
+                            <li class="dropdown{% if nav_item.active %} active{% endif %}">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                {%- for nav_item in nav_item.children %}
+                                    {% include "nav-sub.html" %}
+                                {%- endfor %}
+                                </ul>
+                            </li>
+                        {%- else %}
+                            <li class="navitem{% if nav_item.active %} active{% endif %}">
+                                <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
+                            </li>
+                        {%- endif %}
+                        {%- endfor %}
+                        </ul>
+                    {%- endif %}
+                  {%- endblock %}
+
+                    <ul class="nav navbar-nav ml-auto">
+                      {%- block search_button %}
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                      {%- endblock %}
+
+                      {%- block next_prev %}
+                        {%- if page and (page.next_page or page.previous_page) %}
+                            <li class="nav-item">
+                                <a rel="prev" {% if page.previous_page %}href="{{ page.previous_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" {% if page.next_page %}href="{{ page.next_page.url|url }}" class="nav-link"{% else %}class="nav-link disabled"{% endif %}>
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                        {%- endif %}
+                      {%- endblock %}
+
+                      {%- block repo %}
+                        {%- if page and page.edit_url %}
+                            <li class="nav-item">
+                                <a href="{{ page.edit_url }}" class="nav-link">
+                                    {%- if config.repo_name == 'GitHub' -%}
+                                        <i class="fa fa-github"></i> Edit on {{ config.repo_name }}
+                                    {%- elif config.repo_name == 'Bitbucket' -%}
+                                        <i class="fa fa-bitbucket"></i> Edit on {{ config.repo_name }}
+                                    {%- elif config.repo_name == 'GitLab' -%}
+                                        <i class="fa fa-gitlab"></i> Edit on {{ config.repo_name }}
+                                    {%- elif config.repo_name -%}
+                                        Edit on {{ config.repo_name }}
+                                    {% else %}
+                                        Edit
+                                    {%- endif -%}
+                                </a>
+                            </li>
+                        {%- elif config.repo_url %}
+                            <li class="nav-item">
+                                <a href="{{ config.repo_url }}" class="nav-link">
+                                    {%- if config.repo_name == 'GitHub' -%}
+                                        <i class="fa fa-github"></i> {{ config.repo_name }}
+                                    {%- elif config.repo_name == 'Bitbucket' -%}
+                                        <i class="fa fa-bitbucket"></i> {{ config.repo_name }}
+                                    {%- elif config.repo_name == 'GitLab' -%}
+                                        <i class="fa fa-gitlab"></i> {{ config.repo_name }}
+                                    {%- else -%}
+                                    {{ config.repo_name }}
+                                    {%- endif -%}
+                                </a>
+                            </li>
+                        {%- endif %}
+                      {%- endblock %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                {%- block content %}
+                    <div class="col-md-3">{% include "toc.html" %}</div>
+                    <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                {%- endblock %}
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+          {%- block footer %}
+            <hr>
+            {%- if config.copyright %}
+                <p>{{ config.copyright }}</p>
+            {%- endif %}
+            <p>Documentation built with <a href="https://zensical.org/">Zensical</a>.</p>
+          {%- endblock %}
+        </footer>
+
+      {%- block scripts %}
+        <script>
+            var base_url = {{ base_url | tojson }},
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="{{ 'js/base.js'|url }}" defer></script>
+        <script src="{{ 'js/search.js'|url }}" defer></script>
+        {%- for path in config.extra_javascript %}
+        <script src="{{ path|url }}" defer></script>
+        {%- endfor %}
+      {%- endblock %}
+
+        {%- include "search-modal.html" %}
+        {%- include "keyboard-modal.html" %}
+
+    </body>
+</html>

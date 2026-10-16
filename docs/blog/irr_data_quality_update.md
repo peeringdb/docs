@@ -1,7 +1,7 @@
 # Data Quality Improvements: IRRs and AS-SET names
 *25 August, 2026*
 
-We’ve now implemented the data quality improvements [we wrote about](../data_quality_for_networks/) last month. You can see this in the editor, which suggests the correct IRR for AS-SET names that exist, and tells you when there’s a miss. From our perspective, this is one of the most exciting improvements we’ve made. We’re grateful to James Bensley for proposing it.
+We’ve now implemented the data quality improvements [we wrote about](data_quality_for_networks.md) last month. You can see this in the editor, which suggests the correct IRR for AS-SET names that exist, and tells you when there’s a miss. From our perspective, this is one of the most exciting improvements we’ve made. We’re grateful to James Bensley for proposing it.
 
 ![Name validating editor](images/as-set_validation_in_editor.gif)
 

@@ -3,10 +3,14 @@ site_url: https://docs.peeringdb.com/
 # This line adds the "Edit on GitHub" link
 #repo_url: https://github.com/peeringdb/docs
 theme:
-  name: mkdocs
+  # peeringdb_theme is a standalone theme (vendored MkDocs 1.4.3 "mkdocs" theme)
+  name: null
   custom_dir: peeringdb_theme/
+
+extra:
   analytics:
-    gtag: G-14LRNCMV44
+    provider: google
+    property: G-14LRNCMV44
 
 nav:
   - About: index.md
@@ -36,6 +40,7 @@ markdown_extensions:
   - abbr
   - admonition
   - def_list
+  - fenced_code
   - footnotes
   - tables
   - markdown_include.include
