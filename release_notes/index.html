@@ -147,6 +147,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2840" class="nav-link">Release 2.84.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2830" class="nav-link">Release 2.83.0</a>
               <ul class="nav flex-column">
               </ul>
@@ -241,9 +245,78 @@
 <td>2026-11-03</td>
 <td>2026-11-17</td>
 </tr>
+<tr>
+<td>2.86.0</td>
+<td>2027-01-23</td>
+<td>2027-01-20</td>
+</tr>
+<tr>
+<td>2.87.0</td>
+<td>2027-02-10</td>
+<td>2027-02-17</td>
+</tr>
+<tr>
+<td>2.88.0</td>
+<td>2027-03-10</td>
+<td>2027-03-17</td>
+</tr>
+<tr>
+<td>2.89.0</td>
+<td>2027-06-09</td>
+<td>2027-06-16</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2840">Release 2.84.0</h2>
+<p>Release Date: 21 Oct 2026</p>
+<table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="New" src="images/new.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1742">#1742 Add additional status values to operational attribute on <code>netixlan</code>.</a></td>
+<td>The existing <code>operational</code> attribute now supports for values: Provisioning, Operational, Non-Operational, and De-Provisioning.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1471">#1471 Enhancement: Add "Preferred PNI IPv6 MTU" to "net" records.</a></td>
+<td>Networks can now configure a preferred MTU.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2046">#2046 Discrepancy between web results and CSV download.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1717">#1717 Prevent IXPs from deleting last remaining prefix.</a></td>
+<td>Attempting to remove an exchange's last prefix warns the user that doing this will put the exchange in 'soft-delete'.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2055">#1055 OAuth token endpoint returns 500 for every HS256 app.</a></td>
+<td>No longer suppoprt new HS256 apps. Existing apps need to transition to RS256.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2057">#2057 ?since= sync misses RIR-driven deletions: netixlans are hard-deleted, and some network deletions don't advance "updated".</a></td>
+<td>Fixes problem with deletes for users who are syncing.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/1065">#1065 2.83.0 uncaught 500s.</a></td>
+<td>Fixes some HTTP return codes.</td>
+</tr>
 </tbody>
 </table>
 <h2 id="release-2830">Release 2.83.0</h2>
+<p>Release Date: 23 Sep 2026</p>
 <table>
 <thead>
 <tr>
