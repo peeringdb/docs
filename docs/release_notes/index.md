@@ -18,8 +18,30 @@ Our releases are generally deployed at around 04:00 UTC.
 | -------------- | ---------------- | ------------------ |
 | 2.84.0 | 2026-10-06 | 2026-10-20 |
 | 2.85.0 | 2026-11-03 | 2026-11-17 |
+| 2.86.0 | 2027-01-23 | 2027-01-20|
+| 2.87.0 | 2027-02-10 | 2027-02-17|
+| 2.88.0 | 2027-03-10 | 2027-03-17|
+| 2.89.0 | 2027-06-09 | 2027-06-16|
+
+## Release 2.84.0
+
+Release Date: 21 Oct 2026
+
+| **Category** | **GitHub issue** | **Summary** |
+| --------| ----------------- | ----------- |
+| ![New](images/new.png) | [#1742 Add additional status values to operational attribute on `netixlan`.](https://github.com/peeringdb/peeringdb/issues/1742) | The existing `operational` attribute now supports for values: Provisioning, Operational, Non-Operational, and De-Provisioning. |
+| ![Improve](images/improve.png) | [#1471 Enhancement: Add "Preferred PNI IPv6 MTU" to "net" records.](https://github.com/peeringdb/peeringdb/issues/1471) | Networks can now configure a preferred MTU. |
+| ![Fix](images/fix.png) | [#2046 Discrepancy between web results and CSV download.](https://github.com/peeringdb/peeringdb/issues/2046) | Fixes bug as per title. |
+| ![Improve](images/improve.png) | [#1717 Prevent IXPs from deleting last remaining prefix.](https://github.com/peeringdb/peeringdb/issues/1717) | Attempting to remove an exchange's last prefix warns the user that doing this will put the exchange in 'soft-delete'. |
+| ![Fix](images/fix.png) | [#1055 OAuth token endpoint returns 500 for every HS256 app.](https://github.com/peeringdb/peeringdb/issues/2055) | No longer suppoprt new HS256 apps. Existing apps need to transition to RS256. |
+| ![Fix](images/fix.png) | [#2057 ?since= sync misses RIR-driven deletions: netixlans are hard-deleted, and some network deletions don't advance "updated".](https://github.com/peeringdb/peeringdb/issues/2057) | Fixes problem with deletes for users who are syncing. |
+| ![Fix](images/fix.png) | [#1065 2.83.0 uncaught 500s.](https://github.com/peeringdb/peeringdb/issues/1065) | Fixes some HTTP return codes. |
+
+
 
 ## Release 2.83.0
+
+Release Date: 23 Sep 2026
 
 | **Category** | **GitHub issue** | **Summary** |
 | --------| ----------------- | ----------- |
