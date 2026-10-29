@@ -3,14 +3,35 @@ site_url: https://docs.peeringdb.com/
 # This line adds the "Edit on GitHub" link
 #repo_url: https://github.com/peeringdb/docs
 theme:
-  # peeringdb_theme is a standalone theme (vendored MkDocs 1.4.3 "mkdocs" theme)
-  name: null
-  custom_dir: peeringdb_theme/
+  name: zensical
+  logo: img/pdb-logo-coloured.svg
+  favicon: img/favicon.ico
+  # system font stack, as on the live site
+  font: false
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
 
 extra:
   analytics:
     provider: google
     property: G-14LRNCMV44
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/peeringdb
+    - icon: fontawesome/brands/github
+      link: https://github.com/peeringdb/peeringdb/issues
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/peeringdb
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/PeeringDB
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg
 
 nav:
   - About: index.md
@@ -34,7 +55,7 @@ nav:
   - Blogs: blogs.md
 
 extra_css:
-  - extra.css
+  - stylesheets/peeringdb.css
 
 markdown_extensions:
   - abbr
