@@ -1,3 +1,6 @@
+---
+date: 2024-04-15
+---
 # Making beta.peeringdb.com, Search, and KMZ More Attractive
 *April 15, 2024*
 

@@ -1,3 +1,6 @@
+---
+date: 2026-04-30
+---
 # PeeringDB Update October 2025 – April 2026
 *April 30, 2026*
 

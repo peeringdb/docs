@@ -1,3 +1,6 @@
+---
+date: 2023-11-02
+---
 # Your Internal Source of Truth Can Now Push Updates to PeeringDB
 *November 2, 2023*
 

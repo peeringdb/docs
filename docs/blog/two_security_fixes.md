@@ -1,3 +1,6 @@
+---
+date: 2024-11-20
+---
 # Two Security Fixes
 *November 20, 2024*
 

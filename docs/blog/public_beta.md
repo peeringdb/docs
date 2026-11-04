@@ -1,3 +1,6 @@
+---
+date: 2026-07-26
+---
 # Do We Still Need Public Beta?
 *July 21, 2026*
 

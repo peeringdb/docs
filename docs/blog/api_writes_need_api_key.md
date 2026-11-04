@@ -1,3 +1,6 @@
+---
+date: 2022-09-25
+---
 # API Writes now Need an API Key
 *September 25, 2022*
 

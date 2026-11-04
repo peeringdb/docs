@@ -1,3 +1,6 @@
+---
+date: 2025-11-12
+---
 # More ASN Comparisons
 *November 12, 2025*
 

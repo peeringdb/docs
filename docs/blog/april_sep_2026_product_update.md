@@ -1,3 +1,6 @@
+---
+date: 2026-09-21
+---
 # PeeringDB Update April – September 2026
 *21 September, 2026*
 

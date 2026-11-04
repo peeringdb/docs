@@ -1,3 +1,6 @@
+---
+date: 2021-08-18
+---
 # Automating Configuration - Why We Support the IX-F Member Export Schema
 *August 18, 2021*
 

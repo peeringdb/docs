@@ -1,3 +1,6 @@
+---
+date: 2024-07-12
+---
 # Containerized Deployment
 *July 12, 2024*
 

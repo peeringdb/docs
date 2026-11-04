@@ -1,3 +1,6 @@
+---
+date: 2025-08-29
+---
 # September 2025 PeeringDB Product Update
 *August 29, 2025*
 

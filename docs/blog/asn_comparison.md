@@ -1,3 +1,6 @@
+---
+date: 2025-08-04
+---
 # Comparing Networks on PeeringDB’s Website
 *August 4, 2025*
 

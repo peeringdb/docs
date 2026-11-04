@@ -1,3 +1,6 @@
+---
+date: 2025-01-22
+---
 # 2025 Starts With Better Search
 *January 22, 2025*
 

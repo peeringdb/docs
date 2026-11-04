@@ -1,3 +1,6 @@
+---
+date: 2024-02-05
+---
 # What happened to our web UI?
 *February 5, 2024*
 

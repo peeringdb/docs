@@ -1,3 +1,6 @@
+---
+date: 2020-11-12
+---
 # PeeringDB Release v2.24.0
 *November 12, 2020*
 

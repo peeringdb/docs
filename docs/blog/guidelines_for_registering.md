@@ -1,3 +1,6 @@
+---
+date: 2021-10-21
+---
 # Guidelines for Registering in PeeringDB
 *October 21, 2021*
 

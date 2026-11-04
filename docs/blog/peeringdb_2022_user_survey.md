@@ -1,3 +1,6 @@
+---
+date: 2022-09-14
+---
 # PeeringDB 2022 User Survey
 *September 14, 2022*
 

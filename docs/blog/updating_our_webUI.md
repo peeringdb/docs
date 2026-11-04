@@ -1,3 +1,6 @@
+---
+date: 2023-07-06
+---
 # We're Updating our Web UI
 *July 6, 2023*
 

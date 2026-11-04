@@ -1,3 +1,6 @@
+---
+date: 2020-11-02
+---
 # PeeringDB 2020 Satisfaction Survey
 *November 2, 2020*
 

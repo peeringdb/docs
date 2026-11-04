@@ -1,3 +1,6 @@
+---
+date: 2021-09-14
+---
 # Changes to Contacts Marked as Private
 *September 14, 2021*
 

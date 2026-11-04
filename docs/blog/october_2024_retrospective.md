@@ -1,3 +1,6 @@
+---
+date: 2024-10-04
+---
 # October 2024 PeeringDB Product Update
 *October 4, 2024*
 

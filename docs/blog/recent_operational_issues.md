@@ -1,3 +1,6 @@
+---
+date: 2026-03-12
+---
 # Recent Operational Issues
 *March 12, 2026*
 

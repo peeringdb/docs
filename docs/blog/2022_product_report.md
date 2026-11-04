@@ -1,3 +1,6 @@
+---
+date: 2023-01-09
+---
 # PeeringDB 2022 Product Report
 *January 9, 2023*
 

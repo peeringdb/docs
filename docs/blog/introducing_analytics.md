@@ -1,3 +1,6 @@
+---
+date: 2022-11-03
+---
 # Introducing Analytics
 *November 3, 2022*
 

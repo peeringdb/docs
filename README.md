@@ -56,6 +56,20 @@ Point your browser at that URL, and you'll get real time updates to the generate
 Markdown has its own formatting syntax, to get started look [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for an excellent cheatsheet.
 
 
+### Blog posts
+
+Add the post under `docs/blog/`, starting with its publish date as front matter,
+and link it from `docs/blogs.md`:
+
+```markdown
+---
+date: 2026-10-12
+---
+# Post title
+```
+
+The blog RSS feed (`/feed.xml`) is built from these dates, not from git history.
+
 ### Updating the site
 
 Once you are happy with your changes, commit and push, then run

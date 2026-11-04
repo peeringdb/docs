@@ -1,3 +1,6 @@
+---
+date: 2025-09-12
+---
 # PeeringDB’s 2025 User Survey
 *September 12, 2025*
 

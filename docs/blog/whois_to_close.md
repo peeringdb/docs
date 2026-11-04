@@ -1,3 +1,6 @@
+---
+date: 2023-11-03
+---
 # PeeringDB Whois Service to Close
 *November 3, 2023*
 

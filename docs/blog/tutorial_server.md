@@ -1,3 +1,6 @@
+---
+date: 2026-02-03
+---
 # Actively Learning and Testing with Our Tutorial Server
 *February 3, 2026*
 

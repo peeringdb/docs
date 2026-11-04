@@ -1,3 +1,6 @@
+---
+date: 2026-09-21
+---
 # A new API for PeeringDB
 *21 September, 2026*
 

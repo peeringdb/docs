@@ -1,3 +1,6 @@
+---
+date: 2024-02-19
+---
 # 2023 Product Report
 *February 19, 2024*
 

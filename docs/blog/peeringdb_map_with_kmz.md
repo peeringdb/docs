@@ -1,3 +1,6 @@
+---
+date: 2023-10-25
+---
 # See Locations in PeeringDB on a Map
 *October 25, 2023*
 

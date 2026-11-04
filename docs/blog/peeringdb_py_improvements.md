@@ -1,3 +1,6 @@
+---
+date: 2025-02-28
+---
 # Improvements for peeringdb-py
 *February 28, 2025*
 

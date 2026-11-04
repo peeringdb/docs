@@ -1,3 +1,6 @@
+---
+date: 2022-11-08
+---
 # Installing peeringdb-py at NANOG 86
 *November 8, 2022*
 

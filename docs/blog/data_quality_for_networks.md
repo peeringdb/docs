@@ -1,3 +1,6 @@
+---
+date: 2026-07-01
+---
 # Data Quality for Networks
 *July 1, 2026*
 

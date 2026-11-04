@@ -1,3 +1,6 @@
+---
+date: 2026-10-12
+---
 # What Networks Need to Check and Update
 *12 October 2026*
 

@@ -1,3 +1,6 @@
+---
+date: 2025-06-15
+---
 # PeeringDB Website Update
 *June 15, 2025*
 

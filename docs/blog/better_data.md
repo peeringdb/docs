@@ -1,3 +1,6 @@
+---
+date: 2024-01-19
+---
 # Better Data
 *January 19, 2024*
 

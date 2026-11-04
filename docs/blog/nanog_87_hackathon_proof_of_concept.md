@@ -1,3 +1,6 @@
+---
+date: 2023-02-23
+---
 # Do You Want Your Configuration Management System to Update PeeringDB?
 *February 23, 2023*
 

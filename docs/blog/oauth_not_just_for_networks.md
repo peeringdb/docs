@@ -1,3 +1,6 @@
+---
+date: 2026-04-16
+---
 # OAuth Isn’t Just for Networks
 *April 16, 2026*
 

@@ -1,3 +1,6 @@
+---
+date: 2025-12-08
+---
 # What we Learned From our 2025 User Survey
 *December 8, 2025*
 

@@ -1,3 +1,6 @@
+---
+date: 2023-07-12
+---
 # Network Type – What did you tell us?
 *July 12, 2023*
 

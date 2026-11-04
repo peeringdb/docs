@@ -1,5 +1,6 @@
 unreleased:
-  added: []
+  added:
+  - "Added an RSS feed of the 20 newest blog posts at https://docs.peeringdb.com/feed.xml (peeringdb/peeringdb#2015)"
   fixed:
   - "Fixed bold-italic formatting on committee charter pages and two blog cross-links"
   changed:

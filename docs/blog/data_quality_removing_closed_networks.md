@@ -1,3 +1,6 @@
+---
+date: 2024-09-07
+---
 # Data Quality — Removing Closed Networks
 *September 7, 2024*
 

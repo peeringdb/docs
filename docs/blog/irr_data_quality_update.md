@@ -1,3 +1,6 @@
+---
+date: 2026-08-25
+---
 # Data Quality Improvements: IRRs and AS-SET names
 *25 August, 2026*
 

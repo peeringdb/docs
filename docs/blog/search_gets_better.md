@@ -1,3 +1,6 @@
+---
+date: 2023-05-17
+---
 # Search Gets Better
 *May 17, 2023*
 

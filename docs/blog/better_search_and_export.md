@@ -1,3 +1,6 @@
+---
+date: 2024-03-14
+---
 # Better Search and Export
 *March 14, 2024*
 

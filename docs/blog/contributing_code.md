@@ -1,3 +1,6 @@
+---
+date: 2020-12-07
+---
 # Contributing Code to PeeringDB Just Got Easier
 *December 7, 2020*
 
