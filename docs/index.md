@@ -27,7 +27,7 @@ IXPs and data center facilities can add to and maintain their information in the
 
 ## Getting started
 
-* Several short [HOWTOs](/howtos) provide a beginner detailed instructions on how to get started using PeeringDB.
+* Several short [HOWTOs](howtos.md) provide a beginner detailed instructions on how to get started using PeeringDB.
 * Create an account and [register](https://www.peeringdb.com/register) in PeeringDB.
 * We also have a [glossary](glossary.md) of PeeringDB terms.
 
@@ -49,9 +49,6 @@ We have changed the way in which PeeringDB will be announcing future enhancement
 
 * [PeeringDB Governance](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-gov)
     Discussion list for PeeringDB governance issues.  This is a community-based effort, the community’s input will help guide the future of the PeeringDB as it has always done.
-
-* [API v3 Discuss](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss)
-    Discussion about v3 of the PeeringDB API.
 
 * [PeeringDB Technical](http://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-tech)
     Discussion about PeeringDB technical topics.
@@ -95,8 +92,6 @@ The [release notes and schedule](release_notes/index.md) page lists upcoming rel
 The [tools](tools.md) page features tools developed by PeeringDB users.
 
 ## Tutorials and workshops
-
-High-level [HOWTOs](howtos.md) provide a beginner detailed instructions on how to get started using PeeringDB.
 
 - [PDB 101 in 20 Minutes](presentation/20241105_PeeringAsia6_Arnold_Nipper.pdf) at [Peering Asia 6.0](https://6.peeringasia.org/agenda/tutorial) - November 5, 2024 - Arnold Nipper
 - [PeeringDB Tutorial, learning the GUI and the API](presentation/20220225-Apricot-1-2-GUI-API-with-exercises.pdf) at [APRICOT 2022](https://2022.apricot.net/program/schedule-tutorial/#/day/5/introduction-to-peeringdb-a-tutorial-part-1) - February 25, 2022 - Arnold Nipper
