@@ -116,7 +116,7 @@ updated `uv.lock`.
 
 ### Theme
 
-The site look comes from `peeringdb_theme/`, a standalone Zensical theme derived from
-the MkDocs 1.4.3 `mkdocs` theme (see `THIRD-PARTY-NOTICES.md`). `main.html` holds the
-PeeringDB customisations (footer, no previous/next links). Search reads the
-`search.json` index that Zensical generates (`peeringdb_theme/js/search.js`).
+The site uses Zensical's built-in theme. PeeringDB branding lives in `mkdocs.yml`
+(logo, favicon, palette, footer social links) and `docs/stylesheets/peeringdb.css`
+(colours). `overrides/main.html` adds the blog RSS feed to every page's `<head>`.
+Search is Zensical's built-in search.

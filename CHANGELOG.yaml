@@ -5,8 +5,8 @@ unreleased:
   fixed:
   - "Fixed bold-italic formatting on committee charter pages and two blog cross-links"
   changed:
-  - "Changed the docs build from MkDocs 1.4.3 to Zensical; pages keep the existing look, contributors need Python 3.11+"
-  - "Changed site search to use Zensical's search index; search results may differ from the previous lunr search"
+  - "Changed the docs build from MkDocs 1.4.3 to Zensical with its built-in theme in PeeringDB colours; contributors need Python 3.11+"
+  - "Changed site search to Zensical's built-in search; results may differ from the previous lunr search"
   deprecated: []
   removed: []
   security: []

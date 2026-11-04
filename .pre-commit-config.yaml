@@ -1,10 +1,7 @@
-# Published records and vendored theme assets are served byte-for-byte;
-# never rewrite them.
+# Published records are served byte-for-byte; never rewrite them.
 exclude: |
   (?x)^(
     docs/gov/(legaldocs|misc)/.*\.(txt|html)|
-    peeringdb_theme/(css|fonts)/.*|
-    peeringdb_theme/js/(bootstrap|jquery).*|
     .*\.svg
   )$
 
