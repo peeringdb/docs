@@ -20,6 +20,14 @@ Our releases are generally deployed at around 04:00 UTC.
 | 2.88.0 | 2027-03-10 | 2027-03-17 |
 | 2.89.0 | 2027-06-09 | 2027-06-16 |
 
+## Release 2.84.1
+
+Release Date: 6 Nov 2026
+
+| **Category** | **GitHub issue** | **Summary** |
+| --------| ----------------- | ----------- |
+| ![Fix](images/fix.png)| Security hardening | Various security hardening improvements. |
+
 ## Release 2.84.0
 
 Release Date: 21 Oct 2026
