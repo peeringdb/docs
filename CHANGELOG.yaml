@@ -2,6 +2,7 @@ unreleased:
   added:
   - "Added an RSS feed of the 20 newest blog posts at https://docs.peeringdb.com/feed.xml (peeringdb/peeringdb#2015)"
   - "Added an RSS icon to the site footer and a feed link on the Blogs page; feed readers can discover the feed from any page"
+  - "Added syntax highlighting to code examples that declare a language"
   fixed:
   - "Fixed bold-italic formatting on committee charter pages and two blog cross-links"
   changed:
