@@ -86,10 +86,44 @@ source .venv/bin/activate
 zensical build --clean
 ```
 
-Zensical has no `gh-deploy` command; publishing the built `site/` directory to
-GitHub Pages is handled separately.
-
 To get your changes pushed to the live site, just create a pull request, if you're unfamiliar with how to do that, GitHub has [documentation](https://help.github.com/articles/creating-a-pull-request/).
+
+### Previews and publishing
+
+Every pull request gets a preview site. Once the build finishes, a comment on the
+PR links to `https://pr-<number>.<project>.pages.dev`, and each new push to the PR
+updates it. Previews leave out PDFs and audio files to stay small, so links to those
+don't work in a preview. Previews are not indexed by search engines.
+
+Merging to `master` publishes the site: GitHub Actions builds it and pushes it to
+the `gh-pages` branch, which GitHub Pages serves at docs.peeringdb.com. Nobody needs
+to run a deploy by hand.
+
+How it works (`.github/workflows/`):
+
+- `pr-preview-build.yml` builds the PR with `zensical build --strict` and no access
+  to secrets, so it is safe for pull requests from forks. A failing build fails this
+  check.
+- `pr-preview-deploy.yml` runs from `master` after a successful build, uploads the
+  built files to Cloudflare Pages and comments the URL. It never runs code from the PR.
+- `deploy.yml` builds and publishes on every push to `master`, one `gh-pages` commit
+  per deploy. It can also be started by hand from the Actions tab.
+
+One-time setup for repo admins:
+
+- Settings → Pages: source "Deploy from a branch", branch `gh-pages` (as before).
+- Settings → Actions → General: keep "Require approval for … outside collaborators"
+  on for fork pull requests.
+- Cloudflare: create the Pages project once, with
+  `npx wrangler pages project create <project> --production-branch=master`, and an
+  API token with the "Cloudflare Pages: Edit" permission.
+- Settings → Secrets and variables → Actions: secret `CLOUDFLARE_API_TOKEN`, and
+  variables `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_PAGES_PROJECT`. Until the
+  variables are set, previews are skipped and everything else still works.
+
+To roll back the live site, push the previous deploy back to `gh-pages`
+(`git push --force origin <older-sha>:gh-pages`), then revert the change on `master`
+so the next merge doesn't publish it again.
 
 
 
