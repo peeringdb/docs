@@ -21,7 +21,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: pr-preview-deploy-${{ github.event.workflow_run.head_sha }}
+  group: pr-preview-deploy-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
   cancel-in-progress: true
 
 jobs:
@@ -41,11 +41,13 @@ jobs:
         with:
           script: |
             const run = context.payload.workflow_run;
+            const headRepo = run.head_repository?.full_name;
+            if (!headRepo) { core.notice('Head repository is gone; nothing to preview.'); return; }
             const prs = await github.paginate(github.rest.pulls.list, {
               owner: context.repo.owner, repo: context.repo.repo, state: 'open', per_page: 100,
             });
             const pr = prs.find(p => p.head.sha === run.head_sha
-              && p.head.repo && p.head.repo.full_name === run.head_repository.full_name);
+              && p.head.repo && p.head.repo.full_name === headRepo);
             if (!pr) { core.notice(`No open PR for ${run.head_sha}; nothing to preview.`); return; }
             core.setOutput('number', String(pr.number));
 
@@ -94,6 +96,7 @@ jobs:
           script: |
             const marker = '<!-- pr-preview -->';
             const url = process.env.ALIAS_URL || process.env.DEPLOY_URL;
+            if (!url) { core.setFailed('Wrangler returned no deployment URL.'); return; }
             const body = `${marker}\n**Preview:** ${url}\n\n` +
               `Built from ${process.env.HEAD_SHA.slice(0, 8)}. PDFs and audio are left out of previews, ` +
               `so links to them 404 here.`;

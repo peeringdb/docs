@@ -112,8 +112,10 @@ How it works (`.github/workflows/`):
 One-time setup for repo admins:
 
 - Settings → Pages: source "Deploy from a branch", branch `gh-pages` (as before).
-- Settings → Actions → General: keep "Require approval for … outside collaborators"
-  on for fork pull requests.
+- Settings → Actions → General → "Approval for running fork pull request workflows":
+  choose "Require approval for all external contributors". GitHub's default only
+  asks for first-time contributors, and a preview publishes whatever a fork's build
+  produces under PeeringDB's Cloudflare project.
 - Cloudflare: create the Pages project once, with
   `npx wrangler pages project create <project> --production-branch=master`, and an
   API token with the "Cloudflare Pages: Edit" permission.
@@ -121,9 +123,10 @@ One-time setup for repo admins:
   variables `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_PAGES_PROJECT`. Until the
   variables are set, previews are skipped and everything else still works.
 
-To roll back the live site, push the previous deploy back to `gh-pages`
-(`git push --force origin <older-sha>:gh-pages`), then revert the change on `master`
-so the next merge doesn't publish it again.
+To roll back the live site, revert the change on `master`; the deploy workflow
+publishes the reverted site within a few minutes. In an emergency, push an older
+deploy straight back (`git push --force origin <older-sha>:gh-pages`), and still
+revert on `master` so the next merge doesn't publish the change again.
 
 
 
