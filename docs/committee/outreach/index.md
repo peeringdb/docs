@@ -81,6 +81,7 @@
 ## Members
 
 - Obinna Adumike
+- Fiona Atkinson
 - Lynsey Buckingham
 - Yolandi Cloete
 - Tarryn Kidd
