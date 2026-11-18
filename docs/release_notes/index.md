@@ -14,11 +14,25 @@ Our releases are generally deployed at around 04:00 UTC.
 
 | **Release number** | **Internal testing** |  **Production release** |
 | -------------- | ---------------- | ------------------ |
-| 2.85.0 | 2026-11-03 | 2026-11-17 |
 | 2.86.0 | 2027-01-23 | 2027-01-20 |
 | 2.87.0 | 2027-02-10 | 2027-02-17 |
 | 2.88.0 | 2027-03-10 | 2027-03-17 |
 | 2.89.0 | 2027-06-09 | 2027-06-16 |
+
+## Release 2.85.0
+
+Release Date: 18 Nov 2026
+
+| **Category** | **GitHub issue** | **Summary** |
+| --------| ----------------- | ----------- |
+| ![Improve](images/improve.png) | [#2036 Let users know if a valid hierarchical AS-SET name is used elsewhere in PeeringDB.](https://github.com/peeringdb/peeringdb/issues/2036) | If the hierarchical AS-SET name you enter is already in use for another network in PeeringDB, the editor lets you know where it's used. |
+| ![Improve](images/improve.png) | [#2022 Enable OIDC RP-Initiated Logout (end_session_endpoint).](https://github.com/peeringdb/peeringdb/issues/2022) | django-oauth-toolkit's OIDC RP-Initiated Logout is now enabled. |
+| ![Improve](images/improve.png) | [#2004 About page links should go to the same place.](https://github.com/peeringdb/peeringdb/issues/2004) | As title. |
+| ![Improve](images/improve.png) | [#2018 No longer accept emoji's in PeeringDB.](https://github.com/peeringdb/peeringdb/issues/2018) | Emoji characters aren't accepted in name fields any more. |
+| ![Fix](images/fix.png) | [#2066 Linkedin link being rejected.](https://github.com/peeringdb/peeringdb/issues/2066) | Fixes bug as per title. |
+| ![Fix](images/fix.png) | [#2068 Mobile Sponsorship Tier Confusion.](https://github.com/peeringdb/peeringdb/issues/2068) | Fixes bug as per title. |
+| ![Fix](images/fix.png) | [#2071 ?since= can permanently miss IX-F import changes: updated is stamped before the transaction commits.](https://github.com/peeringdb/peeringdb/issues/2071) | Fixes documentation and shortens the window by moving the importer's post-save work (cleanup, notifications) outside the atomic block. |
+| ![Fix](images/fix.png) | [#2072 Users with granular permission set for update rights on an exchange object are unable to request an ixf import.](https://github.com/peeringdb/peeringdb/issues/2072) | Fixes bug as per title. |
 
 ## Release 2.84.1
 
