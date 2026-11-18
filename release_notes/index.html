@@ -147,6 +147,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#release-2850" class="nav-link">Release 2.85.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#release-2841" class="nav-link">Release 2.84.1</a>
               <ul class="nav flex-column">
               </ul>
@@ -239,11 +243,6 @@
 </thead>
 <tbody>
 <tr>
-<td>2.85.0</td>
-<td>2026-11-03</td>
-<td>2026-11-17</td>
-</tr>
-<tr>
 <td>2.86.0</td>
 <td>2027-01-23</td>
 <td>2027-01-20</td>
@@ -262,6 +261,59 @@
 <td>2.89.0</td>
 <td>2027-06-09</td>
 <td>2027-06-16</td>
+</tr>
+</tbody>
+</table>
+<h2 id="release-2850">Release 2.85.0</h2>
+<p>Release Date: 18 Nov 2026</p>
+<table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>GitHub issue</strong></th>
+<th><strong>Summary</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2036">#2036 Let users know if a valid hierarchical AS-SET name is used elsewhere in PeeringDB.</a></td>
+<td>If the hierarchical AS-SET name you enter is already in use for another network in PeeringDB, the editor lets you know where it's used.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2022">#2022 Enable OIDC RP-Initiated Logout (end_session_endpoint).</a></td>
+<td>django-oauth-toolkit's OIDC RP-Initiated Logout is now enabled.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2004">#2004 About page links should go to the same place.</a></td>
+<td>As title.</td>
+</tr>
+<tr>
+<td><img alt="Improve" src="images/improve.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2018">#2018 No longer accept emoji's in PeeringDB.</a></td>
+<td>Emoji characters aren't accepted in name fields any more.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2066">#2066 Linkedin link being rejected.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2068">#2068 Mobile Sponsorship Tier Confusion.</a></td>
+<td>Fixes bug as per title.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2071">#2071 ?since= can permanently miss IX-F import changes: updated is stamped before the transaction commits.</a></td>
+<td>Fixes documentation and shortens the window by moving the importer's post-save work (cleanup, notifications) outside the atomic block.</td>
+</tr>
+<tr>
+<td><img alt="Fix" src="images/fix.png" /></td>
+<td><a href="https://github.com/peeringdb/peeringdb/issues/2072">#2072 Users with granular permission set for update rights on an exchange object are unable to request an ixf import.</a></td>
+<td>Fixes bug as per title.</td>
 </tr>
 </tbody>
 </table>
