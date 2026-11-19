@@ -9,8 +9,7 @@ on:
     branches: [master]
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: deploy-gh-pages
@@ -21,21 +20,25 @@ jobs:
     # a manual run from another branch would publish unmerged content
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.7"
 
       - name: Build
         run: |
-          uv sync --frozen
-          uv run zensical build --clean --strict
+          uv sync --locked
+          uv run --no-sync zensical build --clean --strict
 
       - name: Record versions
         id: ver
-        run: echo "zensical=$(uv run python -c 'import importlib.metadata as m; print(m.version("zensical"))')" >> "$GITHUB_OUTPUT"
+        run: echo "zensical=$(uv run --no-sync python -c 'import importlib.metadata as m; print(m.version("zensical"))')" >> "$GITHUB_OUTPUT"
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
@@ -43,4 +46,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./site
+          # Written by the action, so the custom domain doesn't depend on
+          # docs/CNAME making it through the build.
+          cname: docs.peeringdb.com
           full_commit_message: Deployed ${{ github.sha }} with Zensical ${{ steps.ver.outputs.zensical }}

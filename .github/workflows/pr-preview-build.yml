@@ -7,8 +7,7 @@ name: PR preview build
 on:
   pull_request:
 
-permissions:
-  contents: read
+permissions: {}
 
 concurrency:
   group: pr-preview-build-${{ github.event.pull_request.number }}
@@ -17,17 +16,21 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
       - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.7"
 
       - name: Build
         run: |
-          uv sync --frozen
-          uv run zensical build --clean --strict
+          uv sync --locked
+          uv run --no-sync zensical build --clean --strict
 
       # PDFs and audio are ~510 MB of the ~537 MB site and over Cloudflare
       # Pages' 25 MiB per-file limit in places; previews link to them but

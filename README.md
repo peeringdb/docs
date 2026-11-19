@@ -118,7 +118,11 @@ One-time setup for repo admins:
   produces under PeeringDB's Cloudflare project.
 - Cloudflare: create the Pages project once, with
   `npx wrangler pages project create <project> --production-branch=master`, and an
-  API token with the "Cloudflare Pages: Edit" permission.
+  API token with the "Cloudflare Pages: Edit" permission. That permission can't be
+  limited to one project: the token can change or delete every Pages project in the
+  account it covers. Under "Account Resources", include only the account that holds
+  the docs project (a dedicated account if that one hosts other Pages sites), and
+  give the token an expiry date so it gets rotated.
 - Settings → Secrets and variables → Actions: secret `CLOUDFLARE_API_TOKEN`, and
   variables `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_PAGES_PROJECT`. Until the
   variables are set, previews are skipped and everything else still works.
