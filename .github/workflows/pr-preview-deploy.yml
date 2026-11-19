@@ -5,6 +5,9 @@ name: PR preview deploy
 # secret, so it never checks out or executes PR code: the artifact is
 # treated as untrusted static files.
 #
+# Fork PRs only deploy when the PR carries the `preview` label; branches in
+# this repo deploy automatically.
+#
 # Setup (repo admin): secret CLOUDFLARE_API_TOKEN (Account > Cloudflare Pages >
 # Edit), variables CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_PAGES_PROJECT.
 # Without the variables this workflow skips, so forks and unconfigured
@@ -50,6 +53,14 @@ jobs:
             const pr = prs.find(p => p.head.sha === run.head_sha
               && p.head.repo && p.head.repo.full_name === headRepo);
             if (!pr) { core.notice(`No open PR for ${run.head_sha}; nothing to preview.`); return; }
+            // Fork PRs publish only once a maintainer has read the change and
+            // added the `preview` label (needs triage access). Branches in this
+            // repo were pushed by someone with write access and deploy directly.
+            const fromFork = pr.head.repo.full_name !== `${context.repo.owner}/${context.repo.repo}`;
+            if (fromFork && !pr.labels.some(l => l.name === 'preview')) {
+              core.notice(`PR #${pr.number} is from a fork; add the "preview" label to publish a preview.`);
+              return;
+            }
             core.setOutput('number', String(pr.number));
 
       - name: Download site

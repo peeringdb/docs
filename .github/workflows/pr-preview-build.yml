@@ -6,15 +6,20 @@ name: PR preview build
 
 on:
   pull_request:
+    # labeled: adding the `preview` label to a fork PR starts the build that
+    # pr-preview-deploy.yml then publishes.
+    types: [opened, synchronize, reopened, labeled]
 
 permissions: {}
 
 concurrency:
-  group: pr-preview-build-${{ github.event.pull_request.number }}
+  # Other labels get their own group, so adding one doesn't cancel a build.
+  group: pr-preview-build-${{ github.event.pull_request.number }}-${{ (github.event.action == 'labeled' && github.event.label.name != 'preview') && github.run_id || 'build' }}
   cancel-in-progress: true
 
 jobs:
   build:
+    if: github.event.action != 'labeled' || github.event.label.name == 'preview'
     runs-on: ubuntu-latest
     permissions:
       contents: read

@@ -106,6 +106,10 @@ How it works (`.github/workflows/`):
   check.
 - `pr-preview-deploy.yml` runs from `master` after a successful build, uploads the
   built files to Cloudflare Pages and comments the URL. It never runs code from the PR.
+  Branches in this repo get a preview automatically. A PR from a fork gets one only
+  after a maintainer has read the change and added the `preview` label. The label
+  stays on, so look at later pushes before approving their workflow runs. Remove the
+  label to stop previews for that PR.
 - `deploy.yml` builds and publishes on every push to `master`, one `gh-pages` commit
   per deploy. It can also be started by hand from the Actions tab.
 
