@@ -11,6 +11,7 @@
 
 #### 2026
 
+- [November 5th, 2026: Meeting Notes](notes/2026-11-05_Product_Committee_Notes.pdf)
 - [October 1st, 2026: Meeting Notes](notes/2026-10-01_Product_Committee_Notes.pdf)
 - [September 3rd, 2026: Meeting Notes](notes/2026-09-03_Product_Committee_Notes.pdf)
 - [August 6th, 2026: Meeting Notes](notes/2026-08-06_Product_Committee_Notes.pdf)
