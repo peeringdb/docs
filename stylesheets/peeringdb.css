@@ -1,0 +1,44 @@
+/* PeeringDB branding for Zensical's built-in theme (colours from live extra.css) */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #4b6063;
+  --md-primary-fg-color--light: #687f82;
+  --md-primary-fg-color--dark: #00203e;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #33744a;
+  --md-typeset-a-color: #33744a;
+  --md-default-bg-color: #f1f1f1;
+  --md-default-fg-color: #00203e;
+}
+
+.md-header,
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* the coloured logo has a navy wordmark; give it a light plate on the dark header */
+.md-header__button.md-logo img {
+  height: 2rem;
+  background: #ffffff;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5 {
+  color: #00203e;
+}
+
+.md-typeset a:hover {
+  color: #1c3f28;
+}
