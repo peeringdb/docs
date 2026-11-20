@@ -1,3 +1,6 @@
+---
+date: 2026-09-21
+---
 # PeeringDB Update April – September 2026
 *21 September, 2026*
 
@@ -45,16 +48,16 @@ We have a couple of minor refinements associated with these improvements coming 
 
 We’re introducing some new metadata values. From next month you’ll be able to signal the date on which you’re joining or leaving an exchange, your MTU, and more.
 
-We’ve published a discussion document for [a new PeeringDB API](https://docs.peeringdb.com/api_v3/). The two key drivers are: 
+We’ve published a discussion document for [a new PeeringDB API](https://docs.peeringdb.com/api_v3/). The two key drivers are:
 
  * To let us separate the read and write parts of our architecture, which will let us place PeeringDB instances in many places.
  * To enable some more efficient queries. For instance, “*a network with its exchange presences, an exchange with its members, or a facility with its occupants.*”
 
 If you or a colleague use our API, please read the draft and [subscribe to the API v3 discussion list](https://lists.peeringdb.com/cgi-bin/mailman/listinfo/pdb-apiv3-discuss). We want your input so we can refine the design before implementing it.
 
-We’re also looking at how we can let users know if a network’s published maximum prefix count is smaller than the observed number of prefixes. 
+We’re also looking at how we can let users know if a network’s published maximum prefix count is smaller than the observed number of prefixes.
 
-Most of our users are human. But we’ve noticed a lot of automated searches by AI systems. To help these users make efficient use of PeeringDB we’ll set up an MCP server and publish an Agent Skills directory in [peeringdb/peeringdb](https://github.com/peeringdb/peeringdb/). 
+Most of our users are human. But we’ve noticed a lot of automated searches by AI systems. To help these users make efficient use of PeeringDB we’ll set up an MCP server and publish an Agent Skills directory in [peeringdb/peeringdb](https://github.com/peeringdb/peeringdb/).
 
 But while AI systems are good at automating some things for us, we could also improve some of our own comparison tools. We have [ideas for improvements](https://github.com/peeringdb/peeringdb/issues/1979). Please leave a comment in the issue if you’d like us to enhance our comparison tool to do things like:
 
@@ -64,6 +67,6 @@ But while AI systems are good at automating some things for us, we could also im
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

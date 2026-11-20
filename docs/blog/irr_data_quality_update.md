@@ -1,7 +1,10 @@
+---
+date: 2026-08-25
+---
 # Data Quality Improvements: IRRs and AS-SET names
 *25 August, 2026*
 
-We’ve now implemented the data quality improvements [we wrote about](../data_quality_for_networks/) last month. You can see this in the editor, which suggests the correct IRR for AS-SET names that exist, and tells you when there’s a miss. From our perspective, this is one of the most exciting improvements we’ve made. We’re grateful to James Bensley for proposing it.
+We’ve now implemented the data quality improvements [we wrote about](data_quality_for_networks.md) last month. You can see this in the editor, which suggests the correct IRR for AS-SET names that exist, and tells you when there’s a miss. From our perspective, this is one of the most exciting improvements we’ve made. We’re grateful to James Bensley for proposing it.
 
 ![Name validating editor](images/as-set_validation_in_editor.gif)
 
@@ -17,6 +20,6 @@ We’ll report on the data quality improvements later in the year.
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

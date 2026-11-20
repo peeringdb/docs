@@ -1,6 +1,6 @@
 # HOWTO: Report a Security Issue to PeeringDB
 
-PeeringDB works hard to keep its systems and data as secure as possible. If you are a security researcher and have discovered a security vulnerability in one of our services, we appreciate your help in disclosing it to us in a responsible manner. 
+PeeringDB works hard to keep its systems and data as secure as possible. If you are a security researcher and have discovered a security vulnerability in one of our services, we appreciate your help in disclosing it to us in a responsible manner.
 
 Our responsible disclosure policy is not an invitation to actively hack and potentially disrupt our system and services. We reserve the right to sue researchers for penetrating or attempting to penetrate our systems.
 
@@ -36,7 +36,7 @@ This is not an exclusive list. If you report a vulnerability that has already be
 
 * Please do not share the issue with others until it has been resolved.
 * Please do not publish anything about the resolved issue unless this has been discussed with us.
-* Email your findings to security@peeringdb.com. You may submit a notification under a pseudonym. 
+* Email your findings to security@peeringdb.com. You may submit a notification under a pseudonym.
 * Please provide enough information for us to reproduce the issue so that we can resolve it as soon as possible.
 * Please delete all confidential information obtained through the vulnerability as soon as possible after reporting it. Please do this after consulting us to make sure that we can reproduce the issue.
 

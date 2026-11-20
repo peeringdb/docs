@@ -1,3 +1,6 @@
+---
+date: 2022-10-26
+---
 # Data Quality Improvements Rolled Out
 *October 26, 2022*
 

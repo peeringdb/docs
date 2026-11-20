@@ -1,4 +1,4 @@
-# HOWTO: Get Started with PeeringDB as a Carrier Operator 
+# HOWTO: Get Started with PeeringDB as a Carrier Operator
 
 ## About PeeringDB
 
@@ -8,7 +8,7 @@ We believe in, and rely on the community to grow and improve the PeeringDB datab
 
 ## Why?
 
-PeeringDB is the interconnection database. Registering information about your carrier in PeeringDB makes it visible to IXPs and network operators who want to use your services to bring in peer or connect to other parts of their own network. 
+PeeringDB is the interconnection database. Registering information about your carrier in PeeringDB makes it visible to IXPs and network operators who want to use your services to bring in peer or connect to other parts of their own network.
 
 ## Getting started
 
@@ -22,9 +22,9 @@ The `carrier` object is used to describe providers offering [L1 or L2](https://e
 
 ## Information required
 
-You will need to create several database records, known as objects, to establish your presence in PeeringDB. 
+You will need to create several database records, known as objects, to establish your presence in PeeringDB.
 
-Database objects organize relevant information. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB. 
+Database objects organize relevant information. Most information is optional but sharing all the relevant information maximizes the benefit you get from listing in PeeringDB.
 
 You can create your entry with the minimum required data and add and update the information you share over time. To maximize the value of your entry in PeeringDB you’ll probably want to include more than the minimum required information. Your company name is required. This information is not required but is useful:
 
@@ -38,7 +38,7 @@ You can look at the information shared by other PeeringDB users to work out what
 
 ### User
 
-The `org` is the parent for the carrier but you will need to start the process by creating a user account. 
+The `org` is the parent for the carrier but you will need to start the process by creating a user account.
 
 Once created, you will login using your username, password, and second factor.
 
@@ -66,7 +66,7 @@ You then click the edit button in the top right of the `carrier` screen and indi
 
 ## Next steps
 
-This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants. 
+This short document describes the first steps for getting set up in PeeringDB. Once you have established your presence you should consider sharing information that would be helpful to potential new participants.
 
 ## Improving this HOWTO
 

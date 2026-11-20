@@ -1,3 +1,6 @@
+---
+date: 2021-08-18
+---
 # Automating Configuration - Why We Support the IX-F Member Export Schema
 *August 18, 2021*
 
@@ -19,6 +22,6 @@ Our continuing efforts in this area are designed to help exchanges share more ac
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at <support@peeringdb.com>.
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

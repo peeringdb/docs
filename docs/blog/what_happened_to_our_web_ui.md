@@ -1,3 +1,6 @@
+---
+date: 2024-02-05
+---
 # What happened to our web UI?
 *February 5, 2024*
 
@@ -27,7 +30,7 @@ We will be changing our process for introducing big changes.
 
 The first part is to improve our internal testing process.
 
-But we are also considering changes to the beta testing process. Instead of relying on users to speak up if they find a problem on [beta.peeringdb.com](https://beta.peeringdb.com) we could do the reverse. We would only release major changes to production after we have had positive comments from users who have tested on [beta.peeringdb.com](https://beta.peeringdb.com). 
+But we are also considering changes to the beta testing process. Instead of relying on users to speak up if they find a problem on [beta.peeringdb.com](https://beta.peeringdb.com) we could do the reverse. We would only release major changes to production after we have had positive comments from users who have tested on [beta.peeringdb.com](https://beta.peeringdb.com).
 
 In some cases, we might need to delay a release – or part of it – until we had that positive input from users.
 
@@ -35,6 +38,6 @@ What do you think? Would you prefer us to require more active involvement from u
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

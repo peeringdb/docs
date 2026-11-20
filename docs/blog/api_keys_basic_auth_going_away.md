@@ -1,3 +1,6 @@
+---
+date: 2024-12-05
+---
 # API Keys: Basic Authentication is Going Away
 *December 5, 2024*
 

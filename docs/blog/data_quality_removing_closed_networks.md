@@ -1,3 +1,6 @@
+---
+date: 2024-09-07
+---
 # Data Quality — Removing Closed Networks
 *September 7, 2024*
 
@@ -11,6 +14,6 @@ It will improve data quality. You won't see results for networks that aren't ope
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

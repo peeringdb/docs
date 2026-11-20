@@ -1,3 +1,6 @@
+---
+date: 2021-06-23
+---
 # Advanced Search (Part 1)
 *June 23, 2021*
 

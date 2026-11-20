@@ -1,3 +1,6 @@
+---
+date: 2022-09-14
+---
 # PeeringDB 2022 User Survey
 *September 14, 2022*
 
@@ -11,7 +14,7 @@ We had about 250 responses to last year’s survey which helped guide our produc
 * Added FIDO U2F 2FA support to [www.peeringdb.com](https://www.peeringdb.com/)
 * Normalized place names
 
-We’ve also published more documents in our [HOWTO documentation series](/howto/). 
+We’ve also published more documents in our [HOWTO documentation series](/howto/).
 
 Steve McManus, PeeringDB Product Committee Chair, says: "*The 2021 survey helped us focus development where it was most needed. We used it to develop our roadmap. We are still implementing things we have learned from previous surveys but want your input on how we should adapt. Please take a few moments of their time to help us make PeeringDB a better service!*”
 

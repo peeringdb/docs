@@ -1,12 +1,12 @@
 # HOWTO: Manage Organizational Policy
 
-Your organization can apply policies for its users in the Manage section of the organization profile. 
+Your organization can apply policies for its users in the Manage section of the organization profile.
 
 ![User Management Tab](images/organization_users_tab.png)
 
 ## Restrict email domains
 
-You can set a policy that only allows users to affiliate when their email address uses a specific domain. You can set a list of the domains your organization allows. 
+You can set a policy that only allows users to affiliate when their email address uses a specific domain. You can set a list of the domains your organization allows.
 
 If users do not meet the policy when it is configured they will not lose their affiliation. You will be notified so you can manage the change with your users.
 

@@ -1,3 +1,6 @@
+---
+date: 2023-06-03
+---
 # Network Type – Your Input Sought
 *June 3, 2023*
 

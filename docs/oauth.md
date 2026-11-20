@@ -35,7 +35,7 @@ PDB_OAUTH_PROFILE_URL = '{}profile/v1'.format(PDB_ENDPOINT)
 
 The fields are based largely on OpenID Connect.
 
-Scopes currently are defined as 
+Scopes currently are defined as
 
 - `profile` : user profile
 - `email` : adds fields `email` and `verified_email`
@@ -68,7 +68,7 @@ Example for my user:
       "asn": 63311,
       "name": "20C",
       "id": 20
-    }, 
+    },
     {
       "perms": 15,
       "asn": 33713,

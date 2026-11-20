@@ -1,3 +1,6 @@
+---
+date: 2026-03-12
+---
 # Recent Operational Issues
 *March 12, 2026*
 
@@ -7,11 +10,10 @@ We completed our transition from VMs to Kubernetes with 2.76.0. As with any majo
 
 We also introduced rate limiting for unauthenticated web users in the same release. Automated scrapers started testing our new rate limiting shortly after release. We’ve refined the rate limiting and ensured that web browsers can cache more web page elements, reducing the scope of their requests.
 
-We’ve now resolved the main issues and PeeringDB is running normally for web and API users. 
+We’ve now resolved the main issues and PeeringDB is running normally for web and API users.
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
- 

@@ -1,3 +1,6 @@
+---
+date: 2026-04-16
+---
 # OAuth Isn’t Just for Networks
 *April 16, 2026*
 
@@ -11,7 +14,7 @@ We made this change based on a request from Thomas Holterbach and the [bgproutes
 
 *“We run a BGP data collection platform and rely on PeeringDB’s strong authentication system, combined with its robust mapping between users, organizations, and the networks they operate, to confidently authenticate operators through its OAuth system and determine which ASNs they manage. This is essential for ensuring the integrity of the data we collect and for clearly identifying the source of each feed.*
 
-*For this, we needed a new feature: the ability to use OAuth without being tied to a specific ASN. The PeeringDB Product Committee was very responsive in understanding our use case and adapting the system to support it. It is now working smoothly, and tens of operators have already connected to our platform using their PeeringDB accounts.”* - Thomas Holterbach, bgproutes.io 
+*For this, we needed a new feature: the ability to use OAuth without being tied to a specific ASN. The PeeringDB Product Committee was very responsive in understanding our use case and adapting the system to support it. It is now working smoothly, and tens of operators have already connected to our platform using their PeeringDB accounts.”* - Thomas Holterbach, bgproutes.io
 
 Initially, they planned to get access to contact data to authenticate users. This was a challenging way for PeeringDB to meet the project’s needs. The Product Committee didn’t want to change the conditions under which contact data is shared and adding an extra permission would have been complicated.
 
@@ -19,6 +22,6 @@ In the end, we decided to expand the scope of who could create an OAuth applicat
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

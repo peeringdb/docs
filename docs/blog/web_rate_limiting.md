@@ -1,3 +1,6 @@
+---
+date: 2026-02-25
+---
 # Website Rate Limiting for Unauthenticated Users
 *February 25, 2026*
 

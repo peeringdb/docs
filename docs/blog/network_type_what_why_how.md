@@ -1,3 +1,6 @@
+---
+date: 2026-03-17
+---
 # Network Type: What's it for? How to use it?
 *March 17, 2026*
 

@@ -107,7 +107,7 @@
 - [October 1st, 2020: Meeting Notes](notes/2020-10-01_Product_Committee_Notes.pdf)
 - [September 3rd, 2020: Meeting Notes](notes/2020-09-03_Product_Committee_Notes.pdf)
 - [August 6th, 2020: Meeting Notes](notes/2020-08-06_Product_Committee_Notes.pdf)
-- [July 2nd, 2020: Meeting Notes](notes/2020-07-02_Product_Committee_Notes.pdf) 
+- [July 2nd, 2020: Meeting Notes](notes/2020-07-02_Product_Committee_Notes.pdf)
 - [June 4th, 2020: Meeting Notes](notes/2020-06-04_Product_Committee_Notes.pdf)
 - [May 7th, 2020: Meeting Notes](notes/2020-05-07_Product_Committee_Notes.pdf)
 - [April 2nd, 2020: Meeting Notes](notes/2020-04-02_Product_Committee_Notes.pdf)

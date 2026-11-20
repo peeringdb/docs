@@ -1,6 +1,6 @@
 ## PeeringDB Admin Committee Charter
 
-*** Approved by Board July 9th, 2020 ***
+***Approved by Board July 9th, 2020***
 
 #### Scope
 

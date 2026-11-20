@@ -7,13 +7,13 @@
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
 
-The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet. 
+The database is a non-profit, community-driven initiative run and promoted by volunteers. It is a public tool for the growth and good of the Internet. Join the community and support the continued development of the Internet.
 
 ### How do I get started?
 
 See our Quick Start guide: <http://docs.peeringdb.com/#quick-start>
 
-### Affiliation requests 
+### Affiliation requests
 
 Q: How does affiliation to an organization work?
 
@@ -53,7 +53,7 @@ Now there is an `org` entity which owns the records. A record can be a carrier, 
 
 ### Authenticating via embedded user/pass in the URL
 
-We have [required MFA](https://docs.peeringdb.com/blog/mfa_mandatory/) since mid-2025. Requiring MFA meant ending support for simple authentication in API queries. You must now use an API Key when authenticating to the API. 
+We have [required MFA](https://docs.peeringdb.com/blog/mfa_mandatory/) since mid-2025. Requiring MFA meant ending support for simple authentication in API queries. You must now use an API Key when authenticating to the API.
 
 There is a "Copy API Query" button for every web query. The example shows where you need to insert your API Key to authenticate the query.
 
@@ -87,4 +87,4 @@ No, there are not.
 
 ### To register network information in the PeeringDB, is an organization required to join as a member?
 
-No, that isn't necessary. 
+No, that isn't necessary.

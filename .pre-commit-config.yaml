@@ -1,0 +1,22 @@
+# Published records are served byte-for-byte; never rewrite them.
+exclude: |
+  (?x)^(
+    docs/gov/(legaldocs|misc)/.*\.(txt|html)|
+    .*\.svg
+  )$
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        # keep Markdown hard line breaks (two trailing spaces)
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-added-large-files
+        args: [--maxkb=10240]

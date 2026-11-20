@@ -1,4 +1,4 @@
-*** PeeringDB Common Committee Charter Provisions: ***
+***PeeringDB Common Committee Charter Provisions:***
 
 #### Dispute resolution
 

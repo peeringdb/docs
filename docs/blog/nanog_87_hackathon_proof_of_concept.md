@@ -1,3 +1,6 @@
+---
+date: 2023-02-23
+---
 # Do You Want Your Configuration Management System to Update PeeringDB?
 *February 23, 2023*
 
@@ -11,9 +14,9 @@ Developers from [FullCtl](https://www.fullctl.com/) and [Peering Manager](https:
 
 We've created [an issue describing this on GitHub](https://github.com/peeringdb/peeringdb/issues/1328). If you or your organization would benefit from a feature like this, please let us know. You can comment on the issue, write to the [Product Committee's list](mailto:productcom@lists.peeringdb.com), or chat with a PC member.
 
-If this is something our users want then we'll need to answer some questions. One example is how to manage multiple updates. How should web users be invited to review multiple updates, so they can approve or reject as needed? 
+If this is something our users want then we'll need to answer some questions. One example is how to manage multiple updates. How should web users be invited to review multiple updates, so they can approve or reject as needed?
 
-We also need to think about how to keep parity between the website and the API. The API supports write operations but is not interactive. So it might be important to add in a feature to [show orgs the changes](https://github.com/peeringdb/peeringdb/issues/979) made to their objects. And we might want to add the ability to add a comment alongside updates, so admins can later review logs of what changed and why. 
+We also need to think about how to keep parity between the website and the API. The API supports write operations but is not interactive. So it might be important to add in a feature to [show orgs the changes](https://github.com/peeringdb/peeringdb/issues/979) made to their objects. And we might want to add the ability to add a comment alongside updates, so admins can later review logs of what changed and why.
 
 We want to speak with people who develop tools that might implement this feature. If you develop a tool that could benefit from a feature like this then let us know. We'd like to speak.
 

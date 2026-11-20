@@ -1,3 +1,6 @@
+---
+date: 2023-07-21
+---
 # Alphabetical Search Results
 *July 21, 2023*
 

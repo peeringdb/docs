@@ -1,3 +1,6 @@
+---
+date: 2024-02-19
+---
 # 2023 Product Report
 *February 19, 2024*
 
@@ -8,7 +11,7 @@ We didn’t run a survey at the end of 2023 as we heard the same message consist
 We deployed [12 releases](/release_notes/release_notes_2023/) in 2023, addressing 76 issues, 11 of which were bugs. We also introduced four new features and made some significant improvements that all users will care about.
 
 ## New data
-We introduced two new objects in 2023. 
+We introduced two new objects in 2023.
 
 The [Carrier object](/blog/carrier_object_deployed/) describes networks providing high capacity links between facilities. Now, when you look at a facility you can scroll down and see which carriers have a presence there.
 
@@ -27,14 +30,14 @@ We also started publishing all our facility data in a .KMZ file, which we update
 
 You can view facilities in a map view and overlay them with other datasets.
 
-We also introduced a [new search](/blog/search_gets_better/) backend. You can now search for a type of data in a location. It knows the coordinates of facilities and has a radius for each locality. This means you don't need to worry about city names in conurbations – or rural areas. 
+We also introduced a [new search](/blog/search_gets_better/) backend. You can now search for a type of data in a location. It knows the coordinates of facilities and has a radius for each locality. This means you don't need to worry about city names in conurbations – or rural areas.
 
 ![Search for an `ix` in Montana](images/search_for_an_ix_in_mt.png)
 
 ## Data quality
 We introduced a way for your internal source of truth to [propose updates to PeeringDB](/blog/updates_from_an_internal_source_of_truth/). You don't need to give your internal source of truth any PeeringDB credentials. You can then log into our website and approve or deny the changes.
 
-This helps organizations that are too big for fully manual updates but not big enough to want to automate everything. 
+This helps organizations that are too big for fully manual updates but not big enough to want to automate everything.
 
 ## Improvements
 We introduced some policy options for organization admins in 2023. PeeringDB Oauth is increasingly relied on for peering and more. Now, organization admins can require their users to:
@@ -91,6 +94,6 @@ And Stephen McManus will step down as chair of the committee at the start of Mar
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

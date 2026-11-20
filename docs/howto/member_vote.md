@@ -29,7 +29,7 @@ Yes! Volunteers run our committees. They are:
 - [Outreach](https://docs.peeringdb.com/committee/outreach/) – keeps the interconnection community aware of PeeringDB activity
 - [Product](https://docs.peeringdb.com/committee/product/) – reviews and refines PeeringDB’s product design
 
-If you want to join a committee, send a message to [stewards@peeringdb.com](mailto:stewards@peeringdb.com). 
+If you want to join a committee, send a message to [stewards@peeringdb.com](mailto:stewards@peeringdb.com).
 
 ## Where can I learn more?
 

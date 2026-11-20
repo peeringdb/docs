@@ -6,10 +6,10 @@ PeeringDB, as the name suggests, was set up to facilitate peering between networ
 We believe in, and rely on the community to grow and improve the PeeringDB database. The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
 
 ## Query PeeringDB Locally
-You can query PeeringDB locally using a containerized local tool called `peeringdb-py`. We have a HOWTO describing it and linking to detailed technical documentation for installation. Using `peeringdb-py` will ensure that your local source of PeeringDB data is always current. It can keep in sync at near to realtime with little effort. 
+You can query PeeringDB locally using a containerized local tool called `peeringdb-py`. We have a HOWTO describing it and linking to detailed technical documentation for installation. Using `peeringdb-py` will ensure that your local source of PeeringDB data is always current. It can keep in sync at near to realtime with little effort.
 
 ## Download PeeringDB over HTTPS
-Each object type can be downloaded over HTTPS from [public.peeringdb.com](http://public.peeringdb.com). These bootstrap files are updated every day. 
+Each object type can be downloaded over HTTPS from [public.peeringdb.com](http://public.peeringdb.com). These bootstrap files are updated every day.
 
  - [campus](https://public.peeringdb.com/campus-0.json)
  - [carrier](https://public.peeringdb.com/carrier-0.json)

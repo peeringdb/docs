@@ -8,7 +8,7 @@ This online database is a non-profit, community-driven effort that encourages th
 
 ## Why use PeeringDB to search for networks, exchange and data centers?
 
-About a third of networks (Autonomous Systems) use PeeringDB to share information about how they interconnect. You can use PeeringDB to find information about other networks, exchanges, and more. You make your services easier to find when you contribute your data to PeeringDB. 
+About a third of networks (Autonomous Systems) use PeeringDB to share information about how they interconnect. You can use PeeringDB to find information about other networks, exchanges, and more. You make your services easier to find when you contribute your data to PeeringDB.
 
 You don't need an account to use the basic search functionality. But if you want to access private contact information and use advanced search features, like radius search, you'll need to sign up for an account.
 
@@ -43,7 +43,7 @@ You can search for networks using their ASN by:
 
 ![asn-search](images/asn-search.png)
 
-**Note**: Either of the two methods will get the same search results. 
+**Note**: Either of the two methods will get the same search results.
 
 ### Exchanges
 
@@ -103,13 +103,13 @@ Below is the result:
 
 ![extension-context-menu-result](images/context-menu-result.png)
 
-If the query or highlighted text contains a number, the extension will attempt to find an ASN. 
+If the query or highlighted text contains a number, the extension will attempt to find an ASN.
 
 ## How to search based on a partial name
 
-You can search based on a partial name. When an organization, network, facility or exchange name has two parts, you can search for just the first or second part and then select from all the organizations that share that name. This makes it easier to find the organization you want. This can also be helpful in a situation where you can not remember the name of the organization in full. 
+You can search based on a partial name. When an organization, network, facility or exchange name has two parts, you can search for just the first or second part and then select from all the organizations that share that name. This makes it easier to find the organization you want. This can also be helpful in a situation where you can not remember the name of the organization in full.
 
-In the example below, we want to search for “internet archive”. We will search for it with a single part and not with the full name. In the search box, input “archive''. This brings out a search result that have similar parts in their names. 
+In the example below, we want to search for “internet archive”. We will search for it with a single part and not with the full name. In the search box, input “archive''. This brings out a search result that have similar parts in their names.
 
 ![partial-name-search](images/partial-name-search.png)
 
@@ -117,7 +117,7 @@ You can now search through the results to find the what you want.
 
 ## What is an advanced search?
 
-Advanced search in PeeringDB lets you explicitly filter a search location, network presence, service level and a wide range of other features. You get the results you’re looking for and can export them in structured data formats (JSON or CSV), so you can import the data into tools that will help you make decisions. 
+Advanced search in PeeringDB lets you explicitly filter a search location, network presence, service level and a wide range of other features. You get the results you’re looking for and can export them in structured data formats (JSON or CSV), so you can import the data into tools that will help you make decisions.
 
 **Note**: You need to be logged in to PeeringDB in order to use some of the advanced search features, including the radius search.
 
@@ -125,7 +125,7 @@ Let’s take a look at this example below to demonstrate how advanced search wor
 
 ![advanced-search](images/advanced-search-link.png)
 
-- Click on the Advanced Search link. This takes you to the advanced search landing page. The search page shows the campus, exchanges, facilities, networks, and organizations tabs. 
+- Click on the Advanced Search link. This takes you to the advanced search landing page. The search page shows the campus, exchanges, facilities, networks, and organizations tabs.
 
 ![advanced-search](images/advanced-search-interface.png)
 
@@ -146,7 +146,7 @@ Let’s take a look at this example below to demonstrate how advanced search wor
 
 ## Geographic search
 
-As new facilities are created in our database they will be linked to geographic coordinates. PeeringDB has improved search by changing the way it records data for location in its database. You can now search for facilities with a distance radius of a chosen coordinate. 
+As new facilities are created in our database they will be linked to geographic coordinates. PeeringDB has improved search by changing the way it records data for location in its database. You can now search for facilities with a distance radius of a chosen coordinate.
 
 ### How to search for a campus
 
@@ -195,7 +195,7 @@ Each object has an associated shorthand tag you can use. Object types are not ca
 For example: [https://www.peeringdb.com/api/OBJ](https://www.peeringdb.com/api/OBJ). The endpoint is: `/api/OBJ`.
 
 Below are the categories of objects types (OBJ) in PeeringDB:
-- **Basic Objects**: org, fac, ix, net, poc 
+- **Basic Objects**: org, fac, ix, net, poc
 - **Derived Objects**: ixlan, ixpfx, netixlan, netfac
 
 ### Basic objects
@@ -220,7 +220,7 @@ Below is a description of what each of the object types mean and what informatio
 
 ## Authentication
 
-Authentication is uses [API Keys](/howto/api_keys/). 
+Authentication is uses [API Keys](/howto/api_keys/).
 
 People who are accessing the API as a guest do not need any authentication. For example:
 
@@ -238,7 +238,7 @@ If you want to select the output format, either use the Accept: HTTP header or u
 
 ## Operations
 
-Using the GET operation you can retrieve information from the PeeringDB database. You can retrieve both a single object and multiple objects in an array. Let’s look at each of them individually. 
+Using the GET operation you can retrieve information from the PeeringDB database. You can retrieve both a single object and multiple objects in an array. Let’s look at each of them individually.
 
 ### Single object
 
@@ -258,7 +258,7 @@ A nested set or object is any field ending in the suffix: set. For example: net_
 
 **Unexpanded**
 ```
-{ 
+{
   ...
   "net_id" : 1
 }
@@ -283,7 +283,7 @@ A nested set or object is any field ending in the suffix: set. For example: net_
 ### Multiple objects
 
 To retrieve a single object you need to use this URL: `https://www.peeringdb.com/api/OBJ/` with this endpoint GET: `/api/OBJ/`. Let’s look at an example:
-- HTTP: `GET /api/OBJ/` which is the endpoint 
+- HTTP: `GET /api/OBJ/` which is the endpoint
 - curl: `curl -H "Authorization: api-key $YOUR_API_KEY" "https://www.peeringdb.com/api/OBJ""`
 
 There are optional parameters you can add to your URL:
@@ -312,20 +312,20 @@ Similarly, `https://www.peeringdb.com/api/ixfac?fac__state=NV` gets IXs in facil
 
 Use this curl example to get this specific network. Copy and paste the following to your command line interface: `curl GET https://www.peeringdb.com/api/net?asn=42`.
 
-### Using Python 
+### Using Python
 
-To make use of this Python code, first, you’ll have to first install [Python](https://www.python.org/downloads/) if you don’t have it installed. Then, install [pip](https://pip.pypa.io/en/stable/cli/pip_install/) and [requests](https://docs.python-requests.org/en/latest/user/install/). After that create a Python file and copy and paste the following code. 
+To make use of this Python code, first, you’ll have to first install [Python](https://www.python.org/downloads/) if you don’t have it installed. Then, install [pip](https://pip.pypa.io/en/stable/cli/pip_install/) and [requests](https://docs.python-requests.org/en/latest/user/install/). After that create a Python file and copy and paste the following code.
 
 ```
 import requests
 r = requests.get('https://www.peeringdb.com/api/net?asn=42')
 print(r.text)
- 
+
 with open('output.csv', 'w+') as f:
     f.write(r.text)
 ```
-   
-From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format. However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv. 
+
+From the above code, we make a request to the API using the request module and print out the response which would be in a JSON format. However, reading a JSON file can be quite hectic and tasking so we convert the JSON file to a CSV file. Our CSV file will open in output.csv.
 
 ### Using jq
 
@@ -333,7 +333,7 @@ You can use jq to make a request to your API and get your output in a CSV format
 
 This creates a new file named test.json.  To convert the JSON input file to the CSV format, copy and paste the following command: `jq -r '(.data[0] | keys_unsorted), (.data[] | to_entries | map(.value))|@csv' test.json`
 
-### Using an online converter 
+### Using an online converter
 
 Alternatively you can use an online tool such as [https://www.convertcsv.com/json-to-csv.htm](https://www.convertcsv.com/json-to-csv.htm) to convert the raw JSON file to CSV.
 

@@ -1,3 +1,6 @@
+---
+date: 2024-07-12
+---
 # Containerized Deployment
 *July 12, 2024*
 
@@ -7,7 +10,7 @@ We deployed [beta.peeringdb.com](https://beta.peeringdb.com) on a container base
 
 PeeringDB started on a bare metal LAMP stack, and was deployed to virtual machines with the release of PeeringDB 2.0 about ten years ago, but technology has advanced since then.
 
-By deploying PeeringDB in containers, we will reduce our computing costs and more easily adjust compute resources dynamically based on load. Managing spending is important as PeeringDB is fully funded by [our sponsors](https://www.peeringdb.com/sponsors). 
+By deploying PeeringDB in containers, we will reduce our computing costs and more easily adjust compute resources dynamically based on load. Managing spending is important as PeeringDB is fully funded by [our sponsors](https://www.peeringdb.com/sponsors).
 
 It should also help us narrow the scope of work for our volunteer Operations Committee.
 
@@ -15,6 +18,6 @@ We have been looking for ways to improve the efficiency of our spending [since 2
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

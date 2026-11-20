@@ -3,10 +3,39 @@ site_url: https://docs.peeringdb.com/
 # This line adds the "Edit on GitHub" link
 #repo_url: https://github.com/peeringdb/docs
 theme:
-  name: mkdocs
-  custom_dir: peeringdb_theme/
+  name: zensical
+  custom_dir: overrides
+  logo: img/pdb-logo-coloured.svg
+  favicon: img/favicon.ico
+  # system font stack, as on the live site
+  font: false
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+extra:
   analytics:
-    gtag: G-14LRNCMV44
+    provider: google
+    property: G-14LRNCMV44
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/peeringdb
+    - icon: fontawesome/brands/github
+      link: https://github.com/peeringdb/peeringdb/issues
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/peeringdb
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/PeeringDB
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCOrYWUg-dbL9UTFV_Lry6Wg
+    - icon: fontawesome/solid/square-rss
+      link: https://docs.peeringdb.com/feed.xml
+      name: PeeringDB Blog RSS feed
 
 nav:
   - About: index.md
@@ -30,12 +59,30 @@ nav:
   - Blogs: blogs.md
 
 extra_css:
-  - extra.css
+  - stylesheets/peeringdb.css
+
+plugins:
+  - search
+  # Blog feed (peeringdb/peeringdb#2015). Dates come from each post's `date:`
+  # front matter, not git history, so they stay right in shallow CI clones.
+  # match_path is a Rust regex (no look-ahead): everything under blog/ except
+  # rca-*, which is linked from a post but isn't a post itself.
+  - rss:
+      match_path: "blog/([^r]|r[^c]|rc[^a]|rca[^-]).*"
+      date_from_meta:
+        as_creation: date
+        as_update: date
+      feed_title: PeeringDB Blog
+      feed_description: Deeper insight into PeeringDB releases and the product roadmap.
+      json_feed_enabled: false
+      feeds_filenames:
+        rss_created: feed.xml
 
 markdown_extensions:
   - abbr
   - admonition
   - def_list
+  - fenced_code
   - footnotes
   - tables
   - markdown_include.include

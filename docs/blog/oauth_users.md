@@ -1,3 +1,6 @@
+---
+date: 2021-05-24
+---
 # PeeringDB Can Bring Users to Your Application
 *May 24, 2021*
 
@@ -14,7 +17,7 @@ Jakub Heichman & Jenny Ramseyer @ Facebook
 
 Almost 150 applications have registered with PeeringDB and we’re authenticating over 1,500 sessions each quarter. We expect that to grow. If you’d like to learn how you can register your application with PeeringDB’s OAuth service, take a look at [our documentation](https://docs.peeringdb.com/oauth/).
 
-If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/new/choose). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com). 
+If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues/new/choose). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
 ---
 

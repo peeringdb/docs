@@ -1,3 +1,6 @@
+---
+date: 2023-02-06
+---
 # PeeringDB's Product Roadmap for 2023
 *February 6, 2023*
 

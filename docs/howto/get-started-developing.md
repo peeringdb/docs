@@ -1,10 +1,10 @@
-# HOWTO: Get Started with Developing for PeeringDB 
+# HOWTO: Get Started with Developing for PeeringDB
 
 ## Technology
 
-We use Python with Django and MySQL. Django manages interaction with the database. We publish all [our code](https://github.com/peeringdb/peeringdb) on GitHub. 
+We use Python with Django and MySQL. Django manages interaction with the database. We publish all [our code](https://github.com/peeringdb/peeringdb) on GitHub.
 
-We [have documented](/howto/run_development_container/) how to set up our development environment. 
+We [have documented](/howto/run_development_container/) how to set up our development environment.
 
 ## What to develop
 

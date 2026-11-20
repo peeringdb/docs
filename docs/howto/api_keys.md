@@ -1,6 +1,6 @@
 # HOWTO: Get Started with API Keys
 
-PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet. We believe in, and rely on the community to grow and improve the PeeringDB database. 
+PeeringDB, as the name suggests, was set up to facilitate peering between networks and peering coordinators. In recent years, the vision of PeeringDB has developed to keep up with the speed and diverse manner in which the Internet is growing. The database is no longer just for peering and peering related information. It now includes all types of interconnection data for networks, clouds, services, and enterprise, as well as interconnection facilities that are developing at the edge of the Internet. We believe in, and rely on the community to grow and improve the PeeringDB database.
 
 The volunteers who run the database are passionate about security, privacy, integrity, and validation of the data in the database. Even though PeeringDB is a freely available and public tool, users strictly adhere to the acceptable use policy, which prevents the database from being used for commercial purposes and discourages unsolicited communications. This is largely policed by the community and has been very effective since PeeringDB was launched.
 
@@ -16,12 +16,12 @@ An API key is a secret token for identifying and authenticating a user. That use
 
 PeeringDB offers API keys for authenticating API requests. There are two main forms of API keys:
 
-* User-level 
+* User-level
 * Organizational-level
 
 ### User-level API keys
 
-These API keys are tied to an individual user account and can be created from the user profile page. 
+These API keys are tied to an individual user account and can be created from the user profile page.
 
 There are only two permission levels: a normal key will mirror the same permissions of the user, while a readonly key will have read only permissions to all the same namespaces as the user.
 

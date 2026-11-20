@@ -7,12 +7,11 @@ authors = [
     ]
 
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 
 dependencies = [
-    "jinja2>=3.1.6",
     "markdown",
     "markdown-include>=0.5",
-    # needs theme update and warning fixes for newer mkdocs version, so locking at 1.4.3 for now:
-    "mkdocs==1.4.3",
+    # deliberately unpinned so docs builds pick up zensical updates
+    "zensical",
 ]

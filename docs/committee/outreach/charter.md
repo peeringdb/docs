@@ -1,6 +1,6 @@
 ## PeeringDB Outreach Committee Charter
 
-*** Approved by Board July 9th, 2020 ***
+***Approved by Board July 9th, 2020***
 
 #### Scope
 The PeeringDB Outreach Committee (OC) is charged with the marketing efforts and running the organization's external engagement to continuously improve the value that PeeringDB delivers to the organizations registered with PeeringDB, and the broader community.

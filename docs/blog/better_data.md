@@ -1,19 +1,22 @@
+---
+date: 2024-01-19
+---
 # Better Data
 *January 19, 2024*
 
-PeeringDB users told us in surveys that data quality and search results are their two top priorities. Release 2.54.0 has multiple changes to improve data quality and search results. 
+PeeringDB users told us in surveys that data quality and search results are their two top priorities. Release 2.54.0 has multiple changes to improve data quality and search results.
 
 ## Report inaccurate data
 
 One of them is a feature allowing logged in users to report data they believe to be inaccurate. Every page now has a button that lets users report data they believe is inaccurate. The report form lets the user identify the specific element believe to be wrong, along with a reason. If the user knows, they can suggest what the correct data should be.
 
-The Admin Committee will review reports. 
+The Admin Committee will review reports.
 
 ![Report bad data modal](images/Report_bad_data.png)
 
 ## Network types
 
-Many networks provide more than one kind of function. You can now select more than one type for each network you run. 
+Many networks provide more than one kind of function. You can now select more than one type for each network you run.
 
 ![Network type multiselect](images/Network_type_multiselect.png)
 
@@ -29,6 +32,6 @@ If you offer a different non-standard power option, please let us know.
 
 If you have an idea to improve PeeringDB you can share it on our low traffic [mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly on [GitHub](https://github.com/peeringdb/peeringdb/issues). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.

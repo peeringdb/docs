@@ -1,7 +1,10 @@
+---
+date: 2023-05-23
+---
 # New Permission: Manage Peering Sessions
 *May 23, 2023*
 
-Last November, [Maximilian Wilhelm suggested](https://github.com/peeringdb/peeringdb/issues/1290) that we add a 'manage peering sessions' permission. 
+Last November, [Maximilian Wilhelm suggested](https://github.com/peeringdb/peeringdb/issues/1290) that we add a 'manage peering sessions' permission.
 
 ![Traffic lights](images/LED_Traffic_Light.jpg)
 
@@ -20,7 +23,6 @@ Take a look at these new permissions if you use PeeringDB OAuth to manage peerin
 
 If you have an idea to improve PeeringDB you can share it on our [low traffic mailing lists](https://docs.peeringdb.com/#mailing-lists) or create an issue directly [on GitHub](https://github.com/peeringdb/peeringdb). If you find a data quality issue, please let us know at [support@peeringdb.com](mailto:support@peeringdb.com).
 
---- 
+---
 
 PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions.
-

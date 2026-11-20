@@ -2,12 +2,12 @@
 
 This glossary focuses on terms that are specific to PeeringDB. Other organizations provide glossaries of a wide range of Internet infrastructure terminology. These include:
 
-- [APNIC](https://www.apnic.net/about-apnic/a-z-glossary/) 
+- [APNIC](https://www.apnic.net/about-apnic/a-z-glossary/)
 - [Euro-IX](https://www.euro-ix.net/en/services/glossary/)  
 - [ICANN](https://www.icann.org/resources/en/glossary)
 - [RIPE NCC](https://www.ripe.net/manage-ips-and-asns/db/support/documentation/glossary)
 
-The first set of definitions describes object types and the second set defines the different kinds of contacts. 
+The first set of definitions describes object types and the second set defines the different kinds of contacts.
 
 ## PeeringDB specific terms
 

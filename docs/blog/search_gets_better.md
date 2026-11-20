@@ -1,3 +1,6 @@
+---
+date: 2023-05-17
+---
 # Search Gets Better
 *May 17, 2023*
 
@@ -9,7 +12,7 @@ We've previously written about using automation to improve data quality. We're n
 
 You can use natural language words, like "near" and "in", when you query PeeringDB. That means you're not forced to use the radius feature in Advanced Search.
 
-Martin Levy gave a use case when he opened [issue #479](https://github.com/peeringdb/peeringdb/issues/479). The radius search improved things. This is a further improvement. In any of the countries where we’ve normalized address data, you can search using a state name or its abbreviation. 
+Martin Levy gave a use case when he opened [issue #479](https://github.com/peeringdb/peeringdb/issues/479). The radius search improved things. This is a further improvement. In any of the countries where we’ve normalized address data, you can search using a state name or its abbreviation.
 
 ![Search for facility in Queensland, Australia](images/beta_search_fac_in_qld.png)
 
