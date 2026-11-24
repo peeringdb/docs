@@ -5,6 +5,7 @@ PeeringDB blogs provide deeper insight into the releases and product roadmap.
 Subscribe to new posts with the [RSS feed](https://docs.peeringdb.com/feed.xml).
 
 ## 2026
+- [Daily Dumps](blog/daily_dumps.md) - 24 November 2026
 - [What Networks Need to Check and Update](blog/check_and_update.md) - 12 October, 2026
 - [PeeringDB Update April – September 2026](blog/april_sep_2026_product_update.md) - 21 September, 2026
 - [A New API](blog/a_new_api.md) - 21 September, 2026
