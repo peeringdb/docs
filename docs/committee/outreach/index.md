@@ -83,9 +83,12 @@
 - Obinna Adumike
 - Fiona Atkinson
 - Lynsey Buckingham
-- Yolandi Cloete
+- Yolandi Cloete - Vice Chair
 - Tarryn Kidd
-- Livio Morina
 - Arnold Nipper
 - Ben Ryall - Chair
 - Leo Vegoda - Product Manager
+
+## Board Liaison
+
+- Livio Morina

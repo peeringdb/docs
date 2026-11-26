@@ -171,3 +171,7 @@
 - Arnold Nipper
 - Terry Sweetser
 - Leo Vegoda - Product Manager
+
+## Board Liaison
+
+- Alexandre Corso
