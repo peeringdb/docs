@@ -8,7 +8,7 @@ We make PeeringDB available through [an API](https://www.peeringdb.com/apidocs/)
 
 We publish daily dumps files for those people. You can download all the publicly available data in JSON files. There’s one file for each object type.
 
-This is ideal for anyone doing research or analysis across large parts of the dataset. For instance, an academic researching exchanges might want to download the JSON file of all exchanges every day. 
+This is ideal for anyone doing research or analysis across large parts of the dataset. For instance, an academic researching exchanges might want to download the JSON file of all exchanges every day.
 
 These files are what `peeringdb-py` uses to bootstrap itself. We’ve published the URLs in our [HOWTO document on mirroring PeeringDB](https://docs.peeringdb.com/howto/mirror/).
 

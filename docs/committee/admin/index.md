@@ -34,3 +34,7 @@
 - Crisóstomo Mbundu
 - Julimar Lunguinho Mendes
 - Laura Yepes
+
+## Board Liaison
+
+- Isabel Odida
